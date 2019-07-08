@@ -1,0 +1,213 @@
+# English (United Kingdom) translation for libidn2
+# Copyright (c) 2018 Rosetta Contributors and Canonical Ltd 2018
+# This file is distributed under the same license as the libidn2 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libidn2\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2018-05-18 09:59+0200\n"
+"PO-Revision-Date: 2018-09-07 11:13+0000\n"
+"Last-Translator: Andi Chandler <Unknown>\n"
+"Language-Team: English (United Kingdom) <en_GB@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-05-11 13:36+0000\n"
+"X-Generator: Launchpad (build 18962)\n"
+
+#: lib/error.c:56
+msgid "success"
+msgstr "success"
+
+#: lib/error.c:60
+msgid "out of memory"
+msgstr "out of memory"
+
+#: lib/error.c:64
+msgid "could not determine locale encoding format"
+msgstr "could not determine locale encoding format"
+
+#: lib/error.c:68
+msgid "could not convert string to UTF-8"
+msgstr "could not convert string to UTF-8"
+
+#: lib/error.c:72
+msgid "string encoding error"
+msgstr "string encoding error"
+
+#: lib/error.c:76
+msgid "string could not be NFC normalized"
+msgstr "string could not be NFC normalised"
+
+#: lib/error.c:80
+msgid "string contains invalid punycode data"
+msgstr "string contains invalid punycode data"
+
+#: lib/error.c:84
+msgid "punycode encoded data will be too large"
+msgstr "punycode encoded data will be too large"
+
+#: lib/error.c:88
+msgid "punycode conversion resulted in overflow"
+msgstr "punycode conversion resulted in overflow"
+
+#: lib/error.c:92
+msgid "domain name longer than 255 characters"
+msgstr "domain name longer than 255 characters"
+
+#: lib/error.c:96
+msgid "domain label longer than 63 characters"
+msgstr "domain label longer than 63 characters"
+
+#: lib/error.c:100
+msgid "input A-label is not valid"
+msgstr "input A-label is not valid"
+
+#: lib/error.c:104
+msgid "input A-label and U-label does not match"
+msgstr "input A-label and U-label does not match"
+
+#: lib/error.c:108
+msgid "string is not in Unicode NFC format"
+msgstr "string is not in Unicode NFC format"
+
+#: lib/error.c:112
+msgid "string contains forbidden two hyphens pattern"
+msgstr "string contains forbidden two hyphens pattern"
+
+#: lib/error.c:116
+msgid "string start/ends with forbidden hyphen"
+msgstr "string start/ends with forbidden hyphen"
+
+#: lib/error.c:120
+msgid "string contains a forbidden leading combining character"
+msgstr "string contains a forbidden leading combining character"
+
+#: lib/error.c:124
+msgid "string contains a disallowed character"
+msgstr "string contains a disallowed character"
+
+#: lib/error.c:128
+msgid "string contains a forbidden context-j character"
+msgstr "string contains a forbidden context-j character"
+
+#: lib/error.c:132
+msgid "string contains a context-j character with null rule"
+msgstr "string contains a context-j character with null rule"
+
+#: lib/error.c:136
+msgid "string contains a forbidden context-o character"
+msgstr "string contains a forbidden context-o character"
+
+#: lib/error.c:140
+msgid "string contains a context-o character with null rule"
+msgstr "string contains a context-o character with null rule"
+
+#: lib/error.c:144
+msgid "string contains unassigned code point"
+msgstr "string contains unassigned code point"
+
+#: lib/error.c:148
+msgid "string has forbidden bi-directional properties"
+msgstr "string has forbidden bi-directional properties"
+
+#: lib/error.c:152
+msgid "Unknown error"
+msgstr "Unknown error"
+
+#: src/idn2.c:59
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Try `%s --help' for more information.\n"
+
+#: src/idn2.c:63
+#, c-format
+msgid "Usage: %s [OPTION]... [STRINGS]...\n"
+msgstr "Usage: %s [OPTION]... [STRINGS]...\n"
+
+#: src/idn2.c:66
+msgid ""
+"Internationalized Domain Name (IDNA2008) convert STRINGS, or standard "
+"input.\n"
+"\n"
+msgstr ""
+"Internationalised Domain Name (IDNA2008) convert STRINGS, or standard "
+"input.\n"
+"\n"
+
+#: src/idn2.c:70
+msgid ""
+"Command line interface to the Libidn2 implementation of IDNA2008.\n"
+"\n"
+"All strings are expected to be encoded in the locale charset.\n"
+"\n"
+"To process a string that starts with `-', for example `-foo', use `--'\n"
+"to signal the end of parameters, as in `idn2 --quiet -- -foo'.\n"
+"\n"
+"Mandatory arguments to long options are mandatory for short options too.\n"
+msgstr ""
+"Command line interface to the Libidn2 implementation of IDNA2008.\n"
+"\n"
+"All strings are expected to be encoded in the locale charset.\n"
+"\n"
+"To process a string that starts with `-', for example `-foo', use `--'\n"
+"to signal the end of parameters, as in `idn2 --quiet -- -foo'.\n"
+"\n"
+"Mandatory arguments to long options are mandatory for short options too.\n"
+
+#: src/idn2.c:80
+msgid ""
+"  -h, --help               Print help and exit\n"
+"  -V, --version            Print version and exit\n"
+msgstr ""
+"  -h, --help               Print help and exit\n"
+"  -V, --version            Print version and exit\n"
+
+#: src/idn2.c:84
+msgid ""
+"  -d, --decode             Decode (punycode) domain name\n"
+"  -l, --lookup             Lookup domain name (default)\n"
+"  -r, --register           Register label\n"
+msgstr ""
+"  -d, --decode             Decode (punycode) domain name\n"
+"  -l, --lookup             Lookup domain name (default)\n"
+"  -r, --register           Register label\n"
+
+#: src/idn2.c:89
+msgid ""
+"  -T, --tr46t              Enable TR46 transitional processing\n"
+"  -N, --tr46nt             Enable TR46 non-transitional processing\n"
+"      --no-tr46            Disable TR46 processing\n"
+msgstr ""
+"  -T, --tr46t              Enable TR46 transitional processing\n"
+"  -N, --tr46nt             Enable TR46 non-transitional processing\n"
+"      --no-tr46            Disable TR46 processing\n"
+
+#: src/idn2.c:94
+msgid ""
+"      --usestd3asciirules  Enable STD3 ASCII rules\n"
+"      --debug              Print debugging information\n"
+"      --quiet              Silent operation\n"
+msgstr ""
+"      --usestd3asciirules  Enable STD3 ASCII rules\n"
+"      --debug              Print debugging information\n"
+"      --quiet              Silent operation\n"
+
+#: src/idn2.c:216
+#, c-format
+msgid "Charset: %s\n"
+msgstr "Charset: %s\n"
+
+#: src/idn2.c:220
+msgid ""
+"Type each input string on a line by itself, terminated by a newline "
+"character.\n"
+msgstr ""
+"Type each input string on a line by itself, terminated by a newline "
+"character.\n"
+
+#: src/idn2.c:248
+msgid "input error"
+msgstr "input error"

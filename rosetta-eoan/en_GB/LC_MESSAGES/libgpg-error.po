@@ -1,0 +1,1810 @@
+# English (United Kingdom) translation for libgpg-error
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the libgpg-error package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgpg-error\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-03-19 09:58+0100\n"
+"PO-Revision-Date: 2018-09-15 18:00+0000\n"
+"Last-Translator: Stephan Woidowski <swoidowski@t-online.de>\n"
+"Language-Team: English (United Kingdom) <en_GB@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-05-11 11:22+0000\n"
+"X-Generator: Launchpad (build 18962)\n"
+
+#: src/err-sources.h:28
+msgid "Unspecified source"
+msgstr "Unspecified source"
+
+#: src/err-sources.h:29
+msgid "gcrypt"
+msgstr "gcrypt"
+
+#: src/err-sources.h:30
+msgid "GnuPG"
+msgstr "GnuPG"
+
+#: src/err-sources.h:31
+msgid "GpgSM"
+msgstr "GpgSM"
+
+#: src/err-sources.h:32
+msgid "GPG Agent"
+msgstr "GPG Agent"
+
+#: src/err-sources.h:33
+msgid "Pinentry"
+msgstr "PINentry"
+
+#: src/err-sources.h:34
+msgid "SCD"
+msgstr "SCD"
+
+#: src/err-sources.h:35
+msgid "GPGME"
+msgstr "GPGME"
+
+#: src/err-sources.h:36
+msgid "Keybox"
+msgstr "Keybox"
+
+#: src/err-sources.h:37
+msgid "KSBA"
+msgstr "KSBA"
+
+#: src/err-sources.h:38
+msgid "Dirmngr"
+msgstr "Dirmngr"
+
+#: src/err-sources.h:39
+msgid "GSTI"
+msgstr "GSTI"
+
+#: src/err-sources.h:40
+msgid "GPA"
+msgstr "GPA"
+
+#: src/err-sources.h:41
+msgid "Kleopatra"
+msgstr "Kleopatra"
+
+#: src/err-sources.h:42
+msgid "G13"
+msgstr "G13"
+
+#: src/err-sources.h:43
+msgid "Assuan"
+msgstr "Assuan"
+
+#: src/err-sources.h:44
+msgid "TLS"
+msgstr "TLS"
+
+#: src/err-sources.h:45
+msgid "Any source"
+msgstr "Any source"
+
+#: src/err-sources.h:46
+msgid "User defined source 1"
+msgstr "User defined source 1"
+
+#: src/err-sources.h:47
+msgid "User defined source 2"
+msgstr "User defined source 2"
+
+#: src/err-sources.h:48
+msgid "User defined source 3"
+msgstr "User defined source 3"
+
+#: src/err-sources.h:49
+msgid "User defined source 4"
+msgstr "User defined source 4"
+
+#: src/err-sources.h:50
+msgid "Unknown source"
+msgstr "Unknown source"
+
+#: src/err-codes.h:28
+msgid "Success"
+msgstr "Success"
+
+#: src/err-codes.h:29
+msgid "General error"
+msgstr "General error"
+
+#: src/err-codes.h:30
+msgid "Unknown packet"
+msgstr "Unknown packet"
+
+#: src/err-codes.h:31
+msgid "Unknown version in packet"
+msgstr "Unknown version in packet"
+
+#: src/err-codes.h:32
+msgid "Invalid public key algorithm"
+msgstr "Invalid public key algorithm"
+
+#: src/err-codes.h:33
+msgid "Invalid digest algorithm"
+msgstr "Invalid digest algorithm"
+
+#: src/err-codes.h:34
+msgid "Bad public key"
+msgstr "Bad public key"
+
+#: src/err-codes.h:35
+msgid "Bad secret key"
+msgstr "Bad secret key"
+
+#: src/err-codes.h:36
+msgid "Bad signature"
+msgstr "Bad signature"
+
+#: src/err-codes.h:37
+msgid "No public key"
+msgstr "No public key"
+
+#: src/err-codes.h:38
+msgid "Checksum error"
+msgstr "Checksum error"
+
+#: src/err-codes.h:39
+msgid "Bad passphrase"
+msgstr "Bad passphrase"
+
+#: src/err-codes.h:40
+msgid "Invalid cipher algorithm"
+msgstr "Invalid cypher algorithm"
+
+#: src/err-codes.h:41
+msgid "Cannot open keyring"
+msgstr "Cannot open keyring"
+
+#: src/err-codes.h:42
+msgid "Invalid packet"
+msgstr "Invalid packet"
+
+#: src/err-codes.h:43
+msgid "Invalid armor"
+msgstr "Invalid armour"
+
+#: src/err-codes.h:44
+msgid "No user ID"
+msgstr "No user ID"
+
+#: src/err-codes.h:45
+msgid "No secret key"
+msgstr "No secret key"
+
+#: src/err-codes.h:46
+msgid "Wrong secret key used"
+msgstr "Wrong secret key used"
+
+#: src/err-codes.h:47
+msgid "Bad session key"
+msgstr "Bad session key"
+
+#: src/err-codes.h:48
+msgid "Unknown compression algorithm"
+msgstr "Unknown compression algorithm"
+
+#: src/err-codes.h:49
+msgid "Number is not prime"
+msgstr "Number is not prime"
+
+#: src/err-codes.h:50
+msgid "Invalid encoding method"
+msgstr "Invalid encoding method"
+
+#: src/err-codes.h:51
+msgid "Invalid encryption scheme"
+msgstr "Invalid encryption scheme"
+
+#: src/err-codes.h:52
+msgid "Invalid signature scheme"
+msgstr "Invalid signature scheme"
+
+#: src/err-codes.h:53
+msgid "Invalid attribute"
+msgstr "Invalid attribute"
+
+#: src/err-codes.h:54
+msgid "No value"
+msgstr "No value"
+
+#: src/err-codes.h:55
+msgid "Not found"
+msgstr "Not found"
+
+#: src/err-codes.h:56
+msgid "Value not found"
+msgstr "Value not found"
+
+#: src/err-codes.h:57
+msgid "Syntax error"
+msgstr "Syntax error"
+
+#: src/err-codes.h:58
+msgid "Bad MPI value"
+msgstr "Bad MPI value"
+
+#: src/err-codes.h:59
+msgid "Invalid passphrase"
+msgstr "Invalid passphrase"
+
+#: src/err-codes.h:60
+msgid "Invalid signature class"
+msgstr "Invalid signature class"
+
+#: src/err-codes.h:61
+msgid "Resources exhausted"
+msgstr "Resources exhausted"
+
+#: src/err-codes.h:62
+msgid "Invalid keyring"
+msgstr "Invalid keyring"
+
+#: src/err-codes.h:63
+msgid "Trust DB error"
+msgstr "Trust DB error"
+
+#: src/err-codes.h:64
+msgid "Bad certificate"
+msgstr "Bad certificate"
+
+#: src/err-codes.h:65
+msgid "Invalid user ID"
+msgstr "Invalid user ID"
+
+#: src/err-codes.h:66
+msgid "Unexpected error"
+msgstr "Unexpected error"
+
+#: src/err-codes.h:67
+msgid "Time conflict"
+msgstr "Time conflict"
+
+#: src/err-codes.h:68
+msgid "Keyserver error"
+msgstr "Keyserver error"
+
+#: src/err-codes.h:69
+msgid "Wrong public key algorithm"
+msgstr "Wrong public key algorithm"
+
+#: src/err-codes.h:70
+msgid "Tribute to D. A."
+msgstr "Tribute to D. A."
+
+#: src/err-codes.h:71
+msgid "Weak encryption key"
+msgstr "Weak encryption key"
+
+#: src/err-codes.h:72
+msgid "Invalid key length"
+msgstr "Invalid key length"
+
+#: src/err-codes.h:73
+msgid "Invalid argument"
+msgstr "Invalid argument"
+
+#: src/err-codes.h:74
+msgid "Syntax error in URI"
+msgstr "Syntax error in URI"
+
+#: src/err-codes.h:75
+msgid "Invalid URI"
+msgstr "Invalid URI"
+
+#: src/err-codes.h:76
+msgid "Network error"
+msgstr "Network error"
+
+#: src/err-codes.h:77
+msgid "Unknown host"
+msgstr "Unknown host"
+
+#: src/err-codes.h:78
+msgid "Selftest failed"
+msgstr "Selftest failed"
+
+#: src/err-codes.h:79
+msgid "Data not encrypted"
+msgstr "Data not encrypted"
+
+#: src/err-codes.h:80
+msgid "Data not processed"
+msgstr "Data not processed"
+
+#: src/err-codes.h:81
+msgid "Unusable public key"
+msgstr "Unusable public key"
+
+#: src/err-codes.h:82
+msgid "Unusable secret key"
+msgstr "Unusable secret key"
+
+#: src/err-codes.h:83
+msgid "Invalid value"
+msgstr "Invalid value"
+
+#: src/err-codes.h:84
+msgid "Bad certificate chain"
+msgstr "Bad certificate chain"
+
+#: src/err-codes.h:85
+msgid "Missing certificate"
+msgstr "Missing certificate"
+
+#: src/err-codes.h:86
+msgid "No data"
+msgstr "No data"
+
+#: src/err-codes.h:87
+msgid "Bug"
+msgstr "Bug"
+
+#: src/err-codes.h:88
+msgid "Not supported"
+msgstr "Not supported"
+
+#: src/err-codes.h:89
+msgid "Invalid operation code"
+msgstr "Invalid operation code"
+
+#: src/err-codes.h:90
+msgid "Timeout"
+msgstr "Timeout"
+
+#: src/err-codes.h:91
+msgid "Internal error"
+msgstr "Internal error"
+
+#: src/err-codes.h:92
+msgid "EOF (gcrypt)"
+msgstr "EOF (gcrypt)"
+
+#: src/err-codes.h:93
+msgid "Invalid object"
+msgstr "Invalid object"
+
+#: src/err-codes.h:94
+msgid "Provided object is too short"
+msgstr "Provided object is too short"
+
+#: src/err-codes.h:95
+msgid "Provided object is too large"
+msgstr "Provided object is too large"
+
+#: src/err-codes.h:96
+msgid "Missing item in object"
+msgstr "Missing item in object"
+
+#: src/err-codes.h:97
+msgid "Not implemented"
+msgstr "Not implemented"
+
+#: src/err-codes.h:98
+msgid "Conflicting use"
+msgstr "Conflicting use"
+
+#: src/err-codes.h:99
+msgid "Invalid cipher mode"
+msgstr "Invalid cypher mode"
+
+#: src/err-codes.h:100
+msgid "Invalid flag"
+msgstr "Invalid flag"
+
+#: src/err-codes.h:101
+msgid "Invalid handle"
+msgstr "Invalid handle"
+
+#: src/err-codes.h:102
+msgid "Result truncated"
+msgstr "Result truncated"
+
+#: src/err-codes.h:103
+msgid "Incomplete line"
+msgstr "Incomplete line"
+
+#: src/err-codes.h:104
+msgid "Invalid response"
+msgstr "Invalid response"
+
+#: src/err-codes.h:105
+msgid "No agent running"
+msgstr "No agent running"
+
+#: src/err-codes.h:106
+msgid "Agent error"
+msgstr "Agent error"
+
+#: src/err-codes.h:107
+msgid "Invalid data"
+msgstr "Invalid data"
+
+#: src/err-codes.h:108
+msgid "Unspecific Assuan server fault"
+msgstr "Unspecific Assuan server fault"
+
+#: src/err-codes.h:109
+msgid "General Assuan error"
+msgstr "General Assuan error"
+
+#: src/err-codes.h:110
+msgid "Invalid session key"
+msgstr "Invalid session key"
+
+#: src/err-codes.h:111
+msgid "Invalid S-expression"
+msgstr "Invalid S-expression"
+
+#: src/err-codes.h:112
+msgid "Unsupported algorithm"
+msgstr "Unsupported algorithm"
+
+#: src/err-codes.h:113
+msgid "No pinentry"
+msgstr "No PINentry"
+
+#: src/err-codes.h:114
+msgid "pinentry error"
+msgstr "PINentry error"
+
+#: src/err-codes.h:115
+msgid "Bad PIN"
+msgstr "Bad PIN"
+
+#: src/err-codes.h:116
+msgid "Invalid name"
+msgstr "Invalid name"
+
+#: src/err-codes.h:117
+msgid "Bad data"
+msgstr "Bad data"
+
+#: src/err-codes.h:118
+msgid "Invalid parameter"
+msgstr "Invalid parameter"
+
+#: src/err-codes.h:119
+msgid "Wrong card"
+msgstr "Wrong card"
+
+#: src/err-codes.h:120
+msgid "No dirmngr"
+msgstr "No dirmngr"
+
+#: src/err-codes.h:121
+msgid "dirmngr error"
+msgstr "dirmngr error"
+
+#: src/err-codes.h:122
+msgid "Certificate revoked"
+msgstr "Certificate revoked"
+
+#: src/err-codes.h:123
+msgid "No CRL known"
+msgstr "No CRL known"
+
+#: src/err-codes.h:124
+msgid "CRL too old"
+msgstr "CRL too old"
+
+#: src/err-codes.h:125
+msgid "Line too long"
+msgstr "Line too long"
+
+#: src/err-codes.h:126
+msgid "Not trusted"
+msgstr "Not trusted"
+
+#: src/err-codes.h:127
+msgid "Operation cancelled"
+msgstr "Operation cancelled"
+
+#: src/err-codes.h:128
+msgid "Bad CA certificate"
+msgstr "Bad CA certificate"
+
+#: src/err-codes.h:129
+msgid "Certificate expired"
+msgstr "Certificate expired"
+
+#: src/err-codes.h:130
+msgid "Certificate too young"
+msgstr "Certificate too young"
+
+#: src/err-codes.h:131
+msgid "Unsupported certificate"
+msgstr "Unsupported certificate"
+
+#: src/err-codes.h:132
+msgid "Unknown S-expression"
+msgstr "Unknown S-expression"
+
+#: src/err-codes.h:133
+msgid "Unsupported protection"
+msgstr "Unsupported protection"
+
+#: src/err-codes.h:134
+msgid "Corrupted protection"
+msgstr "Corrupted protection"
+
+#: src/err-codes.h:135
+msgid "Ambiguous name"
+msgstr "Ambiguous name"
+
+#: src/err-codes.h:136
+msgid "Card error"
+msgstr "Card error"
+
+#: src/err-codes.h:137
+msgid "Card reset required"
+msgstr "Card reset required"
+
+#: src/err-codes.h:138
+msgid "Card removed"
+msgstr "Card removed"
+
+#: src/err-codes.h:139
+msgid "Invalid card"
+msgstr "Invalid card"
+
+#: src/err-codes.h:140
+msgid "Card not present"
+msgstr "Card not present"
+
+#: src/err-codes.h:141
+msgid "No PKCS15 application"
+msgstr "No PKCS15 application"
+
+#: src/err-codes.h:142
+msgid "Not confirmed"
+msgstr "Not confirmed"
+
+#: src/err-codes.h:143
+msgid "Configuration error"
+msgstr "Configuration error"
+
+#: src/err-codes.h:144
+msgid "No policy match"
+msgstr "No policy match"
+
+#: src/err-codes.h:145
+msgid "Invalid index"
+msgstr "Invalid index"
+
+#: src/err-codes.h:146
+msgid "Invalid ID"
+msgstr "Invalid ID"
+
+#: src/err-codes.h:147
+msgid "No SmartCard daemon"
+msgstr "No SmartCard daemon"
+
+#: src/err-codes.h:148
+msgid "SmartCard daemon error"
+msgstr "SmartCard daemon error"
+
+#: src/err-codes.h:149
+msgid "Unsupported protocol"
+msgstr "Unsupported protocol"
+
+#: src/err-codes.h:150
+msgid "Bad PIN method"
+msgstr "Bad PIN method"
+
+#: src/err-codes.h:151
+msgid "Card not initialized"
+msgstr "Card not initialised"
+
+#: src/err-codes.h:152
+msgid "Unsupported operation"
+msgstr "Unsupported operation"
+
+#: src/err-codes.h:153
+msgid "Wrong key usage"
+msgstr "Wrong key usage"
+
+#: src/err-codes.h:154
+msgid "Nothing found"
+msgstr "Nothing found"
+
+#: src/err-codes.h:155
+msgid "Wrong blob type"
+msgstr "Wrong blob type"
+
+#: src/err-codes.h:156
+msgid "Missing value"
+msgstr "Missing value"
+
+#: src/err-codes.h:157
+msgid "Hardware problem"
+msgstr "Hardware problem"
+
+#: src/err-codes.h:158
+msgid "PIN blocked"
+msgstr "PIN blocked"
+
+#: src/err-codes.h:159
+msgid "Conditions of use not satisfied"
+msgstr "Conditions of use not satisfied"
+
+#: src/err-codes.h:160
+msgid "PINs are not synced"
+msgstr "PINs are not synced"
+
+#: src/err-codes.h:161
+msgid "Invalid CRL"
+msgstr "Invalid CRL"
+
+#: src/err-codes.h:162
+msgid "BER error"
+msgstr "BER error"
+
+#: src/err-codes.h:163
+msgid "Invalid BER"
+msgstr "Invalid BER"
+
+#: src/err-codes.h:164
+msgid "Element not found"
+msgstr "Element not found"
+
+#: src/err-codes.h:165
+msgid "Identifier not found"
+msgstr "Identifier not found"
+
+#: src/err-codes.h:166
+msgid "Invalid tag"
+msgstr "Invalid tag"
+
+#: src/err-codes.h:167
+msgid "Invalid length"
+msgstr "Invalid length"
+
+#: src/err-codes.h:168
+msgid "Invalid key info"
+msgstr "Invalid key info"
+
+#: src/err-codes.h:169
+msgid "Unexpected tag"
+msgstr "Unexpected tag"
+
+#: src/err-codes.h:170
+msgid "Not DER encoded"
+msgstr "Not DER encoded"
+
+#: src/err-codes.h:171
+msgid "No CMS object"
+msgstr "No CMS object"
+
+#: src/err-codes.h:172
+msgid "Invalid CMS object"
+msgstr "Invalid CMS object"
+
+#: src/err-codes.h:173
+msgid "Unknown CMS object"
+msgstr "Unknown CMS object"
+
+#: src/err-codes.h:174
+msgid "Unsupported CMS object"
+msgstr "Unsupported CMS object"
+
+#: src/err-codes.h:175
+msgid "Unsupported encoding"
+msgstr "Unsupported encoding"
+
+#: src/err-codes.h:176
+msgid "Unsupported CMS version"
+msgstr "Unsupported CMS version"
+
+#: src/err-codes.h:177
+msgid "Unknown algorithm"
+msgstr "Unknown algorithm"
+
+#: src/err-codes.h:178
+msgid "Invalid crypto engine"
+msgstr "Invalid crypto engine"
+
+#: src/err-codes.h:179
+msgid "Public key not trusted"
+msgstr "Public key not trusted"
+
+#: src/err-codes.h:180
+msgid "Decryption failed"
+msgstr "Decryption failed"
+
+#: src/err-codes.h:181
+msgid "Key expired"
+msgstr "Key expired"
+
+#: src/err-codes.h:182
+msgid "Signature expired"
+msgstr "Signature expired"
+
+#: src/err-codes.h:183
+msgid "Encoding problem"
+msgstr "Encoding problem"
+
+#: src/err-codes.h:184
+msgid "Invalid state"
+msgstr "Invalid state"
+
+#: src/err-codes.h:185
+msgid "Duplicated value"
+msgstr "Duplicated value"
+
+#: src/err-codes.h:186
+msgid "Missing action"
+msgstr "Missing action"
+
+#: src/err-codes.h:187
+msgid "ASN.1 module not found"
+msgstr "ASN.1 module not found"
+
+#: src/err-codes.h:188
+msgid "Invalid OID string"
+msgstr "Invalid OID string"
+
+#: src/err-codes.h:189
+msgid "Invalid time"
+msgstr "Invalid time"
+
+#: src/err-codes.h:190
+msgid "Invalid CRL object"
+msgstr "Invalid CRL object"
+
+#: src/err-codes.h:191
+msgid "Unsupported CRL version"
+msgstr "Unsupported CRL version"
+
+#: src/err-codes.h:192
+msgid "Invalid certificate object"
+msgstr "Invalid certificate object"
+
+#: src/err-codes.h:193
+msgid "Unknown name"
+msgstr "Unknown name"
+
+#: src/err-codes.h:194
+msgid "A locale function failed"
+msgstr "A locale function failed"
+
+#: src/err-codes.h:195
+msgid "Not locked"
+msgstr "Not locked"
+
+#: src/err-codes.h:196
+msgid "Protocol violation"
+msgstr "Protocol violation"
+
+#: src/err-codes.h:197
+msgid "Invalid MAC"
+msgstr "Invalid MAC"
+
+#: src/err-codes.h:198
+msgid "Invalid request"
+msgstr "Invalid request"
+
+#: src/err-codes.h:199
+msgid "Unknown extension"
+msgstr "Unknown extension"
+
+#: src/err-codes.h:200
+msgid "Unknown critical extension"
+msgstr "Unknown critical extension"
+
+#: src/err-codes.h:201
+msgid "Locked"
+msgstr "Locked"
+
+#: src/err-codes.h:202
+msgid "Unknown option"
+msgstr "Unknown option"
+
+#: src/err-codes.h:203
+msgid "Unknown command"
+msgstr "Unknown command"
+
+#: src/err-codes.h:204
+msgid "Not operational"
+msgstr "Not operational"
+
+#: src/err-codes.h:205
+msgid "No passphrase given"
+msgstr "No passphrase given"
+
+#: src/err-codes.h:206
+msgid "No PIN given"
+msgstr "No PIN given"
+
+#: src/err-codes.h:207
+msgid "Not enabled"
+msgstr "Not enabled"
+
+#: src/err-codes.h:208
+msgid "No crypto engine"
+msgstr "No crypto engine"
+
+#: src/err-codes.h:209
+msgid "Missing key"
+msgstr "Missing key"
+
+#: src/err-codes.h:210
+msgid "Too many objects"
+msgstr "Too many objects"
+
+#: src/err-codes.h:211
+msgid "Limit reached"
+msgstr "Limit reached"
+
+#: src/err-codes.h:212
+msgid "Not initialized"
+msgstr "Not initialised"
+
+#: src/err-codes.h:213
+msgid "Missing issuer certificate"
+msgstr "Missing issuer certificate"
+
+#: src/err-codes.h:214
+msgid "No keyserver available"
+msgstr "No keyserver available"
+
+#: src/err-codes.h:215
+msgid "Invalid elliptic curve"
+msgstr "Invalid elliptic curve"
+
+#: src/err-codes.h:216
+msgid "Unknown elliptic curve"
+msgstr "Unknown elliptic curve"
+
+#: src/err-codes.h:217
+msgid "Duplicated key"
+msgstr "Duplicated key"
+
+#: src/err-codes.h:218
+msgid "Ambiguous result"
+msgstr "Ambiguous result"
+
+#: src/err-codes.h:219
+msgid "No crypto context"
+msgstr "No crypto context"
+
+#: src/err-codes.h:220
+msgid "Wrong crypto context"
+msgstr "Wrong crypto context"
+
+#: src/err-codes.h:221
+msgid "Bad crypto context"
+msgstr "Bad crypto context"
+
+#: src/err-codes.h:222
+msgid "Conflict in the crypto context"
+msgstr "Conflict in the crypto context"
+
+#: src/err-codes.h:223
+msgid "Broken public key"
+msgstr "Broken public key"
+
+#: src/err-codes.h:224
+msgid "Broken secret key"
+msgstr "Broken secret key"
+
+#: src/err-codes.h:225
+msgid "Invalid MAC algorithm"
+msgstr "Invalid MAC algorithm"
+
+#: src/err-codes.h:226
+msgid "Operation fully cancelled"
+msgstr "Operation fully cancelled"
+
+#: src/err-codes.h:227
+msgid "Operation not yet finished"
+msgstr "Operation not yet finished"
+
+#: src/err-codes.h:228
+msgid "Buffer too short"
+msgstr "Buffer too short"
+
+#: src/err-codes.h:229
+msgid "Invalid length specifier in S-expression"
+msgstr "Invalid length specifier in S-expression"
+
+#: src/err-codes.h:230
+msgid "String too long in S-expression"
+msgstr "String too long in S-expression"
+
+#: src/err-codes.h:231
+msgid "Unmatched parentheses in S-expression"
+msgstr "Unmatched brackets in S-expression"
+
+#: src/err-codes.h:232
+msgid "S-expression not canonical"
+msgstr "S-expression not canonical"
+
+#: src/err-codes.h:233
+msgid "Bad character in S-expression"
+msgstr "Bad character in S-expression"
+
+#: src/err-codes.h:234
+msgid "Bad quotation in S-expression"
+msgstr "Bad quotation in S-expression"
+
+#: src/err-codes.h:235
+msgid "Zero prefix in S-expression"
+msgstr "Zero prefix in S-expression"
+
+#: src/err-codes.h:236
+msgid "Nested display hints in S-expression"
+msgstr "Nested display hints in S-expression"
+
+#: src/err-codes.h:237
+msgid "Unmatched display hints"
+msgstr "Unmatched display hints"
+
+#: src/err-codes.h:238
+msgid "Unexpected reserved punctuation in S-expression"
+msgstr "Unexpected reserved punctuation in S-expression"
+
+#: src/err-codes.h:239
+msgid "Bad hexadecimal character in S-expression"
+msgstr "Bad hexadecimal character in S-expression"
+
+#: src/err-codes.h:240
+msgid "Odd hexadecimal numbers in S-expression"
+msgstr "Odd hexadecimal numbers in S-expression"
+
+#: src/err-codes.h:241
+msgid "Bad octal character in S-expression"
+msgstr "Bad octal character in S-expression"
+
+#: src/err-codes.h:242
+msgid "All subkeys are expired or revoked"
+msgstr "All subkeys are expired or revoked"
+
+#: src/err-codes.h:243
+msgid "Database is corrupted"
+msgstr "Database is corrupted"
+
+#: src/err-codes.h:244
+msgid "Server indicated a failure"
+msgstr "Server indicated a failure"
+
+#: src/err-codes.h:245
+msgid "No name"
+msgstr "No name"
+
+#: src/err-codes.h:246
+msgid "No key"
+msgstr "No key"
+
+#: src/err-codes.h:247
+msgid "Legacy key"
+msgstr "Legacy key"
+
+#: src/err-codes.h:248
+msgid "Request too short"
+msgstr "Request too short"
+
+#: src/err-codes.h:249
+msgid "Request too long"
+msgstr "Request too long"
+
+#: src/err-codes.h:250
+msgid "Object is in termination state"
+msgstr "Object is in termination state"
+
+#: src/err-codes.h:251
+msgid "No certificate chain"
+msgstr "No certificate chain"
+
+#: src/err-codes.h:252
+msgid "Certificate is too large"
+msgstr "Certificate is too large"
+
+#: src/err-codes.h:253
+msgid "Invalid record"
+msgstr "Invalid record"
+
+#: src/err-codes.h:254
+msgid "The MAC does not verify"
+msgstr "The MAC does not verify"
+
+#: src/err-codes.h:255
+msgid "Unexpected message"
+msgstr "Unexpected message"
+
+#: src/err-codes.h:256
+msgid "Compression or decompression failed"
+msgstr "Compression or decompression failed"
+
+#: src/err-codes.h:257
+msgid "A counter would wrap"
+msgstr "A counter would wrap"
+
+#: src/err-codes.h:258
+msgid "Fatal alert message received"
+msgstr "Fatal alert message received"
+
+#: src/err-codes.h:259
+msgid "No cipher algorithm"
+msgstr "No cipher algorithm"
+
+#: src/err-codes.h:260
+msgid "Missing client certificate"
+msgstr "Missing client certificate"
+
+#: src/err-codes.h:261
+msgid "Close notification received"
+msgstr "Close notification received"
+
+#: src/err-codes.h:262
+msgid "Ticket expired"
+msgstr "Ticket expired"
+
+#: src/err-codes.h:263
+msgid "Bad ticket"
+msgstr "Bad ticket"
+
+#: src/err-codes.h:264
+msgid "Unknown identity"
+msgstr "Unknown identity"
+
+#: src/err-codes.h:265
+msgid "Bad certificate message in handshake"
+msgstr "Bad certificate message in handshake"
+
+#: src/err-codes.h:266
+msgid "Bad certificate request message in handshake"
+msgstr "Bad certificate request message in handshake"
+
+#: src/err-codes.h:267
+msgid "Bad certificate verify message in handshake"
+msgstr "Bad certificate verify message in handshake"
+
+#: src/err-codes.h:268
+msgid "Bad change cipher message in handshake"
+msgstr "Bad change cipher message in handshake"
+
+#: src/err-codes.h:269
+msgid "Bad client hello message in handshake"
+msgstr "Bad client hello message in handshake"
+
+#: src/err-codes.h:270
+msgid "Bad server hello message in handshake"
+msgstr "Bad server hello message in handshake"
+
+#: src/err-codes.h:271
+msgid "Bad server hello done message in handshake"
+msgstr "Bad \"Server hello done\" message in handshake"
+
+#: src/err-codes.h:272
+msgid "Bad finished message in handshake"
+msgstr "Bad finished message in handshake"
+
+#: src/err-codes.h:273
+msgid "Bad server key exchange message in handshake"
+msgstr "Bad server key exchange message in handshake"
+
+#: src/err-codes.h:274
+msgid "Bad client key exchange message in handshake"
+msgstr "Bad client key exchange message in handshake"
+
+#: src/err-codes.h:275
+msgid "Bogus string"
+msgstr "Bogus string"
+
+#: src/err-codes.h:276
+msgid "Forbidden"
+msgstr "Forbidden"
+
+#: src/err-codes.h:277
+msgid "Key disabled"
+msgstr "Key disabled"
+
+#: src/err-codes.h:278
+msgid "Not possible with a card based key"
+msgstr "Not possible with a card based key"
+
+#: src/err-codes.h:279
+msgid "Invalid lock object"
+msgstr "Invalid lock object"
+
+#: src/err-codes.h:280
+msgid "True"
+msgstr "True"
+
+#: src/err-codes.h:281
+msgid "False"
+msgstr "False"
+
+#: src/err-codes.h:282
+msgid "General IPC error"
+msgstr "General IPC error"
+
+#: src/err-codes.h:283
+msgid "IPC accept call failed"
+msgstr "IPC accept call failed"
+
+#: src/err-codes.h:284
+msgid "IPC connect call failed"
+msgstr "IPC connect call failed"
+
+#: src/err-codes.h:285
+msgid "Invalid IPC response"
+msgstr "Invalid IPC response"
+
+#: src/err-codes.h:286
+msgid "Invalid value passed to IPC"
+msgstr "Invalid value passed to IPC"
+
+#: src/err-codes.h:287
+msgid "Incomplete line passed to IPC"
+msgstr "Incomplete line passed to IPC"
+
+#: src/err-codes.h:288
+msgid "Line passed to IPC too long"
+msgstr "Line passed to IPC too long"
+
+#: src/err-codes.h:289
+msgid "Nested IPC commands"
+msgstr "Nested IPC commands"
+
+#: src/err-codes.h:290
+msgid "No data callback in IPC"
+msgstr "No data callback in IPC"
+
+#: src/err-codes.h:291
+msgid "No inquire callback in IPC"
+msgstr "No inquire callback in IPC"
+
+#: src/err-codes.h:292
+msgid "Not an IPC server"
+msgstr "Not an IPC server"
+
+#: src/err-codes.h:293
+msgid "Not an IPC client"
+msgstr "Not an IPC client"
+
+#: src/err-codes.h:294
+msgid "Problem starting IPC server"
+msgstr "Problem starting IPC server"
+
+#: src/err-codes.h:295
+msgid "IPC read error"
+msgstr "IPC read error"
+
+#: src/err-codes.h:296
+msgid "IPC write error"
+msgstr "IPC write error"
+
+#: src/err-codes.h:297
+msgid "Too much data for IPC layer"
+msgstr "Too much data for IPC layer"
+
+#: src/err-codes.h:298
+msgid "Unexpected IPC command"
+msgstr "Unexpected IPC command"
+
+#: src/err-codes.h:299
+msgid "Unknown IPC command"
+msgstr "Unknown IPC command"
+
+#: src/err-codes.h:300
+msgid "IPC syntax error"
+msgstr "IPC syntax error"
+
+#: src/err-codes.h:301
+msgid "IPC call has been cancelled"
+msgstr "IPC call has been cancelled"
+
+#: src/err-codes.h:302
+msgid "No input source for IPC"
+msgstr "No input source for IPC"
+
+#: src/err-codes.h:303
+msgid "No output source for IPC"
+msgstr "No output source for IPC"
+
+#: src/err-codes.h:304
+msgid "IPC parameter error"
+msgstr "IPC parameter error"
+
+#: src/err-codes.h:305
+msgid "Unknown IPC inquire"
+msgstr "Unknown IPC inquire"
+
+#: src/err-codes.h:306
+msgid "Crypto engine too old"
+msgstr "Crypto engine too old"
+
+#: src/err-codes.h:307
+msgid "Screen or window too small"
+msgstr "Screen or window too small"
+
+#: src/err-codes.h:308
+msgid "Screen or window too large"
+msgstr "Screen or window too large"
+
+#: src/err-codes.h:309
+msgid "Required environment variable not set"
+msgstr "Required environment variable not set"
+
+#: src/err-codes.h:310
+msgid "User ID already exists"
+msgstr "User ID already exists"
+
+#: src/err-codes.h:311
+msgid "Name already exists"
+msgstr "Name already exists"
+
+#: src/err-codes.h:312
+msgid "Duplicated name"
+msgstr "Duplicated name"
+
+#: src/err-codes.h:313
+msgid "Object is too young"
+msgstr "Object is too young"
+
+#: src/err-codes.h:314
+msgid "Object is too old"
+msgstr "Object is too old"
+
+#: src/err-codes.h:315
+msgid "Unknown flag"
+msgstr "Unknown flag"
+
+#: src/err-codes.h:316
+msgid "Invalid execution order"
+msgstr "Invalid execution order"
+
+#: src/err-codes.h:317
+msgid "Already fetched"
+msgstr "Already fetched"
+
+#: src/err-codes.h:318
+msgid "Try again later"
+msgstr "Try again later"
+
+#: src/err-codes.h:319
+msgid "Wrong name"
+msgstr "Wrong name"
+
+#: src/err-codes.h:320
+msgid "Not authenticated"
+msgstr ""
+
+#: src/err-codes.h:321
+msgid "Bad authentication"
+msgstr ""
+
+#: src/err-codes.h:322
+msgid "System bug detected"
+msgstr "System bug detected"
+
+#: src/err-codes.h:323
+msgid "Unknown DNS error"
+msgstr "Unknown DNS error"
+
+#: src/err-codes.h:324
+msgid "Invalid DNS section"
+msgstr "Invalid DNS section"
+
+#: src/err-codes.h:325
+msgid "Invalid textual address form"
+msgstr "Invalid textual address form"
+
+#: src/err-codes.h:326
+msgid "Missing DNS query packet"
+msgstr "Missing DNS query packet"
+
+#: src/err-codes.h:327
+msgid "Missing DNS answer packet"
+msgstr "Missing DNS answer packet"
+
+#: src/err-codes.h:328
+msgid "Connection closed in DNS"
+msgstr "Connection closed in DNS"
+
+#: src/err-codes.h:329
+msgid "Verification failed in DNS"
+msgstr "Verification failed in DNS"
+
+#: src/err-codes.h:330
+msgid "DNS Timeout"
+msgstr "DNS Timeout"
+
+#: src/err-codes.h:331
+msgid "General LDAP error"
+msgstr "General LDAP error"
+
+#: src/err-codes.h:332
+msgid "General LDAP attribute error"
+msgstr "General LDAP attribute error"
+
+#: src/err-codes.h:333
+msgid "General LDAP name error"
+msgstr "General LDAP name error"
+
+#: src/err-codes.h:334
+msgid "General LDAP security error"
+msgstr "General LDAP security error"
+
+#: src/err-codes.h:335
+msgid "General LDAP service error"
+msgstr "General LDAP service error"
+
+#: src/err-codes.h:336
+msgid "General LDAP update error"
+msgstr "General LDAP update error"
+
+#: src/err-codes.h:337
+msgid "Experimental LDAP error code"
+msgstr "Experimental LDAP error code"
+
+#: src/err-codes.h:338
+msgid "Private LDAP error code"
+msgstr "Private LDAP error code"
+
+#: src/err-codes.h:339
+msgid "Other general LDAP error"
+msgstr "Other general LDAP error"
+
+#: src/err-codes.h:340
+msgid "LDAP connecting failed (X)"
+msgstr "LDAP connecting failed (X)"
+
+#: src/err-codes.h:341
+msgid "LDAP referral limit exceeded"
+msgstr "LDAP referral limit exceeded"
+
+#: src/err-codes.h:342
+msgid "LDAP client loop"
+msgstr "LDAP client loop"
+
+#: src/err-codes.h:343
+msgid "No LDAP results returned"
+msgstr "No LDAP results returned"
+
+#: src/err-codes.h:344
+msgid "LDAP control not found"
+msgstr "LDAP control not found"
+
+#: src/err-codes.h:345
+msgid "Not supported by LDAP"
+msgstr "Not supported by LDAP"
+
+#: src/err-codes.h:346
+msgid "LDAP connect error"
+msgstr "LDAP connect error"
+
+#: src/err-codes.h:347
+msgid "Out of memory in LDAP"
+msgstr "Out of memory in LDAP"
+
+#: src/err-codes.h:348
+msgid "Bad parameter to an LDAP routine"
+msgstr "Bad parameter to an LDAP routine"
+
+#: src/err-codes.h:349
+msgid "User cancelled LDAP operation"
+msgstr "User cancelled LDAP operation"
+
+#: src/err-codes.h:350
+msgid "Bad LDAP search filter"
+msgstr "Bad LDAP search filter"
+
+#: src/err-codes.h:351
+msgid "Unknown LDAP authentication method"
+msgstr "Unknown LDAP authentication method"
+
+#: src/err-codes.h:352
+msgid "Timeout in LDAP"
+msgstr "Timeout in LDAP"
+
+#: src/err-codes.h:353
+msgid "LDAP decoding error"
+msgstr "LDAP decoding error"
+
+#: src/err-codes.h:354
+msgid "LDAP encoding error"
+msgstr "LDAP encoding error"
+
+#: src/err-codes.h:355
+msgid "LDAP local error"
+msgstr "LDAP local error"
+
+#: src/err-codes.h:356
+msgid "Cannot contact LDAP server"
+msgstr "Cannot contact LDAP server"
+
+#: src/err-codes.h:357
+msgid "LDAP success"
+msgstr "LDAP success"
+
+#: src/err-codes.h:358
+msgid "LDAP operations error"
+msgstr "LDAP operations error"
+
+#: src/err-codes.h:359
+msgid "LDAP protocol error"
+msgstr "LDAP protocol error"
+
+#: src/err-codes.h:360
+msgid "Time limit exceeded in LDAP"
+msgstr "Time limit exceeded in LDAP"
+
+#: src/err-codes.h:361
+msgid "Size limit exceeded in LDAP"
+msgstr "Size limit exceeded in LDAP"
+
+#: src/err-codes.h:362
+msgid "LDAP compare false"
+msgstr "LDAP compare false"
+
+#: src/err-codes.h:363
+msgid "LDAP compare true"
+msgstr "LDAP compare true"
+
+#: src/err-codes.h:364
+msgid "LDAP authentication method not supported"
+msgstr "LDAP authentication method not supported"
+
+#: src/err-codes.h:365
+msgid "Strong(er) LDAP authentication required"
+msgstr "Strong(er) LDAP authentication required"
+
+#: src/err-codes.h:366
+msgid "Partial LDAP results+referral received"
+msgstr "Partial LDAP results+referral received"
+
+#: src/err-codes.h:367
+msgid "LDAP referral"
+msgstr "LDAP referral"
+
+#: src/err-codes.h:368
+msgid "Administrative LDAP limit exceeded"
+msgstr "Administrative LDAP limit exceeded"
+
+#: src/err-codes.h:369
+msgid "Critical LDAP extension is unavailable"
+msgstr "Critical LDAP extension is unavailable"
+
+#: src/err-codes.h:370
+msgid "Confidentiality required by LDAP"
+msgstr "Confidentiality required by LDAP"
+
+#: src/err-codes.h:371
+msgid "LDAP SASL bind in progress"
+msgstr "LDAP SASL bind in progress"
+
+#: src/err-codes.h:372
+msgid "No such LDAP attribute"
+msgstr "No such LDAP attribute"
+
+#: src/err-codes.h:373
+msgid "Undefined LDAP attribute type"
+msgstr "Undefined LDAP attribute type"
+
+#: src/err-codes.h:374
+msgid "Inappropriate matching in LDAP"
+msgstr "Inappropriate matching in LDAP"
+
+#: src/err-codes.h:375
+msgid "Constraint violation in LDAP"
+msgstr "Constraint violation in LDAP"
+
+#: src/err-codes.h:376
+msgid "LDAP type or value exists"
+msgstr "LDAP type or value exists"
+
+#: src/err-codes.h:377
+msgid "Invalid syntax in LDAP"
+msgstr "Invalid syntax in LDAP"
+
+#: src/err-codes.h:378
+msgid "No such LDAP object"
+msgstr "No such LDAP object"
+
+#: src/err-codes.h:379
+msgid "LDAP alias problem"
+msgstr "LDAP alias problem"
+
+#: src/err-codes.h:380
+msgid "Invalid DN syntax in LDAP"
+msgstr "Invalid DN syntax in LDAP"
+
+#: src/err-codes.h:381
+msgid "LDAP entry is a leaf"
+msgstr "LDAP entry is a leaf"
+
+#: src/err-codes.h:382
+msgid "LDAP alias dereferencing problem"
+msgstr "LDAP alias dereferencing problem"
+
+#: src/err-codes.h:383
+msgid "LDAP proxy authorization failure (X)"
+msgstr "LDAP proxy authorization failure (X)"
+
+#: src/err-codes.h:384
+msgid "Inappropriate LDAP authentication"
+msgstr "Inappropriate LDAP authentication"
+
+#: src/err-codes.h:385
+msgid "Invalid LDAP credentials"
+msgstr "Invalid LDAP credentials"
+
+#: src/err-codes.h:386
+msgid "Insufficient access for LDAP"
+msgstr "Insufficient access for LDAP"
+
+#: src/err-codes.h:387
+msgid "LDAP server is busy"
+msgstr "LDAP server is busy"
+
+#: src/err-codes.h:388
+msgid "LDAP server is unavailable"
+msgstr "LDAP server is unavailable"
+
+#: src/err-codes.h:389
+msgid "LDAP server is unwilling to perform"
+msgstr "LDAP server is unwilling to perform"
+
+#: src/err-codes.h:390
+msgid "Loop detected by LDAP"
+msgstr "Loop detected by LDAP"
+
+#: src/err-codes.h:391
+msgid "LDAP naming violation"
+msgstr "LDAP naming violation"
+
+#: src/err-codes.h:392
+msgid "LDAP object class violation"
+msgstr "LDAP object class violation"
+
+#: src/err-codes.h:393
+msgid "LDAP operation not allowed on non-leaf"
+msgstr "LDAP operation not allowed on non-leaf"
+
+#: src/err-codes.h:394
+msgid "LDAP operation not allowed on RDN"
+msgstr "LDAP operation not allowed on RDN"
+
+#: src/err-codes.h:395
+msgid "Already exists (LDAP)"
+msgstr "Already exists (LDAP)"
+
+#: src/err-codes.h:396
+msgid "Cannot modify LDAP object class"
+msgstr "Cannot modify LDAP object class"
+
+#: src/err-codes.h:397
+msgid "LDAP results too large"
+msgstr "LDAP results too large"
+
+#: src/err-codes.h:398
+msgid "LDAP operation affects multiple DSAs"
+msgstr "LDAP operation affects multiple DSAs"
+
+#: src/err-codes.h:399
+msgid "Virtual LDAP list view error"
+msgstr "Virtual LDAP list view error"
+
+#: src/err-codes.h:400
+msgid "Other LDAP error"
+msgstr "Other LDAP error"
+
+#: src/err-codes.h:401
+msgid "Resources exhausted in LCUP"
+msgstr "Resources exhausted in LCUP"
+
+#: src/err-codes.h:402
+msgid "Security violation in LCUP"
+msgstr "Security violation in LCUP"
+
+#: src/err-codes.h:403
+msgid "Invalid data in LCUP"
+msgstr "Invalid data in LCUP"
+
+#: src/err-codes.h:404
+msgid "Unsupported scheme in LCUP"
+msgstr "Unsupported scheme in LCUP"
+
+#: src/err-codes.h:405
+msgid "Reload required in LCUP"
+msgstr "Reload required in LCUP"
+
+#: src/err-codes.h:406
+msgid "LDAP cancelled"
+msgstr "LDAP cancelled"
+
+#: src/err-codes.h:407
+msgid "No LDAP operation to cancel"
+msgstr "No LDAP operation to cancel"
+
+#: src/err-codes.h:408
+msgid "Too late to cancel LDAP"
+msgstr "Too late to cancel LDAP"
+
+#: src/err-codes.h:409
+msgid "Cannot cancel LDAP"
+msgstr "Cannot cancel LDAP"
+
+#: src/err-codes.h:410
+msgid "LDAP assertion failed"
+msgstr "LDAP assertion failed"
+
+#: src/err-codes.h:411
+msgid "Proxied authorization denied by LDAP"
+msgstr "Proxied authorisation denied by LDAP"
+
+#: src/err-codes.h:412
+msgid "User defined error code 1"
+msgstr "User defined error code 1"
+
+#: src/err-codes.h:413
+msgid "User defined error code 2"
+msgstr "User defined error code 2"
+
+#: src/err-codes.h:414
+msgid "User defined error code 3"
+msgstr "User defined error code 3"
+
+#: src/err-codes.h:415
+msgid "User defined error code 4"
+msgstr "User defined error code 4"
+
+#: src/err-codes.h:416
+msgid "User defined error code 5"
+msgstr "User defined error code 5"
+
+#: src/err-codes.h:417
+msgid "User defined error code 6"
+msgstr "User defined error code 6"
+
+#: src/err-codes.h:418
+msgid "User defined error code 7"
+msgstr "User defined error code 7"
+
+#: src/err-codes.h:419
+msgid "User defined error code 8"
+msgstr "User defined error code 8"
+
+#: src/err-codes.h:420
+msgid "User defined error code 9"
+msgstr "User defined error code 9"
+
+#: src/err-codes.h:421
+msgid "User defined error code 10"
+msgstr "User defined error code 10"
+
+#: src/err-codes.h:422
+msgid "User defined error code 11"
+msgstr "User defined error code 11"
+
+#: src/err-codes.h:423
+msgid "User defined error code 12"
+msgstr "User defined error code 12"
+
+#: src/err-codes.h:424
+msgid "User defined error code 13"
+msgstr "User defined error code 13"
+
+#: src/err-codes.h:425
+msgid "User defined error code 14"
+msgstr "User defined error code 14"
+
+#: src/err-codes.h:426
+msgid "User defined error code 15"
+msgstr "User defined error code 15"
+
+#: src/err-codes.h:427
+msgid "User defined error code 16"
+msgstr "User defined error code 16"
+
+#: src/err-codes.h:428
+msgid "System error w/o errno"
+msgstr "System error w/o errno"
+
+#: src/err-codes.h:429
+msgid "Unknown system error"
+msgstr "Unknown system error"
+
+#: src/err-codes.h:430
+msgid "End of file"
+msgstr "End of file"
+
+#: src/err-codes.h:431
+msgid "Unknown error code"
+msgstr "Unknown error code"
+
+#: src/argparse.c:318
+msgid "argument not expected"
+msgstr "argument not expected"
+
+#: src/argparse.c:320
+msgid "read error"
+msgstr "read error"
+
+#: src/argparse.c:322
+msgid "keyword too long"
+msgstr "keyword too long"
+
+#: src/argparse.c:324
+msgid "missing argument"
+msgstr "missing argument"
+
+#: src/argparse.c:326
+msgid "invalid argument"
+msgstr "invalid argument"
+
+#: src/argparse.c:328
+msgid "invalid command"
+msgstr "invalid command"
+
+#: src/argparse.c:330
+msgid "invalid alias definition"
+msgstr "invalid alias definition"
+
+#: src/argparse.c:332
+msgid "out of core"
+msgstr "out of core"
+
+#: src/argparse.c:334
+msgid "invalid option"
+msgstr "invalid option"
+
+#: src/argparse.c:343
+#, c-format
+msgid "missing argument for option \"%.50s\"\n"
+msgstr "missing argument for option \"%.50s\"\n"
+
+#: src/argparse.c:345
+#, c-format
+msgid "invalid argument for option \"%.50s\"\n"
+msgstr "invalid argument for option \"%.50s\"\n"
+
+#: src/argparse.c:347
+#, c-format
+msgid "option \"%.50s\" does not expect an argument\n"
+msgstr "option \"%.50s\" does not expect an argument\n"
+
+#: src/argparse.c:350
+#, c-format
+msgid "invalid command \"%.50s\"\n"
+msgstr "invalid command \"%.50s\"\n"
+
+#: src/argparse.c:352
+#, c-format
+msgid "option \"%.50s\" is ambiguous\n"
+msgstr "option \"%.50s\" is ambiguous\n"
+
+#: src/argparse.c:354
+#, c-format
+msgid "command \"%.50s\" is ambiguous\n"
+msgstr "command \"%.50s\" is ambiguous\n"
+
+#: src/argparse.c:356
+msgid "out of core\n"
+msgstr "out of core\n"
+
+#: src/argparse.c:358
+#, c-format
+msgid "invalid option \"%.50s\"\n"
+msgstr "invalid option \"%.50s\"\n"
+
+#: src/gpg-error.c:458
+msgid "Please report bugs to <https://bugs.gnupg.org>.\n"
+msgstr "Please report bugs to <https://bugs.gnupg.org>.\n"
+
+#: src/gpg-error.c:658
+#, c-format
+msgid "warning: could not recognize %s\n"
+msgstr "warning: could not recognize %s\n"
