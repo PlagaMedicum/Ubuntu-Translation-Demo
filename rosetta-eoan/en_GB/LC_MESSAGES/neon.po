@@ -1,0 +1,622 @@
+# English (United Kingdom) translation for neon27
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the neon27 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: neon27\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-09-30 09:51+0100\n"
+"PO-Revision-Date: 2017-02-21 01:04+0000\n"
+"Last-Translator: Anthony Harrington <Unknown>\n"
+"Language-Team: English (United Kingdom) <en_GB@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-05-11 12:30+0000\n"
+"X-Generator: Launchpad (build 18962)\n"
+
+#: src/ne_207.c:198
+#, c-format
+msgid ""
+"Invalid HTTP status line in status element at line %d of response:\n"
+"Status line was: %s"
+msgstr ""
+"Invalid HTTP status line in status element at line %d of response:\n"
+"Status line was: %s"
+
+#: src/ne_auth.c:139
+#, c-format
+msgid "Could not authenticate to server: %s"
+msgstr "Could not authenticate to server: %s"
+
+#: src/ne_auth.c:144
+#, c-format
+msgid "Could not authenticate to proxy server: %s"
+msgstr "Could not authenticate to proxy server: %s"
+
+#: src/ne_auth.c:386
+#, c-format
+msgid "rejected %s challenge"
+msgstr "rejected %s challenge"
+
+#: src/ne_auth.c:402
+msgid "missing realm in Basic challenge"
+msgstr "missing realm in Basic challenge"
+
+#: src/ne_auth.c:497
+msgid "invalid Negotiate token"
+msgstr "invalid Negotiate token"
+
+#: src/ne_auth.c:520
+msgid "GSSAPI authentication error: "
+msgstr "GSSAPI authentication error: "
+
+#: src/ne_auth.c:533
+#, c-format
+msgid "GSSAPI failure (code %u)"
+msgstr "GSSAPI failure (code %u)"
+
+#: src/ne_auth.c:568
+msgid "ignoring empty Negotiate continuation"
+msgstr "ignoring empty Negotiate continuation"
+
+#: src/ne_auth.c:583
+#, c-format
+msgid "Negotiate response verification failed: invalid response header token"
+msgstr ""
+"Negotiate response verification failed: invalid response header token"
+
+#: src/ne_auth.c:605
+#, c-format
+msgid "Negotiate response verification failure: %s"
+msgstr "Negotiate response verification failure: %s"
+
+#: src/ne_auth.c:669
+#, c-format
+msgid "SSPI response verification failed: invalid response header token"
+msgstr "SSPI response verification failed: invalid response header token"
+
+#: src/ne_auth.c:802
+msgid "unknown algorithm in Digest challenge"
+msgstr "unknown algorithm in Digest challenge"
+
+#: src/ne_auth.c:806
+msgid "incompatible algorithm in Digest challenge"
+msgstr "incompatible algorithm in Digest challenge"
+
+#: src/ne_auth.c:810
+msgid "missing parameter in Digest challenge"
+msgstr "missing parameter in Digest challenge"
+
+#: src/ne_auth.c:814
+msgid "initial Digest challenge was stale"
+msgstr "initial Digest challenge was stale"
+
+#: src/ne_auth.c:821
+msgid "stale Digest challenge with new algorithm or realm"
+msgstr "stale Digest challenge with new algorithm or realm"
+
+#: src/ne_auth.c:833
+msgid "could not parse domain in Digest challenge"
+msgstr "could not parse domain in Digest challenge"
+
+#: src/ne_auth.c:1142
+#, c-format
+msgid "Digest mutual authentication failure: missing parameters"
+msgstr "Digest mutual authentication failure: missing parameters"
+
+#: src/ne_auth.c:1147
+#, c-format
+msgid "Digest mutual authentication failure: client nonce mismatch"
+msgstr "Digest mutual authentication failure: client nonce mismatch"
+
+#: src/ne_auth.c:1157
+#, c-format
+msgid "Digest mutual authentication failure: could not parse nonce count"
+msgstr "Digest mutual authentication failure: could not parse nonce count"
+
+#: src/ne_auth.c:1162
+#, c-format
+msgid ""
+"Digest mutual authentication failure: nonce count mismatch (%u not %u)"
+msgstr ""
+"Digest mutual authentication failure: nonce count mismatch (%u not %u)"
+
+#: src/ne_auth.c:1205
+#, c-format
+msgid "Digest mutual authentication failure: request-digest mismatch"
+msgstr "Digest mutual authentication failure: request-digest mismatch"
+
+#: src/ne_auth.c:1336
+#, c-format
+msgid "ignored %s challenge"
+msgstr "ignored %s challenge"
+
+#: src/ne_auth.c:1415
+msgid "could not parse challenge"
+msgstr "could not parse challenge"
+
+#: src/ne_basic.c:98
+#, c-format
+msgid "Could not determine file size: %s"
+msgstr "Could not determine file size: %s"
+
+#: src/ne_basic.c:149
+#, c-format
+msgid "Response did not include requested range"
+msgstr "Response did not include requested range"
+
+#: src/ne_basic.c:183
+#, c-format
+msgid "Range is not satisfiable"
+msgstr "Range is not satisfiable"
+
+#: src/ne_basic.c:188
+#, c-format
+msgid "Resource does not support ranged GET requests"
+msgstr "Resource does not support ranged GET requests"
+
+#: src/ne_compress.c:184
+#, c-format
+msgid "%s: %s (code %d)"
+msgstr "%s: %s (code %d)"
+
+#: src/ne_compress.c:232
+msgid "Could not inflate data"
+msgstr "Could not inflate data"
+
+#: src/ne_compress.c:293
+msgid "Could not initialize zlib"
+msgstr "Could not initialise zlib"
+
+#: src/ne_gnutls.c:183
+#, c-format
+msgid "[unprintable:#%lu]"
+msgstr "[unprintable:#%lu]"
+
+#: src/ne_gnutls.c:212
+msgid "[unprintable]"
+msgstr "[unprintable]"
+
+#: src/ne_gnutls.c:659
+#, c-format
+msgid "Failed to import private key: %s"
+msgstr "Failed to import private key: %s"
+
+#: src/ne_gnutls.c:903
+msgid "signed using insecure algorithm"
+msgstr "signed using insecure algorithm"
+
+#: src/ne_gnutls.c:906
+#, c-format
+msgid "unrecognized errors (%u)"
+msgstr "unrecognised errors (%u)"
+
+#: src/ne_gnutls.c:951 src/ne_openssl.c:477
+#, c-format
+msgid "Server certificate was missing commonName attribute in subject name"
+msgstr "Server certificate was missing commonName attribute in subject name"
+
+#: src/ne_gnutls.c:965
+#, c-format
+msgid "Could not verify server certificate: %s"
+msgstr "Could not verify server certificate: %s"
+
+#: src/ne_gnutls.c:977 src/ne_openssl.c:464
+#, c-format
+msgid "Certificate verification error: %s"
+msgstr "Certificate verification error: %s"
+
+#: src/ne_gnutls.c:1010 src/ne_openssl.c:710
+#, c-format
+msgid "SSL handshake failed, client certificate was requested: %s"
+msgstr "SSL handshake failed, client certificate was requested: %s"
+
+#: src/ne_gnutls.c:1015 src/ne_openssl.c:715
+#, c-format
+msgid "SSL handshake failed: %s"
+msgstr "SSL handshake failed: %s"
+
+#: src/ne_gnutls.c:1025
+#, c-format
+msgid "Server did not send certificate chain"
+msgstr "Server did not send certificate chain"
+
+#: src/ne_locks.c:584
+msgid "LOCK response missing Lock-Token header"
+msgstr "LOCK response missing Lock-Token header"
+
+#: src/ne_locks.c:759
+#, c-format
+msgid "Response missing activelock for %s"
+msgstr "Response missing activelock for %s"
+
+#: src/ne_locks.c:801
+#, c-format
+msgid "No activelock for <%s> returned in LOCK refresh response"
+msgstr "No activelock for <%s> returned in LOCK refresh response"
+
+#: src/ne_openssl.c:735
+#, c-format
+msgid "SSL server did not present certificate"
+msgstr "SSL server did not present certificate"
+
+#: src/ne_props.c:371 src/ne_props.c:435
+msgid "Response exceeds maximum property count"
+msgstr "Response exceeds maximum property count"
+
+#: src/ne_redirect.c:92
+#, c-format
+msgid "Could not parse redirect destination URL"
+msgstr "Could not parse redirect destination URL"
+
+#: src/ne_request.c:194
+#, c-format
+msgid "%s: connection was closed by proxy server"
+msgstr "%s: connection was closed by proxy server"
+
+#: src/ne_request.c:197
+#, c-format
+msgid "%s: connection was closed by server"
+msgstr "%s: connection was closed by server"
+
+#: src/ne_request.c:202
+#, c-format
+msgid "%s: connection timed out"
+msgstr "%s: connection timed out"
+
+#: src/ne_request.c:305
+#, c-format
+msgid "Premature EOF in request body file"
+msgstr "Premature EOF in request body file"
+
+#: src/ne_request.c:312
+#, c-format
+msgid "Failed reading request body file: %s"
+msgstr "Failed reading request body file: %s"
+
+#: src/ne_request.c:332
+msgid "offset invalid"
+msgstr "offset invalid"
+
+#: src/ne_request.c:337
+#, c-format
+msgid "Could not seek to offset %s of request body file: %s"
+msgstr "Could not seek to offset %s of request body file: %s"
+
+#: src/ne_request.c:423
+msgid "Could not send request body"
+msgstr "Could not send request body"
+
+#: src/ne_request.c:450
+msgid "Could not send chunked request terminator"
+msgstr "Could not send chunked request terminator"
+
+#: src/ne_request.c:784
+msgid "Could not read chunk size"
+msgstr "Could not read chunk size"
+
+#: src/ne_request.c:791
+msgid "Could not parse chunk size"
+msgstr "Could not parse chunk size"
+
+#: src/ne_request.c:828
+msgid "Could not read response body"
+msgstr "Could not read response body"
+
+#: src/ne_request.c:844
+msgid "Could not read chunk delimiter"
+msgstr "Could not read chunk delimiter"
+
+#: src/ne_request.c:847
+msgid "Chunk delimiter was invalid"
+msgstr "Chunk delimiter was invalid"
+
+#: src/ne_request.c:952
+msgid "Could not read status line"
+msgstr "Could not read status line"
+
+#: src/ne_request.c:974
+msgid "Could not parse response status line"
+msgstr "Could not parse response status line"
+
+#: src/ne_request.c:986
+msgid "Could not read interim response headers"
+msgstr "Could not read interim response headers"
+
+#: src/ne_request.c:1020
+msgid "Could not send request"
+msgstr "Could not send request"
+
+#: src/ne_request.c:1068 src/ne_request.c:1086 src/ne_request.c:1096
+msgid "Error reading response headers"
+msgstr "Error reading response headers"
+
+#: src/ne_request.c:1114
+#, c-format
+msgid "Response header too long"
+msgstr "Response header too long"
+
+#: src/ne_request.c:1196
+msgid "Response exceeded maximum number of header fields"
+msgstr "Response exceeded maximum number of header fields"
+
+#: src/ne_request.c:1211
+#, c-format
+msgid "Could not resolve hostname `%s': %s"
+msgstr "Could not resolve hostname `%s': %s"
+
+#: src/ne_request.c:1342
+msgid "Unknown transfer-coding in response"
+msgstr "Unknown transfer-coding in response"
+
+#: src/ne_request.c:1355
+msgid "Invalid Content-Length in response"
+msgstr "Invalid Content-Length in response"
+
+#: src/ne_request.c:1428
+#, c-format
+msgid "Could not write to file: %s"
+msgstr "Could not write to file: %s"
+
+#: src/ne_request.c:1501
+#, c-format
+msgid "Could not create SSL connection through proxy server: %s"
+msgstr "Could not create SSL connection through proxy server: %s"
+
+#: src/ne_request.c:1540
+#, c-format
+msgid "Could not create socket"
+msgstr "Could not create socket"
+
+#: src/ne_request.c:1574
+msgid "Could not connect to server"
+msgstr "Could not connect to server"
+
+#: src/ne_request.c:1576
+msgid "Could not connect to proxy server"
+msgstr "Could not connect to proxy server"
+
+#: src/ne_request.c:1619
+#, c-format
+msgid "Could not find IPv4 address of hostname %s for SOCKS v4 proxy"
+msgstr "Could not find IPv4 address of hostname %s for SOCKS v4 proxy"
+
+#: src/ne_request.c:1677
+#, c-format
+msgid "Could not establish connection from SOCKS proxy (%s:%u): %s"
+msgstr "Could not establish connection from SOCKS proxy (%s:%u): %s"
+
+#: src/ne_session.c:538 src/ne_session.c:549
+msgid "[invalid date]"
+msgstr "[invalid date]"
+
+#: src/ne_session.c:562
+msgid "certificate is not yet valid"
+msgstr "certificate is not yet valid"
+
+#: src/ne_session.c:563
+msgid "certificate has expired"
+msgstr "certificate has expired"
+
+#: src/ne_session.c:564
+msgid "certificate issued for a different hostname"
+msgstr "certificate issued for a different hostname"
+
+#: src/ne_session.c:565
+msgid "issuer is not trusted"
+msgstr "issuer is not trusted"
+
+#: src/ne_session.c:566
+msgid "bad certificate chain"
+msgstr "bad certificate chain"
+
+#: src/ne_session.c:567
+msgid "certificate has been revoked"
+msgstr "certificate has been revoked"
+
+#: src/ne_session.c:572
+msgid "Server certificate verification failed: "
+msgstr "Server certificate verification failed: "
+
+#: src/ne_socket.c:522 src/ne_socket.c:618 src/ne_socket.c:722
+msgid "Connection closed"
+msgstr "Connection closed"
+
+#: src/ne_socket.c:628 src/ne_socket.c:736
+msgid "Secure connection truncated"
+msgstr "Secure connection truncated"
+
+#: src/ne_socket.c:640 src/ne_socket.c:748
+#, c-format
+msgid "SSL error: %s"
+msgstr "SSL error: %s"
+
+#: src/ne_socket.c:643
+#, c-format
+msgid "SSL error code %d/%d/%lu"
+msgstr "SSL error code %d/%d/%lu"
+
+#: src/ne_socket.c:727
+#, c-format
+msgid "SSL alert received: %s"
+msgstr "SSL alert received: %s"
+
+#: src/ne_socket.c:744
+msgid "SSL socket read failed"
+msgstr "SSL socket read failed"
+
+#: src/ne_socket.c:875
+msgid "Line too long"
+msgstr "Line too long"
+
+#: src/ne_socket.c:1036 src/ne_socket.c:1042
+msgid "Host not found"
+msgstr "Host not found"
+
+#: src/ne_socket.c:1251
+msgid "Connection timed out"
+msgstr "Connection timed out"
+
+#: src/ne_socket.c:1444
+msgid "Socket descriptor number exceeds FD_SETSIZE"
+msgstr "Socket descriptor number exceeds FD_SETSIZE"
+
+#: src/ne_socket.c:1506
+msgid "Socket family not supported"
+msgstr "Socket family not supported"
+
+#: src/ne_socket.c:1737
+msgid "Client certificate verification failed"
+msgstr "Client certificate verification failed"
+
+#: src/ne_socket.c:1753
+msgid "SSL disabled due to lack of entropy"
+msgstr "SSL disabled due to lack of entropy"
+
+#: src/ne_socket.c:1759
+msgid "Could not create SSL structure"
+msgstr "Could not create SSL structure"
+
+#: src/ne_socks.c:65
+msgid "failure"
+msgstr "failure"
+
+#: src/ne_socks.c:68
+msgid "connection not permitted"
+msgstr "connection not permitted"
+
+#: src/ne_socks.c:71
+msgid "network unreachable"
+msgstr "network unreachable"
+
+#: src/ne_socks.c:74
+msgid "host unreachable"
+msgstr "host unreachable"
+
+#: src/ne_socks.c:77
+msgid "TTL expired"
+msgstr "TTL expired"
+
+#: src/ne_socks.c:80
+msgid "command not supported"
+msgstr "command not supported"
+
+#: src/ne_socks.c:83
+msgid "address type not supported"
+msgstr "address type not supported"
+
+#: src/ne_socks.c:86
+#, c-format
+msgid "%s: unrecognized error (%u)"
+msgstr "%s: unrecognised error (%u)"
+
+#: src/ne_socks.c:128 src/ne_socks.c:328
+msgid "Could not send message to proxy"
+msgstr "Could not send message to proxy"
+
+#: src/ne_socks.c:133
+msgid "Could not read initial response from proxy"
+msgstr "Could not read initial response from proxy"
+
+#: src/ne_socks.c:136
+msgid "Invalid version in proxy response"
+msgstr "Invalid version in proxy response"
+
+#: src/ne_socks.c:157
+msgid "Could not send login message"
+msgstr "Could not send login message"
+
+#: src/ne_socks.c:162
+msgid "Could not read login reply"
+msgstr "Could not read login reply"
+
+#: src/ne_socks.c:165
+msgid "Invalid version in login reply"
+msgstr "Invalid version in login reply"
+
+#: src/ne_socks.c:168
+msgid "Authentication failed"
+msgstr "Authentication failed"
+
+#: src/ne_socks.c:172
+msgid "No acceptable authentication method"
+msgstr "No acceptable authentication method"
+
+#: src/ne_socks.c:174
+msgid "Unexpected authentication method chosen"
+msgstr "Unexpected authentication method chosen"
+
+#: src/ne_socks.c:210
+msgid "Could not send connect request"
+msgstr "Could not send connect request"
+
+#: src/ne_socks.c:215
+msgid "Could not read connect reply"
+msgstr "Could not read connect reply"
+
+#: src/ne_socks.c:218
+msgid "Invalid version in connect reply"
+msgstr "Invalid version in connect reply"
+
+#: src/ne_socks.c:221 src/ne_socks.c:337
+msgid "Could not connect"
+msgstr "Could not connect"
+
+#: src/ne_socks.c:235
+msgid "Could not read FQDN length in connect reply"
+msgstr "Could not read FQDN length in connect reply"
+
+#: src/ne_socks.c:240
+msgid "Unknown address type in connect reply"
+msgstr "Unknown address type in connect reply"
+
+#: src/ne_socks.c:245
+msgid "Could not read address in connect reply"
+msgstr "Could not read address in connect reply"
+
+#: src/ne_socks.c:266
+msgid "request rejected or failed"
+msgstr "request rejected or failed"
+
+#: src/ne_socks.c:269
+msgid "could not establish connection to identd"
+msgstr "could not establish connection to identd"
+
+#: src/ne_socks.c:272
+msgid "rejected due to identd user mismatch"
+msgstr "rejected due to identd user mismatch"
+
+#: src/ne_socks.c:275
+#, c-format
+msgid "%s: unrecognized failure (%u)"
+msgstr "%s: unrecognised failure (%u)"
+
+#: src/ne_socks.c:333
+msgid "Could not read response from proxy"
+msgstr "Could not read response from proxy"
+
+#: src/ne_xml.c:280
+#, c-format
+msgid "XML parse error at line %d: invalid element name"
+msgstr "XML parse error at line %d: invalid element name"
+
+#: src/ne_xml.c:474
+msgid "Unknown error"
+msgstr "Unknown error"
+
+#: src/ne_xml.c:579
+msgid "Invalid Byte Order Mark"
+msgstr "Invalid Byte Order Mark"
+
+#: src/ne_xml.c:667
+#, c-format
+msgid "XML parse error at line %d: %s"
+msgstr "XML parse error at line %d: %s"
+
+#: src/ne_xmlreq.c:36
+#, c-format
+msgid "Could not parse response: %s"
+msgstr "Could not parse response: %s"
