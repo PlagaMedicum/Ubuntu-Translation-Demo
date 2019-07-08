@@ -1,0 +1,623 @@
+# Ukrainian translation for neon27
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the neon27 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: neon27\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-09-30 09:51+0100\n"
+"PO-Revision-Date: 2018-02-22 20:34+0000\n"
+"Last-Translator: Andrii Prokopenko <Unknown>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-05-11 12:30+0000\n"
+"X-Generator: Launchpad (build 18962)\n"
+
+#: src/ne_207.c:198
+#, c-format
+msgid ""
+"Invalid HTTP status line in status element at line %d of response:\n"
+"Status line was: %s"
+msgstr ""
+"Неправильний рядок статусу HTTP в елементі статусу у рядку %d відповіді:\n"
+"Рядок статусу: %s"
+
+#: src/ne_auth.c:139
+#, c-format
+msgid "Could not authenticate to server: %s"
+msgstr "Неможливо перевірити справжність сервера: %s"
+
+#: src/ne_auth.c:144
+#, c-format
+msgid "Could not authenticate to proxy server: %s"
+msgstr "Неможливо авторизуватися на проксі-сервері: %s"
+
+#: src/ne_auth.c:386
+#, c-format
+msgid "rejected %s challenge"
+msgstr "виклик %s відхилено"
+
+#: src/ne_auth.c:402
+msgid "missing realm in Basic challenge"
+msgstr "відсутній realm у Basic запиті"
+
+#: src/ne_auth.c:497
+msgid "invalid Negotiate token"
+msgstr "неправильний параметр Negotiate"
+
+#: src/ne_auth.c:520
+msgid "GSSAPI authentication error: "
+msgstr "Помилка GSSAPI автентифікації: "
+
+#: src/ne_auth.c:533
+#, c-format
+msgid "GSSAPI failure (code %u)"
+msgstr "GSSAPI крах (код %u)"
+
+#: src/ne_auth.c:568
+msgid "ignoring empty Negotiate continuation"
+msgstr "ігнорую порожнє продовження Negotiate"
+
+#: src/ne_auth.c:583
+#, c-format
+msgid "Negotiate response verification failed: invalid response header token"
+msgstr "Помилка процесу верифікації: отримано помилковий заголовок відповіді"
+
+#: src/ne_auth.c:605
+#, c-format
+msgid "Negotiate response verification failure: %s"
+msgstr "збій перевірки Negotiate відповіді: %s"
+
+#: src/ne_auth.c:669
+#, c-format
+msgid "SSPI response verification failed: invalid response header token"
+msgstr ""
+"Помилка перевірки відповіді SSPI: невірний маркер заголовка відповіді"
+
+#: src/ne_auth.c:802
+msgid "unknown algorithm in Digest challenge"
+msgstr "невідомий алгоритм в Digest challenge"
+
+#: src/ne_auth.c:806
+msgid "incompatible algorithm in Digest challenge"
+msgstr "несумісний алгоритм у Digest запиті"
+
+#: src/ne_auth.c:810
+msgid "missing parameter in Digest challenge"
+msgstr "відсутній параметр у Digest запиті"
+
+#: src/ne_auth.c:814
+msgid "initial Digest challenge was stale"
+msgstr "початковий Digest запит був застарілим"
+
+#: src/ne_auth.c:821
+msgid "stale Digest challenge with new algorithm or realm"
+msgstr "застарілий Digest запит з новим алгоритмом або реалмом"
+
+#: src/ne_auth.c:833
+msgid "could not parse domain in Digest challenge"
+msgstr "не можу розібрати домен у Digest запиті"
+
+#: src/ne_auth.c:1142
+#, c-format
+msgid "Digest mutual authentication failure: missing parameters"
+msgstr "Збій взаємної Digest автентифікації: невистачає параметрів"
+
+#: src/ne_auth.c:1147
+#, c-format
+msgid "Digest mutual authentication failure: client nonce mismatch"
+msgstr "Збій взаємної Digest автентифікації: незбігається клієнтський nonce"
+
+#: src/ne_auth.c:1157
+#, c-format
+msgid "Digest mutual authentication failure: could not parse nonce count"
+msgstr "Збій взаємної Digest автентифікації: не можу розібрати nonce count"
+
+#: src/ne_auth.c:1162
+#, c-format
+msgid ""
+"Digest mutual authentication failure: nonce count mismatch (%u not %u)"
+msgstr ""
+"Збій взаємної Digest автентифікації: незбігається nonce count (%u і %u)"
+
+#: src/ne_auth.c:1205
+#, c-format
+msgid "Digest mutual authentication failure: request-digest mismatch"
+msgstr "Збій взаємної Digest автентифікації: невідповідність digest запитів"
+
+#: src/ne_auth.c:1336
+#, c-format
+msgid "ignored %s challenge"
+msgstr "запит %s проігноровано"
+
+#: src/ne_auth.c:1415
+msgid "could not parse challenge"
+msgstr "не можу розібрати запит"
+
+#: src/ne_basic.c:98
+#, c-format
+msgid "Could not determine file size: %s"
+msgstr "Не вдалося визначити розмір файлу: %s"
+
+#: src/ne_basic.c:149
+#, c-format
+msgid "Response did not include requested range"
+msgstr "Відповідь не містить запитаний діапазон"
+
+#: src/ne_basic.c:183
+#, c-format
+msgid "Range is not satisfiable"
+msgstr "Діапазон незадовільний"
+
+#: src/ne_basic.c:188
+#, c-format
+msgid "Resource does not support ranged GET requests"
+msgstr "Ресурс не підтримує GET запит з діапазоном"
+
+#: src/ne_compress.c:184
+#, c-format
+msgid "%s: %s (code %d)"
+msgstr "%s: %s (код %d)"
+
+#: src/ne_compress.c:232
+msgid "Could not inflate data"
+msgstr "Не можу розтиснути дані"
+
+#: src/ne_compress.c:293
+msgid "Could not initialize zlib"
+msgstr "Неможливо ініціалізувати zlib"
+
+#: src/ne_gnutls.c:183
+#, c-format
+msgid "[unprintable:#%lu]"
+msgstr "[недрукований:#%lu]"
+
+#: src/ne_gnutls.c:212
+msgid "[unprintable]"
+msgstr "[недрукований]"
+
+#: src/ne_gnutls.c:659
+#, c-format
+msgid "Failed to import private key: %s"
+msgstr "Не вдалося імпортувати приватний ключ: %s"
+
+#: src/ne_gnutls.c:903
+msgid "signed using insecure algorithm"
+msgstr "підписано з використанням ненадійного алгоритму"
+
+#: src/ne_gnutls.c:906
+#, c-format
+msgid "unrecognized errors (%u)"
+msgstr "нерозпізнані помилки (%u)"
+
+#: src/ne_gnutls.c:951 src/ne_openssl.c:477
+#, c-format
+msgid "Server certificate was missing commonName attribute in subject name"
+msgstr "У серверному сертифікаті відсутній атрибут commonName у полі теми"
+
+#: src/ne_gnutls.c:965
+#, c-format
+msgid "Could not verify server certificate: %s"
+msgstr "Не можу перевірити справжність серверного сертифікату: %s"
+
+#: src/ne_gnutls.c:977 src/ne_openssl.c:464
+#, c-format
+msgid "Certificate verification error: %s"
+msgstr "Помилка перевірки сертифікату: %s"
+
+#: src/ne_gnutls.c:1010 src/ne_openssl.c:710
+#, c-format
+msgid "SSL handshake failed, client certificate was requested: %s"
+msgstr "Збій SSL погодження, був запитаний клієнтський сертифікат: %s"
+
+#: src/ne_gnutls.c:1015 src/ne_openssl.c:715
+#, c-format
+msgid "SSL handshake failed: %s"
+msgstr "Збій SSL погодження: %s"
+
+#: src/ne_gnutls.c:1025
+#, c-format
+msgid "Server did not send certificate chain"
+msgstr "Сервер не відправив ланцюжок сертифікатів"
+
+#: src/ne_locks.c:584
+msgid "LOCK response missing Lock-Token header"
+msgstr "LOCK відповідь не містить Lock-Token header"
+
+#: src/ne_locks.c:759
+#, c-format
+msgid "Response missing activelock for %s"
+msgstr "Відповідь не містить активне блокування для %s"
+
+#: src/ne_locks.c:801
+#, c-format
+msgid "No activelock for <%s> returned in LOCK refresh response"
+msgstr "Відсутнє активне блокування для <%s> у відповіді на оновлення LOCK"
+
+#: src/ne_openssl.c:735
+#, c-format
+msgid "SSL server did not present certificate"
+msgstr "SSL сервер не надав сертифікат"
+
+#: src/ne_props.c:371 src/ne_props.c:435
+msgid "Response exceeds maximum property count"
+msgstr "Перевищено максимальну кількість властивостей у відповіді"
+
+#: src/ne_redirect.c:92
+#, c-format
+msgid "Could not parse redirect destination URL"
+msgstr "Не можу розібрати URL переспрямування"
+
+#: src/ne_request.c:194
+#, c-format
+msgid "%s: connection was closed by proxy server"
+msgstr "%s: з’єднання було закрито проксі сервером"
+
+#: src/ne_request.c:197
+#, c-format
+msgid "%s: connection was closed by server"
+msgstr "%s: з’єднання було закрито сервером"
+
+#: src/ne_request.c:202
+#, c-format
+msgid "%s: connection timed out"
+msgstr "%s: час очікування з’єднання закінчився"
+
+#: src/ne_request.c:305
+#, c-format
+msgid "Premature EOF in request body file"
+msgstr "Передчасний EOF у файлі тіла запиту"
+
+#: src/ne_request.c:312
+#, c-format
+msgid "Failed reading request body file: %s"
+msgstr "Не вдалося прочитати файл тіла запиту: %s"
+
+#: src/ne_request.c:332
+msgid "offset invalid"
+msgstr "неправильний відступ"
+
+#: src/ne_request.c:337
+#, c-format
+msgid "Could not seek to offset %s of request body file: %s"
+msgstr "Не можу перейти до відступу %s у тілі файлу запиту: %s"
+
+#: src/ne_request.c:423
+msgid "Could not send request body"
+msgstr "Не можу відправити тіло запиту"
+
+#: src/ne_request.c:450
+msgid "Could not send chunked request terminator"
+msgstr "Неможливо надіслати переривач запиту шматка"
+
+#: src/ne_request.c:784
+msgid "Could not read chunk size"
+msgstr "Не можу прочитати розмір шматка"
+
+#: src/ne_request.c:791
+msgid "Could not parse chunk size"
+msgstr "Не можу розібрати розмір шматка"
+
+#: src/ne_request.c:828
+msgid "Could not read response body"
+msgstr "Не можу прочитати тіло відповіді"
+
+#: src/ne_request.c:844
+msgid "Could not read chunk delimiter"
+msgstr "Не можу прочитати розділювач шматка"
+
+#: src/ne_request.c:847
+msgid "Chunk delimiter was invalid"
+msgstr "Розділювач шматка був неправильний"
+
+#: src/ne_request.c:952
+msgid "Could not read status line"
+msgstr "Не можу прочитати рядок статусу"
+
+#: src/ne_request.c:974
+msgid "Could not parse response status line"
+msgstr "Не можу прочитати рядок статусу відповіді"
+
+#: src/ne_request.c:986
+msgid "Could not read interim response headers"
+msgstr "Не можу прочитати проміжні заголовки відповіді"
+
+#: src/ne_request.c:1020
+msgid "Could not send request"
+msgstr "Не вдалося надіслати запит"
+
+#: src/ne_request.c:1068 src/ne_request.c:1086 src/ne_request.c:1096
+msgid "Error reading response headers"
+msgstr "Помилка читання заголовків відповіді"
+
+#: src/ne_request.c:1114
+#, c-format
+msgid "Response header too long"
+msgstr "Заголовки відповіді завеликі"
+
+#: src/ne_request.c:1196
+msgid "Response exceeded maximum number of header fields"
+msgstr "У відповіді перевищено максимальну кількість полів заголовків"
+
+#: src/ne_request.c:1211
+#, c-format
+msgid "Could not resolve hostname `%s': %s"
+msgstr "Не вдалося дозволити ім’я хосту `%s': %s"
+
+#: src/ne_request.c:1342
+msgid "Unknown transfer-coding in response"
+msgstr "Невідоме кодування у відповіді"
+
+#: src/ne_request.c:1355
+msgid "Invalid Content-Length in response"
+msgstr "У відповіді вказано неправильну довжину вмісту"
+
+#: src/ne_request.c:1428
+#, c-format
+msgid "Could not write to file: %s"
+msgstr "Неможливо записати у файл: %s"
+
+#: src/ne_request.c:1501
+#, c-format
+msgid "Could not create SSL connection through proxy server: %s"
+msgstr "Не можу створити SSL з’єднання через проксі сервер: %s"
+
+#: src/ne_request.c:1540
+#, c-format
+msgid "Could not create socket"
+msgstr "Не вдається створити сокет"
+
+#: src/ne_request.c:1574
+msgid "Could not connect to server"
+msgstr "Не вдалося з'єднатися з сервером"
+
+#: src/ne_request.c:1576
+msgid "Could not connect to proxy server"
+msgstr "Не вдалося під’єднатися до проксі-сервера"
+
+#: src/ne_request.c:1619
+#, c-format
+msgid "Could not find IPv4 address of hostname %s for SOCKS v4 proxy"
+msgstr ""
+"Не можу визначити IPv4 адресу SOCKS v4 проксі сервера за ім’ям хосту %s"
+
+#: src/ne_request.c:1677
+#, c-format
+msgid "Could not establish connection from SOCKS proxy (%s:%u): %s"
+msgstr "Неможливо встановити з’єднання з SOCKS проксі сервера (%s:%u): %s"
+
+#: src/ne_session.c:538 src/ne_session.c:549
+msgid "[invalid date]"
+msgstr "[помилкова дата]"
+
+#: src/ne_session.c:562
+msgid "certificate is not yet valid"
+msgstr "сертифікат поки ще не дійсний"
+
+#: src/ne_session.c:563
+msgid "certificate has expired"
+msgstr "термін дії сертифікату закінчився"
+
+#: src/ne_session.c:564
+msgid "certificate issued for a different hostname"
+msgstr "сертифікат випущений для іншого ім’я хосту"
+
+#: src/ne_session.c:565
+msgid "issuer is not trusted"
+msgstr "емітент не є довіреним"
+
+#: src/ne_session.c:566
+msgid "bad certificate chain"
+msgstr "поганий ланцюжок сертифікатів"
+
+#: src/ne_session.c:567
+msgid "certificate has been revoked"
+msgstr "сертифікат відкликано"
+
+#: src/ne_session.c:572
+msgid "Server certificate verification failed: "
+msgstr "Помилка перевірки сертифікату сервера: "
+
+#: src/ne_socket.c:522 src/ne_socket.c:618 src/ne_socket.c:722
+msgid "Connection closed"
+msgstr "З'єднання закрито"
+
+#: src/ne_socket.c:628 src/ne_socket.c:736
+msgid "Secure connection truncated"
+msgstr "Захищене з’єднання перервано"
+
+#: src/ne_socket.c:640 src/ne_socket.c:748
+#, c-format
+msgid "SSL error: %s"
+msgstr "SSL помилка: %s"
+
+#: src/ne_socket.c:643
+#, c-format
+msgid "SSL error code %d/%d/%lu"
+msgstr "SSL помилка з кодом %d/%d/%lu"
+
+#: src/ne_socket.c:727
+#, c-format
+msgid "SSL alert received: %s"
+msgstr "SSL попередження отримано: %s"
+
+#: src/ne_socket.c:744
+msgid "SSL socket read failed"
+msgstr "збій читання з SSL сокета"
+
+#: src/ne_socket.c:875
+msgid "Line too long"
+msgstr "Рядок задовгий"
+
+#: src/ne_socket.c:1036 src/ne_socket.c:1042
+msgid "Host not found"
+msgstr "Хост не знайдено"
+
+#: src/ne_socket.c:1251
+msgid "Connection timed out"
+msgstr "Час очікування з’єднання вичерпаний"
+
+#: src/ne_socket.c:1444
+msgid "Socket descriptor number exceeds FD_SETSIZE"
+msgstr "Номер дескриптора сокета перевищує FD_SETSIZE"
+
+#: src/ne_socket.c:1506
+msgid "Socket family not supported"
+msgstr "Непідтримуваний тип сокета"
+
+#: src/ne_socket.c:1737
+msgid "Client certificate verification failed"
+msgstr "Помилка перевірки клієнтського сертифікату користувача"
+
+#: src/ne_socket.c:1753
+msgid "SSL disabled due to lack of entropy"
+msgstr "SSL вимкнено з-за недоліку ентропії"
+
+#: src/ne_socket.c:1759
+msgid "Could not create SSL structure"
+msgstr "Неможливо створити SSL структуру"
+
+#: src/ne_socks.c:65
+msgid "failure"
+msgstr "відмова"
+
+#: src/ne_socks.c:68
+msgid "connection not permitted"
+msgstr "з’єднання не дозволено"
+
+#: src/ne_socks.c:71
+msgid "network unreachable"
+msgstr "мережа недоступна"
+
+#: src/ne_socks.c:74
+msgid "host unreachable"
+msgstr "хост недоступний"
+
+#: src/ne_socks.c:77
+msgid "TTL expired"
+msgstr "TTL вичерпано"
+
+#: src/ne_socks.c:80
+msgid "command not supported"
+msgstr "команда не підтримується"
+
+#: src/ne_socks.c:83
+msgid "address type not supported"
+msgstr "тип адреси не підтримується"
+
+#: src/ne_socks.c:86
+#, c-format
+msgid "%s: unrecognized error (%u)"
+msgstr "%s: нерозпізнана помилка (%u)"
+
+#: src/ne_socks.c:128 src/ne_socks.c:328
+msgid "Could not send message to proxy"
+msgstr "Неможливо послати повідомлення проксі"
+
+#: src/ne_socks.c:133
+msgid "Could not read initial response from proxy"
+msgstr "Неможливо отримати початкову відповідь від проксі"
+
+#: src/ne_socks.c:136
+msgid "Invalid version in proxy response"
+msgstr "Неправильний номер версії у відповіді проксі"
+
+#: src/ne_socks.c:157
+msgid "Could not send login message"
+msgstr "Неможливо відправити повідомлення входу"
+
+#: src/ne_socks.c:162
+msgid "Could not read login reply"
+msgstr "Не можу прочитати відповідь на логін"
+
+#: src/ne_socks.c:165
+msgid "Invalid version in login reply"
+msgstr "Неправильна версія у відповіді на логін"
+
+#: src/ne_socks.c:168
+msgid "Authentication failed"
+msgstr "Помилка автентифікації"
+
+#: src/ne_socks.c:172
+msgid "No acceptable authentication method"
+msgstr "Немає прийнятного методу ідентифікації"
+
+#: src/ne_socks.c:174
+msgid "Unexpected authentication method chosen"
+msgstr "Вибраний непередбачений метод ідентифікації"
+
+#: src/ne_socks.c:210
+msgid "Could not send connect request"
+msgstr "Неможливо відправити запит на з’єднання"
+
+#: src/ne_socks.c:215
+msgid "Could not read connect reply"
+msgstr "Неможливо отримати відповідь на запит з’єднання"
+
+#: src/ne_socks.c:218
+msgid "Invalid version in connect reply"
+msgstr "Неправильна версія у відповіді на запит з’єднання"
+
+#: src/ne_socks.c:221 src/ne_socks.c:337
+msgid "Could not connect"
+msgstr "Не вдалося з’єднатися"
+
+#: src/ne_socks.c:235
+msgid "Could not read FQDN length in connect reply"
+msgstr "Неможливо прочитати довжину FQDN у відповіді на запит з’єднання"
+
+#: src/ne_socks.c:240
+msgid "Unknown address type in connect reply"
+msgstr "Невідомий тип адреси у відповіді на з’єднання"
+
+#: src/ne_socks.c:245
+msgid "Could not read address in connect reply"
+msgstr "Неможливо прочитати адресу у відповіді на з’єднання"
+
+#: src/ne_socks.c:266
+msgid "request rejected or failed"
+msgstr "запит відхилено або невдався"
+
+#: src/ne_socks.c:269
+msgid "could not establish connection to identd"
+msgstr "не вдається встановити з’єднання з identd"
+
+#: src/ne_socks.c:272
+msgid "rejected due to identd user mismatch"
+msgstr "відхилено з-за невідповідності з користувачем identd"
+
+#: src/ne_socks.c:275
+#, c-format
+msgid "%s: unrecognized failure (%u)"
+msgstr "%s: невідомий збій (%u)"
+
+#: src/ne_socks.c:333
+msgid "Could not read response from proxy"
+msgstr "Неможливо отримати відповідь від проксі"
+
+#: src/ne_xml.c:280
+#, c-format
+msgid "XML parse error at line %d: invalid element name"
+msgstr "Помилка аналізу XML у рядку %d: неправильне ім’я елементу"
+
+#: src/ne_xml.c:474
+msgid "Unknown error"
+msgstr "Невідома помилка"
+
+#: src/ne_xml.c:579
+msgid "Invalid Byte Order Mark"
+msgstr "Неправильна відмітка послідовності байтів"
+
+#: src/ne_xml.c:667
+#, c-format
+msgid "XML parse error at line %d: %s"
+msgstr "Помилка розбору XML на рядку %d: %s"
+
+#: src/ne_xmlreq.c:36
+#, c-format
+msgid "Could not parse response: %s"
+msgstr "Не вдалося розібрати відповідь: %s"
