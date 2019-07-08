@@ -1,0 +1,166 @@
+# English (British) translation of gnome-core
+# Copyright (C) 1999-2000 Free Software Foundation, Inc.
+# Robert Brady <robert@susu.org.uk>, 1999-2000.
+# Philip Withnall <philip@tecnocode.co.uk>, 2009.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2010, 2012, 2013, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-desktop\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-desktop/issues\n"
+"POT-Creation-Date: 2018-10-27 16:29+0200\n"
+"PO-Revision-Date: 2019-04-10 17:43+0000\n"
+"Last-Translator: Bruce Cowan <Unknown>\n"
+"Language-Team: British English <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-05-11 13:02+0000\n"
+"X-Generator: Launchpad (build 18962)\n"
+"X-Project-Style: gnome\n"
+"Language: en_GB\n"
+
+#: libgnome-desktop/gnome-languages.c:711
+msgid "Unspecified"
+msgstr "Unspecified"
+
+#: libgnome-desktop/gnome-rr-config.c:759
+#, c-format
+msgid "CRTC %d cannot drive output %s"
+msgstr "CRTC %d cannot drive output %s"
+
+#: libgnome-desktop/gnome-rr-config.c:766
+#, c-format
+msgid "output %s does not support mode %dx%d@%dHz"
+msgstr "output %s does not support mode %dx%d@%dHz"
+
+#: libgnome-desktop/gnome-rr-config.c:777
+#, c-format
+msgid "CRTC %d does not support rotation=%d"
+msgstr "CRTC %d does not support rotation=%d"
+
+#: libgnome-desktop/gnome-rr-config.c:790
+#, c-format
+msgid ""
+"output %s does not have the same parameters as another cloned output:\n"
+"existing mode = %d, new mode = %d\n"
+"existing coordinates = (%d, %d), new coordinates = (%d, %d)\n"
+"existing rotation = %d, new rotation = %d"
+msgstr ""
+"output %s does not have the same parameters as another cloned output:\n"
+"existing mode = %d, new mode = %d\n"
+"existing coordinates = (%d, %d), new coordinates = (%d, %d)\n"
+"existing rotation = %d, new rotation = %d"
+
+#: libgnome-desktop/gnome-rr-config.c:805
+#, c-format
+msgid "cannot clone to output %s"
+msgstr "cannot clone to output %s"
+
+#: libgnome-desktop/gnome-rr-config.c:931
+#, c-format
+msgid "Trying modes for CRTC %d\n"
+msgstr "Trying modes for CRTC %d\n"
+
+#: libgnome-desktop/gnome-rr-config.c:955
+#, c-format
+msgid "CRTC %d: trying mode %dx%d@%dHz with output at %dx%d@%dHz (pass %d)\n"
+msgstr ""
+"CRTC %d: trying mode %dx%d@%dHz with output at %dx%d@%dHz (pass %d)\n"
+
+#: libgnome-desktop/gnome-rr-config.c:1002
+#, c-format
+msgid ""
+"could not assign CRTCs to outputs:\n"
+"%s"
+msgstr ""
+"could not assign CRTCs to outputs:\n"
+"%s"
+
+#: libgnome-desktop/gnome-rr-config.c:1006
+#, c-format
+msgid ""
+"none of the selected modes were compatible with the possible modes:\n"
+"%s"
+msgstr ""
+"none of the selected modes were compatible with the possible modes:\n"
+"%s"
+
+#: libgnome-desktop/gnome-rr-config.c:1087
+#, c-format
+msgid ""
+"required virtual size does not fit available size: requested=(%d, %d), "
+"minimum=(%d, %d), maximum=(%d, %d)"
+msgstr ""
+"required virtual size does not fit available size: requested=(%d, %d), "
+"minimum=(%d, %d), maximum=(%d, %d)"
+
+#: libgnome-desktop/gnome-wall-clock.c:290
+#| msgid "%a %b %e, %R:%S"
+msgid "%a %b %-e_%R:%S"
+msgstr "%a %-e %b_%R:%S"
+
+#: libgnome-desktop/gnome-wall-clock.c:291
+msgid "%a %b %-e_%R"
+msgstr "%a %-e %b_%R"
+
+#: libgnome-desktop/gnome-wall-clock.c:296
+#| msgid "%a %b %e, %R:%S"
+msgid "%b %-e_%R:%S"
+msgstr "%-e %b_%R:%S"
+
+#: libgnome-desktop/gnome-wall-clock.c:297
+#| msgid "%a %b %e, %R"
+msgid "%b %-e_%R"
+msgstr "%-e %b_%R"
+
+#: libgnome-desktop/gnome-wall-clock.c:301
+msgid "%a %R:%S"
+msgstr "%a %R∶%S"
+
+#: libgnome-desktop/gnome-wall-clock.c:302
+msgid "%a %R"
+msgstr "%a %R"
+
+#: libgnome-desktop/gnome-wall-clock.c:306
+msgid "%R:%S"
+msgstr "%R:%S"
+
+#: libgnome-desktop/gnome-wall-clock.c:306
+msgid "%R"
+msgstr "%R"
+
+#: libgnome-desktop/gnome-wall-clock.c:314
+#| msgid "%a %b %e, %l:%M:%S %p"
+msgid "%a %b %-e_%l:%M:%S %p"
+msgstr "%a %-e %b_%l:%M:%S %p"
+
+#: libgnome-desktop/gnome-wall-clock.c:315
+#| msgid "%a %b %e, %l:%M %p"
+msgid "%a %b %-e_%l:%M %p"
+msgstr "%a %-e %b_%l:%M %p"
+
+#: libgnome-desktop/gnome-wall-clock.c:320
+msgid "%b %-e_%l:%M:%S %p"
+msgstr "%-e %b_%l:%M:%S %p"
+
+#: libgnome-desktop/gnome-wall-clock.c:321
+#| msgid "%a %b %e, %l:%M %p"
+msgid "%b %-e_%l:%M %p"
+msgstr "%-e %b_%l:%M %p"
+
+#: libgnome-desktop/gnome-wall-clock.c:325
+msgid "%a %l:%M:%S %p"
+msgstr "%a %l:%M:%S %p"
+
+#: libgnome-desktop/gnome-wall-clock.c:326
+msgid "%a %l:%M %p"
+msgstr "%a %l:%M %p"
+
+#: libgnome-desktop/gnome-wall-clock.c:330
+msgid "%l:%M:%S %p"
+msgstr "%l:%M:%S %p"
+
+#: libgnome-desktop/gnome-wall-clock.c:331
+msgid "%l:%M %p"
+msgstr "%l:%M %p"
