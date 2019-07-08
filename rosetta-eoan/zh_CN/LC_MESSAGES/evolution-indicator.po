@@ -1,0 +1,95 @@
+# Chinese (Simplified) translation for evolution-indicator
+# Copyright (c) 2018 Rosetta Contributors and Canonical Ltd 2018
+# This file is distributed under the same license as the evolution-indicator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: evolution-indicator\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-03-12 00:26+0000\n"
+"PO-Revision-Date: 2018-10-02 08:37+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Chinese (Simplified) <zh_CN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2019-05-11 12:43+0000\n"
+"X-Generator: Launchpad (build 18962)\n"
+
+#: ../data/evolution-indicator.schemas.in.h:1
+msgid "Only create notifications for new mail in an Inbox."
+msgstr "只为收件箱里的新邮件创建提示。"
+
+#: ../data/evolution-indicator.schemas.in.h:2
+msgid "Play a sound for new mail."
+msgstr "新邮件时发提示音。"
+
+#: ../data/evolution-indicator.schemas.in.h:3
+msgid "Show a notification bubble."
+msgstr "显示气泡提示。"
+
+#: ../data/evolution-indicator.schemas.in.h:4
+msgid "Show new message count in the message indicator applet."
+msgstr "在信息提示程序里显示新的消息数量。"
+
+#: ../src/evolution-indicator.c:235
+#, c-format
+msgid "%d New Message"
+msgid_plural "%d New Messages"
+msgstr[0] "%d 条新消息"
+
+#: ../src/evolution-indicator.c:467 ../src/evolution-indicator.c:744
+#: ../src/evolution-indicator.c:749
+msgid "Inbox"
+msgstr "收件箱"
+
+#: ../src/evolution-indicator.c:582
+msgid "Compose New Message"
+msgstr "撰写新消息"
+
+#: ../src/evolution-indicator.c:587
+msgid "Contacts"
+msgstr "联系人"
+
+#: ../src/evolution-indicator.c:735
+msgid "When new mail arri_ves in"
+msgstr "当邮件到达时(_V)"
+
+#: ../src/evolution-indicator.c:744 ../src/evolution-indicator.c:749
+msgid "any Inbox"
+msgstr "任何收件箱"
+
+#: ../src/evolution-indicator.c:745 ../src/evolution-indicator.c:750
+msgid "any Folder"
+msgstr "任何文件夹"
+
+#. i18n: ':' is used in the end of the above line (When New Mail Arrives:)
+#: ../src/evolution-indicator.c:758
+msgid ":"
+msgstr "："
+
+#: ../src/evolution-indicator.c:787
+msgid "Pla_y a sound"
+msgstr "播放声音(_Y)"
+
+#: ../src/evolution-indicator.c:792
+msgid "_Display a notification"
+msgstr "显示提示(_D)"
+
+#: ../src/evolution-indicator.c:797
+msgid "_Indicate new messages in the panel"
+msgstr "在面板中指示新的消息(_I)"
+
+#: ../src/org-freedesktop-evolution-indicator.eplug.xml.h:1
+msgid "Evolution Indicator"
+msgstr "Evolution指示器"
+
+#: ../src/org-freedesktop-evolution-indicator.eplug.xml.h:2
+msgid "When New Mail Arrives"
+msgstr "新邮件到达时"
+
+#: ../src/org-freedesktop-evolution-indicator.eplug.xml.h:3
+msgid "Shows new mail count in a message indicator."
+msgstr "在消息指示器中显示新邮件数量。"
