@@ -1,0 +1,724 @@
+# Ukrainian translation for libgsf.
+# Copyright (C) 2011 libgsf's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libgsf package.
+# AlexandrToorchyn <ilex@mail.ua>, 2011.
+# Alexandr Toorchyn <ilex@mail.ua>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: libgsf master\n"
+"Report-Msgid-Bugs-To: "
+"http://bugzilla.gnome.org/enter_bug.cgi?product=libgsf&keywords=I18N+L10N&com"
+"ponent=General\n"
+"POT-Creation-Date: 2019-01-25 11:13+0000\n"
+"PO-Revision-Date: 2019-02-22 14:46+0000\n"
+"Last-Translator: Alexandr Toorchyn <ilex@mail.ua>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-05-11 13:39+0000\n"
+"X-Generator: Launchpad (build 18962)\n"
+"X-Project-Style: gnome\n"
+"Language: uk\n"
+
+#: ../gsf/gsf-blob.c:114
+#, c-format
+msgid "Not enough memory to copy %s bytes of data"
+msgstr "Недостатньо пам'яті для копіювання %s байтів даних"
+
+#: ../gsf/gsf-clip-data.c:165
+#, c-format
+msgid "The clip_data is in %s, but it is smaller than at least %s bytes"
+msgstr ""
+"Розмір clip_data становить %s, але це менше за мінімальне значення %s  байт"
+
+#: ../gsf/gsf-clip-data.c:259
+#, c-format
+msgid ""
+"The clip_data is in Windows clipboard format, but it is smaller than the "
+"required 4 bytes."
+msgstr ""
+"Clip_data має формат буфера обміну Windows, але його розмір менший потрібних "
+"4 байти."
+
+#: ../gsf/gsf-clip-data.c:270
+msgid "Windows Metafile format"
+msgstr "Формат Windows Metafile"
+
+#. CF_BITMAP
+#: ../gsf/gsf-clip-data.c:276
+msgid "Windows DIB or BITMAP format"
+msgstr "Формат Windows DIB або BITMAP"
+
+#: ../gsf/gsf-clip-data.c:281
+msgid "Windows Enhanced Metafile format"
+msgstr "Формат для Windows Enhanced Metafile"
+
+#: ../gsf/gsf-infile-msole.c:472
+#, c-format
+msgid "Failed to duplicate input stream"
+msgstr "Не вдалося продублювати вхідний потік"
+
+#: ../gsf/gsf-infile-msole.c:506
+#, c-format
+msgid "No OLE2 signature"
+msgstr "Підпис OLE2 відсутній"
+
+#: ../gsf/gsf-infile-msole.c:538
+#, c-format
+msgid "Unreasonable block sizes"
+msgstr "Безпідставно великі розміри блоків"
+
+#: ../gsf/gsf-infile-msole.c:574
+#, c-format
+msgid "Insufficient memory"
+msgstr "Недостатньо пам'яті"
+
+#: ../gsf/gsf-infile-msole.c:633
+#, c-format
+msgid "Inconsistent block allocation table"
+msgstr "Несумісна таблиця розподілення блоків"
+
+#: ../gsf/gsf-infile-msole.c:641
+#, c-format
+msgid "Problems making block allocation table"
+msgstr "Помилка створення таблиці розподілення блоків"
+
+#: ../gsf/gsf-infile-msole.c:653
+#, c-format
+msgid "Problems reading directory"
+msgstr "Проблема з читанням каталогу"
+
+#: ../gsf/gsf-infile-msole.c:817
+#, c-format
+msgid "Failed to access child"
+msgstr "Не вдалося отримати доступ до дочірнього об’єкту"
+
+#: ../gsf/gsf-infile-msole.c:849
+#, c-format
+msgid "failure reading block"
+msgstr "Помилка читання блоку"
+
+#: ../gsf/gsf-infile-msvba.c:171 ../gsf/gsf-infile-msvba.c:389
+#, c-format
+msgid "Can't find the VBA directory stream"
+msgstr "Не вдалося знайти потік каталогу VBA"
+
+#: ../gsf/gsf-infile-msvba.c:218 ../gsf/gsf-infile-msvba.c:226
+msgid "vba project header problem"
+msgstr "некоректний заголовок vba проекту"
+
+#: ../gsf/gsf-infile-msvba.c:398
+#, c-format
+msgid "No VBA signature"
+msgstr "Підпис VBA відсутній"
+
+#: ../gsf/gsf-infile-msvba.c:409
+#, c-format
+msgid "Unknown VBA version signature 0x%x%x%x%x"
+msgstr "Невідома версія підпису VBA 0x%x%x%x%x"
+
+#: ../gsf/gsf-infile-msvba.c:509
+#, c-format
+msgid "Unable to parse VBA header"
+msgstr "Не вдалося розібрати заголовок VBA"
+
+#: ../gsf/gsf-infile-tar.c:123 ../gsf/gsf-infile-tar.c:228
+#, c-format
+msgid "Invalid tar header"
+msgstr "Некоректний заголовок tar"
+
+#: ../gsf/gsf-infile-tar.c:277
+#, c-format
+msgid "Invalid longname header"
+msgstr "Некоректний заголовок довгого ім’я"
+
+#: ../gsf/gsf-infile-tar.c:284
+#, c-format
+msgid "Failed to read longname"
+msgstr "Не вдалося прочитати довге ім’я"
+
+#: ../gsf/gsf-infile-tar.c:304 ../gsf/gsf-input.c:288
+#, c-format
+msgid "Seek failed"
+msgstr "Помилка пошуку"
+
+#: ../gsf/gsf-infile-tar.c:312
+#, c-format
+msgid "Truncated archive"
+msgstr "Розбитий на частини архів"
+
+#: ../gsf/gsf-infile-tar.c:562 ../gsf/gsf-infile-zip.c:942
+#: ../gsf/gsf-input-gzip.c:514
+msgid "Source"
+msgstr "Джерело"
+
+#: ../gsf/gsf-infile-tar.c:563 ../gsf/gsf-infile-zip.c:943
+msgid "The archive being interpreted"
+msgstr "Архів інтерпретується"
+
+#: ../gsf/gsf-infile-zip.c:453
+#, c-format
+msgid "Error reading zip dirent"
+msgstr "Помилка при читанні zip-структури"
+
+#: ../gsf/gsf-infile-zip.c:464
+#, c-format
+msgid "Broken zip file structure"
+msgstr "Структура zip-файлу пошкоджена"
+
+#: ../gsf/gsf-infile-zip.c:518
+msgid "Error seeking to zip header"
+msgstr "Помилка переходу до заголовку zip"
+
+#: ../gsf/gsf-infile-zip.c:520
+msgid "Error reading zip header"
+msgstr "Помилка при читанні заголовку zip"
+
+#: ../gsf/gsf-infile-zip.c:522
+msgid "Error incorrect zip header"
+msgstr "Некоректний заголовок zip"
+
+#: ../gsf/gsf-infile-zip.c:553
+#, c-format
+msgid "problem uncompressing stream"
+msgstr "проблема з розпакуванням потоку"
+
+#: ../gsf/gsf-infile-zip.c:958 ../gsf/gsf-outfile-zip.c:1096
+msgid "Compression Level"
+msgstr "Рівень стиснення"
+
+#: ../gsf/gsf-infile-zip.c:959 ../gsf/gsf-outfile-zip.c:1097
+msgid "The level of compression used, zero meaning none"
+msgstr "Рівень стиснення що використовується, нуль — без стиснення"
+
+#: ../gsf/gsf-input-bzip.c:48 ../gsf/gsf-output-bzip.c:265
+#, c-format
+msgid "BZ2 support not enabled"
+msgstr "Підтримку BZ2 не увімкнено"
+
+#: ../gsf/gsf-input-bzip.c:63
+#, c-format
+msgid "BZ2 decompress init failed"
+msgstr "Помилка ініціалізації розпаковки BZ2"
+
+#: ../gsf/gsf-input-bzip.c:82
+#, c-format
+msgid "BZ2 decompress failed"
+msgstr "Помилка розпаковки BZ2"
+
+#: ../gsf/gsf-input-bzip.c:99
+#, c-format
+msgid "BZ2 decompress end failed"
+msgstr "Помилка завершення розпаковки BZ2"
+
+#: ../gsf/gsf-input.c:128 ../gsf/gsf-output.c:168
+msgid "Name"
+msgstr "Ім’я"
+
+#: ../gsf/gsf-input.c:129
+msgid "The input's name"
+msgstr "Ім’я джерела"
+
+#: ../gsf/gsf-input.c:143 ../gsf/gsf-output.c:183
+msgid "Size"
+msgstr "Розмір"
+
+#: ../gsf/gsf-input.c:144
+msgid "The input's size"
+msgstr "Розмір джерела"
+
+#: ../gsf/gsf-input.c:158
+msgid "EOF"
+msgstr "EOF"
+
+#: ../gsf/gsf-input.c:159
+msgid "End of file"
+msgstr "Кінець файлу"
+
+#: ../gsf/gsf-input.c:173
+msgid "Remaining"
+msgstr "Залишилося"
+
+#: ../gsf/gsf-input.c:174
+msgid "Amount of data remaining"
+msgstr "Обсяг даних, що залишилися"
+
+#: ../gsf/gsf-input.c:188 ../gsf/gsf-output.c:213
+msgid "Position"
+msgstr "Позиція"
+
+#: ../gsf/gsf-input.c:189
+msgid "The input's current position"
+msgstr "Поточна позиція джерела"
+
+#: ../gsf/gsf-input.c:206 ../gsf/gsf-output.c:232
+msgid "Modification time"
+msgstr "Час модифікації"
+
+#: ../gsf/gsf-input.c:207
+msgid ""
+"An optional GDateTime representing the time the input was last changed"
+msgstr "Необов’язкове представлення часу GDateTime, коли ввід був змінений"
+
+#: ../gsf/gsf-input.c:220 ../gsf/gsf-output.c:247
+msgid "Container"
+msgstr "Контейнер"
+
+#: ../gsf/gsf-input.c:221
+msgid "The parent GsfInfile"
+msgstr "Батьківський GsfInfile"
+
+#: ../gsf/gsf-input.c:281
+#, c-format
+msgid "Duplicate size mismatch"
+msgstr "Інший розмір дубліката"
+
+#: ../gsf/gsf-input-gzip.c:169
+#, c-format
+msgid "Unable to initialize zlib"
+msgstr "Не вдалося ініціалізувати zlib"
+
+#: ../gsf/gsf-input-gzip.c:177
+#, c-format
+msgid "Failed to rewind source"
+msgstr "Не вдалося перемотати джерело"
+
+#: ../gsf/gsf-input-gzip.c:184
+#, c-format
+msgid "Invalid gzip header"
+msgstr "Некоректний заголовок gzip"
+
+#: ../gsf/gsf-input-gzip.c:313
+#, c-format
+msgid "truncated source"
+msgstr "обрізане джерело"
+
+#: ../gsf/gsf-input-gzip.c:330
+#, c-format
+msgid "Failed to read from source"
+msgstr "Не вдалося прочитати з джерела"
+
+#: ../gsf/gsf-input-gzip.c:474
+#, c-format
+msgid "NULL source"
+msgstr "джерело NULL"
+
+#: ../gsf/gsf-input-gzip.c:478
+#, c-format
+msgid "Uncompressed size not set"
+msgstr "Нестиснутий розмір не встановлено"
+
+#: ../gsf/gsf-input-gzip.c:503
+msgid "Raw"
+msgstr "Сирі дані"
+
+#: ../gsf/gsf-input-gzip.c:504
+msgid "Whether to read compressed data with no header and no trailer"
+msgstr "Чи читати стиснуті дані без заголовку та кінцівки"
+
+#: ../gsf/gsf-input-gzip.c:515
+msgid "Where the compressed data comes from"
+msgstr "Звідки поступили стиснуті дані"
+
+#: ../gsf/gsf-input-gzip.c:531
+msgid "Size after decompression"
+msgstr "Розмір після розпаковки"
+
+#: ../gsf/gsf-input-gzip.c:532
+msgid "The source's uncompressed size"
+msgstr "Нестиснутий розмір джерела"
+
+#: ../gsf/gsf-input-memory.c:227 ../gsf/gsf-output-stdio.c:454
+#, c-format
+msgid "%s: Is not a regular file"
+msgstr "%s: не є звичайним файлом"
+
+#: ../gsf/gsf-input-memory.c:240
+#, c-format
+msgid "%s: File too large to be memory mapped"
+msgstr "%s: файл завеликий для розташування у пам’яті"
+
+#: ../gsf/gsf-input-memory.c:284
+#, c-format
+msgid "mmap not supported"
+msgstr "mmap не підтримується"
+
+#: ../gsf/gsf-libxml.c:1577
+msgid "Pretty print"
+msgstr "Гарний друк"
+
+#: ../gsf/gsf-libxml.c:1578
+msgid "Should the output auto-indent elements to make reading easier?"
+msgstr ""
+"Увімкнути автоматичний відступ при виводі елементів для полегшення читання?"
+
+#: ../gsf/gsf-libxml.c:1584 ../gsf/gsf-open-pkg-utils.c:769
+#: ../gsf/gsf-outfile-msole.c:802 ../gsf/gsf-outfile-zip.c:1076
+#: ../gsf/gsf-output-csv.c:333 ../gsf/gsf-output-iconv.c:276
+msgid "Sink"
+msgstr "Отримувач"
+
+#: ../gsf/gsf-libxml.c:1585 ../gsf/gsf-outfile-msole.c:803
+msgid "The destination for writes"
+msgstr "Пункт призначення запису"
+
+#: ../gsf/gsf-msole-utils.c:318
+#, c-format
+msgid ""
+"Missing data when reading the %s property; got %s bytes, but %s bytes at "
+"least are needed."
+msgstr ""
+"При читанні властивості %s не вистачило даних, отримано %s байт, але "
+"потрібно %s байтів."
+
+#: ../gsf/gsf-msole-utils.c:369
+#, c-format
+msgid ""
+"Corrupt data in the VT_CF property; clipboard data length must be at least 4 "
+"bytes, but the data says it only has %s bytes available."
+msgstr ""
+"Пошкоджено дані у властивості VT_CF ; розмір даних буфера обміну повинен "
+"бути щонайменше 4 байти, але згідно з даними доступно лише %s байтів."
+
+#: ../gsf/gsf-msole-utils.c:1145 ../gsf/gsf-msole-utils.c:1189
+#, c-format
+msgid "Unable to read MS property stream header"
+msgstr "Не вдалося прочитати заголовок потоку властивості MS"
+
+#: ../gsf/gsf-msole-utils.c:1172
+#, c-format
+msgid "Invalid MS property stream header"
+msgstr "Некоректний заголовок потоку властивості MS"
+
+#: ../gsf/gsf-msole-utils.c:1219 ../gsf/gsf-msole-utils.c:1257
+#: ../gsf/gsf-msole-utils.c:1281
+#, c-format
+msgid "Invalid MS property section"
+msgstr "Некоректна секція властивості MS"
+
+#: ../gsf/gsf-msole-utils.c:1238 ../gsf/gsf-msole-utils.c:1242
+#, c-format
+msgid "Invalid MS property stream header or file truncated"
+msgstr "Некоректний заголовок потоку властивості MS або файл обрізаний"
+
+#: ../gsf/gsf-opendoc-utils.c:362
+#, c-format
+msgid "Property \"%s\" used for multiple types!"
+msgstr "Властивість «%s» використовується для декількох типів!"
+
+#: ../gsf/gsf-opendoc-utils.c:894
+msgid "ODF version"
+msgstr "Версія ODF"
+
+#: ../gsf/gsf-opendoc-utils.c:895
+msgid "The ODF version this object is targeting as an integer like 100"
+msgstr ""
+"Версія ODF даного об’єкту задається у вигляді цілого числа, наприклад 100"
+
+#: ../gsf/gsf-open-pkg-utils.c:386
+#, c-format
+msgid "Unable to find part id='%s' for '%s'"
+msgstr "Не вдалося знайти частину id=«%s» для «%s»"
+
+#: ../gsf/gsf-open-pkg-utils.c:413
+#, c-format
+msgid "Unable to find part with type='%s' for '%s'"
+msgstr "Не вдалося знайти частину з type=«%s» для «%s»"
+
+#: ../gsf/gsf-open-pkg-utils.c:443
+#, c-format
+msgid "Missing id for part in '%s'"
+msgstr "Бракує ідентифікатора в «%s»"
+
+#: ../gsf/gsf-open-pkg-utils.c:452
+#, c-format
+msgid "Part '%s' in '%s' from '%s' is corrupt!"
+msgstr "Частину  «%s» в «%s» з  «%s» пошкоджено!"
+
+#: ../gsf/gsf-open-pkg-utils.c:770
+msgid "The GsfOutput that stores the Open Package content"
+msgstr "Об’єкт GsfOutput, зберігаючий вміст Open Package"
+
+#: ../gsf/gsf-open-pkg-utils.c:776
+msgid "Content type"
+msgstr "Тип вмісту"
+
+#: ../gsf/gsf-open-pkg-utils.c:777
+msgid "The content type stored in the root [Content_Types].xml file"
+msgstr "Тип вмісту зберігається у кореневому файлі [Content_Types].xml"
+
+#: ../gsf/gsf-open-pkg-utils.c:783
+msgid "Is Directory"
+msgstr "Тека"
+
+#: ../gsf/gsf-open-pkg-utils.c:784
+msgid "Can the outfile have children"
+msgstr "Чи може вихідний файл мати вкладені об’єкти"
+
+#: ../gsf/gsf-outfile-msole.c:813
+msgid "Small block size"
+msgstr "Маленький розмір блоку"
+
+#: ../gsf/gsf-outfile-msole.c:814
+msgid "The size of the OLE's small blocks"
+msgstr "Розмір маленьких блоків OLE"
+
+#: ../gsf/gsf-outfile-msole.c:825
+msgid "Big block size"
+msgstr "Великий розмір блоку"
+
+#: ../gsf/gsf-outfile-msole.c:826
+msgid "The size of the OLE's big blocks"
+msgstr "Розмір великих блоків OLE"
+
+#: ../gsf/gsf-outfile-zip.c:1077
+msgid "Where the archive is written"
+msgstr "Де записано архів"
+
+#: ../gsf/gsf-outfile-zip.c:1086
+msgid "Entry Name"
+msgstr "Ім'я запису"
+
+#: ../gsf/gsf-outfile-zip.c:1087
+msgid "The filename of this member in the archive without path"
+msgstr "Ім’я файлу цієї частини архіву без шляху"
+
+#: ../gsf/gsf-outfile-zip.c:1107
+msgid "Deflate Level"
+msgstr "Рівень стиснення"
+
+#: ../gsf/gsf-outfile-zip.c:1108
+msgid ""
+"The level of deflate compression used, zero meaning none and -1 meaning the "
+"zlib default"
+msgstr ""
+"Використовуваний рівень стиснення; нуль — без стиснення, -1 — zlib типово"
+
+#: ../gsf/gsf-outfile-zip.c:1119
+msgid "Zip64"
+msgstr "Zip64"
+
+#: ../gsf/gsf-outfile-zip.c:1120
+msgid "Whether to use zip64 format, -1 meaning automatic"
+msgstr "Чи використовувати формат zip64; -1 — автоматичний вибір"
+
+#: ../gsf/gsf-output-bzip.c:76
+#, c-format
+msgid "Unable to initialize BZ2 library"
+msgstr "Не вдалося ініціалізувати бібліотеку BZ2"
+
+#: ../gsf/gsf-output.c:169
+msgid "The output's name"
+msgstr "Назва виводу"
+
+#: ../gsf/gsf-output.c:184
+msgid "The output's size"
+msgstr "Розмір виводу"
+
+#: ../gsf/gsf-output.c:198
+msgid "Is Closed"
+msgstr "Закрито"
+
+#: ../gsf/gsf-output.c:199
+msgid "Whether the output is closed"
+msgstr "Чи закрито вивід"
+
+#: ../gsf/gsf-output.c:214
+msgid "The output's current position"
+msgstr "Поточна позиція виводу"
+
+#: ../gsf/gsf-output.c:233
+msgid ""
+"An optional GDateTime representing the time the output was last changed"
+msgstr "Необов’язкове представлення часу GDateTime, коли вивід був змінений"
+
+#: ../gsf/gsf-output.c:248
+msgid "The parent GsfOutfile"
+msgstr "Батьківський GsfOutfile"
+
+#: ../gsf/gsf-output-csv.c:334
+msgid "Where the formatted output is written"
+msgstr "Місце запису відформатованого виводу"
+
+#: ../gsf/gsf-output-csv.c:343
+msgid "Quote"
+msgstr "Цитата"
+
+#: ../gsf/gsf-output-csv.c:344
+msgid "The string used for quoting fields"
+msgstr "Рядок, що використовується для цитування полів"
+
+#: ../gsf/gsf-output-csv.c:354
+msgid "Quoting Mode"
+msgstr "Режим цитування"
+
+#: ../gsf/gsf-output-csv.c:355
+msgid "When to quote fields"
+msgstr "Коли цитувати поля"
+
+#: ../gsf/gsf-output-csv.c:366
+msgid "Quoting Triggers"
+msgstr "Тригери цитування"
+
+#: ../gsf/gsf-output-csv.c:367
+msgid "Characters that cause field quoting"
+msgstr "Символи, що приводять до цитування поля"
+
+#: ../gsf/gsf-output-csv.c:376
+msgid "Quoting On Whitespace"
+msgstr "Цитування пробільних символів"
+
+#: ../gsf/gsf-output-csv.c:377
+msgid "Does initial or terminal whitespace force quoting?"
+msgstr ""
+"Використовувати примусове цитування для початкових або термінальних \" "
+"\"пробільних символів?"
+
+#: ../gsf/gsf-output-csv.c:386
+msgid "Separator"
+msgstr "Розділювач"
+
+#: ../gsf/gsf-output-csv.c:387
+msgid "The field separator"
+msgstr "Розділювач полів"
+
+#: ../gsf/gsf-output-csv.c:397
+msgid "end-of-line"
+msgstr ""
+
+#: ../gsf/gsf-output-csv.c:398
+msgid "The end-of-line marker"
+msgstr "Маркер кінця рядка"
+
+#: ../gsf/gsf-output-iconv.c:277
+msgid "Where the converted data is written"
+msgstr "Куди записано перетворені дані"
+
+#: ../gsf/gsf-output-iconv.c:287
+msgid "Input Charset"
+msgstr "Вхідне кодування"
+
+#: ../gsf/gsf-output-iconv.c:288
+msgid "The character set to convert from"
+msgstr "Набір символів для перетворення"
+
+#: ../gsf/gsf-output-iconv.c:297
+msgid "Output Charset"
+msgstr "Вихідне кодування"
+
+#: ../gsf/gsf-output-iconv.c:298
+msgid "The character set to convert to"
+msgstr "Цільове кодування для перетворення"
+
+#: ../gsf/gsf-output-iconv.c:314
+msgid "Fallback"
+msgstr "Запасний рядок"
+
+#: ../gsf/gsf-output-iconv.c:315
+msgid "The string to use for invalid characters"
+msgstr "Рядок, що використовується для неприпустимих символів"
+
+#: ../thumbnailer/main.c:301
+msgid "Options"
+msgstr "Параметри"
+
+#: ../tools/gsf.c:19
+msgid "Display program version"
+msgstr "Показати версію програми"
+
+#: ../tools/gsf.c:49
+#, c-format
+msgid "%s: Failed to open %s: %s\n"
+msgstr "%s: не вдалося відкрити %s: %s\n"
+
+#: ../tools/gsf.c:76
+#, c-format
+msgid "%s: Failed to recognize %s as an archive\n"
+msgstr "%s: не вдалося розпізнати %s як архів\n"
+
+#: ../tools/gsf.c:115
+#, c-format
+msgid "Available subcommands are...\n"
+msgstr "Доступні підкоманди…\n"
+
+#: ../tools/gsf.c:116
+#, c-format
+msgid "* cat        output one or more files in archive\n"
+msgstr "* cat        виводить один або декілька файлів в архіві\n"
+
+#: ../tools/gsf.c:117
+#, c-format
+msgid "* dump       dump one or more files in archive as hex\n"
+msgstr ""
+"* dump       дамп одного або декількох файлів в архіві в шістнадцятковому "
+"вигляді\n"
+
+#: ../tools/gsf.c:118
+#, c-format
+msgid "* help       list subcommands\n"
+msgstr "* help       список підкоманд\n"
+
+#: ../tools/gsf.c:119
+#, c-format
+msgid "* list       list files in archive\n"
+msgstr "* list       список файлів в архіві\n"
+
+#: ../tools/gsf.c:120
+#, c-format
+msgid "* listprops  list document properties in archive\n"
+msgstr "* listprops  список властивостей документа в архіві\n"
+
+#: ../tools/gsf.c:121
+#, c-format
+msgid "* props      print specified document properties\n"
+msgstr "* props      показ заданих властивостей документа\n"
+
+#: ../tools/gsf.c:122
+#, c-format
+msgid "* createole  create OLE archive\n"
+msgstr "* createole створити OLE-архів\n"
+
+#: ../tools/gsf.c:123
+#, c-format
+msgid "* createzip  create ZIP archive\n"
+msgstr "* createzip створити ZIP-архів\n"
+
+#: ../tools/gsf.c:315
+#, c-format
+msgid "No property named %s\n"
+msgstr "Немає властивості з назвою %s\n"
+
+#: ../tools/gsf.c:375
+#, c-format
+msgid "%s: Error processing file %s: %s\n"
+msgstr "%s: Помилка обробки файлу %s: %s\n"
+
+#: ../tools/gsf.c:530
+msgid "SUBCOMMAND ARCHIVE..."
+msgstr "ПІДКОМАНДА АРХІВ…"
+
+#: ../tools/gsf.c:537
+#, c-format
+msgid ""
+"%s\n"
+"Run '%s --help' to see a full list of available command line options.\n"
+msgstr ""
+"%s                                                                           "
+"                                    Відкрийте «%s --help» для виводу повного "
+"списку доступних параметрів командного рядка.\n"
+
+#: ../tools/gsf.c:544
+#, c-format
+msgid "gsf version %d.%d.%d\n"
+msgstr "Версія GSF %d.%d.%d\n"
+
+#: ../tools/gsf.c:550
+#, c-format
+msgid "Usage: %s %s\n"
+msgstr "Використання:  %s %s\n"
+
+#: ../tools/gsf.c:575
+#, c-format
+msgid "Run '%s help' to see a list of subcommands.\n"
+msgstr "Запустіть '%s help' щоб побачити список підкоманд.\n"
