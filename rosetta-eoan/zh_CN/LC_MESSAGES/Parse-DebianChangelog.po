@@ -1,0 +1,199 @@
+# Simplified Chinese translation for libparse-debianchangelog-perl
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the libparse-debianchangelog-perl package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libparse-debianchangelog-perl\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2018-10-29 20:17+0000\n"
+"PO-Revision-Date: 2009-09-29 09:23+0000\n"
+"Last-Translator: Tao Wei <weitao1979@gmail.com>\n"
+"Language-Team: Simplified Chinese <zh_CN@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-05-11 12:03+0000\n"
+"X-Generator: Launchpad (build 18962)\n"
+
+#: ../bin/parsechangelog:146
+#, perl-format
+msgid "changelog format %s not supported"
+msgstr "不支持更新日志格式 %s"
+
+#: ../bin/parsechangelog:151
+msgid "ignored option -L"
+msgstr "忽略的选项 -L"
+
+#: ../bin/parsechangelog:159
+#, perl-format
+msgid "output format %s not supported"
+msgstr "不支持输出格式 %s"
+
+#: ../bin/parsechangelog:168
+msgid "Copyright (C) 2005 by Frank Lichtenheld\n"
+msgstr "版权所有(C) 2005  Frank Lichtenheld\n"
+
+#: ../bin/parsechangelog:169
+msgid ""
+"This is free software; see the GNU General Public Licence version 2 or later "
+"for copying conditions. There is NO warranty."
+msgstr "这是自由软件；关于复制请查看 GNU General Public Licence 版本2 或更新版本。没有任何质量担保。"
+
+#: ../bin/parsechangelog:200
+msgid "too many arguments"
+msgstr "参数过多"
+
+#: ../bin/parsechangelog:204
+#, perl-format
+msgid "more than one file specified (%s and %s)"
+msgstr "指定了超过一个文件(%s 和 %s)"
+
+#: ../bin/parsechangelog:215 ../bin/parsechangelog:219
+#, perl-format
+msgid "fatal error occured while parsing %s"
+msgstr "解析 %s 时出现致使错误"
+
+#: ../lib/Parse/DebianChangelog.pm:219
+#, perl-format
+msgid ""
+"WARN: %s(l%s): %s\n"
+"LINE: %s\n"
+msgstr ""
+"警告：%s(l%s): %s\n"
+"行：%s\n"
+
+#: ../lib/Parse/DebianChangelog.pm:221
+#, perl-format
+msgid "WARN: %s(l%s): %s\n"
+msgstr "警告：%s(l%s): %s\n"
+
+#: ../lib/Parse/DebianChangelog.pm:232
+#, perl-format
+msgid "FATAL: %s"
+msgstr "致命：%s"
+
+#: ../lib/Parse/DebianChangelog.pm:281
+#, perl-format
+msgid "can't open file %s: %s"
+msgstr "无法打开文件 %s：%s"
+
+#: ../lib/Parse/DebianChangelog.pm:286
+#, perl-format
+msgid "can't lock file %s: %s"
+msgstr "无法锁定文件 %s: %s"
+
+#: ../lib/Parse/DebianChangelog.pm:293
+#, perl-format
+msgid "can't load IO::String: %s"
+msgstr "无法载入 IO::String: %s"
+
+#: ../lib/Parse/DebianChangelog.pm:304
+msgid "handle is not open"
+msgstr ""
+
+#: ../lib/Parse/DebianChangelog.pm:314
+msgid "no changelog file specified"
+msgstr "没有指定更新日志文件"
+
+#: ../lib/Parse/DebianChangelog.pm:336
+#, perl-format
+msgid "found start of entry where expected %s"
+msgstr ""
+
+#: ../lib/Parse/DebianChangelog.pm:358
+#, perl-format
+msgid "bad key-value after `;': `%s'"
+msgstr "在 `;' 之后的键值无效: `%s'"
+
+#: ../lib/Parse/DebianChangelog.pm:362
+#, perl-format
+msgid "repeated key-value %s"
+msgstr "重复的键值 %s"
+
+#: ../lib/Parse/DebianChangelog.pm:366
+msgid "badly formatted urgency value"
+msgstr ""
+
+#: ../lib/Parse/DebianChangelog.pm:377
+#, perl-format
+msgid "unknown key-value key %s - copying to XS-%s"
+msgstr ""
+
+#: ../lib/Parse/DebianChangelog.pm:408
+msgid "badly formatted heading line"
+msgstr ""
+
+#: ../lib/Parse/DebianChangelog.pm:412
+#, perl-format
+msgid "found trailer where expected %s"
+msgstr ""
+
+#: ../lib/Parse/DebianChangelog.pm:416 ../lib/Parse/DebianChangelog.pm:433
+msgid "badly formatted trailer line"
+msgstr ""
+
+#: ../lib/Parse/DebianChangelog.pm:426
+#, perl-format
+msgid "couldn't parse date %s"
+msgstr "无法解析日期 %s"
+
+#: ../lib/Parse/DebianChangelog.pm:442 ../lib/Parse/DebianChangelog.pm:457
+#, perl-format
+msgid "found change data where expected %s"
+msgstr ""
+
+#: ../lib/Parse/DebianChangelog.pm:475
+#, perl-format
+msgid "found blank line where expected %s"
+msgstr ""
+
+#: ../lib/Parse/DebianChangelog.pm:479 ../lib/Parse/DebianChangelog.pm:494
+msgid "unrecognised line"
+msgstr "未识别的行"
+
+#: ../lib/Parse/DebianChangelog.pm:503
+#, perl-format
+msgid "found eof where expected %s"
+msgstr ""
+
+#: ../lib/Parse/DebianChangelog.pm:514
+#, perl-format
+msgid "can't close file %s: %s"
+msgstr "无法关闭文件 %s：%s"
+
+#: ../lib/Parse/DebianChangelog.pm:558
+msgid "you can't combine 'count' or 'offset' with any other range option"
+msgstr ""
+
+#: ../lib/Parse/DebianChangelog.pm:562
+msgid "you can only specify one of 'from' and 'since'"
+msgstr "您只能指定 'from' 和 'since' 之一。"
+
+#: ../lib/Parse/DebianChangelog.pm:566
+msgid "you can only specify one of 'to' and 'until'"
+msgstr "您只能指定 'to' 和 'until' 之一。"
+
+#: ../lib/Parse/DebianChangelog.pm:570
+msgid "'since' option specifies most recent version"
+msgstr ""
+
+#: ../lib/Parse/DebianChangelog.pm:574
+msgid "'until' option specifies oldest version"
+msgstr ""
+
+#: ../lib/Parse/DebianChangelog/Util.pm:100
+#, perl-format
+msgid "field %s has newline then non whitespace >%s<"
+msgstr ""
+
+#: ../lib/Parse/DebianChangelog/Util.pm:102
+#, perl-format
+msgid "field %s has blank lines >%s<"
+msgstr ""
+
+#: ../lib/Parse/DebianChangelog/Util.pm:104
+#, perl-format
+msgid "field %s has trailing newline >%s<"
+msgstr ""
