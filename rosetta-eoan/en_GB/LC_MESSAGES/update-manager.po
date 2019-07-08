@@ -1,0 +1,671 @@
+# English (British) translation.
+# Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Abigail Brady <morwen@evilmagic.org>, Bastien Nocera <hadess@hadess.net>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: update-manager\n"
+"Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
+"POT-Creation-Date: 2019-04-08 21:22+0000\n"
+"PO-Revision-Date: 2019-04-08 23:22+0000\n"
+"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2019-05-11 11:37+0000\n"
+"X-Generator: Launchpad (build 18962)\n"
+"Language: \n"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:69
+msgid "Checking for updates…"
+msgstr "Checking for updates…"
+
+#: ../UpdateManager/backend/InstallBackendAptdaemon.py:90
+msgid "Installing updates…"
+msgstr "Installing updates…"
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:40
+msgid "Please wait, this can take some time."
+msgstr "Please wait, this can take some time."
+
+#: ../UpdateManager/backend/InstallBackendSynaptic.py:42
+msgid "Update is complete"
+msgstr "Update is complete"
+
+#: ../UpdateManager/ChangelogViewer.py:83
+msgid "Open Link in Browser"
+msgstr "Open Link in Browser"
+
+#: ../UpdateManager/ChangelogViewer.py:87
+msgid "Copy Link to Clipboard"
+msgstr "Copy Link to Clipboard"
+
+#: ../UpdateManager/Dialogs.py:126
+msgid "Settings…"
+msgstr "Settings…"
+
+#: ../UpdateManager/Dialogs.py:162
+msgid ""
+"<b>Tip:</b> You can use Livepatch to keep your computer more secure between "
+"restarts."
+msgstr ""
+"<b>Tip:</b> You can use Livepatch to keep your computer more secure between "
+"restarts."
+
+#: ../UpdateManager/Dialogs.py:165
+msgid "Settings & Livepatch…"
+msgstr "Settings & Livepatch…"
+
+#: ../UpdateManager/Dialogs.py:179
+#, python-format
+msgid "%d Livepatch update applied since the last restart."
+msgid_plural "%d Livepatch updates applied since the last restart."
+msgstr[0] "%d Livepatch update applied since the last restart."
+msgstr[1] "%d Livepatch updates applied since the last restart."
+
+#: ../UpdateManager/Dialogs.py:187
+#, python-format
+msgid "%d Livepatch update failed to apply since the last restart."
+msgid_plural "%d Livepatch updates failed to apply since the last restart."
+msgstr[0] "%d Livepatch update failed to apply since the last restart."
+msgstr[1] "%d Livepatch updates failed to apply since the last restart."
+
+#: ../UpdateManager/Dialogs.py:209 ../UpdateManager/UpdateManager.py:263
+msgid "You stopped the check for updates."
+msgstr "You stopped the check for updates."
+
+#: ../UpdateManager/Dialogs.py:211
+msgid "_Check Again"
+msgstr "_Check Again"
+
+#: ../UpdateManager/Dialogs.py:223
+msgid "No software updates are available."
+msgstr "No software updates are available."
+
+#: ../UpdateManager/Dialogs.py:225 ../UpdateManager/Dialogs.py:236
+msgid "The software on this computer is up to date."
+msgstr "The software on this computer is up-to-date."
+
+#. Translators: these are Ubuntu version names like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:238
+#, python-format
+msgid "However, %s %s is now available (you have %s)."
+msgstr "However, %s %s is now available (you have %s)."
+
+#: ../UpdateManager/Dialogs.py:243
+msgid "Upgrade…"
+msgstr "Upgrade…"
+
+#: ../UpdateManager/Dialogs.py:263
+msgid "New important security and hardware support update."
+msgstr "New important update for security and hardware support."
+
+#: ../UpdateManager/Dialogs.py:271
+msgid "_Install…"
+msgstr "_Install…"
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:283
+#, python-format
+msgid "Software updates are no longer provided for %s %s."
+msgstr "Software updates are no longer provided for %s %s."
+
+#. Translators: this is an Ubuntu version name like "Ubuntu 12.04"
+#: ../UpdateManager/Dialogs.py:287
+#, python-format
+msgid "To stay secure, you should upgrade to %s %s."
+msgstr "To stay secure, you should upgrade to %s %s."
+
+#: ../UpdateManager/Dialogs.py:300
+msgid "Not all updates can be installed"
+msgstr "Not all updates can be installed"
+
+#: ../UpdateManager/Dialogs.py:302
+msgid ""
+"Run a partial upgrade, to install as many updates as possible.\n"
+"\n"
+"    This can be caused by:\n"
+"     * A previous upgrade which didn't complete\n"
+"     * Problems with some of the installed software\n"
+"     * Unofficial software packages not provided by Ubuntu\n"
+"     * Normal changes of a pre-release version of Ubuntu"
+msgstr ""
+"Run a partial upgrade, to install as many updates as possible.\n"
+"\n"
+"    This can be caused by:\n"
+"     * A previous upgrade which didn't complete\n"
+"     * Problems with some of the installed software\n"
+"     * Unofficial software packages not provided by Ubuntu\n"
+"     * Normal changes of a pre-release version of Ubuntu"
+
+#: ../UpdateManager/Dialogs.py:310
+msgid "_Partial Upgrade"
+msgstr "_Partial Upgrade"
+
+#: ../UpdateManager/Dialogs.py:311
+msgid "_Continue"
+msgstr "_Continue"
+
+#: ../UpdateManager/Dialogs.py:347
+msgid "_Try Again"
+msgstr "_Try Again"
+
+#: ../UpdateManager/Dialogs.py:361
+msgid "The computer needs to restart to finish installing updates."
+msgstr "Please restart the computer to begin using your updated software."
+
+#: ../UpdateManager/Dialogs.py:363
+msgid "Restart _Later"
+msgstr "Restart _Later"
+
+#: ../UpdateManager/Dialogs.py:365
+msgid "_Restart Now"
+msgstr "_Restart Now"
+
+#. Basic GTK+ parameters
+#: ../UpdateManager/UpdateManager.py:92 ../data/update-manager.desktop.in.h:1
+#: ../data/update-manager.appdata.xml.in.h:1
+msgid "Software Updater"
+msgstr "Software Updater"
+
+#: ../UpdateManager/UpdateManager.py:261
+msgid "Some software couldn’t be checked for updates."
+msgstr "Some software could not be checked for updates."
+
+#: ../UpdateManager/UpdateManager.py:264
+msgid "Updated software is available from a previous check."
+msgstr "Updated software is available from a previous check."
+
+#. we assert a clean cache
+#: ../UpdateManager/UpdateManager.py:368
+msgid "Software index is broken"
+msgstr "Software index is broken"
+
+#: ../UpdateManager/UpdateManager.py:369
+msgid ""
+"It is impossible to install or remove any software. Please use the package "
+"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
+"this issue at first."
+msgstr ""
+"It is impossible to install or remove any software right now. Please use the "
+"package manager \"Synaptic\" or run \"sudo apt-get install -f\" in a "
+"terminal to fix this issue first."
+
+#: ../UpdateManager/UpdateManager.py:375
+msgid "Could not initialize the package information"
+msgstr "Could not initialise the package information"
+
+#: ../UpdateManager/UpdateManager.py:376
+msgid ""
+"An unresolvable problem occurred while initializing the package "
+"information.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"An unresolvable problem occurred while initialising the package "
+"information.\n"
+"\n"
+"Please report this bug for the 'update-manager' package and try to include "
+"the following error message:\n"
+
+#: ../UpdateManager/UpdateManager.py:393
+msgid "Could not calculate the upgrade"
+msgstr "Could not determine the upgrade"
+
+#: ../UpdateManager/UpdateManager.py:394
+msgid ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+msgstr ""
+"An unresolvable problem occurred while calculating the upgrade.\n"
+"\n"
+"Please report this bug against the 'update-manager' package and include the "
+"following error message:\n"
+
+#: ../UpdateManager/UpdatesAvailable.py:252
+msgid "Install Now"
+msgstr "Install Now"
+
+#: ../UpdateManager/UpdatesAvailable.py:285
+msgid "Install or remove"
+msgstr "Install or remove"
+
+#: ../UpdateManager/UpdatesAvailable.py:319
+msgid "Download"
+msgstr "Download"
+
+#: ../UpdateManager/UpdatesAvailable.py:378
+msgid "_Remind Me Later"
+msgstr "_Remind Me Later"
+
+#. upload_archive = version_match.group(2).strip()
+#: ../UpdateManager/UpdatesAvailable.py:515
+#, python-format
+msgid "Version %s: \n"
+msgstr "Version %s: \n"
+
+#: ../UpdateManager/UpdatesAvailable.py:578
+msgid ""
+"No network connection detected, you can not download changelog information."
+msgstr ""
+"No network connection detected, you can not download changelog information."
+
+#: ../UpdateManager/UpdatesAvailable.py:588
+msgid "Downloading list of changes..."
+msgstr "Downloading list of changes..."
+
+#: ../UpdateManager/UpdatesAvailable.py:632
+msgid "_Deselect All"
+msgstr "_Deselect All"
+
+#: ../UpdateManager/UpdatesAvailable.py:638
+msgid "Select _All"
+msgstr "Select _All"
+
+#: ../UpdateManager/UpdatesAvailable.py:734
+#, python-format
+msgid "%s will be downloaded."
+msgstr "%s will be downloaded."
+
+#: ../UpdateManager/UpdatesAvailable.py:748
+msgid "The update has already been downloaded."
+msgid_plural "The updates have already been downloaded."
+msgstr[0] "The update has already been downloaded."
+msgstr[1] "The updates have already been downloaded."
+
+#: ../UpdateManager/UpdatesAvailable.py:754
+msgid "There are no updates to install."
+msgstr "There are no updates to install."
+
+#: ../UpdateManager/UpdatesAvailable.py:763
+msgid "Unknown download size."
+msgstr "Unknown download size."
+
+#: ../UpdateManager/UpdatesAvailable.py:790
+#, python-format
+msgid ""
+"Updated software has been issued since %s %s was released. Do you want to "
+"install it now?"
+msgstr ""
+"Updated software has been issued since %s %s was released. Do you want to "
+"install it now?"
+
+#: ../UpdateManager/UpdatesAvailable.py:795
+msgid ""
+"Updated software is available for this computer. Do you want to install it "
+"now?"
+msgstr ""
+"Updated software is available for this computer. Do you want to install it "
+"now?"
+
+#: ../UpdateManager/UpdatesAvailable.py:798
+msgid ""
+"The computer also needs to restart to finish installing previous updates."
+msgstr ""
+"The computer also needs to restart to finish installing previous updates."
+
+#. print("on_button_install_clicked")
+#: ../UpdateManager/UpdatesAvailable.py:828
+msgid "Not enough free disk space"
+msgstr "Not enough free disk space"
+
+#: ../UpdateManager/UpdatesAvailable.py:829
+#, python-format
+msgid ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. %s"
+msgstr ""
+"The upgrade needs a total of %s free space on disk '%s'. Please free at "
+"least an additional %s of disk space on '%s'. %s"
+
+#. specific ways to resolve lack of free space
+#: ../UpdateManager/UpdatesAvailable.py:834
+msgid ""
+"Remove temporary packages of former installations using 'sudo apt clean'."
+msgstr ""
+"Remove temporary packages of former installations using 'sudo apt clean'."
+
+#: ../UpdateManager/UpdatesAvailable.py:836
+msgid ""
+"You can remove old kernels using 'sudo apt autoremove', and you could also "
+"set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of "
+"your initramfs."
+msgstr ""
+"You can remove old kernels using 'sudo apt autoremove', and you could also "
+"set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of "
+"your initramfs."
+
+#: ../UpdateManager/UpdatesAvailable.py:841
+msgid ""
+"Empty your trash and remove temporary packages of former installations using "
+"'sudo apt clean'."
+msgstr ""
+"Empty your rubbish and remove temporary packages of former installations "
+"using 'sudo apt clean'."
+
+#: ../UpdateManager/UpdatesAvailable.py:844
+msgid "Reboot to clean up files in /tmp."
+msgstr "Reboot to clean up files in /tmp."
+
+#: ../UpdateManager/UpdatesAvailable.py:886
+msgid "Connecting..."
+msgstr "Connecting..."
+
+#: ../UpdateManager/UpdatesAvailable.py:902
+msgid "You may not be able to check for updates or download new updates."
+msgstr "You may not be able to check for updates or download new updates."
+
+#: ../UpdateManager/UpdatesAvailable.py:1054
+msgid "Security updates"
+msgstr "Security updates"
+
+#: ../UpdateManager/UpdatesAvailable.py:1057
+msgid "Other updates"
+msgstr "Other updates"
+
+#: ../UpdateManager/UpdatesAvailable.py:1059
+msgid "Updates"
+msgstr "Updates"
+
+#: ../UpdateManager/UpdatesAvailable.py:1064
+msgid "Unused kernel updates to be removed"
+msgstr "Unused kernel updates to be removed"
+
+#: ../UpdateManager/UnitySupport.py:70
+msgid "Install All Available Updates"
+msgstr "Install All Available Updates"
+
+#: ../UpdateManager/Core/MyCache.py:418
+msgid "This update does not come from a source that supports changelogs."
+msgstr "This update does not come from a source that supports changelogs."
+
+#: ../UpdateManager/Core/MyCache.py:424 ../UpdateManager/Core/MyCache.py:459
+msgid ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+msgstr ""
+"Failed to download the list of changes. \n"
+"Please check your Internet connection."
+
+#: ../UpdateManager/Core/MyCache.py:431
+#, python-format
+msgid ""
+"Changes for %s versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+msgstr ""
+"Changes for %s versions:\n"
+"Installed version: %s\n"
+"Available version: %s\n"
+"\n"
+
+#: ../UpdateManager/Core/MyCache.py:445
+#, python-format
+msgid ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"The changelog does not contain any relevant changes.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+
+#: ../UpdateManager/Core/MyCache.py:452
+#, python-format
+msgid ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+msgstr ""
+"The list of changes is not available yet.\n"
+"\n"
+"Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+"until the changes become available or try again later."
+
+#. Translators: the %s is a distro name, like 'Ubuntu' and 'base' as in
+#. the core components and packages.
+#: ../UpdateManager/Core/UpdateList.py:174
+#, python-format
+msgid "%s base"
+msgstr "%s base"
+
+#. TRANSLATORS: download size of small updates, e.g. "250 kB"
+#: ../UpdateManager/Core/utils.py:483
+#, python-format
+msgid "%(size).0f kB"
+msgid_plural "%(size).0f kB"
+msgstr[0] "%(size).0f kB"
+msgstr[1] "%(size).0f kB"
+
+#. TRANSLATORS: download size of updates, e.g. "2.3 MB"
+#: ../UpdateManager/Core/utils.py:487
+#, python-format
+msgid "%.1f MB"
+msgstr "%.1f MB"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:1
+msgid "updates"
+msgstr "updates"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:2
+msgid "Changes"
+msgstr "Changes"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:3
+msgid "Description"
+msgstr "Description"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:4
+msgid "Technical description"
+msgstr "Technical description"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:5
+msgid "Details of updates"
+msgstr "Details of updates"
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:6
+msgid "The computer will need to restart."
+msgstr "The computer will need to restart."
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:7
+msgid ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+msgstr ""
+"You are connected via roaming and may be charged for the data consumed by "
+"this update."
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:8
+msgid ""
+"You may want to wait until you’re not using a mobile broadband connection."
+msgstr ""
+"You may want to wait until you’re not using a mobile broadband connection."
+
+#: ../data/gtkbuilder/UpdateManager.ui.h:9
+msgid "It’s safer to connect the computer to AC power before updating."
+msgstr "It’s safer to connect the computer to mains power before updating."
+
+#: ../data/update-manager.desktop.in.h:2
+msgid "Software Updates"
+msgstr "Software Updates"
+
+#: ../data/update-manager.desktop.in.h:3
+#: ../data/update-manager.appdata.xml.in.h:2
+msgid "Show and install available updates"
+msgstr "Show and install available updates"
+
+#: ../data/update-manager.appdata.xml.in.h:3
+msgid ""
+"Software Updater checks for updates using apt and let you choose which "
+"updates to install."
+msgstr ""
+"Software Updater checks for updates using apt and lets you choose which "
+"updates to install."
+
+#: ../update-manager:71
+msgid "Show version and exit"
+msgstr "Show version and exit"
+
+#: ../update-manager:74
+msgid "Directory that contains the data files"
+msgstr "Directory that contains the data files"
+
+#: ../update-manager:77
+msgid "Check if a new Ubuntu release is available"
+msgstr "Check if a new Ubuntu release is available"
+
+#: ../update-manager:80
+msgid ""
+"If using the latest supported release, upgrade to the development release"
+msgstr ""
+"If using the latest supported release, upgrade to the development release"
+
+#: ../update-manager:84
+msgid "Upgrade using the latest proposed version of the release upgrader"
+msgstr "Upgrade using the latest proposed version of the release upgrader"
+
+#: ../update-manager:91
+msgid "Do not focus on map when starting"
+msgstr "Do not focus on map when starting"
+
+#: ../update-manager:94
+msgid "Do not check for updates when starting"
+msgstr "Do not check for updates when starting"
+
+#: ../update-manager:96
+msgid "Show debug messages"
+msgstr "Show debug messages"
+
+#: ../ubuntu-support-status:68
+msgid "Community"
+msgstr "Community"
+
+#: ../ubuntu-support-status:109
+msgid "Show unsupported packages on this machine"
+msgstr "Show unsupported packages on this machine"
+
+#: ../ubuntu-support-status:112
+msgid "Show supported packages on this machine"
+msgstr "Show supported packages on this machine"
+
+#: ../ubuntu-support-status:115
+msgid "Show all packages with their status"
+msgstr "Show all packages with their status"
+
+#: ../ubuntu-support-status:118
+msgid "Show all packages in a list"
+msgstr "Show all packages in a list"
+
+#: ../ubuntu-support-status:180
+#, c-format
+msgid "Support status summary of '%s':"
+msgstr "Support status summary of '%s':"
+
+#: ../ubuntu-support-status:183
+msgid "You have %(num)s packages (%(percent).1f%%) supported until %(time)s"
+msgstr "You have %(num)s packages (%(percent).1f%%) supported until %(time)s"
+
+#: ../ubuntu-support-status:189
+msgid ""
+"You have %(num)s packages (%(percent).1f%%) that can not/no-longer be "
+"downloaded"
+msgstr ""
+"You have %(num)s packages (%(percent).1f%%) that can not/no longer be "
+"downloaded"
+
+#: ../ubuntu-support-status:192
+msgid "You have %(num)s packages (%(percent).1f%%) that are unsupported"
+msgstr "You have %(num)s packages (%(percent).1f%%) that are unsupported"
+
+#: ../ubuntu-support-status:205
+msgid ""
+"Run with --show-unsupported, --show-supported or --show-all to see more "
+"details"
+msgstr ""
+"Run with --show-unsupported, --show-supported or --show-all to see more "
+"details"
+
+#: ../ubuntu-support-status:209
+msgid "No longer downloadable:"
+msgstr "No longer downloadable:"
+
+#: ../ubuntu-support-status:212
+msgid "Unsupported: "
+msgstr "Unsupported: "
+
+#: ../ubuntu-support-status:217
+#, c-format
+msgid "Supported until %s:"
+msgstr "Supported until %s:"
+
+#: ../ubuntu-support-status:226
+msgid "Unsupported"
+msgstr "Unsupported"
+
+#. Why do we use %s here instead of $strings or {} format placeholders?
+#. It's because we don't want to break existing translations.
+#: ../janitor/plugincore/exceptions.py:43
+#, python-format
+msgid "Unimplemented method: %s"
+msgstr "Unimplemented method: %s"
+
+#: ../janitor/plugincore/core/file_cruft.py:41
+msgid "A file on disk"
+msgstr "A file on disk"
+
+#: ../janitor/plugincore/core/missing_package_cruft.py:40
+msgid "Install missing package."
+msgstr "Install missing package."
+
+#. 2012-06-08 BAW: i18n string; don't use {} or PEP 292.
+#: ../janitor/plugincore/core/missing_package_cruft.py:50
+#, python-format
+msgid "Package %s should be installed."
+msgstr "Package %s should be installed."
+
+#: ../janitor/plugincore/core/package_cruft.py:50
+msgid ".deb package"
+msgstr ".deb package"
+
+#: ../janitor/plugincore/plugins/langpack_manual_plugin.py:47
+#, python-format
+msgid "%s needs to be marked as manually installed."
+msgstr "%s needs to be marked as manually installed."
+
+#: ../janitor/plugincore/plugins/kdelibs4to5_plugin.py:50
+msgid ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr ""
+"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev also needs to be "
+"installed. See bugs.launchpad.net, bug #279621 for details."
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:45
+#, python-format
+msgid "%i obsolete entries in the status file"
+msgstr "%i obsolete entries in the status file"
+
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:48
+msgid "Obsolete entries in dpkg status"
+msgstr "Obsolete entries in dpkg status"
+
+#. pragma: no cover
+#: ../janitor/plugincore/plugins/dpkg_status_plugin.py:51
+msgid "Obsolete dpkg status entries"
+msgstr "Obsolete dpkg status entries"
+
+#: ../janitor/plugincore/plugins/remove_lilo_plugin.py:43
+msgid ""
+"Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr ""
+"Remove lilo since grub is also installed.(See bug #314004 for details.)"
