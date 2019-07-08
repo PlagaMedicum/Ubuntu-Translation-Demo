@@ -1,0 +1,439 @@
+# Ukrainian translation of gnome-core module
+# Copyright (C) 1999-2002 Free Software Foundation, Inc.
+# Yuri Syrota <rasta@renome.rovno.ua>, 1999-2002.
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2002-2008
+# Korostil Daniel <ted.korostiled@gmail.com>, 2011, 2012.
+# Re. <ted.korostiled@gmail.com>, 2012.
+# Daniel Korostil <ted.korostiled@gmail.com>, 2013, 2015, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-session\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-17 20:09+0000\n"
+"PO-Revision-Date: 2019-03-18 13:27+0000\n"
+"Last-Translator: Daniel Korostil <Unknown>\n"
+"Language-Team: linux.org.ua\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-05-11 11:13+0000\n"
+"X-Generator: Launchpad (build 18962)\n"
+"X-Project-Style: gnome\n"
+"Language: uk\n"
+
+#: capplet/gsm-app-dialog.c:120
+msgid "Select Command"
+msgstr "Виберіть команду"
+
+#: capplet/gsm-app-dialog.c:193
+msgid "Add Startup Program"
+msgstr "Додати початкову програму"
+
+#: capplet/gsm-app-dialog.c:197
+msgid "Edit Startup Program"
+msgstr "Змінити початкову програму"
+
+#: capplet/gsm-app-dialog.c:484
+msgid "The startup command cannot be empty"
+msgstr "Початкова команда не може бути порожньою"
+
+#: capplet/gsm-app-dialog.c:490
+msgid "The startup command is not valid"
+msgstr "Початкова команда некоректна"
+
+#: capplet/gsm-properties-dialog.c:519
+msgid "Enabled"
+msgstr "Увімкнено"
+
+#: capplet/gsm-properties-dialog.c:531
+msgid "Icon"
+msgstr "Значок"
+
+#: capplet/gsm-properties-dialog.c:543
+msgid "Program"
+msgstr "Програма"
+
+#: capplet/gsm-properties-dialog.c:747
+msgid "Startup Applications Preferences"
+msgstr "Налаштування початкових програм"
+
+#: capplet/gsp-app.c:276
+msgid "No name"
+msgstr "Без назви"
+
+#: capplet/gsp-app.c:282
+msgid "No description"
+msgstr "Немає  опису"
+
+#: capplet/main.c:35 gnome-session/main.c:281
+msgid "Version of this application"
+msgstr "Версія цієї програми"
+
+#: capplet/main.c:61
+msgid "Could not display help document"
+msgstr "Не вдалося показати довідку"
+
+#: data/gnome-custom-session.desktop.in.in:3
+msgid "Custom"
+msgstr "Інше"
+
+#: data/gnome-custom-session.desktop.in.in:4
+msgid "This entry lets you select a saved session"
+msgstr "Цей запис дозволяє вибрати збережений сеанс"
+
+#: data/gnome.desktop.in.in:3 data/gnome.session.desktop.in.in:3
+msgid "GNOME"
+msgstr "GNOME"
+
+#: data/gnome.desktop.in.in:4 data/gnome-xorg.desktop.in.in:4
+msgid "This session logs you into GNOME"
+msgstr "В цьому сеансі буде здійснений вхід у GNOME"
+
+#: data/gnome-dummy.session.desktop.in.in:3
+msgid "GNOME dummy"
+msgstr "Несправжній GNOME"
+
+#: data/gnome-xorg.desktop.in.in:3
+msgid "GNOME on Xorg"
+msgstr "GNOME через Xorg"
+
+#: data/org.gnome.SessionManager.gschema.xml.in:5
+msgid "Save sessions"
+msgstr "Зберігати сеанси"
+
+#: data/org.gnome.SessionManager.gschema.xml.in:6
+msgid "If enabled, gnome-session will save the session automatically."
+msgstr "Якщо увімкнено, gnome-session буде автоматично зберігати сеанси."
+
+#: data/org.gnome.SessionManager.gschema.xml.in:10
+msgid "Save this session"
+msgstr "Зберігати цей сеанс"
+
+#: data/org.gnome.SessionManager.gschema.xml.in:11
+msgid ""
+"When enabled, gnome-session will automatically save the next session at log "
+"out even if auto saving is disabled."
+msgstr ""
+"Якщо увімкнено, gnome-session автоматично збереже наступний сеанс при виході "
+"з системи, навіть якщо автоматичне збереження буде вимкнено."
+
+#: data/org.gnome.SessionManager.gschema.xml.in:15
+msgid "Logout prompt"
+msgstr "Попередження про завершення сеансу"
+
+#: data/org.gnome.SessionManager.gschema.xml.in:16
+msgid ""
+"If enabled, gnome-session will prompt the user before ending a session."
+msgstr ""
+"Якщо увімкнено, то gnome-session буде попереджувати користувача перед "
+"завершенням сеансу."
+
+#: data/org.gnome.SessionManager.gschema.xml.in:20
+msgid "Show the fallback warning"
+msgstr "Показувати резервні попередження"
+
+#: data/org.gnome.SessionManager.gschema.xml.in:21
+msgid ""
+"If enabled, gnome-session will display a warning dialog after login if the "
+"session was automatically fallen back."
+msgstr ""
+"Якщо увімкнено, gnome-session відображатиме діалогове вікно попередження "
+"після входу в систему, якщо сеанс був скинутий в резервний стан."
+
+#: data/gnome-session-properties.desktop.in:3
+msgid "Startup Applications"
+msgstr "Початкові програми"
+
+#: data/gnome-session-properties.desktop.in:4
+msgid "Choose what applications to start when you log in"
+msgstr "Виберіть програми, які запускатимуться при вході в систему"
+
+#: data/gnome-session-properties.desktop.in:6
+msgid "session-properties"
+msgstr "властивості-сеансу"
+
+#: data/session-selector.ui:15
+msgid "Custom Session"
+msgstr "Власний сеанс"
+
+#: data/session-selector.ui:50 tools/gnome-session-selector.c:102
+msgid "Please select a custom session to run"
+msgstr "Виберіть власний сеанс для запуску"
+
+#: data/session-selector.ui:105
+msgid "_New Session"
+msgstr "_Створити сеанс"
+
+#: data/session-selector.ui:119
+msgid "_Remove Session"
+msgstr "_Вилучити сеанс"
+
+#: data/session-selector.ui:133
+msgid "Rena_me Session"
+msgstr "_Перейменувати сеанс"
+
+#: data/session-selector.ui:168
+msgid "_Continue"
+msgstr "Про_довжити"
+
+#: data/session-properties.ui:20
+msgid "Additional startup _programs:"
+msgstr "Додаткові по_чаткові програми для запуску:"
+
+#: data/session-properties.ui:123
+msgid "_Automatically remember running applications when logging out"
+msgstr "_Автоматично запам'ятовувати запущені програми при завершенні"
+
+#: data/session-properties.ui:161
+msgid "_Remember Currently Running Applications"
+msgstr "_Запам'ятати наразі запущені програми"
+
+#: data/session-properties.ui:213
+msgid "Browse…"
+msgstr "Огляд…"
+
+#: data/session-properties.ui:263
+msgid "Comm_ent:"
+msgstr "Ко_ментар:"
+
+#: data/session-properties.ui:278
+msgid "Co_mmand:"
+msgstr "_Команда:"
+
+#: data/session-properties.ui:293
+msgid "_Name:"
+msgstr "_Назва:"
+
+#: data/ubuntu.desktop.in.in:3 data/ubuntu.session.desktop.in.in:3
+msgid "Ubuntu"
+msgstr "Ubuntu"
+
+#: data/ubuntu.desktop.in.in:4 data/ubuntu-wayland.desktop.in.in:4
+#: data/ubuntu-communitheme-snap.desktop.in.in:4
+#: data/ubuntu-communitheme-snap-wayland.desktop.in.in:4
+msgid "This session logs you into Ubuntu"
+msgstr "В цьому сеансі буде здійснений вхід в Ubuntu"
+
+#: data/ubuntu-wayland.desktop.in.in:3
+msgid "Ubuntu on Wayland"
+msgstr "Ubuntu на Wayland"
+
+#: data/ubuntu-communitheme-snap.desktop.in.in:3
+msgid "Ubuntu with communitheme snap"
+msgstr "Ubuntu з communitheme snap"
+
+#: data/ubuntu-communitheme-snap-wayland.desktop.in.in:3
+msgid "Ubuntu with communitheme snap on Wayland"
+msgstr "Ubuntu з communitheme snap на Wayland"
+
+#: data/unity.desktop.in.in:3 data/unity.session.desktop.in.in:3
+msgid "Unity"
+msgstr "Unity"
+
+#: data/unity.desktop.in.in:4
+msgid "This session logs you into Unity"
+msgstr "В цьому сеансі буде здійснений вхід в Unity"
+
+#: gnome-session/gsm-fail-whale-dialog.c:313
+msgid "Oh no!  Something has gone wrong."
+msgstr "Отакої!  Щось не так."
+
+#: gnome-session/gsm-fail-whale-dialog.c:320
+msgid ""
+"A problem has occurred and the system can’t recover. Please contact a system "
+"administrator"
+msgstr ""
+"Сталася помилка і система не може її виправити. Зверніться до системного "
+"адміністратора."
+
+#: gnome-session/gsm-fail-whale-dialog.c:322
+msgid ""
+"A problem has occurred and the system can’t recover. All extensions have "
+"been disabled as a precaution."
+msgstr ""
+"Сталася помилка і система не може її виправити. Усі розширення були вимкнені "
+"у якості запобіжного заходу."
+
+#: gnome-session/gsm-fail-whale-dialog.c:324
+msgid ""
+"A problem has occurred and the system can’t recover.\n"
+"Please log out and try again."
+msgstr ""
+"Сталася помилка і система не може її виправити. Потрібно завершити сеанс та "
+"увійти знову."
+
+#: gnome-session/gsm-fail-whale-dialog.c:339
+msgid "_Log Out"
+msgstr "_Завершити сеанс"
+
+#: gnome-session/gsm-fail-whale-dialog.c:361 gnome-session/main.c:279
+msgid "Enable debugging code"
+msgstr "Увімкнути код зневадження"
+
+#: gnome-session/gsm-fail-whale-dialog.c:362
+msgid "Allow logout"
+msgstr "Дозволити вихід"
+
+#: gnome-session/gsm-fail-whale-dialog.c:363
+msgid "Show extension warning"
+msgstr "Показати зауваги розширення"
+
+#: gnome-session/gsm-manager.c:1305 gnome-session/gsm-manager.c:1959
+msgid "Not responding"
+msgstr "Не відповідає"
+
+#: gnome-session/gsm-util.c:382
+msgid "_Log out"
+msgstr "Ви_йти"
+
+#. It'd be really surprising to reach this code: if we're here,
+#. * then the XSMP client already has set several XSMP
+#. * properties. But it could still be that SmProgram is not set.
+#. 
+#: gnome-session/gsm-xsmp-client.c:557
+msgid "Remembered Application"
+msgstr "Запам'ятована програма"
+
+#: gnome-session/gsm-xsmp-client.c:1216
+msgid "This program is blocking logout."
+msgstr "Ця програма блокує вихід з системи."
+
+#: gnome-session/gsm-xsmp-server.c:338
+msgid ""
+"Refusing new client connection because the session is currently being shut "
+"down\n"
+msgstr ""
+"Нові клієнти відхиляються, бо сеанс наразі знаходиться у процесі вимкнення.\n"
+
+#: gnome-session/gsm-xsmp-server.c:605
+#, c-format
+msgid "Could not create ICE listening socket: %s"
+msgstr "Не вдалося створити гніздо прослуховування ICE: %s"
+
+#: gnome-session/main.c:277
+msgid "Override standard autostart directories"
+msgstr "Перевизначити стандартні каталоги автозапуску"
+
+#: gnome-session/main.c:277
+msgid "AUTOSTART_DIR"
+msgstr "САМОЗАПУСКНА_ТЕКА"
+
+#: gnome-session/main.c:278
+msgid "Session to use"
+msgstr "Сеанси, які використовуються"
+
+#: gnome-session/main.c:278
+msgid "SESSION_NAME"
+msgstr "НАЗВА_СЕАНСУ"
+
+#: gnome-session/main.c:280
+msgid "Do not load user-specified applications"
+msgstr "Не завантажувати вибрані користувачем програми"
+
+#. Translators: the 'fail whale' is the black dialog we show when something goes seriously wrong
+#: gnome-session/main.c:283
+msgid "Show the fail whale dialog for testing"
+msgstr "Показувати величезне вікно помилок для випробування"
+
+#: gnome-session/main.c:284
+msgid "Disable hardware acceleration check"
+msgstr "Вимкнути перевірку апаратного прискорення"
+
+#: gnome-session/main.c:316
+msgid " — the GNOME session manager"
+msgstr " — менеджер сеансів GNOME"
+
+#: tools/gnome-session-inhibit.c:108
+#, c-format
+msgid ""
+"%s [OPTION…] COMMAND\n"
+"\n"
+"Execute COMMAND while inhibiting some session functionality.\n"
+"\n"
+"  -h, --help        Show this help\n"
+"  --version         Show program version\n"
+"  --app-id ID       The application id to use\n"
+"                    when inhibiting (optional)\n"
+"  --reason REASON   The reason for inhibiting (optional)\n"
+"  --inhibit ARG     Things to inhibit, colon-separated list of:\n"
+"                    logout, switch-user, suspend, idle, automount\n"
+"  --inhibit-only    Do not launch COMMAND and wait forever instead\n"
+"\n"
+"If no --inhibit option is specified, idle is assumed.\n"
+msgstr ""
+"%s [ОПЦІЯ…] КОМАНДА\n"
+"\n"
+"Виконати КОМАНДУ з обмеженням певної функціональності сеанса.\n"
+"\n"
+"-h, --help Показати цю довідку\n"
+"--version Показати версію програми\n"
+"--app-id ID Ідентифікатор використовуваної програми\n"
+"                    при обмеженні (необов'язково)\n"
+"--reason ПРИЧИНА Причина для обмеження (необов'язково)\n"
+"--inhibit АРГУМЕНТ Список функцій, що вимикаються, через кому:\n"
+"                    logout, switch-user, suspend, idle, automount\n"
+"--inhibit-only Не запускати КОМАНДУ та увімкнути вічне очікування\n"
+"\n"
+"Якщо не вказано опцію--inhibit, вважається, що йде простой.\n"
+
+#: tools/gnome-session-inhibit.c:146
+#, c-format
+msgid "Failed to execute %s\n"
+msgstr "Не вдалося виконати %s\n"
+
+#: tools/gnome-session-inhibit.c:206 tools/gnome-session-inhibit.c:216
+#: tools/gnome-session-inhibit.c:226
+#, c-format
+msgid "%s requires an argument\n"
+msgstr "%s потребує аргумент\n"
+
+#: tools/gnome-session-quit.c:50
+msgid "Log out"
+msgstr "Завершити сеанс"
+
+#: tools/gnome-session-quit.c:51
+msgid "Power off"
+msgstr "Вимкнути комп'ютер"
+
+#: tools/gnome-session-quit.c:52
+msgid "Reboot"
+msgstr "Перезавантажити"
+
+#: tools/gnome-session-quit.c:53
+msgid "Ignoring any existing inhibitors"
+msgstr "Нехтувати будь-які наявні перепони"
+
+#: tools/gnome-session-quit.c:54
+msgid "Don’t prompt for user confirmation"
+msgstr "Не вимагати підтвердження від користувача"
+
+#: tools/gnome-session-quit.c:88 tools/gnome-session-quit.c:102
+msgid "Could not connect to the session manager"
+msgstr "Не вдається з'єднатись із менеджером сеансів"
+
+#: tools/gnome-session-quit.c:198
+msgid "Program called with conflicting options"
+msgstr "Програму запущено з несумісними параметрами"
+
+#: tools/gnome-session-selector.c:61
+#, c-format
+msgid "Session %d"
+msgstr "Сеанс %d"
+
+#: tools/gnome-session-selector.c:107
+msgid ""
+"Session names are not allowed to start with “.” or contain “/” characters"
+msgstr "Назви сеансів не можуть починатися з “.” або містити символ “/”"
+
+#: tools/gnome-session-selector.c:111
+msgid "Session names are not allowed to start with “.”"
+msgstr "Назви сеансів не можуть починатися з “.”"
+
+#: tools/gnome-session-selector.c:115
+msgid "Session names are not allowed to contain “/” characters"
+msgstr "Назви сеансів не можуть містити символи “/”"
+
+#: tools/gnome-session-selector.c:123
+#, c-format
+msgid "A session named “%s” already exists"
+msgstr "Сеанс під назвою “%s” вже існує"
