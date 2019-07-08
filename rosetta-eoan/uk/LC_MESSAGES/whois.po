@@ -1,0 +1,316 @@
+# Ukrainian translation for whois
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the whois package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: whois\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-04-05 14:57+0000\n"
+"PO-Revision-Date: 2014-09-11 10:04+0000\n"
+"Last-Translator: stuartlittle <Stuartlittle1970@gmail.com>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2019-05-11 11:39+0000\n"
+"X-Generator: Launchpad (build 18962)\n"
+
+#: ../whois.c:233
+#, c-format
+msgid ""
+"Version %s.\n"
+"\n"
+"Report bugs to %s.\n"
+msgstr ""
+"Версія %s.\n"
+"\n"
+"Доповідайте про помилки сюди %s.\n"
+
+#: ../whois.c:322
+msgid ""
+"This TLD has no whois server, but you can access the whois database at"
+msgstr ""
+"Цей домен верхнього рівня не має сервера whois, але ви можете скористатися "
+"базою whois на"
+
+#: ../whois.c:327
+msgid "This TLD has no whois server."
+msgstr "Цей домен верхнього рівня не має сервера whois."
+
+#: ../whois.c:330
+msgid "No whois server is known for this kind of object."
+msgstr "Сервер whois для таких об`єктів невідомий."
+
+#: ../whois.c:333
+msgid "Unknown AS number or IP network. Please upgrade this program."
+msgstr "Невідомий номер AS чи IP мережа. Модернізуйте вашу програму."
+
+#: ../whois.c:337 ../whois.c:344 ../whois.c:387
+#, c-format
+msgid "Using server %s.\n"
+msgstr "Використовую сервер %s.\n"
+
+#: ../whois.c:351
+#, c-format
+msgid ""
+"\n"
+"Querying for the IPv4 endpoint %s of a 6to4 IPv6 address.\n"
+"\n"
+msgstr ""
+"\n"
+"Запитується кінцева IPv4-точка %s для IPv6-адреси 6-в-4.\n"
+"\n"
+
+#: ../whois.c:358
+#, c-format
+msgid ""
+"\n"
+"Querying for the IPv4 endpoint %s of a Teredo IPv6 address.\n"
+"\n"
+msgstr ""
+"\n"
+"Запитується кінцева IPv4-точка %s для IPv6-адреси Teredo.\n"
+"\n"
+
+#: ../whois.c:388
+#, c-format
+msgid ""
+"Query string: \"%s\"\n"
+"\n"
+msgstr ""
+"Запит: \"%s\"\n"
+"\n"
+
+#: ../whois.c:398
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Found a referral to %s.\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"Знайдено посилання на %s.\n"
+"\n"
+
+#: ../whois.c:440 ../whois.c:443
+#, c-format
+msgid "Cannot parse this line: %s"
+msgstr "Не можу опрацювати цей рядок: %s"
+
+#: ../whois.c:632
+msgid "Warning: RIPE flags used with a traditional server."
+msgstr "Увага: RIPE прапорці використовуються на звичайному сервері."
+
+#: ../whois.c:802 ../whois.c:918
+msgid ""
+"Catastrophic error: disclaimer text has been changed.\n"
+"Please upgrade this program.\n"
+msgstr ""
+"Катастрофа: текст правового застереження був змінений.\n"
+"Модернізуйте цю програму.\n"
+
+#: ../whois.c:978
+#, c-format
+msgid "Host %s not found."
+msgstr "Вузол %s не знайдено."
+
+#: ../whois.c:988
+#, c-format
+msgid "%s/tcp: unknown service"
+msgstr "%s/tcp: невідома служба"
+
+#: ../whois.c:1063
+msgid "Timeout."
+msgstr "Час вийшов."
+
+#: ../whois.c:1069
+#, c-format
+msgid "Interrupted by signal %d..."
+msgstr "Перервано сигналом %d..."
+
+#: ../whois.c:1437
+#, c-format
+msgid ""
+"Usage: whois [OPTION]... OBJECT...\n"
+"\n"
+"-h HOST, --host HOST   connect to server HOST\n"
+"-p PORT, --port PORT   connect to PORT\n"
+"-H                     hide legal disclaimers\n"
+"      --verbose        explain what is being done\n"
+"      --help           display this help and exit\n"
+"      --version        output version information and exit\n"
+"\n"
+"These flags are supported by whois.ripe.net and some RIPE-like servers:\n"
+"-l                     find the one level less specific match\n"
+"-L                     find all levels less specific matches\n"
+"-m                     find all one level more specific matches\n"
+"-M                     find all levels of more specific matches\n"
+"-c                     find the smallest match containing a mnt-irt "
+"attribute\n"
+"-x                     exact match\n"
+"-b                     return brief IP address ranges with abuse contact\n"
+"-B                     turn off object filtering (show email addresses)\n"
+"-G                     turn off grouping of associated objects\n"
+"-d                     return DNS reverse delegation objects too\n"
+"-i ATTR[,ATTR]...      do an inverse look-up for specified ATTRibutes\n"
+"-T TYPE[,TYPE]...      only look for objects of TYPE\n"
+"-K                     only primary keys are returned\n"
+"-r                     turn off recursive look-ups for contact information\n"
+"-R                     force to show local copy of the domain object even\n"
+"                       if it contains referral\n"
+"-a                     also search all the mirrored databases\n"
+"-s SOURCE[,SOURCE]...  search the database mirrored from SOURCE\n"
+"-g SOURCE:FIRST-LAST   find updates from SOURCE from serial FIRST to LAST\n"
+"-t TYPE                request template for object of TYPE\n"
+"-v TYPE                request verbose template for object of TYPE\n"
+"-q [version|sources|types]  query specified server info\n"
+msgstr ""
+"Використання: whois [ПАРАМЕТР]… ОБ’ЄКТ…\n"
+"\n"
+"-h ВУЗОЛ, --host ВУЗОЛ під’єднатися до ВУЗЛА\n"
+"-p ПОРТ, --port ПОРТ під’єднатися до ПОРТА\n"
+"-H приховати сповіщення про права\n"
+"      --verbose роз’яснювати, що відбувається\n"
+"      --help показати цю довідку і закінчити роботу\n"
+"      --version показати інформацію про версію і закінчити роботу\n"
+"\n"
+"Ці прапорці підтримуються whois.ripe.net і деякими RIPE-подібними "
+"серверами:\n"
+"-l однорівневий мінімальний пошук\n"
+"-L знайти все при мінімумі вказаних збігів\n"
+"-m знайти перший рівень при максимумі вказаних збігів\n"
+"-M знайти все при максимумі вказаних збігів\n"
+"-c знайти найменший збіг, що містить атрибут mnt-irt\n"
+"-x точний збіг\n"
+"-b повернути короткий діапазон IP-адрес\n"
+"                       з контактом для скарг\n"
+"-B вимкнути об’єктну фільтрацію (показ адрес ел. пошти)\n"
+"-G вимкнути групування пов’язаних об’єктів\n"
+"-d повертати також реверсні делеговані об’єкти DNS\n"
+"-i АТР[,АТР]… виконати інверсний пошук для вказаних АТРибутів\n"
+"-T ТИП[,ТИП]… пошук лише об’єктів з типом ТИП\n"
+"-K повертати лише основні ключі\n"
+"-r вимкнути рекурсивний пошук контактної інформації\n"
+"-R завжди показувати локальну копію об’єкту домену навіть\n"
+"                       якщо вона містить перенаправлення\n"
+"-a шукати на усіх дзеркалах бази\n"
+"-s ДЖЕРЕЛО[,ДЖРЛ]… шукати у базі-дзеркалі ДЖЕРЕЛА\n"
+"-g ДЖЕРЕЛО:ПЕРШЕ-ОСТАННЄ\n"
+"                       знайти оновлення ДЖЕРЕЛА від ПЕРШОГО до ОСТАННЬОГО\n"
+"-t ТИП запитати шаблон для об’єкту з типом ТИП\n"
+"-v ТИП запитати розширений шаблон для об’єкту з типом ТИП\n"
+"-q [version|sources|types]\n"
+"                       запитати вказану інформацію про сервер\n"
+
+#: ../mkpasswd.c:125
+msgid "BSDI extended DES-based crypt(3)"
+msgstr ""
+
+#: ../mkpasswd.c:128
+msgid "standard 56 bit DES-based crypt(3)"
+msgstr "стандартний 56-бітовий, що базується на DES, crypt(3)"
+
+#: ../mkpasswd.c:204
+#, c-format
+msgid "Invalid method '%s'.\n"
+msgstr "Неправильний метод '%s'.\n"
+
+#: ../mkpasswd.c:213 ../mkpasswd.c:225
+#, c-format
+msgid "Invalid number '%s'.\n"
+msgstr "Невірний номер '%s'.\n"
+
+#: ../mkpasswd.c:243
+#, c-format
+msgid "Try '%s --help' for more information.\n"
+msgstr "Щоб отримати більше інформації, наберіть '%s --help' .\n"
+
+#: ../mkpasswd.c:287
+#, c-format
+msgid "Wrong salt length: %d byte when %d expected.\n"
+msgid_plural "Wrong salt length: %d bytes when %d expected.\n"
+msgstr[0] "Неправильна довжина солі: %d байт при очікуваній %d.\n"
+msgstr[1] "Неправильна довжина солі: %d байти при очікуваній %d.\n"
+msgstr[2] "Неправильна довжина солі: %d байтів при очікуваній %d.\n"
+
+#: ../mkpasswd.c:292
+#, c-format
+msgid "Wrong salt length: %d byte when %d <= n <= %d expected.\n"
+msgid_plural "Wrong salt length: %d bytes when %d <= n <= %d expected.\n"
+msgstr[0] "Неправильна довжина солі: %d байт при очікуваній %d <= n <= %d.\n"
+msgstr[1] ""
+"Неправильна довжина солі: %d байти при очікуваній %d <= n <= %d.\n"
+msgstr[2] ""
+"Неправильна довжина солі: %d байтів при очікуваній %d <= n <= %d.\n"
+
+#: ../mkpasswd.c:301
+#, c-format
+msgid "Illegal salt character '%c'.\n"
+msgstr "Неприпустимий для солі символ '%c'.\n"
+
+#: ../mkpasswd.c:352 ../mkpasswd.c:365
+#, c-format
+msgid "Password: "
+msgstr "Пароль: "
+
+#: ../mkpasswd.c:384
+#, c-format
+msgid "Method not supported by crypt(3).\n"
+msgstr "Даний метод не підтримується crypt(3).\n"
+
+#: ../mkpasswd.c:492
+#, c-format
+msgid ""
+"Usage: mkpasswd [OPTIONS]... [PASSWORD [SALT]]\n"
+"Crypts the PASSWORD using crypt(3).\n"
+"\n"
+msgstr ""
+"Використання: mkpasswd [ОПЦІЇ] ... [ПАРОЛЬ [СОЛЬ]]\n"
+"Шифрує ПАРОЛЬ, використовуючи crypt(3).\n"
+"\n"
+
+#: ../mkpasswd.c:495
+#, c-format
+msgid ""
+"      -m, --method=TYPE     select method TYPE\n"
+"      -5                    like --method=md5\n"
+"      -S, --salt=SALT       use the specified SALT\n"
+"      -R, --rounds=NUMBER   use the specified NUMBER of rounds\n"
+"      -P, --password-fd=NUM read the password from file descriptor NUM\n"
+"                            instead of /dev/tty\n"
+"      -s, --stdin           like --password-fd=0\n"
+"      -h, --help            display this help and exit\n"
+"      -V, --version         output version information and exit\n"
+"\n"
+"If PASSWORD is missing then it is asked interactively.\n"
+"If no SALT is specified, a random one is generated.\n"
+"If TYPE is 'help', available methods are printed.\n"
+"\n"
+"Report bugs to %s.\n"
+msgstr ""
+"      -m, --method=ТИП використовувати метод ТИП\n"
+"      -5 аналогічно --method=md5\n"
+"      -S, --salt=СОЛЬ використовувати вказану СОЛЬ\n"
+"      -R, --rounds=ЧИСЛО використовувати вказане ЧИСЛО округлень\n"
+"      -P, --password-fd=НОМЕР прочитати пароль з дескриптора файлу\n"
+"                            з НОМЕРом замість /dev/tty\n"
+"      -s, --stdin аналогічно --password-fd=0\n"
+"      -h, --help показати цю довідку й закінчити роботу\n"
+"      -V, --version показати версію й закінчити роботу\n"
+"\n"
+"Якщо ПАРОЛЬ не заданий, то він буде запитаний інтерактивно.\n"
+"Якщо не вказана СОЛЬ, то буде згенеровано випадкове значення.\n"
+"Якщо значення ТИП рівне 'help', то буде показано список доступних методів.\n"
+"\n"
+"Повідомлення про помилки відправляйте на %s.\n"
+
+#: ../mkpasswd.c:525
+#, c-format
+msgid "Available methods:\n"
+msgstr "Доступні методи:\n"
