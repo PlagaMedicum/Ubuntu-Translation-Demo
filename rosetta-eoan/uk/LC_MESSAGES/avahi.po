@@ -1,22 +1,23 @@
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
 # Translators:
-# Yuri Chornoivan <yurchor@ukr.net>, 2016.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2011
 msgid ""
 msgstr ""
-"Project-Id-Version: Avahi\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-31 15:58+0000\n"
-"PO-Revision-Date: 2018-01-03 11:42+0000\n"
-"Last-Translator: yurchor <Unknown>\n"
-"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"PO-Revision-Date: 2019-07-08 17:20\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 11:55+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: uk\n"
+"X-Generator: crowdin.com\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/avahi.po\n"
 
 #: ../avahi-common/error.c:30
 msgid "OK"
@@ -253,12 +254,11 @@ msgstr "Переглядач Zeroconf Avahi"
 
 #: ../avahi-python/avahi-discover/avahi-discover.desktop.in.in.h:2
 msgid "Browse for Zeroconf services available on your network"
-msgstr ""
-"Переглянути служби Zeroconf, доступ до яких можна отримати у вашій мережі"
+msgstr "Переглянути служби Zeroconf, доступ до яких можна отримати у вашій мережі"
 
 #: ../avahi-python/avahi-discover/avahi-discover.py:237
 msgid "TXT"
-msgstr "TXT"
+msgstr ""
 
 #: ../avahi-python/avahi-discover/avahi-discover.py:239
 msgid "TXT Data:"
@@ -365,8 +365,7 @@ msgid "Resolve Service Host Name"
 msgstr "Визначити назву вузла служби"
 
 #: ../avahi-ui/avahi-ui.c:236
-msgid ""
-"Resolve the host name of the selected service automatically before returning"
+msgid "Resolve the host name of the selected service automatically before returning"
 msgstr "Визначити назву вузла вибраної служби автоматично перед поверненням"
 
 #: ../avahi-ui/avahi-ui.c:242
@@ -480,17 +479,13 @@ msgstr "_Домен:"
 
 #: ../avahi-ui/bssh.c:55
 #, c-format
-msgid ""
-"%s [options]\n"
-"\n"
+msgid "%s [options]\n\n"
 "    -h --help            Show this help\n"
 "    -s --ssh             Browse SSH servers\n"
 "    -v --vnc             Browse VNC servers\n"
 "    -S --shell           Browse both SSH and VNC\n"
 "    -d --domain=DOMAIN   The domain to browse in\n"
-msgstr ""
-"%s [параметри]\n"
-"\n"
+msgstr "%s [параметри]\n\n"
 "    -h --help            Показати цю довідку\n"
 "    -s --ssh             Переглянути сервери SSH\n"
 "    -v --vnc             Переглянути сервери VNC\n"
@@ -655,43 +650,35 @@ msgid "Waiting for daemon ...\n"
 msgstr "Очікування на підтвердження фоновою службою...\n"
 
 #: ../avahi-utils/avahi-browse.c:647
-msgid ""
-"    -h --help            Show this help\n"
+msgid "    -h --help            Show this help\n"
 "    -V --version         Show version\n"
 "    -D --browse-domains  Browse for browsing domains instead of services\n"
 "    -a --all             Show all services, regardless of the type\n"
 "    -d --domain=DOMAIN   The domain to browse in\n"
 "    -v --verbose         Enable verbose mode\n"
-"    -t --terminate       Terminate after dumping a more or less complete "
-"list\n"
+"    -t --terminate       Terminate after dumping a more or less complete list\n"
 "    -c --cache           Terminate after dumping all entries from the cache\n"
 "    -l --ignore-local    Ignore local services\n"
 "    -r --resolve         Resolve services found\n"
 "    -f --no-fail         Don't fail if the daemon is not available\n"
 "    -p --parsable        Output in parsable format\n"
-msgstr ""
-"    -h --help            Показати цю довідку\n"
+msgstr "    -h --help            Показати цю довідку\n"
 "    -V --version         Показати дані щодо версії\n"
 "    -D --browse-domains  Переглядати домени замість служб\n"
 "    -a --all             Показати всі служби всіх типів\n"
 "    -d --domain=ДОМЕН   Домен для перегляду\n"
 "    -v --verbose         Увімкнути докладний режим\n"
-"    -t --terminate       Перервати роботу після отримання більшою чи меншою "
-"мірою повного списку\n"
-"    -c --cache           Перервати роботу після отримання всіх записів з "
-"кешу\n"
+"    -t --terminate       Перервати роботу після отримання більшою чи меншою мірою повного списку\n"
+"    -c --cache           Перервати роботу після отримання всіх записів з кешу\n"
 "    -l --ignore-local    Ігнорувати локальні служби\n"
 "    -r --resolve         Визначати адреси і назви знайдених служб\n"
-"    -f --no-fail         Не переривати роботу, якщо не буде знайдено фонової "
-"служби\n"
+"    -f --no-fail         Не переривати роботу, якщо не буде знайдено фонової служби\n"
 "    -p --parsable        Вивести дані у придатному для обробки форматі\n"
 
 #: ../avahi-utils/avahi-browse.c:660
-msgid ""
-"    -k --no-db-lookup    Don't lookup service types\n"
+msgid "    -k --no-db-lookup    Don't lookup service types\n"
 "    -b --dump-db         Dump service type database\n"
-msgstr ""
-"    -k --no-db-lookup    Не визначати типи служб\n"
+msgstr "    -k --no-db-lookup    Не визначати типи служб\n"
 "    -b --dump-db         Створити дамп бази даних типів служб\n"
 
 #: ../avahi-utils/avahi-browse.c:766 ../avahi-utils/avahi-resolve.c:219
@@ -747,10 +734,8 @@ msgstr "Конфлікт назв вузлів\n"
 
 #: ../avahi-utils/avahi-publish.c:216
 #, c-format
-msgid ""
-"%s [options] %s <name> <type> <port> [<txt ...>]\n"
-"%s [options] %s <host-name> <address>\n"
-"\n"
+msgid "%s [options] %s <name> <type> <port> [<txt ...>]\n"
+"%s [options] %s <host-name> <address>\n\n"
 "    -h --help            Show this help\n"
 "    -V --version         Show version\n"
 "    -s --service         Publish service\n"
@@ -758,14 +743,11 @@ msgid ""
 "    -v --verbose         Enable verbose mode\n"
 "    -d --domain=DOMAIN   Domain to publish service in\n"
 "    -H --host=DOMAIN     Host where service resides\n"
-"       --subtype=SUBTYPE An additional subtype to register this service "
-"with\n"
+"       --subtype=SUBTYPE An additional subtype to register this service with\n"
 "    -R --no-reverse      Do not publish reverse entry with address\n"
 "    -f --no-fail         Don't fail if the daemon is not available\n"
-msgstr ""
-"%s [параметри] %s <назва> <тип> <порт> [<txt ...>]\n"
-"%s [параметри] %s <назва вузла> <адреса>\n"
-"\n"
+msgstr "%s [параметри] %s <назва> <тип> <порт> [<txt ...>]\n"
+"%s [параметри] %s <назва вузла> <адреса>\n\n"
 "    -h --help            Показати цю версію\n"
 "    -V --version         Показати дані щодо версії\n"
 "    -s --service         Оприлюднити службу\n"
@@ -775,8 +757,7 @@ msgstr ""
 "    -H --host=ДОМЕН      Вузол, на якому працює служба\n"
 "       --subtype=ПІДТИП  Додатковий підтип для реєстрації цієї служби\n"
 "    -R --no-reverse      Не оприлюднювати зворотний запис разом з адресою\n"
-"    -f --no-fail         Не завершувати роботу, якщо не вдасться отримати "
-"доступ до фонової служби\n"
+"    -f --no-fail         Не завершувати роботу, якщо не вдасться отримати доступ до фонової служби\n"
 
 #: ../avahi-utils/avahi-publish.c:303 ../avahi-utils/avahi-publish.c:318
 #, c-format
@@ -805,10 +786,8 @@ msgstr "Спроба визначення адреси «%s» завершила
 
 #: ../avahi-utils/avahi-resolve.c:157
 #, c-format
-msgid ""
-"%s [options] %s <host name ...>\n"
-"%s [options] %s <address ... >\n"
-"\n"
+msgid "%s [options] %s <host name ...>\n"
+"%s [options] %s <address ... >\n\n"
 "    -h --help            Show this help\n"
 "    -V --version         Show version\n"
 "    -n --name            Resolve host name\n"
@@ -816,10 +795,8 @@ msgid ""
 "    -v --verbose         Enable verbose mode\n"
 "    -6                   Lookup IPv6 address\n"
 "    -4                   Lookup IPv4 address\n"
-msgstr ""
-"%s [параметри] %s <назва вузла ...>\n"
-"%s [параметри] %s <адреса ... >\n"
-"\n"
+msgstr "%s [параметри] %s <назва вузла ...>\n"
+"%s [параметри] %s <адреса ... >\n\n"
 "    -h --help            Показати цю довідку\n"
 "    -V --version         Показати дані щодо версії\n"
 "    -n --name            Визначити назву вузла\n"
@@ -831,8 +808,7 @@ msgstr ""
 #: ../avahi-utils/avahi-resolve.c:299 ../avahi-utils/avahi-set-host-name.c:181
 #, c-format
 msgid "Failed to create host name resolver: %s\n"
-msgstr ""
-"Спроба створення засобу визначення назви вузла завершилася невдало: %s\n"
+msgstr "Спроба створення засобу визначення назви вузла завершилася невдало: %s\n"
 
 #: ../avahi-utils/avahi-resolve.c:309
 #, c-format
@@ -846,15 +822,11 @@ msgstr "Спроба створення засобу визначення адр
 
 #: ../avahi-utils/avahi-set-host-name.c:73
 #, c-format
-msgid ""
-"%s [options] <new host name>\n"
-"\n"
+msgid "%s [options] <new host name>\n\n"
 "    -h --help            Show this help\n"
 "    -V --version         Show version\n"
 "    -v --verbose         Enable verbose mode\n"
-msgstr ""
-"%s [параметри] <нова назва вузла>\n"
-"\n"
+msgstr "%s [параметри] <нова назва вузла>\n\n"
 "    -h --help            Показати цю довідку\n"
 "    -V --version         Показати дані щодо версії\n"
 "    -v --verbose         Увімкнути докладний режим\n"
@@ -868,3 +840,4 @@ msgstr "Некоректна кількість аргументів, слід �
 #, c-format
 msgid "Host name successfully changed to %s\n"
 msgstr "Назву вузла успішно змінено на %s\n"
+

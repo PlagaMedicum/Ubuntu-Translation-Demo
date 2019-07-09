@@ -1,21 +1,21 @@
-# Ukrainian translation for attr
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
-# This file is distributed under the same license as the attr package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: attr\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-06-18 22:17-0400\n"
-"PO-Revision-Date: 2009-10-15 11:35+0000\n"
-"Last-Translator: atany <Unknown>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:20\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 10:33+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/attr.po\n"
+"Language: uk_UA\n"
 
 #: libattr/attr_copy_file.c:78 libattr/attr_copy_file.c:93
 #: libattr/attr_copy_fd.c:80 libattr/attr_copy_fd.c:95
@@ -42,15 +42,12 @@ msgstr "встановлення атрибуту %s для %s"
 
 #: tools/attr.c:49
 #, c-format
-msgid ""
-"Usage: %s [-LRSq] -s attrname [-V attrvalue] pathname  # set value\n"
+msgid "Usage: %s [-LRSq] -s attrname [-V attrvalue] pathname  # set value\n"
 "       %s [-LRSq] -g attrname pathname                 # get value\n"
 "       %s [-LRSq] -r attrname pathname                 # remove attr\n"
 "       %s [-LRq]  -l pathname                          # list attrs \n"
 "      -s reads a value from stdin and -g writes a value to stdout\n"
-msgstr ""
-"Використання: %s [-LRSq] -s атрибут [-V значення] шлях # встановити "
-"значення\n"
+msgstr "Використання: %s [-LRSq] -s атрибут [-V значення] шлях # встановити значення\n"
 "       %s [-LRSq] -g атрибут шлях                      # отримати значення\n"
 "       %s [-LRSq] -r атрибут шлях                      # вилучити атрибут\n"
 "       %s [-LRq]  -l шлях                              # список атрибутів\n"
@@ -128,9 +125,7 @@ msgstr "%s: %s: На рядку %d імені файл не знайдено, з
 #: tools/setfattr.c:133
 #, c-format
 msgid "%s: No filename found in line %d of standard input, aborting\n"
-msgstr ""
-"%s: На рядку %d стандартного вводу імені файл не знайдено, завершення "
-"роботи\n"
+msgstr "%s: На рядку %d стандартного вводу імені файл не знайдено, завершення роботи\n"
 
 #: tools/setfattr.c:180
 #, c-format
@@ -145,12 +140,11 @@ msgstr "Використання: %s %s\n"
 #: tools/setfattr.c:182
 #, c-format
 msgid "       %s %s\n"
-msgstr "       %s %s\n"
+msgstr ""
 
 #: tools/setfattr.c:184
 #, c-format
-msgid ""
-"  -n, --name=name         set the value of the named extended attribute\n"
+msgid "  -n, --name=name         set the value of the named extended attribute\n"
 "  -x, --remove=name       remove the named extended attribute\n"
 "  -v, --value=value       use value as the attribute value\n"
 "  -h, --no-dereference    do not dereference symbolic links\n"
@@ -162,12 +156,10 @@ msgstr ""
 
 #: tools/setfattr.c:264
 #, c-format
-msgid ""
-"Usage: %s %s\n"
+msgid "Usage: %s %s\n"
 "       %s %s\n"
 "Try `%s --help' for more information.\n"
-msgstr ""
-"Використання: %s %s\n"
+msgstr "Використання: %s %s\n"
 "       %s %s\n"
 "Спробуйте `%s --help', щоб отримати більше інформації.\n"
 
@@ -183,8 +175,7 @@ msgstr "%s %s -- отримати розширені атрибути\n"
 
 #: tools/getfattr.c:383
 #, c-format
-msgid ""
-"  -n, --name=name         get the named extended attribute value\n"
+msgid "  -n, --name=name         get the named extended attribute value\n"
 "  -d, --dump              get all extended attribute values\n"
 "  -e, --encoding=...      encode values (as 'text', 'hex' or 'base64')\n"
 "      --match=pattern     only get attributes with names matching pattern\n"
@@ -196,20 +187,16 @@ msgid ""
 "  -P  --physical          physical walk, do not follow symbolic links\n"
 "      --version           print version and exit\n"
 "      --help              this help text\n"
-msgstr ""
-"  -n, --name=ім'я         отримати значення названого розширеного атрибуту\n"
+msgstr "  -n, --name=ім'я         отримати значення названого розширеного атрибуту\n"
 "  -d, --dump              отримати значення усіх розширених атрибутів\n"
-"  -e, --encoding=...      закодувати значення (як 'text', 'hex' або "
-"'base64')\n"
-"      --match=шаблон      отримати тільки атрибути, ім'я яких збігається з "
-"шаблоном\n"
+"  -e, --encoding=...      закодувати значення (як 'text', 'hex' або 'base64')\n"
+"      --match=шаблон      отримати тільки атрибути, ім'я яких збігається з шаблоном\n"
 "      --only-values       виводити тільки голі значення\n"
 "  -h, --no-dereference    не йти за символічними посиланнями\n"
 "      --absolute-names    не вилучати початковий '/' зі шляху\n"
 "  -R, --recursive         рекурсивно обробляти піддиректорії\n"
 "  -L, --logical           логічний обхід, йти за символічними посиланнями\n"
-"  -P  --physical          фізичний обхід, не йти за символічними "
-"посиланнями\n"
+"  -P  --physical          фізичний обхід, не йти за символічними посиланнями\n"
 "      --version           вивести версію та вийти\n"
 "      --help              цей текст довідки\n"
 
@@ -220,9 +207,8 @@ msgstr "%s: неправильний регулярний вираз \"%s\"\n"
 
 #: tools/getfattr.c:493
 #, c-format
-msgid ""
-"Usage: %s %s\n"
+msgid "Usage: %s %s\n"
 "Try `%s --help' for more information.\n"
-msgstr ""
-"Використання: %s %s\n"
+msgstr "Використання: %s %s\n"
 "Спробуйте `%s --help', щоб отримати більше інформації.\n"
+

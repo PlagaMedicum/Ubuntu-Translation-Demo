@@ -1,21 +1,27 @@
-# Belarusian translation for packagekit
-# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
-# This file is distributed under the same license as the packagekit package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
-#
+# Translators:
+# Andi Chandler <andi@gowling.com>, 2014-2017
+# Bruce Cowan <bruce@bcowan.me.uk>, 2012-2013,2018
+# Chris  Leonard <cjl@laptop.org>, 2012
+# Richard Hughes <richard@hughsie.com>, 2011
+# Tim Waugh <twaugh@redhat.com>, 2009
 msgid ""
 msgstr ""
-"Project-Id-Version: packagekit\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-04-02 15:12+0000\n"
-"PO-Revision-Date: 2012-09-10 19:28+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
-"Language-Team: Belarusian <be@li.org>\n"
+"PO-Revision-Date: 2019-07-08 16:56\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-05-11 12:29+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Launchpad-Export-Date: 2019-05-11 12:30+0000\n"
+"X-Generator: crowdin.com\n"
+"Language: be_BY\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/PackageKit.po\n"
 
 #. TRANSLATORS: this is an atomic transaction
 #. TRANSLATORS: the role is the point of the transaction, e.g. update-packages
@@ -303,24 +309,18 @@ msgstr ""
 
 #. TRANSLATORS: a package needs to restart their system (due to security)
 #: ../client/pk-console.c:844
-msgid ""
-"Please restart the computer to complete the update as important security "
-"updates have been installed."
+msgid "Please restart the computer to complete the update as important security updates have been installed."
 msgstr ""
 
 #. TRANSLATORS: a package needs to restart the session (due to security)
 #: ../client/pk-console.c:847
-msgid ""
-"Please logout and login to complete the update as important security updates "
-"have been installed."
+msgid "Please logout and login to complete the update as important security updates have been installed."
 msgstr ""
 
 #. TRANSLATORS: The user used 'pkcon install dave.rpm' rather than 'pkcon install-local dave.rpm'
 #: ../client/pk-console.c:887
 #, c-format
-msgid ""
-"Expected package name, actually got file. Try using 'pkcon install-local %s' "
-"instead."
+msgid "Expected package name, actually got file. Try using 'pkcon install-local %s' instead."
 msgstr ""
 
 #. TRANSLATORS: There was an error getting the list of files for the package. The detailed error follows
@@ -400,14 +400,12 @@ msgstr ""
 
 #. TRANSLATORS: command line argument, this command is not a priority
 #: ../client/pk-console.c:1510
-msgid ""
-"Run the command using idle network bandwidth and also using less power"
+msgid "Run the command using idle network bandwidth and also using less power"
 msgstr ""
 
 #. TRANSLATORS: command line argument, just output without fancy formatting
 #: ../client/pk-console.c:1513
-msgid ""
-"Print to screen a machine readable output, rather than using animated widgets"
+msgid "Print to screen a machine readable output, rather than using animated widgets"
 msgstr ""
 
 #. TRANSLATORS: command line argument, just output without fancy formatting
@@ -473,8 +471,7 @@ msgstr ""
 
 #. TRANSLATORS: the user did not specify anything about what to download or where
 #: ../client/pk-console.c:1747
-msgid ""
-"A destination directory and the package names to download are required"
+msgid "A destination directory and the package names to download are required"
 msgstr ""
 
 #. TRANSLATORS: the directory does not exist, so we can't continue
@@ -564,8 +561,7 @@ msgstr ""
 
 #. TRANSLATORS: the output location
 #: ../client/pk-generate-pack.c:255
-msgid ""
-"The output file or directory (the current directory is used if omitted)"
+msgid "The output file or directory (the current directory is used if omitted)"
 msgstr ""
 
 #. TRANSLATORS: put a list of packages in the pack
@@ -606,9 +602,7 @@ msgstr ""
 
 #. TRANSLATORS: This is when the distro didn't include libarchive support into PK
 #: ../client/pk-generate-pack.c:365
-msgid ""
-"Service packs cannot be created as PackageKit was not built with libarchive "
-"support."
+msgid "Service packs cannot be created as PackageKit was not built with libarchive support."
 msgstr ""
 
 #. TRANSLATORS: the user specified an absolute path, but didn't get the extension correct
@@ -618,8 +612,7 @@ msgstr ""
 
 #. TRANSLATORS: This is when file already exists
 #: ../client/pk-generate-pack.c:392
-msgid ""
-"A pack with the same name already exists, do you want to overwrite it?"
+msgid "A pack with the same name already exists, do you want to overwrite it?"
 msgstr ""
 
 #. TRANSLATORS: This is when the pack was not overwritten
@@ -844,8 +837,7 @@ msgstr ""
 
 #. command line argument, simulate what would be done, but don't actually do it
 #: ../contrib/debuginfo-install/pk-debuginfo-install.c:516
-msgid ""
-"Don't actually install any packages, only simulate what would be installed"
+msgid "Don't actually install any packages, only simulate what would be installed"
 msgstr ""
 
 #. command line argument, do we skip packages that depend on the ones specified
@@ -1728,8 +1720,7 @@ msgid "Cancel foreign task"
 msgstr ""
 
 #: ../policy/org.freedesktop.packagekit.policy.in.h:7
-msgid ""
-"Authentication is required to cancel a task that was not started by yourself"
+msgid "Authentication is required to cancel a task that was not started by yourself"
 msgstr ""
 
 #. SECURITY:
@@ -1771,9 +1762,7 @@ msgid "Trust a key used for signing packages"
 msgstr ""
 
 #: ../policy/org.freedesktop.packagekit.policy.in.h:31
-msgid ""
-"Authentication is required to consider a key used for signing packages as "
-"trusted"
+msgid "Authentication is required to consider a key used for signing packages as trusted"
 msgstr ""
 
 #. SECURITY:
@@ -1856,9 +1845,7 @@ msgid "Set network proxy"
 msgstr ""
 
 #: ../policy/org.freedesktop.packagekit.policy.in.h:78
-msgid ""
-"Authentication is required to set the network proxy used for downloading "
-"packages"
+msgid "Authentication is required to set the network proxy used for downloading packages"
 msgstr ""
 
 #. SECURITY:
@@ -1984,6 +1971,6 @@ msgid "Do not install this package unless you are sure it is safe to do so."
 msgstr ""
 
 #: ../src/pk-transaction.c:2955
-msgid ""
-"Do not install these packages unless you are sure it is safe to do so."
+msgid "Do not install these packages unless you are sure it is safe to do so."
 msgstr ""
+

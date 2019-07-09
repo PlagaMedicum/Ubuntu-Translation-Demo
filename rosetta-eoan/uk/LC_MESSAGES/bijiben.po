@@ -1,25 +1,21 @@
-# Ukrainian translation for bijiben.
-# Copyright (C) 2013 bijiben's COPYRIGHT HOLDER
-# This file is distributed under the same license as the bijiben package.
-# Mykola Tkach <Stuartlittle1970@gmail.com>, 2013.
-# Daniel Korostil <ted.korostiled@gmail.com>, 2013, 2014, 2015.
 msgid ""
 msgstr ""
-"Project-Id-Version: bijiben master\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-notes/issues\n"
 "POT-Creation-Date: 2019-03-14 10:55+0000\n"
-"PO-Revision-Date: 2019-03-14 12:20+0000\n"
-"Last-Translator: Daniel Korostil <Unknown>\n"
-"Language-Team: linux.org.ua\n"
+"PO-Revision-Date: 2019-07-08 17:20\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Launchpad-Export-Date: 2019-05-11 13:22+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"X-Project-Style: gnome\n"
-"Language: uk\n"
+"X-Generator: crowdin.com\n"
+"Language: uk_UA\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/bijiben.po\n"
 
 #: data/appdata/org.gnome.Notes.appdata.xml.in:6
 #: data/org.gnome.Notes.desktop.in:3 data/org.gnome.Notes.xml.in:4
@@ -32,15 +28,11 @@ msgid "Notes for GNOME"
 msgstr ""
 
 #: data/appdata/org.gnome.Notes.appdata.xml.in:9
-msgid ""
-"A quick and easy way to make freeform notes or jot down simple lists. Store "
-"as many notes as you like and share them by email."
+msgid "A quick and easy way to make freeform notes or jot down simple lists. Store as many notes as you like and share them by email."
 msgstr ""
 
 #: data/appdata/org.gnome.Notes.appdata.xml.in:12
-msgid ""
-"You can store your notes locally on your computer or sync with online "
-"services like ownCloud."
+msgid "You can store your notes locally on your computer or sync with online services like ownCloud."
 msgstr ""
 
 #: data/appdata/org.gnome.Notes.appdata.xml.in:28
@@ -48,10 +40,13 @@ msgid "Edit view"
 msgstr ""
 
 #: data/appdata/org.gnome.Notes.appdata.xml.in:32
+#| msgctxt "shortcut window"
+#| msgid "Select all"
 msgid "Select view"
 msgstr ""
 
 #: data/appdata/org.gnome.Notes.appdata.xml.in:36
+#| msgid "List"
 msgid "List view"
 msgstr ""
 
@@ -78,10 +73,8 @@ msgid "Custom Font"
 msgstr "Нетиповий шрифт"
 
 #: data/org.gnome.Notes.gschema.xml:11
-msgid ""
-"The font name set here will be used as the font when displaying notes."
-msgstr ""
-"Назва шрифту, який вказано тут, буде використовуватись у показі приміток."
+msgid "The font name set here will be used as the font when displaying notes."
+msgstr "Назва шрифту, який вказано тут, буде використовуватись у показі приміток."
 
 #: data/org.gnome.Notes.gschema.xml:15
 msgid "Whether to use the system monospace font"
@@ -92,10 +85,8 @@ msgid "New notes color."
 msgstr "Новий колір примітки."
 
 #: data/org.gnome.Notes.gschema.xml:20
-msgid ""
-"The color name set here will be used as the color when creating new notes."
-msgstr ""
-"Назва шрифту, який вказано тут, буде використовуватись у створені приміток."
+msgid "The color name set here will be used as the color when creating new notes."
+msgstr "Назва шрифту, який вказано тут, буде використовуватись у створені приміток."
 
 #: data/org.gnome.Notes.gschema.xml:24
 msgid "Primary notes provider to use for new notes."
@@ -142,8 +133,7 @@ msgid "Text size used by note editor."
 msgstr ""
 
 #: data/org.gnome.Notes.gschema.xml:49
-msgid ""
-"There are three text sizes available: small, medium (default) and large."
+msgid "There are three text sizes available: small, medium (default) and large."
 msgstr ""
 
 #: data/resources/editor-toolbar.ui:49
@@ -160,7 +150,7 @@ msgstr "Підкреслений"
 
 #: data/resources/editor-toolbar.ui:106
 msgid "* "
-msgstr "* "
+msgstr ""
 
 #: data/resources/editor-toolbar.ui:110
 msgid "Bullets"
@@ -168,7 +158,7 @@ msgstr "Тип сортування"
 
 #: data/resources/editor-toolbar.ui:123
 msgid "1."
-msgstr "1."
+msgstr ""
 
 #: data/resources/editor-toolbar.ui:127
 msgid "List"
@@ -360,10 +350,12 @@ msgid "Preferences"
 msgstr "Параметри"
 
 #: data/resources/main-toolbar.ui:308
+#| msgid "_Keyboard Shortcuts"
 msgid "Keyboard Shortcuts"
 msgstr ""
 
 #: data/resources/main-toolbar.ui:317
+#| msgid "_Help"
 msgid "Help"
 msgstr ""
 
@@ -486,10 +478,8 @@ msgstr "Проста записна книжка середовища GNOME"
 
 #: src/bjb-application.c:632
 msgid "translator-credits"
-msgstr ""
-"Микола Ткач <Stuartlittle1970@gmail.com>, 2013.\n"
-"Daniel Korostil <ted.korostiled@gmail.com>\n"
-"\n"
+msgstr "Микола Ткач <Stuartlittle1970@gmail.com>, 2013.\n"
+"Daniel Korostil <ted.korostiled@gmail.com>\n\n"
 "Launchpad Contributions:\n"
 "  Daniel Korostil https://launchpad.net/~ted-korostiled\n"
 "  stuartlittle https://launchpad.net/~stuartlittle1970"
@@ -529,6 +519,7 @@ msgid_plural "%d selected"
 msgstr[0] "%d вибрано"
 msgstr[1] "%d вибрано"
 msgstr[2] "%d вибрано"
+msgstr[3] ""
 
 #: src/bjb-main-toolbar.c:274
 #, c-format
@@ -550,6 +541,7 @@ msgstr "Смітник"
 #. 
 #: src/bjb-main-toolbar.c:429
 #, c-format
+#| msgid "<b>Last updated</b> %s"
 msgid "Last updated %s"
 msgstr ""
 
@@ -584,3 +576,4 @@ msgstr "Локальне"
 #: src/libbiji/provider/biji-local-provider.c:366
 msgid "Local storage"
 msgstr "Локальне сховище"
+

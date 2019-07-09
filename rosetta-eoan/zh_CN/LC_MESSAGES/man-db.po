@@ -1,993 +1,942 @@
-# Simplified Chinese translations for man-db package
-# Copyright (C) 2008 Colin Watson (msgids)
-# Copyright (C) 2017 Boyuan Yang
-# Copyright (C) 2008 Ming Hua
-# This file is distributed under the same license as the man-db package.
-# Ming Hua <minghua-guest@users.alioth.debian.org>, 2007-2008.
-#
-# Okay, the stupid Translation Project Robot requires a fixed format for the
-# file header, so the above lines are written to satisfy it.  The full detail
-# of the copyright is as follows:
-#
-# The original English strings (msgid) are:
-# Copyright © 2008 Colin Watson <cjwatson@debian.org>
-# The translations (msgstr) are:
-# Copyright © 2007-2008 Ming Hua <minghua-guest@users.alioth.debian.org>
-# Copyright © 2017 Boyuan Yang <073plan@gmail.com>
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: man-db 2.7.6.1\n"
-"Report-Msgid-Bugs-To: Colin Watson <cjwatson@debian.org>\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-01-05 09:27+0000\n"
-"PO-Revision-Date: 2018-02-05 00:07+0000\n"
-"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
-"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"PO-Revision-Date: 2019-07-08 17:38\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Launchpad-Export-Date: 2019-05-11 11:29+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/man-db.po\n"
 "Language: zh_CN\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
 
-#  need-proofread
 #: lib/security.c:78
 #, c-format
 msgid "can't set effective uid"
-msgstr "无法设置有效 uid"
+msgstr ""
 
 #: lib/security.c:117
 #, c-format
 msgid "the setuid man user \"%s\" does not exist"
-msgstr "不存在用来将 man 程序 setuid 的用户 %s"
+msgstr ""
 
 #: lib/xchown.c:38 lib/xchown.c:47 src/man.c:1742
 #, c-format
 msgid "can't chown %s"
-msgstr "无法 chown %s"
+msgstr ""
 
-#  need-proofread
 #: lib/xregcomp.c:47
 #, c-format
 msgid "fatal: regex `%s': %s"
-msgstr "致命错误：regex `%s'：%s"
+msgstr ""
 
 #: libdb/db_delete.c:103
 #, c-format
 msgid "multi key %s does not exist"
-msgstr "多重词条 %s 不存在"
+msgstr ""
 
 #: libdb/db_lookup.c:72
 #, c-format
 msgid "can't lock index cache %s"
-msgstr "无法锁定索引缓存 %s"
+msgstr ""
 
 #: libdb/db_lookup.c:79
 #, c-format
 msgid "index cache %s corrupt"
-msgstr "索引缓存 %s 已损坏"
+msgstr ""
 
 #: libdb/db_lookup.c:85
 #, c-format
 msgid "cannot replace key %s"
-msgstr "无法替换词条 %s"
+msgstr ""
 
 #: libdb/db_lookup.c:181 libdb/db_lookup.c:192
 #, c-format
 msgid "only %d field in content"
 msgid_plural "only %d fields in content"
-msgstr[0] "内容中仅有 %d 个字段"
+msgstr[0] ""
 
 #: libdb/db_lookup.c:343
 #, c-format
 msgid "bad fetch on multi key %s"
-msgstr "获取了无效的多重词条 %s"
+msgstr ""
 
-#  need-proofread
 #: libdb/db_lookup.c:416 src/whatis.c:761
 #, c-format
 msgid "Database %s corrupted; rebuild with mandb --create"
-msgstr "数据库 %s 已损坏；请用 mandb --create 命令重建"
+msgstr ""
 
 #: libdb/db_ver.c:53
 #, c-format
 msgid "warning: %s has no version identifier\n"
-msgstr "警告：%s 没有版本识别符\n"
+msgstr ""
 
 #: libdb/db_ver.c:56
 #, c-format
 msgid "warning: %s is version %s, expecting %s\n"
-msgstr "警告：%s 的版本是 %s，期望为 %s\n"
+msgstr ""
 
 #: libdb/db_ver.c:78
 #, c-format
 msgid "fatal: unable to insert version identifier into %s"
-msgstr "致命错误：无法将版本识别符插入 %s"
+msgstr ""
 
 #: src/accessdb.c:60
 msgid "[MAN DATABASE]"
-msgstr "[MAN 数据库]"
+msgstr ""
 
 #: src/accessdb.c:61
 #, c-format
 msgid "The man database defaults to %s%s."
-msgstr "默认的 man 数据库是 %s%s。"
+msgstr ""
 
 #: src/accessdb.c:64 src/catman.c:100 src/globbing_test.c:59
 #: src/lexgrog_test.c:69 src/man.c:278 src/manconv_main.c:95 src/mandb.c:111
 #: src/manpath.c:66 src/whatis.c:124 src/zsoelim_main.c:67
 msgid "emit debugging messages"
-msgstr "输出调试信息"
+msgstr ""
 
-#  need-proofread
 #: src/accessdb.c:136
 #, c-format
 msgid "can't open %s for reading"
-msgstr "无法打开 %s 读取数据"
+msgstr ""
 
 #: src/catman.c:97
 msgid "[SECTION...]"
-msgstr "[章节...]"
+msgstr ""
 
 #: src/catman.c:101 src/man.c:299 src/whatis.c:134
 msgid "PATH"
-msgstr "路径"
+msgstr ""
 
 #: src/catman.c:101 src/man.c:299 src/whatis.c:134
 msgid "set search path for manual pages to PATH"
-msgstr "设置搜索手册页的路径为 PATH"
+msgstr ""
 
 #: src/catman.c:102 src/man.c:277 src/mandb.c:119 src/manpath.c:68
 #: src/whatis.c:136
 msgid "FILE"
-msgstr "文件"
+msgstr ""
 
 #: src/catman.c:102 src/man.c:277 src/mandb.c:119 src/manpath.c:68
 #: src/whatis.c:136
 msgid "use this user configuration file"
-msgstr "使用该用户设置文件"
+msgstr ""
 
 #: src/catman.c:195
 #, c-format
 msgid "man command failed with exit status %d"
-msgstr "man 命令失败，退出状态代码为 %d"
+msgstr ""
 
 #: src/catman.c:234
 #, c-format
 msgid "cannot read database %s"
-msgstr "无法读取数据库 %s"
+msgstr ""
 
-#  need-proofread
 #: src/catman.c:277
 #, c-format
 msgid "NULL content for key: %s"
-msgstr "关于 %s 词条的内容为空"
+msgstr ""
 
-#  need-proofread
 #: src/catman.c:292
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "Updating cat files for section %s of man hierarchy %s\n"
 msgstr ""
-"\n"
-"正在更新 man 目录树 %2$s 中第 %1$s 节的 cat 文件\n"
 
 #: src/catman.c:346
 #, c-format
 msgid "cannot write within %s"
-msgstr "无法在 %s 里写入"
+msgstr ""
 
 #: src/catman.c:423
 #, c-format
 msgid "unable to update %s"
-msgstr "无法更新 %s"
+msgstr ""
 
-#  need-proofread
 #: src/check_mandirs.c:96
 #, c-format
 msgid "warning: %s/man%s/%s.%s*: competing extensions"
-msgstr "警告：%s/man%s/%s.%s*：互相竞争的扩展"
+msgstr ""
 
 #: src/check_mandirs.c:110 src/check_mandirs.c:621
 #, c-format
 msgid "can't update index cache %s"
-msgstr "无法更新索引缓存 %s"
+msgstr ""
 
 #: src/check_mandirs.c:238
 #, c-format
 msgid "warning: %s: bad symlink or ROFF `.so' request"
-msgstr "警告：%s：坏的符号链接或坏的 ROFF“.so”请求"
+msgstr ""
 
 #: src/check_mandirs.c:296
 #, c-format
 msgid "warning: %s: ignoring empty file"
-msgstr "警告：%s：忽略空文件"
+msgstr ""
 
 #: src/check_mandirs.c:300 src/straycats.c:285
 #, c-format
 msgid "warning: %s: whatis parse for %s(%s) failed"
-msgstr "警告：%s：用 whatis 解读 %s(%s) 失败"
+msgstr ""
 
 #: src/check_mandirs.c:327 src/check_mandirs.c:506 src/mandb.c:879
 #: src/straycats.c:80 src/straycats.c:314 src/ult_src.c:80
 #, c-format
 msgid "can't search directory %s"
-msgstr "无法搜索目录 %s"
+msgstr ""
 
 #: src/check_mandirs.c:408 src/check_mandirs.c:431
 #, c-format
 msgid "warning: cannot create catdir %s"
-msgstr "警告：无法创建 catdir %s"
+msgstr ""
 
 #: src/check_mandirs.c:463 src/man.c:1754 src/mandb.c:229
 #, c-format
 msgid "can't chmod %s"
-msgstr "无法 chmod %s"
+msgstr ""
 
 #: src/check_mandirs.c:511
 #, c-format
 msgid "can't change to directory %s"
-msgstr "无法切换到目录 %s 中"
+msgstr ""
 
 #: src/check_mandirs.c:561
 #, c-format
 msgid "can't create index cache %s"
-msgstr "无法创建索引缓存 %s"
+msgstr ""
 
 #: src/check_mandirs.c:586
 #, c-format
 msgid "Updating index cache for path `%s/%s'. Wait..."
-msgstr "正在为路径 %s/%s 更新索引缓存。请等待..."
+msgstr ""
 
 #: src/check_mandirs.c:648 src/check_mandirs.c:709
 msgid "done.\n"
-msgstr "完成。\n"
+msgstr ""
 
-#  need-proofread
 #: src/check_mandirs.c:968
 #, c-format
 msgid "Purging old database entries in %s...\n"
-msgstr "正在删除 %s 里的旧数据库条目...\n"
+msgstr ""
 
-#  need-proofread
 #: src/descriptions_store.c:47
 #, c-format
 msgid "warning: failed to store entry for %s(%s)"
-msgstr "警告：为 %s(%s) 存储条目失败"
+msgstr ""
 
-#  need-proofread
 #: src/filenames.c:48 src/straycats.c:126 src/straycats.c:155
 #, c-format
 msgid "warning: %s: ignoring bogus filename"
-msgstr "警告：%s：忽略错误的文件名"
+msgstr ""
 
 #: src/globbing_test.c:56
 msgid "PATH SECTION NAME"
-msgstr "路径 章节 名称"
+msgstr ""
 
 #: src/globbing_test.c:60 src/man.c:302
 msgid "EXTENSION"
-msgstr "扩展"
+msgstr ""
 
 #: src/globbing_test.c:60 src/man.c:303
 msgid "limit search to extension type EXTENSION"
-msgstr "将搜索限制在扩展类型为“扩展”的手册页之内"
+msgstr ""
 
 #: src/globbing_test.c:61 src/man.c:304
 msgid "look for pages case-insensitively (default)"
-msgstr "查找手册页时不区分大小写字母 (默认)"
+msgstr ""
 
 #: src/globbing_test.c:62 src/man.c:305
 msgid "look for pages case-sensitively"
-msgstr "查找手册页时区分大小写字母"
+msgstr ""
 
 #: src/globbing_test.c:63
 msgid "interpret page name as a regex"
-msgstr "把页面名称当作正则表达式解读"
+msgstr ""
 
 #: src/globbing_test.c:64
 msgid "the page name contains wildcards"
-msgstr "页面名称里包含通配符"
+msgstr ""
 
 #: src/lexgrog.l:691
 #, c-format
 msgid "warning: whatis for %s exceeds %d byte, truncating."
 msgid_plural "warning: whatis for %s exceeds %d bytes, truncating."
-msgstr[0] "警告：对 %s 的 whatis 操作结果超过 %d 字节，正在截断。"
+msgstr[0] ""
 
 #: src/lexgrog.l:844 src/man.c:2323 src/man.c:2405 src/man.c:2503
 #: src/manconv_main.c:167 src/straycats.c:224 src/ult_src.c:345
 #: src/ult_src.c:359 src/zsoelim.l:505
 #, c-format
 msgid "can't open %s"
-msgstr "无法打开 %s"
+msgstr ""
 
 #: src/lexgrog_test.c:65 src/zsoelim_main.c:64
 msgid "FILE..."
-msgstr "文件..."
+msgstr ""
 
 #: src/lexgrog_test.c:66
 msgid "The defaults are --man and --whatis."
-msgstr "默认选项是 --man 和 --whatis。"
+msgstr ""
 
 #: src/lexgrog_test.c:70
 msgid "parse as man page"
-msgstr "当成手册页解读"
+msgstr ""
 
 #: src/lexgrog_test.c:71
 msgid "parse as cat page"
-msgstr "当成 cat 页解读"
+msgstr ""
 
 #: src/lexgrog_test.c:72
 msgid "show whatis information"
-msgstr "显示 whatis 信息"
+msgstr ""
 
 #: src/lexgrog_test.c:73
 msgid "show guessed series of preprocessing filters"
-msgstr "显示所猜测的预处理过滤器序列"
+msgstr ""
 
 #: src/lexgrog_test.c:74 src/man.c:294 src/man.c:319
 msgid "ENCODING"
-msgstr "编码"
+msgstr ""
 
 #: src/lexgrog_test.c:74 src/man.c:319
 msgid "use selected output encoding"
-msgstr "使用选中的输出编码"
+msgstr ""
 
 #: src/lexgrog_test.c:118 src/man.c:553 src/man.c:562
 #, c-format
 msgid "%s: incompatible options"
-msgstr "%s：互不相容的选项"
+msgstr ""
 
 #: src/man.c:163
 #, c-format
 msgid "command exited with status %d: %s"
-msgstr "命令以代码 %d 状态退出：%s"
+msgstr ""
 
 #: src/man.c:261
 msgid "[SECTION] PAGE..."
-msgstr "[章节] 手册页..."
+msgstr ""
 
 #: src/man.c:279
 msgid "reset all options to their default values"
-msgstr "将所有选项都重置为默认值"
+msgstr ""
 
 #: src/man.c:280
 msgid "WARNINGS"
-msgstr "警告"
+msgstr ""
 
 #: src/man.c:281
 msgid "enable warnings from groff"
-msgstr "开启 groff 的警告"
+msgstr ""
 
 #: src/man.c:283
 msgid "Main modes of operation:"
-msgstr "主要运行模式："
+msgstr ""
 
 #: src/man.c:284
 msgid "equivalent to whatis"
-msgstr "等同于 whatis"
+msgstr ""
 
 #: src/man.c:285
 msgid "equivalent to apropos"
-msgstr "等同于 apropos"
+msgstr ""
 
 #: src/man.c:286
 msgid "search for text in all pages"
-msgstr "在所有页面中搜索文字"
+msgstr ""
 
 #: src/man.c:287
 msgid "print physical location of man page(s)"
-msgstr "输出手册页的物理位置"
+msgstr ""
 
 #: src/man.c:290
 msgid "print physical location of cat file(s)"
-msgstr "输出 cat 文件的物理位置"
+msgstr ""
 
 #: src/man.c:292
 msgid "interpret PAGE argument(s) as local filename(s)"
-msgstr "把“手册页”参数当成本地文件名来解读"
+msgstr ""
 
 #: src/man.c:293
 msgid "used by catman to reformat out of date cat pages"
-msgstr "由 catman 使用，用来对过时的 cat 页重新排版"
+msgstr ""
 
 #: src/man.c:294
 msgid "output source page encoded in ENCODING"
-msgstr "以指定编码输出手册页源码"
+msgstr ""
 
 #: src/man.c:296
 msgid "Finding manual pages:"
-msgstr "寻找手册页："
+msgstr ""
 
 #: src/man.c:297 src/whatis.c:135
 msgid "LOCALE"
-msgstr "区域"
+msgstr ""
 
 #: src/man.c:297
 msgid "define the locale for this particular man search"
-msgstr "定义本次手册页搜索所采用的区域设置"
+msgstr ""
 
 #: src/man.c:298 src/manpath.c:69 src/whatis.c:133
 msgid "SYSTEM"
-msgstr "系统"
+msgstr ""
 
 #: src/man.c:298 src/manpath.c:69 src/whatis.c:133
 msgid "use manual pages from other systems"
-msgstr "使用来自其它系统的手册页"
+msgstr ""
 
 #: src/man.c:300 src/whatis.c:131
 msgid "LIST"
-msgstr "列表"
+msgstr ""
 
 #: src/man.c:300
 msgid "use colon separated section list"
-msgstr "使用以半角冒号分隔的章节列表"
+msgstr ""
 
 #: src/man.c:306
 msgid "show all pages matching regex"
-msgstr "显示所有匹配正则表达式的页面"
+msgstr ""
 
 #: src/man.c:307
 msgid "show all pages matching wildcard"
-msgstr "显示所有匹配通配符的页面"
+msgstr ""
 
 #: src/man.c:308
 msgid "make --regex and --wildcard match page names only, not descriptions"
-msgstr "使得 --regex 和 --wildcard 仅匹配页面名称，不匹配描述信息"
+msgstr ""
 
 #: src/man.c:310
 msgid "find all matching manual pages"
-msgstr "寻找所有匹配的手册页"
+msgstr ""
 
 #: src/man.c:311
 msgid "force a cache consistency check"
-msgstr "强制进行缓存一致性的检查"
+msgstr ""
 
 #: src/man.c:313
 msgid "don't try subpages, e.g. 'man foo bar' => 'man foo-bar'"
-msgstr "不要尝试子页面，如“man foo bar” => “man foo-bar”"
+msgstr ""
 
 #: src/man.c:315
 msgid "Controlling formatted output:"
-msgstr "控制格式化的输出："
+msgstr ""
 
 #: src/man.c:316
 msgid "PAGER"
-msgstr "PAGER"
+msgstr ""
 
 #: src/man.c:316
 msgid "use program PAGER to display output"
-msgstr "使用 PAGER 程序显示输出文本"
+msgstr ""
 
 #: src/man.c:317 src/man.c:326
 msgid "STRING"
-msgstr "字符串"
+msgstr ""
 
-#  need-proofread
 #: src/man.c:317
 msgid "provide the `less' pager with a prompt"
-msgstr "给 less 分页器提供一个提示行"
+msgstr ""
 
 #: src/man.c:318
 msgid "display ASCII translation of certain latin1 chars"
-msgstr "显示某些 latin1 字符的 ASCII 翻译形式"
+msgstr ""
 
 #: src/man.c:321
 msgid "turn off hyphenation"
-msgstr "关闭连字符"
+msgstr ""
 
 #: src/man.c:324
 msgid "turn off justification"
-msgstr "禁止两端对齐"
+msgstr ""
 
 #: src/man.c:326
-msgid ""
-"STRING indicates which preprocessors to run:\n"
+msgid "STRING indicates which preprocessors to run:\n"
 "e - [n]eqn, p - pic, t - tbl,\n"
 "g - grap, r - refer, v - vgrind"
 msgstr ""
-"字符串表示要运行哪些预处理器：\n"
-"e - [n]eqn, p - pic, t - tbl,\n"
-"g - grap, r - refer, v - vgrind"
 
 #: src/man.c:330
 #, c-format
 msgid "use %s to format pages"
-msgstr "使用 %s 对手册页排版"
+msgstr ""
 
 #: src/man.c:331
 msgid "DEVICE"
-msgstr "设备"
+msgstr ""
 
 #: src/man.c:332
 #, c-format
 msgid "use %s with selected device"
-msgstr "使用 %s 的指定设备"
+msgstr ""
 
 #: src/man.c:333
 msgid "BROWSER"
-msgstr "浏览器"
+msgstr ""
 
 #: src/man.c:334
 #, c-format
 msgid "use %s or BROWSER to display HTML output"
-msgstr "使用 %s 或指定浏览器显示 HTML 输出"
+msgstr ""
 
 #: src/man.c:335
 msgid "RESOLUTION"
-msgstr "分辨率"
+msgstr ""
 
 #: src/man.c:337
-msgid ""
-"use groff and display through gxditview (X11):\n"
+msgid "use groff and display through gxditview (X11):\n"
 "-X = -TX75, -X100 = -TX100, -X100-12 = -TX100-12"
 msgstr ""
-"使用 groff 并通过 gxditview (X11) 来显示：\n"
-"-X = -TX75, -X100 = -TX100, -X100-12 = -TX100-12"
 
 #: src/man.c:339
 msgid "use groff and force it to produce ditroff"
-msgstr "使用 groff 并强制它生成 ditroff"
+msgstr ""
 
 #: src/man.c:610 src/man.c:788
 #, c-format
 msgid "No manual entry for %s\n"
-msgstr "没有 %s 的手册页条目\n"
+msgstr ""
 
 #: src/man.c:612
 #, c-format
 msgid "(Alternatively, what manual page do you want from section %s?)\n"
-msgstr "(换句话问，您需要第 %s 节中的什么手册页？)\n"
+msgstr ""
 
 #: src/man.c:616
 msgid "What manual page do you want?\n"
-msgstr "您需要什么手册页？\n"
+msgstr ""
 
 #: src/man.c:785
 #, c-format
 msgid "No manual entry for %s in section %s\n"
-msgstr "在第 %2$s 节中没有关于 %1$s 的手册页条目。\n"
+msgstr ""
 
 #: src/man.c:794
 #, c-format
 msgid "See '%s' for help when manual pages are not available.\n"
-msgstr "当没有手册页时，可以用 %s 命令来寻求帮助。\n"
+msgstr ""
 
 #: src/man.c:1402
 #, c-format
 msgid "ignoring unknown preprocessor `%c'"
-msgstr "忽略未知的预处理器 `%c'"
+msgstr ""
 
 #: src/man.c:1765 src/mandb.c:220
 #, c-format
 msgid "can't rename %s to %s"
-msgstr "无法将 %s 改名为 %s"
+msgstr ""
 
-#  need-proofread
 #: src/man.c:1782
 #, c-format
 msgid "can't set times on %s"
-msgstr "无法设定 %s 文件的时间"
+msgstr ""
 
 #: src/man.c:1791 src/man.c:1828
 #, c-format
 msgid "can't unlink %s"
-msgstr "无法删除 (unlink) %s"
+msgstr ""
 
 #: src/man.c:1858
 #, c-format
 msgid "can't create temporary cat for %s"
-msgstr "无法为 %s 创建临时 cat 文件"
+msgstr ""
 
 #: src/man.c:1968
 #, c-format
 msgid "can't create temporary directory"
-msgstr "无法创建临时目录"
+msgstr ""
 
 #: src/man.c:1979
 #, c-format
 msgid "can't open temporary file %s"
-msgstr "无法打开临时文件 %s"
+msgstr ""
 
 #: src/man.c:2009 src/man.c:2038
 #, c-format
 msgid "can't remove directory %s"
-msgstr "无法移除目录 %s"
+msgstr ""
 
 #: src/man.c:2167
 #, c-format
 msgid "--Man-- next: %s [ view (return) | skip (Ctrl-D) | quit (Ctrl-C) ]\n"
-msgstr "--Man-- 下一页: %s [ 查看 (return) | 跳过 (Ctrl-D) | 退出 (Ctrl-C) ]\n"
+msgstr ""
 
 #: src/man.c:2448
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "cannot write to %s in catman mode"
 msgstr ""
-"\n"
-"无法在 catman 模式下对 %s 写入"
 
 #: src/man.c:2529
 #, c-format
 msgid "Can't convert %s to cat name"
-msgstr "无法把 %s 转换为 cat 名称"
+msgstr ""
 
-#  need-proofread
 #: src/man.c:3253
 #, c-format
 msgid "%s: relying on whatis refs is deprecated\n"
-msgstr "%s：依赖于 whatis 引用是已被废弃的做法\n"
+msgstr ""
 
 #: src/man.c:3401 src/man.c:4250
 #, c-format
 msgid "mandb command failed with exit status %d"
-msgstr "mandb 命令失败，退出状态代码为 %d"
+msgstr ""
 
 #: src/man.c:3606
 #, c-format
 msgid "internal error: candidate type %d out of range"
-msgstr "内部错误：候选类型 %d 超出正常范围"
+msgstr ""
 
-#  I'm not sure this should be translated.  It comes from a less prompt string
-#  but seems to be only part of it.  (Ming)
-#  need-proofread
 #: src/man.c:4191
 msgid " Manual page "
-msgstr " Manual page "
+msgstr ""
 
-#  need-proofread
 #: src/manconv.c:232 src/manconv.c:253 src/manconv.c:348
 #, c-format
 msgid "can't write to standard output"
-msgstr "无法对标准输出写入"
+msgstr ""
 
 #: src/manconv.c:279
 msgid "iconv: incomplete character at end of buffer"
-msgstr "iconv：在缓冲区末尾有不完全的字符"
+msgstr ""
 
 #: src/manconv_main.c:89
 msgid "-f CODE[:...] -t CODE [FILENAME]"
-msgstr "-f 编码[:...] -t 编码 [文件名]"
+msgstr ""
 
 #: src/manconv_main.c:92
 msgid "CODE[:...]"
-msgstr "编码[:...]"
+msgstr ""
 
 #: src/manconv_main.c:93
 msgid "possible encodings of original text"
-msgstr "原始文本可能使用的编码列表"
+msgstr ""
 
 #: src/manconv_main.c:94
 msgid "CODE"
-msgstr "编码"
+msgstr ""
 
 #: src/manconv_main.c:94
 msgid "encoding for output"
-msgstr "输出文本所用的编码"
+msgstr ""
 
 #: src/manconv_main.c:96 src/manpath.c:67
 msgid "produce fewer warnings"
-msgstr "少显示一些警告"
+msgstr ""
 
 #: src/manconv_main.c:131 src/manconv_main.c:140
 #, c-format
 msgid "must specify an input encoding"
-msgstr "必须指定输入所用的编码"
+msgstr ""
 
 #: src/manconv_main.c:135
 #, c-format
 msgid "must specify an output encoding"
-msgstr "必须指定输出所用的编码"
+msgstr ""
 
 #: src/mandb.c:108
 msgid "[MANPATH]"
-msgstr "[手册路径]"
+msgstr ""
 
 #: src/mandb.c:112
 msgid "work quietly, except for 'bogus' warning"
-msgstr "安静运行，除 bogus 警告外不输出信息"
+msgstr ""
 
 #: src/mandb.c:113
 msgid "don't look for or add stray cats to the dbs"
-msgstr "不要寻找或在数据库中添加孤立 cat 页面"
+msgstr ""
 
 #: src/mandb.c:114
 msgid "don't purge obsolete entries from the dbs"
-msgstr "不要删除数据库中过时的旧条目"
+msgstr ""
 
 #: src/mandb.c:115
 msgid "produce user databases only"
-msgstr "仅生成用户数据库"
+msgstr ""
 
 #: src/mandb.c:116
 msgid "create dbs from scratch, rather than updating"
-msgstr "不更新数据库，而是重新创建数据库"
+msgstr ""
 
 #: src/mandb.c:117
 msgid "check manual pages for correctness"
-msgstr "检查手册页的正确性"
+msgstr ""
 
 #: src/mandb.c:118
 msgid "FILENAME"
-msgstr "文件名"
+msgstr ""
 
 #: src/mandb.c:118
 msgid "update just the entry for this filename"
-msgstr "仅更新该文件名对应的条目"
+msgstr ""
 
 #: src/mandb.c:213
 #, c-format
 msgid "can't remove %s"
-msgstr "无法移除 %s"
+msgstr ""
 
 #: src/mandb.c:277
 #, c-format
 msgid "can't write to %s"
-msgstr "无法对 %s 写入"
+msgstr ""
 
 #: src/mandb.c:282
 #, c-format
 msgid "can't read from %s"
-msgstr "无法从 %s 读取"
+msgstr ""
 
 #: src/mandb.c:450
 #, c-format
 msgid "Processing manual pages under %s...\n"
-msgstr "正在处理 %s 下的手册页...\n"
+msgstr ""
 
 #: src/mandb.c:667 src/mandb.c:693
 #, c-format
 msgid "Removing obsolete cat directory %s...\n"
-msgstr "正在删除过时的 cat 目录 %s...\n"
+msgstr ""
 
 #: src/mandb.c:844
 #, c-format
 msgid "warning: no MANDB_MAP directives in %s, using your manpath"
-msgstr "警告：在 %s 中没有 MANDB_MAP 指令，使用您的手册路径设置"
+msgstr ""
 
 #: src/mandb.c:916
 #, c-format
 msgid "%d man subdirectory contained newer manual pages.\n"
 msgid_plural "%d man subdirectories contained newer manual pages.\n"
-msgstr[0] "%d 个 man 子目录包含更新的手册页。\n"
+msgstr[0] ""
 
-#  I'm not sure this should be translated.  It comes from a less prompt string
-#  but seems to be only part of it.  (Ming)
-#  need-proofread
 #: src/mandb.c:921
 #, c-format
 msgid "%d manual page was added.\n"
 msgid_plural "%d manual pages were added.\n"
-msgstr[0] "添加了 %d 个手册页。\n"
+msgstr[0] ""
 
 #: src/mandb.c:925
 #, c-format
 msgid "%d stray cat was added.\n"
 msgid_plural "%d stray cats were added.\n"
-msgstr[0] "添加了 %d 个孤立 cat 页面。\n"
+msgstr[0] ""
 
-#  need-proofread
 #: src/mandb.c:930
 #, c-format
 msgid "%d old database entry was purged.\n"
 msgid_plural "%d old database entries were purged.\n"
-msgstr[0] "删除了 %d 条旧数据库条目。\n"
+msgstr[0] ""
 
 #: src/mandb.c:948
 #, c-format
 msgid "No databases created."
-msgstr "未创建任何数据库。"
+msgstr ""
 
 #: src/manp.c:327
 #, c-format
 msgid "can't make sense of the manpath configuration file %s"
-msgstr "无法理解手册路径设置文件 %s"
+msgstr ""
 
 #: src/manp.c:333
 #, c-format
 msgid "warning: %s"
-msgstr "警告：%s"
+msgstr ""
 
 #: src/manp.c:339
 #, c-format
 msgid "warning: %s isn't a directory"
-msgstr "警告：%s 不是目录"
+msgstr ""
 
 #: src/manp.c:344
 #, c-format
 msgid "manpath list too long"
-msgstr "手册路径列表过长"
+msgstr ""
 
 #: src/manp.c:675
 #, c-format
 msgid "warning: $PATH not set"
-msgstr "警告：没有设定 $PATH"
+msgstr ""
 
 #: src/manp.c:682
 #, c-format
 msgid "warning: empty $PATH"
-msgstr "警告：$PATH 为空"
+msgstr ""
 
 #: src/manp.c:710
 #, c-format
 msgid "warning: $MANPATH set, prepending %s"
-msgstr "警告：已经设定了 $MANPATH，在前面加上 %s"
+msgstr ""
 
 #: src/manp.c:721
 #, c-format
 msgid "warning: $MANPATH set, appending %s"
-msgstr "警告：已经设定了 $MANPATH，在后面加上 %s"
+msgstr ""
 
 #: src/manp.c:733
 #, c-format
 msgid "warning: $MANPATH set, inserting %s"
-msgstr "警告：已经设定了 $MANPATH，在其中插入 %s"
+msgstr ""
 
 #: src/manp.c:747
 #, c-format
 msgid "warning: $MANPATH set, ignoring %s"
-msgstr "警告：已经设定了 $MANPATH，忽略 %s"
+msgstr ""
 
 #: src/manp.c:809
 #, c-format
 msgid "can't parse directory list `%s'"
-msgstr "无法解析目录列表“%s”"
+msgstr ""
 
 #: src/manp.c:872
 #, c-format
 msgid "can't open the manpath configuration file %s"
-msgstr "无法打开手册路径设置文件 %s"
+msgstr ""
 
 #: src/manp.c:911
 #, c-format
 msgid "warning: mandatory directory %s doesn't exist"
-msgstr "警告：必需的目录 %s 不存在"
+msgstr ""
 
 #: src/manp.c:1180
 #, c-format
 msgid "can't determine current directory"
-msgstr "无法确定当前目录"
+msgstr ""
 
 #: src/manp.c:1383
 #, c-format
 msgid "warning: %s does not begin with %s"
-msgstr "警告：%s 并非以 %s 开始"
+msgstr ""
 
 #: src/manpath.c:64
 msgid "show relative catpaths"
-msgstr "显示相对 cat 路径"
+msgstr ""
 
 #: src/manpath.c:65
 msgid "show the entire global manpath"
-msgstr "显示整个全局手册路径"
+msgstr ""
 
 #: src/manpath.c:127
 #, c-format
 msgid "warning: no global manpaths set in config file %s"
-msgstr "警告：在设置文件 %s 中没有设定全局手册路径"
+msgstr ""
 
 #: src/straycats.c:252 src/ult_src.c:124
 #, c-format
 msgid "warning: %s is a dangling symlink"
-msgstr "警告：%s 是悬空的符号链接"
+msgstr ""
 
 #: src/straycats.c:255 src/ult_src.c:127 src/ult_src.c:286
 #, c-format
 msgid "can't resolve %s"
-msgstr "无法解析 %s"
+msgstr ""
 
 #: src/straycats.c:319
 #, c-format
 msgid "Checking for stray cats under %s...\n"
-msgstr "正在 %s 下查找孤立 cat 页面...\n"
+msgstr ""
 
 #: src/straycats.c:359
 #, c-format
 msgid "warning: can't update index cache %s"
-msgstr "警告：无法更新索引缓存 %s"
+msgstr ""
 
-#  need-proofread
 #: src/ult_src.c:324
 #, c-format
 msgid "%s is self referencing"
-msgstr "%s 是指向自己的链接"
+msgstr ""
 
 #: src/whatis.c:120
 msgid "KEYWORD..."
-msgstr "关键词..."
+msgstr ""
 
 #: src/whatis.c:121
 msgid "The --regex option is enabled by default."
-msgstr "默认开启 --regex 选项。"
+msgstr ""
 
 #: src/whatis.c:125
 msgid "print verbose warning messages"
-msgstr "输出详细的警告信息"
+msgstr ""
 
 #: src/whatis.c:126
 msgid "interpret each keyword as a regex"
-msgstr "把每个关键词都当作正则表达式解读"
+msgstr ""
 
 #: src/whatis.c:127
 msgid "search each keyword for exact match"
-msgstr "对每个关键词都进行严格匹配的搜索"
+msgstr ""
 
 #: src/whatis.c:128
 msgid "the keyword(s) contain wildcards"
-msgstr "关键词里包含通配符"
+msgstr ""
 
 #: src/whatis.c:129
 msgid "require all keywords to match"
-msgstr "要求所有的关键词都同时匹配"
+msgstr ""
 
 #: src/whatis.c:130
 msgid "do not trim output to terminal width"
-msgstr "不要把输出按终端宽度截断"
+msgstr ""
 
 #: src/whatis.c:131
 msgid "search only these sections (colon-separated)"
-msgstr "仅在这些分区中搜索（冒号分隔）"
+msgstr ""
 
 #: src/whatis.c:135
 msgid "define the locale for this search"
-msgstr "定义本次搜索所使用的区域设置"
+msgstr ""
 
 #: src/whatis.c:232
 #, c-format
 msgid "%s what?\n"
-msgstr "%s 什么？\n"
+msgstr ""
 
-#  need-proofread
 #: src/whatis.c:409 src/whatis.c:427
 #, c-format
 msgid "warning: %s contains a pointer loop"
-msgstr "警告：%s 包含一个指针回环"
+msgstr ""
 
 #: src/whatis.c:421 src/whatis.c:429
 msgid "(unknown subject)"
-msgstr "(未知的主题)"
+msgstr ""
 
-#  partially-translated
 #: src/whatis.c:890
 #, c-format
 msgid "%s: nothing appropriate.\n"
-msgstr "%s：没有合适结果。\n"
+msgstr ""
 
 #: src/zsoelim.l:168
 #, c-format
 msgid "%s:%d: .so requests nested too deeply or are recursive"
-msgstr "%s:%d：.so 请求嵌套太深或形成循环"
+msgstr ""
 
 #: src/zsoelim.l:183
 #, c-format
 msgid "%s:%d: warning: failed .so request"
-msgstr "%s:%d：警告：.so 请求失败"
+msgstr ""
 
 #: src/zsoelim.l:205
 #, c-format
 msgid "%s:%d: warning: newline in .so request, ignoring"
-msgstr "%s:%d：警告：.so 请求中含有换行符，将忽略"
+msgstr ""
 
 #: src/zsoelim.l:265
 #, c-format
 msgid "%s:%d: warning: malformed .lf request, ignoring"
-msgstr "%s:%d：警告：不合规格的 .lf 请求，将忽略"
+msgstr ""
 
 #: src/zsoelim.l:275
 #, c-format
 msgid "%s:%d: warning: newline in .lf request, ignoring"
-msgstr "%s:%d：警告：.lf 请求中含有换行符，将忽略"
+msgstr ""
 
 #: src/zsoelim.l:316
 #, c-format
 msgid "%s:%d: unterminated quote in roff request"
-msgstr "%s:%d：roff 请求中含有未结束的引用"
+msgstr ""
 
 #: src/zsoelim_main.c:68
 msgid "compatibility switch (ignored)"
-msgstr "兼容性选项 (将被忽略)"
+msgstr ""
+

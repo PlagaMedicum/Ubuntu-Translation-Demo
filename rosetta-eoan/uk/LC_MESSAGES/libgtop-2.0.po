@@ -1,196 +1,195 @@
-# Copyright (C) 2000 Free Software Foundation, Inc.
-# Yuri Syrota <rasta@renome.rovno.ua>, 2000.
-# Maxim Dziumanenko <dziumanenko@gmail.com>, 2004-2007
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: libgtop 1.1.3\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-26 22:07+0000\n"
-"PO-Revision-Date: 2019-03-17 00:42+0000\n"
-"Last-Translator: Maxim Dziumanenko <Unknown>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:13\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Launchpad-Export-Date: 2019-05-11 11:23+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: uk\n"
+"X-Generator: crowdin.com\n"
+"Language: uk_UA\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/libgtop-2.0.po\n"
 
 #: ../lib/read.c:49
 #, c-format
 msgid "read %d byte"
 msgid_plural "read %d bytes"
-msgstr[0] "зчитано %d байт"
-msgstr[1] "зчитано %d байти"
-msgstr[2] "зчитано %d байтів"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../lib/read_data.c:49
 msgid "read data size"
-msgstr "розмір прочитаних даних"
+msgstr ""
 
 #: ../lib/read_data.c:66
 #, c-format
 msgid "read %lu byte of data"
 msgid_plural "read %lu bytes of data"
-msgstr[0] "зчитано %lu байт даних"
-msgstr[1] "зчитано %lu байти даних"
-msgstr[2] "зчитано %lu байтів даних"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../lib/write.c:49
 #, c-format
 msgid "wrote %d byte"
 msgid_plural "wrote %d bytes"
-msgstr[0] "записано %d байт даних"
-msgstr[1] "записано %d байти даних"
-msgstr[2] "записано %d байтів даних"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/daemon/gnuserv.c:456
 msgid "Enable debugging"
-msgstr "Увімкнути зневадження"
+msgstr ""
 
 #: ../src/daemon/gnuserv.c:458
 msgid "Enable verbose output"
-msgstr "Увімкнути докладний вивід"
+msgstr ""
 
 #: ../src/daemon/gnuserv.c:460
 msgid "Don't fork into background"
-msgstr "Не переходити у фоновий режим"
+msgstr ""
 
 #: ../src/daemon/gnuserv.c:462
 msgid "Invoked from inetd"
-msgstr "Викликаний з inetd"
+msgstr ""
 
 #: ../src/daemon/gnuserv.c:498
 #, c-format
-msgid ""
-"Run '%s --help' to see a full list of available command line options.\n"
+msgid "Run '%s --help' to see a full list of available command line options.\n"
 msgstr ""
-"Щоб переглянути повний список можливих параметрів командного рядка, "
-"виконайте команду «%s --help».\n"
 
 #: ../sysdeps/osf1/siglist.c:27 ../sysdeps/sun4/siglist.c:27
 msgid "Hangup"
-msgstr "Розірвати"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:28 ../sysdeps/sun4/siglist.c:28
 msgid "Interrupt"
-msgstr "Перервати"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:29 ../sysdeps/sun4/siglist.c:29
 msgid "Quit"
-msgstr "Вихід"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:30 ../sysdeps/sun4/siglist.c:30
 msgid "Illegal instruction"
-msgstr "Неправильна команда"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:31 ../sysdeps/sun4/siglist.c:31
 msgid "Trace trap"
-msgstr "Захоплення трасування"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:32 ../sysdeps/sun4/siglist.c:32
 msgid "Abort"
-msgstr "Припинити"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:33 ../sysdeps/sun4/siglist.c:33
 msgid "EMT error"
-msgstr "Помилка EMT"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:34 ../sysdeps/sun4/siglist.c:34
 msgid "Floating-point exception"
-msgstr "Виключення операції з плаваючою крапкою"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:35 ../sysdeps/sun4/siglist.c:35
 msgid "Kill"
-msgstr "Знищити"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:36 ../sysdeps/sun4/siglist.c:36
 msgid "Bus error"
-msgstr "Помилка шини"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:37 ../sysdeps/sun4/siglist.c:37
 msgid "Segmentation violation"
-msgstr "Помилка сегментації"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:38 ../sysdeps/sun4/siglist.c:38
 msgid "Bad argument to system call"
-msgstr "Неправильний аргумент у системному виклику"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:39 ../sysdeps/sun4/siglist.c:39
 msgid "Broken pipe"
-msgstr "Розірвано канал"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:40 ../sysdeps/sun4/siglist.c:40
 msgid "Alarm clock"
-msgstr "Таймер"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:41 ../sysdeps/sun4/siglist.c:41
 msgid "Termination"
-msgstr "Завершення"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:42 ../sysdeps/sun4/siglist.c:42
 msgid "Urgent condition on socket"
-msgstr "Стан сокету, що вимагає уваги"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:43 ../sysdeps/sun4/siglist.c:43
 msgid "Stop"
-msgstr "Зупинити"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:44 ../sysdeps/sun4/siglist.c:44
 msgid "Keyboard stop"
-msgstr "Клавіатурний сигнал зупинки"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:45 ../sysdeps/sun4/siglist.c:45
 msgid "Continue"
-msgstr "Продовжити"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:46 ../sysdeps/sun4/siglist.c:46
 msgid "Child status has changed"
-msgstr "Було змінено стан дочірнього процесу"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:47 ../sysdeps/sun4/siglist.c:47
 msgid "Background read from tty"
-msgstr "Фонове зчитування з TTY"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:48 ../sysdeps/sun4/siglist.c:48
 msgid "Background write to tty"
-msgstr "Фоновий запис у TTY"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:49 ../sysdeps/sun4/siglist.c:49
 msgid "I/O now possible"
-msgstr "Ввід-вивід наразі можливий"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:50 ../sysdeps/sun4/siglist.c:50
 msgid "CPU limit exceeded"
-msgstr "Перевищено обмеження ЦП"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:51 ../sysdeps/sun4/siglist.c:51
 msgid "File size limit exceeded"
-msgstr "Перевищено обмеження розміру файлу"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:52 ../sysdeps/sun4/siglist.c:52
 msgid "Virtual alarm clock"
-msgstr "Віртуальний таймер"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:53 ../sysdeps/sun4/siglist.c:53
 msgid "Profiling alarm clock"
-msgstr "Сигнал таймера профілювання"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:54 ../sysdeps/sun4/siglist.c:54
 msgid "Window size change"
-msgstr "Зміна розмірів вікна"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:55 ../sysdeps/sun4/siglist.c:55
 msgid "Information request"
-msgstr "Запит інформації"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:56 ../sysdeps/sun4/siglist.c:56
 msgid "User defined signal 1"
-msgstr "Визначений користувачем сигнал 1"
+msgstr ""
 
 #: ../sysdeps/osf1/siglist.c:57 ../sysdeps/sun4/siglist.c:57
 msgid "User defined signal 2"
-msgstr "Визначений користувачем сигнал 2"
+msgstr ""
+

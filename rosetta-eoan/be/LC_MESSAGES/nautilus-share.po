@@ -1,40 +1,32 @@
-# Belarusian translation for nautilus-share
-# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
-# This file is distributed under the same license as the nautilus-share package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: nautilus-share\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-04-01 07:36+0000\n"
-"PO-Revision-Date: 2010-04-13 09:20+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Belarusian <be@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:17\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 12:19+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/nautilus-share.po\n"
+"Language: be_BY\n"
 
 #: ../src/nautilus-share.c:127
 #, c-format
-msgid ""
-"Nautilus needs to add some permissions to your folder \"%s\" in order to "
-"share it"
-msgstr ""
-"Nautilus патрабуе дабаўленьня некаторых дазваленьняў да каталёга \"%s\" для "
-"таго, каб наладзіць супольны доступ"
+msgid "Nautilus needs to add some permissions to your folder \"%s\" in order to share it"
+msgstr "Nautilus патрабуе дабаўленьня некаторых дазваленьняў да каталёга \"%s\" для таго, каб наладзіць супольны доступ"
 
 #: ../src/nautilus-share.c:135
 #, c-format
-msgid ""
-"The folder \"%s\" needs the following extra permissions for sharing to "
-"work:\n"
-"%s%s%sDo you want Nautilus to add these permissions to the folder "
-"automatically?"
-msgstr ""
-"Каталёг \"%s\" патрабуе гэтыя дазваленні для супольнага доступу:\n"
+msgid "The folder \"%s\" needs the following extra permissions for sharing to work:\n"
+"%s%s%sDo you want Nautilus to add these permissions to the folder automatically?"
+msgstr "Каталёг \"%s\" патрабуе гэтыя дазваленні для супольнага доступу:\n"
 "%s%s%sВы жадаеце, каб Nautilus дабавіў гэтыя дазваленьні самастойна?"
 
 #: ../src/nautilus-share.c:139
@@ -88,12 +80,8 @@ msgid "Sharing service installation failed"
 msgstr "Памылка ўстаноўкі сэрвіса супольнага доступу"
 
 #: ../src/nautilus-share.c:718
-msgid ""
-"Sharing service installation has failed. Would you like to retry the "
-"installation?"
-msgstr ""
-"Адбылася памылка падчас устаноўкі сэрвіса супольнага доступу. Вы жадаеце "
-"паўтарыць устаноўку?"
+msgid "Sharing service installation has failed. Would you like to retry the installation?"
+msgstr "Адбылася памылка падчас устаноўкі сэрвіса супольнага доступу. Вы жадаеце паўтарыць устаноўку?"
 
 #: ../src/nautilus-share.c:721
 msgid "Retry"
@@ -104,12 +92,8 @@ msgid "Sharing service is not installed"
 msgstr "Сэрвіс супольнага доступу не ўстаноўлены"
 
 #: ../src/nautilus-share.c:761
-msgid ""
-"You need to install the Windows networks sharing service in order to share "
-"your folders."
-msgstr ""
-"Для публікацыі вашых каталогаў неабходна ўсталяваць службу агульнага доступу "
-"для сетак Windows"
+msgid "You need to install the Windows networks sharing service in order to share your folders."
+msgstr "Для публікацыі вашых каталогаў неабходна ўсталяваць службу агульнага доступу для сетак Windows"
 
 #: ../src/nautilus-share.c:763
 msgid "Install service"
@@ -184,17 +168,12 @@ msgstr "Samba testparm звярнуў памылку %d"
 #: ../src/shares.c:684
 #, c-format
 msgid "Cannot remove the share for path %s: that path is not shared"
-msgstr ""
-"Не атрымалася выдаліць рэсурс для каталога %s: гэты каталог не апублікаваны"
+msgstr "Не атрымалася выдаліць рэсурс для каталога %s: гэты каталог не апублікаваны"
 
 #: ../src/shares.c:730
 #, c-format
-msgid ""
-"Cannot change the path of an existing share; please remove the old share "
-"first and add a new one"
-msgstr ""
-"Нельга зьмяніць шлях гэтага супольнага каталёгу; калі ласка выдаліце стары "
-"каталёг і дабаўце новы"
+msgid "Cannot change the path of an existing share; please remove the old share first and add a new one"
+msgstr "Нельга зьмяніць шлях гэтага супольнага каталёгу; калі ласка выдаліце стары каталёг і дабаўце новы"
 
 #: ../interfaces/share-dialog.ui.h:1
 msgid "<big><b>Folder Sharing</b></big>"
@@ -214,9 +193,9 @@ msgstr "Ка_мэнтар:"
 
 #: ../interfaces/share-dialog.ui.h:5
 msgid "_Allow others to create and delete files in this folder"
-msgstr ""
-"_Дазволіць іншым карыстальнікам саздаваць і удаляць файлы ў гэтым каталёгу"
+msgstr "_Дазволіць іншым карыстальнікам саздаваць і удаляць файлы ў гэтым каталёгу"
 
 #: ../interfaces/share-dialog.ui.h:6
 msgid "_Guest access (for people without a user account)"
 msgstr "_Гасцёвы доступ (для карыстальнікаў, якія не маюць лагіна)"
+

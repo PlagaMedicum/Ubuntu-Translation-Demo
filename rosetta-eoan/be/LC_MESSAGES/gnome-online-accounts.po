@@ -1,33 +1,35 @@
-# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2011, 2012, 2013, 2014.
-# Yuras Shumovich <shumovichy@gmail.com>, 2017.
-#
+# British English translation of gnome-online-accounts.
+# Copyright (C) 2011 gnome-online-accounts's COPYRIGHT HOLDER.
+# This file is distributed under the same licence as the gnome-online-accounts package.
+# Bruce Cowan <bruce@bcowan.eu>, 2011, 2012, 2013, 2018.
+# Philip Withnall <philip@tecnocode.co.uk>, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-online-accounts.master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-online-"
-"accounts/issues\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-online-accounts&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2019-04-03 16:25+0000\n"
-"PO-Revision-Date: 2019-02-24 00:03+0000\n"
-"Last-Translator: Yuras <shumovichy@gmail.com>\n"
-"Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
+"PO-Revision-Date: 2019-07-08 16:49\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 13:07+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: be\n"
+"X-Generator: crowdin.com\n"
+"X-Project-Style: gnome\n"
+"Language: be_BY\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/gnome-online-accounts.po\n"
 
 #: data/org.gnome.online-accounts.gschema.xml:6
 msgid "List of providers that are allowed to be loaded"
 msgstr "Спіс правайдараў, для якіх дазволена загрузка"
 
 #: data/org.gnome.online-accounts.gschema.xml:7
-msgid ""
-"A list of strings representing the providers that are allowed to be loaded "
-"(default: 'all'). This is only evaluated on startup."
-msgstr ""
-"Спіс правайдараў, для якіх дазволена загрузка (прадвызначана: \"all\", для "
-"ўсіх). Гэта настройка правяраецца толькі падчас запуску."
+msgid "A list of strings representing the providers that are allowed to be loaded (default: 'all'). This is only evaluated on startup."
+msgstr "Спіс правайдараў, для якіх дазволена загрузка (прадвызначана: \"all\", для ўсіх). Гэта настройка правяраецца толькі падчас запуску."
 
 #. TODO: more specific
 #: src/daemon/goadaemon.c:1131 src/daemon/goadaemon.c:1415
@@ -60,13 +62,11 @@ msgstr "Не ўдалося адшукаць элемент \"%s\""
 #. TODO: more specific
 #: src/goabackend/goaewsclient.c:320
 msgid "Failed to find ASUrl and OABUrl in autodiscover response"
-msgstr ""
-"Не ўдалося адшукаць ASUrl і OABUrl у аўтаматычна адшуканым (autodiscover) "
-"адказе"
+msgstr "Не ўдалося адшукаць ASUrl і OABUrl у аўтаматычна адшуканым (autodiscover) адказе"
 
 #: src/goabackend/goaexchangeprovider.c:51
 msgid "Microsoft Exchange"
-msgstr "Microsoft Exchange"
+msgstr ""
 
 #. Translators: the first %s is the username
 #. * (eg., debarshi.ray@gmail.com or rishi), and the
@@ -202,7 +202,7 @@ msgstr "Памылка злучэння з серверам Microsoft Exchange"
 
 #: src/goabackend/goafacebookprovider.c:56
 msgid "Facebook"
-msgstr "Facebook"
+msgstr ""
 
 #: src/goabackend/goafacebookprovider.c:183
 #: src/goabackend/goaflickrprovider.c:155
@@ -210,11 +210,8 @@ msgstr "Facebook"
 #: src/goabackend/goagoogleprovider.c:184
 #: src/goabackend/goawindowsliveprovider.c:159
 #, c-format
-msgid ""
-"Expected status 200 when requesting your identity, instead got status %d (%s)"
-msgstr ""
-"Пры запыце ідэнтычнасці чакаўся код стану 200, але замест яго атрыманы код "
-"%d (%s)"
+msgid "Expected status 200 when requesting your identity, instead got status %d (%s)"
+msgstr "Пры запыце ідэнтычнасці чакаўся код стану 200, але замест яго атрыманы код %d (%s)"
 
 #. TODO: more specific
 #: src/goabackend/goafacebookprovider.c:202
@@ -254,7 +251,7 @@ msgstr "Не ўдалося разабраць адказ"
 
 #: src/goabackend/goaflickrprovider.c:56
 msgid "Flickr"
-msgstr "Flickr"
+msgstr ""
 
 #: src/goabackend/goaflickrprovider.c:271
 msgid "Your system time is invalid. Check your date and time settings."
@@ -262,11 +259,11 @@ msgstr "Сістэмны час настаўлены няправільна. П�
 
 #: src/goabackend/goafoursquareprovider.c:57
 msgid "Foursquare"
-msgstr "Foursquare"
+msgstr ""
 
 #: src/goabackend/goagoogleprovider.c:56
 msgid "Google"
-msgstr "Google"
+msgstr ""
 
 #. TODO: more specific
 #: src/goabackend/goaimapauthlogin.c:84 src/goabackend/goasmtpauth.c:155
@@ -368,12 +365,12 @@ msgstr "Назва"
 #: src/goabackend/goaimapsmtpprovider.c:1490
 #: src/goabackend/goaimapsmtpprovider.c:1494
 msgid "IMAP"
-msgstr "IMAP"
+msgstr ""
 
 #: src/goabackend/goaimapsmtpprovider.c:1505
 #: src/goabackend/goaimapsmtpprovider.c:1509
 msgid "SMTP"
-msgstr "SMTP"
+msgstr ""
 
 #: src/goabackend/goakerberosprovider.c:100
 msgid "Enterprise Login (Kerberos)"
@@ -386,9 +383,7 @@ msgstr "Падтрымка квіткоў выключана для гэтага
 #: src/goabackend/goakerberosprovider.c:245
 #, c-format
 msgid "Could not find saved credentials for principal “%s” in keyring"
-msgstr ""
-"Не ўдалося адшукаць захаваныя мандатныя даныя для існасці \"%s\" у вязцы "
-"ключоў"
+msgstr "Не ўдалося адшукаць захаваныя мандатныя даныя для існасці \"%s\" у вязцы ключоў"
 
 #: src/goabackend/goakerberosprovider.c:258
 #, c-format
@@ -426,7 +421,7 @@ msgstr "Служба ідэнтыфікацыі вярнула хібны клю
 
 #: src/goabackend/goalastfmprovider.c:65
 msgid "Last.fm"
-msgstr "Last.fm"
+msgstr ""
 
 #: src/goabackend/goalastfmprovider.c:700
 #: src/goabackend/goalastfmprovider.c:850
@@ -438,11 +433,8 @@ msgid "Media Server"
 msgstr "Медыясервер"
 
 #: src/goabackend/goamediaserverprovider.c:316
-msgid ""
-"Personal content can be added to your applications through a media server "
-"account."
-msgstr ""
-"Вы можаце дадаць у вашы праграмы асабістае змесціва праз конт медыясервера."
+msgid "Personal content can be added to your applications through a media server account."
+msgstr "Вы можаце дадаць у вашы праграмы асабістае змесціва праз конт медыясервера."
 
 #: src/goabackend/goamediaserverprovider.c:329
 msgid "Available Media Servers"
@@ -455,11 +447,8 @@ msgstr "Не знойдзена медыясервераў"
 #. Translators: the %d is a HTTP status code and the %s is a textual description of it
 #: src/goabackend/goaoauth2provider.c:632 src/goabackend/goaoauthprovider.c:542
 #, c-format
-msgid ""
-"Expected status 200 when requesting access token, instead got status %d (%s)"
-msgstr ""
-"Пры запыце жэтона для доступу чакаўся код стану 200, але замест яго атрыманы "
-"код %d (%s)"
+msgid "Expected status 200 when requesting access token, instead got status %d (%s)"
+msgstr "Пры запыце жэтона для доступу чакаўся код стану 200, але замест яго атрыманы код %d (%s)"
 
 #: src/goabackend/goaoauth2provider.c:814
 msgid "Authorization response: "
@@ -483,7 +472,6 @@ msgstr "Памылка атрымання ідэнтычнасці: "
 #: src/goabackend/goaoauth2provider.c:1254
 #: src/goabackend/goaoauthprovider.c:1192
 #, c-format
-#| msgid "Was asked to login as %s, but logged in as %s"
 msgid "Was asked to log in as %s, but logged in as %s"
 msgstr "Прыйшоў запыт для ўваходу як %s, але ўваход ажыццёўлены як %s"
 
@@ -499,8 +487,7 @@ msgstr "Не ўдалося абнавіць жэтон для доступу (%
 
 #: src/goabackend/goaoauthprovider.c:565
 msgid "Missing access_token or access_token_secret headers in response"
-msgstr ""
-"У адказе не хапае аднаго з загалоўкаў: access_token ці access_token_secret"
+msgstr "У адказе не хапае аднаго з загалоўкаў: access_token ці access_token_secret"
 
 #: src/goabackend/goaoauthprovider.c:773
 msgid "Error getting a Request Token: "
@@ -509,16 +496,12 @@ msgstr "Памылка атрымання жэтона для запыту: "
 #. Translators: the %d is a HTTP status code and the %s is a textual description of it
 #: src/goabackend/goaoauthprovider.c:804
 #, c-format
-msgid ""
-"Expected status 200 for getting a Request Token, instead got status %d (%s)"
-msgstr ""
-"Пры атрыманні жэтона для запыту чакаўся код стану 200, але замест яго "
-"атрыманы код %d (%s)"
+msgid "Expected status 200 for getting a Request Token, instead got status %d (%s)"
+msgstr "Пры атрыманні жэтона для запыту чакаўся код стану 200, але замест яго атрыманы код %d (%s)"
 
 #: src/goabackend/goaoauthprovider.c:821
 msgid "Missing request_token or request_token_secret headers in response"
-msgstr ""
-"У адказе не хапае аднаго з загалоўкаў: request_token ці request_token_secret"
+msgstr "У адказе не хапае аднаго з загалоўкаў: request_token ці request_token_secret"
 
 #: src/goabackend/goaoauthprovider.c:1363
 msgid "Credentials do not contain access_token or access_token_secret"
@@ -526,7 +509,7 @@ msgstr "Мандатныя даныя не змяшчаюць access_token ці 
 
 #: src/goabackend/goaowncloudprovider.c:60
 msgid "Nextcloud"
-msgstr "Nextcloud"
+msgstr ""
 
 #: src/goabackend/goaowncloudprovider.c:731
 #: src/goabackend/goaowncloudprovider.c:922
@@ -535,7 +518,7 @@ msgstr "Памылка злучэння з серверам ownCloud"
 
 #: src/goabackend/goapocketprovider.c:74
 msgid "Pocket"
-msgstr "Pocket"
+msgstr ""
 
 #. TODO: more specific
 #: src/goabackend/goapocketprovider.c:249
@@ -596,9 +579,7 @@ msgid "Error connecting to Ubuntu Single Sign-On server"
 msgstr ""
 
 #: src/goabackend/goaubuntussoprovider.c:899
-msgid ""
-"This account requires a second passcode from your authentication device or "
-"app"
+msgid "This account requires a second passcode from your authentication device or app"
 msgstr ""
 
 #: src/goabackend/goaprovider.c:110
@@ -651,7 +632,7 @@ msgstr "_Мапы"
 
 #: src/goabackend/goaprovider.c:170
 msgid "T_o Do"
-msgstr "T_o Do"
+msgstr ""
 
 #. Translators: This is a label for a series of
 #. * options switches. For example: “Use for Mail”.
@@ -763,12 +744,8 @@ msgid "The signing certificate authority is not known."
 msgstr "Цэнтр сертыфіката падпісання невядомы."
 
 #: src/goabackend/goautils.c:863
-msgid ""
-"The certificate does not match the expected identity of the site that it was "
-"retrieved from."
-msgstr ""
-"Сертыфікат не адпавядае чаканай ідэнтычнасці пляцоўкі, з якой ён быў "
-"атрыманы."
+msgid "The certificate does not match the expected identity of the site that it was retrieved from."
+msgstr "Сертыфікат не адпавядае чаканай ідэнтычнасці пляцоўкі, з якой ён быў атрыманы."
 
 #: src/goabackend/goautils.c:868
 msgid "The certificate’s activation time is still in the future."
@@ -804,7 +781,7 @@ msgstr "Загрузка \"%s\"..."
 
 #: src/goabackend/goawindowsliveprovider.c:56
 msgid "Microsoft"
-msgstr "Microsoft"
+msgstr ""
 
 #: src/goaidentity/goaidentityservice.c:569
 msgid "Initial secret key is invalid"
@@ -813,9 +790,7 @@ msgstr "Хібны пачатковы сакрэтны ключ"
 #: src/goaidentity/goaidentityservice.c:1075
 #, c-format
 msgid "The network realm %s needs some information to sign you in."
-msgstr ""
-"Сеткавы рэгіянальны дамен %s патрабуе дадатковай інфармацыі для вашага "
-"ўваходу ў сістэму."
+msgstr "Сеткавы рэгіянальны дамен %s патрабуе дадатковай інфармацыі для вашага ўваходу ў сістэму."
 
 #: src/goaidentity/goakerberosidentity.c:274
 #: src/goaidentity/goakerberosidentity.c:282
@@ -829,13 +804,11 @@ msgstr "Не ўдалося адшукаць мандатныя даных ід�
 
 #: src/goaidentity/goakerberosidentity.c:770
 msgid "Could not sift through identity credentials in cache: "
-msgstr ""
-"Не ўдалося прайсці праверку мандатных даных ідэнтычнасці ў кэш-памяці: "
+msgstr "Не ўдалося прайсці праверку мандатных даных ідэнтычнасці ў кэш-памяці: "
 
 #: src/goaidentity/goakerberosidentity.c:787
 msgid "Could not finish up sifting through identity credentials in cache: "
-msgstr ""
-"Не ўдалося закончыць праверку мандатных даных ідэнтычнасці ў кэш-памяці: "
+msgstr "Не ўдалося закончыць праверку мандатных даных ідэнтычнасці ў кэш-памяці: "
 
 #: src/goaidentity/goakerberosidentity.c:1102
 msgid "No associated identification found"
@@ -864,8 +837,7 @@ msgstr "Не ўдалося абнавіць ідэнтычнасць: "
 #: src/goaidentity/goakerberosidentity.c:1561
 #, c-format
 msgid "Could not get new credentials to renew identity %s: "
-msgstr ""
-"Не ўдалося атрымаць новыя мандатныя даныя для абнаўлення ідэнтычнасці %s: "
+msgstr "Не ўдалося атрымаць новыя мандатныя даныя для абнаўлення ідэнтычнасці %s: "
 
 #: src/goaidentity/goakerberosidentity.c:1603
 msgid "Could not erase identity: "
@@ -878,3 +850,4 @@ msgstr "Не ўдалося адшукаць ідэнтычнасць"
 #: src/goaidentity/goakerberosidentitymanager.c:846
 msgid "Could not create credential cache for identity"
 msgstr "Не ўдалося стварыць кэш-памяць мандатных даных для ідэнтычнасці"
+

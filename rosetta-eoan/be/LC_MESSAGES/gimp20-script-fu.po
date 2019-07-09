@@ -1,21 +1,26 @@
+# This is the English, British catalogue for GIMP Script-Fu.
+# Copyright (C) 2000 Free Software Foundation, Inc.
+# Piers Cornwell <piers.cornwell@usa.net>, 2000.
+# Gareth Owen <gowen72@yahoo.com>, David Lodge <dave@cirt.net>, 2004.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2009, 2010, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: gimp master\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gimp/issues\n"
 "POT-Creation-Date: 2018-12-24 23:18+0000\n"
-"PO-Revision-Date: 2019-02-22 18:43+0000\n"
-"Last-Translator: 375gnu <Unknown>\n"
-"Language-Team: Belarusian <i18n@mova.org>\n"
+"PO-Revision-Date: 2019-07-08 17:00\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 11:08+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"X-Poedit-Country: BELARUS\n"
-"Language: be\n"
-"X-Poedit-Language: Belarusian\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: /tmp/gimp-2.7.1/po-script-fu/\n"
+"X-Generator: crowdin.com\n"
+"Language: be_BY\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/gimp20-script-fu.po\n"
 
 #: ../plug-ins/script-fu/script-fu.c:111
 msgid "Interactive console for Script-Fu development"
@@ -43,7 +48,7 @@ msgstr "_Кіраўніцтва карыстальніка"
 
 #: ../plug-ins/script-fu/script-fu.c:310
 msgid "_Script-Fu"
-msgstr "_Script-Fu"
+msgstr ""
 
 #: ../plug-ins/script-fu/script-fu.c:312
 msgid "_Test"
@@ -90,12 +95,8 @@ msgid "_Refresh Scripts"
 msgstr "_Асьвяжыць сцэнары"
 
 #: ../plug-ins/script-fu/script-fu.c:362
-msgid ""
-"You can not use \"Refresh Scripts\" while a Script-Fu dialog box is open.  "
-"Please close all Script-Fu windows and try again."
-msgstr ""
-"Немагчыма выкарыстоўваць «Абнавіць сцэнары», калі адкрыты дыялёґ Script-Fu. "
-"Калі ласка, закрый усе вокны Script-Fu і паспрабуй ізноў."
+msgid "You can not use \"Refresh Scripts\" while a Script-Fu dialog box is open.  Please close all Script-Fu windows and try again."
+msgstr "Немагчыма выкарыстоўваць «Абнавіць сцэнары», калі адкрыты дыялёґ Script-Fu. Калі ласка, закрый усе вокны Script-Fu і паспрабуй ізноў."
 
 #: ../plug-ins/script-fu/script-fu-console.c:127
 #: ../plug-ins/script-fu/script-fu-console.c:194
@@ -167,7 +168,7 @@ msgstr "Сцэнар «%s» ужо выконваецца."
 #: ../plug-ins/script-fu/script-fu-interface.c:228
 #, c-format
 msgid "Script-Fu: %s"
-msgstr "Script-Fu: %s"
+msgstr ""
 
 #: ../plug-ins/script-fu/script-fu-interface.c:235
 msgid "_Reset"
@@ -183,7 +184,7 @@ msgstr ""
 #: ../plug-ins/script-fu/script-fu-interface.c:291
 #, c-format
 msgid "%s:"
-msgstr "%s:"
+msgstr ""
 
 #: ../plug-ins/script-fu/script-fu-interface.c:341
 msgid "Script-Fu Color Selection"
@@ -252,9 +253,7 @@ msgid "Server logfile:"
 msgstr "Часопіс паслужніка:"
 
 #: ../plug-ins/script-fu/script-fu-server.c:894
-msgid ""
-"Listening on an IP address other than 127.0.0.1 (especially 0.0.0.0) can "
-"allow attackers to remotely execute arbitrary code on this machine."
+msgid "Listening on an IP address other than 127.0.0.1 (especially 0.0.0.0) can allow attackers to remotely execute arbitrary code on this machine."
 msgstr ""
 
 #: ../plug-ins/script-fu/scripts/add-bevel.scm:76
@@ -328,12 +327,8 @@ msgid "_Blend..."
 msgstr "_Ґрадыент…"
 
 #: ../plug-ins/script-fu/scripts/blend-anim.scm:229
-msgid ""
-"Create intermediate layers to blend two or more layers over a background as "
-"an animation"
-msgstr ""
-"Стварыць прамежкавыя пласты, каб зьмяшаць два ці болей пластоў над "
-"асноведзьдзю"
+msgid "Create intermediate layers to blend two or more layers over a background as an animation"
+msgstr "Стварыць прамежкавыя пласты, каб зьмяшаць два ці болей пластоў над асноведзьдзю"
 
 #: ../plug-ins/script-fu/scripts/blend-anim.scm:236
 msgid "Intermediate frames"
@@ -349,23 +344,16 @@ msgstr "Цыклічная"
 
 #. --- false form of "if-1"
 #: ../plug-ins/script-fu/scripts/burn-in-anim.scm:217
-msgid ""
-"The Burn-In script needs two layers in total. A foreground layer with "
-"transparency and a background layer."
-msgstr ""
-"Сцэнар абпаленьня патрабуе два пласты. Пласт пярэдняга пляну з празрыстасьцю "
-"й пласт асноведзі."
+msgid "The Burn-In script needs two layers in total. A foreground layer with transparency and a background layer."
+msgstr "Сцэнар абпаленьня патрабуе два пласты. Пласт пярэдняга пляну з празрыстасьцю й пласт асноведзі."
 
 #: ../plug-ins/script-fu/scripts/burn-in-anim.scm:224
 msgid "B_urn-In..."
 msgstr "Вы_паліць…"
 
 #: ../plug-ins/script-fu/scripts/burn-in-anim.scm:225
-msgid ""
-"Create intermediate layers to produce an animated 'burn-in' transition "
-"between two layers"
-msgstr ""
-"Стварыць прамежкавыя пласты, каб зрабіць анімаваны пераход між двума пластамі"
+msgid "Create intermediate layers to produce an animated 'burn-in' transition between two layers"
+msgstr "Стварыць прамежкавыя пласты, каб зрабіць анімаваны пераход між двума пластамі"
 
 #: ../plug-ins/script-fu/scripts/burn-in-anim.scm:232
 msgid "Glow color"
@@ -424,8 +412,7 @@ msgid "Stencil C_arve..."
 msgstr "_Выразаць па трафарэце…"
 
 #: ../plug-ins/script-fu/scripts/carve-it.scm:183
-msgid ""
-"Use the specified drawable as a stencil to carve from the specified image."
+msgid "Use the specified drawable as a stencil to carve from the specified image."
 msgstr ""
 
 #: ../plug-ins/script-fu/scripts/carve-it.scm:190
@@ -470,12 +457,8 @@ msgid "Stencil C_hrome..."
 msgstr "_Хром праз трафарэт…"
 
 #: ../plug-ins/script-fu/scripts/chrome-it.scm:231
-msgid ""
-"Add a chrome effect to the selected region (or alpha) using a specified "
-"(grayscale) stencil"
-msgstr ""
-"Дадаць эфэкт хрому да вылучанай вобласьці (ці тэксту), ужываюцчы вызначаны "
-"(шэры) трафарэт"
+msgid "Add a chrome effect to the selected region (or alpha) using a specified (grayscale) stencil"
+msgstr "Дадаць эфэкт хрому да вылучанай вобласьці (ці тэксту), ужываюцчы вызначаны (шэры) трафарэт"
 
 #: ../plug-ins/script-fu/scripts/chrome-it.scm:238
 msgid "Chrome saturation"
@@ -514,10 +497,8 @@ msgid "_Circuit..."
 msgstr "_Дарожкі…"
 
 #: ../plug-ins/script-fu/scripts/circuit.scm:128
-msgid ""
-"Fill the selected region (or alpha) with traces like those on a circuit board"
-msgstr ""
-"Запоўніць вылучаную вобласьць (ці тэкст) дарожкамі як на электрычнай плаце"
+msgid "Fill the selected region (or alpha) with traces like those on a circuit board"
+msgstr "Запоўніць вылучаную вобласьць (ці тэкст) дарожкамі як на электрычнай плаце"
 
 #: ../plug-ins/script-fu/scripts/circuit.scm:135
 msgid "Oilify mask size"
@@ -720,10 +701,8 @@ msgid "Render _Font Map..."
 msgstr "_Стварыць мапу шрыфтоў…"
 
 #: ../plug-ins/script-fu/scripts/font-map.scm:153
-msgid ""
-"Create an image filled with previews of fonts matching a fontname filter"
-msgstr ""
-"Стварыць відарыс, запоўнены аглядамі шрыфтоў, чые назвы адпавядаюць фільтру"
+msgid "Create an image filled with previews of fonts matching a fontname filter"
+msgstr "Стварыць відарыс, запоўнены аглядамі шрыфтоў, чые назвы адпавядаюць фільтру"
 
 #: ../plug-ins/script-fu/scripts/font-map.scm:158
 msgid "_Text"
@@ -893,11 +872,8 @@ msgid "_Grid..."
 msgstr "_Сетка…"
 
 #: ../plug-ins/script-fu/scripts/grid-system.scm:85
-msgid ""
-"Draw a grid as specified by the lists of X and Y locations using the current "
-"brush"
-msgstr ""
-"Рысаваць бягучым пэндзлем сетку як вызначана сьпісам становішчаў па X і Y"
+msgid "Draw a grid as specified by the lists of X and Y locations using the current brush"
+msgstr "Рысаваць бягучым пэндзлем сетку як вызначана сьпісам становішчаў па X і Y"
 
 #: ../plug-ins/script-fu/scripts/grid-system.scm:92
 msgid "X divisions"
@@ -920,10 +896,8 @@ msgid "New Guide (by _Percent)..."
 msgstr "Стварыць накіроўную (паводле _адсотка)…"
 
 #: ../plug-ins/script-fu/scripts/guides-new-percent.scm:28
-msgid ""
-"Add a guide at the position specified as a percentage of the image size"
-msgstr ""
-"Дадаць накіроўную ў становішчы, вызначаным як адсотак памеру відарыса"
+msgid "Add a guide at the position specified as a percentage of the image size"
+msgstr "Дадаць накіроўную ў становішчы, вызначаным як адсотак памеру відарыса"
 
 #: ../plug-ins/script-fu/scripts/guides-new-percent.scm:35
 #: ../plug-ins/script-fu/scripts/guides-new.scm:35
@@ -998,11 +972,8 @@ msgid "Line _Nova..."
 msgstr "_Лінейная звышновая…"
 
 #: ../plug-ins/script-fu/scripts/line-nova.scm:109
-msgid ""
-"Fill a layer with rays emanating outward from its center using the "
-"foreground color"
-msgstr ""
-"Запоўніць пласт промнямі колеру рысаваньня, якія выходзяць зь яго сярэдзіны"
+msgid "Fill a layer with rays emanating outward from its center using the foreground color"
+msgstr "Запоўніць пласт промнямі колеру рысаваньня, якія выходзяць зь яго сярэдзіны"
 
 #: ../plug-ins/script-fu/scripts/line-nova.scm:116
 msgid "Number of lines"
@@ -1101,31 +1072,20 @@ msgid "Folder for the output file"
 msgstr "Каталёґ для запісу выходнага файла"
 
 #: ../plug-ins/script-fu/scripts/palette-export.scm:227
-msgid ""
-"The name of the file to create (if a file with this name already exist, it "
-"will be replaced)"
-msgstr ""
-"Стварыць файл з назвай )калі файл з гэткай назвай існуе, ён будзе заменены)"
+msgid "The name of the file to create (if a file with this name already exist, it will be replaced)"
+msgstr "Стварыць файл з назвай )калі файл з гэткай назвай існуе, ён будзе заменены)"
 
 #: ../plug-ins/script-fu/scripts/palette-export.scm:235
 msgid "The filename you entered is not a suitable name for a file."
 msgstr "Уведзеная назва файла не прыдатная быць назвай файла."
 
 #: ../plug-ins/script-fu/scripts/palette-export.scm:237
-msgid ""
-"All characters in the name are either white-spaces or characters which can "
-"not appear in filenames."
-msgstr ""
-"У назьве ці адны прабелы ці знакі, якія ня могуць прысутнічаць у назвах "
-"файлаў."
+msgid "All characters in the name are either white-spaces or characters which can not appear in filenames."
+msgstr "У назьве ці адны прабелы ці знакі, якія ня могуць прысутнічаць у назвах файлаў."
 
 #: ../plug-ins/script-fu/scripts/palette-export.scm:265
-msgid ""
-"Export the active palette as a CSS stylesheet with the color entry name as "
-"their class name, and the color itself as the color attribute"
-msgstr ""
-"Экспартаваць актыўную палітру як стыль CSS з назвай запісу колера ў якасьці "
-"назвы клясы й самім колерам у якасьці атрыбуту колера."
+msgid "Export the active palette as a CSS stylesheet with the color entry name as their class name, and the color itself as the color attribute"
+msgstr "Экспартаваць актыўную палітру як стыль CSS з назвай запісу колера ў якасьці назвы клясы й самім колерам у якасьці атрыбуту колера."
 
 #: ../plug-ins/script-fu/scripts/palette-export.scm:291
 msgid "Export the active palette as a PHP dictionary (name => color)"
@@ -1136,12 +1096,8 @@ msgid "Export the active palette as a Python dictionary (name: color)"
 msgstr "Экспартаваць актыўную палітру як слоўнік Python (назва: колер)"
 
 #: ../plug-ins/script-fu/scripts/palette-export.scm:352
-msgid ""
-"Write all the colors in a palette to a text file, one hexadecimal value per "
-"line (no names)"
-msgstr ""
-"Запісаць усе колеры ў палітры ў тэкставы файл, адно шаснаткавае значэньне на "
-"радок (бяз назваў)"
+msgid "Write all the colors in a palette to a text file, one hexadecimal value per line (no names)"
+msgstr "Запісаць усе колеры ў палітры ў тэкставы файл, адно шаснаткавае значэньне на радок (бяз назваў)"
 
 #: ../plug-ins/script-fu/scripts/palette-export.scm:399
 msgid "Export the active palette as a java.util.Hashtable<String, Color>"
@@ -1242,8 +1198,7 @@ msgid "_Rippling..."
 msgstr "Пакрыцьцё _рабізной…"
 
 #: ../plug-ins/script-fu/scripts/ripply-anim.scm:70
-msgid ""
-"Create a multi-layer image by adding a ripple effect to the current layer"
+msgid "Create a multi-layer image by adding a ripple effect to the current layer"
 msgstr ""
 
 #: ../plug-ins/script-fu/scripts/ripply-anim.scm:77
@@ -1276,10 +1231,8 @@ msgid "_Round Corners..."
 msgstr "Закругленыя _куты…"
 
 #: ../plug-ins/script-fu/scripts/round-corners.scm:130
-msgid ""
-"Round the corners of an image and optionally add a drop-shadow and background"
-msgstr ""
-"Скругліць куты відарыса й, па выбары, дадаць падаючы цень і асноведзь"
+msgid "Round the corners of an image and optionally add a drop-shadow and background"
+msgstr "Скругліць куты відарыса й, па выбары, дадаць падаючы цень і асноведзь"
 
 #: ../plug-ins/script-fu/scripts/round-corners.scm:137
 msgid "Edge radius"
@@ -1382,10 +1335,8 @@ msgid "_Spinning Globe..."
 msgstr "_Шар, які верціцца…"
 
 #: ../plug-ins/script-fu/scripts/spinning-globe.scm:95
-msgid ""
-"Create an animation by mapping the current image onto a spinning sphere"
-msgstr ""
-"Стварыць анімацыю, спраектаваўшы бягучы відарыс на сфэру, якая верціцца"
+msgid "Create an animation by mapping the current image onto a spinning sphere"
+msgstr "Стварыць анімацыю, спраектаваўшы бягучы відарыс на сфэру, якая верціцца"
 
 #: ../plug-ins/script-fu/scripts/spinning-globe.scm:102
 msgid "Frames"
@@ -1412,8 +1363,7 @@ msgid "_Spyrogimp..."
 msgstr "_Сьпіраґімп…"
 
 #: ../plug-ins/script-fu/scripts/spyrogimp.scm:315
-msgid ""
-"Add Spirographs, Epitrochoids, and Lissajous Curves to the current layer"
+msgid "Add Spirographs, Epitrochoids, and Lissajous Curves to the current layer"
 msgstr "Дадаць сьпіроґрафы, эпітрахоіды й фіґуры Лісажу да бягучага пласта"
 
 #: ../plug-ins/script-fu/scripts/spyrogimp.scm:323
@@ -1555,11 +1505,11 @@ msgstr "Тып размыцьця"
 
 #: ../plug-ins/script-fu/scripts/tileblur.scm:79
 msgid "IIR"
-msgstr "IIR"
+msgstr ""
 
 #: ../plug-ins/script-fu/scripts/tileblur.scm:79
 msgid "RLE"
-msgstr "RLE"
+msgstr ""
 
 #: ../plug-ins/script-fu/scripts/unsharp-mask.scm:82
 msgid "Mask size"
@@ -1574,12 +1524,8 @@ msgid "_Waves..."
 msgstr "_Хвалі…"
 
 #: ../plug-ins/script-fu/scripts/waves-anim.scm:96
-msgid ""
-"Create a multi-layer image with an effect like a stone was thrown into the "
-"current image"
-msgstr ""
-"Стварыць шматпластавы відарыс з эфэктам, нібыта ў бягучы відарыс быў кінуты "
-"камень"
+msgid "Create a multi-layer image with an effect like a stone was thrown into the current image"
+msgstr "Стварыць шматпластавы відарыс з эфэктам, нібыта ў бягучы відарыс быў кінуты камень"
 
 #: ../plug-ins/script-fu/scripts/waves-anim.scm:103
 msgid "Amplitude"
@@ -1598,12 +1544,8 @@ msgid "_Weave..."
 msgstr "_Пляценьне…"
 
 #: ../plug-ins/script-fu/scripts/weave.scm:398
-msgid ""
-"Create a new layer filled with a weave effect to be used as an overlay or "
-"bump map"
-msgstr ""
-"Стварыць новы пласт, запоўнены эфэктам пляценьня, які будзе выкарыстоўвацца "
-"як верхні пласт ці мапа паверхні"
+msgid "Create a new layer filled with a weave effect to be used as an overlay or bump map"
+msgstr "Стварыць новы пласт, запоўнены эфэктам пляценьня, які будзе выкарыстоўвацца як верхні пласт ці мапа паверхні"
 
 #: ../plug-ins/script-fu/scripts/weave.scm:405
 msgid "Ribbon width"
@@ -1643,9 +1585,7 @@ msgstr "Эфэкт _Xach…"
 
 #: ../plug-ins/script-fu/scripts/xach-effect.scm:122
 msgid "Add a subtle translucent 3D effect to the selected region (or alpha)"
-msgstr ""
-"Дадаць вытанчаны паўпразрысты трохмерны эфэкт да вылучанай вобласьці (ці "
-"тэксту)"
+msgstr "Дадаць вытанчаны паўпразрысты трохмерны эфэкт да вылучанай вобласьці (ці тэксту)"
 
 #: ../plug-ins/script-fu/scripts/xach-effect.scm:129
 msgid "Highlight X offset"
@@ -1682,3 +1622,4 @@ msgstr "Зрух падаючаца ценю па X"
 #: ../plug-ins/script-fu/scripts/xach-effect.scm:137
 msgid "Drop shadow Y offset"
 msgstr "Зрух падаючаца ценю па Y"
+

@@ -1,21 +1,21 @@
-# Belarusian translation for ufw
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
-# This file is distributed under the same license as the ufw package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: ufw\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-12-14 10:02-0600\n"
-"PO-Revision-Date: 2009-09-21 08:22+0000\n"
-"Last-Translator: Iryna Nikanchuk <Unknown>\n"
-"Language-Team: Belarusian <be@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:16\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 12:35+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/ufw.po\n"
+"Language: be_BY\n"
 
 #: src/ufw:74
 msgid ": Need at least python 2.6)\n"
@@ -236,9 +236,7 @@ msgstr ""
 
 #: src/common.py:472
 #, python-format
-msgid ""
-"Found non-action/non-logtype/comment match (%(xa)s/%(ya)s/'%(xc)s' "
-"%(xl)s/%(yl)s/'%(yc)s')"
+msgid "Found non-action/non-logtype/comment match (%(xa)s/%(ya)s/'%(xc)s' %(xl)s/%(yl)s/'%(yc)s')"
 msgstr ""
 
 #: src/common.py:630
@@ -442,7 +440,7 @@ msgstr "Дзеяньне"
 
 #: src/backend_iptables.py:461 src/backend_iptables.py:465
 msgid "\n"
-msgstr "\n"
+msgstr ""
 
 #: src/backend_iptables.py:473
 #, python-format
@@ -451,8 +449,7 @@ msgstr ""
 
 #: src/backend_iptables.py:481
 #, python-format
-msgid ""
-"Status: active\n"
+msgid "Status: active\n"
 "%(log)s\n"
 "%(pol)s\n"
 "%(app)s%(status)s"
@@ -469,8 +466,7 @@ msgstr ""
 
 #: src/backend_iptables.py:502 src/backend_iptables.py:520
 #, python-format
-msgid ""
-"problem running ufw-init\n"
+msgid "problem running ufw-init\n"
 "%s"
 msgstr ""
 
@@ -617,10 +613,8 @@ msgstr ""
 
 #: src/frontend.py:93
 #, python-format
-msgid ""
-"\n"
-"Usage: %(progname)s %(command)s\n"
-"\n"
+msgid "\n"
+"Usage: %(progname)s %(command)s\n\n"
 "%(commands)s:\n"
 " %(enable)-31s enables the firewall\n"
 " %(disable)-31s disables the firewall\n"
@@ -641,8 +635,7 @@ msgid ""
 " %(statusnum)-31s show firewall status as numbered list of %(rules)s\n"
 " %(statusverbose)-31s show verbose firewall status\n"
 " %(show)-31s show firewall report\n"
-" %(version)-31s display version information\n"
-"\n"
+" %(version)-31s display version information\n\n"
 "%(appcommands)s:\n"
 " %(applist)-31s list application profiles\n"
 " %(appinfo)-31s show information on %(profile)s\n"
@@ -679,8 +672,7 @@ msgid "Added user rules (see 'ufw status' for running firewall):"
 msgstr ""
 
 #: src/frontend.py:354
-msgid ""
-"\n"
+msgid "\n"
 "(None)"
 msgstr ""
 
@@ -707,8 +699,7 @@ msgid "Could not back out rule '%s'"
 msgstr ""
 
 #: src/frontend.py:570
-msgid ""
-"\n"
+msgid "\n"
 "Error applying application rules."
 msgstr ""
 
@@ -732,8 +723,7 @@ msgstr ""
 
 #: src/frontend.py:611
 #, python-format
-msgid ""
-"Deleting:\n"
+msgid "Deleting:\n"
 " %(rule)s\n"
 "Proceed with operation (%(yes)s|%(no)s)? "
 msgstr ""
@@ -784,12 +774,8 @@ msgstr ""
 
 #: src/frontend.py:762
 #, python-format
-msgid ""
-"Description: %s\n"
-"\n"
-msgstr ""
-"Апісаньне: %s\n"
-"\n"
+msgid "Description: %s\n\n"
+msgstr "Апісаньне: %s\n\n"
 
 #: src/frontend.py:768
 msgid "Ports:"
@@ -814,23 +800,17 @@ msgstr ""
 
 #: src/frontend.py:901
 #, python-format
-msgid ""
-"Command may disrupt existing ssh connections. Proceed with operation "
-"(%(yes)s|%(no)s)? "
+msgid "Command may disrupt existing ssh connections. Proceed with operation (%(yes)s|%(no)s)? "
 msgstr ""
 
 #: src/frontend.py:914
 #, python-format
-msgid ""
-"Resetting all rules to installed defaults. Proceed with operation "
-"(%(yes)s|%(no)s)? "
+msgid "Resetting all rules to installed defaults. Proceed with operation (%(yes)s|%(no)s)? "
 msgstr ""
 
 #: src/frontend.py:918
 #, python-format
-msgid ""
-"Resetting all rules to installed defaults. This may disrupt existing ssh "
-"connections. Proceed with operation (%(yes)s|%(no)s)? "
+msgid "Resetting all rules to installed defaults. This may disrupt existing ssh connections. Proceed with operation (%(yes)s|%(no)s)? "
 msgstr ""
 
 #: src/applications.py:37
@@ -901,3 +881,4 @@ msgstr ""
 #, python-format
 msgid "Invalid ports in profile '%s'"
 msgstr ""
+

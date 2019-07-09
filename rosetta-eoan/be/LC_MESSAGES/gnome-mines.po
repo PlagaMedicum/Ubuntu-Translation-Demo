@@ -1,25 +1,28 @@
-# Ales Nyakhaychyk <nab@mail.by>, 2003.
-# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2011, 2013.
-# Kasia Bondarava <kasia.bondarava@gmail.com>, 2012.
-# Yuras Shumovich <shumovichy@gmail.com>, 2017.
+# English (British) translation.
+# Copyright (C) 2007 gnome-games COPYRIGHT HOLDER
+# This file is distributed under the same licence as the gnome-games package.
+# Abigail Brady <morwen@evilmagic.org>, Bastien Nocera <hadess@hadess.net>, 2007.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2009, 2010, 2011, 2012.
+# Philip Withnall <philip@tecnocode.co.uk>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-games master\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"mines&keywords=I18N+L10N&component=general\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-mines&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2019-03-13 04:47+0000\n"
-"PO-Revision-Date: 2018-02-04 12:15+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
-"Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
+"PO-Revision-Date: 2019-07-08 16:49\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Launchpad-Export-Date: 2019-05-11 13:18+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Launchpad-Export-Date: 2019-05-11 13:19+0000\n"
+"X-Generator: crowdin.com\n"
 "X-Project-Style: gnome\n"
-"Language: be\n"
+"Language: be_BY\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/gnome-mines.po\n"
 
 #: data/org.gnome.Mines.appdata.xml.in:8
 msgid "GNOME Mines"
@@ -30,26 +33,12 @@ msgid "Clear hidden mines from a minefield"
 msgstr "Ачысціце поле ад схаваных мінаў"
 
 #: data/org.gnome.Mines.appdata.xml.in:11
-msgid ""
-"GNOME Mines is a puzzle game where you search for hidden mines. Flag the "
-"spaces with mines as quickly as possible to make the board a safer place. "
-"You win the game when you’ve flagged every mine on the board. Be careful not "
-"to trigger one, or the game is over!"
-msgstr ""
-"У галаваломцы Мінёр GNOME трэба знайсці схаваныя міны. Як мага хутчэй "
-"пазначце міны сцяжкамі, каб зрабіце дошку бяспечным месцам. Каб выйграць, "
-"трэба пазначыць усе міны на дошцы. Асцярожна, не націсніце на адну з іх, "
-"інакш вы прапалі!"
+msgid "GNOME Mines is a puzzle game where you search for hidden mines. Flag the spaces with mines as quickly as possible to make the board a safer place. You win the game when you’ve flagged every mine on the board. Be careful not to trigger one, or the game is over!"
+msgstr "У галаваломцы Мінёр GNOME трэба знайсці схаваныя міны. Як мага хутчэй пазначце міны сцяжкамі, каб зрабіце дошку бяспечным месцам. Каб выйграць, трэба пазначыць усе міны на дошцы. Асцярожна, не націсніце на адну з іх, інакш вы прапалі!"
 
 #: data/org.gnome.Mines.appdata.xml.in:17
-msgid ""
-"You can select the size of the field you want to play on at the start of the "
-"game. If you get stuck, you can ask for a hint: there’s a time penalty, but "
-"that’s better than hitting a mine!"
-msgstr ""
-"На пачатку гульні выберыце памер поля. Калі вы не ведаеце, што рабіць, "
-"можаце выкарыстаць падказку: за гэта даецца штрафны час, але гэта лепей за "
-"выбух міны!"
+msgid "You can select the size of the field you want to play on at the start of the game. If you get stuck, you can ask for a hint: there’s a time penalty, but that’s better than hitting a mine!"
+msgstr "На пачатку гульні выберыце памер поля. Калі вы не ведаеце, што рабіць, можаце выкарыстаць падказку: за гэта даецца штрафны час, але гэта лепей за выбух міны!"
 
 #: data/org.gnome.Mines.desktop.in:3 src/interface.ui:18
 #: src/gnome-mines.vala:166 src/gnome-mines.vala:222 src/gnome-mines.vala:861
@@ -99,24 +88,16 @@ msgid "Warning about too many flags"
 msgstr "Надта вялікая колькасць сцяжкоў"
 
 #: data/org.gnome.Mines.gschema.xml:16
-msgid ""
-"Set to true to enable warning icons when too many flags are placed next to a "
-"numbered tile."
-msgstr ""
-"Уключыць значкі перасцярогі, калі надта шмат сцяжкоў выстаўлена каля пліткі "
-"з нумарам."
+msgid "Set to true to enable warning icons when too many flags are placed next to a numbered tile."
+msgstr "Уключыць значкі перасцярогі, калі надта шмат сцяжкоў выстаўлена каля пліткі з нумарам."
 
 #: data/org.gnome.Mines.gschema.xml:20
 msgid "Enable automatic placing of flags"
 msgstr "Уключыць аўтаматычнае выстаўленне сцяжкоў"
 
 #: data/org.gnome.Mines.gschema.xml:21
-msgid ""
-"Set to true to automatically flag squares as mined when enough squares are "
-"revealed"
-msgstr ""
-"Уключыце для аўтаматычнага пазначэння мін, калі для гэтага адкрыта ўжо "
-"дастаткова клетак"
+msgid "Set to true to automatically flag squares as mined when enough squares are revealed"
+msgstr "Уключыце для аўтаматычнага пазначэння мін, калі для гэтага адкрыта ўжо дастаткова клетак"
 
 #: data/org.gnome.Mines.gschema.xml:25
 msgid "Enable animations"
@@ -210,8 +191,7 @@ msgstr ""
 
 #: src/help-overlay.ui:86
 msgctxt "shortcut window"
-msgid ""
-"Toggle field flag state between normal and flagged (and question, if enabled)"
+msgid "Toggle field flag state between normal and flagged (and question, if enabled)"
 msgstr ""
 
 #: src/interface.ui:118
@@ -328,6 +308,7 @@ msgid_plural "%d × %d, %d mines"
 msgstr[0] "%d × %d, %d міна"
 msgstr[1] "%d × %d, %d міны"
 msgstr[2] "%d × %d, %d мін"
+msgstr[3] ""
 
 #: src/gnome-mines.vala:431
 msgid "Custom"
@@ -340,6 +321,7 @@ msgid_plural "<b>%d</b> mines"
 msgstr[0] "<b>%d</b> міна"
 msgstr[1] "<b>%d</b> міны"
 msgstr[2] "<b>%d</b> мінаў"
+msgstr[3] ""
 
 #: src/gnome-mines.vala:619
 msgid "Do you want to start a new game?"
@@ -347,9 +329,7 @@ msgstr "Ці вы хочаце запусціць новую гульню?"
 
 #: src/gnome-mines.vala:620
 msgid "If you start a new game, your current progress will be lost."
-msgstr ""
-"Калі вы запусціце новую гульню, прагрэс у дзейнай гульні будзе незваротна "
-"страчаны."
+msgstr "Калі вы запусціце новую гульню, прагрэс у дзейнай гульні будзе незваротна страчаны."
 
 #: src/gnome-mines.vala:621
 msgid "Keep Current Game"
@@ -389,11 +369,9 @@ msgstr "Ачысціць дашку ад выбуховых мін"
 
 #: src/gnome-mines.vala:871
 msgid "translator-credits"
-msgstr ""
-"Ales Nyakhaychyk <nab@mail.by>\n"
+msgstr "Ales Nyakhaychyk <nab@mail.by>\n"
 "Ihar Hrachyshka <ihar.hrachyshka@gmail.com>\n"
-"Юрась Шумовіч <shumovichy@gmail.com>\n"
-"\n"
+"Юрась Шумовіч <shumovichy@gmail.com>\n\n"
 "Launchpad Contributions:\n"
 "  Ihar Hrachyshka https://launchpad.net/~ihar-hrachyshka\n"
 "  Kasia Bondarava https://launchpad.net/~kasia-bondarava\n"
@@ -402,3 +380,4 @@ msgstr ""
 #: src/theme-selector-dialog.vala:106
 msgid "Select Theme"
 msgstr "Выбраць матыў аздаблення"
+

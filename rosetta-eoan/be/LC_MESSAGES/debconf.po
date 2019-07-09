@@ -1,21 +1,21 @@
-# Belarusian translation for debconf
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
-# This file is distributed under the same license as the debconf package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: debconf\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-02-28 09:48+0000\n"
-"PO-Revision-Date: 2009-10-19 08:27+0000\n"
-"Last-Translator: Iryna Nikanchuk <Unknown>\n"
-"Language-Team: Belarusian <be@li.org>\n"
+"PO-Revision-Date: 2019-07-08 16:55\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-05-11 10:42+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Launchpad-Export-Date: 2019-05-11 10:43+0000\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/debconf.po\n"
+"Language: be_BY\n"
 
 #: ../Debconf/AutoSelect.pm:76
 #, perl-format
@@ -41,9 +41,7 @@ msgid "Template database not specified in config file."
 msgstr ""
 
 #: ../Debconf/Config.pm:139
-msgid ""
-"The Sigils and Smileys options in the config file are no longer used. Please "
-"remove them."
+msgid "The Sigils and Smileys options in the config file are no longer used. Please remove them."
 msgstr ""
 
 #: ../Debconf/Config.pm:153
@@ -52,8 +50,7 @@ msgid "Problem setting up the database defined by stanza %s of %s."
 msgstr ""
 
 #: ../Debconf/Config.pm:228
-msgid ""
-"  -f,  --frontend\t\tSpecify debconf frontend to use.\n"
+msgid "  -f,  --frontend\t\tSpecify debconf frontend to use.\n"
 "  -p,  --priority\t\tSpecify minimum priority question to show.\n"
 "       --terse\t\t\tEnable terse mode.\n"
 msgstr ""
@@ -89,8 +86,7 @@ msgid "no"
 msgstr "не"
 
 #: ../Debconf/Element/Editor/Multiselect.pm:32
-msgid ""
-"(Enter zero or more items separated by a comma followed by a space (', ').)"
+msgid "(Enter zero or more items separated by a comma followed by a space (', ').)"
 msgstr ""
 
 #: ../Debconf/Element/Gnome.pm:182
@@ -102,9 +98,7 @@ msgid "Help"
 msgstr "Даведка"
 
 #: ../Debconf/Element/Noninteractive/Error.pm:40
-msgid ""
-"Debconf is not confident this error message was displayed, so it mailed it "
-"to you."
+msgid "Debconf is not confident this error message was displayed, so it mailed it to you."
 msgstr ""
 
 #: ../Debconf/Element/Noninteractive/Error.pm:67
@@ -118,9 +112,7 @@ msgstr ""
 
 #: ../Debconf/Element/Select.pm:95 ../Debconf/Element/Select.pm:110
 #, perl-format
-msgid ""
-"Input value, \"%s\" not found in C choices! This should never happen. "
-"Perhaps the templates were incorrectly localized."
+msgid "Input value, \"%s\" not found in C choices! This should never happen. Perhaps the templates were incorrectly localized."
 msgstr ""
 
 #: ../Debconf/Element/Teletype/Multiselect.pm:27
@@ -150,20 +142,15 @@ msgid "Dialog frontend is incompatible with emacs shell buffers"
 msgstr ""
 
 #: ../Debconf/FrontEnd/Dialog.pm:59
-msgid ""
-"Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or "
-"without a controlling terminal."
+msgid "Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal."
 msgstr ""
 
 #: ../Debconf/FrontEnd/Dialog.pm:105
-msgid ""
-"No usable dialog-like program is installed, so the dialog based frontend "
-"cannot be used."
+msgid "No usable dialog-like program is installed, so the dialog based frontend cannot be used."
 msgstr ""
 
 #: ../Debconf/FrontEnd/Dialog.pm:112
-msgid ""
-"Dialog frontend requires a screen at least 13 lines tall and 31 columns wide."
+msgid "Dialog frontend requires a screen at least 13 lines tall and 31 columns wide."
 msgstr ""
 
 #: ../Debconf/FrontEnd/Dialog.pm:296
@@ -171,19 +158,11 @@ msgid "Package configuration"
 msgstr ""
 
 #: ../Debconf/FrontEnd/Editor.pm:94
-msgid ""
-"You are using the editor-based debconf frontend to configure your system. "
-"See the end of this document for detailed instructions."
+msgid "You are using the editor-based debconf frontend to configure your system. See the end of this document for detailed instructions."
 msgstr ""
 
 #: ../Debconf/FrontEnd/Editor.pm:111
-msgid ""
-"The editor-based debconf frontend presents you with one or more text files "
-"to edit. This is one such text file. If you are familiar with standard unix "
-"configuration files, this file will look familiar to you -- it contains "
-"comments interspersed with configuration items. Edit the file, changing any "
-"items as necessary, and then save it and exit. At that point, debconf will "
-"read the edited file, and use the values you entered to configure the system."
+msgid "The editor-based debconf frontend presents you with one or more text files to edit. This is one such text file. If you are familiar with standard unix configuration files, this file will look familiar to you -- it contains comments interspersed with configuration items. Edit the file, changing any items as necessary, and then save it and exit. At that point, debconf will read the edited file, and use the values you entered to configure the system."
 msgstr ""
 
 #: ../Debconf/FrontEnd/Gnome.pm:95
@@ -191,16 +170,11 @@ msgid "Really quit configuration?"
 msgstr ""
 
 #: ../Debconf/FrontEnd/Gnome.pm:96
-msgid ""
-"If you quit this configuration dialog, then the package being configured "
-"will probably fail to install, and you may have to fix it manually. This may "
-"be especially difficult if you are in the middle of a large upgrade."
+msgid "If you quit this configuration dialog, then the package being configured will probably fail to install, and you may have to fix it manually. This may be especially difficult if you are in the middle of a large upgrade."
 msgstr ""
 
 #: ../Debconf/FrontEnd/Gnome.pm:96
-msgid ""
-"You may need to quit anyway if you are stuck in a configuration loop due to "
-"a buggy package."
+msgid "You may need to quit anyway if you are stuck in a configuration loop due to a buggy package."
 msgstr ""
 
 #: ../Debconf/FrontEnd/Gnome.pm:97
@@ -252,16 +226,12 @@ msgstr "Наступны"
 
 #: ../Debconf/Template.pm:96
 #, perl-format
-msgid ""
-"warning: possible database corruption. Will attempt to repair by adding back "
-"missing question %s."
+msgid "warning: possible database corruption. Will attempt to repair by adding back missing question %s."
 msgstr ""
 
 #: ../Debconf/Template.pm:211
 #, perl-format
-msgid ""
-"Template #%s in %s has a duplicate field \"%s\" with new value \"%s\". "
-"Probably two templates are not properly separated by a lone newline.\n"
+msgid "Template #%s in %s has a duplicate field \"%s\" with new value \"%s\". Probably two templates are not properly separated by a lone newline.\n"
 msgstr ""
 
 #: ../Debconf/Template.pm:236
@@ -323,8 +293,7 @@ msgid "%s failed to preconfigure, with exit status %s"
 msgstr ""
 
 #: ../dpkg-reconfigure:99
-msgid ""
-"Usage: dpkg-reconfigure [options] packages\n"
+msgid "Usage: dpkg-reconfigure [options] packages\n"
 "  -u,  --unseen-only\t\tShow only not yet seen questions.\n"
 "       --default-priority\tUse default priority instead of low.\n"
 "       --force\t\t\tForce reconfiguration of broken packages.\n"
@@ -355,9 +324,7 @@ msgid "Usage: debconf-communicate [options] [package]"
 msgstr ""
 
 #: ../debconf-mergetemplate:14
-msgid ""
-"debconf-mergetemplate: This utility is deprecated. You should switch to "
-"using po-debconf's po2debconf program."
+msgid "debconf-mergetemplate: This utility is deprecated. You should switch to using po-debconf's po2debconf program."
 msgstr ""
 
 #: ../debconf-mergetemplate:66
@@ -365,8 +332,7 @@ msgid "Usage: debconf-mergetemplate [options] [templates.ll ...] templates"
 msgstr ""
 
 #: ../debconf-mergetemplate:71
-msgid ""
-"\n"
+msgid "\n"
 "        --outdated\t\tMerge in even outdated translations.\n"
 "\t--drop-old-templates\tDrop entire outdated templates."
 msgstr ""
@@ -406,7 +372,7 @@ msgid "Usage: debconf [options] command [args]"
 msgstr ""
 
 #: ../debconf:97
-msgid ""
-"\n"
+msgid "\n"
 "  -o,  --owner=package\t\tSet the package that owns the command."
 msgstr ""
+

@@ -1,25 +1,28 @@
-# Ukrainian translation for gnome-keyring
-# Copyright (C) 2003 Free Software Foundation, Inc.
+# English (British) translation.
+# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-keyring package.
-# Maxim Dzumanenko <dziumanenko@gmail.com>, 2004-2008
-# Korostil Daniel <ted.korostiled@gmail.com>, 2011, 2012.
+# Gareth Owen <gowen72@yahoo.com>, 2004.
+# Philip Withnall <philip@tecnocode.co.uk>, 2009, 2010.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2010, 2011, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-keyring\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-keyring&keywords=I18N+L10N&component=gcr\n"
 "POT-Creation-Date: 2019-02-11 09:37+0000\n"
-"PO-Revision-Date: 2018-03-21 09:17+0000\n"
-"Last-Translator: Andrii Prokopenko <Unknown>\n"
-"Language-Team: translation@linux.org.ua\n"
+"PO-Revision-Date: 2019-07-08 17:05\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Launchpad-Export-Date: 2019-05-11 13:13+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
 "X-Project-Style: gnome\n"
-"Language: uk\n"
+"Language: uk_UA\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/gcr.po\n"
 
 #: ../egg/egg-oid.c:40
 msgid "Domain Component"
@@ -121,7 +124,7 @@ msgstr "Псевдонім"
 #: ../egg/egg-oid.c:97 ../ui/gcr-gnupg-renderer.c:199
 #: ../ui/gcr-key-renderer.c:385
 msgid "RSA"
-msgstr "RSA"
+msgstr ""
 
 #: ../egg/egg-oid.c:98
 msgid "MD2 with RSA"
@@ -138,7 +141,7 @@ msgstr "SHA1 з ключем RSA"
 #: ../egg/egg-oid.c:102 ../ui/gcr-gnupg-renderer.c:203
 #: ../ui/gcr-key-renderer.c:387
 msgid "DSA"
-msgstr "DSA"
+msgstr ""
 
 #: ../egg/egg-oid.c:103
 msgid "SHA1 with DSA"
@@ -256,11 +259,11 @@ msgstr "Інші назви"
 
 #: ../gcr/gcr-certificate-extensions.c:187
 msgid "XMPP Addr"
-msgstr "XMPP Addr"
+msgstr ""
 
 #: ../gcr/gcr-certificate-extensions.c:191
 msgid "DNS SRV"
-msgstr "DNS SRV"
+msgstr ""
 
 #: ../gcr/gcr-certificate-extensions.c:203 ../ui/gcr-gnupg-renderer.c:421
 #: ../ui/gcr-gnupg-renderer.c:703
@@ -269,7 +272,7 @@ msgstr "Пошта"
 
 #: ../gcr/gcr-certificate-extensions.c:211
 msgid "DNS"
-msgstr "DNS"
+msgstr ""
 
 #: ../gcr/gcr-certificate-extensions.c:219
 msgid "X400 Address"
@@ -285,7 +288,7 @@ msgstr "Часткова назва EDI"
 
 #: ../gcr/gcr-certificate-extensions.c:241
 msgid "URI"
-msgstr "URI"
+msgstr ""
 
 #: ../gcr/gcr-certificate-extensions.c:249
 msgid "IP Address"
@@ -631,7 +634,7 @@ msgstr "Неможливо показати файл цього типу."
 
 #: ../ui/gcr-gnupg-renderer.c:201
 msgid "Elgamal"
-msgstr "Elgamal"
+msgstr ""
 
 #: ../ui/gcr-gnupg-renderer.c:214
 msgid "Encrypt"
@@ -925,6 +928,7 @@ msgid_plural "%u bits"
 msgstr[0] "%u біт"
 msgstr[1] "%u біти"
 msgstr[2] "%u бітів"
+msgstr[3] ""
 
 #: ../ui/gcr-key-renderer.c:378
 msgid "Strength"
@@ -937,11 +941,11 @@ msgstr "Відбитки"
 
 #: ../ui/gcr-key-renderer.c:406
 msgid "SHA1"
-msgstr "SHA1"
+msgstr ""
 
 #: ../ui/gcr-key-renderer.c:411
 msgid "SHA256"
-msgstr "SHA256"
+msgstr ""
 
 #. Add our various buttons
 #: ../ui/gcr-pkcs11-import-dialog.c:114 ../ui/gcr-prompt-dialog.c:500
@@ -1076,16 +1080,11 @@ msgstr "Пароль"
 
 #: ../ui/gcr-unlock-renderer.c:274
 #, c-format
-msgid ""
-"The contents of “%s” are locked. In order to view the contents, enter the "
-"correct password."
-msgstr ""
-"Вміст «%s» заблоковано. Щоб його переглянути введіть правильний пароль."
+msgid "The contents of “%s” are locked. In order to view the contents, enter the correct password."
+msgstr "Вміст «%s» заблоковано. Щоб його переглянути введіть правильний пароль."
 
 #: ../ui/gcr-unlock-renderer.c:277
-msgid ""
-"The contents are locked. In order to view the contents, enter the correct "
-"password."
+msgid "The contents are locked. In order to view the contents, enter the correct password."
 msgstr "Вміст заблоковано. Введіть правильний пароль, щоб переглянути вміст."
 
 #: ../ui/gcr-viewer-tool.c:40
@@ -1127,3 +1126,4 @@ msgstr "Імпортувати"
 #: ../ui/gcr-viewer-window.c:115
 msgid "_Close"
 msgstr "_Закрити"
+

@@ -1,22 +1,21 @@
-# Simplified Chinese translation for xz-utils
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
-# This file is distributed under the same license as the xz-utils package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: xz-utils\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-01-28 05:13+0000\n"
-"PO-Revision-Date: 2009-10-26 12:49+0000\n"
-"Last-Translator: Chen Ming <Unknown>\n"
-"Language-Team: Simplified Chinese <zh_CN@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:48\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Launchpad-Export-Date: 2019-05-11 12:44+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/xz.po\n"
+"Language: zh_CN\n"
 
 #: src/xz/args.c:63
 #, c-format
@@ -35,16 +34,16 @@ msgstr ""
 #: src/xz/args.c:406
 #, c-format
 msgid "%s: Unknown file format type"
-msgstr "%s: 未知文件格式类型"
+msgstr ""
 
 #: src/xz/args.c:429 src/xz/args.c:437
 #, c-format
 msgid "%s: Unsupported integrity check type"
-msgstr "%s: 不支持的完整性检查类型"
+msgstr ""
 
 #: src/xz/args.c:473
 msgid "Only one file can be specified with `--files' or `--files0'."
-msgstr "只能通过“--files”或“--files0”指定一个文件"
+msgstr ""
 
 #: src/xz/args.c:541
 #, c-format
@@ -61,27 +60,27 @@ msgstr ""
 
 #: src/xz/coder.c:110
 msgid "Maximum number of filters is four"
-msgstr "最大的过滤器数目是四个"
+msgstr ""
 
 #: src/xz/coder.c:129
 msgid "Memory usage limit is too low for the given filter setup."
-msgstr "给定的过滤器设置的内存使用限制过小。"
+msgstr ""
 
 #: src/xz/coder.c:159
 msgid "Using a preset in raw mode is discouraged."
-msgstr "不建议在 raw 模式中使用预定义设置。"
+msgstr ""
 
 #: src/xz/coder.c:161
 msgid "The exact options of the presets may vary between software versions."
-msgstr "这些预定义设置的具体取值根据版本可能会有所不同。"
+msgstr ""
 
 #: src/xz/coder.c:184
 msgid "The .lzma format supports only the LZMA1 filter"
-msgstr ".lzma 格式只支持 LZMA1 过滤器"
+msgstr ""
 
 #: src/xz/coder.c:192
 msgid "LZMA1 cannot be used with the .xz format"
-msgstr "LZMA1 不能用于 .xz 格式"
+msgstr ""
 
 #: src/xz/coder.c:209
 msgid "The filter chain is incompatible with --flush-timeout"
@@ -107,16 +106,12 @@ msgstr ""
 
 #: src/xz/coder.c:300
 #, c-format
-msgid ""
-"Adjusted the number of threads from %s to %s to not exceed the memory usage "
-"limit of %s MiB"
+msgid "Adjusted the number of threads from %s to %s to not exceed the memory usage limit of %s MiB"
 msgstr ""
 
 #: src/xz/coder.c:354
 #, c-format
-msgid ""
-"Adjusted LZMA%c dictionary size from %s MiB to %s MiB to not exceed the "
-"memory usage limit of %s MiB"
+msgid "Adjusted LZMA%c dictionary size from %s MiB to %s MiB to not exceed the memory usage limit of %s MiB"
 msgstr ""
 
 #: src/xz/file_io.c:110 src/xz/file_io.c:118
@@ -154,27 +149,27 @@ msgstr ""
 #: src/xz/file_io.c:332
 #, c-format
 msgid "%s: File seems to have been moved, not removing"
-msgstr "%s：发现文件已经移动，不会移除"
+msgstr ""
 
 #: src/xz/file_io.c:339 src/xz/file_io.c:878
 #, c-format
 msgid "%s: Cannot remove: %s"
-msgstr "%s：无法删除：%s"
+msgstr ""
 
 #: src/xz/file_io.c:364
 #, c-format
 msgid "%s: Cannot set the file owner: %s"
-msgstr "%s：无法设置文件所有者：%s"
+msgstr ""
 
 #: src/xz/file_io.c:370
 #, c-format
 msgid "%s: Cannot set the file group: %s"
-msgstr "%s：无法设定文件组：%s"
+msgstr ""
 
 #: src/xz/file_io.c:389
 #, c-format
 msgid "%s: Cannot set the file permissions: %s"
-msgstr "%s：无法设置文件权限：%s"
+msgstr ""
 
 #: src/xz/file_io.c:515
 #, c-format
@@ -184,32 +179,32 @@ msgstr ""
 #: src/xz/file_io.c:572 src/xz/file_io.c:634
 #, c-format
 msgid "%s: Is a symbolic link, skipping"
-msgstr "%s：是符号链接，跳过"
+msgstr ""
 
 #: src/xz/file_io.c:663
 #, c-format
 msgid "%s: Is a directory, skipping"
-msgstr "%s：是目录，跳过"
+msgstr ""
 
 #: src/xz/file_io.c:669
 #, c-format
 msgid "%s: Not a regular file, skipping"
-msgstr "%s：不是常规文件，跳过"
+msgstr ""
 
 #: src/xz/file_io.c:686
 #, c-format
 msgid "%s: File has setuid or setgid bit set, skipping"
-msgstr "%s：文件设置了setuid或setgid位，跳过"
+msgstr ""
 
 #: src/xz/file_io.c:693
 #, c-format
 msgid "%s: File has sticky bit set, skipping"
-msgstr "%s：文件设置了粘滞位（sticky bit），跳过"
+msgstr ""
 
 #: src/xz/file_io.c:700
 #, c-format
 msgid "%s: Input file has more than one hard link, skipping"
-msgstr "%s：输入文件有多个硬链接，跳过"
+msgstr ""
 
 #: src/xz/file_io.c:788
 #, c-format
@@ -229,7 +224,7 @@ msgstr ""
 #: src/xz/file_io.c:1026
 #, c-format
 msgid "%s: Closing the file failed: %s"
-msgstr "%s：关闭文件失败：%s"
+msgstr ""
 
 #: src/xz/file_io.c:1062 src/xz/file_io.c:1288
 #, c-format
@@ -239,7 +234,7 @@ msgstr ""
 #: src/xz/file_io.c:1157
 #, c-format
 msgid "%s: Read error: %s"
-msgstr "%s：读入错误：%s"
+msgstr ""
 
 #: src/xz/file_io.c:1177
 #, c-format
@@ -249,12 +244,12 @@ msgstr ""
 #: src/xz/file_io.c:1187
 #, c-format
 msgid "%s: Unexpected end of file"
-msgstr "%s：意外的文件末尾"
+msgstr ""
 
 #: src/xz/file_io.c:1246
 #, c-format
 msgid "%s: Write error: %s"
-msgstr "%s：写入错误：%s"
+msgstr ""
 
 #: src/xz/hardware.c:107
 msgid "Disabled"
@@ -391,20 +386,16 @@ msgstr ""
 #. Check are right aligned; Check is left aligned. Test with
 #. "xz -lv foo.xz".
 #: src/xz/list.c:758
-msgid ""
-"  Streams:\n"
-"    Stream    Blocks      CompOffset    UncompOffset        CompSize      "
-"UncompSize  Ratio  Check      Padding"
+msgid "  Streams:\n"
+"    Stream    Blocks      CompOffset    UncompOffset        CompSize      UncompSize  Ratio  Check      Padding"
 msgstr ""
 
 #. TRANSLATORS: The second line is column headings. All
 #. except Check are right aligned; Check is left aligned.
 #: src/xz/list.c:813
 #, c-format
-msgid ""
-"  Blocks:\n"
-"    Stream     Block      CompOffset    UncompOffset       TotalSize      "
-"UncompSize  Ratio  Check"
+msgid "  Blocks:\n"
+"    Stream     Block      CompOffset    UncompOffset       TotalSize      UncompSize  Ratio  Check"
 msgstr ""
 
 #. TRANSLATORS: These are additional column headings
@@ -449,7 +440,6 @@ msgstr ""
 msgid "%s file\n"
 msgid_plural "%s files\n"
 msgstr[0] ""
-msgstr[1] ""
 
 #: src/xz/list.c:1070
 msgid "Totals:"
@@ -471,29 +461,25 @@ msgstr ""
 #: src/xz/main.c:89
 #, c-format
 msgid "%s: Error reading filenames: %s"
-msgstr "%s：读取文件名时错误：%s"
+msgstr ""
 
 #: src/xz/main.c:96
 #, c-format
 msgid "%s: Unexpected end of input when reading filenames"
-msgstr "%s：读取文件名时遇到意外的结束标志"
+msgstr ""
 
 #: src/xz/main.c:120
 #, c-format
-msgid ""
-"%s: Null character found when reading filenames; maybe you meant to use `--"
-"files0' instead of `--files'?"
-msgstr "%s：读取文件名时遇到空字符；您可能想使用“--files0”选项而不是“--files”选项。"
+msgid "%s: Null character found when reading filenames; maybe you meant to use `--files0' instead of `--files'?"
+msgstr ""
 
 #: src/xz/main.c:174
 msgid "Compression and decompression with --robot are not supported yet."
-msgstr "使用 --robot 选项的压缩和解压缩尚未被支持。"
+msgstr ""
 
 #: src/xz/main.c:252
-msgid ""
-"Cannot read data from standard input when reading filenames from standard "
-"input"
-msgstr "无法从标准输入读取文件名"
+msgid "Cannot read data from standard input when reading filenames from standard input"
+msgstr ""
 
 #. TRANSLATORS: This is the program name in the beginning
 #. of the line in messages. Usually it becomes "xz: ".
@@ -506,39 +492,39 @@ msgstr ""
 
 #: src/xz/message.c:777 src/xz/message.c:827
 msgid "Internal error (bug)"
-msgstr "内部错误(bug)"
+msgstr ""
 
 #: src/xz/message.c:784
 msgid "Cannot establish signal handlers"
-msgstr "无法建立信号句柄"
+msgstr ""
 
 #: src/xz/message.c:793
 msgid "No integrity check; not verifying file integrity"
-msgstr "无完整性检查；未验证文件完整性"
+msgstr ""
 
 #: src/xz/message.c:796
 msgid "Unsupported type of integrity check; not verifying file integrity"
-msgstr "不支持的完整性验证类型；未验证文件完整性"
+msgstr ""
 
 #: src/xz/message.c:803
 msgid "Memory usage limit reached"
-msgstr "达到内存使用限制"
+msgstr ""
 
 #: src/xz/message.c:806
 msgid "File format not recognized"
-msgstr "文件格式无法识别"
+msgstr ""
 
 #: src/xz/message.c:809
 msgid "Unsupported options"
-msgstr "不支持的选项"
+msgstr ""
 
 #: src/xz/message.c:812
 msgid "Compressed data is corrupt"
-msgstr "压缩数据已损坏"
+msgstr ""
 
 #: src/xz/message.c:815
 msgid "Unexpected end of input"
-msgstr "不可预料的输入结尾"
+msgstr ""
 
 #: src/xz/message.c:848
 #, c-format
@@ -558,168 +544,127 @@ msgstr ""
 #: src/xz/message.c:1053
 #, c-format
 msgid "Try `%s --help' for more information."
-msgstr "用“%s --help”来获得更多的信息"
+msgstr ""
 
 #: src/xz/message.c:1079
 #, c-format
-msgid ""
-"Usage: %s [OPTION]... [FILE]...\n"
-"Compress or decompress FILEs in the .xz format.\n"
-"\n"
+msgid "Usage: %s [OPTION]... [FILE]...\n"
+"Compress or decompress FILEs in the .xz format.\n\n"
 msgstr ""
-"用法：%s [选项] ... [文件名] ...\n"
-"压缩或解压缩 .xz 格式的文件。\n"
-"\n"
 
 #: src/xz/message.c:1086
-msgid ""
-"Mandatory arguments to long options are mandatory for short options too.\n"
-msgstr "长选项必须使用的参数对于短选项时也是必需使用的。\n"
+msgid "Mandatory arguments to long options are mandatory for short options too.\n"
+msgstr ""
 
 #: src/xz/message.c:1090
 msgid " Operation mode:\n"
-msgstr " 操作模式：\n"
+msgstr ""
 
 #: src/xz/message.c:1093
-msgid ""
-"  -z, --compress      force compression\n"
+msgid "  -z, --compress      force compression\n"
 "  -d, --decompress    force decompression\n"
 "  -t, --test          test compressed file integrity\n"
 "  -l, --list          list information about .xz files"
 msgstr ""
 
 #: src/xz/message.c:1099
-msgid ""
-"\n"
+msgid "\n"
 " Operation modifiers:\n"
 msgstr ""
 
 #: src/xz/message.c:1102
-msgid ""
-"  -k, --keep          keep (don't delete) input files\n"
+msgid "  -k, --keep          keep (don't delete) input files\n"
 "  -f, --force         force overwrite of output file and (de)compress links\n"
 "  -c, --stdout        write to standard output and don't delete input files"
 msgstr ""
-"  -k, --keep          保留 (不删除) 输入文件\n"
-"  -f, --force         强制覆盖输出文件并且 (解)压缩链接\n"
-"  -c, --stdout        输出到标准输出并且不删除输入文件"
 
 #: src/xz/message.c:1108
-msgid ""
-"      --single-stream decompress only the first stream, and silently\n"
+msgid "      --single-stream decompress only the first stream, and silently\n"
 "                      ignore possible remaining input data"
 msgstr ""
 
 #: src/xz/message.c:1111
-msgid ""
-"      --no-sparse     do not create sparse files when decompressing\n"
+msgid "      --no-sparse     do not create sparse files when decompressing\n"
 "  -S, --suffix=.SUF   use the suffix `.SUF' on compressed files\n"
 "      --files[=FILE]  read filenames to process from FILE; if FILE is\n"
 "                      omitted, filenames are read from the standard input;\n"
-"                      filenames must be terminated with the newline "
-"character\n"
+"                      filenames must be terminated with the newline character\n"
 "      --files0[=FILE] like --files but use the null character as terminator"
 msgstr ""
 
 #: src/xz/message.c:1120
-msgid ""
-"\n"
+msgid "\n"
 " Basic file format and compression options:\n"
 msgstr ""
-"\n"
-" 基本的文件格式和压缩选项：\n"
 
 #: src/xz/message.c:1122
-msgid ""
-"  -F, --format=FMT    file format to encode or decode; possible values are\n"
+msgid "  -F, --format=FMT    file format to encode or decode; possible values are\n"
 "                      `auto' (default), `xz', `lzma', and `raw'\n"
 "  -C, --check=CHECK   integrity check type: `none' (use with caution),\n"
 "                      `crc32', `crc64' (default), or `sha256'"
 msgstr ""
 
 #: src/xz/message.c:1127
-msgid ""
-"      --ignore-check  don't verify the integrity check when decompressing"
+msgid "      --ignore-check  don't verify the integrity check when decompressing"
 msgstr ""
 
 #: src/xz/message.c:1131
-msgid ""
-"  -0 ... -9           compression preset; default is 6; take compressor "
-"*and*\n"
-"                      decompressor memory usage into account before using 7-"
-"9!"
+msgid "  -0 ... -9           compression preset; default is 6; take compressor *and*\n"
+"                      decompressor memory usage into account before using 7-9!"
 msgstr ""
 
 #: src/xz/message.c:1135
-msgid ""
-"  -e, --extreme       try to improve compression ratio by using more CPU "
-"time;\n"
+msgid "  -e, --extreme       try to improve compression ratio by using more CPU time;\n"
 "                      does not affect decompressor memory requirements"
 msgstr ""
 
 #: src/xz/message.c:1139
-msgid ""
-"  -T, --threads=NUM   use at most NUM threads; the default is 1; set to 0\n"
+msgid "  -T, --threads=NUM   use at most NUM threads; the default is 1; set to 0\n"
 "                      to use as many threads as there are processor cores"
 msgstr ""
 
 #: src/xz/message.c:1144
-msgid ""
-"      --block-size=SIZE\n"
-"                      start a new .xz block after every SIZE bytes of "
-"input;\n"
+msgid "      --block-size=SIZE\n"
+"                      start a new .xz block after every SIZE bytes of input;\n"
 "                      use this to set the block size for threaded compression"
 msgstr ""
 
 #: src/xz/message.c:1148
-msgid ""
-"      --block-list=SIZES\n"
+msgid "      --block-list=SIZES\n"
 "                      start a new .xz block after the given comma-separated\n"
 "                      intervals of uncompressed data"
 msgstr ""
 
 #: src/xz/message.c:1152
-msgid ""
-"      --flush-timeout=TIMEOUT\n"
-"                      when compressing, if more than TIMEOUT milliseconds "
-"has\n"
-"                      passed since the previous flush and reading more "
-"input\n"
+msgid "      --flush-timeout=TIMEOUT\n"
+"                      when compressing, if more than TIMEOUT milliseconds has\n"
+"                      passed since the previous flush and reading more input\n"
 "                      would block, all pending data is flushed out"
 msgstr ""
 
 #: src/xz/message.c:1158
 #, no-c-format
-msgid ""
-"      --memlimit-compress=LIMIT\n"
+msgid "      --memlimit-compress=LIMIT\n"
 "      --memlimit-decompress=LIMIT\n"
 "  -M, --memlimit=LIMIT\n"
-"                      set memory usage limit for compression, "
-"decompression,\n"
+"                      set memory usage limit for compression, decompression,\n"
 "                      or both; LIMIT is in bytes, % of RAM, or 0 for defaults"
 msgstr ""
 
 #: src/xz/message.c:1165
-msgid ""
-"      --no-adjust     if compression settings exceed the memory usage "
-"limit,\n"
-"                      give an error instead of adjusting the settings "
-"downwards"
+msgid "      --no-adjust     if compression settings exceed the memory usage limit,\n"
+"                      give an error instead of adjusting the settings downwards"
 msgstr ""
 
 #: src/xz/message.c:1171
-msgid ""
-"\n"
+msgid "\n"
 " Custom filter chain for compression (alternative for using presets):"
 msgstr ""
 
 #: src/xz/message.c:1180
-msgid ""
-"\n"
-"  --lzma1[=OPTS]      LZMA1 or LZMA2; OPTS is a comma-separated list of zero "
-"or\n"
-"  --lzma2[=OPTS]      more of the following options (valid values; "
-"default):\n"
+msgid "\n"
+"  --lzma1[=OPTS]      LZMA1 or LZMA2; OPTS is a comma-separated list of zero or\n"
+"  --lzma2[=OPTS]      more of the following options (valid values; default):\n"
 "                        preset=PRE reset options to a preset (0-9[e])\n"
 "                        dict=NUM   dictionary size (4KiB - 1536MiB; 8MiB)\n"
 "                        lc=NUM     number of literal context bits (0-4; 3)\n"
@@ -727,15 +672,12 @@ msgid ""
 "                        pb=NUM     number of position bits (0-4; 2)\n"
 "                        mode=MODE  compression mode (fast, normal; normal)\n"
 "                        nice=NUM   nice length of a match (2-273; 64)\n"
-"                        mf=NAME    match finder (hc3, hc4, bt2, bt3, bt4; "
-"bt4)\n"
-"                        depth=NUM  maximum search depth; 0=automatic "
-"(default)"
+"                        mf=NAME    match finder (hc3, hc4, bt2, bt3, bt4; bt4)\n"
+"                        depth=NUM  maximum search depth; 0=automatic (default)"
 msgstr ""
 
 #: src/xz/message.c:1195
-msgid ""
-"\n"
+msgid "\n"
 "  --x86[=OPTS]        x86 BCJ filter (32-bit and 64-bit)\n"
 "  --powerpc[=OPTS]    PowerPC BCJ filter (big endian only)\n"
 "  --ia64[=OPTS]       IA-64 (Itanium) BCJ filter\n"
@@ -747,71 +689,53 @@ msgid ""
 msgstr ""
 
 #: src/xz/message.c:1207
-msgid ""
-"\n"
+msgid "\n"
 "  --delta[=OPTS]      Delta filter; valid OPTS (valid values; default):\n"
 "                        dist=NUM   distance between bytes being subtracted\n"
 "                                   from each other (1-256; 1)"
 msgstr ""
 
 #: src/xz/message.c:1215
-msgid ""
-"\n"
+msgid "\n"
 " Other options:\n"
 msgstr ""
-"\n"
-" 其它选项：\n"
 
 #: src/xz/message.c:1218
-msgid ""
-"  -q, --quiet         suppress warnings; specify twice to suppress errors "
-"too\n"
+msgid "  -q, --quiet         suppress warnings; specify twice to suppress errors too\n"
 "  -v, --verbose       be verbose; specify twice for even more verbose"
 msgstr ""
 
 #: src/xz/message.c:1223
 msgid "  -Q, --no-warn       make warnings not affect the exit status"
-msgstr "  -Q, --no-warn       使警告不影响程序的退出状态"
+msgstr ""
 
 #: src/xz/message.c:1225
-msgid ""
-"      --robot         use machine-parsable messages (useful for scripts)"
-msgstr "      --robot         使用易于机器解析的消息 (方便脚本使用)"
+msgid "      --robot         use machine-parsable messages (useful for scripts)"
+msgstr ""
 
 #: src/xz/message.c:1228
-msgid ""
-"      --info-memory   display the total amount of RAM and the currently "
-"active\n"
+msgid "      --info-memory   display the total amount of RAM and the currently active\n"
 "                      memory usage limits, and exit"
 msgstr ""
 
 #: src/xz/message.c:1231
-msgid ""
-"  -h, --help          display the short help (lists only the basic options)\n"
+msgid "  -h, --help          display the short help (lists only the basic options)\n"
 "  -H, --long-help     display this long help and exit"
 msgstr ""
-"  -h, --help          显示较短的帮助 (只列出基本选项)\n"
-"  -H, --long-help     显示现在这个较长的帮助，然后退出"
 
 #: src/xz/message.c:1235
-msgid ""
-"  -h, --help          display this short help and exit\n"
+msgid "  -h, --help          display this short help and exit\n"
 "  -H, --long-help     display the long help (lists also the advanced options)"
 msgstr ""
-"  -h, --help          显示现在这个较短的帮助，然后退出\n"
-"  -H, --long-help     显示较长的帮助 (也列出高级选项)"
 
 #: src/xz/message.c:1240
 msgid "  -V, --version       display the version number and exit"
-msgstr "  -V, --version       显示版本号，然后退出"
+msgstr ""
 
 #: src/xz/message.c:1242
-msgid ""
-"\n"
+msgid "\n"
 "With no FILE, or when FILE is -, read standard input.\n"
 msgstr ""
-"\n"
-"如果不给出 FILE，或者 FILE 是 “-”，就从标准输入读取。\n"
 
 #. TRANSLATORS: This message indicates the bug reporting address
 #. for this package. Please add _another line_ saying
@@ -825,7 +749,7 @@ msgstr ""
 #: src/xz/message.c:1250
 #, c-format
 msgid "%s home page: <%s>\n"
-msgstr "%s 的主页：<%s>\n"
+msgstr ""
 
 #: src/xz/message.c:1254
 msgid "THIS IS A DEVELOPMENT VERSION NOT INTENDED FOR PRODUCTION USE."
@@ -839,12 +763,12 @@ msgstr ""
 #: src/xz/options.c:93
 #, c-format
 msgid "%s: Invalid option name"
-msgstr "%s：无效的选项名称"
+msgstr ""
 
 #: src/xz/options.c:113
 #, c-format
 msgid "%s: Invalid option value"
-msgstr "%s：无效的选项值"
+msgstr ""
 
 #: src/xz/options.c:247
 #, c-format
@@ -862,19 +786,18 @@ msgstr ""
 
 #: src/xz/suffix.c:133 src/xz/suffix.c:258
 #, c-format
-msgid ""
-"%s: With --format=raw, --suffix=.SUF is required unless writing to stdout"
+msgid "%s: With --format=raw, --suffix=.SUF is required unless writing to stdout"
 msgstr ""
 
 #: src/xz/suffix.c:164
 #, c-format
 msgid "%s: Filename has an unknown suffix, skipping"
-msgstr "%s：文件名的后缀未知，跳过"
+msgstr ""
 
 #: src/xz/suffix.c:185
 #, c-format
 msgid "%s: File already has `%s' suffix, skipping"
-msgstr "%s：文件的后缀已经是“%s”，跳过"
+msgstr ""
 
 #: src/xz/suffix.c:393
 #, c-format
@@ -884,7 +807,7 @@ msgstr ""
 #: src/xz/util.c:71
 #, c-format
 msgid "%s: Value is not a non-negative decimal integer"
-msgstr "%s：值不是一个非负的整数"
+msgstr ""
 
 #: src/xz/util.c:113
 #, c-format
@@ -898,19 +821,19 @@ msgstr ""
 #: src/xz/util.c:132
 #, c-format
 msgid "Value of the option `%s' must be in the range [%<PRIu64>, %<PRIu64>]"
-msgstr "选项的“%s”的值必须在此范围内：[%<PRIu64>, %<PRIu64>]"
+msgstr ""
 
 #: src/xz/util.c:257
 msgid "Empty filename, skipping"
-msgstr "空文件名，跳过"
+msgstr ""
 
 #: src/xz/util.c:271
 msgid "Compressed data cannot be read from a terminal"
-msgstr "不能从终端中读取数据"
+msgstr ""
 
 #: src/xz/util.c:284
 msgid "Compressed data cannot be written to a terminal"
-msgstr "不能向终端中写入压缩数据"
+msgstr ""
 
 #: src/common/tuklib_exit.c:39
 msgid "Writing to standard output failed"
@@ -918,4 +841,5 @@ msgstr ""
 
 #: src/common/tuklib_exit.c:42
 msgid "Unknown error"
-msgstr "未知错误"
+msgstr ""
+

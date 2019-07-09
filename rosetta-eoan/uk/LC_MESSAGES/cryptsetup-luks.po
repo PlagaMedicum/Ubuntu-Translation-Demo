@@ -1,21 +1,21 @@
-# Ukrainian translation for cryptsetup
-# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
-# This file is distributed under the same license as the cryptsetup package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: cryptsetup\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2007-01-02 16:49+0100\n"
-"PO-Revision-Date: 2012-02-09 16:34+0000\n"
-"Last-Translator: Max_ym <b.maxym.naumtchyk@gmail.com>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:22\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 11:43+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/cryptsetup-luks.po\n"
+"Language: uk_UA\n"
 
 #: luks/keyencryption.c:61
 #, c-format
@@ -52,11 +52,8 @@ msgstr "ключ %d активний, деактивуйте його.\n"
 
 #: luks/keymanage.c:218
 #, c-format
-msgid ""
-"key material section %d includes too few stripes. Header manipulation?\n"
-msgstr ""
-"секція ключового матеріялу %d включає замало смуг. Маніпулювання "
-"заголовком?\n"
+msgid "key material section %d includes too few stripes. Header manipulation?\n"
+msgstr "секція ключового матеріялу %d включає замало смуг. Маніпулювання заголовком?\n"
 
 #: luks/keymanage.c:281
 #, c-format
@@ -165,36 +162,28 @@ msgid "memory allocation error in action_luksFormat"
 msgstr "помилка виділення пам’яті в action_luksFormat"
 
 #: src/cryptsetup.c:269
-msgid ""
-"This is the last keyslot. Device will become unusable after purging this key."
-msgstr ""
-"Це останній слот ключа. Пристрій стане непридатним для використання після "
-"очищення ключа."
+msgid "This is the last keyslot. Device will become unusable after purging this key."
+msgstr "Це останній слот ключа. Пристрій стане непридатним для використання після очищення ключа."
 
 #: src/cryptsetup.c:349
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "<action> is one of:\n"
-msgstr ""
-"\n"
+msgstr "\n"
 "<дія> може бути:\n"
 
 #: src/cryptsetup.c:355
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "<name> is the device to create under %s\n"
 "<device> is the encrypted device\n"
 "<key slot> is the LUKS key slot number to modify\n"
 "<key file> optional key file for the new key for luksAddKey action\n"
-msgstr ""
-"\n"
+msgstr "\n"
 "<назва> - пристрій для створення під %s\n"
 "<пристрій> - зашифрований пристрій\n"
 "<слот ключа> - номер слота ключа LUKS для зміни\n"
-"<файл ключа> - необов’язковий файл ключа для нового ключа для дії "
-"luksAddKey\n"
+"<файл ключа> - необов’язковий файл ключа для нового ключа для дії luksAddKey\n"
 
 #: src/cryptsetup.c:371
 msgid "Show this help message"
@@ -218,8 +207,7 @@ msgstr "Шифр, для шифрування диску (дивись /proc/cry
 
 #: src/cryptsetup.c:379
 msgid "The hash used to create the encryption key from the passphrase"
-msgstr ""
-"Хеш, що використовується для створення ключа шифрування з ключової фрази"
+msgstr "Хеш, що використовується для створення ключа шифрування з ключової фрази"
 
 #: src/cryptsetup.c:380
 msgid "Verifies the passphrase by asking for it twice"
@@ -310,3 +298,4 @@ msgstr "Невідома дія."
 #, c-format
 msgid "%s: requires %s as arguments"
 msgstr "%s: потребує %s у якості аргументу"
+

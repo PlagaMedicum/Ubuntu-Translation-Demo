@@ -1,24 +1,21 @@
-# Ukrainian translations for flex.
-# Copyright (C) 2017 The Flex Project (msgids)
-# This file is distributed under the same license as the flex package.
-#
-# Viktor Shepel <shepelvictor@bigmir.net>, 2017.
-# Yuri Chornoivan <yurchor@ukr.net>, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: flex 2.5.38\n"
-"Report-Msgid-Bugs-To: flex-devel@lists.sourceforge.net\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-05-06 10:49-0400\n"
-"PO-Revision-Date: 2018-03-20 18:37+0000\n"
-"Last-Translator: Andrii Prokopenko <Unknown>\n"
-"Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2019-07-08 17:05\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 10:56+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: uk\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/flex.po\n"
+"Language: uk_UA\n"
 
 #: src/buf.c:79
 msgid "Allocation of buffer to print string failed"
@@ -57,11 +54,9 @@ msgstr " out-переходи: "
 
 #: src/dfa.c:201
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 " jam-transitions: EOF "
-msgstr ""
-"\n"
+msgstr "\n"
 " jam-переходи: EOF "
 
 #: src/dfa.c:331
@@ -69,16 +64,10 @@ msgid "consistency check failed in epsclosure()"
 msgstr "помилка при перевірці на цілісність у epsclosure()"
 
 #: src/dfa.c:419
-msgid ""
-"\n"
-"\n"
-"DFA Dump:\n"
-"\n"
-msgstr ""
-"\n"
-"\n"
-"Дамп ДСА:\n"
-"\n"
+msgid "\n\n"
+"DFA Dump:\n\n"
+msgstr "\n\n"
+"Дамп ДСА:\n\n"
 
 #: src/dfa.c:587
 msgid "could not create unique end-of-buffer state"
@@ -98,16 +87,10 @@ msgid "bad transition character detected in sympartition()"
 msgstr "виявлено невірний символ переходу в sympartition()"
 
 #: src/gen.c:480
-msgid ""
-"\n"
-"\n"
-"Equivalence Classes:\n"
-"\n"
-msgstr ""
-"\n"
-"\n"
-"Класи еквівалентності:\n"
-"\n"
+msgid "\n\n"
+"Equivalence Classes:\n\n"
+msgstr "\n\n"
+"Класи еквівалентності:\n\n"
 
 #: src/gen.c:669 src/gen.c:698 src/gen.c:1218
 #, c-format
@@ -132,13 +115,9 @@ msgid "Could not write ecstbl"
 msgstr "Неможливо записати ecstbl"
 
 #: src/gen.c:1271
-msgid ""
-"\n"
-"\n"
+msgid "\n\n"
 "Meta-Equivalence Classes:\n"
-msgstr ""
-"\n"
-"\n"
+msgstr "\n\n"
 "Мета-Еквівалентні Класи:\n"
 
 #: src/gen.c:1293
@@ -183,8 +162,7 @@ msgstr "неможливо застосувати правило"
 
 #: src/main.c:183
 msgid "-s option given but default rule can be matched"
-msgstr ""
-"вказано параметр -s, але правило за замовчуванням може бути застосоване"
+msgstr "вказано параметр -s, але правило за замовчуванням може бути застосоване"
 
 #: src/main.c:221
 msgid "Can't use -+ with -l option"
@@ -196,8 +174,7 @@ msgstr "Неможливо використовувати -f або -F з пар
 
 #: src/main.c:228
 msgid "Can't use --reentrant or --bison-bridge with -l option"
-msgstr ""
-"Неможливо використовувати --reentrant або --bison-bridge з параметром -l"
+msgstr "Неможливо використовувати --reentrant або --bison-bridge з параметром -l"
 
 #: src/main.c:260
 msgid "-Cf/-CF and -Cm don't make sense together"
@@ -372,9 +349,7 @@ msgstr "  відсутні класи символів\n"
 #: src/main.c:870
 #, c-format
 msgid "  %d/%d character classes needed %d/%d words of storage, %d reused\n"
-msgstr ""
-"  %d/%d символьних класів потребують %d/%d слів для зберігання, %d "
-"використано вдруге\n"
+msgstr "  %d/%d символьних класів потребують %d/%d слів для зберігання, %d використано вдруге\n"
 
 #: src/main.c:875
 #, c-format
@@ -464,7 +439,7 @@ msgstr "невідоме значення «%c» для параметру -C"
 #: src/main.c:1204
 #, c-format
 msgid "%s %s\n"
-msgstr "%s %s\n"
+msgstr ""
 
 #: src/main.c:1476
 msgid "fatal parse error"
@@ -477,25 +452,18 @@ msgstr "неможливо створити резервну копію інфо
 
 #: src/main.c:1529
 #, c-format
-msgid ""
-"-l AT&T lex compatibility option entails a large performance penalty\n"
-msgstr ""
-"Параметр -l сумісності з AT&T lex спричиняє значне зниження продуктивності\n"
+msgid "-l AT&T lex compatibility option entails a large performance penalty\n"
+msgstr "Параметр -l сумісності з AT&T lex спричиняє значне зниження продуктивності\n"
 
 #: src/main.c:1532
 #, c-format
-msgid ""
-" and may be the actual source of other reported performance penalties\n"
+msgid " and may be the actual source of other reported performance penalties\n"
 msgstr " і також може бути істинним джерелом проблем з продуктивністю\n"
 
 #: src/main.c:1538
 #, c-format
-msgid ""
-"%%option yylineno entails a performance penalty ONLY on rules that can match "
-"newline characters\n"
-msgstr ""
-"%%option yylineno спричиняе значне зниження продуктивності ТІЛЬКИ для "
-"правил, котрі описують символи нового рядка\n"
+msgid "%%option yylineno entails a performance penalty ONLY on rules that can match newline characters\n"
+msgstr "%%option yylineno спричиняе значне зниження продуктивності ТІЛЬКИ для правил, котрі описують символи нового рядка\n"
 
 #: src/main.c:1545
 #, c-format
@@ -515,9 +483,7 @@ msgstr "REJECT спричиняе значне зниження продукти
 #: src/main.c:1561
 #, c-format
 msgid "Variable trailing context rules entail a large performance penalty\n"
-msgstr ""
-"Правила котрі мають замикаючий контекст змінної довжини значно знижують "
-"продуктивність\n"
+msgstr "Правила котрі мають замикаючий контекст змінної довжини значно знижують продуктивність\n"
 
 #: src/main.c:1573
 msgid "REJECT cannot be used with -f or -F"
@@ -530,9 +496,7 @@ msgstr "%option yylineno не може бути використано з REJECT
 
 #: src/main.c:1579
 msgid "variable trailing context rules cannot be used with -f or -F"
-msgstr ""
-"Правила котрі мають замикаючий контекст змінної довжини не можуть бути "
-"використані з -f or -F"
+msgstr "Правила котрі мають замикаючий контекст змінної довжини не можуть бути використані з -f or -F"
 
 #: src/main.c:1704
 #, c-format
@@ -546,9 +510,7 @@ msgstr "Використання: %s [ПАРАМЕТРИ] [ФАЙЛ]…\n"
 
 #: src/main.c:1794
 #, c-format
-msgid ""
-"Generates programs that perform pattern-matching on text.\n"
-"\n"
+msgid "Generates programs that perform pattern-matching on text.\n\n"
 "Table Compression:\n"
 "  -Ca, --align      trade off larger tables for better memory alignment\n"
 "  -Ce, --ecs        construct equivalence classes\n"
@@ -558,8 +520,7 @@ msgid ""
 "  -Cr, --read       use read() instead of stdio for scanner input\n"
 "  -f, --full        generate fast, large scanner. Same as -Cfr\n"
 "  -F, --fast        use alternate table representation. Same as -CFr\n"
-"  -Cem              default compression (same as --ecs --meta-ecs)\n"
-"\n"
+"  -Cem              default compression (same as --ecs --meta-ecs)\n\n"
 "Debugging:\n"
 "  -d, --debug             enable debug mode in scanner\n"
 "  -b, --backup            write backing-up information to %s\n"
@@ -568,18 +529,14 @@ msgid ""
 "  -T, --trace             %s should run in trace mode\n"
 "  -w, --nowarn            do not generate warnings\n"
 "  -v, --verbose           write summary of scanner statistics to stdout\n"
-"      --hex               use hexadecimal numbers instead of octal in debug "
-"outputs\n"
-"\n"
+"      --hex               use hexadecimal numbers instead of octal in debug outputs\n\n"
 "Files:\n"
 "  -o, --outfile=FILE      specify output filename\n"
 "  -S, --skel=FILE         specify skeleton file\n"
 "  -t, --stdout            write scanner on stdout instead of %s\n"
 "      --yyclass=NAME      name of C++ class\n"
-"      --header-file=FILE   create a C header file in addition to the "
-"scanner\n"
-"      --tables-file[=FILE] write tables to FILE\n"
-"\n"
+"      --header-file=FILE   create a C header file in addition to the scanner\n"
+"      --tables-file[=FILE] write tables to FILE\n\n"
 "Scanner behavior:\n"
 "  -7, --7bit              generate 7-bit scanner\n"
 "  -8, --8bit              generate 8-bit scanner\n"
@@ -588,8 +545,7 @@ msgid ""
 "  -l, --lex-compat        maximal compatibility with original lex\n"
 "  -X, --posix-compat      maximal compatibility with POSIX lex\n"
 "  -I, --interactive       generate interactive scanner (opposite of -B)\n"
-"      --yylineno          track line count in yylineno\n"
-"\n"
+"      --yylineno          track line count in yylineno\n\n"
 "Generated code:\n"
 "  -+,  --c++               generate C++ scanner class\n"
 "  -Dmacro[=defn]           #define macro defn  (default defn is '1')\n"
@@ -600,17 +556,14 @@ msgid ""
 "       --bison-locations   include yylloc support.\n"
 "       --stdinit           initialize yyin/yyout to stdin/stdout\n"
 "       --nounistd          do not include <unistd.h>\n"
-"       --noFUNCTION        do not generate a particular FUNCTION\n"
-"\n"
+"       --noFUNCTION        do not generate a particular FUNCTION\n\n"
 "Miscellaneous:\n"
 "  -c                      do-nothing POSIX option\n"
 "  -n                      do-nothing POSIX option\n"
 "  -?\n"
 "  -h, --help              produce this help message\n"
 "  -V, --version           report %s version\n"
-msgstr ""
-"Генерує програми, що проводять маніпуляції з текстом по шаблонах.\n"
-"\n"
+msgstr "Генерує програми, що проводять маніпуляції з текстом по шаблонах.\n\n"
 "Стиснення таблиць:\n"
 "  -Ca, --align допускати більший розмір таблиць для\n"
 "  кращого вирівнювання у пам’яті\n"
@@ -624,8 +577,7 @@ msgstr ""
 "  -F, --fast використовувати альтернативну репрезентацію таблиць.\n"
 "  Те саме, що й -CFr\n"
 "  -Cem ступінь стиснення типово\n"
-"  (те саме, що й --ecs --meta-ecs)\n"
-"\n"
+"  (те саме, що й --ecs --meta-ecs)\n\n"
 "Зневадження:\n"
 "  -d, --debug увімкнути режим зневадження у сканері\n"
 "  -b, --backup записати резервну копію у %s\n"
@@ -643,8 +595,7 @@ msgstr ""
 "  -t, --stdout записати сканер у stdout замість %s\n"
 "      --yyclass=ІМ’Я ім’я класу C++\n"
 "      --header-file=ФАЙЛ створити окрім сканера заголовочний файл C\n"
-"      --tables-files=ФАЙЛ записати таблиці у ФАЙЛ\n"
-"\n"
+"      --tables-files=ФАЙЛ записати таблиці у ФАЙЛ\n\n"
 "Поведінка сканера:\n"
 "  -7, --7bit створити 7-бітовий сканер\n"
 "  -8, --8bit створити 8-бітовий сканер\n"
@@ -655,8 +606,7 @@ msgstr ""
 "  -X, --posix-compat максимальна сумісність з POSIX lex\n"
 "  -I, --interactive створити інтерактивний сканер\n"
 "  (у протилежність до -B)\n"
-"      --yylineno відслідковувати число рядків у yylineno\n"
-"\n"
+"      --yylineno відслідковувати число рядків у yylineno\n\n"
 "Генерований код:\n"
 "  -+, --c++ створювати C++ клас сканера\n"
 "  -Dmacro[=defn] #define macro defn (типово defn='1')\n"
@@ -664,15 +614,13 @@ msgstr ""
 "  -P, --prefix=РЯДОК використовувати РЯДОК у якості префікса\n"
 "  замість \"yy\"\n"
 "  -R, --reentrant створювати повторно входжуючий сканер на С\n"
-"  -Rb, --reentrant-bison повторно входжуючий сканер для повторно "
-"входжуючого\n"
+"  -Rb, --reentrant-bison повторно входжуючий сканер для повторно входжуючого\n"
 "  синтаксичного аналізатора bison\n"
 "       --bison-bridge сканер для чистого аналізатора bison.\n"
 "       --bison-locations увімкнути підтримку yylloc.\n"
 "       --stdinit ініціалізувати yyin/yyout у stdin/stdout\n"
 "       --nounistd не вмикати <unistd.h>\n"
-"       --noФУНКЦІЯ не генерувати певну ФУНКЦІЮ\n"
-"\n"
+"       --noФУНКЦІЯ не генерувати певну ФУНКЦІЮ\n\n"
 "Різне:\n"
 "  -с опція для сумісності з POSIX (нічого не робить)\n"
 "  -n опція для сумісностізс POSIX (нічого не робить)\n"
@@ -726,13 +674,9 @@ msgstr "помилка виділення пам'яті у yy_flex_xmalloc()"
 
 #: src/nfa.c:100
 #, c-format
-msgid ""
-"\n"
-"\n"
+msgid "\n\n"
 "********** beginning dump of nfa with start state %d\n"
-msgstr ""
-"\n"
-"\n"
+msgstr "\n\n"
 "********** початок дампу НСА з початковим станом %d\n"
 
 #: src/nfa.c:111
@@ -802,29 +746,20 @@ msgstr "кількість ітерацій повинна бути додатн
 
 #: src/parse.y:806 src/parse.y:816
 #, c-format
-msgid ""
-"the character range [%c-%c] is ambiguous in a case-insensitive scanner"
-msgstr ""
-"використання діапазону символів [%c-%c] є двозначним для сканера, що не "
-"чутливий до регістру символів"
+msgid "the character range [%c-%c] is ambiguous in a case-insensitive scanner"
+msgstr "використання діапазону символів [%c-%c] є двозначним для сканера, що не чутливий до регістру символів"
 
 #: src/parse.y:821
 msgid "negative range in character class"
-msgstr ""
-"символьний клас описано діапазоном, перший елемент котрого більший за "
-"останній"
+msgstr "символьний клас описано діапазоном, перший елемент котрого більший за останній"
 
 #: src/parse.y:918
 msgid "[:^lower:] is ambiguous in case insensitive scanner"
-msgstr ""
-"використання [:^lower:] є невизначеним для сканера, що не чутливий до "
-"регістру символів"
+msgstr "використання [:^lower:] є невизначеним для сканера, що не чутливий до регістру символів"
 
 #: src/parse.y:924
 msgid "[:^upper:] ambiguous in case insensitive scanner"
-msgstr ""
-"використання [:^upper:] є невизначеним для сканера, що не чутливий до "
-"регістру символів"
+msgstr "використання [:^upper:] є невизначеним для сканера, що не чутливий до регістру символів"
 
 #: src/scan.l:82 src/scan.l:644 src/scan.l:702
 msgid "Input line too long\n"
@@ -975,3 +910,4 @@ msgstr "Мітка кінця\n"
 #, c-format
 msgid "*Something Weird* - tok: %d val: %d\n"
 msgstr "*Щось не так* — tok: %d val: %d\n"
+

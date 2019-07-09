@@ -1,21 +1,21 @@
-# Ukrainian translation for libparse-debianchangelog-perl
-# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
-# This file is distributed under the same license as the libparse-debianchangelog-perl package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: libparse-debianchangelog-perl\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-10-29 20:17+0000\n"
-"PO-Revision-Date: 2015-06-06 13:56+0000\n"
-"Last-Translator: stuartlittle <Stuartlittle1970@gmail.com>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:25\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 12:03+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/Parse-DebianChangelog.po\n"
+"Language: uk_UA\n"
 
 #: ../bin/parsechangelog:146
 #, perl-format
@@ -36,12 +36,8 @@ msgid "Copyright (C) 2005 by Frank Lichtenheld\n"
 msgstr "Авторське право (C) 2005 by Frank Lichtenheld\n"
 
 #: ../bin/parsechangelog:169
-msgid ""
-"This is free software; see the GNU General Public Licence version 2 or later "
-"for copying conditions. There is NO warranty."
-msgstr ""
-"Це - безкоштовне програмне забезпечення; див. версію 2 Ліцензії ГНУ. Немає "
-"ніякої гарантії."
+msgid "This is free software; see the GNU General Public Licence version 2 or later for copying conditions. There is NO warranty."
+msgstr "Це - безкоштовне програмне забезпечення; див. версію 2 Ліцензії ГНУ. Немає ніякої гарантії."
 
 #: ../bin/parsechangelog:200
 msgid "too many arguments"
@@ -59,11 +55,9 @@ msgstr "фатальна помилка при аналізі %s"
 
 #: ../lib/Parse/DebianChangelog.pm:219
 #, perl-format
-msgid ""
-"WARN: %s(l%s): %s\n"
+msgid "WARN: %s(l%s): %s\n"
 "LINE: %s\n"
-msgstr ""
-"Попередження: %s(l%s): %s\n"
+msgstr "Попередження: %s(l%s): %s\n"
 "У рядку: %s\n"
 
 #: ../lib/Parse/DebianChangelog.pm:221
@@ -167,9 +161,7 @@ msgstr "не вдалося закрити файл %s: %s"
 
 #: ../lib/Parse/DebianChangelog.pm:558
 msgid "you can't combine 'count' or 'offset' with any other range option"
-msgstr ""
-"неможна використовувати 'count' або 'offset' одночасно з будь якими іншими "
-"параметрами діапазону"
+msgstr "неможна використовувати 'count' або 'offset' одночасно з будь якими іншими параметрами діапазону"
 
 #: ../lib/Parse/DebianChangelog.pm:562
 msgid "you can only specify one of 'from' and 'since'"
@@ -190,8 +182,7 @@ msgstr "опція 'until' визначає найстарішу версію"
 #: ../lib/Parse/DebianChangelog/Util.pm:100
 #, perl-format
 msgid "field %s has newline then non whitespace >%s<"
-msgstr ""
-"поле %s містить символ нового рядка, після якого йде непробільний символ >%s<"
+msgstr "поле %s містить символ нового рядка, після якого йде непробільний символ >%s<"
 
 #: ../lib/Parse/DebianChangelog/Util.pm:102
 #, perl-format
@@ -202,3 +193,4 @@ msgstr "поле %s містить порожні рядки >%s<"
 #, perl-format
 msgid "field %s has trailing newline >%s<"
 msgstr "поле %s закінчується символом нового рядка >%s<"
+

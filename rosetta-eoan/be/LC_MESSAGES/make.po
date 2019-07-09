@@ -1,21 +1,21 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2002, 2003 Free Software Foundation, Inc.
-# Ales Nyakhaychyk <nab@mail.by>, 2002, 2003.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: make 3.80\n"
-"Report-Msgid-Bugs-To: bug-make@gnu.org\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-06-10 19:03-0400\n"
-"PO-Revision-Date: 2018-02-23 10:10+0000\n"
-"Last-Translator: Alex Nehaichik <mail@l0gin.net>\n"
-"Language-Team: Belarusian <i18n@mova.org>\n"
+"PO-Revision-Date: 2019-07-08 16:51\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 12:09+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: be\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/make.po\n"
+"Language: be_BY\n"
 
 #: ar.c:46
 #, c-format
@@ -123,11 +123,9 @@ msgid " (from '%s', line %lu):\n"
 msgstr ""
 
 #: dir.c:1069
-msgid ""
-"\n"
+msgid "\n"
 "# Directories\n"
-msgstr ""
-"\n"
+msgstr "\n"
 "# Тэчкі\n"
 
 #: dir.c:1081
@@ -340,16 +338,13 @@ msgid "#  Invalid value in 'command_state' member!"
 msgstr ""
 
 #: file.c:1051
-msgid ""
-"\n"
+msgid "\n"
 "# Files"
-msgstr ""
-"\n"
+msgstr "\n"
 "# Файлы"
 
 #: file.c:1055
-msgid ""
-"\n"
+msgid "\n"
 "# files hash-table stats:\n"
 "# "
 msgstr ""
@@ -681,8 +676,7 @@ msgstr ""
 
 #: job.c:1512 job.c:2205
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "Counted %d args in failed launch\n"
 msgstr ""
 
@@ -773,15 +767,13 @@ msgid "Creating temporary batch file %s\n"
 msgstr ""
 
 #: job.c:3030
-msgid ""
-"Batch file contents:\n"
+msgid "Batch file contents:\n"
 "\t@echo off\n"
 msgstr ""
 
 #: job.c:3219
 #, c-format
-msgid ""
-"Batch file contents:%s\n"
+msgid "Batch file contents:%s\n"
 "\t%s\n"
 msgstr ""
 
@@ -836,8 +828,7 @@ msgid "  -B, --always-make           Unconditionally make all targets.\n"
 msgstr ""
 
 #: main.c:343
-msgid ""
-"  -C DIRECTORY, --directory=DIRECTORY\n"
+msgid "  -C DIRECTORY, --directory=DIRECTORY\n"
 "                              Change to DIRECTORY before doing anything.\n"
 msgstr ""
 
@@ -846,83 +837,65 @@ msgid "  -d                          Print lots of debugging information.\n"
 msgstr ""
 
 #: main.c:348
-msgid ""
-"  --debug[=FLAGS]             Print various types of debugging information.\n"
+msgid "  --debug[=FLAGS]             Print various types of debugging information.\n"
 msgstr ""
 
 #: main.c:350
-msgid ""
-"  -e, --environment-overrides\n"
+msgid "  -e, --environment-overrides\n"
 "                              Environment variables override makefiles.\n"
 msgstr ""
 
 #: main.c:353
-msgid ""
-"  --eval=STRING               Evaluate STRING as a makefile statement.\n"
+msgid "  --eval=STRING               Evaluate STRING as a makefile statement.\n"
 msgstr ""
 
 #: main.c:355
-msgid ""
-"  -f FILE, --file=FILE, --makefile=FILE\n"
+msgid "  -f FILE, --file=FILE, --makefile=FILE\n"
 "                              Read FILE as a makefile.\n"
 msgstr ""
 
 #: main.c:358
 msgid "  -h, --help                  Print this message and exit.\n"
-msgstr ""
-"  -h, --help                  Друкуе гэтае паведамленьне й выходзіць.\n"
+msgstr "  -h, --help                  Друкуе гэтае паведамленьне й выходзіць.\n"
 
 #: main.c:360
 msgid "  -i, --ignore-errors         Ignore errors from recipes.\n"
 msgstr ""
 
 #: main.c:362
-msgid ""
-"  -I DIRECTORY, --include-dir=DIRECTORY\n"
+msgid "  -I DIRECTORY, --include-dir=DIRECTORY\n"
 "                              Search DIRECTORY for included makefiles.\n"
 msgstr ""
 
 #: main.c:365
-msgid ""
-"  -j [N], --jobs[=N]          Allow N jobs at once; infinite jobs with no "
-"arg.\n"
+msgid "  -j [N], --jobs[=N]          Allow N jobs at once; infinite jobs with no arg.\n"
 msgstr ""
 
 #: main.c:367
-msgid ""
-"  -k, --keep-going            Keep going when some targets can't be made.\n"
+msgid "  -k, --keep-going            Keep going when some targets can't be made.\n"
 msgstr ""
 
 #: main.c:369
-msgid ""
-"  -l [N], --load-average[=N], --max-load[=N]\n"
-"                              Don't start multiple jobs unless load is below "
-"N.\n"
+msgid "  -l [N], --load-average[=N], --max-load[=N]\n"
+"                              Don't start multiple jobs unless load is below N.\n"
 msgstr ""
 
 #: main.c:372
-msgid ""
-"  -L, --check-symlink-times   Use the latest mtime between symlinks and "
-"target.\n"
+msgid "  -L, --check-symlink-times   Use the latest mtime between symlinks and target.\n"
 msgstr ""
 
 #: main.c:374
-msgid ""
-"  -n, --just-print, --dry-run, --recon\n"
-"                              Don't actually run any recipe; just print "
-"them.\n"
+msgid "  -n, --just-print, --dry-run, --recon\n"
+"                              Don't actually run any recipe; just print them.\n"
 msgstr ""
 
 #: main.c:377
-msgid ""
-"  -o FILE, --old-file=FILE, --assume-old=FILE\n"
-"                              Consider FILE to be very old and don't remake "
-"it.\n"
+msgid "  -o FILE, --old-file=FILE, --assume-old=FILE\n"
+"                              Consider FILE to be very old and don't remake it.\n"
 msgstr ""
 
 #: main.c:380
-msgid ""
-"  -O[TYPE], --output-sync[=TYPE]\n"
+msgid "  -O[TYPE], --output-sync[=TYPE]\n"
 "                              Synchronize output of parallel jobs by TYPE.\n"
 msgstr ""
 
@@ -931,9 +904,7 @@ msgid "  -p, --print-data-base       Print make's internal database.\n"
 msgstr "  -p, --print-data-base        Друкуе нутраную базу даньняў make.\n"
 
 #: main.c:385
-msgid ""
-"  -q, --question              Run no recipe; exit status says if up to "
-"date.\n"
+msgid "  -q, --question              Run no recipe; exit status says if up to date.\n"
 msgstr ""
 
 #: main.c:387
@@ -941,8 +912,7 @@ msgid "  -r, --no-builtin-rules      Disable the built-in implicit rules.\n"
 msgstr ""
 
 #: main.c:389
-msgid ""
-"  -R, --no-builtin-variables  Disable the built-in variable settings.\n"
+msgid "  -R, --no-builtin-variables  Disable the built-in variable settings.\n"
 msgstr ""
 
 #: main.c:391
@@ -950,16 +920,13 @@ msgid "  -s, --silent, --quiet       Don't echo recipes.\n"
 msgstr ""
 
 #: main.c:393
-msgid ""
-"  -S, --no-keep-going, --stop\n"
+msgid "  -S, --no-keep-going, --stop\n"
 "                              Turns off -k.\n"
-msgstr ""
-"  -S, --no-keep-going, --stop\n"
+msgstr "  -S, --no-keep-going, --stop\n"
 "                               Выключае -k.\n"
 
 #: main.c:396
-msgid ""
-"  -t, --touch                 Touch targets instead of remaking them.\n"
+msgid "  -t, --touch                 Touch targets instead of remaking them.\n"
 msgstr ""
 
 #: main.c:398
@@ -967,8 +934,7 @@ msgid "  --trace                     Print tracing information.\n"
 msgstr ""
 
 #: main.c:400
-msgid ""
-"  -v, --version               Print the version number of make and exit.\n"
+msgid "  -v, --version               Print the version number of make and exit.\n"
 msgstr ""
 
 #: main.c:402
@@ -976,21 +942,16 @@ msgid "  -w, --print-directory       Print the current directory.\n"
 msgstr "  -w, --print-directory        Друкуе бягучую тэчку.\n"
 
 #: main.c:404
-msgid ""
-"  --no-print-directory        Turn off -w, even if it was turned on "
-"implicitly.\n"
+msgid "  --no-print-directory        Turn off -w, even if it was turned on implicitly.\n"
 msgstr ""
 
 #: main.c:406
-msgid ""
-"  -W FILE, --what-if=FILE, --new-file=FILE, --assume-new=FILE\n"
+msgid "  -W FILE, --what-if=FILE, --new-file=FILE, --assume-new=FILE\n"
 "                              Consider FILE to be infinitely new.\n"
 msgstr ""
 
 #: main.c:409
-msgid ""
-"  --warn-undefined-variables  Warn when an undefined variable is "
-"referenced.\n"
+msgid "  --warn-undefined-variables  Warn when an undefined variable is referenced.\n"
 msgstr ""
 
 #: main.c:683
@@ -1014,8 +975,7 @@ msgstr ""
 
 #: main.c:868
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "Unhandled exception filter called from program %s\n"
 "ExceptionCode = %lx\n"
 "ExceptionFlags = %lx\n"
@@ -1053,8 +1013,7 @@ msgid "done sleep(30). Continuing.\n"
 msgstr ""
 
 #: main.c:1627
-msgid ""
-"warning: jobserver unavailable: using -j1.  Add '+' to parent make rule."
+msgid "warning: jobserver unavailable: using -j1.  Add '+' to parent make rule."
 msgstr ""
 
 #: main.c:1635
@@ -1149,20 +1108,16 @@ msgstr "Выкарыстаньне: %s [опцыі] [мэта] ...\n"
 
 #: main.c:2779
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "This program built for %s\n"
-msgstr ""
-"\n"
+msgstr "\n"
 "Гэта праграма пабудавана для %s\n"
 
 #: main.c:2781
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "This program built for %s (%s)\n"
-msgstr ""
-"\n"
+msgstr "\n"
 "Гэта праграма пабудавана для %s (%s)\n"
 
 #: main.c:2784
@@ -1192,24 +1147,20 @@ msgstr ""
 
 #: main.c:3345
 #, c-format
-msgid ""
-"%sLicense GPLv3+: GNU GPL version 3 or later "
-"<http://gnu.org/licenses/gpl.html>\n"
+msgid "%sLicense GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "%sThis is free software: you are free to change and redistribute it.\n"
 "%sThere is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 
 #: main.c:3366
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "# Make data base, printed on %s"
 msgstr ""
 
 #: main.c:3376
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "# Finished Make data base on %s\n"
 msgstr ""
 
@@ -1290,12 +1241,12 @@ msgstr ""
 #: output.c:711
 #, c-format
 msgid "%s%s: %s"
-msgstr "%s%s: %s"
+msgstr ""
 
 #: output.c:720
 #, c-format
 msgid "%s: %s"
-msgstr "%s: %s"
+msgstr ""
 
 #: posixos.c:69
 msgid "creating jobs pipe"
@@ -1552,8 +1503,7 @@ msgstr ""
 
 #: remake.c:511
 #, c-format
-msgid ""
-"*** Warning: .LOW_RESOLUTION_TIME file '%s' has a high resolution time stamp"
+msgid "*** Warning: .LOW_RESOLUTION_TIME file '%s' has a high resolution time stamp"
 msgstr ""
 
 #: remake.c:524 remake.c:1056
@@ -1697,21 +1647,18 @@ msgid "Customs won't export: %s\n"
 msgstr ""
 
 #: rule.c:496
-msgid ""
-"\n"
+msgid "\n"
 "# Implicit Rules"
 msgstr ""
 
 #: rule.c:511
-msgid ""
-"\n"
+msgid "\n"
 "# No implicit rules."
 msgstr ""
 
 #: rule.c:514
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "# %u implicit rules, %u"
 msgstr ""
 
@@ -1882,23 +1829,19 @@ msgstr ""
 
 #: strcache.c:274
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "%s No strcache buffers\n"
 msgstr ""
 
 #: strcache.c:304
 #, c-format
-msgid ""
-"\n"
-"%s strcache buffers: %lu (%lu) / strings = %lu / storage = %lu B / avg = %lu "
-"B\n"
+msgid "\n"
+"%s strcache buffers: %lu (%lu) / strings = %lu / storage = %lu B / avg = %lu B\n"
 msgstr ""
 
 #: strcache.c:308
 #, c-format
-msgid ""
-"%s current buf: size = %hu B / used = %hu B / count = %hu / avg = %hu B\n"
+msgid "%s current buf: size = %hu B / used = %hu B / count = %hu / avg = %hu B\n"
 msgstr ""
 
 #: strcache.c:319
@@ -1908,20 +1851,17 @@ msgstr ""
 
 #: strcache.c:322
 #, c-format
-msgid ""
-"%s other free: total = %lu B / max = %lu B / min = %lu B / avg = %hu B\n"
+msgid "%s other free: total = %lu B / max = %lu B / min = %lu B / avg = %hu B\n"
 msgstr ""
 
 #: strcache.c:326
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "%s strcache performance: lookups = %lu / hit rate = %lu%%\n"
 msgstr ""
 
 #: strcache.c:328
-msgid ""
-"# hash-table stats:\n"
+msgid "# hash-table stats:\n"
 "# "
 msgstr ""
 
@@ -1963,29 +1903,24 @@ msgid "# variable set hash-table stats:\n"
 msgstr ""
 
 #: variable.c:1732
-msgid ""
-"\n"
+msgid "\n"
 "# Variables\n"
-msgstr ""
-"\n"
+msgstr "\n"
 "# Пераменныя\n"
 
 #: variable.c:1736
-msgid ""
-"\n"
+msgid "\n"
 "# Pattern-specific Variable Values"
 msgstr ""
 
 #: variable.c:1750
-msgid ""
-"\n"
+msgid "\n"
 "# No pattern-specific variable values."
 msgstr ""
 
 #: variable.c:1752
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "# %u pattern-specific variable values"
 msgstr ""
 
@@ -2030,8 +1965,7 @@ msgid "Executing %s instead\n"
 msgstr ""
 
 #: vpath.c:603
-msgid ""
-"\n"
+msgid "\n"
 "# VPATH Search Paths\n"
 msgstr ""
 
@@ -2041,20 +1975,17 @@ msgstr ""
 
 #: vpath.c:622
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "# %u 'vpath' search paths.\n"
 msgstr ""
 
 #: vpath.c:625
-msgid ""
-"\n"
+msgid "\n"
 "# No general ('VPATH' variable) search path."
 msgstr ""
 
 #: vpath.c:631
-msgid ""
-"\n"
+msgid "\n"
 "# General ('VPATH' variable) search path:\n"
 "# "
 msgstr ""
@@ -2071,8 +2002,7 @@ msgstr ""
 
 #: w32/w32os.c:81
 #, c-format
-msgid ""
-"internal error: unable to open jobserver semaphore '%s': (Error %ld: %s)"
+msgid "internal error: unable to open jobserver semaphore '%s': (Error %ld: %s)"
 msgstr ""
 
 #: w32/w32os.c:84
@@ -2089,3 +2019,4 @@ msgstr ""
 #, c-format
 msgid "semaphore or child process wait: (Error %ld: %s)"
 msgstr ""
+

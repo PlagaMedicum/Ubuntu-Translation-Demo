@@ -1,546 +1,527 @@
-# Ukrainian translation for bluez-gnome
+# English (United Kingdom) translation for gnome-bluetooth
 # Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
-# This file is distributed under the same license as the bluez-gnome package.
-# Oleksandr Kovalenko <alx.kovalenko@gmail.com>, 2009.
-# Kyrylo Polezhajev <polezhajev@ukr.net>, 2009.
-# wanderlust <wanderlust@ukr.net>, 2009.
-# Daniel Korostil <ted.korostiled@gmail.com>, 2012, 2013, 2014, 2016.
+# This file is distributed under the same licence as the gnome-bluetooth package.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2009, 2010, 2011, 2012.
+# Philip Withnall <philip@tecnocode.co.uk>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: bluez-gnome\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-bluetooth&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2019-04-03 14:36+0000\n"
-"PO-Revision-Date: 2019-04-03 16:41+0000\n"
-"Last-Translator: Daniel Korostil <Unknown>\n"
-"Language-Team: linux.org.ua\n"
+"PO-Revision-Date: 2019-07-08 17:08\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Launchpad-Export-Date: 2019-05-11 11:48+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
 "X-Project-Style: gnome\n"
-"Language: uk\n"
-"X-Poedit-Language: Ukrainian\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"Language: uk_UA\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/gnome-bluetooth2.po\n"
 
 #: lib/bluetooth-chooser-button.c:71
 msgid "Click to select device…"
-msgstr "Натисніть, щоб вибрати пристрій…"
+msgstr ""
 
 #: lib/bluetooth-chooser-button.c:201 lib/bluetooth-settings-widget.c:1278
 #: sendto/main.c:447 sendto/main.c:738 sendto/main.c:794
 msgid "_Cancel"
-msgstr "_Скасувати"
+msgstr ""
 
 #: lib/bluetooth-chooser-button.c:202
 msgid "_OK"
-msgstr "_Гаразд"
+msgstr ""
 
 #: lib/bluetooth-chooser.c:135 lib/bluetooth-filter-widget.c:82
 #: lib/bluetooth-utils.c:99
 msgid "Unknown"
-msgstr "Невідомо"
+msgstr ""
 
 #: lib/bluetooth-chooser.c:176
 msgid "No adapters available"
-msgstr "Немає доступних адаптерів"
+msgstr ""
 
 #: lib/bluetooth-chooser.c:180 lib/bluetooth-chooser.c:806
 #: lib/bluetooth-settings-widget.c:1556
 msgid "Searching for devices…"
-msgstr "Пошук пристроїв…"
+msgstr ""
 
 #: lib/bluetooth-chooser.c:698 lib/bluetooth-chooser.c:988
 msgid "Device"
-msgstr "Пристрій"
+msgstr ""
 
 #: lib/bluetooth-chooser.c:734 lib/settings.ui:179
 msgid "Type"
-msgstr "Тип"
+msgstr ""
 
 #: lib/bluetooth-chooser.c:990 lib/bluetooth-settings-widget.c:1519
 msgid "Devices"
-msgstr "Пристрої"
+msgstr ""
 
 #: lib/bluetooth-filter-widget.c:72
 msgid "All categories"
-msgstr "Усі категорії"
+msgstr ""
 
 #: lib/bluetooth-filter-widget.c:74 lib/settings.ui:134
 msgid "Paired"
-msgstr "Пов'язані"
+msgstr ""
 
 #: lib/bluetooth-filter-widget.c:76
 msgid "Trusted"
-msgstr "Довірені"
+msgstr ""
 
 #: lib/bluetooth-filter-widget.c:78
 msgid "Not paired or trusted"
-msgstr "Непов'язані або недовірені"
+msgstr ""
 
 #: lib/bluetooth-filter-widget.c:80
 msgid "Paired or trusted"
-msgstr "Пов'язані або довірені"
+msgstr ""
 
 #. This is the title of the filter section of the Bluetooth device chooser.
 #. * It used to say Show Only Bluetooth Devices With...
 #: lib/bluetooth-filter-widget.c:231
 msgid "Show:"
-msgstr "Показати:"
+msgstr ""
 
 #. The device category filter
 #: lib/bluetooth-filter-widget.c:247
 msgid "Device _category:"
-msgstr "_Категорія пристрою:"
+msgstr ""
 
 #: lib/bluetooth-filter-widget.c:258
 msgid "Select the device category to filter"
-msgstr "Виберіть категорію пристрою для фільтрування"
+msgstr ""
 
 #. The device type filter
 #: lib/bluetooth-filter-widget.c:272
 msgid "Device _type:"
-msgstr "_Тип пристрою:"
+msgstr ""
 
 #: lib/bluetooth-filter-widget.c:289
 msgid "Select the device type to filter"
-msgstr "Виберіть тип пристрою для фільтрування"
+msgstr ""
 
 #: lib/bluetooth-filter-widget.c:295
 msgid "Input devices (mice, keyboards, etc.)"
-msgstr "Пристрої вводу (миша, клавіатура тощо.)"
+msgstr ""
 
 #: lib/bluetooth-filter-widget.c:299
 msgid "Headphones, headsets and other audio devices"
-msgstr "Навушники, гарнітури та інші аудіопристрої"
+msgstr ""
 
 #: lib/bluetooth-pairing-dialog.c:83 lib/bluetooth-pairing-dialog.c:90
 #: lib/bluetooth-pairing-dialog.c:104
 msgid "Confirm Bluetooth PIN"
-msgstr "Підтвердьте Bluetooth PIN"
+msgstr ""
 
 #: lib/bluetooth-pairing-dialog.c:84
 #, c-format
 msgid "Please confirm the PIN that was entered on “%s”."
-msgstr "Підтвердіть PIN-код, раніше введений на «%s»."
+msgstr ""
 
 #: lib/bluetooth-pairing-dialog.c:88 lib/bluetooth-pairing-dialog.c:101
 #: lib/bluetooth-pairing-dialog.c:149
 msgid "Confirm"
-msgstr "Підтвердити"
+msgstr ""
 
 #: lib/bluetooth-pairing-dialog.c:91
 #, c-format
-msgid ""
-"Confirm the Bluetooth PIN for “%s”. This can usually be found in the "
-"device’s manual."
+msgid "Confirm the Bluetooth PIN for “%s”. This can usually be found in the device’s manual."
 msgstr ""
-"Підтвердіть PIN-код Bluetooth для «%s». Зазвичай його можна знайти в "
-"керівництві до пристрою."
 
 #: lib/bluetooth-pairing-dialog.c:97
 #, c-format
 msgid "Pairing “%s”"
-msgstr "Зв'язування «%s»"
+msgstr ""
 
 #: lib/bluetooth-pairing-dialog.c:105
 #, c-format
-msgid ""
-"Please confirm that the following PIN matches the one displayed on “%s”."
-msgstr "Підтвердіть, що цей PIN-код відповідає відображеному на «%s»."
+msgid "Please confirm that the following PIN matches the one displayed on “%s”."
+msgstr ""
 
 #: lib/bluetooth-pairing-dialog.c:110
 msgid "Bluetooth Pairing Request"
-msgstr "Запит на пов'язання Bluetooth"
+msgstr ""
 
 #: lib/bluetooth-pairing-dialog.c:111
 #, c-format
 msgid "“%s” wants to pair with this device. Do you want to allow pairing?"
-msgstr "«%s»  хоче пов'язатися з цим пристроєм. Ви дозволяєте зв'язування?"
+msgstr ""
 
 #: lib/bluetooth-pairing-dialog.c:116
 msgid "Confirm Bluetooth Connection"
-msgstr "Підтвердьте з'єднання Bluetooth"
+msgstr ""
 
 #: lib/bluetooth-pairing-dialog.c:117
 #, c-format
 msgid "“%s” wants to connect with this device. Do you want to allow it?"
-msgstr "«%s»  хоче приєднатися до цього пристрою. Ви бажаєте дозволити це?"
+msgstr ""
 
 #: lib/bluetooth-pairing-dialog.c:125
 #, c-format
 msgid "Please enter the following PIN on “%s”."
-msgstr "Введіть наступний PIN-код на «%s»."
+msgstr ""
 
 #: lib/bluetooth-pairing-dialog.c:128
 #, c-format
-msgid ""
-"Please enter the following PIN on “%s”. Then press “Return” on the keyboard."
+msgid "Please enter the following PIN on “%s”. Then press “Return” on the keyboard."
 msgstr ""
-"Введіть наступний PIN-код на «%s». Потім натисніть «Enter» на клавіатурі."
 
 #: lib/bluetooth-pairing-dialog.c:131
-msgid ""
-"Please move the joystick of your iCade in the following directions. Then "
-"press any of the white buttons."
+msgid "Please move the joystick of your iCade in the following directions. Then press any of the white buttons."
 msgstr ""
-"Перемістіть джойстик вашого iCade у ці напрямки. Потім натисніть будь-яку з "
-"білих кнопок."
 
 #: lib/bluetooth-pairing-dialog.c:139
 msgid "Allow"
-msgstr "Дозволити"
+msgstr ""
 
 #: lib/bluetooth-pairing-dialog.c:143
 msgid "Dismiss"
-msgstr "Відхилити"
+msgstr ""
 
 #. Cancel button
 #: lib/bluetooth-pairing-dialog.c:153 lib/bluetooth-pairing-dialog.c:308
 msgid "Cancel"
-msgstr "Скасувати"
+msgstr ""
 
 #. OK button
 #: lib/bluetooth-pairing-dialog.c:289 lib/bluetooth-settings-obexpush.c:246
 msgid "Accept"
-msgstr "Схвалити"
+msgstr ""
 
 #: lib/bluetooth-settings-row.c:79 lib/bluetooth-settings-row.ui:37
-#| msgid "Not Setup"
 msgid "Not Set Up"
-msgstr "Не налаштовано"
+msgstr ""
 
 #: lib/bluetooth-settings-row.c:81
 msgid "Connected"
-msgstr "З'єднано"
+msgstr ""
 
 #: lib/bluetooth-settings-row.c:83
 msgid "Disconnected"
-msgstr "Роз'єднано"
+msgstr ""
 
 #: lib/bluetooth-settings-widget.c:1146
 msgid "Yes"
-msgstr "Так"
+msgstr ""
 
 #: lib/bluetooth-settings-widget.c:1146
 msgid "No"
-msgstr "Ні"
+msgstr ""
 
 #. translators: first %s is the name of the computer, for example:
 #. * Visible as “Bastien Nocera’s Computer” followed by the
 #. * location of the Downloads folder.
 #: lib/bluetooth-settings-widget.c:1246
 #, c-format
-msgid ""
-"Visible as “%s” and available for Bluetooth file transfers. Transferred "
-"files are placed in the <a href=\"%s\">Downloads</a> folder."
+msgid "Visible as “%s” and available for Bluetooth file transfers. Transferred files are placed in the <a href=\"%s\">Downloads</a> folder."
 msgstr ""
-"Видимий як «%s» і доступний для передавання файлів через Bluetooth. "
-"Передавання відбувається через теку <a href=\"%s\">Звантаження</a>."
 
 #: lib/bluetooth-settings-widget.c:1273
 #, c-format
 msgid "Remove “%s” from the list of devices?"
-msgstr "Вилучити «%s» зі списку пристроїв?"
+msgstr ""
 
 #: lib/bluetooth-settings-widget.c:1275
-msgid ""
-"If you remove the device, you will have to set it up again before next use."
+msgid "If you remove the device, you will have to set it up again before next use."
 msgstr ""
-"Якщо вилучите цей пристрій, перед наступним використанням потрібно буде "
-"встановити його знову."
 
 #: lib/bluetooth-settings-widget.c:1279
 msgid "_Remove"
-msgstr "В_илучити"
+msgstr ""
 
 #. Translators: %s is the name of the filename received
 #: lib/bluetooth-settings-obexpush.c:145
 #, c-format
 msgid "You received “%s” via Bluetooth"
-msgstr "Ви отримали «%s» через Bluetooth"
+msgstr ""
 
 #: lib/bluetooth-settings-obexpush.c:147
 msgid "You received a file"
-msgstr "Одержано файл"
+msgstr ""
 
 #: lib/bluetooth-settings-obexpush.c:158
 msgid "Open File"
-msgstr "Відкрити файл"
+msgstr ""
 
 #: lib/bluetooth-settings-obexpush.c:162
 msgid "Reveal File"
-msgstr "Показати файл"
+msgstr ""
 
 #: lib/bluetooth-settings-obexpush.c:179
 msgid "File reception complete"
-msgstr "Одержання файла завершено"
+msgstr ""
 
 #: lib/bluetooth-settings-obexpush.c:233
 #, c-format
 msgid "Bluetooth file transfer from %s"
-msgstr "Передавання файлів через Bluetooth від %s"
+msgstr ""
 
 #: lib/bluetooth-settings-obexpush.c:243
 msgid "Decline"
-msgstr "Відхилити"
+msgstr ""
 
 #: lib/bluetooth-utils.c:59
 msgid "Phone"
-msgstr "Телефон"
+msgstr ""
 
 #: lib/bluetooth-utils.c:61
 msgid "Modem"
-msgstr "Модем"
+msgstr ""
 
 #: lib/bluetooth-utils.c:63
 msgid "Computer"
-msgstr "Комп'ютер"
+msgstr ""
 
 #: lib/bluetooth-utils.c:65
 msgid "Network"
-msgstr "Мережа"
+msgstr ""
 
 #. translators: a hands-free headset, a combination of a single speaker with a microphone
 #: lib/bluetooth-utils.c:68
 msgid "Headset"
-msgstr "Гарнітура"
+msgstr ""
 
 #: lib/bluetooth-utils.c:70
 msgid "Headphones"
-msgstr "Навушники"
+msgstr ""
 
 #: lib/bluetooth-utils.c:72
 msgid "Audio device"
-msgstr "Аудіопристрій"
+msgstr ""
 
 #: lib/bluetooth-utils.c:74
 msgid "Keyboard"
-msgstr "Набірниця"
+msgstr ""
 
 #: lib/bluetooth-utils.c:76
 msgid "Mouse"
-msgstr "Миша"
+msgstr ""
 
 #: lib/bluetooth-utils.c:78
 msgid "Camera"
-msgstr "Камера"
+msgstr ""
 
 #: lib/bluetooth-utils.c:80
 msgid "Printer"
-msgstr "Друкарка"
+msgstr ""
 
 #: lib/bluetooth-utils.c:82
 msgid "Joypad"
-msgstr "Джойстик"
+msgstr ""
 
 #: lib/bluetooth-utils.c:84
 msgid "Tablet"
-msgstr "Пляншет"
+msgstr ""
 
 #: lib/bluetooth-utils.c:86
 msgid "Video device"
-msgstr "Видивопристрій"
+msgstr ""
 
 #: lib/bluetooth-utils.c:88
 msgid "Remote control"
-msgstr "Віддалене керування"
+msgstr ""
 
 #: lib/bluetooth-utils.c:90
 msgid "Scanner"
-msgstr "Сканер"
+msgstr ""
 
 #: lib/bluetooth-utils.c:92
 msgid "Display"
-msgstr "Екран"
+msgstr ""
 
 #: lib/bluetooth-utils.c:94
 msgid "Wearable"
-msgstr "Придатний"
+msgstr ""
 
 #: lib/bluetooth-utils.c:96
 msgid "Toy"
-msgstr "Іграшка"
+msgstr ""
 
 #: lib/bluetooth-utils.c:117
 msgid "All types"
-msgstr "Усі типи"
+msgstr ""
 
 #: lib/settings.ui:44
 msgid "Connection"
-msgstr "З'єднання"
+msgstr ""
 
 #: lib/settings.ui:224
 msgid "Address"
-msgstr "Адреса"
+msgstr ""
 
 #: lib/settings.ui:279
 msgid "_Mouse & Touchpad Settings"
-msgstr "Параметри ми_ші та сенсорного пристрою"
+msgstr ""
 
 #: lib/settings.ui:293
 msgid "_Sound Settings"
-msgstr "Параметри _звуку"
+msgstr ""
 
 #: lib/settings.ui:307
 msgid "_Keyboard Settings"
-msgstr "Параметри _набірниці"
+msgstr ""
 
 #: lib/settings.ui:321
 msgid "Send _Files…"
-msgstr "Надіслати _файли…"
+msgstr ""
 
 #: lib/settings.ui:335
 msgid "_Remove Device"
-msgstr "В_илучити носій"
+msgstr ""
 
 #: sendto/bluetooth-sendto.desktop.in.in:3
 msgid "Bluetooth Transfer"
-msgstr "Передача файлів через Bluetooth"
+msgstr ""
 
 #: sendto/bluetooth-sendto.desktop.in.in:4
 msgid "Send files via Bluetooth"
-msgstr "Надіслати файли через Bluetooth"
+msgstr ""
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: sendto/bluetooth-sendto.desktop.in.in:6
 msgid "bluetooth"
-msgstr "bluetooth"
+msgstr ""
 
 #: sendto/main.c:117
 msgid "An unknown error occurred"
-msgstr "Виникла невідома помилка"
+msgstr ""
 
 #: sendto/main.c:130
-msgid ""
-"Make sure that the remote device is switched on and that it accepts "
-"Bluetooth connections"
+msgid "Make sure that the remote device is switched on and that it accepts Bluetooth connections"
 msgstr ""
-"Переконайтеся, що віддалений пристрій увімкнено та приймає з'єднання "
-"Bluetooth"
 
 #: sendto/main.c:363
 #, c-format
 msgid "%'d second"
 msgid_plural "%'d seconds"
-msgstr[0] "%'d секунда"
-msgstr[1] "%'d секунди"
-msgstr[2] "%'d секунд"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: sendto/main.c:368 sendto/main.c:381
 #, c-format
 msgid "%'d minute"
 msgid_plural "%'d minutes"
-msgstr[0] "%'d хвилина"
-msgstr[1] "%'d хвилини"
-msgstr[2] "%'d хвилин"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: sendto/main.c:379
 #, c-format
 msgid "%'d hour"
 msgid_plural "%'d hours"
-msgstr[0] "%'d година"
-msgstr[1] "%'d години"
-msgstr[2] "%'d годин"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: sendto/main.c:389
 #, c-format
 msgid "approximately %'d hour"
 msgid_plural "approximately %'d hours"
-msgstr[0] "приблизно %'d година"
-msgstr[1] "приблизно %'d години"
-msgstr[2] "приблизно %'d годин"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: sendto/main.c:402 sendto/main.c:500
 msgid "Connecting…"
-msgstr "З'єднання…"
+msgstr ""
 
 #: sendto/main.c:444
 msgid "Bluetooth File Transfer"
-msgstr "Передавання файлів через Bluetooth"
+msgstr ""
 
 #: sendto/main.c:448
 msgid "_Retry"
-msgstr "_Повторити"
+msgstr ""
 
 #: sendto/main.c:470
 msgid "From:"
-msgstr "Від:"
+msgstr ""
 
 #: sendto/main.c:484
 msgid "To:"
-msgstr "До:"
+msgstr ""
 
 #: sendto/main.c:577
 #, c-format
 msgid "Sending %s"
-msgstr "Надсилання %s"
+msgstr ""
 
 #: sendto/main.c:584 sendto/main.c:633
 #, c-format
 msgid "Sending file %d of %d"
-msgstr "Надсилання файлу %d з %d"
+msgstr ""
 
 #: sendto/main.c:629
 #, c-format
 msgid "%d kB/s"
-msgstr "%d КБ/с"
+msgstr ""
 
 #: sendto/main.c:631
 #, c-format
 msgid "%d B/s"
-msgstr "%d Б/с"
+msgstr ""
 
 #: sendto/main.c:662
 #, c-format
 msgid "%u transfer complete"
 msgid_plural "%u transfers complete"
-msgstr[0] "%u передачу завершено"
-msgstr[1] "%u передачі завершено"
-msgstr[2] "%u передач завершено"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: sendto/main.c:669
 msgid "_Close"
-msgstr "_Закрити"
+msgstr ""
 
 #: sendto/main.c:679
 msgid "There was an error"
-msgstr "Виникла помилка"
+msgstr ""
 
 #: sendto/main.c:734
 msgid "Select device to send to"
-msgstr "Виберіть пристрій, якому надіслати"
+msgstr ""
 
 #: sendto/main.c:739
 msgid "_Send"
-msgstr "_Надіслати"
+msgstr ""
 
 #: sendto/main.c:789
 msgid "Choose files to send"
-msgstr "Виберіть файли, які потрібно надіслати"
+msgstr ""
 
 #: sendto/main.c:795
 msgid "Select"
-msgstr "Вибрати"
+msgstr ""
 
 #: sendto/main.c:825
 msgid "Remote device to use"
-msgstr "Використати віддалений пристрій"
+msgstr ""
 
 #: sendto/main.c:825
 msgid "ADDRESS"
-msgstr "АДРЕСА"
+msgstr ""
 
 #: sendto/main.c:827
 msgid "Remote device’s name"
-msgstr "Назва віддаленого пристрою"
+msgstr ""
 
 #: sendto/main.c:827
 msgid "NAME"
-msgstr "НАЗВА"
+msgstr ""
 
 #: sendto/main.c:846
 msgid "[FILE…]"
-msgstr "[ФАЙЛ…]"
+msgstr ""
+

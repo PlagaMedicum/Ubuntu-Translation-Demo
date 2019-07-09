@@ -1,24 +1,21 @@
-# Belarusian translation for update-manager
-# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
-# This file is distributed under the same license as the update-manager package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: update-manager\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
 "POT-Creation-Date: 2019-05-10 20:33+0000\n"
-"PO-Revision-Date: 2015-11-25 17:09+0000\n"
-"Last-Translator: Siamion Šachalevič <semen.shah@gmail.com>\n"
-"Language-Team: Belarusian <be@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:16\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Launchpad-Export-Date: 2019-05-11 13:16+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: be\n"
+"X-Generator: crowdin.com\n"
+"Language: be_BY\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/ubuntu-release-upgrader.po\n"
 
 #. TRANSLATORS: %s is a country
 #: ../DistUpgrade/distro.py:215 ../DistUpgrade/distro.py:446
@@ -43,12 +40,8 @@ msgid "Could not calculate sources.list entry"
 msgstr "Немагчыма разлічыць запіс sources.list"
 
 #: ../DistUpgrade/DistUpgradeAptCdrom.py:260
-msgid ""
-"Unable to locate any package files, perhaps this is not a Ubuntu Disc or the "
-"wrong architecture?"
-msgstr ""
-"Немагчыма адшукаць ніводнага файла з пакетам, верагодна, гэты дыск не "
-"з'яўляецца Ubuntu ці мае іншую архітэктуру."
+msgid "Unable to locate any package files, perhaps this is not a Ubuntu Disc or the wrong architecture?"
+msgstr "Немагчыма адшукаць ніводнага файла з пакетам, верагодна, гэты дыск не з'яўляецца Ubuntu ці мае іншую архітэктуру."
 
 #: ../DistUpgrade/DistUpgradeAptCdrom.py:310
 msgid "Failed to add the CD"
@@ -56,16 +49,10 @@ msgstr "Немагчыма дадаць дыск"
 
 #: ../DistUpgrade/DistUpgradeAptCdrom.py:311
 #, python-format
-msgid ""
-"There was a error adding the CD, the upgrade will abort. Please report this "
-"as a bug if this is a valid Ubuntu CD.\n"
-"\n"
+msgid "There was a error adding the CD, the upgrade will abort. Please report this as a bug if this is a valid Ubuntu CD.\n\n"
 "The error message was:\n"
 "'%s'"
-msgstr ""
-"Пры дадаванні кампакт-дыска адбылася памылка, абнаўленне будзе спынена. Калі "
-"ласка, паведаміце аб памылцы, калі гэта быў карэктны кампакт-дыск Ubuntu.\n"
-"\n"
+msgstr "Пры дадаванні кампакт-дыска адбылася памылка, абнаўленне будзе спынена. Калі ласка, паведаміце аб памылцы, калі гэта быў карэктны кампакт-дыск Ubuntu.\n\n"
 "Тэкст памылкі:\n"
 "\"%s\""
 
@@ -75,26 +62,16 @@ msgid_plural "Remove packages in bad state"
 msgstr[0] "Выдаліць пакет, пазначаны як памылковы"
 msgstr[1] "Выдаліць пакеты, пазначаныя як памылковыя"
 msgstr[2] "Выдаліць пакеты ў кепскім стане"
+msgstr[3] ""
 
 #: ../DistUpgrade/DistUpgradeCache.py:183
 #, python-format
-msgid ""
-"The package '%s' is in an inconsistent state and needs to be reinstalled, "
-"but no archive can be found for it. Do you want to remove this package now "
-"to continue?"
-msgid_plural ""
-"The packages '%s' are in an inconsistent state and need to be reinstalled, "
-"but no archives can be found for them. Do you want to remove these packages "
-"now to continue?"
-msgstr[0] ""
-"Пакет “%s“ знаходзіцца ў супярэчлівым стане і мусіць быць пераўсталяваны, "
-"але немагчыма адшукаць архіў для яго. Ці жадаеце выдаліць зараз гэты пакет?"
-msgstr[1] ""
-"Пакеты “%s“ знаходзяцца ў супярэчлівым стане і мусіць быць пераўсталяваны, "
-"але немагчыма адшукаць архівы для іх. Ці жадаеце выдаліць зараз гэтыя пакеты?"
-msgstr[2] ""
-"Пакеты “%s“ знаходзяцца ў супярэчлівым стане і мусіць быць пераўсталяваны, "
-"але немагчыма адшукаць архівы для іх. Ці жадаеце выдаліць зараз гэтыя пакеты?"
+msgid "The package '%s' is in an inconsistent state and needs to be reinstalled, but no archive can be found for it. Do you want to remove this package now to continue?"
+msgid_plural "The packages '%s' are in an inconsistent state and need to be reinstalled, but no archives can be found for them. Do you want to remove these packages now to continue?"
+msgstr[0] "Пакет “%s“ знаходзіцца ў супярэчлівым стане і мусіць быць пераўсталяваны, але немагчыма адшукаць архіў для яго. Ці жадаеце выдаліць зараз гэты пакет?"
+msgstr[1] "Пакеты “%s“ знаходзяцца ў супярэчлівым стане і мусіць быць пераўсталяваны, але немагчыма адшукаць архівы для іх. Ці жадаеце выдаліць зараз гэтыя пакеты?"
+msgstr[2] "Пакеты “%s“ знаходзяцца ў супярэчлівым стане і мусіць быць пераўсталяваны, але немагчыма адшукаць архівы для іх. Ці жадаеце выдаліць зараз гэтыя пакеты?"
+msgstr[3] ""
 
 #. FIXME: not ideal error message, but we just reuse a
 #. existing one here to avoid a new string
@@ -107,36 +84,26 @@ msgid "Broken packages"
 msgstr "Пакеты з памылкамі"
 
 #: ../DistUpgrade/DistUpgradeCache.py:399
-msgid ""
-"Your system contains broken packages that couldn't be fixed with this "
-"software. Please fix them first using synaptic or apt-get before proceeding."
-msgstr ""
-"Сістэма змяшчае пашкоджаныя пакеты, якія не могуць быць выпраўленыя гэтай "
-"праграмай.  Калі ласка, спачатку выпраўце іх з дапамогай synaptic ці apt-get "
-"перш чым працягваць."
+msgid "Your system contains broken packages that couldn't be fixed with this software. Please fix them first using synaptic or apt-get before proceeding."
+msgstr "Сістэма змяшчае пашкоджаныя пакеты, якія не могуць быць выпраўленыя гэтай праграмай.  Калі ласка, спачатку выпраўце іх з дапамогай synaptic ці apt-get перш чым працягваць."
 
 #. the most likely problem is the 3rd party pkgs so don't address
 #. foreignPkgs and devRelease being True
 #: ../DistUpgrade/DistUpgradeCache.py:671
-msgid ""
-"An unresolvable problem occurred while calculating the upgrade.\n"
-"\n"
+msgid "An unresolvable problem occurred while calculating the upgrade.\n\n"
 " "
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeCache.py:674
-msgid ""
-"This was likely caused by:\n"
+msgid "This was likely caused by:\n"
 " * Unofficial software packages not provided by Ubuntu\n"
 "Please use the tool 'ppa-purge' from the ppa-purge \n"
 "package to remove software from a Launchpad PPA and \n"
-"try the upgrade again.\n"
-"\n"
+"try the upgrade again.\n\n"
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeCache.py:682
-msgid ""
-"This was caused by:\n"
+msgid "This was caused by:\n"
 " * Upgrading to a pre-release version of Ubuntu\n"
 "This is most likely a transient problem, \n"
 "please try again later.\n"
@@ -147,16 +114,11 @@ msgid "This is most likely a transient problem, please try again later."
 msgstr "Магчыма, гэта часовая праблема. Паспрабуйце паўтарыць пазней."
 
 #: ../DistUpgrade/DistUpgradeCache.py:692
-msgid ""
-"If none of this applies, then please report this bug using the command "
-"'ubuntu-bug ubuntu-release-upgrader-core' in a terminal. "
+msgid "If none of this applies, then please report this bug using the command 'ubuntu-bug ubuntu-release-upgrader-core' in a terminal. "
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeCache.py:694
-msgid ""
-"If you want to investigate this yourself the log files in '/var/log/dist-"
-"upgrade' will contain details about the upgrade. Specifically, look at "
-"'main.log' and 'apt.log'."
+msgid "If you want to investigate this yourself the log files in '/var/log/dist-upgrade' will contain details about the upgrade. Specifically, look at 'main.log' and 'apt.log'."
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeCache.py:700
@@ -168,19 +130,12 @@ msgid "Error authenticating some packages"
 msgstr "Памылка аўтэнтыфікацыі некаторых пакетаў"
 
 #: ../DistUpgrade/DistUpgradeCache.py:760
-msgid ""
-"It was not possible to authenticate some packages. This may be a transient "
-"network problem. You may want to try again later. See below for a list of "
-"unauthenticated packages."
-msgstr ""
-"Немагчыма аўтэнтыфікаваць некаторыя пакеты. Гэта можа быць з-за часовай "
-"праблемы з сеткай. Вы можаце паспрабаваць паўтарыць дзеяньне пазней. "
-"Глядзіце ніжэй спіс неаўтэнтыфікаваных пакетаў."
+msgid "It was not possible to authenticate some packages. This may be a transient network problem. You may want to try again later. See below for a list of unauthenticated packages."
+msgstr "Немагчыма аўтэнтыфікаваць некаторыя пакеты. Гэта можа быць з-за часовай праблемы з сеткай. Вы можаце паспрабаваць паўтарыць дзеяньне пазней. Глядзіце ніжэй спіс неаўтэнтыфікаваных пакетаў."
 
 #: ../DistUpgrade/DistUpgradeCache.py:781
 #, python-format
-msgid ""
-"The package '%s' is marked for removal but it is in the removal blacklist."
+msgid "The package '%s' is marked for removal but it is in the removal blacklist."
 msgstr "Пакет “%s“ пазначаны для выдалення, але ён у чорным спісе выдалення."
 
 #: ../DistUpgrade/DistUpgradeCache.py:787
@@ -199,12 +154,8 @@ msgid "Can't install '%s'"
 msgstr "Немагчыма ўсталяваць \"%s\""
 
 #: ../DistUpgrade/DistUpgradeCache.py:916
-msgid ""
-"It was impossible to install a required package. Please report this as a bug "
-"using 'ubuntu-bug ubuntu-release-upgrader-core' in a terminal."
-msgstr ""
-"Не атрымалася ўсталяваць патрэбны пакет. Паведаміце аб гэтай памылцы, "
-"выкарыстаўшы каманду \"ubuntu-bug ubuntu-release-upgrader-core\" у тэрмінале."
+msgid "It was impossible to install a required package. Please report this as a bug using 'ubuntu-bug ubuntu-release-upgrader-core' in a terminal."
+msgstr "Не атрымалася ўсталяваць патрэбны пакет. Паведаміце аб гэтай памылцы, выкарыстаўшы каманду \"ubuntu-bug ubuntu-release-upgrader-core\" у тэрмінале."
 
 #: ../DistUpgrade/DistUpgradeCache.py:927
 msgid "Can't guess meta-package"
@@ -212,16 +163,10 @@ msgstr "Немагчыма вызначыць мета-пакет"
 
 #: ../DistUpgrade/DistUpgradeCache.py:928
 #, python-format
-msgid ""
-"Your system does not contain a %s or %s package and it was not possible to "
-"detect which version of Ubuntu you are running.\n"
-" Please install one of the packages above first using synaptic or apt-get "
-"before proceeding."
-msgstr ""
-"Ваша сістэма не ўтрымлівае такога %s ці такога %s пакета, было немагчыма "
-"вызначыць, у якой версіі Убунту вы карыстаецеся.\n"
-"  Калі ласка, усталюйце адзін з пакетаў вышэй дапамогай synaptic ці apt-get, "
-"перад тым як працягнуць."
+msgid "Your system does not contain a %s or %s package and it was not possible to detect which version of Ubuntu you are running.\n"
+" Please install one of the packages above first using synaptic or apt-get before proceeding."
+msgstr "Ваша сістэма не ўтрымлівае такога %s ці такога %s пакета, было немагчыма вызначыць, у якой версіі Убунту вы карыстаецеся.\n"
+"  Калі ласка, усталюйце адзін з пакетаў вышэй дапамогай synaptic ці apt-get, перад тым як працягнуць."
 
 #: ../DistUpgrade/DistUpgradeController.py:113
 msgid "Reading cache"
@@ -232,28 +177,17 @@ msgid "Unable to get exclusive lock"
 msgstr "Памылка пры праверцы аўтэнтычнасці некаторых пакетаў"
 
 #: ../DistUpgrade/DistUpgradeController.py:227
-msgid ""
-"This usually means that another package management application (like apt-get "
-"or aptitude) already running. Please close that application first."
-msgstr ""
-"Звычайна, гэта азначае, што іншы кіраўнік пакетаў (напрыклад apt-get ці "
-"aptitude) ужо працуе. Калі ласка, закройце іншае дастасаванне."
+msgid "This usually means that another package management application (like apt-get or aptitude) already running. Please close that application first."
+msgstr "Звычайна, гэта азначае, што іншы кіраўнік пакетаў (напрыклад apt-get ці aptitude) ужо працуе. Калі ласка, закройце іншае дастасаванне."
 
 #: ../DistUpgrade/DistUpgradeController.py:285
 msgid "Upgrading over remote connection not supported"
 msgstr "Апгрэйд праз аддаленае падлучэнне не падтрымліваецца"
 
 #: ../DistUpgrade/DistUpgradeController.py:286
-msgid ""
-"You are running the upgrade over a remote ssh connection with a frontend "
-"that does not support this. Please try a text mode upgrade with 'do-release-"
-"upgrade'.\n"
-"\n"
+msgid "You are running the upgrade over a remote ssh connection with a frontend that does not support this. Please try a text mode upgrade with 'do-release-upgrade'.\n\n"
 "The upgrade will abort now. Please try without ssh."
-msgstr ""
-"Вы спрабуеце выканаць абнаўленьне праз ssh-злучэнне з непадтрымліваемым "
-"кліентам. Абнавіцеся ў тэкставым рэжыме праз \"do-release-upgrade\".\n"
-"\n"
+msgstr "Вы спрабуеце выканаць абнаўленьне праз ssh-злучэнне з непадтрымліваемым кліентам. Абнавіцеся ў тэкставым рэжыме праз \"do-release-upgrade\".\n\n"
 "Абнаўленне прыпынена. Паспрабуйце без ssh."
 
 #: ../DistUpgrade/DistUpgradeController.py:300
@@ -262,17 +196,10 @@ msgstr "Працягваць выкананне праз SSH?"
 
 #: ../DistUpgrade/DistUpgradeController.py:301
 #, python-format
-msgid ""
-"This session appears to be running under ssh. It is not recommended to "
-"perform a upgrade over ssh currently because in case of failure it is harder "
-"to recover.\n"
-"\n"
+msgid "This session appears to be running under ssh. It is not recommended to perform a upgrade over ssh currently because in case of failure it is harder to recover.\n\n"
 "If you continue, an additional ssh daemon will be started at port '%s'.\n"
 "Do you want to continue?"
-msgstr ""
-"Гэты сеанс запушчаны праз ssh. Не рэкамендавана выконваць абнаўленьне праз "
-"ssh, бо ў выпадку няўдачы аднаўленне будзе вельмі складаным.\n"
-"\n"
+msgstr "Гэты сеанс запушчаны праз ssh. Не рэкамендавана выконваць абнаўленьне праз ssh, бо ў выпадку няўдачы аднаўленне будзе вельмі складаным.\n\n"
 "Калі Вы працягнеце, дадатковая служба ssh будзе запушчана на порце «%s».\n"
 "Жадаеце працягнуць?"
 
@@ -282,26 +209,14 @@ msgstr "Запуск дадатковай sshd"
 
 #: ../DistUpgrade/DistUpgradeController.py:316
 #, python-format
-msgid ""
-"To make recovery in case of failure easier, an additional sshd will be "
-"started on port '%s'. If anything goes wrong with the running ssh you can "
-"still connect to the additional one.\n"
-msgstr ""
-"Каб зрабіць аднаўленне ў выпадку памылкі лягчэйшым, на порце '%s' будзе "
-"запушчаная дадатковая служба sshd. Калі нешта здарыцца, з дапамогай ssh Вы "
-"зможаце далучыцца да дадзенай службы.\n"
+msgid "To make recovery in case of failure easier, an additional sshd will be started on port '%s'. If anything goes wrong with the running ssh you can still connect to the additional one.\n"
+msgstr "Каб зрабіць аднаўленне ў выпадку памылкі лягчэйшым, на порце '%s' будзе запушчаная дадатковая служба sshd. Калі нешта здарыцца, з дапамогай ssh Вы зможаце далучыцца да дадзенай службы.\n"
 
 #: ../DistUpgrade/DistUpgradeController.py:324
 #, python-format
-msgid ""
-"If you run a firewall, you may need to temporarily open this port. As this "
-"is potentially dangerous it's not done automatically. You can open the port "
-"with e.g.:\n"
+msgid "If you run a firewall, you may need to temporarily open this port. As this is potentially dangerous it's not done automatically. You can open the port with e.g.:\n"
 "'%s'"
-msgstr ""
-"Калі ў вас уключаны брандмаўэр, вам магчыма трэба часова адкрыць гэты порт. "
-"Паколькі гэта патэнцыйна небяспечна, порт не адкрыецца аўтаматычна. Вы "
-"можаце адкрыць наступны спосабам:\n"
+msgstr "Калі ў вас уключаны брандмаўэр, вам магчыма трэба часова адкрыць гэты порт. Паколькі гэта патэнцыйна небяспечна, порт не адкрыецца аўтаматычна. Вы можаце адкрыць наступны спосабам:\n"
 "«%s» порт."
 
 #: ../DistUpgrade/DistUpgradeController.py:404
@@ -315,8 +230,7 @@ msgid "An upgrade from '%s' to '%s' is not supported with this tool."
 msgstr "Абнаўленне ад '%s' да '%s' не падтрымліваецца дадзенай прыладай."
 
 #: ../DistUpgrade/DistUpgradeController.py:429
-msgid ""
-"Your python3 install is corrupted. Please fix the '/usr/bin/python3' symlink."
+msgid "Your python3 install is corrupted. Please fix the '/usr/bin/python3' symlink."
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeController.py:458
@@ -326,13 +240,9 @@ msgstr "Немагчыма запісаць у '%s'"
 
 #: ../DistUpgrade/DistUpgradeController.py:459
 #, python-format
-msgid ""
-"Its not possible to write to the system directory '%s' on your system. The "
-"upgrade can not continue.\n"
+msgid "Its not possible to write to the system directory '%s' on your system. The upgrade can not continue.\n"
 "Please make sure that the system directory is writable."
-msgstr ""
-"Няма доступу да сістэмнага каталога '%s'  у вашай сістэме. Абнаўленне не "
-"можа працягвацца.\n"
+msgstr "Няма доступу да сістэмнага каталога '%s'  у вашай сістэме. Абнаўленне не можа працягвацца.\n"
 " Калі ласка, пераканайцеся ў наяўнасці доступу да сістэмнага каталога."
 
 #: ../DistUpgrade/DistUpgradeController.py:470
@@ -340,23 +250,11 @@ msgid "Include latest updates from the Internet?"
 msgstr "Загрузіць апошнія абнаўленні з інтэрнэту?"
 
 #: ../DistUpgrade/DistUpgradeController.py:471
-msgid ""
-"The upgrade system can use the internet to automatically download the latest "
-"updates and install them during the upgrade.  If you have a network "
-"connection this is highly recommended.\n"
-"\n"
-"The upgrade will take longer, but when it is complete, your system will be "
-"fully up to date.  You can choose not to do this, but you should install the "
-"latest updates soon after upgrading.\n"
+msgid "The upgrade system can use the internet to automatically download the latest updates and install them during the upgrade.  If you have a network connection this is highly recommended.\n\n"
+"The upgrade will take longer, but when it is complete, your system will be fully up to date.  You can choose not to do this, but you should install the latest updates soon after upgrading.\n"
 "If you answer 'no' here, the network is not used at all."
-msgstr ""
-"Апошнія абнаўленні могуць быць загружаны з Інтэрнэту і ўсталяваны пры "
-"абнаўленні ўсёй сістэмы. Калі вы падключаны да Інтэрнэту, гэта настойліва "
-"рэкамендуецца зрабіць.\n"
-"\n"
-"Абнаўленне сістэмы — гэта доўгі працэс, але па завяршэнні, ваша сістэма "
-"будзе ў актуальным стане. Вы можаце гэтага не рабіць, але рэкамендуем "
-"усталяваць апошнія абнаўленні як мага хутчэй.\n"
+msgstr "Апошнія абнаўленні могуць быць загружаны з Інтэрнэту і ўсталяваны пры абнаўленні ўсёй сістэмы. Калі вы падключаны да Інтэрнэту, гэта настойліва рэкамендуецца зрабіць.\n\n"
+"Абнаўленне сістэмы — гэта доўгі працэс, але па завяршэнні, ваша сістэма будзе ў актуальным стане. Вы можаце гэтага не рабіць, але рэкамендуем усталяваць апошнія абнаўленні як мага хутчэй.\n"
 "Калі вы адкажаце «Не», то абнаўленні праз Інтэрнет загружаны ня будуць."
 
 #: ../DistUpgrade/DistUpgradeController.py:649
@@ -375,12 +273,8 @@ msgstr ""
 
 #: ../DistUpgrade/DistUpgradeController.py:808
 #, python-format
-msgid ""
-"While scanning your repository information no entry about %s could be "
-"found.\n"
-"\n"
-"An upgrade might not succeed.\n"
-"\n"
+msgid "While scanning your repository information no entry about %s could be found.\n\n"
+"An upgrade might not succeed.\n\n"
 "Do you want to continue anyway?"
 msgstr ""
 
@@ -390,21 +284,11 @@ msgstr "Не знойдзена ніводнага дзейснага люстэ
 
 #: ../DistUpgrade/DistUpgradeController.py:821
 #, python-format
-msgid ""
-"While scanning your repository information no mirror entry for the upgrade "
-"was found. This can happen if you run an internal mirror or if the mirror "
-"information is out of date.\n"
-"\n"
-"Do you want to rewrite your 'sources.list' file anyway? If you choose 'Yes' "
-"here it will update all '%s' to '%s' entries.\n"
+msgid "While scanning your repository information no mirror entry for the upgrade was found. This can happen if you run an internal mirror or if the mirror information is out of date.\n\n"
+"Do you want to rewrite your 'sources.list' file anyway? If you choose 'Yes' here it will update all '%s' to '%s' entries.\n"
 "If you select 'No' the upgrade will cancel."
-msgstr ""
-"Пры сканаванні сховішча не было знойдзена люстэрка для абнаўлення. Такое "
-"магло адбыцца ў выпадку выкарыстання ўнутранага люстэрка ці інфармацыя аб "
-"люстэрках састарэла.\n"
-"\n"
-"Усё роўна хочаце перапісаць файл крыніц \"sources.list '? Калі вы адкажаце "
-"\"Так, тады абновяцца усе запісы ад\"% s \"да\"% s \".\n"
+msgstr "Пры сканаванні сховішча не было знойдзена люстэрка для абнаўлення. Такое магло адбыцца ў выпадку выкарыстання ўнутранага люстэрка ці інфармацыя аб люстэрках састарэла.\n\n"
+"Усё роўна хочаце перапісаць файл крыніц \"sources.list '? Калі вы адкажаце \"Так, тады абновяцца усе запісы ад\"% s \"да\"% s \".\n"
 "Калі адкажаце \"Не\" абнаўленне будзе спынена."
 
 #. hm, still nothing useful ...
@@ -414,14 +298,9 @@ msgstr "Згенераваць крыніцы па змаўчанні?"
 
 #: ../DistUpgrade/DistUpgradeController.py:842
 #, python-format
-msgid ""
-"After scanning your 'sources.list' no valid entry for '%s' was found.\n"
-"\n"
-"Should default entries for '%s' be added? If you select 'No', the upgrade "
-"will cancel."
-msgstr ""
-"Ня знойдзены запіс для '%s' у файле 'sources.list'.\n"
-"\n"
+msgid "After scanning your 'sources.list' no valid entry for '%s' was found.\n\n"
+"Should default entries for '%s' be added? If you select 'No', the upgrade will cancel."
+msgstr "Ня знойдзены запіс для '%s' у файле 'sources.list'.\n\n"
 "Дадаць стандартны запіс для '%s'? Выбар «Не» азначае адмову ад абнаўлення."
 
 #: ../DistUpgrade/DistUpgradeController.py:877
@@ -430,35 +309,20 @@ msgid "Repository information invalid"
 msgstr "Інфармацыя аб сховішчы няслушная"
 
 #: ../DistUpgrade/DistUpgradeController.py:878
-msgid ""
-"Upgrading the repository information resulted in a invalid file so a bug "
-"reporting process is being started."
-msgstr ""
-"Абнаўленне інфармацыі сховішча прывяло да пашкоджання файла. Выконваецца "
-"запуск сістэмы апавяшчэння пра няспраўнасць."
+msgid "Upgrading the repository information resulted in a invalid file so a bug reporting process is being started."
+msgstr "Абнаўленне інфармацыі сховішча прывяло да пашкоджання файла. Выконваецца запуск сістэмы апавяшчэння пра няспраўнасць."
 
 #: ../DistUpgrade/DistUpgradeController.py:884
-msgid ""
-"Upgrading the repository information resulted in a invalid file. To report a "
-"bug install apport and then execute 'apport-bug ubuntu-release-upgrader'."
-msgstr ""
-"Спроба абнаўлення дадзеных у сховішчы прывяла да скажэння дадзеных у файле. "
-"Каб адправіць паведамленне пра памылку, усталюйце apport, а потым аддайце "
-"каманду «apport-bug ubuntu-release-upgrader»."
+msgid "Upgrading the repository information resulted in a invalid file. To report a bug install apport and then execute 'apport-bug ubuntu-release-upgrader'."
+msgstr "Спроба абнаўлення дадзеных у сховішчы прывяла да скажэння дадзеных у файле. Каб адправіць паведамленне пра памылку, усталюйце apport, а потым аддайце каманду «apport-bug ubuntu-release-upgrader»."
 
 #: ../DistUpgrade/DistUpgradeController.py:893
 msgid "Third party sources disabled"
 msgstr "Зыходнікі ад трэціх бакоў - адключаныя"
 
 #: ../DistUpgrade/DistUpgradeController.py:894
-msgid ""
-"Some third party entries in your sources.list were disabled. You can re-"
-"enable them after the upgrade with the 'software-properties' tool or your "
-"package manager."
-msgstr ""
-"Некаторыя пабочныя крыніцы ў файле «sources.list» былі адключаныя. Вы "
-"зможаце іх зноў уключыць пасля абнаўлення з дапамогай утыліты «Крыніцы "
-"ўсталёўкі» альбо вашага мэнэджара пакункаў."
+msgid "Some third party entries in your sources.list were disabled. You can re-enable them after the upgrade with the 'software-properties' tool or your package manager."
+msgstr "Некаторыя пабочныя крыніцы ў файле «sources.list» былі адключаныя. Вы зможаце іх зноў уключыць пасля абнаўлення з дапамогай утыліты «Крыніцы ўсталёўкі» альбо вашага мэнэджара пакункаў."
 
 #: ../DistUpgrade/DistUpgradeController.py:936
 msgid "Package in inconsistent state"
@@ -466,41 +330,24 @@ msgid_plural "Packages in inconsistent state"
 msgstr[0] "Пакунак у нестабільным стане"
 msgstr[1] "Пакункі ў няўстойлівым стане"
 msgstr[2] "Пакункаў у наўстойлівым стане"
+msgstr[3] ""
 
 #: ../DistUpgrade/DistUpgradeController.py:939
 #, python-format
-msgid ""
-"The package '%s' is in an inconsistent state and needs to be reinstalled, "
-"but no archive can be found for it. Please reinstall the package manually or "
-"remove it from the system."
-msgid_plural ""
-"The packages '%s' are in an inconsistent state and need to be reinstalled, "
-"but no archive can be found for them. Please reinstall the packages manually "
-"or remove them from the system."
-msgstr[0] ""
-"Пакунак '%s' няўстойлівы і павінен быць пераўсталяваны, аднак, для яго ня "
-"знойдзен адпаведны архіў. Калі ласка, пераўсталюйце гэты пакунак уручную "
-"альбо выдаліце яго з сістэмы."
-msgstr[1] ""
-"Пакункі '%s' няўстойлівыя і павінны быць пераўсталяваны, аднак, для іх ня "
-"знойдзены адпаведныя архівы. Калі ласка, пераўсталюйце гэтыя пакункі уручную "
-"альбо выдаліце іх з сістэмы."
-msgstr[2] ""
-"Пакункі '%s' няўстойлівыя і павінны быць пераўсталяваны, аднак, для іх ня "
-"знойдзены адпаведныя архівы. Калі ласка, пераўсталюйце гэтыя пакункі уручную "
-"альбо выдаліце іх з сістэмы."
+msgid "The package '%s' is in an inconsistent state and needs to be reinstalled, but no archive can be found for it. Please reinstall the package manually or remove it from the system."
+msgid_plural "The packages '%s' are in an inconsistent state and need to be reinstalled, but no archive can be found for them. Please reinstall the packages manually or remove them from the system."
+msgstr[0] "Пакунак '%s' няўстойлівы і павінен быць пераўсталяваны, аднак, для яго ня знойдзен адпаведны архіў. Калі ласка, пераўсталюйце гэты пакунак уручную альбо выдаліце яго з сістэмы."
+msgstr[1] "Пакункі '%s' няўстойлівыя і павінны быць пераўсталяваны, аднак, для іх ня знойдзены адпаведныя архівы. Калі ласка, пераўсталюйце гэтыя пакункі уручную альбо выдаліце іх з сістэмы."
+msgstr[2] "Пакункі '%s' няўстойлівыя і павінны быць пераўсталяваны, аднак, для іх ня знойдзены адпаведныя архівы. Калі ласка, пераўсталюйце гэтыя пакункі уручную альбо выдаліце іх з сістэмы."
+msgstr[3] ""
 
 #: ../DistUpgrade/DistUpgradeController.py:1002
 msgid "Error during update"
 msgstr "Памылка падчас абнаўлення"
 
 #: ../DistUpgrade/DistUpgradeController.py:1003
-msgid ""
-"A problem occurred during the update. This is usually some sort of network "
-"problem, please check your network connection and retry."
-msgstr ""
-"Пры абнаўленні паўстала праблема. Звычайна гэта бывае выклікана праблемамі ў "
-"сетцы. Праверце сеткавыя злучэнні і паспрабуйце яшчэ."
+msgid "A problem occurred during the update. This is usually some sort of network problem, please check your network connection and retry."
+msgstr "Пры абнаўленні паўстала праблема. Звычайна гэта бывае выклікана праблемамі ў сетцы. Праверце сеткавыя злучэнні і паспрабуйце яшчэ."
 
 #: ../DistUpgrade/DistUpgradeController.py:1046
 #: ../DistUpgrade/DistUpgradeController.py:1051
@@ -508,15 +355,11 @@ msgid "EFI System Partition (ESP) not usable"
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeController.py:1047
-msgid ""
-"Your EFI System Partition (ESP) is not mounted at /boot/efi. Please ensure "
-"that it is properly configured and try again."
+msgid "Your EFI System Partition (ESP) is not mounted at /boot/efi. Please ensure that it is properly configured and try again."
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeController.py:1052
-msgid ""
-"The EFI System Partition (ESP) mounted at /boot/efi is not writable. Please "
-"mount this partition read-write and try again."
+msgid "The EFI System Partition (ESP) mounted at /boot/efi is not writable. Please mount this partition read-write and try again."
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeController.py:1059
@@ -527,29 +370,20 @@ msgstr "Бракуе дыскавае прасторы"
 #. make sure to keep all {str_*} string untranslated.
 #: ../DistUpgrade/DistUpgradeController.py:1062
 #, python-brace-format
-msgid ""
-"The upgrade has aborted. The upgrade needs a total of {str_total} free space "
-"on disk '{str_dir}'. Please free at least an additional {str_needed} of disk "
-"space on '{str_dir}'. {str_remedy}"
+msgid "The upgrade has aborted. The upgrade needs a total of {str_total} free space on disk '{str_dir}'. Please free at least an additional {str_needed} of disk space on '{str_dir}'. {str_remedy}"
 msgstr ""
 
 #. specific ways to resolve lack of free space
 #: ../DistUpgrade/DistUpgradeController.py:1067
-msgid ""
-"Remove temporary packages of former installations using 'sudo apt clean'."
+msgid "Remove temporary packages of former installations using 'sudo apt clean'."
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeController.py:1069
-msgid ""
-"You can remove old kernels using 'sudo apt autoremove' and you could also "
-"set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of "
-"your initramfs."
+msgid "You can remove old kernels using 'sudo apt autoremove' and you could also set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of your initramfs."
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeController.py:1074
-msgid ""
-"Empty your trash and remove temporary packages of former installations using "
-"'sudo apt-get clean'."
+msgid "Empty your trash and remove temporary packages of former installations using 'sudo apt-get clean'."
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeController.py:1077
@@ -571,9 +405,7 @@ msgstr "Ці жадаеце пачаць абнаўленне?"
 
 #: ../DistUpgrade/DistUpgradeController.py:1179
 #, python-format
-msgid ""
-"Livepatch security updates are not available for Ubuntu %s. If you upgrade, "
-"Livepatch will turn off."
+msgid "Livepatch security updates are not available for Ubuntu %s. If you upgrade, Livepatch will turn off."
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeController.py:1251
@@ -581,12 +413,8 @@ msgid "Upgrade canceled"
 msgstr "Абнаўленне скасавана"
 
 #: ../DistUpgrade/DistUpgradeController.py:1252
-msgid ""
-"The upgrade will cancel now and the original system state will be restored. "
-"You can resume the upgrade at a later time."
-msgstr ""
-"Гэта абнаўленне будзе зараз скасавана і адбудзецца аднаўленне зыходнага "
-"стану сістэмы. Вы можаце працягнуць гэта абнаўленне пазней."
+msgid "The upgrade will cancel now and the original system state will be restored. You can resume the upgrade at a later time."
+msgstr "Гэта абнаўленне будзе зараз скасавана і адбудзецца аднаўленне зыходнага стану сістэмы. Вы можаце працягнуць гэта абнаўленне пазней."
 
 #: ../DistUpgrade/DistUpgradeController.py:1258
 #: ../DistUpgrade/DistUpgradeController.py:1403
@@ -594,13 +422,8 @@ msgid "Could not download the upgrades"
 msgstr "Не атрымалася загрузіць абнаўленні"
 
 #: ../DistUpgrade/DistUpgradeController.py:1259
-msgid ""
-"The upgrade has aborted. Please check your Internet connection or "
-"installation media and try again. All files downloaded so far have been kept."
-msgstr ""
-"Абнаўленне было перапынена. Калі ласка, праверце ваша злучэнне з інтэрнэтам "
-"або крыніцу ўсталёўкі і паспрабуйце зноў. Усе загружаныя файлы былі "
-"захаваныя."
+msgid "The upgrade has aborted. Please check your Internet connection or installation media and try again. All files downloaded so far have been kept."
+msgstr "Абнаўленне было перапынена. Калі ласка, праверце ваша злучэнне з інтэрнэтам або крыніцу ўсталёўкі і паспрабуйце зноў. Усе загружаныя файлы былі захаваныя."
 
 #. FIXME: strings are not good, but we are in string freeze
 #. currently
@@ -625,38 +448,21 @@ msgstr "Немагчыма ўсталяваць абнаўленні"
 
 #. invoke the frontend now and show a error message
 #: ../DistUpgrade/DistUpgradeController.py:1360
-msgid ""
-"The upgrade has aborted. Your system could be in an unusable state. A "
-"recovery will run now (dpkg --configure -a)."
-msgstr ""
-"Абнаўленне было скасавана. Ваша сістэма можа апынуцца ў стане непрыдатным "
-"для нармальнага выкарыстання. Зараз будзе запушчаны працэс аднаўлення (dpkg -"
-"-configure -a)."
+msgid "The upgrade has aborted. Your system could be in an unusable state. A recovery will run now (dpkg --configure -a)."
+msgstr "Абнаўленне было скасавана. Ваша сістэма можа апынуцца ў стане непрыдатным для нармальнага выкарыстання. Зараз будзе запушчаны працэс аднаўлення (dpkg --configure -a)."
 
 #: ../DistUpgrade/DistUpgradeController.py:1365
 #, python-format
-msgid ""
-"\n"
-"\n"
-"Please report this bug in a browser at "
-"http://bugs.launchpad.net/ubuntu/+source/ubuntu-release-upgrader/+filebug "
-"and attach the files in /var/log/dist-upgrade/ to the bug report.\n"
+msgid "\n\n"
+"Please report this bug in a browser at http://bugs.launchpad.net/ubuntu/+source/ubuntu-release-upgrader/+filebug and attach the files in /var/log/dist-upgrade/ to the bug report.\n"
 "%s"
-msgstr ""
-"\n"
-"\n"
-"Паведаміце аб гэтай памылцы на старонцы па адрасе "
-"http://bugs.launchpad.net/ubuntu/+source/ubuntu-release-upgrader/+filebug, "
-"уклаўшы файлы з /var/log/dist-upgrade/ да справаздачы пра памылку..\n"
+msgstr "\n\n"
+"Паведаміце аб гэтай памылцы на старонцы па адрасе http://bugs.launchpad.net/ubuntu/+source/ubuntu-release-upgrader/+filebug, уклаўшы файлы з /var/log/dist-upgrade/ да справаздачы пра памылку..\n"
 "%s"
 
 #: ../DistUpgrade/DistUpgradeController.py:1404
-msgid ""
-"The upgrade has aborted. Please check your Internet connection or "
-"installation media and try again. "
-msgstr ""
-"Абнаўленне спыненае. Калі ласка праверце злучэнне з Інтэрнэтам, альбо іншую "
-"крыніцу ўсталёўкі і паспрабуйце зноў. "
+msgid "The upgrade has aborted. Please check your Internet connection or installation media and try again. "
+msgstr "Абнаўленне спыненае. Калі ласка праверце злучэнне з Інтэрнэтам, альбо іншую крыніцу ўсталёўкі і паспрабуйце зноў. "
 
 #: ../DistUpgrade/DistUpgradeController.py:1432
 msgid "Searching for obsolete software"
@@ -676,9 +482,7 @@ msgid "_Remove"
 msgstr "_Выдаліць"
 
 #: ../DistUpgrade/DistUpgradeController.py:1510
-msgid ""
-"A problem occurred during the clean-up. Please see the below message for "
-"more information. "
+msgid "A problem occurred during the clean-up. Please see the below message for more information. "
 msgstr "Падчас ачысткі паўстала праблема. Падрабязнасці выкладзены ніжэй. "
 
 #. FIXME: instead of error out, fetch and install it
@@ -705,21 +509,12 @@ msgid "Preparing the upgrade failed"
 msgstr "Збой падрыхтоўкі да абнаўлення"
 
 #: ../DistUpgrade/DistUpgradeController.py:1861
-msgid ""
-"Preparing the system for the upgrade failed so a bug reporting process is "
-"being started."
-msgstr ""
-"Падрыхтоўкі сістэмы да абнаўлення не атрымалася, будзе запушчана праграма "
-"справаздач аб памылках."
+msgid "Preparing the system for the upgrade failed so a bug reporting process is being started."
+msgstr "Падрыхтоўкі сістэмы да абнаўлення не атрымалася, будзе запушчана праграма справаздач аб памылках."
 
 #: ../DistUpgrade/DistUpgradeController.py:1867
-msgid ""
-"Preparing the system for the upgrade failed. To report a bug install apport "
-"and then execute 'apport-bug ubuntu-release-upgrader'."
-msgstr ""
-"Падрыхтоўка сістэмы да абнаўлення скончылася няўдачай. Каб паведаміць пра "
-"памылку, усталюйце apport і выканайце каманду \"apport-bug ubuntu-release-"
-"upgrader\"."
+msgid "Preparing the system for the upgrade failed. To report a bug install apport and then execute 'apport-bug ubuntu-release-upgrader'."
+msgstr "Падрыхтоўка сістэмы да абнаўлення скончылася няўдачай. Каб паведаміць пра памылку, усталюйце apport і выканайце каманду \"apport-bug ubuntu-release-upgrader\"."
 
 #: ../DistUpgrade/DistUpgradeController.py:1884
 #: ../DistUpgrade/DistUpgradeController.py:1894
@@ -727,30 +522,16 @@ msgid "Getting upgrade prerequisites failed"
 msgstr "Падрыхтоўка да абнаўлення завяршылася няўдала"
 
 #: ../DistUpgrade/DistUpgradeController.py:1885
-msgid ""
-"The system was unable to get the prerequisites for the upgrade. The upgrade "
-"will abort now and restore the original system state.\n"
-"\n"
+msgid "The system was unable to get the prerequisites for the upgrade. The upgrade will abort now and restore the original system state.\n\n"
 "Additionally, a bug reporting process is being started."
-msgstr ""
-"Сістэма не можа атрымаць папярэднія рэквізіты для выканання поўнага "
-"абнаўлення. Зараз будзе спынена поўнае абнаўленне і выканана аднаўленне "
-"зыходнага стану сістэмы.\n"
-"\n"
+msgstr "Сістэма не можа атрымаць папярэднія рэквізіты для выканання поўнага абнаўлення. Зараз будзе спынена поўнае абнаўленне і выканана аднаўленне зыходнага стану сістэмы.\n\n"
 "Выконваецца запуск паведамлення пра няспраўнасць."
 
 #: ../DistUpgrade/DistUpgradeController.py:1895
-msgid ""
-"The system was unable to get the prerequisites for the upgrade. The upgrade "
-"will abort now and restore the original system state.\n"
-"\n"
-"To report a bug install apport and then execute 'apport-bug ubuntu-release-"
-"upgrader'."
-msgstr ""
-"Сістэма не змагла атрымаць неабходныя ўмовы для абнаўлення. Абнаўленне будзе "
-"зараз перапынена і адновіцца зыходны стан сістэмы.\n"
-"Каб паведаміць пра памылку ўсталяваць apport, а затым выканайце 'apport-bug "
-"ubuntu-release-upgrader'."
+msgid "The system was unable to get the prerequisites for the upgrade. The upgrade will abort now and restore the original system state.\n\n"
+"To report a bug install apport and then execute 'apport-bug ubuntu-release-upgrader'."
+msgstr "Сістэма не змагла атрымаць неабходныя ўмовы для абнаўлення. Абнаўленне будзе зараз перапынена і адновіцца зыходны стан сістэмы.\n"
+"Каб паведаміць пра памылку ўсталяваць apport, а затым выканайце 'apport-bug ubuntu-release-upgrader'."
 
 #: ../DistUpgrade/DistUpgradeController.py:1928
 msgid "Updating repository information"
@@ -770,20 +551,9 @@ msgstr "Некарэктная інфармацыя аб пакеце"
 
 #: ../DistUpgrade/DistUpgradeController.py:1972
 #, python-format
-msgid ""
-"After updating your package information, the essential package '%s' could "
-"not be located. This may be because you have no official mirrors listed in "
-"your software sources, or because of excessive load on the mirror you are "
-"using. See /etc/apt/sources.list for the current list of configured software "
-"sources.\n"
-"In the case of an overloaded mirror, you may want to try the upgrade again "
-"later."
-msgstr ""
-"Пасля абнаўлення інфармацыі аб пакеце не ўдалося знайсці важны пакет '%s'. "
-"Прычынай гэтага можа быць адсутнасць афіцыйных люстэркаў у вашым спісе "
-"крыніц праграмнага забеспячэння або таму, што люстэрка, якое вы "
-"выкарыстоўваеце, перагружана. Гл. бягучы спіс наладжаных крыніц праграмнага "
-"забеспячэння ў /etc/apt/sources.list.\n"
+msgid "After updating your package information, the essential package '%s' could not be located. This may be because you have no official mirrors listed in your software sources, or because of excessive load on the mirror you are using. See /etc/apt/sources.list for the current list of configured software sources.\n"
+"In the case of an overloaded mirror, you may want to try the upgrade again later."
+msgstr "Пасля абнаўлення інфармацыі аб пакеце не ўдалося знайсці важны пакет '%s'. Прычынай гэтага можа быць адсутнасць афіцыйных люстэркаў у вашым спісе крыніц праграмнага забеспячэння або таму, што люстэрка, якое вы выкарыстоўваеце, перагружана. Гл. бягучы спіс наладжаных крыніц праграмнага забеспячэння ў /etc/apt/sources.list.\n"
 "Калі люстэрка перагружана, можна зноў паспрабаваць абнавіцца пазней."
 
 #: ../DistUpgrade/DistUpgradeController.py:2001
@@ -803,9 +573,7 @@ msgid "Upgrade infeasible"
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeController.py:2011
-msgid ""
-"The upgrade could not be completed, there were errors during the upgrade "
-"process."
+msgid "The upgrade could not be completed, there were errors during the upgrade process."
 msgstr ""
 
 #. don't abort here, because it would restore the sources.list
@@ -814,9 +582,7 @@ msgid "Upgrade incomplete"
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeController.py:2033
-msgid ""
-"The upgrade has partially completed but there were errors during the upgrade "
-"process."
+msgid "The upgrade has partially completed but there were errors during the upgrade process."
 msgstr ""
 
 #. don't abort here, because it would restore the sources.list
@@ -830,10 +596,8 @@ msgstr "Абнаўленне скончана"
 #: ../DistUpgrade/DistUpgradeController.py:2056
 #: ../DistUpgrade/DistUpgradeController.py:2107
 #: ../DistUpgrade/DistUpgradeController.py:2113
-msgid ""
-"The upgrade has completed but there were errors during the upgrade process."
-msgstr ""
-"Абнаўленне скончана, аднак падчас працэсу абнаўлення здарыліся памылкі."
+msgid "The upgrade has completed but there were errors during the upgrade process."
+msgstr "Абнаўленне скончана, аднак падчас працэсу абнаўлення здарыліся памылкі."
 
 #: ../DistUpgrade/DistUpgradeController.py:2075
 msgid "System upgrade is complete."
@@ -848,8 +612,7 @@ msgid "Lock screen disabled"
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeController.py:2153
-msgid ""
-"Your lock screen has been disabled and will remain disabled until you reboot."
+msgid "Your lock screen has been disabled and will remain disabled until you reboot."
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeFetcher.py:105
@@ -888,13 +651,8 @@ msgid "Could not run the upgrade tool"
 msgstr "Не атрымалася запусціць сродак абнаўлення"
 
 #: ../DistUpgrade/DistUpgradeFetcherCore.py:120
-msgid ""
-"This is most likely a bug in the upgrade tool. Please report it as a bug "
-"using the command 'ubuntu-bug ubuntu-release-upgrader-core'."
-msgstr ""
-"Найбольш верагоднай прычынай можа быць памылка ў інструменце абнаўлення. "
-"Паведаміце аб гэтай памылцы з дапамогай каманды \"ubuntu-bug ubuntu-release-"
-"upgrader-core\"."
+msgid "This is most likely a bug in the upgrade tool. Please report it as a bug using the command 'ubuntu-bug ubuntu-release-upgrader-core'."
+msgstr "Найбольш верагоднай прычынай можа быць памылка ў інструменце абнаўлення. Паведаміце аб гэтай памылцы з дапамогай каманды \"ubuntu-bug ubuntu-release-upgrader-core\"."
 
 #: ../DistUpgrade/DistUpgradeFetcherCore.py:197
 msgid "Upgrade tool signature"
@@ -917,36 +675,24 @@ msgid "Authentication failed"
 msgstr "Няўдалая ідэнтыфікацыя"
 
 #: ../DistUpgrade/DistUpgradeFetcherCore.py:244
-msgid ""
-"Authenticating the upgrade failed. There may be a problem with the network "
-"or with the server. "
-msgstr ""
-"Праверка ідэнтыфікацыі абнаўлення не атрымалася. Магчыма, паўстала праблема "
-"з сецівам або на серверы. "
+msgid "Authenticating the upgrade failed. There may be a problem with the network or with the server. "
+msgstr "Праверка ідэнтыфікацыі абнаўлення не атрымалася. Магчыма, паўстала праблема з сецівам або на серверы. "
 
 #: ../DistUpgrade/DistUpgradeFetcherCore.py:249
 msgid "Failed to extract"
 msgstr "Не магу выняць"
 
 #: ../DistUpgrade/DistUpgradeFetcherCore.py:250
-msgid ""
-"Extracting the upgrade failed. There may be a problem with the network or "
-"with the server. "
-msgstr ""
-"Не атрымалася выняць абнаўленне. Магчыма, паўстала праблема з сецівам або на "
-"серверы. "
+msgid "Extracting the upgrade failed. There may be a problem with the network or with the server. "
+msgstr "Не атрымалася выняць абнаўленне. Магчыма, паўстала праблема з сецівам або на серверы. "
 
 #: ../DistUpgrade/DistUpgradeFetcherCore.py:255
 msgid "Verification failed"
 msgstr "Праверка не атрымалася"
 
 #: ../DistUpgrade/DistUpgradeFetcherCore.py:256
-msgid ""
-"Verifying the upgrade failed.  There may be a problem with the network or "
-"with the server. "
-msgstr ""
-"Праверка абнаўлення завяршылася няўдала. Магчыма, паўстала праблема з "
-"сецівам або на серверы. "
+msgid "Verifying the upgrade failed.  There may be a problem with the network or with the server. "
+msgstr "Праверка абнаўлення завяршылася няўдала. Магчыма, паўстала праблема з сецівам або на серверы. "
 
 #: ../DistUpgrade/DistUpgradeFetcherCore.py:270
 #: ../DistUpgrade/DistUpgradeFetcherCore.py:276
@@ -954,12 +700,8 @@ msgid "Can not run the upgrade"
 msgstr "Не атрымалася запусціць працэс абнаўлення"
 
 #: ../DistUpgrade/DistUpgradeFetcherCore.py:271
-msgid ""
-"This usually is caused by a system where /tmp is mounted noexec. Please "
-"remount without noexec and run the upgrade again."
-msgstr ""
-"Звычайна паўстае ў сістэме, дзе / tmp змантаваны пад noexec. Калі ласка, "
-"перамантуйце без noexec і запусціце абнаўленне зноў."
+msgid "This usually is caused by a system where /tmp is mounted noexec. Please remount without noexec and run the upgrade again."
+msgstr "Звычайна паўстае ў сістэме, дзе / tmp змантаваны пад noexec. Калі ласка, перамантуйце без noexec і запусціце абнаўленне зноў."
 
 #: ../DistUpgrade/DistUpgradeFetcherCore.py:277
 #, python-format
@@ -1015,63 +757,29 @@ msgstr "Змена носьбіта"
 
 #: ../DistUpgrade/DistUpgradeQuirks.py:188
 msgid "Your graphics hardware may not be fully supported in Ubuntu 14.04."
-msgstr ""
-"Ваша графічнае абсталяванне не можа быць цалкам падтрыманым ў Ubuntu 14.04."
+msgstr "Ваша графічнае абсталяванне не можа быць цалкам падтрыманым ў Ubuntu 14.04."
 
 #: ../DistUpgrade/DistUpgradeQuirks.py:190
-msgid ""
-"Running the 'unity' desktop environment is not fully supported by your "
-"graphics hardware. You will maybe end up in a very slow environment after "
-"the upgrade. Our advice is to keep the LTS version for now. For more "
-"information see "
-"https://wiki.ubuntu.com/X/Bugs/UpdateManagerWarningForUnity3D Do you still "
-"want to continue with the upgrade?"
-msgstr ""
-"Асяроддзе працоўнага стала \"unity\" падтрымліваецца вашым графічным "
-"апаратным забеспячэннем не цалкам. Магчыма, пасля абнаўлення хуткадзейнасць "
-"асяроддзя будзе запаволеная. Раім на разе пакінуць версію LTS. Дадатковыя "
-"звесткі гл. https://wiki.ubuntu.com/X/Bugs/UpdateManagerWarningForUnity3D Вы "
-"ўсё яшчэ хочаце працягнуць абнаўленне?"
+msgid "Running the 'unity' desktop environment is not fully supported by your graphics hardware. You will maybe end up in a very slow environment after the upgrade. Our advice is to keep the LTS version for now. For more information see https://wiki.ubuntu.com/X/Bugs/UpdateManagerWarningForUnity3D Do you still want to continue with the upgrade?"
+msgstr "Асяроддзе працоўнага стала \"unity\" падтрымліваецца вашым графічным апаратным забеспячэннем не цалкам. Магчыма, пасля абнаўлення хуткадзейнасць асяроддзя будзе запаволеная. Раім на разе пакінуць версію LTS. Дадатковыя звесткі гл. https://wiki.ubuntu.com/X/Bugs/UpdateManagerWarningForUnity3D Вы ўсё яшчэ хочаце працягнуць абнаўленне?"
 
 #: ../DistUpgrade/DistUpgradeQuirks.py:214
-msgid ""
-"Your graphics hardware may not be fully supported in Ubuntu 12.04 LTS."
-msgstr ""
-"Вашае графічнае абсталяванне, магчыма, не будзе падтрымлівацца цалкам у "
-"Ubuntu 12.04 LTS"
+msgid "Your graphics hardware may not be fully supported in Ubuntu 12.04 LTS."
+msgstr "Вашае графічнае абсталяванне, магчыма, не будзе падтрымлівацца цалкам у Ubuntu 12.04 LTS"
 
 #: ../DistUpgrade/DistUpgradeQuirks.py:216
-msgid ""
-"The support in Ubuntu 12.04 LTS for your Intel graphics hardware is limited "
-"and you may encounter problems after the upgrade. For more information see "
-"https://wiki.ubuntu.com/X/Bugs/UpdateManagerWarningForI8xx Do you want to "
-"continue with the upgrade?"
-msgstr ""
-"Падтрымка вашай відэакарты ў Ubuntu 12.04 LTS будзе абмежаванай і вы можаце "
-"сутыкнуцца з праблемамі пасля абнаўлення. Прачытайце падрабязнасці тут "
-"https://wiki.ubuntu.com/X/Bugs/UpdateManagerWarningForI8xx \r\n"
+msgid "The support in Ubuntu 12.04 LTS for your Intel graphics hardware is limited and you may encounter problems after the upgrade. For more information see https://wiki.ubuntu.com/X/Bugs/UpdateManagerWarningForI8xx Do you want to continue with the upgrade?"
+msgstr "Падтрымка вашай відэакарты ў Ubuntu 12.04 LTS будзе абмежаванай і вы можаце сутыкнуцца з праблемамі пасля абнаўлення. Прачытайце падрабязнасці тут https://wiki.ubuntu.com/X/Bugs/UpdateManagerWarningForI8xx \r\n"
 "Вы сапраўды хочаце працягнуць абнаўленне?"
 
 #: ../DistUpgrade/DistUpgradeQuirks.py:236
-msgid ""
-"Upgrading may reduce desktop effects, and performance in games and other "
-"graphically intensive programs."
-msgstr ""
-"Абнаўленне можа выклікаць зніжэнне якасці эфектаў працоўнага стала і "
-"прадукцыйнасці ў гульнях і праграмах, што актыўна выкарыстоўваюць графіку."
+msgid "Upgrading may reduce desktop effects, and performance in games and other graphically intensive programs."
+msgstr "Абнаўленне можа выклікаць зніжэнне якасці эфектаў працоўнага стала і прадукцыйнасці ў гульнях і праграмах, што актыўна выкарыстоўваюць графіку."
 
 #: ../DistUpgrade/DistUpgradeQuirks.py:240
-msgid ""
-"This computer is currently using the AMD 'fglrx' graphics driver. No version "
-"of this driver is available that works with your hardware in Ubuntu 10.04 "
-"LTS.\n"
-"\n"
+msgid "This computer is currently using the AMD 'fglrx' graphics driver. No version of this driver is available that works with your hardware in Ubuntu 10.04 LTS.\n\n"
 "Do you want to continue?"
-msgstr ""
-"На гэтым кампутары выкарыстоўваюцца драйвера AMD 'fglrx'. Няма даступных "
-"версій гэтых драйвераў, якія працавалі бы з Вашым абсталяваннем ва 10.04 "
-"LTS\n"
-"\n"
+msgstr "На гэтым кампутары выкарыстоўваюцца драйвера AMD 'fglrx'. Няма даступных версій гэтых драйвераў, якія працавалі бы з Вашым абсталяваннем ва 10.04 LTS\n\n"
 "Працягнуць?"
 
 #: ../DistUpgrade/DistUpgradeQuirks.py:275
@@ -1079,8 +787,7 @@ msgid "apt architecture is i386"
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeQuirks.py:276
-msgid ""
-"Upgrades from 18.04 on the i386 architecture are not supported at this time."
+msgid "Upgrades from 18.04 on the i386 architecture are not supported at this time."
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeQuirks.py:290
@@ -1088,33 +795,17 @@ msgid "No ARMv6 CPU"
 msgstr "Няма працэсара ARMv6"
 
 #: ../DistUpgrade/DistUpgradeQuirks.py:291
-msgid ""
-"Your system uses an ARM CPU that is older than the ARMv6 architecture. All "
-"packages in karmic were built with optimizations requiring ARMv6 as the "
-"minimal architecture. It is not possible to upgrade your system to a new "
-"Ubuntu release with this hardware."
-msgstr ""
-"Ваша сістэма выкарыстоўвае працэсар архітэктуры ARM, старэйшы за архітэктуру "
-"ARMv6. Усе пакункі ў karmic былі пабудаваны з аптымізацыяй пад архітэктуру "
-"ARMv6 і вышэй. Вашу сістэму немагчыма абнавіць да новага рэлізу Ubuntu з "
-"бягучым апаратным забеспячэннем."
+msgid "Your system uses an ARM CPU that is older than the ARMv6 architecture. All packages in karmic were built with optimizations requiring ARMv6 as the minimal architecture. It is not possible to upgrade your system to a new Ubuntu release with this hardware."
+msgstr "Ваша сістэма выкарыстоўвае працэсар архітэктуры ARM, старэйшы за архітэктуру ARMv6. Усе пакункі ў karmic былі пабудаваны з аптымізацыяй пад архітэктуру ARMv6 і вышэй. Вашу сістэму немагчыма абнавіць да новага рэлізу Ubuntu з бягучым апаратным забеспячэннем."
 
 #: ../DistUpgrade/DistUpgradeQuirks.py:311
 msgid "No init available"
 msgstr "Служба init недаступна"
 
 #: ../DistUpgrade/DistUpgradeQuirks.py:312
-msgid ""
-"Your system appears to be a virtualised environment without an init daemon, "
-"e.g. Linux-VServer. Ubuntu 10.04 LTS cannot function within this type of "
-"environment, requiring an update to your virtual machine configuration "
-"first.\n"
-"\n"
+msgid "Your system appears to be a virtualised environment without an init daemon, e.g. Linux-VServer. Ubuntu 10.04 LTS cannot function within this type of environment, requiring an update to your virtual machine configuration first.\n\n"
 "Are you sure you want to continue?"
-msgstr ""
-"Падобна на тое, што Ваша сістэма з'яўляецца віртуалізаваным асяроддзем без "
-"службы init, напрыклад Linux-VServer.\n"
-"\n"
+msgstr "Падобна на тое, што Ваша сістэма з'яўляецца віртуалізаваным асяроддзем без службы init, напрыклад Linux-VServer.\n\n"
 "Вы ўпэўнены, што хочаце працягнуць?"
 
 #: ../DistUpgrade/DistUpgradeQuirks.py:416
@@ -1122,10 +813,7 @@ msgid "Connection to Snap Store failed"
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeQuirks.py:417
-msgid ""
-"Your system does not have a connection to the Snap Store. For the best "
-"upgrade experience make sure that your system can connect to "
-"api.snapcraft.io.\n"
+msgid "Your system does not have a connection to the Snap Store. For the best upgrade experience make sure that your system can connect to api.snapcraft.io.\n"
 "Do you still want to continue with the upgrade?"
 msgstr ""
 
@@ -1134,9 +822,7 @@ msgid "Outdated snapd package"
 msgstr ""
 
 #: ../DistUpgrade/DistUpgradeQuirks.py:427
-msgid ""
-"Your system does not have the latest version of snapd. Please update the "
-"version of snapd on your system to improve the upgrade experience.\n"
+msgid "Your system does not have the latest version of snapd. Please update the version of snapd on your system to improve the upgrade experience.\n"
 "Do you still want to continue with the upgrade?"
 msgstr ""
 
@@ -1154,28 +840,18 @@ msgid "PAE not enabled"
 msgstr "PAE не ўключана"
 
 #: ../DistUpgrade/DistUpgradeQuirks.py:494
-msgid ""
-"Your system uses a CPU that does not have PAE enabled. Ubuntu only supports "
-"non-PAE systems up to Ubuntu 12.04. To upgrade to a later version of Ubuntu, "
-"you must enable PAE (if this is possible) see:\n"
+msgid "Your system uses a CPU that does not have PAE enabled. Ubuntu only supports non-PAE systems up to Ubuntu 12.04. To upgrade to a later version of Ubuntu, you must enable PAE (if this is possible) see:\n"
 "http://help.ubuntu.com/community/EnablingPAE"
-msgstr ""
-"У вашай сістэме выкарыстоўваецца працэсар, у якім не ўключаныя Інструкцыі "
-"PAE. Карыстацца Ubuntu ў сістэмах без PAE можна толькі ў версіі Ubuntu "
-"12.10. Абнаўленне да новай версіі Ubuntu запатрабуе ўключэння PAE (калі гэта "
-"магчыма). Гл.: Http://help.ubuntu.com/community/EnablingPAE"
+msgstr "У вашай сістэме выкарыстоўваецца працэсар, у якім не ўключаныя Інструкцыі PAE. Карыстацца Ubuntu ў сістэмах без PAE можна толькі ў версіі Ubuntu 12.10. Абнаўленне да новай версіі Ubuntu запатрабуе ўключэння PAE (калі гэта магчыма). Гл.: Http://help.ubuntu.com/community/EnablingPAE"
 
 #: ../DistUpgrade/DistUpgradeMain.py:58
 msgid "Use the given path to search for a cdrom with upgradable packages"
-msgstr ""
-"Выкарыстоўваць дадзены шлях для пошука кампакт-дыска з пакункамі абнаўленняў."
+msgstr "Выкарыстоўваць дадзены шлях для пошука кампакт-дыска з пакункамі абнаўленняў."
 
 #: ../DistUpgrade/DistUpgradeMain.py:64
-msgid ""
-"Use frontend. Currently available: \n"
+msgid "Use frontend. Currently available: \n"
 "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
-msgstr ""
-"Выкарстоўваць інтэрфэйс. Зараз даступны: \n"
+msgstr "Выкарстоўваць інтэрфэйс. Зараз даступны: \n"
 "DistUpgradeViewText, DistUpgradeViewGtk, DistUpgradeViewKDE"
 
 #: ../DistUpgrade/DistUpgradeMain.py:67
@@ -1184,8 +860,7 @@ msgstr "Гэты параметр САСТАРЭЎ і не будзе ўлічв
 
 #: ../DistUpgrade/DistUpgradeMain.py:70
 msgid "Perform a partial upgrade only (no sources.list rewriting)"
-msgstr ""
-"Падрыхтаваць толькі частковае абнаўленне (sources.list ня будзе перазапісаны)"
+msgstr "Падрыхтаваць толькі частковае абнаўленне (sources.list ня будзе перазапісаны)"
 
 #: ../DistUpgrade/DistUpgradeMain.py:73
 msgid "Disable GNU screen support"
@@ -1247,33 +922,22 @@ msgstr "Немагчыма ўсталяваць \"%s\""
 #: ../DistUpgrade/DistUpgradeViewGtk3.py:230
 #: ../DistUpgrade/DistUpgradeViewKDE.py:389
 #, python-format
-msgid ""
-"The upgrade will continue but the '%s' package may not be in a working "
-"state. Please consider submitting a bug report about it."
-msgstr ""
-"Абнаўленне будзе працягнута, але '%s' пакунак(аў) могуць быць у непрацоўным "
-"стане. Калі ласка, разглядзіце магчымасць аб паданні справаздачы на конт "
-"памылкі."
+msgid "The upgrade will continue but the '%s' package may not be in a working state. Please consider submitting a bug report about it."
+msgstr "Абнаўленне будзе працягнута, але '%s' пакунак(аў) могуць быць у непрацоўным стане. Калі ласка, разглядзіце магчымасць аб паданні справаздачы на конт памылкі."
 
 #. self.expander.set_expanded(True)
 #: ../DistUpgrade/DistUpgradeViewGtk3.py:247
 #: ../DistUpgrade/DistUpgradeViewKDE.py:411
 #, python-format
-msgid ""
-"Replace the customized configuration file\n"
+msgid "Replace the customized configuration file\n"
 "'%s'?"
-msgstr ""
-"Замяніць адмысловы файл наладкі\n"
+msgstr "Замяніць адмысловы файл наладкі\n"
 " \"%s\"?"
 
 #: ../DistUpgrade/DistUpgradeViewGtk3.py:248
 #: ../DistUpgrade/DistUpgradeViewKDE.py:412
-msgid ""
-"You will lose any changes you have made to this configuration file if you "
-"choose to replace it with a newer version."
-msgstr ""
-"Вы страціце ўсе змены, якія зрабілі ў гэтым файле канфігурацыі, калі "
-"заменіце яго новай версіяй."
+msgid "You will lose any changes you have made to this configuration file if you choose to replace it with a newer version."
+msgstr "Вы страціце ўсе змены, якія зрабілі ў гэтым файле канфігурацыі, калі заменіце яго новай версіяй."
 
 #: ../DistUpgrade/DistUpgradeViewGtk3.py:268
 #: ../DistUpgrade/DistUpgradeViewKDE.py:435
@@ -1286,35 +950,24 @@ msgid "A fatal error occurred"
 msgstr "Адбылася крытычная памылка"
 
 #: ../DistUpgrade/DistUpgradeViewGtk3.py:532
-msgid ""
-"Please report this as a bug (if you haven't already) and include the files "
-"/var/log/dist-upgrade/main.log and /var/log/dist-upgrade/apt.log in your "
-"report. The upgrade has aborted.\n"
+msgid "Please report this as a bug (if you haven't already) and include the files /var/log/dist-upgrade/main.log and /var/log/dist-upgrade/apt.log in your report. The upgrade has aborted.\n"
 "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
-msgstr ""
-"Калі ласка, паведаміце аб гэтым як аб памылцы (калі вы яшчэ гэтага не "
-"зрабілі) і далучыце файлы /var/log/dist-upgrade/main.log и /var/log/dist-"
-"upgrade/apt.log у вашу справаздачу. Абнаўленне было скасавана.\n"
-"Ваш арыгінальны файл sources.list быў захаваны ў  "
-"/etc/apt/sources.list.distUpgrade."
+msgstr "Калі ласка, паведаміце аб гэтым як аб памылцы (калі вы яшчэ гэтага не зрабілі) і далучыце файлы /var/log/dist-upgrade/main.log и /var/log/dist-upgrade/apt.log у вашу справаздачу. Абнаўленне было скасавана.\n"
+"Ваш арыгінальны файл sources.list быў захаваны ў  /etc/apt/sources.list.distUpgrade."
 
 #: ../DistUpgrade/DistUpgradeViewGtk3.py:562
 msgid "Ctrl-c pressed"
 msgstr "націснута Ctrl-c"
 
 #: ../DistUpgrade/DistUpgradeViewGtk3.py:563
-msgid ""
-"This will abort the operation and may leave the system in a broken state. "
-"Are you sure you want to do that?"
-msgstr ""
-"Гэта скасуе працэс і сістэма можа стаць непрацаздольнай. \r\n"
+msgid "This will abort the operation and may leave the system in a broken state. Are you sure you want to do that?"
+msgstr "Гэта скасуе працэс і сістэма можа стаць непрацаздольнай. \r\n"
 "Вы сапраўды хочаце зрабіць гэта ?"
 
 #. append warning
 #: ../DistUpgrade/DistUpgradeViewGtk3.py:702
 msgid "To prevent data loss close all open applications and documents."
-msgstr ""
-"Каб пазбегнуць страты дадзеных, зачыніце ўсе адчыненыя праграмы і дакументы."
+msgstr "Каб пазбегнуць страты дадзеных, зачыніце ўсе адчыненыя праграмы і дакументы."
 
 #: ../DistUpgrade/DistUpgradeViewGtk3.py:716
 #, python-format
@@ -1436,15 +1089,10 @@ msgstr "&Зачыніць"
 
 #. FIXME make this user friendly
 #: ../DistUpgrade/DistUpgradeViewKDE.py:974
-msgid ""
-"<b><big>Cancel the running upgrade?</big></b>\n"
-"\n"
-"The system could be in an unusable state if you cancel the upgrade. You are "
-"strongly advised to resume the upgrade."
-msgstr ""
-"<b><big>Перарваць абнаўленне?</big></b>\n"
-"Калі вы перапыніце абнаўленне, сістэма можа працаваць нестабільна. "
-"Настойліва рэкамендуем працягваць абнаўленне."
+msgid "<b><big>Cancel the running upgrade?</big></b>\n\n"
+"The system could be in an unusable state if you cancel the upgrade. You are strongly advised to resume the upgrade."
+msgstr "<b><big>Перарваць абнаўленне?</big></b>\n"
+"Калі вы перапыніце абнаўленне, сістэма можа працаваць нестабільна. Настойліва рэкамендуем працягваць абнаўленне."
 
 #: ../DistUpgrade/DistUpgradeViewKDE.py:978
 msgid "Cancel Upgrade?"
@@ -1457,6 +1105,7 @@ msgid_plural "%li days"
 msgstr[0] "%li дзень"
 msgstr[1] "%li дні"
 msgstr[2] "%li дзён"
+msgstr[3] ""
 
 #: ../DistUpgrade/DistUpgradeView.py:84
 #, python-format
@@ -1465,6 +1114,7 @@ msgid_plural "%li hours"
 msgstr[0] "%li гадзіна"
 msgstr[1] "%li гадзіны"
 msgstr[2] "%li гадзін"
+msgstr[3] ""
 
 #: ../DistUpgrade/DistUpgradeView.py:86
 #, python-format
@@ -1473,6 +1123,7 @@ msgid_plural "%li minutes"
 msgstr[0] "%li хвіліна"
 msgstr[1] "%li хвіліны"
 msgstr[2] "%li хвілін"
+msgstr[3] ""
 
 #: ../DistUpgrade/DistUpgradeView.py:87
 #, python-format
@@ -1481,6 +1132,7 @@ msgid_plural "%li seconds"
 msgstr[0] "%li сэкунда"
 msgstr[1] "%li сэкунды"
 msgstr[2] "%li сэкундаў"
+msgstr[3] ""
 
 #. TRANSLATORS: you can alter the ordering of the remaining time
 #. information here if you shuffle %(str_days)s %(str_hours)s %(str_minutes)s
@@ -1494,7 +1146,7 @@ msgstr[2] "%li сэкундаў"
 #: ../DistUpgrade/DistUpgradeView.py:103
 #, python-format
 msgid "%(str_days)s %(str_hours)s"
-msgstr "%(str_days)s %(str_hours)s"
+msgstr ""
 
 #. TRANSLATORS: you can alter the ordering of the remaining time
 #. information here if you shuffle %(str_hours)s %(str_minutes)s
@@ -1508,18 +1160,14 @@ msgstr "%(str_days)s %(str_hours)s"
 #: ../DistUpgrade/DistUpgradeView.py:121
 #, python-format
 msgid "%(str_hours)s %(str_minutes)s"
-msgstr "%(str_hours)s %(str_minutes)s"
+msgstr ""
 
 #. 56 kbit
 #. 1Mbit = 1024 kbit
 #: ../DistUpgrade/DistUpgradeView.py:172
 #, python-format
-msgid ""
-"This download will take about %s with a 1Mbit DSL connection and about %s "
-"with a 56k modem."
-msgstr ""
-"Загрузка працягнецца каля %s пры 1Мбіт DSL злучэнні і каля %s пры мадэмнам "
-"злучэнні на хуткасці 56Кбіт."
+msgid "This download will take about %s with a 1Mbit DSL connection and about %s with a 56k modem."
+msgstr "Загрузка працягнецца каля %s пры 1Мбіт DSL злучэнні і каля %s пры мадэмнам злучэнні на хуткасці 56Кбіт."
 
 #. if we have a estimated speed, use it
 #: ../DistUpgrade/DistUpgradeView.py:176
@@ -1551,21 +1199,12 @@ msgstr "Ачыстка"
 
 #: ../DistUpgrade/DistUpgradeView.py:361
 #, python-format
-msgid ""
-"%(amount)d installed package is no longer supported by Canonical. You can "
-"still get support from the community."
-msgid_plural ""
-"%(amount)d installed packages are no longer supported by Canonical. You can "
-"still get support from the community."
-msgstr[0] ""
-"%(amount)d усталяваны пакет больш не падтрымліваецца Canonical. Вы можаце "
-"атрымаць падтрымку ў суполцы."
-msgstr[1] ""
-"%(amount)d усталяваных пакета больш не падтрымліваюцца Canonical. Вы можаце "
-"атрымаць падтрымку ў суполцы."
-msgstr[2] ""
-"%(amount)d усталяваных пакетаў больш не падтрымліваюцца Canonical. Вы можаце "
-"атрымаць падтрымку ў суполцы."
+msgid "%(amount)d installed package is no longer supported by Canonical. You can still get support from the community."
+msgid_plural "%(amount)d installed packages are no longer supported by Canonical. You can still get support from the community."
+msgstr[0] "%(amount)d усталяваны пакет больш не падтрымліваецца Canonical. Вы можаце атрымаць падтрымку ў суполцы."
+msgstr[1] "%(amount)d усталяваных пакета больш не падтрымліваюцца Canonical. Вы можаце атрымаць падтрымку ў суполцы."
+msgstr[2] "%(amount)d усталяваных пакетаў больш не падтрымліваюцца Canonical. Вы можаце атрымаць падтрымку ў суполцы."
+msgstr[3] ""
 
 #. FIXME: make those two separate lines to make it clear
 #. that the "%" applies to the result of ngettext
@@ -1576,6 +1215,7 @@ msgid_plural "%d packages are going to be removed."
 msgstr[0] "%d пакет будзе выдалены."
 msgstr[1] "%d пакеты будзе выдалена."
 msgstr[2] "%d пакетаў будзе выдалена."
+msgstr[3] ""
 
 #: ../DistUpgrade/DistUpgradeView.py:375
 #, python-format
@@ -1584,6 +1224,7 @@ msgid_plural "%d new packages are going to be installed."
 msgstr[0] "%d новы пакет буде ўсталяваны."
 msgstr[1] "%d новых пакеты будзе ўсталявана."
 msgstr[2] "%d новых пакетаў будзе ўсталявана."
+msgstr[3] ""
 
 #: ../DistUpgrade/DistUpgradeView.py:381
 #, python-format
@@ -1592,33 +1233,22 @@ msgid_plural "%d packages are going to be upgraded."
 msgstr[0] "%d пакет будзе абноўлены."
 msgstr[1] "%d пакеты будзе абноўлена."
 msgstr[2] "%d пакетаў будзе абноўлена."
+msgstr[3] ""
 
 #: ../DistUpgrade/DistUpgradeView.py:389
 #, python-format
-msgid ""
-"\n"
-"\n"
+msgid "\n\n"
 "You have to download a total of %s. "
-msgstr ""
-"\n"
-"\n"
+msgstr "\n\n"
 "Усяго неабходна загрузіць %s. "
 
 #: ../DistUpgrade/DistUpgradeView.py:394
-msgid ""
-"Installing the upgrade can take several hours. Once the download has "
-"finished, the process cannot be canceled."
-msgstr ""
-"Усталёўка абнаўлення можа заняць некалькі гадзін. Пасля сканчэння спампоўкі "
-"скасаваць усталёўку будзе немагчыма."
+msgid "Installing the upgrade can take several hours. Once the download has finished, the process cannot be canceled."
+msgstr "Усталёўка абнаўлення можа заняць некалькі гадзін. Пасля сканчэння спампоўкі скасаваць усталёўку будзе немагчыма."
 
 #: ../DistUpgrade/DistUpgradeView.py:398
-msgid ""
-"Fetching and installing the upgrade can take several hours. Once the "
-"download has finished, the process cannot be canceled."
-msgstr ""
-"Атрыманне і ўстаноўка абнаўлення можа заняць некалькі гадзін. Як толькі "
-"загрузка завершыцца, гэты працэс не можа быць адменены."
+msgid "Fetching and installing the upgrade can take several hours. Once the download has finished, the process cannot be canceled."
+msgstr "Атрыманне і ўстаноўка абнаўлення можа заняць некалькі гадзін. Як толькі загрузка завершыцца, гэты працэс не можа быць адменены."
 
 #: ../DistUpgrade/DistUpgradeView.py:403
 msgid "Removing the packages can take several hours. "
@@ -1630,9 +1260,7 @@ msgid "The software on this computer is up to date."
 msgstr "Апраграмаванне на гэтым кампутары знаходзіцца ў актуальным стане."
 
 #: ../DistUpgrade/DistUpgradeView.py:409
-msgid ""
-"There are no upgrades available for your system. The upgrade will now be "
-"canceled."
+msgid "There are no upgrades available for your system. The upgrade will now be canceled."
 msgstr "Для вашае сістэмы няма абнаўленняў. Абнаўленне будзе скасавана."
 
 #: ../DistUpgrade/DistUpgradeView.py:425
@@ -1640,10 +1268,8 @@ msgid "Reboot required"
 msgstr "Патрабуецца перазагрузка"
 
 #: ../DistUpgrade/DistUpgradeView.py:426
-msgid ""
-"The upgrade is finished and a reboot is required. Do you want to do this now?"
-msgstr ""
-"Абнаўленне скончанае і патрабуецца перазагрузка. Перазагрузіцца зараз?"
+msgid "The upgrade is finished and a reboot is required. Do you want to do this now?"
+msgstr "Абнаўленне скончанае і патрабуецца перазагрузка. Перазагрузіцца зараз?"
 
 #: ../DistUpgrade/DistUpgradeViewText.py:82
 #, python-format
@@ -1651,17 +1277,10 @@ msgid "Progress: [%3i%%]"
 msgstr "Выкананне: [%3i%%]"
 
 #: ../DistUpgrade/DistUpgradeViewText.py:141
-msgid ""
-"Please report this as a bug and include the files /var/log/dist-"
-"upgrade/main.log and /var/log/dist-upgrade/apt.log in your report. The "
-"upgrade has aborted.\n"
+msgid "Please report this as a bug and include the files /var/log/dist-upgrade/main.log and /var/log/dist-upgrade/apt.log in your report. The upgrade has aborted.\n"
 "Your original sources.list was saved in /etc/apt/sources.list.distUpgrade."
-msgstr ""
-"Калі ласка, паведаміце пра гэта як пра памылку і ўключаюць у сябе файлы "
-"/var/log/dist-upgrade/main.log і /var/log/dist-upgrade/apt.log ў Вашым "
-"дакладзе. Абнаўленне не сфармавалася.\n"
-"Імя арыгінальнае sources.list быў захаваны ў "
-"/etc/apt/sources.list.distUpgrade."
+msgstr "Калі ласка, паведаміце пра гэта як пра памылку і ўключаюць у сябе файлы /var/log/dist-upgrade/main.log і /var/log/dist-upgrade/apt.log ў Вашым дакладзе. Абнаўленне не сфармавалася.\n"
+"Імя арыгінальнае sources.list быў захаваны ў /etc/apt/sources.list.distUpgrade."
 
 #: ../DistUpgrade/DistUpgradeViewText.py:165
 msgid "Aborting"
@@ -1691,7 +1310,7 @@ msgstr "Дэталі [д]"
 #: ../DistUpgrade/DistUpgradeViewText.py:219
 #: ../DistUpgrade/DistUpgradeViewText.py:264
 msgid "y"
-msgstr "y"
+msgstr ""
 
 #. TRANSLATORS: the "n" is "no"
 #. TRANSLATORS: first letter of a negative (no) answer
@@ -1730,11 +1349,9 @@ msgid "Continue [Yn] "
 msgstr "Працягнуць [Тн] "
 
 #: ../DistUpgrade/DistUpgradeViewText.py:293
-msgid ""
-"To finish the upgrade, a restart is required.\n"
+msgid "To finish the upgrade, a restart is required.\n"
 "If you select 'y' the system will be restarted."
-msgstr ""
-"Каб завяршыць абнаўленне, спатрэбіцца перазагрузка.\n"
+msgstr "Каб завяршыць абнаўленне, спатрэбіцца перазагрузка.\n"
 "Калі вы абярэце «т», сістэма будзе перазагружана."
 
 #: ../DistUpgrade/GtkProgress.py:71
@@ -1761,16 +1378,10 @@ msgid "_Resume Upgrade"
 msgstr "Пра_цягваць абнаўленне"
 
 #: ../data/gtkbuilder/DistUpgrade.ui.h:3
-msgid ""
-"<b><big>Cancel the running upgrade?</big></b>\n"
-"\n"
-"The system could be in an unusable state if you cancel the upgrade. You are "
-"strongly adviced to resume the upgrade."
-msgstr ""
-"<b><big>Скасаваць працэс абнаўлення?</big></b>\n"
-"\n"
-"Калі вы перапыніце абнаўленне, сістэма можа апынуцца ў непрацаздольным "
-"стане. Настойліва рэкамендуецца працягваць абнаўленне."
+msgid "<b><big>Cancel the running upgrade?</big></b>\n\n"
+"The system could be in an unusable state if you cancel the upgrade. You are strongly adviced to resume the upgrade."
+msgstr "<b><big>Скасаваць працэс абнаўлення?</big></b>\n\n"
+"Калі вы перапыніце абнаўленне, сістэма можа апынуцца ў непрацаздольным стане. Настойліва рэкамендуецца працягваць абнаўленне."
 
 #: ../data/gtkbuilder/DistUpgrade.ui.h:6
 msgid "_Start Upgrade"
@@ -1797,13 +1408,9 @@ msgid "<b><big>Start the upgrade?</big></b>"
 msgstr "<b><big>Пачаць абнаўленне?</big></b>"
 
 #: ../data/gtkbuilder/DistUpgrade.ui.h:15
-msgid ""
-"<b><big>Restart the system to complete the upgrade</big></b>\n"
-"\n"
+msgid "<b><big>Restart the system to complete the upgrade</big></b>\n\n"
 "Please save your work before continuing."
-msgstr ""
-"<b><big>Перазагрузіце сістэму, каб завяршыць абнаўленне</big></b>\n"
-"\n"
+msgstr "<b><big>Перазагрузіце сістэму, каб завяршыць абнаўленне</big></b>\n\n"
 "Калі ласка, захавайце Вашу працу перад працягам."
 
 #: ../data/gtkbuilder/DistUpgrade.ui.h:18
@@ -1816,7 +1423,7 @@ msgstr ""
 
 #: ../data/gtkbuilder/DistUpgrade.ui.h:20
 msgid "    "
-msgstr "    "
+msgstr ""
 
 #: ../data/gtkbuilder/DistUpgrade.ui.h:22
 msgid "Setting new software channels"
@@ -1835,8 +1442,7 @@ msgid "_Upgrade"
 msgstr "_Абнавіць"
 
 #: ../data/gtkbuilder/UpgradePromptDialog.ui.h:1
-msgid ""
-"<b>A new version of Ubuntu is available. Would you like to upgrade?</b>"
+msgid "<b>A new version of Ubuntu is available. Would you like to upgrade?</b>"
 msgstr "<b>Даступная новая версія Ubuntu. Хочаце абнавіць?</b>"
 
 #: ../data/gtkbuilder/UpgradePromptDialog.ui.h:2
@@ -1856,12 +1462,8 @@ msgid "You have declined to upgrade to the new Ubuntu"
 msgstr "Вы адмовіліся ад абнаўлення да новай версіі Ubuntu"
 
 #: ../data/gtkbuilder/UpgradePromptDialog.ui.h:6
-msgid ""
-"You can upgrade at a later time by opening Software Updater and click on "
-"\"Upgrade\"."
-msgstr ""
-"Можна абнавіць пазней, адкрыўшы прыладу абнаўлення праграм і націснуўшы "
-"«Абнавіць»."
+msgid "You can upgrade at a later time by opening Software Updater and click on \"Upgrade\"."
+msgstr "Можна абнавіць пазней, адкрыўшы прыладу абнаўлення праграм і націснуўшы «Абнавіць»."
 
 #: ../data/com.ubuntu.release-upgrader.policy.in.h:1
 msgid "Perform a release upgrade"
@@ -1900,38 +1502,25 @@ msgid "Downloading the release upgrade tool"
 msgstr "Спампоўваецца праграма для абнаўлення дыстрыбутыва"
 
 #: ../do-release-upgrade:83
-msgid ""
-"If using the latest supported release, upgrade to the development release"
+msgid "If using the latest supported release, upgrade to the development release"
 msgstr ""
 
 #: ../do-release-upgrade:90 ../check_new_release_gtk.py:181
-msgid ""
-"Try upgrading to the latest release using the upgrader from $distro-proposed"
-msgstr ""
-"Паспрабуйце абнавіцца да самага апошняга выпуска з дапамогай $distro-proposed"
+msgid "Try upgrading to the latest release using the upgrader from $distro-proposed"
+msgstr "Паспрабуйце абнавіцца да самага апошняга выпуска з дапамогай $distro-proposed"
 
 #: ../do-release-upgrade:94
-msgid ""
-"Run in a special upgrade mode.\n"
-"Currently 'desktop' for regular upgrades of a desktop system and 'server' "
-"for server systems are supported."
-msgstr ""
-"Запусьціць у спэцыяльным рэжыме абнаўлення.\n"
-"Зараз падтрымліваецца рэгулярнае абнаўленьне для «настольных» і «серверных» "
-"сістэм."
+msgid "Run in a special upgrade mode.\n"
+"Currently 'desktop' for regular upgrades of a desktop system and 'server' for server systems are supported."
+msgstr "Запусьціць у спэцыяльным рэжыме абнаўлення.\n"
+"Зараз падтрымліваецца рэгулярнае абнаўленьне для «настольных» і «серверных» сістэм."
 
 #: ../do-release-upgrade:103
-msgid ""
-"Check only if a new distribution release is available and report the result "
-"via the exit code"
-msgstr ""
-"Правяраць наяўнасць новай версіі дыстрыбутыва і вярнуць вынік з дапамогай "
-"кода выхаду"
+msgid "Check only if a new distribution release is available and report the result via the exit code"
+msgstr "Правяраць наяўнасць новай версіі дыстрыбутыва і вярнуць вынік з дапамогай кода выхаду"
 
 #: ../do-release-upgrade:108
-msgid ""
-"Try the upgrade with third party mirrors and repositories enabled instead of "
-"commenting them out."
+msgid "Try the upgrade with third party mirrors and repositories enabled instead of commenting them out."
 msgstr ""
 
 #: ../do-release-upgrade:122
@@ -1940,9 +1529,7 @@ msgstr "Опцыі --devel-release і --proposed"
 
 #: ../do-release-upgrade:123
 msgid "mutually exclusive. Please use only one of them."
-msgstr ""
-"нельга выкарыстоўваць адначасова. Калі ласка, выкарыстоўвайце толькі адзін з "
-"іх."
+msgstr "нельга выкарыстоўваць адначасова. Калі ласка, выкарыстоўвайце толькі адзін з іх."
 
 #: ../do-release-upgrade:127
 msgid "Checking for a new Ubuntu release"
@@ -1953,11 +1540,9 @@ msgid "Your Ubuntu release is not supported anymore."
 msgstr "Ваш выпуск Ubuntu больш не падтрымліваецца."
 
 #: ../do-release-upgrade:140
-msgid ""
-"For upgrade information, please visit:\n"
+msgid "For upgrade information, please visit:\n"
 "%(url)s\n"
-msgstr ""
-"Каб атрымаць інфармацыю аб абнаўленні, наведайце:\n"
+msgstr "Каб атрымаць інфармацыю аб абнаўленні, наведайце:\n"
 "%(url)s\n"
 
 #: ../do-release-upgrade:147
@@ -1998,12 +1583,8 @@ msgstr "Абнаўленьне выпуску зараз немагчымае"
 
 #: ../do-release-upgrade:163
 #, c-format
-msgid ""
-"The release upgrade can not be performed currently, please try again later. "
-"The server reported: '%s'"
-msgstr ""
-"Абнаўленне рэлізу цяпер не можа быць выканана, паспрабуйце пазней. Сервер "
-"паведаміў: '%s'"
+msgid "The release upgrade can not be performed currently, please try again later. The server reported: '%s'"
+msgstr "Абнаўленне рэлізу цяпер не можа быць выканана, паспрабуйце пазней. Сервер паведаміў: '%s'"
 
 #: ../do-release-upgrade:169
 #, c-format
@@ -2015,14 +1596,11 @@ msgid "Run 'do-release-upgrade' to upgrade to it."
 msgstr "Выканайце «do-release-upgrade», каб абнавіцца да яго."
 
 #: ../do-release-upgrade:187
-msgid ""
-"Please install all available updates for your release before upgrading."
+msgid "Please install all available updates for your release before upgrading."
 msgstr ""
 
 #: ../do-release-upgrade:199
-msgid ""
-"You have not rebooted after updating a package which requires a reboot. "
-"Please reboot before upgrading."
+msgid "You have not rebooted after updating a package which requires a reboot. Please reboot before upgrading."
 msgstr ""
 
 #: ../check_new_release_gtk.py:85
@@ -2042,9 +1620,9 @@ msgstr "Вы адмовіліся ад абнаўлення да Ubuntu %s"
 
 #: ../check_new_release_gtk.py:177
 msgid "Check if upgrading to the latest devel release is possible"
-msgstr ""
-"Праверка магчымасці абнаўлення да апошняй нестабільнай версіі дыстрыбутыва"
+msgstr "Праверка магчымасці абнаўлення да апошняй нестабільнай версіі дыстрыбутыва"
 
 #: ../check_new_release_gtk.py:186
 msgid "Add debug output"
 msgstr "Дадаць дапаможную інфармацыю"
+

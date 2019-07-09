@@ -1,24 +1,21 @@
-# Ukrainian translation of cpplib.
-# Copyright (C) 2007 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gcc package.
-#
-# Maxim V. Dziumanenko <dziumanenko@gmail.com>, 2007.
-# Yuri Chornoivan <yurchor@ukr.net>, 2012, 2013, 2014, 2015, 2016, 2017, 2018.
 msgid ""
 msgstr ""
-"Project-Id-Version: cpplib 8.1-b20180128\n"
-"Report-Msgid-Bugs-To: https://gcc.gnu.org/bugs/\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-04-23 20:24+0000\n"
-"PO-Revision-Date: 2019-05-06 23:54+0000\n"
-"Last-Translator: yurchor <Unknown>\n"
-"Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2019-07-08 17:20\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 13:36+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: uk\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/cpplib.po\n"
+"Language: uk_UA\n"
 
 #: charset.c:674
 #, c-format
@@ -27,7 +24,7 @@ msgstr "перетворення з %s у %s не підтримується ico
 
 #: charset.c:677
 msgid "iconv_open"
-msgstr "iconv_open"
+msgstr ""
 
 #: charset.c:685
 #, c-format
@@ -189,9 +186,7 @@ msgstr "у традиційній мові C ігноруються #%s, якщ�
 #: directives.c:410
 #, c-format
 msgid "suggest hiding #%s from traditional C with an indented #"
-msgstr ""
-"рекомендується приховувати #%s у традиційній мові C використовуючи відступ "
-"перед #"
+msgstr "рекомендується приховувати #%s у традиційній мові C використовуючи відступ перед #"
 
 #: directives.c:436
 msgid "embedding a directive within macro arguments is not portable"
@@ -217,9 +212,7 @@ msgstr "\"__has_include__\" не можна використовувати як 
 #: directives.c:617
 #, c-format
 msgid "\"%s\" cannot be used as a macro name as it is an operator in C++"
-msgstr ""
-"\"%s\" не може використовуватись як назва макроса, оскільки це - оператор у "
-"C++"
+msgstr "\"%s\" не може використовуватись як назва макроса, оскільки це - оператор у C++"
 
 #: directives.c:620
 #, c-format
@@ -291,8 +284,7 @@ msgstr "\"%s\" після # не є додатнім цілим числом"
 #: directives.c:1098
 #, c-format
 msgid "file \"%s\" linemarker ignored due to incorrect nesting"
-msgstr ""
-"засіб позначення рядків файла «%s» проігноровано через некоректну вкладеність"
+msgstr "засіб позначення рядків файла «%s» проігноровано через некоректну вкладеність"
 
 #: directives.c:1157
 #: directives.c:1159
@@ -300,7 +292,7 @@ msgstr ""
 #: directives.c:1747
 #, c-format
 msgid "%s"
-msgstr "%s"
+msgstr ""
 
 #: directives.c:1185
 #, c-format
@@ -309,16 +301,13 @@ msgstr "некоректна директива #%s"
 
 #: directives.c:1248
 #, c-format
-msgid ""
-"registering pragmas in namespace \"%s\" with mismatched name expansion"
-msgstr ""
-"прагми реєструються у просторі назв \"%s\" за відсутності розширення назв"
+msgid "registering pragmas in namespace \"%s\" with mismatched name expansion"
+msgstr "прагми реєструються у просторі назв \"%s\" за відсутності розширення назв"
 
 #: directives.c:1257
 #, c-format
 msgid "registering pragma \"%s\" with name expansion and no namespace"
-msgstr ""
-"прагма \"%s\" реєструється з розширенням назви але без простору назви"
+msgstr "прагма \"%s\" реєструється з розширенням назви але без простору назви"
 
 #: directives.c:1275
 #, c-format
@@ -447,11 +436,11 @@ msgstr "незавершений коментар"
 #: errors.c:284
 #, c-format
 msgid "%s: %s"
-msgstr "%s: %s"
+msgstr ""
 
 #: errors.c:296
 msgid "stdout"
-msgstr "stdout"
+msgstr ""
 
 #: expr.c:628
 #: expr.c:745
@@ -464,14 +453,11 @@ msgstr "некоректний префікс \"0b\" для константи �
 
 #: expr.c:666
 msgid "use of C++17 hexadecimal floating constant"
-msgstr ""
-"використовуйте десятково-шістнадцяткову константу із рухомою крапкою "
-"стандарту C++17"
+msgstr "використовуйте десятково-шістнадцяткову константу із рухомою крапкою стандарту C++17"
 
 #: expr.c:669
 msgid "use of C99 hexadecimal floating constant"
-msgstr ""
-"використовуйте десятково-шістнадцяткову константу з рухомою крапкою мови C99"
+msgstr "використовуйте десятково-шістнадцяткову константу з рухомою крапкою мови C99"
 
 #: expr.c:713
 #, c-format
@@ -491,9 +477,7 @@ msgstr "суфікс для констант double є розширенням GC
 #: expr.c:738
 #, c-format
 msgid "invalid suffix \"%.*s\" with hexadecimal floating constant"
-msgstr ""
-"некоректний суфікс \"%.*s\" з десятково-шістнадцятковою константою з "
-"плаваючою комою"
+msgstr "некоректний суфікс \"%.*s\" з десятково-шістнадцятковою константою з плаваючою комою"
 
 #: expr.c:749
 msgid "decimal float constants are a GCC extension"
@@ -653,18 +637,12 @@ msgstr "cppchar_t має бути беззнакового типу"
 
 #: init.c:569
 #, c-format
-msgid ""
-"preprocessor arithmetic has maximum precision of %lu bits; target requires "
-"%lu bits"
-msgstr ""
-"арифметика препроцесора має максимальну точність %lu біт; ціль вимагає %lu "
-"біт"
+msgid "preprocessor arithmetic has maximum precision of %lu bits; target requires %lu bits"
+msgstr "арифметика препроцесора має максимальну точність %lu біт; ціль вимагає %lu біт"
 
 #: init.c:576
 msgid "CPP arithmetic must be at least as precise as a target int"
-msgstr ""
-"арифметика CPP повинна мати принаймні таку ж точність я у цільового цілого "
-"числа"
+msgstr "арифметика CPP повинна мати принаймні таку ж точність я у цільового цілого числа"
 
 #: init.c:579
 msgid "target char is less than 8 bits wide"
@@ -684,12 +662,8 @@ msgstr "CPP half-integer є вужчим за CPP character"
 
 #: init.c:596
 #, c-format
-msgid ""
-"CPP on this host cannot handle wide character constants over %lu bits, but "
-"the target requires %lu bits"
-msgstr ""
-"CPP на цьому вузлі не може обробляти константи з символів шириною понад %lu "
-"біт, але для цілі вимагається %lu біт"
+msgid "CPP on this host cannot handle wide character constants over %lu bits, but the target requires %lu bits"
+msgstr "CPP на цьому вузлі не може обробляти константи з символів шириною понад %lu біт, але для цілі вимагається %lu біт"
 
 #: lex.c:1126
 msgid "backslash and newline separated by space"
@@ -707,8 +681,7 @@ msgstr "тристоронній ??%c перетворено на %c"
 #: lex.c:1155
 #, c-format
 msgid "trigraph ??%c ignored, use -trigraphs to enable"
-msgstr ""
-"тристоронній ??%c проігноровано, використовуйте -trigraphs, щоб увімкнути"
+msgstr "тристоронній ??%c проігноровано, використовуйте -trigraphs, щоб увімкнути"
 
 #: lex.c:1204
 msgid "\"/*\" within comment"
@@ -739,9 +712,7 @@ msgstr "__VA_OPT__ є недоступним до C++2a"
 
 #: lex.c:1372
 msgid "__VA_OPT__ can only appear in the expansion of a C++2a variadic macro"
-msgstr ""
-"__VA_OPT__ може з'являтися лише у розширенні варіативних макросів зі "
-"стандарту C++2a"
+msgstr "__VA_OPT__ може з'являтися лише у розширенні варіативних макросів зі стандарту C++2a"
 
 #: lex.c:1403
 #: lex.c:1495
@@ -751,17 +722,13 @@ msgstr "спроба використати отруєного (poisoned) \"%s\"
 
 #: lex.c:1413
 #: lex.c:1505
-msgid ""
-"__VA_ARGS__ can only appear in the expansion of a C++11 variadic macro"
-msgstr ""
-"__VA_ARGS__ може з'являтися лише у розширенні варіативних макросів з мови "
-"C++11"
+msgid "__VA_ARGS__ can only appear in the expansion of a C++11 variadic macro"
+msgstr "__VA_ARGS__ може з'являтися лише у розширенні варіативних макросів з мови C++11"
 
 #: lex.c:1417
 #: lex.c:1509
 msgid "__VA_ARGS__ can only appear in the expansion of a C99 variadic macro"
-msgstr ""
-"__VA_ARGS__ може з'являтися лише у розширенні варіативних макросів з мови C99"
+msgstr "__VA_ARGS__ може з'являтися лише у розширенні варіативних макросів з мови C99"
 
 #: lex.c:1427
 #: lex.c:1521
@@ -789,12 +756,8 @@ msgstr "незавершений простий рядок"
 
 #: lex.c:1925
 #: lex.c:2054
-msgid ""
-"invalid suffix on literal; C++11 requires a space between literal and string "
-"macro"
-msgstr ""
-"некоректний суфікс у літералі; стандарт C++11 вимагає використання пробілу "
-"між літералом та рядком макросу"
+msgid "invalid suffix on literal; C++11 requires a space between literal and string macro"
+msgstr "некоректний суфікс у літералі; стандарт C++11 вимагає використання пробілу між літералом та рядком макросу"
 
 #: lex.c:2037
 msgid "null character(s) preserved in literal"
@@ -807,8 +770,7 @@ msgstr "відсутній завершальний символ %c"
 
 #: lex.c:2072
 msgid "C++11 requires a space between string literal and macro"
-msgstr ""
-"стандарт C++11 вимагає використання пробілу між літералом та рядком макроса"
+msgstr "стандарт C++11 вимагає використання пробілу між літералом та рядком макроса"
 
 #: lex.c:2876
 #: lex.c:2910
@@ -874,28 +836,20 @@ msgstr "некоректний символьний літерал, ігнору
 #: macro.c:822
 #, c-format
 msgid "pasting \"%s\" and \"%s\" does not give a valid preprocessing token"
-msgstr ""
-"вставка \"%s\" та \"%s\" не призводить до коректної лексеми препроцесора"
+msgstr "вставка \"%s\" та \"%s\" не призводить до коректної лексеми препроцесора"
 
 #: macro.c:948
-msgid ""
-"ISO C++11 requires at least one argument for the \"...\" in a variadic macro"
-msgstr ""
-"ISO C++11 потребує принаймні одного аргументу для використання \"...\" у "
-"варіативному макросі"
+msgid "ISO C++11 requires at least one argument for the \"...\" in a variadic macro"
+msgstr "ISO C++11 потребує принаймні одного аргументу для використання \"...\" у варіативному макросі"
 
 #: macro.c:952
-msgid ""
-"ISO C99 requires at least one argument for the \"...\" in a variadic macro"
-msgstr ""
-"ISO C99 потребує принаймні одного аргументу для використання \"...\" у "
-"варіативному макросі"
+msgid "ISO C99 requires at least one argument for the \"...\" in a variadic macro"
+msgstr "ISO C99 потребує принаймні одного аргументу для використання \"...\" у варіативному макросі"
 
 #: macro.c:959
 #, c-format
 msgid "macro \"%s\" requires %u arguments, but only %u given"
-msgstr ""
-"для макроса \"%s\" потрібно вказати %u аргументів, але вказано лише %u"
+msgstr "для макроса \"%s\" потрібно вказати %u аргументів, але вказано лише %u"
 
 #: macro.c:964
 #, c-format
@@ -910,29 +864,19 @@ msgstr "незавершений список аргументів у викли
 
 #: macro.c:1309
 #, c-format
-msgid ""
-"function-like macro \"%s\" must be used with arguments in traditional C"
-msgstr ""
-"подібний до функції макрос \"%s\" має використовуватися з аргументами у "
-"традиційній мові C"
+msgid "function-like macro \"%s\" must be used with arguments in traditional C"
+msgstr "подібний до функції макрос \"%s\" має використовуватися з аргументами у традиційній мові C"
 
 #: macro.c:2098
 #, c-format
-msgid ""
-"invoking macro %s argument %d: empty macro arguments are undefined in ISO "
-"C++98"
-msgstr ""
-"виклик макросу %s, аргумент %d: порожні аргументи макросів вважаються "
-"невизначеними у ISO C++98"
+msgid "invoking macro %s argument %d: empty macro arguments are undefined in ISO C++98"
+msgstr "виклик макросу %s, аргумент %d: порожні аргументи макросів вважаються невизначеними у ISO C++98"
 
 #: macro.c:2106
 #: macro.c:2115
 #, c-format
-msgid ""
-"invoking macro %s argument %d: empty macro arguments are undefined in ISO C90"
-msgstr ""
-"виклик макросу %s, аргумент %d: порожні аргументи макросів вважаються "
-"невизначеними у ISO C90"
+msgid "invoking macro %s argument %d: empty macro arguments are undefined in ISO C90"
+msgstr "виклик макросу %s, аргумент %d: порожні аргументи макросів вважаються невизначеними у ISO C90"
 
 #: macro.c:3073
 #, c-format
@@ -1005,8 +949,7 @@ msgstr "...це місце першого визначення"
 #: macro.c:3585
 #, c-format
 msgid "macro argument \"%s\" would be stringified in traditional C"
-msgstr ""
-"аргумент макроса \"%s\" був би перетворений на рядок у традиційній мові C"
+msgstr "аргумент макроса \"%s\" був би перетворений на рядок у традиційній мові C"
 
 #: macro.c:3621
 #, c-format
@@ -1061,3 +1004,4 @@ msgstr "при розширенні макроса \"%s\" виявлено ре�
 #: traditional.c:1116
 msgid "syntax error in macro parameter list"
 msgstr "синтаксична помилка у списку параметрів макроса"
+

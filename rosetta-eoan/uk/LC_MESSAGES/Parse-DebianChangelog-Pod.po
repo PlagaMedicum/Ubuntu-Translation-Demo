@@ -1,21 +1,21 @@
-# Ukrainian translation for libparse-debianchangelog-perl
-# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
-# This file is distributed under the same license as the libparse-debianchangelog-perl package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: libparse-debianchangelog-perl\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2005-10-13 02:09+0200\n"
-"PO-Revision-Date: 2018-05-21 09:13+0000\n"
-"Last-Translator: Andrii Prokopenko <Unknown>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:25\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 12:03+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/Parse-DebianChangelog-Pod.po\n"
+"Language: uk_UA\n"
 
 #: ../bin/parsechangelog:20 ../lib/Parse/DebianChangelog.pm:22
 #: ../lib/Parse/DebianChangelog/ChangesFilters.pm:21
@@ -25,10 +25,8 @@ msgid "NAME"
 msgstr "ІМ'Я"
 
 #: ../bin/parsechangelog:22
-msgid ""
-"parsechangelog - parse Debian changelogs and output them in other formats"
-msgstr ""
-"parsechangelog - аналіз журналів змін Debian і виведення їх у різних форматах"
+msgid "parsechangelog - parse Debian changelogs and output them in other formats"
+msgstr "parsechangelog - аналіз журналів змін Debian і виведення їх у різних форматах"
 
 #: ../bin/parsechangelog:24 ../lib/Parse/DebianChangelog.pm:26
 #: ../lib/Parse/DebianChangelog/ChangesFilters.pm:25
@@ -42,8 +40,7 @@ msgstr "parsechangelog [парамети] [файлжурналзмін]"
 
 #: ../bin/parsechangelog:28
 #, no-wrap
-msgid ""
-" Options:\n"
+msgid " Options:\n"
 "    --help, -h                  print usage information\n"
 "    --version, -V               print version information\n"
 "    --file, -l <file>           changelog file to parse, defaults\n"
@@ -65,10 +62,8 @@ msgid ""
 "    --offset, -o <number>       change the starting point for --count,\n"
 "                                counted from the top (or the tail if\n"
 "                                <number> is lower than 0)\n"
-"    --all                       include all changes\n"
-"\n"
-msgstr ""
-" Параметри:\n"
+"    --all                       include all changes\n\n"
+msgstr " Параметри:\n"
 "    --help, -h вивести відомості про використання\n"
 "    --version, -V вивести відомості про версію\n"
 "    --file, -l <file> файл змін для аналізу, типово\n"
@@ -90,55 +85,27 @@ msgstr ""
 "    --offset, -o <число> змінити точку відліку для --count,\n"
 "                                відраховувану з початку (або з кінця,\n"
 "                                якщо <число> менше ніж 0)\n"
-"    --all долучити всі зміни\n"
-"\n"
+"    --all долучити всі зміни\n\n"
 
 #: ../bin/parsechangelog:52
-msgid ""
-"If neither C<changelogfile> nor C<-l E<lt>fileE<gt>> are specified, "
-"F<debian/changelog> will be used. If two different files are specified the "
-"program will abort."
-msgstr ""
-"Якщо не вказано ані C<changelogfile>, ані C<-l E<lt>fileE<gt>>, буде "
-"використано F<debian/changelog>. Якщо вказано два різних файли, програма "
-"буде перервана."
+msgid "If neither C<changelogfile> nor C<-l E<lt>fileE<gt>> are specified, F<debian/changelog> will be used. If two different files are specified the program will abort."
+msgstr "Якщо не вказано ані C<changelogfile>, ані C<-l E<lt>fileE<gt>>, буде використано F<debian/changelog>. Якщо вказано два різних файли, програма буде перервана."
 
 #: ../bin/parsechangelog:56
-msgid ""
-"If the filename is C<-> the program reads the changelog from standard input."
-msgstr ""
-"Якщо ім'я файлу C<-> програма читає журнал змін зі стандартного вводу."
+msgid "If the filename is C<-> the program reads the changelog from standard input."
+msgstr "Якщо ім'я файлу C<-> програма читає журнал змін зі стандартного вводу."
 
 #: ../bin/parsechangelog:59
-msgid ""
-"C<--all> overrides all other range selecting options. C<--count> overrides "
-"all other range selection options except for C<--all>.  The range selecting "
-"options can be mixed together, but only one of C<--since> and C<--from> and "
-"one of C<--until> and C<--to> can be specified at the same time."
-msgstr ""
-"C<--all> перевизначає всі інші параметри вибору діапазону. C<--count> "
-"перевизначає всі інші параметри вибору діапазону, крім C<--all>. Параметри "
-"вибору діапазону можна комбінувати, але одночасно можна вказати лише один з "
-"C<-since> та C <-from>, а також один з C<--until> та C<--to>."
+msgid "C<--all> overrides all other range selecting options. C<--count> overrides all other range selection options except for C<--all>.  The range selecting options can be mixed together, but only one of C<--since> and C<--from> and one of C<--until> and C<--to> can be specified at the same time."
+msgstr "C<--all> перевизначає всі інші параметри вибору діапазону. C<--count> перевизначає всі інші параметри вибору діапазону, крім C<--all>. Параметри вибору діапазону можна комбінувати, але одночасно можна вказати лише один з C<-since> та C <-from>, а також один з C<--until> та C<--to>."
 
 #: ../bin/parsechangelog:65
-msgid ""
-"The dpkg and rfc822 formats default to showing only the first entry when no "
-"other options are given with while the HTML and XML formats default to "
-"showing all entries."
-msgstr ""
-"Формати dpkg та rfc822 типово показують лише перший запис, коли не вказано "
-"інші параметри, тоді як HTML та XML формати типово показують всі записи."
+msgid "The dpkg and rfc822 formats default to showing only the first entry when no other options are given with while the HTML and XML formats default to showing all entries."
+msgstr "Формати dpkg та rfc822 типово показують лише перший запис, коли не вказано інші параметри, тоді як HTML та XML формати типово показують всі записи."
 
 #: ../bin/parsechangelog:69
-msgid ""
-"For a more extensive documentation of the range selecting options and some "
-"(hopefully enlightening) examples see L<Parse::DebianChangelog/\"COMMON "
-"OUTPUT OPTIONS\">."
-msgstr ""
-"Для більш детальної документації про параметри вибору діапазонів та деяких "
-"(сподіваюсь просвітницьких) прикладів див.  "
-"L<Parse::DebianChangelog/\"ЗАГАЛЬНІ ПАРАМЕТРИ ВИВЕДЕННЯ\">."
+msgid "For a more extensive documentation of the range selecting options and some (hopefully enlightening) examples see L<Parse::DebianChangelog/\"COMMON OUTPUT OPTIONS\">."
+msgstr "Для більш детальної документації про параметри вибору діапазонів та деяких (сподіваюсь просвітницьких) прикладів див.  L<Parse::DebianChangelog/\"ЗАГАЛЬНІ ПАРАМЕТРИ ВИВЕДЕННЯ\">."
 
 #: ../bin/parsechangelog:73 ../lib/Parse/DebianChangelog.pm:42
 #: ../lib/Parse/DebianChangelog/ChangesFilters.pm:27
@@ -148,16 +115,8 @@ msgid "DESCRIPTION"
 msgstr "ОПИС"
 
 #: ../bin/parsechangelog:75
-msgid ""
-"parsechangelog parses Debian changelogs as described in the Debian policy "
-"(version 3.6.2.1 at the time of this writing) and converts them to other "
-"output formats. See section L<\"SEE ALSO\"> for locations where to find the "
-"full format definition."
-msgstr ""
-"parsechangelog аналізує журнали змін в Debian, як це описано в правилах "
-"Debian (версія 3.6.2.1 на момент написання даної статті) і перетворює їх в "
-"інші вихідні формати. . Див. розділ L<\"ДИВ.ТАКОЖ\"> для місць, де розміщена "
-"інформація про повне визначення формату."
+msgid "parsechangelog parses Debian changelogs as described in the Debian policy (version 3.6.2.1 at the time of this writing) and converts them to other output formats. See section L<\"SEE ALSO\"> for locations where to find the full format definition."
+msgstr "parsechangelog аналізує журнали змін в Debian, як це описано в правилах Debian (версія 3.6.2.1 на момент написання даної статті) і перетворює їх в інші вихідні формати. . Див. розділ L<\"ДИВ.ТАКОЖ\"> для місць, де розміщена інформація про повне визначення формату."
 
 #: ../bin/parsechangelog:80
 msgid "The output formats supported are currently:"
@@ -166,70 +125,38 @@ msgstr "Підтримувані на даний час вихідні форм�
 #: ../bin/parsechangelog:84 ../lib/Parse/DebianChangelog.pm:61
 #: ../lib/Parse/DebianChangelog.pm:627
 msgid "dpkg"
-msgstr "dpkg"
+msgstr ""
 
 #: ../bin/parsechangelog:86
-msgid ""
-"Format as known from L<dpkg-parsechangelog(1)>. All requested entries (see "
-"L<\"SYNOPSIS\"> on how to select specific entries) are returned in the usual "
-"Debian control format, merged in one stanza, ready to be used in a "
-"F<.changes> file."
-msgstr ""
-"Формат, як відомо з  L<dpkg-parsechangelog(1)>. Всі необхідні записи (див "
-"L<«СИНОПСИС»> про те, як вибрати певні записи) повертаються в звичайному "
-"форматі управління Debian, об'єднані в одній строфі, готові до використання "
-"в файлі з F<.changes>."
+msgid "Format as known from L<dpkg-parsechangelog(1)>. All requested entries (see L<\"SYNOPSIS\"> on how to select specific entries) are returned in the usual Debian control format, merged in one stanza, ready to be used in a F<.changes> file."
+msgstr "Формат, як відомо з  L<dpkg-parsechangelog(1)>. Всі необхідні записи (див L<«СИНОПСИС»> про те, як вибрати певні записи) повертаються в звичайному форматі управління Debian, об'єднані в одній строфі, готові до використання в файлі з F<.changes>."
 
 #: ../bin/parsechangelog:91 ../lib/Parse/DebianChangelog.pm:68
 #: ../lib/Parse/DebianChangelog.pm:740
 msgid "rfc822"
-msgstr "rfc822"
+msgstr ""
 
 #: ../bin/parsechangelog:93 ../lib/Parse/DebianChangelog.pm:70
-msgid ""
-"Similar to the C<dpkg> format, but the requested entries are returned as one "
-"stanza each, i.e. they are not merged. This is probably the format to use if "
-"you want a machine-usable representation of the changelog."
-msgstr ""
-"Подібний до формату C<dpkg>, але запитувані записи повертаються як одна "
-"строфа, тобто вони не об'єднані. Це, мабуть, формат для машинного "
-"відображення журналу змін."
+msgid "Similar to the C<dpkg> format, but the requested entries are returned as one stanza each, i.e. they are not merged. This is probably the format to use if you want a machine-usable representation of the changelog."
+msgstr "Подібний до формату C<dpkg>, але запитувані записи повертаються як одна строфа, тобто вони не об'єднані. Це, мабуть, формат для машинного відображення журналу змін."
 
 #: ../bin/parsechangelog:97 ../lib/Parse/DebianChangelog.pm:74
 #: ../lib/Parse/DebianChangelog.pm:801
 msgid "xml"
-msgstr "xml"
+msgstr ""
 
 #: ../bin/parsechangelog:99 ../lib/Parse/DebianChangelog.pm:76
-msgid ""
-"Just a simple XML dump of the changelog data. Without any schema or DTD "
-"currently, just some made up XML. The actual format might still change. "
-"Comments and Improvements welcome."
-msgstr ""
-"Простий XML-дамп даних журналу змін. Наразі без будь-якої схеми або DTD, "
-"лише деякі складені XML. Фактичний формат може і надалі змінюватися. "
-"Коментарі та вдосконалення вітаються."
+msgid "Just a simple XML dump of the changelog data. Without any schema or DTD currently, just some made up XML. The actual format might still change. Comments and Improvements welcome."
+msgstr "Простий XML-дамп даних журналу змін. Наразі без будь-якої схеми або DTD, лише деякі складені XML. Фактичний формат може і надалі змінюватися. Коментарі та вдосконалення вітаються."
 
 #: ../bin/parsechangelog:103 ../lib/Parse/DebianChangelog.pm:80
 #: ../lib/Parse/DebianChangelog.pm:880
 msgid "html"
-msgstr "html"
+msgstr ""
 
 #: ../bin/parsechangelog:105
-msgid ""
-"The changelog is converted to a somewhat nice looking HTML file with some "
-"nice features as a quick-link bar with direct links to every entry.  NOTE: "
-"This is not configurable yet and was specifically designed to be used on "
-"L<http://packages.debian.org/>. This is planned to be changed until version "
-"1.0. The used Parse::DebianChangelog module already supports configuration, "
-"however, this isn't exposed by this program yet."
-msgstr ""
-"Журнал змін перетворений на дещо привабливий HTML-файл з деякими приємними "
-"функціями, як панель швидких посилань з прямими посиланнями на кожний запис. "
-"ПРИМІТКА. Це ще не налаштовується і спеціально розроблено для використання в "
-"L<http://packages.debian.org/>. Планується, що це буде змінено до версії "
-"1.0. Використовуваний модуль Parse::DebianChangelog вже підтримує "
-"конфігурацію, однак це не викрито цією програмою."
+msgid "The changelog is converted to a somewhat nice looking HTML file with some nice features as a quick-link bar with direct links to every entry.  NOTE: This is not configurable yet and was specifically designed to be used on L<http://packages.debian.org/>. This is planned to be changed until version 1.0. The used Parse::DebianChangelog module already supports configuration, however, this isn't exposed by this program yet."
+msgstr "Журнал змін перетворений на дещо привабливий HTML-файл з деякими приємними функціями, як панель швидких посилань з прямими посиланнями на кожний запис. ПРИМІТКА. Це ще не налаштовується і спеціально розроблено для використання в L<http://packages.debian.org/>. Планується, що це буде змінено до версії 1.0. Використовуваний модуль Parse::DebianChangelog вже підтримує конфігурацію, однак це не викрито цією програмою."
 
 #: ../bin/parsechangelog:240 ../lib/Parse/DebianChangelog.pm:1251
 #: ../lib/Parse/DebianChangelog/ChangesFilters.pm:165
@@ -243,12 +170,8 @@ msgid "Parse::DebianChangelog, the underlying Perl module"
 msgstr "Parse::DebianChangelog, основний модуль Perl"
 
 #: ../bin/parsechangelog:244 ../lib/Parse/DebianChangelog.pm:1255
-msgid ""
-"Description of the Debian changelog format in the Debian policy: "
-"L<http://www.debian.org/doc/debian-policy/ch-source.html#s-dpkgchangelog>."
-msgstr ""
-"Опис формату змін у Debian у правилах Debian: "
-"L<http://www.debian.org/doc/debian-policy/ch-source.html#s-dpkgchangelog>."
+msgid "Description of the Debian changelog format in the Debian policy: L<http://www.debian.org/doc/debian-policy/ch-source.html#s-dpkgchangelog>."
+msgstr "Опис формату змін у Debian у правилах Debian: L<http://www.debian.org/doc/debian-policy/ch-source.html#s-dpkgchangelog>."
 
 #: ../bin/parsechangelog:247 ../lib/Parse/DebianChangelog.pm:1258
 #: ../lib/Parse/DebianChangelog/ChangesFilters.pm:169
@@ -262,7 +185,7 @@ msgstr "АВТОР"
 #: ../lib/Parse/DebianChangelog/Entry.pm:155
 #: ../lib/Parse/DebianChangelog/Util.pm:164 ../lib/Pod/UsageTrans.pm:94
 msgid "Frank Lichtenheld, E<lt>frank@lichtenheld.deE<gt>"
-msgstr "Frank Lichtenheld, E<lt>frank@lichtenheld.deE<gt>"
+msgstr ""
 
 #: ../bin/parsechangelog:251 ../lib/Parse/DebianChangelog.pm:1262
 #: ../lib/Parse/DebianChangelog/ChangesFilters.pm:173
@@ -282,162 +205,75 @@ msgstr "Авторське право (C) 2005 by Frank Lichtenheld"
 #: ../lib/Parse/DebianChangelog/ChangesFilters.pm:177
 #: ../lib/Parse/DebianChangelog/Entry.pm:161
 #: ../lib/Parse/DebianChangelog/Util.pm:170
-msgid ""
-"This program is free software; you can redistribute it and/or modify it "
-"under the terms of the GNU General Public License as published by the Free "
-"Software Foundation; either version 2 of the License, or (at your option) "
-"any later version."
-msgstr ""
-"Ця програма є вільним програмним забезпеченням. Ви можете поширювати та/або "
-"змінювати її, відповідно до умов Загальної ліцензії GNU (GNU General Public "
-"License), яка оголошена Фундацією вільного програмного забезпечення (Free "
-"Software Foundation) під версією 2 або новішою (на Ваш розсуд)."
+msgid "This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version."
+msgstr "Ця програма є вільним програмним забезпеченням. Ви можете поширювати та/або змінювати її, відповідно до умов Загальної ліцензії GNU (GNU General Public License), яка оголошена Фундацією вільного програмного забезпечення (Free Software Foundation) під версією 2 або новішою (на Ваш розсуд)."
 
 #: ../bin/parsechangelog:260 ../lib/Parse/DebianChangelog.pm:1271
 #: ../lib/Parse/DebianChangelog/ChangesFilters.pm:182
 #: ../lib/Parse/DebianChangelog/Entry.pm:166
 #: ../lib/Parse/DebianChangelog/Util.pm:175
-msgid ""
-"This program is distributed in the hope that it will be useful, but WITHOUT "
-"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
-"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
-"more details."
-msgstr ""
-"Ця програма розповсюджується з надією, що буде корисною, але БЕЗ БУДЬ-ЯКИХ "
-"ЗОБОВ'ЯЗАНЬ; навіть без зобов'язань КОМЕРЦІЙНИХ СПРОМОЖНОСТЕЙ або КОРИСНОСТІ "
-"ДЛЯ ЗАДАНОЇ МЕТИ. Дивіться General Public License для подробиць."
+msgid "This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details."
+msgstr "Ця програма розповсюджується з надією, що буде корисною, але БЕЗ БУДЬ-ЯКИХ ЗОБОВ'ЯЗАНЬ; навіть без зобов'язань КОМЕРЦІЙНИХ СПРОМОЖНОСТЕЙ або КОРИСНОСТІ ДЛЯ ЗАДАНОЇ МЕТИ. Дивіться General Public License для подробиць."
 
 #: ../bin/parsechangelog:265 ../lib/Parse/DebianChangelog.pm:1276
 #: ../lib/Parse/DebianChangelog/ChangesFilters.pm:187
 #: ../lib/Parse/DebianChangelog/Entry.pm:171
 #: ../lib/Parse/DebianChangelog/Util.pm:180
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program; if not, write to the Free Software Foundation, Inc., 51 "
-"Franklin St, Fifth Floor, Boston, MA 02110-1301 USA"
-msgstr ""
-"Ви повинні були отримати разом з цією програмою копію Загальної публічної "
-"ліцензії GNU; якщо ні, пишіть до Free Software Foundation, Inc., 51 Franklin "
-"St, Fifth Floor, Boston, MA 02110-1301 USA."
+msgid "You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA"
+msgstr "Ви повинні були отримати разом з цією програмою копію Загальної публічної ліцензії GNU; якщо ні, пишіть до Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA."
 
 #: ../lib/Parse/DebianChangelog.pm:24
-msgid ""
-"Parse::DebianChangelog - parse Debian changelogs and output them in other "
-"formats"
-msgstr ""
-"Parse::DebianChangelog - розбрати журнал змін Debian і вивести їх у інших "
-"форматах"
+msgid "Parse::DebianChangelog - parse Debian changelogs and output them in other formats"
+msgstr "Parse::DebianChangelog - розбрати журнал змін Debian і вивести їх у інших форматах"
 
 #: ../lib/Parse/DebianChangelog.pm:28
 #, no-wrap
-msgid ""
-"    use Parse::DebianChangelog;\n"
-"\n"
+msgid "    use Parse::DebianChangelog;\n\n"
 msgstr ""
-"    use Parse::DebianChangelog;\n"
-"\n"
 
 #: ../lib/Parse/DebianChangelog.pm:30
 #, no-wrap
-msgid ""
-"    my $chglog = Parse::DebianChangelog->init( { infile => "
-"'debian/changelog',\n"
-"                                                 HTML => { outfile => "
-"'changelog.html' } );\n"
-"    $chglog->html;\n"
-"\n"
+msgid "    my $chglog = Parse::DebianChangelog->init( { infile => 'debian/changelog',\n"
+"                                                 HTML => { outfile => 'changelog.html' } );\n"
+"    $chglog->html;\n\n"
 msgstr ""
-"    my $chglog = Parse::DebianChangelog->init( { infile => "
-"'debian/changelog',\n"
-"                                                 HTML => { outfile => "
-"'changelog.html' } );\n"
-"    $chglog->html;\n"
-"\n"
 
 #: ../lib/Parse/DebianChangelog.pm:34
 #, no-wrap
-msgid ""
-"    # the following is semantically equivalent\n"
+msgid "    # the following is semantically equivalent\n"
 "    my $chglog = Parse::DebianChangelog->init();\n"
 "    $chglog->parse( { infile => 'debian/changelog' } );\n"
-"    $chglog->html( { outfile => 'changelog.html' } );\n"
-"\n"
-msgstr ""
-"    # наступне семантично еквівалентне\n"
+"    $chglog->html( { outfile => 'changelog.html' } );\n\n"
+msgstr "    # наступне семантично еквівалентне\n"
 "    my $chglog = Parse::DebianChangelog->init();\n"
 "    $chglog->parse( { infile => 'debian/changelog' } );\n"
-"    $chglog->html( { outfile => 'changelog.html' } );\n"
-"\n"
+"    $chglog->html( { outfile => 'changelog.html' } );\n\n"
 
 #: ../lib/Parse/DebianChangelog.pm:39
 #, no-wrap
-msgid ""
-"    my $changes = $chglog->dpkg_str( { since => '1.0-1' } );\n"
-"    print $changes;\n"
-"\n"
+msgid "    my $changes = $chglog->dpkg_str( { since => '1.0-1' } );\n"
+"    print $changes;\n\n"
 msgstr ""
-"    my $changes = $chglog->dpkg_str( { since => '1.0-1' } );\n"
-"    print $changes;\n"
-"\n"
 
 #: ../lib/Parse/DebianChangelog.pm:44
-msgid ""
-"Parse::DebianChangelog parses Debian changelogs as described in the Debian "
-"policy (version 3.6.2.1 at the time of this writing). See section L<\"SEE "
-"ALSO\"> for locations where to find this definition."
-msgstr ""
-"Parse ::DebianChangelog аналізує журнали змін в Debian, як це описано в "
-"правилах Debian (версія 3.6.2.1 на момент написання даної статті). Див. "
-"розділ L<\"ДИВ.ТАКОЖ\"> для місць, де можна знайти це визначення."
+msgid "Parse::DebianChangelog parses Debian changelogs as described in the Debian policy (version 3.6.2.1 at the time of this writing). See section L<\"SEE ALSO\"> for locations where to find this definition."
+msgstr "Parse ::DebianChangelog аналізує журнали змін в Debian, як це описано в правилах Debian (версія 3.6.2.1 на момент написання даної статті). Див. розділ L<\"ДИВ.ТАКОЖ\"> для місць, де можна знайти це визначення."
 
 #: ../lib/Parse/DebianChangelog.pm:48
-msgid ""
-"The parser tries to ignore most cruft like # or /* */ style comments, CVS "
-"comments, vim variables, emacs local variables and stuff from older "
-"changelogs with other formats at the end of the file.  NOTE: most of these "
-"are ignored silently currently, there is no parser error issued for them. "
-"This should become configurable in the future."
-msgstr ""
-"Синтаксичний аналізатор намагається ігнорувати кінцеві коментарі # або "
-"коментарі у стилі /* */, коментарі CVS, змінні vim, локальні змінні emacs та "
-"тексти старих журналів змін в інших форматах в кінці файлу. ПРИМІТКА. "
-"Більшість з них ігноруються в даний час, і для них аналізатор не показує "
-"жодної помилки. Це має бути налаштовуваним параметром в майбутньому."
+msgid "The parser tries to ignore most cruft like # or /* */ style comments, CVS comments, vim variables, emacs local variables and stuff from older changelogs with other formats at the end of the file.  NOTE: most of these are ignored silently currently, there is no parser error issued for them. This should become configurable in the future."
+msgstr "Синтаксичний аналізатор намагається ігнорувати кінцеві коментарі # або коментарі у стилі /* */, коментарі CVS, змінні vim, локальні змінні emacs та тексти старих журналів змін в інших форматах в кінці файлу. ПРИМІТКА. Більшість з них ігноруються в даний час, і для них аналізатор не показує жодної помилки. Це має бути налаштовуваним параметром в майбутньому."
 
 #: ../lib/Parse/DebianChangelog.pm:55
-msgid ""
-"Beside giving access to the details of the parsed file via the L<\"data\"> "
-"method, Parse::DebianChangelog also supports converting these changelogs to "
-"various other formats. These are currently:"
-msgstr ""
-"Крім надання доступу до деталей розібраного файлу за допомогою методу "
-"L<\"data\">, Parse::DebianChangelog також підтримує перетворення цих змін у "
-"різні інші формати. На даний момент це:"
+msgid "Beside giving access to the details of the parsed file via the L<\"data\"> method, Parse::DebianChangelog also supports converting these changelogs to various other formats. These are currently:"
+msgstr "Крім надання доступу до деталей розібраного файлу за допомогою методу L<\"data\">, Parse::DebianChangelog також підтримує перетворення цих змін у різні інші формати. На даний момент це:"
 
 #: ../lib/Parse/DebianChangelog.pm:63
-msgid ""
-"Format as known from L<dpkg-parsechangelog(1)>. All requested entries (see "
-"L<\"METHODS\"> for an explanation what this means) are returned in the usual "
-"Debian control format, merged in one stanza, ready to be used in a "
-"F<.changes> file."
-msgstr ""
-"Формат, як відомо з L<dpkg-parsechangelog(1)>. Всі необхідні записи (для "
-"пояснень див. L<\"МЕТОДИ\">) повертаються в звичайному форматі управління "
-"Debian, об'єднані в одній строфі, готові до використання в файлі з "
-"F<.changes>."
+msgid "Format as known from L<dpkg-parsechangelog(1)>. All requested entries (see L<\"METHODS\"> for an explanation what this means) are returned in the usual Debian control format, merged in one stanza, ready to be used in a F<.changes> file."
+msgstr "Формат, як відомо з L<dpkg-parsechangelog(1)>. Всі необхідні записи (для пояснень див. L<\"МЕТОДИ\">) повертаються в звичайному форматі управління Debian, об'єднані в одній строфі, готові до використання в файлі з F<.changes>."
 
 #: ../lib/Parse/DebianChangelog.pm:82
-msgid ""
-"The changelog is converted to a somewhat nice looking HTML file with some "
-"nice features as a quick-link bar with direct links to every entry.  NOTE: "
-"This is not very configurable yet and was specifically designed to be used "
-"on L<http://packages.debian.org/>. This is planned to be changed until "
-"version 1.0."
-msgstr ""
-"Журнал змін перетворений на дещо привабливий HTML-файл з деякими приємними "
-"функціями, як панель швидких посилань з прямими посиланнями на кожний запис. "
-"ПРИМІТКА. Це ще не налаштовується і спеціально розроблено для використання в "
-"L<http://packages.debian.org/>. Планується, що це буде змінено до версії 1.0."
+msgid "The changelog is converted to a somewhat nice looking HTML file with some nice features as a quick-link bar with direct links to every entry.  NOTE: This is not very configurable yet and was specifically designed to be used on L<http://packages.debian.org/>. This is planned to be changed until version 1.0."
+msgstr "Журнал змін перетворений на дещо привабливий HTML-файл з деякими приємними функціями, як панель швидких посилань з прямими посиланнями на кожний запис. ПРИМІТКА. Це ще не налаштовується і спеціально розроблено для використання в L<http://packages.debian.org/>. Планується, що це буде змінено до версії 1.0."
 
 #: ../lib/Parse/DebianChangelog.pm:90
 msgid "METHODS"
@@ -446,71 +282,43 @@ msgstr "МЕТОДИ"
 #: ../lib/Parse/DebianChangelog.pm:110
 #: ../lib/Parse/DebianChangelog/Entry.pm:31
 msgid "init"
-msgstr "init"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:112
-msgid ""
-"Creates a new object instance. Takes a reference to a hash as optional "
-"argument, which is interpreted as configuration options.  There are "
-"currently no supported general configuration options, but see the other "
-"methods for more specific configuration options which can also specified to "
-"C<init>."
-msgstr ""
-"Створення нового екземпляру об'єкта. Посилання на хеш є необов'язковим "
-"аргументом, що інтерпретується як параметри конфігурації. Наразі "
-"підтримуваних загальних параметрів конфігураіції немає, але в також C<init> "
-"можуть бути вказані специфічні параметри конфігурації з інших методів."
+msgid "Creates a new object instance. Takes a reference to a hash as optional argument, which is interpreted as configuration options.  There are currently no supported general configuration options, but see the other methods for more specific configuration options which can also specified to C<init>."
+msgstr "Створення нового екземпляру об'єкта. Посилання на хеш є необов'язковим аргументом, що інтерпретується як параметри конфігурації. Наразі підтримуваних загальних параметрів конфігураіції немає, але в також C<init> можуть бути вказані специфічні параметри конфігурації з інших методів."
 
 #: ../lib/Parse/DebianChangelog.pm:118
-msgid ""
-"If C<infile> or C<instring> are specified (see L<parse>), C<parse()> is "
-"called from C<init>. If a fatal error is encountered during parsing (e.g. "
-"the file can't be opened), C<init> will not return a valid object but "
-"C<undef>!"
+msgid "If C<infile> or C<instring> are specified (see L<parse>), C<parse()> is called from C<init>. If a fatal error is encountered during parsing (e.g. the file can't be opened), C<init> will not return a valid object but C<undef>!"
 msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:146
 msgid "reset_parse_errors"
-msgstr "reset_parse_errors"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:148
-msgid ""
-"Can be used to delete all information about errors ocurred during previous "
-"L<parse> runs. Note that C<parse()> also calls this method."
-msgstr ""
-"Може бути використаний для видалення всієї інформації про помилки, що "
-"виникли під час попередньої обробки  L<parse>. Зверніть увагу, що C<parse()> "
-"також викликає цей метод."
+msgid "Can be used to delete all information about errors ocurred during previous L<parse> runs. Note that C<parse()> also calls this method."
+msgstr "Може бути використаний для видалення всієї інформації про помилки, що виникли під час попередньої обробки  L<parse>. Зверніть увагу, що C<parse()> також викликає цей метод."
 
 #: ../lib/Parse/DebianChangelog.pm:177
 msgid "get_parse_errors"
-msgstr "get_parse_errors"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:179
-msgid ""
-"Returns all error messages from the last L<parse> run.  If called in scalar "
-"context returns a human readable string representation. If called in list "
-"context returns an array of arrays. Each of these arrays contains"
-msgstr ""
-"Повертає всі повідомлення про помилки під час останнього запуску L<parse>.  "
-"Якщо виклик був здійснений в скалярному контексті, результатом є легкочитне "
-"рядкове подання. Якщо у списковому контексті, то масив масивів. Кожен з цих "
-"масивів містить:"
+msgid "Returns all error messages from the last L<parse> run.  If called in scalar context returns a human readable string representation. If called in list context returns an array of arrays. Each of these arrays contains"
+msgstr "Повертає всі повідомлення про помилки під час останнього запуску L<parse>.  Якщо виклик був здійснений в скалярному контексті, результатом є легкочитне рядкове подання. Якщо у списковому контексті, то масив масивів. Кожен з цих масивів містить:"
 
 #: ../lib/Parse/DebianChangelog.pm:186
 msgid "1."
-msgstr "1."
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:188
-msgid ""
-"the filename of the parsed file or C<String> if a string was parsed directly"
-msgstr ""
-"ім'я проаналізованого файлу або C<String> , якщо рядок був розібраний "
-"безпосередньо"
+msgid "the filename of the parsed file or C<String> if a string was parsed directly"
+msgstr "ім'я проаналізованого файлу або C<String> , якщо рядок був розібраний безпосередньо"
 
 #: ../lib/Parse/DebianChangelog.pm:191
 msgid "2."
-msgstr "2."
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:193
 msgid "the line number where the error occurred"
@@ -518,7 +326,7 @@ msgstr "номер рядка, де сталася помилка"
 
 #: ../lib/Parse/DebianChangelog.pm:195
 msgid "3."
-msgstr "3."
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:197
 msgid "an error description"
@@ -526,96 +334,59 @@ msgstr "опис помилки"
 
 #: ../lib/Parse/DebianChangelog.pm:199
 msgid "4."
-msgstr "4."
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:201
 msgid "the original line"
 msgstr "оригінальний рядок"
 
 #: ../lib/Parse/DebianChangelog.pm:205
-msgid ""
-"NOTE: This format isn't stable yet and may change in later versions of this "
-"module."
-msgstr ""
-"ПРИМІТКА. Цей формат ще не є стабільним і може бути змінений в більш пізніх "
-"версіях цього модуля."
+msgid "NOTE: This format isn't stable yet and may change in later versions of this module."
+msgstr "ПРИМІТКА. Цей формат ще не є стабільним і може бути змінений в більш пізніх версіях цього модуля."
 
 #: ../lib/Parse/DebianChangelog.pm:237
 msgid "get_error"
-msgstr "get_error"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:239
-msgid ""
-"Get the last non-parser error (e.g. the file to parse couldn't be opened)."
-msgstr ""
-"Отримати останню помилку, не пов'язану з аналізатором (наприклад, файл для "
-"аналізу не може бути відкритий)."
+msgid "Get the last non-parser error (e.g. the file to parse couldn't be opened)."
+msgstr "Отримати останню помилку, не пов'язану з аналізатором (наприклад, файл для аналізу не може бути відкритий)."
 
 #: ../lib/Parse/DebianChangelog.pm:251
 msgid "parse"
-msgstr "parse"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:253
-msgid ""
-"Parses either the file named in configuration item C<infile> or the string "
-"saved in configuration item C<instring>.  Accepts a hash ref as optional "
-"argument which can contain configuration items."
+msgid "Parses either the file named in configuration item C<infile> or the string saved in configuration item C<instring>.  Accepts a hash ref as optional argument which can contain configuration items."
 msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:258
-msgid ""
-"Returns C<undef> in case of error (e.g. \"file not found\", B<not> parse "
-"errors) and the object if successful. If C<undef> was returned, you can get "
-"the reason for the failure by calling the L<get_error> method."
-msgstr ""
-"Повертає C<undef> у випадку помилки (наприклад, \"файл не знайдено\", "
-"помилки аналізу B<not>) та об'єкт, якщо все пройшло без помилок. Якщо "
-"результатом є C<undef>, ви можете дізнатися причину збою виконавши виклик "
-"методу  L<get_error>."
+msgid "Returns C<undef> in case of error (e.g. \"file not found\", B<not> parse errors) and the object if successful. If C<undef> was returned, you can get the reason for the failure by calling the L<get_error> method."
+msgstr "Повертає C<undef> у випадку помилки (наприклад, \"файл не знайдено\", помилки аналізу B<not>) та об'єкт, якщо все пройшло без помилок. Якщо результатом є C<undef>, ви можете дізнатися причину збою виконавши виклик методу  L<get_error>."
 
 #: ../lib/Parse/DebianChangelog.pm:511
 msgid "data"
-msgstr "data"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:513
-msgid ""
-"C<data> returns an array (if called in list context) or a reference to an "
-"array of Parse::DebianChangelog::Entry objects which each represent one "
-"entry of the changelog."
-msgstr ""
-"C<data> повертає масив (якщо його викликано у контексті списку) або "
-"посилання на масив об'єктів Parse::DebianChangelog::Entry, кожен з яких "
-"являє собою один запис журналу змін."
+msgid "C<data> returns an array (if called in list context) or a reference to an array of Parse::DebianChangelog::Entry objects which each represent one entry of the changelog."
+msgstr "C<data> повертає масив (якщо його викликано у контексті списку) або посилання на масив об'єктів Parse::DebianChangelog::Entry, кожен з яких являє собою один запис журналу змін."
 
 #: ../lib/Parse/DebianChangelog.pm:517
-msgid ""
-"This is currently merely a placeholder to enable users to get to the raw "
-"data, expect changes to this API in the near future."
-msgstr ""
-"В даний час це лише заповнювач, який дає змогу користувачам отримати вихідні "
-"дані, в цьому API у найближчому майбутньому очікуються зміни."
+msgid "This is currently merely a placeholder to enable users to get to the raw data, expect changes to this API in the near future."
+msgstr "В даний час це лише заповнювач, який дає змогу користувачам отримати вихідні дані, в цьому API у найближчому майбутньому очікуються зміни."
 
 #: ../lib/Parse/DebianChangelog.pm:520
-msgid ""
-"This method supports the common output options described in section "
-"L<\"COMMON OUTPUT OPTIONS\">."
-msgstr ""
-"Цей метод підтримує загальні параметри виводу, описані в розділі L<\"COMMON "
-"OUTPUT OPTIONS\">."
+msgid "This method supports the common output options described in section L<\"COMMON OUTPUT OPTIONS\">."
+msgstr "Цей метод підтримує загальні параметри виводу, описані в розділі L<\"COMMON OUTPUT OPTIONS\">."
 
 #: ../lib/Parse/DebianChangelog.pm:629
 msgid "(and B<dpkg_str>)"
 msgstr "(та B<dpkg_str>)"
 
 #: ../lib/Parse/DebianChangelog.pm:631
-msgid ""
-"C<dpkg> returns a hash (in list context) or a hash reference (in scalar "
-"context) where the keys are field names and the values are field values. The "
-"following fields are given:"
-msgstr ""
-"C<dpkg> повертає хеш (у контексті списку) або хеш-посилання (у скалярному "
-"контексті), де ключі є іменами полів, а значення - значеннями полів. Надано "
-"такі поля:"
+msgid "C<dpkg> returns a hash (in list context) or a hash reference (in scalar context) where the keys are field names and the values are field values. The following fields are given:"
+msgstr "C<dpkg> повертає хеш (у контексті списку) або хеш-посилання (у скалярному контексті), де ключі є іменами полів, а значення - значеннями полів. Надано такі поля:"
 
 #: ../lib/Parse/DebianChangelog.pm:637
 #: ../lib/Parse/DebianChangelog/Entry.pm:54
@@ -687,26 +458,16 @@ msgid "content of the the entry/entries"
 msgstr "вміст запису/записів"
 
 #: ../lib/Parse/DebianChangelog.pm:671
-msgid ""
-"C<dpkg_str> returns a stringified version of this hash which should look "
-"exactly like the output of L<dpkg-parsechangelog(1)>. The fields are ordered "
-"like in the list above."
-msgstr ""
-"C<dpkg_str> повертає рядковану версію цього хешу, який має виглядати "
-"абсолютно так само, як виведення L<dpkg-parsechangelog(1)>. Ці поля "
-"впорядковані, як у списку вище."
+msgid "C<dpkg_str> returns a stringified version of this hash which should look exactly like the output of L<dpkg-parsechangelog(1)>. The fields are ordered like in the list above."
+msgstr "C<dpkg_str> повертає рядковану версію цього хешу, який має виглядати абсолютно так само, як виведення L<dpkg-parsechangelog(1)>. Ці поля впорядковані, як у списку вище."
 
 #: ../lib/Parse/DebianChangelog.pm:675 ../lib/Parse/DebianChangelog.pm:754
-msgid ""
-"Both methods only support the common output options described in section "
-"L<\"COMMON OUTPUT OPTIONS\">."
-msgstr ""
-"Обидва способи підтримують лише загальні параметри виводу, описані в розділі "
-" L<\"ЗАГАЛЬНІ ПАРАМЕТРИ ВИВЕДЕННЯ\">."
+msgid "Both methods only support the common output options described in section L<\"COMMON OUTPUT OPTIONS\">."
+msgstr "Обидва способи підтримують лише загальні параметри виводу, описані в розділі  L<\"ЗАГАЛЬНІ ПАРАМЕТРИ ВИВЕДЕННЯ\">."
 
 #: ../lib/Parse/DebianChangelog.pm:678
 msgid "dpkg_str"
-msgstr "dpkg_str"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:680
 msgid "See L<dpkg>."
@@ -717,31 +478,16 @@ msgid "(and B<rfc822_str>)"
 msgstr "(та B<rfc822_str>)"
 
 #: ../lib/Parse/DebianChangelog.pm:744
-msgid ""
-"C<rfc822> returns an array of hashes (in list context) or a reference to "
-"this array (in scalar context) where each hash represents one entry in the "
-"changelog. For the format of such a hash see the description of the "
-"L<\"dpkg\"> method (while ignoring the remarks about which values are taken "
-"from the first entry)."
-msgstr ""
-"C<rfc822> повертає масив хешів (в контексті списку) або посилання на цей "
-"масив (у скаларному контексті), де кожен хеш являє собою один запис у "
-"журналі змін. Для формату таких хешів дивіться опис методу L<\"dpkg\"> (з "
-"ігноруванням зауважень про те, які значення беруться з першого запису)."
+msgid "C<rfc822> returns an array of hashes (in list context) or a reference to this array (in scalar context) where each hash represents one entry in the changelog. For the format of such a hash see the description of the L<\"dpkg\"> method (while ignoring the remarks about which values are taken from the first entry)."
+msgstr "C<rfc822> повертає масив хешів (в контексті списку) або посилання на цей масив (у скаларному контексті), де кожен хеш являє собою один запис у журналі змін. Для формату таких хешів дивіться опис методу L<\"dpkg\"> (з ігноруванням зауважень про те, які значення беруться з першого запису)."
 
 #: ../lib/Parse/DebianChangelog.pm:750
-msgid ""
-"C<rfc822_str> returns a stringified version of this hash which looks similar "
-"to the output of dpkg-parsechangelog but instead of one stanza the output "
-"contains one stanza for each entry."
-msgstr ""
-"C<rfc822_str> повертає рядковану версію цього хешу, котрий виглядає подібно "
-"виведення dpkg-parsechangelog, але замість однієї строфи, виведення "
-"міститиме по одній строфі на запис."
+msgid "C<rfc822_str> returns a stringified version of this hash which looks similar to the output of dpkg-parsechangelog but instead of one stanza the output contains one stanza for each entry."
+msgstr "C<rfc822_str> повертає рядковану версію цього хешу, котрий виглядає подібно виведення dpkg-parsechangelog, але замість однієї строфи, виведення міститиме по одній строфі на запис."
 
 #: ../lib/Parse/DebianChangelog.pm:757
 msgid "rfc822_str"
-msgstr "rfc822_str"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:759
 msgid "See L<rfc822>."
@@ -752,32 +498,20 @@ msgid "(and B<xml_str>)"
 msgstr "(та B<xml_str>)"
 
 #: ../lib/Parse/DebianChangelog.pm:805
-msgid ""
-"C<xml> converts the changelog to some free-form (i.e. there is neither a DTD "
-"or a schema for it) XML."
-msgstr ""
-"C<xml> перетворює журнал змін у деякий вільний формат (тобто ані DTD, ані "
-"схема для нього) XML."
+msgid "C<xml> converts the changelog to some free-form (i.e. there is neither a DTD or a schema for it) XML."
+msgstr "C<xml> перетворює журнал змін у деякий вільний формат (тобто ані DTD, ані схема для нього) XML."
 
 #: ../lib/Parse/DebianChangelog.pm:808
 msgid "The method C<xml_str> is an alias for C<xml>."
 msgstr "Метод C<xml_str> є синонімом C<xml>."
 
 #: ../lib/Parse/DebianChangelog.pm:810 ../lib/Parse/DebianChangelog.pm:893
-msgid ""
-"Both methods support the common output options described in section "
-"L<\"COMMON OUTPUT OPTIONS\"> and additionally the following configuration "
-"options (as usual to give in a hash reference as parameter to the method "
-"call):"
-msgstr ""
-"Обидва методи підтримують загальні параметри виведення, описані в розділі "
-"L<\"ЗАГАЛЬНІ ПАРАМЕТРИ ВИВЕДЕННЯ\"> та додатково наступні параметри "
-"конфігурації (як звичайно, щоб передати хеш-посиланнях як параметр виклику "
-"методу):"
+msgid "Both methods support the common output options described in section L<\"COMMON OUTPUT OPTIONS\"> and additionally the following configuration options (as usual to give in a hash reference as parameter to the method call):"
+msgstr "Обидва методи підтримують загальні параметри виведення, описані в розділі L<\"ЗАГАЛЬНІ ПАРАМЕТРИ ВИВЕДЕННЯ\"> та додатково наступні параметри конфігурації (як звичайно, щоб передати хеш-посиланнях як параметр виклику методу):"
 
 #: ../lib/Parse/DebianChangelog.pm:817 ../lib/Parse/DebianChangelog.pm:900
 msgid "outfile"
-msgstr "outfile"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:819 ../lib/Parse/DebianChangelog.pm:902
 msgid "directly write the output to the file specified"
@@ -785,7 +519,7 @@ msgstr "здійснення прямого запису виведення у �
 
 #: ../lib/Parse/DebianChangelog.pm:823
 msgid "xml_str"
-msgstr "xml_str"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:825
 msgid "See L<xml>."
@@ -796,18 +530,8 @@ msgid "(and B<html_str>)"
 msgstr "(та B<html_str>)"
 
 #: ../lib/Parse/DebianChangelog.pm:884
-msgid ""
-"C<html> converts the changelog to a HTML file with some nice features such "
-"as a quick-link bar with direct links to every entry. The HTML is generated "
-"with the help of HTML::Template. If you want to change the output you should "
-"use the default template provided with this module as a base and read the "
-"documentation of HTML::Template to understand how to edit it."
-msgstr ""
-"C<html> перетворює журнал змін  HTML-файл з деякими приємними функціями, як "
-"панель швидких посилань з прямими посиланнями на кожний запис. Цей HTML "
-"генерується за допомогою  HTML::Template. Якщо ви хочете змінити виведення "
-"слід використовувати типовий шаблон, наданий модулем, як основу, і прочитати "
-"документацію HTML::Template, щоб зрозуміти, як його відредагувати."
+msgid "C<html> converts the changelog to a HTML file with some nice features such as a quick-link bar with direct links to every entry. The HTML is generated with the help of HTML::Template. If you want to change the output you should use the default template provided with this module as a base and read the documentation of HTML::Template to understand how to edit it."
+msgstr "C<html> перетворює журнал змін  HTML-файл з деякими приємними функціями, як панель швидких посилань з прямими посиланнями на кожний запис. Цей HTML генерується за допомогою  HTML::Template. Якщо ви хочете змінити виведення слід використовувати типовий шаблон, наданий модулем, як основу, і прочитати документацію HTML::Template, щоб зрозуміти, як його відредагувати."
 
 #: ../lib/Parse/DebianChangelog.pm:891
 msgid "The method C<html_str> is an alias for C<html>."
@@ -815,46 +539,31 @@ msgstr "Цей метод C<html_str> є синонімом C<html>."
 
 #: ../lib/Parse/DebianChangelog.pm:904
 msgid "template"
-msgstr "template"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:906
-msgid ""
-"template file to use, defaults to tmpl/default.tmpl, so you most likely want "
-"to override that.  NOTE: The plan is to provide a configuration file for the "
-"module later to be able to use sane defaults here."
-msgstr ""
-"файл шаблон для використання, типово tmpl/default.tmpl, але швидше за все ви "
-"це зміните.  ПРИМІТКА: План полягає в тому, щоб пропонувати файл "
-"конфігурації для модуля пізніше, щоб тут можна було використовувати "
-"нормальне типове значення."
+msgid "template file to use, defaults to tmpl/default.tmpl, so you most likely want to override that.  NOTE: The plan is to provide a configuration file for the module later to be able to use sane defaults here."
+msgstr "файл шаблон для використання, типово tmpl/default.tmpl, але швидше за все ви це зміните.  ПРИМІТКА: План полягає в тому, щоб пропонувати файл конфігурації для модуля пізніше, щоб тут можна було використовувати нормальне типове значення."
 
 #: ../lib/Parse/DebianChangelog.pm:911
 msgid "style"
-msgstr "style"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:913
-msgid ""
-"path to the CSS stylesheet to use (a default might be specified in the "
-"template and will be honoured, see the default template for an example)"
-msgstr ""
-"шлях до таблиці стилів CSS для використання (типовий може бути вказаний у "
-"шаблоні та буде використовуватись, див. типовий шаблон для прикладу)."
+msgid "path to the CSS stylesheet to use (a default might be specified in the template and will be honoured, see the default template for an example)"
+msgstr "шлях до таблиці стилів CSS для використання (типовий може бути вказаний у шаблоні та буде використовуватись, див. типовий шаблон для прикладу)."
 
 #: ../lib/Parse/DebianChangelog.pm:917
 msgid "print_style"
-msgstr "print_style"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:919
-msgid ""
-"path to the CSS stylesheet to use for printing (see the notes for C<style> "
-"about default values)"
-msgstr ""
-"шлях до таблиці стилів CSS, що використовується під час виведення (дивіться "
-"примітки до C<style> про типові значення)"
+msgid "path to the CSS stylesheet to use for printing (see the notes for C<style> about default values)"
+msgstr "шлях до таблиці стилів CSS, що використовується під час виведення (дивіться примітки до C<style> про типові значення)"
 
 #: ../lib/Parse/DebianChangelog.pm:924
 msgid "html_str"
-msgstr "html_str"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:926
 msgid "See L<html>."
@@ -862,7 +571,7 @@ msgstr "Див. L<html>."
 
 #: ../lib/Parse/DebianChangelog.pm:1062
 msgid "init_filters"
-msgstr "init_filters"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:1064 ../lib/Parse/DebianChangelog.pm:1083
 #: ../lib/Parse/DebianChangelog.pm:1100
@@ -871,35 +580,27 @@ msgstr "ще не документовано"
 
 #: ../lib/Parse/DebianChangelog.pm:1081
 msgid "apply_filters"
-msgstr "apply_filters"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:1098
 msgid "add_filter, delete_filter, replace_filter"
-msgstr "add_filter, delete_filter, replace_filter"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:1170
 msgid "COMMON OUTPUT OPTIONS"
 msgstr "ЗАГАЛЬНІ ПАРАМЕТРИ ВИВЕДЕННЯ"
 
 #: ../lib/Parse/DebianChangelog.pm:1172
-msgid ""
-"The following options are supported by all output methods, all take a "
-"version number as value:"
-msgstr ""
-"Наведені нижче параметри підтримуються всіма методами виведення, всі "
-"приймають номер версії як значення:"
+msgid "The following options are supported by all output methods, all take a version number as value:"
+msgstr "Наведені нижче параметри підтримуються всіма методами виведення, всі приймають номер версії як значення:"
 
 #: ../lib/Parse/DebianChangelog.pm:1177
 msgid "since"
-msgstr "since"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:1179
-msgid ""
-"Causes changelog information from all versions strictly later than "
-"B<version> to be used."
-msgstr ""
-"Буде використовуватись інформація з журналу змін усіх версій, що перевищують "
-"версію B<version>."
+msgid "Causes changelog information from all versions strictly later than B<version> to be used."
+msgstr "Буде використовуватись інформація з журналу змін усіх версій, що перевищують версію B<version>."
 
 #: ../lib/Parse/DebianChangelog.pm:1182
 msgid "(works exactly like the C<-v> option of dpkg-parsechangelog)."
@@ -907,103 +608,63 @@ msgstr "(працює аналогічно параметру C<-v> для dpkg-
 
 #: ../lib/Parse/DebianChangelog.pm:1184
 msgid "until"
-msgstr "until"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:1186
-msgid ""
-"Causes changelog information from all versions strictly earlier than "
-"B<version> to be used."
-msgstr ""
-"Буде використовуватись інформація з журналу змін усіх версій, що не "
-"перевищують версію B<version>."
+msgid "Causes changelog information from all versions strictly earlier than B<version> to be used."
+msgstr "Буде використовуватись інформація з журналу змін усіх версій, що не перевищують версію B<version>."
 
 #: ../lib/Parse/DebianChangelog.pm:1189
 msgid "from"
-msgstr "from"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:1191
-msgid ""
-"Similar to C<since> but also includes the information for the specified "
-"B<version> itself."
-msgstr ""
-"Подібно до C<since> але також містить ані для власне зазначеної  B<version>."
+msgid "Similar to C<since> but also includes the information for the specified B<version> itself."
+msgstr "Подібно до C<since> але також містить ані для власне зазначеної  B<version>."
 
 #: ../lib/Parse/DebianChangelog.pm:1194
 msgid "to"
-msgstr "to"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:1196
-msgid ""
-"Similar to C<until> but also includes the information for the specified "
-"B<version> itself."
-msgstr ""
-"Подібно до C<until> але також містить інформацію для власне зазначеної "
-"версії B<version>."
+msgid "Similar to C<until> but also includes the information for the specified B<version> itself."
+msgstr "Подібно до C<until> але також містить інформацію для власне зазначеної версії B<version>."
 
 #: ../lib/Parse/DebianChangelog.pm:1201
-msgid ""
-"The following options also supported by all output methods but don't take "
-"version numbers as values:"
-msgstr ""
-"Наступні параметри також підтримуються всіма методами виведення, але не "
-"приймають номери версій як значення:"
+msgid "The following options also supported by all output methods but don't take version numbers as values:"
+msgstr "Наступні параметри також підтримуються всіма методами виведення, але не приймають номери версій як значення:"
 
 #: ../lib/Parse/DebianChangelog.pm:1206
 msgid "all"
-msgstr "all"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:1208
-msgid ""
-"If set to a true value, all entries of the changelog are returned, this "
-"overrides all other options. While the XML and HTML formats default to all "
-"== true, this does of course not overwrite other options unless it is set "
-"explicitly with the call."
-msgstr ""
-"Якщо встановлено значення true, всі записи журналу змін повертаються, це "
-"перевизначає всі інші параметри. Хоча формати XML і HTML за умовчанням мають "
-"всі значення == true, це, звичайно, не перезаписує інші параметри, якщо воно "
-"не встановлено явним викликом."
+msgid "If set to a true value, all entries of the changelog are returned, this overrides all other options. While the XML and HTML formats default to all == true, this does of course not overwrite other options unless it is set explicitly with the call."
+msgstr "Якщо встановлено значення true, всі записи журналу змін повертаються, це перевизначає всі інші параметри. Хоча формати XML і HTML за умовчанням мають всі значення == true, це, звичайно, не перезаписує інші параметри, якщо воно не встановлено явним викликом."
 
 #: ../lib/Parse/DebianChangelog.pm:1213
 msgid "count"
-msgstr "count"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:1215
-msgid ""
-"Expects a signed integer as value. Returns C<value> entries from the top of "
-"the changelog if set to a positive integer, and C<abs(value)> entries from "
-"the tail if set to a negative integer."
-msgstr ""
-"Як значення має бути знакове ціле число. Повертає записи C<value> з верхньої "
-"частини журналу змін, якщо вказане позитивне ціле значення,  C<abs(value)>  "
-"значення з кінця, якщо вказане негативне ціле значення."
+msgid "Expects a signed integer as value. Returns C<value> entries from the top of the changelog if set to a positive integer, and C<abs(value)> entries from the tail if set to a negative integer."
+msgstr "Як значення має бути знакове ціле число. Повертає записи C<value> з верхньої частини журналу змін, якщо вказане позитивне ціле значення,  C<abs(value)>  значення з кінця, якщо вказане негативне ціле значення."
 
 #: ../lib/Parse/DebianChangelog.pm:1219
 msgid "offset"
-msgstr "offset"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog.pm:1221
-msgid ""
-"Expects a signed integer as value. Changes the starting point for C<count>, "
-"either counted from the top (positive integer) or from the tail (negative "
-"integer). C<offset> has no effect if C<count> wasn't given as well."
-msgstr ""
-"Як значення має бути знакове ціле число. Зміна початкової точки відліку для "
-"C<count> від верхньої частини (позитивне ціле) або нижньої частини "
-"(негативне ціле).  C<offset> не має ефекту без зазначення C<count>."
+msgid "Expects a signed integer as value. Changes the starting point for C<count>, either counted from the top (positive integer) or from the tail (negative integer). C<offset> has no effect if C<count> wasn't given as well."
+msgstr "Як значення має бути знакове ціле число. Зміна початкової точки відліку для C<count> від верхньої частини (позитивне ціле) або нижньої частини (негативне ціле).  C<offset> не має ефекту без зазначення C<count>."
 
 #: ../lib/Parse/DebianChangelog.pm:1228
-msgid ""
-"Some examples for the above options. Imagine an example changelog with "
-"entries for the versions 1.2, 1.3, 2.0, 2.1, 2.2, 3.0 and 3.1."
-msgstr ""
-"Деякі приклади наведених вище параметрів. Візьмемо як приклад журнал змін із "
-"записами для версій 1.2, 1.3, 2.0, 2.1, 2.2, 3.0 та 3.1."
+msgid "Some examples for the above options. Imagine an example changelog with entries for the versions 1.2, 1.3, 2.0, 2.1, 2.2, 3.0 and 3.1."
+msgstr "Деякі приклади наведених вище параметрів. Візьмемо як приклад журнал змін із записами для версій 1.2, 1.3, 2.0, 2.1, 2.2, 3.0 та 3.1."
 
 #: ../lib/Parse/DebianChangelog.pm:1231
 #, no-wrap
-msgid ""
-"            Call                               Included entries\n"
+msgid "            Call                               Included entries\n"
 " C<E<lt>formatE<gt>({ since =E<gt> '2.0' })>  3.1, 3.0, 2.2\n"
 " C<E<lt>formatE<gt>({ until =E<gt> '2.0' })>  1.3, 1.2\n"
 " C<E<lt>formatE<gt>({ from =E<gt> '2.0' })>   3.1, 3.0, 2.2, 2.1, 2.0\n"
@@ -1017,10 +678,8 @@ msgid ""
 " C<E<lt>formatE<gt>({ count =E<gt> -2,\n"
 "\t\t      offset=E<gt> 3 }>>      3.0, 2.2\n"
 " C<E<lt>formatE<gt>({ count =E<gt> -2,\n"
-"\t\t      offset=E<gt> -3 }>>     2.2, 2.1\n"
-"\n"
-msgstr ""
-"            Виклик                             Записи, що додаватимуться\n"
+"\t\t      offset=E<gt> -3 }>>     2.2, 2.1\n\n"
+msgstr "            Виклик                             Записи, що додаватимуться\n"
 " C<E<lt>formatE<gt>({ since =E<gt> '2.0' })>  3.1, 3.0, 2.2\n"
 " C<E<lt>formatE<gt>({ until =E<gt> '2.0' })>  1.3, 1.2\n"
 " C<E<lt>formatE<gt>({ from =E<gt> '2.0' })>   3.1, 3.0, 2.2, 2.1, 2.0\n"
@@ -1034,53 +693,32 @@ msgstr ""
 " C<E<lt>formatE<gt>({ count =E<gt> -2,\n"
 "\t\t      offset=E<gt> 3 }>>      3.0, 2.2\n"
 " C<E<lt>formatE<gt>({ count =E<gt> -2,\n"
-"\t\t      offset=E<gt> -3 }>>     2.2, 2.1\n"
-"\n"
+"\t\t      offset=E<gt> -3 }>>     2.2, 2.1\n\n"
 
 #: ../lib/Parse/DebianChangelog.pm:1247
-msgid ""
-"Any combination of one option of C<since> and C<from> and one of C<until> "
-"and C<to> returns the intersection of the two results with only one of the "
-"options specified."
-msgstr ""
-"Будь які комбінації одного з параметрів  C<since> та C<from> та одного з "
-"параметрів C<until> та C<to> повертає перетин двох результатів лише з одним "
-"із зазначених параметрів."
+msgid "Any combination of one option of C<since> and C<from> and one of C<until> and C<to> returns the intersection of the two results with only one of the options specified."
+msgstr "Будь які комбінації одного з параметрів  C<since> та C<from> та одного з параметрів C<until> та C<to> повертає перетин двох результатів лише з одним із зазначених параметрів."
 
 #: ../lib/Parse/DebianChangelog.pm:1253
 msgid "Parse::DebianChangelog::Entry, Parse::DebianChangelog::ChangesFilters"
 msgstr ""
-"Parse::DebianChangelog::Entry, Parse::DebianChangelog::ChangesFilters"
 
 #: ../lib/Parse/DebianChangelog/ChangesFilters.pm:23
-msgid ""
-"Parse::DebianChangelog::ChangesFilters - filters to be applied to Debian "
-"changelog entries"
-msgstr ""
-"Parse::DebianChangelog::ChangesFilters - фільтри, що будуть застосовані до "
-"записів журналу змін Debian"
+msgid "Parse::DebianChangelog::ChangesFilters - filters to be applied to Debian changelog entries"
+msgstr "Parse::DebianChangelog::ChangesFilters - фільтри, що будуть застосовані до записів журналу змін Debian"
 
 #: ../lib/Parse/DebianChangelog/ChangesFilters.pm:29
-msgid ""
-"This is currently only used internally by Parse::DebianChangelog and is not "
-"yet documented. There may be still API changes until this module is "
-"finalized."
-msgstr ""
-"Наразі це використовується лише для Parse::DebianChangelog і ще не "
-"задокументовано. В АPI ще можуть бути внесені зміни перед фінальним випуском "
-"модуля."
+msgid "This is currently only used internally by Parse::DebianChangelog and is not yet documented. There may be still API changes until this module is finalized."
+msgstr "Наразі це використовується лише для Parse::DebianChangelog і ще не задокументовано. В АPI ще можуть бути внесені зміни перед фінальним випуском модуля."
 
 #: ../lib/Parse/DebianChangelog/ChangesFilters.pm:167
 #: ../lib/Parse/DebianChangelog/Entry.pm:151
 msgid "Parse::DebianChangelog"
-msgstr "Parse::DebianChangelog"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog/Entry.pm:23
-msgid ""
-"Parse::DebianChangelog::Entry - represents one entry in a Debian changelog"
-msgstr ""
-"Parse::DebianChangelog::Entry - представляє собою один запис в журналі змін "
-"Debian"
+msgid "Parse::DebianChangelog::Entry - represents one entry in a Debian changelog"
+msgstr "Parse::DebianChangelog::Entry - представляє собою один запис в журналі змін Debian"
 
 #: ../lib/Parse/DebianChangelog/Entry.pm:29
 msgid "Methods"
@@ -1092,7 +730,7 @@ msgstr "Створення нового об'єкту, немає парамет
 
 #: ../lib/Parse/DebianChangelog/Entry.pm:35
 msgid "new"
-msgstr "new"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog/Entry.pm:37
 msgid "Alias for init."
@@ -1100,13 +738,10 @@ msgstr "Синонім для init."
 
 #: ../lib/Parse/DebianChangelog/Entry.pm:39
 msgid "is_empty"
-msgstr "is_empty"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog/Entry.pm:41
-msgid ""
-"Checks if the object is actually initialized with data. Due to limitations "
-"in Parse::DebianChangelog this currently simply checks if one of the fields "
-"Source, Version, Maintainer, Date, or Changes is initialized."
+msgid "Checks if the object is actually initialized with data. Due to limitations in Parse::DebianChangelog this currently simply checks if one of the fields Source, Version, Maintainer, Date, or Changes is initialized."
 msgstr ""
 
 #: ../lib/Parse/DebianChangelog/Entry.pm:45
@@ -1114,12 +749,8 @@ msgid "Accessors"
 msgstr "Засіб доступу"
 
 #: ../lib/Parse/DebianChangelog/Entry.pm:47
-msgid ""
-"The following fields are available via accessor functions (all fields are "
-"string values unless otherwise noted):"
-msgstr ""
-"Через функцій доступу такі поля (всі поля є рядковими значеннями, якщо не "
-"зазначено інше):"
+msgid "The following fields are available via accessor functions (all fields are string values unless otherwise noted):"
+msgstr "Через функцій доступу такі поля (всі поля є рядковими значеннями, якщо не зазначено інше):"
 
 #: ../lib/Parse/DebianChangelog/Entry.pm:52
 #: ../lib/Parse/DebianChangelog/Entry.pm:56
@@ -1135,7 +766,7 @@ msgstr ""
 #: ../lib/Parse/DebianChangelog/Entry.pm:96
 #: ../lib/Parse/DebianChangelog/Entry.pm:100
 msgid "*"
-msgstr "*"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog/Entry.pm:70
 msgid "ExtraFields (all fields except for urgency as hash)"
@@ -1166,28 +797,16 @@ msgid "Timestamp (Date expressed in seconds since the epoche)"
 msgstr "Мітка час (Дата у секундах від початку епохи)"
 
 #: ../lib/Parse/DebianChangelog/Entry.pm:102
-msgid ""
-"ERROR (last parse error related to this entry in the format described at "
-"Parse::DebianChangelog::get_parse_errors."
-msgstr ""
-"ПОМИЛКА (остання помилка синтаксичного аналізу у форматі, описаному у "
-"Parse::DebianChangelog::get_parse_errors."
+msgid "ERROR (last parse error related to this entry in the format described at Parse::DebianChangelog::get_parse_errors."
+msgstr "ПОМИЛКА (остання помилка синтаксичного аналізу у форматі, описаному у Parse::DebianChangelog::get_parse_errors."
 
 #: ../lib/Parse/DebianChangelog/Util.pm:24
-msgid ""
-"Parse::DebianChangelog::Util - utility functions for parsing Debian "
-"changelogs"
-msgstr ""
-"Parse::DebianChangelog::Util - інструментальні функцій для синтаксичного "
-"аналізу журналу змін Debian"
+msgid "Parse::DebianChangelog::Util - utility functions for parsing Debian changelogs"
+msgstr "Parse::DebianChangelog::Util - інструментальні функцій для синтаксичного аналізу журналу змін Debian"
 
 #: ../lib/Parse/DebianChangelog/Util.pm:28
-msgid ""
-"This is currently only used internally by Parse::DebianChangelog.  There may "
-"be still API changes until this module is finalized."
-msgstr ""
-"Наразі це використовується лише для Parse::DebianChangelog. В АPI ще можуть "
-"бути внесені зміни перед фінальним випуском модуля."
+msgid "This is currently only used internally by Parse::DebianChangelog.  There may be still API changes until this module is finalized."
+msgstr "Наразі це використовується лише для Parse::DebianChangelog. В АPI ще можуть бути внесені зміни перед фінальним випуском модуля."
 
 #: ../lib/Parse/DebianChangelog/Util.pm:31
 msgid "Functions"
@@ -1195,32 +814,19 @@ msgstr "Функції"
 
 #: ../lib/Parse/DebianChangelog/Util.pm:58
 msgid "find_closes"
-msgstr "find_closes"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog/Util.pm:60
-msgid ""
-"Takes one string as argument and finds \"Closes: #123456, #654321\" "
-"statements as supported by the Debian Archive software in it. Returns all "
-"closed bug numbers in an array reference."
-msgstr ""
-"Приймає один рядок як аргумент і здійснює пошук виразів \"Closes: #123456, "
-"#654321\" як їх підтримує програми архівації Debian Archive. Повертає як "
-"результат всі номери закритих помилок у вигляді масиву посилань."
+msgid "Takes one string as argument and finds \"Closes: #123456, #654321\" statements as supported by the Debian Archive software in it. Returns all closed bug numbers in an array reference."
+msgstr "Приймає один рядок як аргумент і здійснює пошук виразів \"Closes: #123456, #654321\" як їх підтримує програми архівації Debian Archive. Повертає як результат всі номери закритих помилок у вигляді масиву посилань."
 
 #: ../lib/Parse/DebianChangelog/Util.pm:80
 msgid "data2rfc822"
-msgstr "data2rfc822"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog/Util.pm:82
-msgid ""
-"Takes two hash references as arguments. The first should contain the data to "
-"output in RFC822 format. The second can contain a sorting order for the "
-"fields. The higher the numerical value of the hash value, the earlier the "
-"field is printed if it exists."
-msgstr ""
-"Приймає як аргументи два хеш-посилання. Перший повинен містити дані, для "
-"виведення у форматі RFC822. Другий може містити впорядкування для полів. Чим "
-"вище числове значення хешу, тим раніше виводиться поле, якщо воно існує."
+msgid "Takes two hash references as arguments. The first should contain the data to output in RFC822 format. The second can contain a sorting order for the fields. The higher the numerical value of the hash value, the earlier the field is printed if it exists."
+msgstr "Приймає як аргументи два хеш-посилання. Перший повинен містити дані, для виведення у форматі RFC822. Другий може містити впорядкування для полів. Чим вище числове значення хешу, тим раніше виводиться поле, якщо воно існує."
 
 #: ../lib/Parse/DebianChangelog/Util.pm:87
 msgid "Return the data in RFC822 format as string."
@@ -1228,213 +834,118 @@ msgstr "Повертає дані у форматі RFC822 як рядок"
 
 #: ../lib/Parse/DebianChangelog/Util.pm:115
 msgid "data2rfc822_mult"
-msgstr "data2rfc822_mult"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog/Util.pm:117
-msgid ""
-"The first argument should be an array ref to an array of hash references.  "
-"The second argument is a hash reference and has the same meaning as the "
-"second argument of L<data2rfc822>."
-msgstr ""
-"Першим арґументом повинен бути масив посилань на масив хеш-посилань. Другий "
-"аргумент є хеш-посиланням і має те ж значення, що і другий аргумент методу "
-"L<data2rfc822>."
+msgid "The first argument should be an array ref to an array of hash references.  The second argument is a hash reference and has the same meaning as the second argument of L<data2rfc822>."
+msgstr "Першим арґументом повинен бути масив посилань на масив хеш-посилань. Другий аргумент є хеш-посиланням і має те ж значення, що і другий аргумент методу L<data2rfc822>."
 
 #: ../lib/Parse/DebianChangelog/Util.pm:121
-msgid ""
-"Calls L<data2rfc822> for each element of the array given as first argument "
-"and returns the concatenated results."
-msgstr ""
-"Викликає L<data2rfc822> для кожного елемента масиву, заданого як перший "
-"аргумент, і повертає об'єднані результати."
+msgid "Calls L<data2rfc822> for each element of the array given as first argument and returns the concatenated results."
+msgstr "Викликає L<data2rfc822> для кожного елемента масиву, заданого як перший аргумент, і повертає об'єднані результати."
 
 #: ../lib/Parse/DebianChangelog/Util.pm:139
 msgid "get_dpkg_changes"
-msgstr "get_dpkg_changes"
+msgstr ""
 
 #: ../lib/Parse/DebianChangelog/Util.pm:141
 msgid "Takes a Parse::DebianChangelog::Entry object as first argument."
 msgstr "Приймає об'єкт Parse::DebianChangelog::Entry як перший аргумент."
 
 #: ../lib/Parse/DebianChangelog/Util.pm:143
-msgid ""
-"Returns a string that is suitable for using it in a C<Changes> field in the "
-"output format of C<dpkg-parsechangelog>."
-msgstr ""
-"Повертає рядок, придатний для використання в полі  C<Changes> у вихідному "
-"форматі C<dpkg-parsechangelog>."
+msgid "Returns a string that is suitable for using it in a C<Changes> field in the output format of C<dpkg-parsechangelog>."
+msgstr "Повертає рядок, придатний для використання в полі  C<Changes> у вихідному форматі C<dpkg-parsechangelog>."
 
 #: ../lib/Parse/DebianChangelog/Util.pm:160
 msgid "Parse::DebianChangelog, Parse::DebianChangelog::Entry"
-msgstr "Parse::DebianChangelog, Parse::DebianChangelog::Entry"
+msgstr ""
 
 #: ../lib/Pod/UsageTrans.pm:32
-msgid ""
-"Pod::UsageTrans, pod2usage() - print a usage message from embedded pod "
-"documentation"
-msgstr ""
-"Pod::UsageTrans, pod2usage() - вивід повідомлення про використання з "
-"вбудованої документації pod"
+msgid "Pod::UsageTrans, pod2usage() - print a usage message from embedded pod documentation"
+msgstr "Pod::UsageTrans, pod2usage() - вивід повідомлення про використання з вбудованої документації pod"
 
 #: ../lib/Pod/UsageTrans.pm:36
 #, no-wrap
-msgid ""
-"  use Pod::UsageTrans\n"
-"  use Locale::gettext;\n"
-"\n"
+msgid "  use Pod::UsageTrans\n"
+"  use Locale::gettext;\n\n"
 msgstr ""
-"  use Pod::UsageTrans\n"
-"  use Locale::gettext;\n"
-"\n"
 
 #: ../lib/Pod/UsageTrans.pm:39
 #, no-wrap
-msgid ""
-"  setlocale(LC_MESSAGES,'');\n"
-"  textdomain('prog');\n"
-"\n"
+msgid "  setlocale(LC_MESSAGES,'');\n"
+"  textdomain('prog');\n\n"
 msgstr ""
-"  setlocale(LC_MESSAGES,'');\n"
-"  textdomain('prog');\n"
-"\n"
 
 #: ../lib/Pod/UsageTrans.pm:42
 #, no-wrap
-msgid ""
-"  my $message_text  = \"This text precedes the usage message.\";\n"
+msgid "  my $message_text  = \"This text precedes the usage message.\";\n"
 "  my $exit_status   = 2;          ## The exit status to use\n"
 "  my $verbose_level = 0;          ## The verbose level to use\n"
 "  my $filehandle    = \\*STDERR;   ## The filehandle to write to\n"
-"  my $textdomain    = 'prog-pod'; ## The gettext domain for the Pod "
-"documentation\n"
-"\n"
-msgstr ""
-"  my $message_text  = \"Цей текст передує повідомленню про використання.\";\n"
+"  my $textdomain    = 'prog-pod'; ## The gettext domain for the Pod documentation\n\n"
+msgstr "  my $message_text  = \"Цей текст передує повідомленню про використання.\";\n"
 "  my $exit_status   = 2;          ## Використовуваний код завершення\n"
 "  my $verbose_level = 0;          ## Використовуваний рік докладності\n"
 "  my $filehandle    = \\*STDERR;   ## Файл для запису\n"
-"  my $textdomain    = 'prog-pod'; ## Домен gettext для документації Pod\n"
-"\n"
+"  my $textdomain    = 'prog-pod'; ## Домен gettext для документації Pod\n\n"
 
 #: ../lib/Pod/UsageTrans.pm:48
 #, no-wrap
-msgid ""
-"  pod2usage($message_text);\n"
-"\n"
+msgid "  pod2usage($message_text);\n\n"
 msgstr ""
-"  pod2usage($message_text);\n"
-"\n"
 
 #: ../lib/Pod/UsageTrans.pm:50
 #, no-wrap
-msgid ""
-"  pod2usage($exit_status);\n"
-"\n"
+msgid "  pod2usage($exit_status);\n\n"
 msgstr ""
-"  pod2usage($exit_status);\n"
-"\n"
 
 #: ../lib/Pod/UsageTrans.pm:52
 #, no-wrap
-msgid ""
-"  pod2usage( { -message => gettext( $message_text ) ,\n"
+msgid "  pod2usage( { -message => gettext( $message_text ) ,\n"
 "               -exitval => $exit_status  ,\n"
 "               -verbose => $verbose_level,\n"
 "               -output  => $filehandle,\n"
-"               -textdomain => $textdomain } );\n"
-"\n"
+"               -textdomain => $textdomain } );\n\n"
 msgstr ""
-"  pod2usage( { -message => gettext( $message_text ) ,\n"
-"               -exitval => $exit_status  ,\n"
-"               -verbose => $verbose_level,\n"
-"               -output  => $filehandle,\n"
-"               -textdomain => $textdomain } );\n"
-"\n"
 
 #: ../lib/Pod/UsageTrans.pm:58
 #, no-wrap
-msgid ""
-"  pod2usage(   -msg     => $message_text ,\n"
+msgid "  pod2usage(   -msg     => $message_text ,\n"
 "               -exitval => $exit_status  ,\n"
 "               -verbose => $verbose_level,\n"
 "               -output  => $filehandle,\n"
-"               -textdomain => $textdomain );\n"
-"\n"
+"               -textdomain => $textdomain );\n\n"
 msgstr ""
-"  pod2usage(   -msg     => $message_text ,\n"
-"               -exitval => $exit_status  ,\n"
-"               -verbose => $verbose_level,\n"
-"               -output  => $filehandle,\n"
-"               -textdomain => $textdomain );\n"
-"\n"
 
 #: ../lib/Pod/UsageTrans.pm:66
-msgid ""
-"Pod::UsageTrans works exactly like Pod::Usage but allows you to easily "
-"translate your messages. It was specifically written to be compatible with "
-"the F<.po> files produced by po4a(7). If you want to use any other method to "
-"produce your F<.po> files you should probably take a look at the source of "
-"code of this module to see which msgids you will need to use."
-msgstr ""
-"Pod::UsageTrans працює так само, як Pod::Usage, але дозволяє вам легко "
-"перекладати свої повідомлення. Він був спеціально написаний для сумісності з "
-"файлами F<.po>, створені po4a(7). Якщо ви хочете використати будь-який інший "
-"метод для створення своїх файлів F<.po>, вам слід, напевно, поглянути на "
-"джерело коду цього модуля, щоб побачити, які msgid вам знадобиться "
-"використовувати."
+msgid "Pod::UsageTrans works exactly like Pod::Usage but allows you to easily translate your messages. It was specifically written to be compatible with the F<.po> files produced by po4a(7). If you want to use any other method to produce your F<.po> files you should probably take a look at the source of code of this module to see which msgids you will need to use."
+msgstr "Pod::UsageTrans працює так само, як Pod::Usage, але дозволяє вам легко перекладати свої повідомлення. Він був спеціально написаний для сумісності з файлами F<.po>, створені po4a(7). Якщо ви хочете використати будь-який інший метод для створення своїх файлів F<.po>, вам слід, напевно, поглянути на джерело коду цього модуля, щоб побачити, які msgid вам знадобиться використовувати."
 
 #: ../lib/Pod/UsageTrans.pm:73
-msgid ""
-"For documentation on calling pod2usage from your program see Pod::Usage. "
-"Pod::UsageTrans additionally supports a C<-textdomain> option where you can "
-"specify the gettext domain to use. If C<-textdomain> isn't set, "
-"Pod::UsageTrans will behave exactly like Pod::Usage."
-msgstr ""
-"Для отримання документації про виклик pod2usage з вашої програми див. "
-"Pod::Usage. Pod::UsageTrans додатково підтримує параметр C<-textdomain>, де "
-"ви можете вказати для використання gettext-домен. Якщо C<-textdomain> не "
-"встановлено, Pod::UsageTrans буде поводитися так само, як Pod::Usage."
+msgid "For documentation on calling pod2usage from your program see Pod::Usage. Pod::UsageTrans additionally supports a C<-textdomain> option where you can specify the gettext domain to use. If C<-textdomain> isn't set, Pod::UsageTrans will behave exactly like Pod::Usage."
+msgstr "Для отримання документації про виклик pod2usage з вашої програми див. Pod::Usage. Pod::UsageTrans додатково підтримує параметр C<-textdomain>, де ви можете вказати для використання gettext-домен. Якщо C<-textdomain> не встановлено, Pod::UsageTrans буде поводитися так само, як Pod::Usage."
 
 #: ../lib/Pod/UsageTrans.pm:79
 msgid "BUGS"
 msgstr "ПОМИЛКИ"
 
 #: ../lib/Pod/UsageTrans.pm:81
-msgid ""
-"Pod::UsageTrans is currently in the state of a quickly hacked together "
-"solution that was tested with exactly one use case. Expect bugs in corner "
-"cases."
-msgstr ""
-"Pod::UsageTrans наразі являє собою нашвидкоруч створене рішення, що було "
-"перевірено лише для однієї ситуації. Тому в інших ситуаціях можливі помилки "
-"в роботі."
+msgid "Pod::UsageTrans is currently in the state of a quickly hacked together solution that was tested with exactly one use case. Expect bugs in corner cases."
+msgstr "Pod::UsageTrans наразі являє собою нашвидкоруч створене рішення, що було перевірено лише для однієї ситуації. Тому в інших ситуаціях можливі помилки в роботі."
 
 #: ../lib/Pod/UsageTrans.pm:85
-msgid ""
-"It specifically doesn't support many of the po4a options like charset "
-"conversion between the POD input and the msgstr in the F<.pot> file."
-msgstr ""
-"Він наввмисне не підтримує більшість параметрів po4a на кшталт перетворення "
-"набору символів між введенням POD та msgstr у файлі F<.pot>."
+msgid "It specifically doesn't support many of the po4a options like charset conversion between the POD input and the msgstr in the F<.pot> file."
+msgstr "Він наввмисне не підтримує більшість параметрів po4a на кшталт перетворення набору символів між введенням POD та msgstr у файлі F<.pot>."
 
 #: ../lib/Pod/UsageTrans.pm:90
 msgid "po4a(7), Pod::Usage, gettext info documentation"
 msgstr "po4a(7), Pod::Usage, документація у форматі gettext info"
 
 #: ../lib/Pod/UsageTrans.pm:96
-msgid ""
-"Based on Pod::Usage by Brad Appleton E<lt>bradapp@enteract.comE<gt> which is "
-"based on code for B<Pod::Text::pod2text()> written by Tom Christiansen "
-"E<lt>tchrist@mox.perl.comE<gt>"
-msgstr ""
-"На основі Pod::Usage від Бреда Епплтона E<lt>bradapp@enteract.comE<gt>, що "
-"заснований на коді для B<Pod::Text::pod2text()> , написаного Томом "
-"Крістіансеном E<lt>tchrist@mox.perl.comE<gt>"
+msgid "Based on Pod::Usage by Brad Appleton E<lt>bradapp@enteract.comE<gt> which is based on code for B<Pod::Text::pod2text()> written by Tom Christiansen E<lt>tchrist@mox.perl.comE<gt>"
+msgstr "На основі Pod::Usage від Бреда Епплтона E<lt>bradapp@enteract.comE<gt>, що заснований на коді для B<Pod::Text::pod2text()> , написаного Томом Крістіансеном E<lt>tchrist@mox.perl.comE<gt>"
 
 #: ../lib/Pod/UsageTrans.pm:100
-msgid ""
-"Also based on Locale::Po4a::Pod, Locale::Po4a::Po and "
-"Locale::Po4a::TransTractor by Martin Quinson and Denis Barbier."
-msgstr ""
-"Також на основі Locale::Po4a::Pod, Locale::Po4a::Po та "
-"Locale::Po4a::TransTractor від Мартіна Кінсона та Деніса Барб'є."
+msgid "Also based on Locale::Po4a::Pod, Locale::Po4a::Po and Locale::Po4a::TransTractor by Martin Quinson and Denis Barbier."
+msgstr "Також на основі Locale::Po4a::Pod, Locale::Po4a::Po та Locale::Po4a::TransTractor від Мартіна Кінсона та Деніса Барб'є."
+

@@ -1,26 +1,25 @@
-# Belarusian translation for eject
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
-# This file is distributed under the same license as the eject package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: eject\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-02-20 00:35+0100\n"
-"PO-Revision-Date: 2009-08-18 13:47+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Belarusian <be@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:00\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 10:46+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/eject.po\n"
+"Language: be_BY\n"
 
 #: ../eject.c:156
 #, c-format
-msgid ""
-"Eject version %s by Jeff Tranter (tranter@pobox.com)\n"
+msgid "Eject version %s by Jeff Tranter (tranter@pobox.com)\n"
 "Usage:\n"
 "  eject -h\t\t\t\t-- display command usage and exit\n"
 "  eject -V\t\t\t\t-- display program version and exit\n"
@@ -30,8 +29,7 @@ msgid ""
 "  eject [-vn] -c <slot> [<name>]\t-- switch discs on a CD-ROM changer\n"
 "  eject [-vn] -t [<name>]\t\t-- close tray\n"
 "  eject [-vn] -T [<name>]\t\t-- toggle tray\n"
-"  eject [-vn] -i on|off|1|0 [<name>]\t-- toggle manual eject protection "
-"on/off\n"
+"  eject [-vn] -i on|off|1|0 [<name>]\t-- toggle manual eject protection on/off\n"
 "  eject [-vn] -x <speed> [<name>]\t-- set CD-ROM max speed\n"
 "  eject [-vn] -X [<name>]\t\t-- list CD-ROM available speeds\n"
 "Options:\n"
@@ -47,20 +45,17 @@ msgstr ""
 
 #: ../eject.c:188
 #, c-format
-msgid ""
-"Long options:\n"
+msgid "Long options:\n"
 "  -h --help   -v --verbose      -d --default\n"
 "  -a --auto   -c --changerslot  -t --trayclose  -x --cdspeed\n"
-"  -r --cdrom  -s --scsi         -f --floppy     -X --listspeed     -q --"
-"tape\n"
+"  -r --cdrom  -s --scsi         -f --floppy     -X --listspeed     -q --tape\n"
 "  -n --noop   -V --version\n"
 "  -p --proc   -m --no-unmount   -T --traytoggle\n"
 msgstr ""
 
 #: ../eject.c:207
 #, c-format
-msgid ""
-"Parameter <name> can be a device file or a mount point.\n"
+msgid "Parameter <name> can be a device file or a mount point.\n"
 "If omitted, name defaults to `%s'.\n"
 "By default tries -r, -s, -f, and -q in order until success.\n"
 msgstr ""
@@ -438,3 +433,4 @@ msgstr ""
 #: ../volname.c:65 ../volname.c:71 ../volname.c:77
 msgid "volname"
 msgstr ""
+

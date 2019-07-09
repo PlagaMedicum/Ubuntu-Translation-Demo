@@ -1,23 +1,22 @@
-# Vital Khilko <vk@altlinux.ru>, 2003, 2005.
-# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2011, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: evolution-data-server.master\n"
-"Report-Msgid-Bugs-To: "
-"http://bugzilla.gnome.org/enter_bug.cgi?product=evolution-data-"
-"server&keywords=I18N+L10N&component=Misc.\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/evolution-data-server/issues\n"
 "POT-Creation-Date: 2019-04-10 09:39+0000\n"
-"PO-Revision-Date: 2014-10-08 01:30+0000\n"
-"Last-Translator: Ihar Hrachyshka <Unknown>\n"
-"Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
+"PO-Revision-Date: 2019-07-08 17:02\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Launchpad-Export-Date: 2019-05-11 10:54+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: be\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Launchpad-Export-Date: 2019-05-11 10:55+0000\n"
+"X-Generator: crowdin.com\n"
+"X-Project-Style: gnome\n"
+"Language: be_BY\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/evolution-data-server.po\n"
 
 #: ../src/addressbook/backends/carddav/e-book-backend-carddav.c:220
 #, c-format
@@ -97,9 +96,7 @@ msgid "Received object is not a valid vCard"
 msgstr ""
 
 #: ../src/addressbook/backends/carddav/e-book-backend-carddav.c:1149
-msgid ""
-"Missing information about vCard URL, local cache is possibly incomplete or "
-"broken. Remove it, please."
+msgid "Missing information about vCard URL, local cache is possibly incomplete or broken. Remove it, please."
 msgstr ""
 
 #: ../src/addressbook/backends/carddav/e-book-backend-carddav.c:1152
@@ -130,8 +127,7 @@ msgstr "Кантакт не мае UID"
 #: ../src/addressbook/backends/file/e-book-backend-file.c:868
 #, c-format
 msgid "Conflicting UIDs found in added contacts"
-msgstr ""
-"У новых кантактах знойдзеныя UID-ідэнтыфікатары, якія ўзаемна канфліктуюць"
+msgstr "У новых кантактах знойдзеныя UID-ідэнтыфікатары, якія ўзаемна канфліктуюць"
 
 #: ../src/addressbook/backends/file/e-book-backend-file.c:1006
 msgid "Loading..."
@@ -144,6 +140,7 @@ msgstr "Пошук..."
 
 #: ../src/addressbook/backends/file/e-book-backend-file.c:1300
 #, c-format
+#| msgid "Tried to modify contact '%s' with out of sync revision"
 msgid "Tried to modify contact “%s” with out of sync revision"
 msgstr ""
 
@@ -429,7 +426,7 @@ msgstr "Дамашні факс"
 
 #: ../src/addressbook/libebook-contacts/e-contact.c:170
 msgid "ISDN"
-msgstr "ISDN"
+msgstr ""
 
 #: ../src/addressbook/libebook-contacts/e-contact.c:171
 msgid "Mobile Phone"
@@ -917,10 +914,8 @@ msgid "Invalid country calling code"
 msgstr "Хібны код краіны"
 
 #: ../src/addressbook/libebook-contacts/e-phone-number.c:47
-msgid ""
-"Remaining text after the country calling code is too short for a phone number"
-msgstr ""
-"Уведзены пасля коду краіны тэкст надта кароткі для тэлефоннага нумару"
+msgid "Remaining text after the country calling code is too short for a phone number"
+msgstr "Уведзены пасля коду краіны тэкст надта кароткі для тэлефоннага нумару"
 
 #: ../src/addressbook/libebook-contacts/e-phone-number.c:49
 msgid "Text is too short for a phone number"
@@ -984,19 +979,14 @@ msgstr ""
 #: ../src/addressbook/libedata-book/e-book-cache.c:366
 #: ../src/addressbook/libedata-book/e-book-sqlite.c:605
 #, c-format
-msgid ""
-"Contact field “%s” of type “%s” specified in summary, but only boolean, "
-"string and string list field types are supported"
+msgid "Contact field “%s” of type “%s” specified in summary, but only boolean, string and string list field types are supported"
 msgstr ""
 
 #: ../src/addressbook/libedata-book/e-book-backend-sqlitedb.c:3075
 #: ../src/addressbook/libedata-book/e-book-backend-sqlitedb.c:4177
 #, c-format
-msgid ""
-"Full search_contacts are not stored in cache. vcards cannot be returned."
-msgstr ""
-"У кэш-памяці захоўваюцца няпоўныя версіі search_contacts. Вяртанне картак "
-"(vcard) немагчыма."
+msgid "Full search_contacts are not stored in cache. vcards cannot be returned."
+msgstr "У кэш-памяці захоўваюцца няпоўныя версіі search_contacts. Вяртанне картак (vcard) немагчыма."
 
 #: ../src/addressbook/libedata-book/e-book-backend-sqlitedb.c:4308
 #: ../src/addressbook/libedata-book/e-book-backend-sqlitedb.c:4401
@@ -1013,12 +1003,8 @@ msgstr "Хібны запыт"
 
 #: ../src/addressbook/libedata-book/e-book-backend-sqlitedb.c:4336
 #, c-format
-msgid ""
-"Full search_contacts are not stored in cache. Hence only summary query is "
-"supported."
-msgstr ""
-"У кэш-памяці захоўваюцца няпоўныя версіі search_contacts. Таму "
-"падтрымліваюцца толькі запыты для кароткага апісання."
+msgid "Full search_contacts are not stored in cache. Hence only summary query is supported."
+msgstr "У кэш-памяці захоўваюцца няпоўныя версіі search_contacts. Таму падтрымліваюцца толькі запыты для кароткага апісання."
 
 #: ../src/addressbook/libedata-book/e-book-backend-sqlitedb.c:4405
 #: ../src/addressbook/libedata-book/e-data-book.c:394
@@ -1032,11 +1018,8 @@ msgstr "Хібны запыт"
 
 #: ../src/addressbook/libedata-book/e-book-backend-sqlitedb.c:4448
 #, c-format
-msgid ""
-"Full vcards are not stored in cache. Hence only summary query is supported."
-msgstr ""
-"У кэш-памяці захоўваюцца няпоўныя версіі картак. Таму падтрымліваюцца толькі "
-"запыты для кароткага апісання."
+msgid "Full vcards are not stored in cache. Hence only summary query is supported."
+msgstr "У кэш-памяці захоўваюцца няпоўныя версіі картак. Таму падтрымліваюцца толькі запыты для кароткага апісання."
 
 #: ../src/addressbook/libedata-book/e-book-backend-sqlitedb.c:5271
 #, c-format
@@ -1068,18 +1051,14 @@ msgstr ""
 #: ../src/addressbook/libedata-book/e-book-cache.c:5613
 #: ../src/addressbook/libedata-book/e-book-sqlite.c:8143
 #, c-format
-msgid ""
-"Tried to step a cursor in reverse, but cursor is already at the beginning of "
-"the contact list"
+msgid "Tried to step a cursor in reverse, but cursor is already at the beginning of the contact list"
 msgstr ""
 
 #: ../src/addressbook/libedata-book/e-book-backend-sqlitedb.c:6227
 #: ../src/addressbook/libedata-book/e-book-cache.c:5620
 #: ../src/addressbook/libedata-book/e-book-sqlite.c:8151
 #, c-format
-msgid ""
-"Tried to step a cursor forwards, but cursor is already at the end of the "
-"contact list"
+msgid "Tried to step a cursor forwards, but cursor is already at the end of the contact list"
 msgstr ""
 
 #: ../src/addressbook/libedata-book/e-book-cache.c:331
@@ -1153,9 +1132,7 @@ msgid "Failed to create cache “%s”:"
 msgstr ""
 
 #: ../src/addressbook/libedata-book/e-book-sqlite.c:1951
-msgid ""
-"Cannot upgrade contacts database from a legacy database with more than one "
-"addressbook. Delete one of the entries in the “folders” table first."
+msgid "Cannot upgrade contacts database from a legacy database with more than one addressbook. Delete one of the entries in the “folders” table first."
 msgstr ""
 
 #: ../src/addressbook/libedata-book/e-book-sqlite.c:6012
@@ -1374,9 +1351,7 @@ msgid "Given URL “%s” doesn’t reference CalDAV calendar"
 msgstr ""
 
 #: ../src/calendar/backends/caldav/e-cal-backend-caldav.c:1322
-msgid ""
-"Missing information about component URL, local cache is possibly incomplete "
-"or broken. Remove it, please."
+msgid "Missing information about component URL, local cache is possibly incomplete or broken. Remove it, please."
 msgstr ""
 
 #: ../src/calendar/backends/caldav/e-cal-backend-caldav.c:1796
@@ -1720,6 +1695,8 @@ msgid "every day forever"
 msgid_plural "every %d days forever"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/calendar/libecal/e-cal-recur.c:4946
 #, c-format
@@ -1727,6 +1704,8 @@ msgid "Every day forever"
 msgid_plural "Every %d days forever"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/calendar/libecal/e-cal-recur.c:4954
 #, c-format
@@ -1734,6 +1713,8 @@ msgid "every day"
 msgid_plural "every %d days"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/calendar/libecal/e-cal-recur.c:4960
 #, c-format
@@ -1741,6 +1722,8 @@ msgid "Every day"
 msgid_plural "Every %d days"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/calendar/libecal/e-cal-recur.c:5050
 #, c-format
@@ -1748,6 +1731,8 @@ msgid "every week"
 msgid_plural "every %d weeks"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/calendar/libecal/e-cal-recur.c:5056
 #, c-format
@@ -1755,6 +1740,8 @@ msgid "Every week"
 msgid_plural "Every %d weeks"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. Translators: This is used to merge set of week day names in a recurrence, which can contain any
 #. of the week day names. The string always starts with "on DAYNAME", then it can continue either
@@ -1878,6 +1865,8 @@ msgid "every month"
 msgid_plural "every %d months"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/calendar/libecal/e-cal-recur.c:5258
 #, c-format
@@ -1885,6 +1874,8 @@ msgid "Every month"
 msgid_plural "Every %d months"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/calendar/libecal/e-cal-recur.c:5268
 #: ../src/calendar/libecal/e-cal-recur.c:5589
@@ -2295,6 +2286,8 @@ msgid "every year forever"
 msgid_plural "every %d years forever"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/calendar/libecal/e-cal-recur.c:5621
 #, c-format
@@ -2302,6 +2295,8 @@ msgid "Every year forever"
 msgid_plural "Every %d years forever"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/calendar/libecal/e-cal-recur.c:5629
 #, c-format
@@ -2309,6 +2304,8 @@ msgid "every year"
 msgid_plural "every %d years"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/calendar/libecal/e-cal-recur.c:5635
 #, c-format
@@ -2316,6 +2313,8 @@ msgid "Every year"
 msgid_plural "Every %d years"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. Translators: This is one of the last possible parts of a recurrence description.
 #. The text is appended at the end of the complete recurrence description, making it
@@ -2326,6 +2325,8 @@ msgid "for one occurrence"
 msgid_plural "for %d occurrences"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. Translators: This is one of the last possible parts of a recurrence description.
 #. The '%s' is replaced with actual date, thus it can create something like
@@ -2371,6 +2372,8 @@ msgid ", with one exception"
 msgid_plural ", with %d exceptions"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. Translators: This appends text like ", with 3 exceptions" at the end of complete recurrence description.
 #. The "%1$s" is replaced with the recurrence description, the "%2$s" with the text about exceptions.
@@ -2447,6 +2450,8 @@ msgid "%d week"
 msgid_plural "%d weeks"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/calendar/libecal/e-cal-util.c:822
 #: ../src/libedataserverui/e-reminders-widget.c:287
@@ -2455,6 +2460,8 @@ msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/calendar/libecal/e-cal-util.c:831
 #: ../src/libedataserverui/e-reminders-widget.c:283
@@ -2463,6 +2470,8 @@ msgid "%d hour"
 msgid_plural "%d hours"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/calendar/libecal/e-cal-util.c:840
 #: ../src/libedataserverui/e-reminders-widget.c:279
@@ -2471,6 +2480,8 @@ msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. Translators: here, "second" is the time division (like "minute"), not the ordinal number (like "third")
 #: ../src/calendar/libecal/e-cal-util.c:845
@@ -2479,6 +2490,8 @@ msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/calendar/libecal/e-reminder-watcher.c:2524
 msgid "No Summary"
@@ -2589,10 +2602,7 @@ msgstr ""
 
 #: ../src/calendar/libedata-cal/e-cal-backend-sexp.c:729
 #, c-format
-msgid ""
-"“%s” expects the first argument to be either “any”, “summary”, or "
-"“description”, or “location”, or “attendee”, or “organizer”, or "
-"“classification”"
+msgid "“%s” expects the first argument to be either “any”, “summary”, or “description”, or “location”, or “attendee”, or “organizer”, or “classification”"
 msgstr ""
 
 #: ../src/calendar/libedata-cal/e-cal-backend-sexp.c:900
@@ -2602,9 +2612,7 @@ msgstr ""
 
 #: ../src/calendar/libedata-cal/e-cal-backend-sexp.c:915
 #, c-format
-msgid ""
-"“%s” expects all arguments to be strings or one and only one argument to be "
-"a boolean false (#f)"
+msgid "“%s” expects all arguments to be strings or one and only one argument to be a boolean false (#f)"
 msgstr ""
 
 #: ../src/calendar/libedata-cal/e-cal-backend-sexp.c:1423
@@ -2680,8 +2688,7 @@ msgstr "Не ўдалося атрымаць спіс аб'ектаў кален
 #. Translators: This is prefix to a detailed error message
 #: ../src/calendar/libedata-cal/e-data-cal.c:1846
 msgid "Cannot retrieve calendar free/busy list: "
-msgstr ""
-"Не ўдалося атрымаць спіс з інфармацыяй аб занятасці кантактаў з календара: "
+msgstr "Не ўдалося атрымаць спіс з інфармацыяй аб занятасці кантактаў з календара: "
 
 #. Translators: This is prefix to a detailed error message
 #: ../src/calendar/libedata-cal/e-data-cal.c:1897
@@ -2908,6 +2915,8 @@ msgid "Learning new spam message in “%s : %s”"
 msgid_plural "Learning new spam messages in “%s : %s”"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. Translators: The first “%s” is replaced with an account name and the second “%s”
 #. is replaced with a full path name. The spaces around “:” are intentional, as
@@ -2918,6 +2927,8 @@ msgid "Learning new ham message in “%s : %s”"
 msgid_plural "Learning new ham messages in “%s : %s”"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. Translators: The first “%s” is replaced with an account name and the second “%s”
 #. is replaced with a full path name. The spaces around “:” are intentional, as
@@ -2928,6 +2939,8 @@ msgid "Filtering new message in “%s : %s”"
 msgid_plural "Filtering new messages in “%s : %s”"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/camel/camel-folder.c:1068
 #: ../src/camel/providers/local/camel-maildir-folder.c:331
@@ -3021,21 +3034,17 @@ msgstr "(%s) патрабуе спіс папак"
 #: ../src/camel/camel-folder-search.c:2196
 #: ../src/camel/camel-folder-search.c:2370
 #, c-format
-msgid ""
-"Cannot parse search expression: %s:\n"
+msgid "Cannot parse search expression: %s:\n"
 "%s"
-msgstr ""
-"Не ўдалося разабраць рэгулярны выраз: %s:\n"
+msgstr "Не ўдалося разабраць рэгулярны выраз: %s:\n"
 "%s"
 
 #: ../src/camel/camel-folder-search.c:2208
 #: ../src/camel/camel-folder-search.c:2382
 #, c-format
-msgid ""
-"Error executing search expression: %s:\n"
+msgid "Error executing search expression: %s:\n"
 "%s"
-msgstr ""
-"Памылка выканання пошукавага выразу: %s:\n"
+msgstr "Памылка выканання пошукавага выразу: %s:\n"
 "%s"
 
 #. Translators: The first “%s” is replaced with an account name and the second “%s”
@@ -3065,13 +3074,9 @@ msgstr "Невядома"
 
 #: ../src/camel/camel-gpg-context.c:1033
 #, c-format
-msgid ""
-"Unexpected GnuPG status message encountered:\n"
-"\n"
+msgid "Unexpected GnuPG status message encountered:\n\n"
 "%s"
-msgstr ""
-"Сустрэта нечаканае паведамленне аб стане GnuPG:\n"
-"\n"
+msgstr "Сустрэта нечаканае паведамленне аб стане GnuPG:\n\n"
 "%s"
 
 #: ../src/camel/camel-gpg-context.c:1069
@@ -3086,15 +3091,13 @@ msgstr "Не ўдалося разабраць запыт парольнай ф�
 
 #: ../src/camel/camel-gpg-context.c:1130
 #, c-format
-msgid ""
-"You need a PIN to unlock the key for your\n"
+msgid "You need a PIN to unlock the key for your\n"
 "SmartCard: “%s”"
 msgstr ""
 
 #: ../src/camel/camel-gpg-context.c:1134
 #, c-format
-msgid ""
-"You need a passphrase to unlock the key for\n"
+msgid "You need a passphrase to unlock the key for\n"
 "user: “%s”"
 msgstr ""
 
@@ -3104,9 +3107,10 @@ msgid "Unexpected request from GnuPG for “%s”"
 msgstr ""
 
 #: ../src/camel/camel-gpg-context.c:1152
-msgid ""
-"Note the encrypted content doesn’t contain information about a recipient, "
-"thus there will be a password prompt for each of stored private key."
+#| msgid ""
+#| "Note the encrypted content doesn't contain information about a recipient, "
+#| "thus there will be a password prompt for each of stored private key."
+msgid "Note the encrypted content doesn’t contain information about a recipient, thus there will be a password prompt for each of stored private key."
 msgstr ""
 
 #: ../src/camel/camel-gpg-context.c:1183 ../src/camel/camel-net-utils.c:522
@@ -3119,9 +3123,7 @@ msgstr "Скасавана"
 #: ../src/camel/camel-gpg-context.c:1204
 #, c-format
 msgid "Failed to unlock secret key: 3 bad passphrases given."
-msgstr ""
-"Не ўдалося разблакіраваць сакрэтны ключ: тройчы пададзены хібныя парольныя "
-"фразы."
+msgstr "Не ўдалося разблакіраваць сакрэтны ключ: тройчы пададзены хібныя парольныя фразы."
 
 #: ../src/camel/camel-gpg-context.c:1217
 #, c-format
@@ -3131,17 +3133,13 @@ msgstr "Нечаканы адказ GnuPG: %s"
 #: ../src/camel/camel-gpg-context.c:1334
 #, c-format
 msgid "Failed to encrypt: No valid recipients specified."
-msgstr ""
-"Не ўдалося зашыфраваць гэта паведамленне: спіс прыдатных атрымальнікаў не "
-"вызначаны."
+msgstr "Не ўдалося зашыфраваць гэта паведамленне: спіс прыдатных атрымальнікаў не вызначаны."
 
 #. Translators: The first '%s' is replaced with the e-mail address, like '<user@example.com>';
 #. the second '%s' is replaced with the actual path and filename of the used gpg, like '/usr/bin/gpg2'
 #: ../src/camel/camel-gpg-context.c:1347
 #, c-format
-msgid ""
-"Failed to encrypt: Invalid recipient %s specified. A common issue is that "
-"the %s doesn’t have imported public key for this recipient."
+msgid "Failed to encrypt: Invalid recipient %s specified. A common issue is that the %s doesn’t have imported public key for this recipient."
 msgstr ""
 
 #: ../src/camel/camel-gpg-context.c:2173 ../src/camel/camel-smime-context.c:873
@@ -3212,9 +3210,7 @@ msgstr "Не ўдалося стварыць блок-файл для %s: %s"
 #: ../src/camel/camel-lock.c:154
 #, c-format
 msgid "Timed out trying to get lock file on %s.  Try again later."
-msgstr ""
-"Вычарпаны тэрмін чакання для атрымання блок-файла да %s. Паўтарыце спробу "
-"пазней."
+msgstr "Вычарпаны тэрмін чакання для атрымання блок-файла да %s. Паўтарыце спробу пазней."
 
 #: ../src/camel/camel-lock.c:221
 #, c-format
@@ -3403,8 +3399,7 @@ msgstr "Для чытання пошты на запыт для іншага с�
 #: ../src/camel/camel-provider.c:299
 #, c-format
 msgid "Could not load %s: Module loading not supported on this system."
-msgstr ""
-"Не ўдалося загрузіць %s: гэта сістэма не падтрымлівае загрузку модуляў."
+msgstr "Не ўдалося загрузіць %s: гэта сістэма не падтрымлівае загрузку модуляў."
 
 #: ../src/camel/camel-provider.c:308
 #, c-format
@@ -3440,11 +3435,9 @@ msgstr "Няўдалая ідэнтыфікацыя."
 #. but the provided value is not a valid email address.
 #: ../src/camel/camel-sasl-anonymous.c:84
 #, c-format
-msgid ""
-"Invalid email address trace information:\n"
+msgid "Invalid email address trace information:\n"
 "%s"
-msgstr ""
-"Хібныя звесткі для трасіравання электроннага адрасу:\n"
+msgstr "Хібныя звесткі для трасіравання электроннага адрасу:\n"
 "%s"
 
 #. Translators: the 'trace information' term comes from https://tools.ietf.org/html/rfc4505
@@ -3452,36 +3445,26 @@ msgstr ""
 #. but the provided value looks like an email address.
 #: ../src/camel/camel-sasl-anonymous.c:101
 #, c-format
-msgid ""
-"Invalid opaque trace information:\n"
+msgid "Invalid opaque trace information:\n"
 "%s"
-msgstr ""
-"Хібныя звесткі для непразрыстага трасіравання:\n"
+msgstr "Хібныя звесткі для непразрыстага трасіравання:\n"
 "%s"
 
 #: ../src/camel/camel-sasl-cram-md5.c:41
 msgid "CRAM-MD5"
-msgstr "CRAM-MD5"
+msgstr ""
 
 #: ../src/camel/camel-sasl-cram-md5.c:43
-msgid ""
-"This option will connect to the server using a secure CRAM-MD5 password, if "
-"the server supports it."
-msgstr ""
-"Злучэнне з серверам з дапамогай пароля CRAM-MD5, калі гэта падтрымліваецца "
-"серверам."
+msgid "This option will connect to the server using a secure CRAM-MD5 password, if the server supports it."
+msgstr "Злучэнне з серверам з дапамогай пароля CRAM-MD5, калі гэта падтрымліваецца серверам."
 
 #: ../src/camel/camel-sasl-digest-md5.c:54
 msgid "DIGEST-MD5"
-msgstr "DIGEST-MD5"
+msgstr ""
 
 #: ../src/camel/camel-sasl-digest-md5.c:56
-msgid ""
-"This option will connect to the server using a secure DIGEST-MD5 password, "
-"if the server supports it."
-msgstr ""
-"Злучэнне з серверам з дапамогай пароля DIGEST-MD5, калі гэта падтрымліваецца "
-"серверам."
+msgid "This option will connect to the server using a secure DIGEST-MD5 password, if the server supports it."
+msgstr "Злучэнне з серверам з дапамогай пароля DIGEST-MD5, калі гэта падтрымліваецца серверам."
 
 #: ../src/camel/camel-sasl-digest-md5.c:852
 #, c-format
@@ -3515,11 +3498,10 @@ msgstr "Адказ сервера не адпавядае патрэбнаму"
 
 #: ../src/camel/camel-sasl-gssapi.c:92
 msgid "GSSAPI"
-msgstr "GSSAPI"
+msgstr ""
 
 #: ../src/camel/camel-sasl-gssapi.c:94
-msgid ""
-"This option will connect to the server using Kerberos 5 authentication."
+msgid "This option will connect to the server using Kerberos 5 authentication."
 msgstr "Злучэнне з серверам з ідэнтыфікацыяй Kerberos 5."
 
 #: ../src/camel/camel-sasl-gssapi.c:149
@@ -3536,52 +3518,32 @@ msgid "%s (%s)"
 msgstr ""
 
 #: ../src/camel/camel-sasl-gssapi.c:194
-msgid ""
-"The specified mechanism is not supported by the provided credential, or is "
-"unrecognized by the implementation."
-msgstr ""
-"Прапанаваны мандат не падтрымлівае азначанага спосабу ідэнтыфікацыі, або "
-"гэты спосаб не апазнаны праграмнай рэалізацыяй."
+msgid "The specified mechanism is not supported by the provided credential, or is unrecognized by the implementation."
+msgstr "Прапанаваны мандат не падтрымлівае азначанага спосабу ідэнтыфікацыі, або гэты спосаб не апазнаны праграмнай рэалізацыяй."
 
 #: ../src/camel/camel-sasl-gssapi.c:199
 msgid "The provided target_name parameter was ill-formed."
 msgstr "Пададзены параметр target_name мае хібны фармат."
 
 #: ../src/camel/camel-sasl-gssapi.c:202
-msgid ""
-"The provided target_name parameter contained an invalid or unsupported type "
-"of name."
-msgstr ""
-"Пададзены параметр target_name змяшчае хібны тып назвы або тып, які не "
-"падтрымліваецца"
+msgid "The provided target_name parameter contained an invalid or unsupported type of name."
+msgstr "Пададзены параметр target_name змяшчае хібны тып назвы або тып, які не падтрымліваецца"
 
 #: ../src/camel/camel-sasl-gssapi.c:206
-msgid ""
-"The input_token contains different channel bindings to those specified via "
-"the input_chan_bindings parameter."
-msgstr ""
-"input_token змяшчае канальныя сувязі, якія адрозніваюцца ад вызначаных "
-"параметрам input_chan_bindings."
+msgid "The input_token contains different channel bindings to those specified via the input_chan_bindings parameter."
+msgstr "input_token змяшчае канальныя сувязі, якія адрозніваюцца ад вызначаных параметрам input_chan_bindings."
 
 #: ../src/camel/camel-sasl-gssapi.c:211
-msgid ""
-"The input_token contains an invalid signature, or a signature that could not "
-"be verified."
-msgstr ""
-"input_token змяшчае хібны подпіс або подпіс, які немагчыма праверыць."
+msgid "The input_token contains an invalid signature, or a signature that could not be verified."
+msgstr "input_token змяшчае хібны подпіс або подпіс, які немагчыма праверыць."
 
 #: ../src/camel/camel-sasl-gssapi.c:215
-msgid ""
-"The supplied credentials were not valid for context initiation, or the "
-"credential handle did not reference any credentials."
-msgstr ""
-"Пададзены мандат хібны для ініцыяцыі кантэксту, або яго аб'ект-дзяржак не "
-"адсылае да мандатаў."
+msgid "The supplied credentials were not valid for context initiation, or the credential handle did not reference any credentials."
+msgstr "Пададзены мандат хібны для ініцыяцыі кантэксту, або яго аб'ект-дзяржак не адсылае да мандатаў."
 
 #: ../src/camel/camel-sasl-gssapi.c:220
 msgid "The supplied context handle did not refer to a valid context."
-msgstr ""
-"Пададзены аб'ект-дзяржак кантэксту не адсылае да прыдатнага кантэксту."
+msgstr "Пададзены аб'ект-дзяржак кантэксту не адсылае да прыдатнага кантэксту."
 
 #: ../src/camel/camel-sasl-gssapi.c:223
 msgid "The consistency checks performed on the input_token failed."
@@ -3608,10 +3570,7 @@ msgstr ""
 
 #: ../src/camel/camel-sasl-gssapi.c:320
 #, c-format
-msgid ""
-"Cannot ask for Kerberos ticket. Obtain the ticket manually, like on command "
-"line with “kinit” or open “Online Accounts” in “Settings” and add the "
-"Kerberos account there. Reported error was: %s"
+msgid "Cannot ask for Kerberos ticket. Obtain the ticket manually, like on command line with “kinit” or open “Online Accounts” in “Settings” and add the Kerberos account there. Reported error was: %s"
 msgstr ""
 
 #: ../src/camel/camel-sasl-gssapi.c:518
@@ -3621,7 +3580,7 @@ msgstr "Слой бяспекі не падтрымліваецца."
 
 #: ../src/camel/camel-sasl-login.c:35
 msgid "Login"
-msgstr "Login"
+msgstr ""
 
 #: ../src/camel/camel-sasl-login.c:37 ../src/camel/camel-sasl-plain.c:41
 msgid "This option will connect to the server using a simple password."
@@ -3637,16 +3596,12 @@ msgid "NTLM / SPA"
 msgstr "NTLM/SPA"
 
 #: ../src/camel/camel-sasl-ntlm.c:46
-msgid ""
-"This option will connect to a Windows-based server using NTLM / Secure "
-"Password Authentication."
-msgstr ""
-"Злучэнне з Windows-серверам з выкарыстаннем NTLM/Secure Password "
-"Authentication."
+msgid "This option will connect to a Windows-based server using NTLM / Secure Password Authentication."
+msgstr "Злучэнне з Windows-серверам з выкарыстаннем NTLM/Secure Password Authentication."
 
 #: ../src/camel/camel-sasl-plain.c:39
 msgid "PLAIN"
-msgstr "PLAIN"
+msgstr ""
 
 #: ../src/camel/camel-sasl-popb4smtp.c:41
 msgid "POP before SMTP"
@@ -3676,8 +3631,7 @@ msgid "OAuth2"
 msgstr ""
 
 #: ../src/camel/camel-sasl-xoauth2.c:27
-msgid ""
-"This option will use an OAuth 2.0 access token to connect to the server"
+msgid "This option will use an OAuth 2.0 access token to connect to the server"
 msgstr ""
 
 #: ../src/camel/camel-sasl-xoauth2-google.c:23
@@ -3685,9 +3639,7 @@ msgid "OAuth2 (Google)"
 msgstr ""
 
 #: ../src/camel/camel-sasl-xoauth2-google.c:24
-msgid ""
-"This option will use an OAuth 2.0 access token to connect to the Google "
-"server"
+msgid "This option will use an OAuth 2.0 access token to connect to the Google server"
 msgstr ""
 
 #: ../src/camel/camel-sasl-xoauth2-outlook.c:23
@@ -3695,9 +3647,7 @@ msgid "OAuth2 (Outlook)"
 msgstr ""
 
 #: ../src/camel/camel-sasl-xoauth2-outlook.c:24
-msgid ""
-"This option will use an OAuth 2.0 access token to connect to the Outlook.com "
-"server"
+msgid "This option will use an OAuth 2.0 access token to connect to the Outlook.com server"
 msgstr ""
 
 #: ../src/camel/camel-search-private.c:114
@@ -3850,16 +3800,12 @@ msgstr "Не ўдалося імпартаваць сертыфікат"
 #: ../src/camel/camel-smime-context.c:634
 #, c-format
 msgid "Certificate is the only message, cannot verify certificates"
-msgstr ""
-"Паведамленне складаецца з адзінага сертыфіката і больш нічога, не ўдалося "
-"праверыць сертыфікаты"
+msgstr "Паведамленне складаецца з адзінага сертыфіката і больш нічога, не ўдалося праверыць сертыфікаты"
 
 #: ../src/camel/camel-smime-context.c:637
 #, c-format
 msgid "Certificate is the only message, certificates imported and verified"
-msgstr ""
-"Паведамленне складаецца з адзінага сертыфіката і больш нічога, сертыфікаты "
-"імпартаваныя і правераныя"
+msgstr "Паведамленне складаецца з адзінага сертыфіката і больш нічога, сертыфікаты імпартаваныя і правераныя"
 
 #: ../src/camel/camel-smime-context.c:641
 msgid "Cannot find signature digests"
@@ -3987,13 +3933,11 @@ msgstr ""
 
 #: ../src/camel/camel-stream-filter.c:342
 msgid "Only reset to beginning is supported with CamelStreamFilter"
-msgstr ""
-"Для CamelStreamFilter падтрымліваецца толькі пераход у пачатак струменя"
+msgstr "Для CamelStreamFilter падтрымліваецца толькі пераход у пачатак струменя"
 
 #: ../src/camel/camel-stream-null.c:88
 msgid "Only reset to beginning is supported with CamelHttpStream"
-msgstr ""
-"Для CamelHttpStream падтрымліваецца толькі пераход у пачатак струменя"
+msgstr "Для CamelHttpStream падтрымліваецца толькі пераход у пачатак струменя"
 
 #: ../src/camel/camel-stream-process.c:284
 #: ../src/camel/providers/smtp/camel-smtp-transport.c:717
@@ -4029,8 +3973,7 @@ msgstr ""
 #: ../src/camel/camel-vee-folder.c:969 ../src/camel/camel-vee-folder.c:1105
 #, c-format
 msgid "Cannot copy or move messages into a Virtual Folder"
-msgstr ""
-"Не ўдалося скапіраваць або перамясціць паведамленні ў віртуальную папку"
+msgstr "Не ўдалося скапіраваць або перамясціць паведамленні ў віртуальную папку"
 
 #. Translators: The first “%s” is replaced with a message UID, the second “%s”
 #. is replaced with an account name and the third “%s” is replaced with a full
@@ -4193,8 +4136,7 @@ msgstr "Правяраць папкі з _аформленай падпіска�
 
 #: ../src/camel/providers/imapx/camel-imapx-provider.c:42
 msgid "Use _Quick Resync if the server supports it"
-msgstr ""
-"Выкарыстоўваць _хуткую перасінхранізацыю, калі сервер падтрымлівае яе"
+msgstr "Выкарыстоўваць _хуткую перасінхранізацыю, калі сервер падтрымлівае яе"
 
 #: ../src/camel/providers/imapx/camel-imapx-provider.c:44
 msgid "_Listen for server change notifications"
@@ -4271,7 +4213,7 @@ msgstr ""
 
 #: ../src/camel/providers/imapx/camel-imapx-provider.c:87
 msgid "IMAP"
-msgstr "IMAP"
+msgstr ""
 
 #: ../src/camel/providers/imapx/camel-imapx-provider.c:89
 msgid "For reading and storing mail on IMAP servers."
@@ -4515,8 +4457,7 @@ msgid "Password"
 msgstr "Пароль"
 
 #: ../src/camel/providers/imapx/camel-imapx-store.c:1072
-msgid ""
-"This option will connect to the IMAP server using a plaintext password."
+msgid "This option will connect to the IMAP server using a plaintext password."
 msgstr "Злучэнне з IMAP-серверам з выкарыстаннем незашыфраванага пароля."
 
 #: ../src/camel/providers/imapx/camel-imapx-store.c:1159
@@ -4537,8 +4478,7 @@ msgstr ""
 
 #: ../src/camel/providers/imapx/camel-imapx-store.c:2343
 #, c-format
-msgid ""
-"The folder name “%s” is invalid because it contains the character “%c”"
+msgid "The folder name “%s” is invalid because it contains the character “%c”"
 msgstr ""
 
 #. Translators: The strings in "IMAPDefaults" context are folder names as can be presented
@@ -4648,7 +4588,7 @@ msgstr ""
 #: ../src/camel/providers/local/camel-local-folder.c:190
 #, c-format
 msgid "~%s (%s)"
-msgstr "~%s (%s)"
+msgstr ""
 
 #. Translators: This is used for a folder description, for
 #. * folders being under /var/spool/mail.  The first %s is
@@ -4672,7 +4612,7 @@ msgstr "паштовае сховішча: %s (%s)"
 #: ../src/camel/providers/local/camel-local-folder.c:218
 #, c-format
 msgid "%s (%s)"
-msgstr "%s (%s)"
+msgstr ""
 
 #: ../src/camel/providers/local/camel-local-folder.c:511
 msgid "_Index message body data"
@@ -4683,11 +4623,9 @@ msgstr "І_ндэксаваць змест паведамленняў"
 #. * the third %s is replaced with a detailed error string
 #: ../src/camel/providers/local/camel-local-folder.c:750
 #, c-format
-msgid ""
-"Cannot get message %s from folder %s\n"
+msgid "Cannot get message %s from folder %s\n"
 "%s"
-msgstr ""
-"Не ўдалося атрымаць паведамленне %s з папкі %s\n"
+msgstr "Не ўдалося атрымаць паведамленне %s з папкі %s\n"
 "%s"
 
 #: ../src/camel/providers/local/camel-local-provider.c:43
@@ -4711,11 +4649,8 @@ msgid "Local delivery"
 msgstr "Мясцовая дастаўка"
 
 #: ../src/camel/providers/local/camel-local-provider.c:74
-msgid ""
-"For retrieving (moving) local mail from standard mbox-formatted spools into "
-"folders managed by Evolution."
-msgstr ""
-"Для атрымання (перамяшчэння) мясцовай пошты з mbox-спулаў у папкі Evolution."
+msgid "For retrieving (moving) local mail from standard mbox-formatted spools into folders managed by Evolution."
+msgstr "Для атрымання (перамяшчэння) мясцовай пошты з mbox-спулаў у папкі Evolution."
 
 #: ../src/camel/providers/local/camel-local-provider.c:86
 #: ../src/camel/providers/local/camel-local-provider.c:110
@@ -4740,12 +4675,9 @@ msgstr "Стандартны спул-файл Mbox"
 
 #: ../src/camel/providers/local/camel-local-provider.c:121
 #: ../src/camel/providers/local/camel-local-provider.c:135
-msgid ""
-"For reading and storing local mail in external standard mbox spool files.\n"
+msgid "For reading and storing local mail in external standard mbox spool files.\n"
 "May also be used to read a tree of Elm, Pine, or Mutt style folders."
-msgstr ""
-"Для чытання і захавання мясцовай пошты ў вонкавых стандартных спул-файлах "
-"Mbox.\n"
+msgstr "Для чытання і захавання мясцовай пошты ў вонкавых стандартных спул-файлах Mbox.\n"
 "Таксама прыдатна для чытання іерархіі папак Elm, Pine ці Mutt."
 
 #: ../src/camel/providers/local/camel-local-provider.c:134
@@ -4963,8 +4895,7 @@ msgstr "Папка ўжо існуе"
 #: ../src/camel/providers/local/camel-mbox-store.c:661
 #: ../src/camel/providers/local/camel-mbox-store.c:690
 #, c-format
-msgid ""
-"Could not delete folder “%s”:\n"
+msgid "Could not delete folder “%s”:\n"
 "%s"
 msgstr ""
 
@@ -5042,9 +4973,7 @@ msgstr "Не ўдалося захаваць папку: %s"
 #: ../src/camel/providers/local/camel-mbox-summary.c:803
 #: ../src/camel/providers/local/camel-mbox-summary.c:1076
 #, c-format
-msgid ""
-"MBOX file is corrupted, please fix it. (Expected a From line, but didn’t get "
-"it.)"
+msgid "MBOX file is corrupted, please fix it. (Expected a From line, but didn’t get it.)"
 msgstr ""
 
 #: ../src/camel/providers/local/camel-mbox-summary.c:813
@@ -5121,8 +5050,7 @@ msgstr ""
 
 #: ../src/camel/providers/local/camel-spool-store.c:491
 #, c-format
-msgid ""
-"Could not open folder “%s”:\n"
+msgid "Could not open folder “%s”:\n"
 "%s"
 msgstr ""
 
@@ -5133,8 +5061,7 @@ msgstr ""
 
 #: ../src/camel/providers/local/camel-spool-store.c:505
 #, c-format
-msgid ""
-"Could not create folder “%s”:\n"
+msgid "Could not create folder “%s”:\n"
 "%s"
 msgstr ""
 
@@ -5174,8 +5101,7 @@ msgstr "Не ўдалося сінхранізаваць спул-папку %s:
 #: ../src/camel/providers/local/camel-spool-summary.c:274
 #: ../src/camel/providers/local/camel-spool-summary.c:287
 #, c-format
-msgid ""
-"Could not synchronize spool folder %s: %s\n"
+msgid "Could not synchronize spool folder %s: %s\n"
 "Folder may be corrupt, copy saved in “%s”"
 msgstr ""
 
@@ -5225,10 +5151,8 @@ msgid "You cannot copy messages from a NNTP folder"
 msgstr ""
 
 #: ../src/camel/providers/nntp/camel-nntp-provider.c:45
-msgid ""
-"_Show folders in short notation (e.g. c.o.linux rather than comp.os.linux)"
-msgstr ""
-"_Паказваць папкі ў скарочанай форме (\"c.o.linux\" замест \"comp.os.linux\")"
+msgid "_Show folders in short notation (e.g. c.o.linux rather than comp.os.linux)"
+msgstr "_Паказваць папкі ў скарочанай форме (\"c.o.linux\" замест \"comp.os.linux\")"
 
 #: ../src/camel/providers/nntp/camel-nntp-provider.c:48
 msgid "In the subscription _dialog, show relative folder names"
@@ -5257,17 +5181,11 @@ msgid "This is a provider for reading from and posting to USENET newsgroups."
 msgstr "Гэта правайдар для чытання і публікацыі навін у USENET-групы."
 
 #: ../src/camel/providers/nntp/camel-nntp-provider.c:87
-msgid ""
-"This option will connect to the NNTP server anonymously, without "
-"authentication."
-msgstr ""
-"Гэты варыянт азначае ананімнае злучэнне з NNTP-серверам, без ніякай "
-"ідэнтыфікацыі."
+msgid "This option will connect to the NNTP server anonymously, without authentication."
+msgstr "Гэты варыянт азначае ананімнае злучэнне з NNTP-серверам, без ніякай ідэнтыфікацыі."
 
 #: ../src/camel/providers/nntp/camel-nntp-provider.c:97
-msgid ""
-"This option will authenticate with the NNTP server using a plaintext "
-"password."
+msgid "This option will authenticate with the NNTP server using a plaintext password."
 msgstr "Злучэнне з NNTP-серверам з дапамогай незашыфраванага пароля."
 
 #: ../src/camel/providers/nntp/camel-nntp-store.c:379
@@ -5302,21 +5220,15 @@ msgstr "Навіны USENET праз %s"
 
 #: ../src/camel/providers/nntp/camel-nntp-store.c:1248
 #, c-format
-msgid ""
-"Error retrieving newsgroups:\n"
-"\n"
+msgid "Error retrieving newsgroups:\n\n"
 "%s"
-msgstr ""
-"Памылка атрымання спіса навінных груп:\n"
-"\n"
+msgstr "Памылка атрымання спіса навінных груп:\n\n"
 "%s"
 
 #: ../src/camel/providers/nntp/camel-nntp-store.c:1363
 #, c-format
 msgid "You cannot create a folder in a News store: subscribe instead."
-msgstr ""
-"Нельга ствараць папкі ў навінным сховішчы: замест гэтага выкарыстоўвайце "
-"падпіску."
+msgstr "Нельга ствараць папкі ў навінным сховішчы: замест гэтага выкарыстоўвайце падпіску."
 
 #: ../src/camel/providers/nntp/camel-nntp-store.c:1379
 #, c-format
@@ -5326,30 +5238,20 @@ msgstr "Нельга пераназываць папкі ў навінным с�
 #: ../src/camel/providers/nntp/camel-nntp-store.c:1402
 #, c-format
 msgid "You cannot remove a folder in a News store: unsubscribe instead."
-msgstr ""
-"Нельга выдаляць папкі ў навінным сховішчы: замест гэтага выкарыстоўвайце "
-"адпіску."
+msgstr "Нельга выдаляць папкі ў навінным сховішчы: замест гэтага выкарыстоўвайце адпіску."
 
 #: ../src/camel/providers/nntp/camel-nntp-store.c:1616
 #, c-format
-msgid ""
-"You cannot subscribe to this newsgroup:\n"
-"\n"
+msgid "You cannot subscribe to this newsgroup:\n\n"
 "No such newsgroup. The selected item is a probably a parent folder."
-msgstr ""
-"Немагчыма падпісацца на такую навінную групу:\n"
-"\n"
+msgstr "Немагчыма падпісацца на такую навінную групу:\n\n"
 "Такой групы не існуе. Відаць, вылучаны элемент з'яўляецца бацькоўскай папкай."
 
 #: ../src/camel/providers/nntp/camel-nntp-store.c:1683
 #, c-format
-msgid ""
-"You cannot unsubscribe to this newsgroup:\n"
-"\n"
+msgid "You cannot unsubscribe to this newsgroup:\n\n"
 "newsgroup does not exist!"
-msgstr ""
-"Немагчыма адпісацца ад гэтай навіннай групы:\n"
-"\n"
+msgstr "Немагчыма адпісацца ад гэтай навіннай групы:\n\n"
 "Такой групы не існуе!"
 
 #: ../src/camel/providers/nntp/camel-nntp-store.c:2109
@@ -5470,40 +5372,29 @@ msgstr ""
 
 #: ../src/camel/providers/pop3/camel-pop3-provider.c:60
 msgid "POP"
-msgstr "POP"
+msgstr ""
 
 #: ../src/camel/providers/pop3/camel-pop3-provider.c:62
 msgid "For connecting to and downloading mail from POP servers."
 msgstr "Для злучэння і атрымання пошты з POP-сервераў."
 
 #: ../src/camel/providers/pop3/camel-pop3-provider.c:82
-msgid ""
-"This option will connect to the POP server using a plaintext password. This "
-"is the only option supported by many POP servers."
-msgstr ""
-"Злучэнне з POP-серверам з дапамогай незашыфраванага пароля. Гэта адзіная "
-"опцыя, якую падтрымлівае большасць POP-сервераў."
+msgid "This option will connect to the POP server using a plaintext password. This is the only option supported by many POP servers."
+msgstr "Злучэнне з POP-серверам з дапамогай незашыфраванага пароля. Гэта адзіная опцыя, якую падтрымлівае большасць POP-сервераў."
 
 #: ../src/camel/providers/pop3/camel-pop3-provider.c:92
-msgid ""
-"This option will connect to the POP server using an encrypted password via "
-"the APOP protocol. This may not work for all users even on servers that "
-"claim to support it."
-msgstr ""
-"Злучэнне з POP-серверам з дапамогай зашыфраванага пароля і APOP-пратакола. "
-"Гэта опцыя можа не працаваць для некаторых карыстальнікаў, нават калі "
-"ўласнік сервера сцвярджае, што яна падтрымліваецца."
+msgid "This option will connect to the POP server using an encrypted password via the APOP protocol. This may not work for all users even on servers that claim to support it."
+msgstr "Злучэнне з POP-серверам з дапамогай зашыфраванага пароля і APOP-пратакола. Гэта опцыя можа не працаваць для некаторых карыстальнікаў, нават калі ўласнік сервера сцвярджае, што яна падтрымліваецца."
 
 #. Translators: This is the separator between an error and an explanation
 #: ../src/camel/providers/pop3/camel-pop3-store.c:93
 msgid ": "
-msgstr ": "
+msgstr ""
 
 #: ../src/camel/providers/pop3/camel-pop3-store.c:160
 #, c-format
 msgid "Failed to read a valid greeting from POP server %s"
-msgstr ""
-"Не ўдалося прачытаць карэктнае вітальнае паведамленне ад POP-сервера %s"
+msgstr "Не ўдалося прачытаць карэктнае вітальнае паведамленне ад POP-сервера %s"
 
 #: ../src/camel/providers/pop3/camel-pop3-store.c:175
 #, c-format
@@ -5550,33 +5441,24 @@ msgstr "POP3-сервер для %s на %s"
 #: ../src/camel/providers/pop3/camel-pop3-store.c:715
 #: ../src/camel/providers/pop3/camel-pop3-store.c:801
 #, c-format
-msgid ""
-"Unable to connect to POP server %s.\n"
+msgid "Unable to connect to POP server %s.\n"
 "Error sending password: "
-msgstr ""
-"Не ўдалося злучыцца з POP-серверам %s.\n"
+msgstr "Не ўдалося злучыцца з POP-серверам %s.\n"
 "Памылка пасылкі пароля: "
 
 #. Translators: Do not translate APOP.
 #: ../src/camel/providers/pop3/camel-pop3-store.c:742
 #, c-format
-msgid ""
-"Unable to connect to POP server %s:\tInvalid APOP ID received. Impersonation "
-"attack suspected. Please contact your admin."
-msgstr ""
-"Не ўдалося злучыцца з POP-серверам %s:\tАтрыманы хібны APOP-ідэнтыфікатар. "
-"Ёсць падазрэнні наконт магчымай спробы імітацыі вашай тоеснасці. Звярніцеся "
-"да вашага адміністратара."
+msgid "Unable to connect to POP server %s:\tInvalid APOP ID received. Impersonation attack suspected. Please contact your admin."
+msgstr "Не ўдалося злучыцца з POP-серверам %s:\tАтрыманы хібны APOP-ідэнтыфікатар. Ёсць падазрэнні наконт магчымай спробы імітацыі вашай тоеснасці. Звярніцеся да вашага адміністратара."
 
 #. Translators: Last %s is an optional explanation
 #. * beginning with ": " separator.
 #: ../src/camel/providers/pop3/camel-pop3-store.c:816
 #, c-format
-msgid ""
-"Unable to connect to POP server %s.\n"
+msgid "Unable to connect to POP server %s.\n"
 "Error sending username%s"
-msgstr ""
-"Не ўдалося злучыцца з POP-серверам %s.\n"
+msgstr "Не ўдалося злучыцца з POP-серверам %s.\n"
 "Памылка пасылкі імя карыстальніка%s"
 
 #: ../src/camel/providers/pop3/camel-pop3-store.c:900
@@ -5592,17 +5474,15 @@ msgstr "POP3-сховішчы не маюць іерархіі папак"
 #: ../src/camel/providers/sendmail/camel-sendmail-provider.c:31
 #: ../src/services/evolution-source-registry/builtin/sendmail.source.in.h:1
 msgid "Sendmail"
-msgstr "Sendmail"
+msgstr ""
 
 #: ../src/camel/providers/sendmail/camel-sendmail-provider.c:33
-msgid ""
-"For delivering mail by passing it to the “sendmail” program on the local "
-"system."
+msgid "For delivering mail by passing it to the “sendmail” program on the local system."
 msgstr ""
 
 #: ../src/camel/providers/sendmail/camel-sendmail-transport.c:44
 msgid "sendmail"
-msgstr "sendmail"
+msgstr ""
 
 #: ../src/camel/providers/sendmail/camel-sendmail-transport.c:46
 msgid "Mail delivery via the sendmail program"
@@ -5671,13 +5551,11 @@ msgstr "Порт пасылкі паведамленняў"
 
 #: ../src/camel/providers/smtp/camel-smtp-provider.c:45
 msgid "SMTP"
-msgstr "SMTP"
+msgstr ""
 
 #: ../src/camel/providers/smtp/camel-smtp-provider.c:47
 msgid "For delivering mail by connecting to a remote mailhub using SMTP."
-msgstr ""
-"Для дастаўкі пошты праз злучэння з аддаленым паштовым канцэнтратарам з "
-"дапамогай SMTP-пратакола."
+msgstr "Для дастаўкі пошты праз злучэння з аддаленым паштовым канцэнтратарам з дапамогай SMTP-пратакола."
 
 #: ../src/camel/providers/smtp/camel-smtp-transport.c:235
 #: ../src/camel/providers/smtp/camel-smtp-transport.c:242
@@ -5733,8 +5611,7 @@ msgstr "Няўдалае выкананне AUTH-загаду: "
 #: ../src/camel/providers/smtp/camel-smtp-transport.c:885
 #, c-format
 msgid "Cannot send message: service not connected."
-msgstr ""
-"Не ўдалося выслаць паведамленне: няма злучэння з пастаўшчыком паслугі."
+msgstr "Не ўдалося выслаць паведамленне: няма злучэння з пастаўшчыком паслугі."
 
 #: ../src/camel/providers/smtp/camel-smtp-transport.c:894
 #, c-format
@@ -5753,8 +5630,7 @@ msgstr "Не ўдалося выслаць паведамленне: атрым�
 #: ../src/camel/providers/smtp/camel-smtp-transport.c:942
 #, c-format
 msgid "Cannot send message: one or more invalid recipients"
-msgstr ""
-"Не ўдалося выслаць паведамленне: прынамсі адзін з атрымальнікаў хібны"
+msgstr "Не ўдалося выслаць паведамленне: прынамсі адзін з атрымальнікаў хібны"
 
 #: ../src/camel/providers/smtp/camel-smtp-transport.c:1074
 msgid "Syntax error, command unrecognized"
@@ -5802,8 +5678,7 @@ msgstr "Немясцовы карыстальнік; пошта будзе пе�
 
 #: ../src/camel/providers/smtp/camel-smtp-transport.c:1096
 msgid "Requested mail action not taken: mailbox unavailable"
-msgstr ""
-"Запатрабаваная паштовая аперацыя не выканана: паштовае сховішча недаступна"
+msgstr "Запатрабаваная паштовая аперацыя не выканана: паштовае сховішча недаступна"
 
 #: ../src/camel/providers/smtp/camel-smtp-transport.c:1098
 msgid "Requested action not taken: mailbox unavailable"
@@ -5819,18 +5694,15 @@ msgstr "Немясцовы карыстальнік; паспрабуйце пе
 
 #: ../src/camel/providers/smtp/camel-smtp-transport.c:1104
 msgid "Requested action not taken: insufficient system storage"
-msgstr ""
-"Запатрабаваная аперацыя не выканана: сістэме не стае дыскавай прасторы"
+msgstr "Запатрабаваная аперацыя не выканана: сістэме не стае дыскавай прасторы"
 
 #: ../src/camel/providers/smtp/camel-smtp-transport.c:1106
 msgid "Requested mail action aborted: exceeded storage allocation"
-msgstr ""
-"Запатрабаваная аперацыя перарвана: дасягнута абмежаванне на дыскавую прастору"
+msgstr "Запатрабаваная аперацыя перарвана: дасягнута абмежаванне на дыскавую прастору"
 
 #: ../src/camel/providers/smtp/camel-smtp-transport.c:1108
 msgid "Requested action not taken: mailbox name not allowed"
-msgstr ""
-"Запатрабаваная аперацыя не выканана: забароненая назва паштовага сховішча"
+msgstr "Запатрабаваная аперацыя не выканана: забароненая назва паштовага сховішча"
 
 #: ../src/camel/providers/smtp/camel-smtp-transport.c:1110
 msgid "Start mail input; end with <CRLF>.<CRLF>"
@@ -5922,16 +5794,14 @@ msgstr "Значэнне нагадвання аб дні нараджэння �
 
 #: ../data/org.gnome.evolution-data-server.calendar.gschema.xml.in.h:4
 msgid "Number of units for determining a birthday or anniversary reminder"
-msgstr ""
-"Колькасць адзінак для вызначэння нагадвання аб дні нараджэння ці гадавіне"
+msgstr "Колькасць адзінак для вызначэння нагадвання аб дні нараджэння ці гадавіне"
 
 #: ../data/org.gnome.evolution-data-server.calendar.gschema.xml.in.h:5
 msgid "Birthday and anniversary reminder units"
 msgstr "Адзінкі вымярэння часу для нагадвання аб дні нараджэння ці гадавіне"
 
 #: ../data/org.gnome.evolution-data-server.calendar.gschema.xml.in.h:6
-msgid ""
-"Units for a birthday or anniversary reminder, “minutes”, “hours” or “days”"
+msgid "Units for a birthday or anniversary reminder, “minutes”, “hours” or “days”"
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.calendar.gschema.xml.in.h:7
@@ -5955,9 +5825,7 @@ msgid "Show reminders in notification tray only"
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.calendar.gschema.xml.in.h:12
-msgid ""
-"When set to true, the reminders are shown only in the notification tray, "
-"otherwise the reminders dialog is shown immediately"
+msgid "When set to true, the reminders are shown only in the notification tray, otherwise the reminders dialog is shown immediately"
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.calendar.gschema.xml.in.h:13
@@ -5965,9 +5833,7 @@ msgid "Show reminder notification dialog always on top"
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.calendar.gschema.xml.in.h:14
-msgid ""
-"Whether or not to show reminder notification dialog always on top. Note this "
-"works only as a hint for the window manager, which may or may not obey it."
+msgid "Whether or not to show reminder notification dialog always on top. Note this works only as a hint for the window manager, which may or may not obey it."
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.calendar.gschema.xml.in.h:15
@@ -6011,10 +5877,7 @@ msgid "An absolute path where the gpg (or gpg2) binary is"
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:3
-msgid ""
-"An example is “/usr/bin/gpg”; when it is left empty, or an incorrect value "
-"is set, then it will be searched for. Change requires restart of the "
-"application."
+msgid "An example is “/usr/bin/gpg”; when it is left empty, or an incorrect value is set, then it will be searched for. Change requires restart of the application."
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:4
@@ -6022,33 +5885,23 @@ msgid "Whether to load photos of signers/encrypters"
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:5
-msgid ""
-"When set to “true”, tries to load also photo of the signers/encrypters, if "
-"available in the key/certificate."
+msgid "When set to “true”, tries to load also photo of the signers/encrypters, if available in the key/certificate."
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:6
-msgid ""
-"GIO name of the GNetworkMonitor to use for an ENetworkMonitor instance"
+msgid "GIO name of the GNetworkMonitor to use for an ENetworkMonitor instance"
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:7
-msgid ""
-"When set to an unknown value, then the default GNetworkMonitor is used in "
-"the background. A special value “always-online” is used for no network "
-"monitoring."
+msgid "When set to an unknown value, then the default GNetworkMonitor is used in the background. A special value “always-online” is used for no network monitoring."
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:8
-msgid ""
-"A full path to a directory where .source files with preconfigured options "
-"can be stored"
+msgid "A full path to a directory where .source files with preconfigured options can be stored"
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:9
-msgid ""
-"This directory, if filled with an existing path, is checked additionally to "
-"XDG configure directories."
+msgid "This directory, if filled with an existing path, is checked additionally to XDG configure directories."
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:10
@@ -6056,10 +5909,7 @@ msgid "A list of variables which can be part of the autoconfig .source files"
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:11
-msgid ""
-"Each item of the array is expected to be of the form: name=value. These "
-"variables are checked before environment variables, but after the predefined "
-"USER, REALNAME and HOST variables."
+msgid "Each item of the array is expected to be of the form: name=value. These variables are checked before environment variables, but after the predefined USER, REALNAME and HOST variables."
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:12
@@ -6067,69 +5917,39 @@ msgid "A list of hints for OAuth2 services"
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:13
-msgid ""
-"Users can extend the list of supported protocols and hostnames for defined "
-"OAuth2 services, in addition to those hard-coded. Each line can be of the "
-"form: servicename[-protocol]:hostname1,hostname2,... where “servicename” is "
-"the actual service name; the “-protocol” is optional, and if written, then "
-"the service can be used only if both “protocol” and “hostnameX” match; the "
-"“hostnameX” is the actual host name to compare with, case insensitively. "
-"Each line can contain multiple values, separated by comma. There can be "
-"provided multiple lines for one OAuth2 service. Note that the actual URL "
-"where the token is requested and refreshed cannot be changed here, the "
-"hostname is to allow other servers, where the OAuth2 service can be used. "
-"Examples: Company:mail.company.com — enables “Company” OAuth2 authentication "
-"for “mail.company.com” host Company-CalDAV:caldav.company.com — enables "
-"“Company” OAuth2 authentication for any “CalDAV” source, which reads data "
-"from “caldav.company.com” host"
+msgid "Users can extend the list of supported protocols and hostnames for defined OAuth2 services, in addition to those hard-coded. Each line can be of the form: servicename[-protocol]:hostname1,hostname2,... where “servicename” is the actual service name; the “-protocol” is optional, and if written, then the service can be used only if both “protocol” and “hostnameX” match; the “hostnameX” is the actual host name to compare with, case insensitively. Each line can contain multiple values, separated by comma. There can be provided multiple lines for one OAuth2 service. Note that the actual URL where the token is requested and refreshed cannot be changed here, the hostname is to allow other servers, where the OAuth2 service can be used. Examples: Company:mail.company.com — enables “Company” OAuth2 authentication for “mail.company.com” host Company-CalDAV:caldav.company.com — enables “Company” OAuth2 authentication for any “CalDAV” source, which reads data from “caldav.company.com” host"
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:14
-msgid ""
-"An OAuth2 client ID to use to connect to Google servers, instead of the one "
-"provided during build time"
+msgid "An OAuth2 client ID to use to connect to Google servers, instead of the one provided during build time"
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:15
-msgid ""
-"User-specified OAuth2 client ID for Google servers. Empty string means to "
-"use the one provided during build time. Change of this requires restart."
+msgid "User-specified OAuth2 client ID for Google servers. Empty string means to use the one provided during build time. Change of this requires restart."
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:16
-msgid ""
-"An OAuth2 client secret to use to connect to Google servers, instead of the "
-"one provided during build time"
+msgid "An OAuth2 client secret to use to connect to Google servers, instead of the one provided during build time"
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:17
-msgid ""
-"User-specified OAuth2 client secret for Google servers. Empty string means "
-"to use the one provided during build time. Change of this requires restart."
+msgid "User-specified OAuth2 client secret for Google servers. Empty string means to use the one provided during build time. Change of this requires restart."
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:18
-msgid ""
-"An OAuth2 client ID to use to connect to Outlook servers, instead of the one "
-"provided during build time"
+msgid "An OAuth2 client ID to use to connect to Outlook servers, instead of the one provided during build time"
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:19
-msgid ""
-"User-specified OAuth2 client ID for Outlook servers. Empty string means to "
-"use the one provided during build time. Change of this requires restart."
+msgid "User-specified OAuth2 client ID for Outlook servers. Empty string means to use the one provided during build time. Change of this requires restart."
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:20
-msgid ""
-"An OAuth2 client secret to use to connect to Outlook servers, instead of the "
-"one provided during build time"
+msgid "An OAuth2 client secret to use to connect to Outlook servers, instead of the one provided during build time"
 msgstr ""
 
 #: ../data/org.gnome.evolution-data-server.gschema.xml.in.h:21
-msgid ""
-"User-specified OAuth2 client secret for Outlook servers. Empty string means "
-"to use the one provided during build time. Change of this requires restart."
+msgid "User-specified OAuth2 client secret for Outlook servers. Empty string means to use the one provided during build time. Change of this requires restart."
 msgstr ""
 
 #: ../data/org.gnome.evolution.shell.network-config.gschema.xml.in.h:1
@@ -6137,10 +5957,7 @@ msgid "(Deprecated) Proxy type to use"
 msgstr ""
 
 #: ../data/org.gnome.evolution.shell.network-config.gschema.xml.in.h:2
-msgid ""
-"This key was deprecated in version 3.12 and should no longer be used. Proxy "
-"settings are now integrated into Evolution-Data-Server’s account system. See "
-"the ESourceProxy API documentation for details."
+msgid "This key was deprecated in version 3.12 and should no longer be used. Proxy settings are now integrated into Evolution-Data-Server’s account system. See the ESourceProxy API documentation for details."
 msgstr ""
 
 #: ../data/org.gnome.evolution.shell.network-config.gschema.xml.in.h:3
@@ -6205,6 +6022,7 @@ msgstr "Не хапае памяці"
 
 #: ../src/libebackend/e-cache.c:946
 #, c-format
+#| msgid "Cannot create directory '%s': %s."
 msgid "Can not make parent directory: %s"
 msgstr ""
 
@@ -6246,8 +6064,7 @@ msgstr ""
 
 #: ../src/libebackend/e-server-side-source.c:1409
 #, c-format
-msgid ""
-"Data source “%s” has no collection backend to create the remote resource"
+msgid "Data source “%s” has no collection backend to create the remote resource"
 msgstr ""
 
 #: ../src/libebackend/e-server-side-source.c:1437
@@ -6258,8 +6075,7 @@ msgstr ""
 
 #: ../src/libebackend/e-server-side-source.c:1451
 #, c-format
-msgid ""
-"Data source “%s” has no collection backend to delete the remote resource"
+msgid "Data source “%s” has no collection backend to delete the remote resource"
 msgstr ""
 
 #: ../src/libebackend/e-server-side-source.c:1482
@@ -6305,6 +6121,7 @@ msgstr ""
 
 #: ../src/libebackend/e-user-prompter-server.c:304
 #, c-format
+#| msgid "Extension dialog '%s' not found."
 msgid "Extension dialog “%s” not found."
 msgstr ""
 
@@ -6413,7 +6230,7 @@ msgstr "Час і выдаткі"
 #: ../src/libedataserver/e-categories.c:69
 msgctxt "CategoryName"
 msgid "VIP"
-msgstr "VIP"
+msgstr ""
 
 #: ../src/libedataserver/e-categories.c:70
 msgctxt "CategoryName"
@@ -6474,9 +6291,7 @@ msgid "Source “%s” (%s) is not a valid OAuth2 source"
 msgstr ""
 
 #: ../src/libedataserver/e-oauth2-service.c:1536
-msgid ""
-"The access token is expired and it failed to refresh it. Sign to the server "
-"again, please."
+msgid "The access token is expired and it failed to refresh it. Sign to the server again, please."
 msgstr ""
 
 #. Translators: This is a user-visible string, display name of an OAuth2 service.
@@ -6647,14 +6462,14 @@ msgstr "%d/%m/%Y"
 #: ../src/libedataserver/e-time-utils.c:1913
 #: ../src/libedataserver/e-time-utils.c:2034
 msgid "%I:%M:%S %p"
-msgstr "%I:%M:%S %p"
+msgstr ""
 
 #. strptime format for a time of day, in 24-hour format.
 #. strftime format of a time in 24-hour format.
 #: ../src/libedataserver/e-time-utils.c:1917
 #: ../src/libedataserver/e-time-utils.c:2026
 msgid "%H:%M:%S"
-msgstr "%H:%M:%S"
+msgstr ""
 
 #. strptime format for time of day, without seconds,
 #. * in 12-hour format.
@@ -6663,7 +6478,7 @@ msgstr "%H:%M:%S"
 #: ../src/libedataserver/e-time-utils.c:1922
 #: ../src/libedataserver/e-time-utils.c:2031
 msgid "%I:%M %p"
-msgstr "%I:%M %p"
+msgstr ""
 
 #. strptime format for time of day, without seconds 24-hour format.
 #. strftime format of a time in 24-hour format,
@@ -6671,18 +6486,18 @@ msgstr "%I:%M %p"
 #: ../src/libedataserver/e-time-utils.c:1926
 #: ../src/libedataserver/e-time-utils.c:2023
 msgid "%H:%M"
-msgstr "%H:%M"
+msgstr ""
 
 #. strptime format for time of day, without seconds 24-hour format,
 #. * and no colon.
 #: ../src/libedataserver/e-time-utils.c:1930
 msgid "%H%M"
-msgstr "%H%M"
+msgstr ""
 
 #. strptime format for hour and AM/PM, 12-hour format.
 #: ../src/libedataserver/e-time-utils.c:1934
 msgid "%I %p"
-msgstr "%I %p"
+msgstr ""
 
 #: ../src/libedataserver/e-webdav-session.c:670
 msgid "Cannot determine destination URL without WebDAV extension"
@@ -6690,16 +6505,12 @@ msgstr ""
 
 #: ../src/libedataserver/e-webdav-session.c:955
 #, c-format
-msgid ""
-"The server responded with an HTML page, which can mean there’s an error on "
-"the server or with the client request. The used URI was: %s"
+msgid "The server responded with an HTML page, which can mean there’s an error on the server or with the client request. The used URI was: %s"
 msgstr ""
 
 #: ../src/libedataserver/e-webdav-session.c:957
 #, c-format
-msgid ""
-"The server responded with an HTML page, which can mean there’s an error on "
-"the server or with the client request."
+msgid "The server responded with an HTML page, which can mean there’s an error on the server or with the client request."
 msgstr ""
 
 #. Translators: The first '%s' is replaced with error prefix, as provided
@@ -6938,9 +6749,7 @@ msgstr ""
 #. like "On This Computer : Personal".
 #: ../src/libedataserverui/e-credentials-prompter-impl-oauth2.c:512
 #, c-format
-msgid ""
-"Login to your %s account and accept conditions in order to access your "
-"address book “%s”."
+msgid "Login to your %s account and accept conditions in order to access your address book “%s”."
 msgstr ""
 
 #. Translators: The first %s is replaced with an OAuth2 service display name, like the strings from "OAuth2Service" translation context,
@@ -6948,9 +6757,7 @@ msgstr ""
 #. like "On This Computer : Personal".
 #: ../src/libedataserverui/e-credentials-prompter-impl-oauth2.c:519
 #, c-format
-msgid ""
-"Login to your %s account and accept conditions in order to access your "
-"calendar “%s”."
+msgid "Login to your %s account and accept conditions in order to access your calendar “%s”."
 msgstr ""
 
 #. Translators: The first %s is replaced with an OAuth2 service display name, like the strings from "OAuth2Service" translation context,
@@ -6958,9 +6765,7 @@ msgstr ""
 #. like "On This Computer : Personal".
 #: ../src/libedataserverui/e-credentials-prompter-impl-oauth2.c:526
 #, c-format
-msgid ""
-"Login to your %s account and accept conditions in order to access your mail "
-"account “%s”."
+msgid "Login to your %s account and accept conditions in order to access your mail account “%s”."
 msgstr ""
 
 #. Translators: The first %s is replaced with an OAuth2 service display name, like the strings from "OAuth2Service" translation context,
@@ -6968,9 +6773,7 @@ msgstr ""
 #. like "On This Computer : Personal".
 #: ../src/libedataserverui/e-credentials-prompter-impl-oauth2.c:533
 #, c-format
-msgid ""
-"Login to your %s account and accept conditions in order to access your mail "
-"transport “%s”."
+msgid "Login to your %s account and accept conditions in order to access your mail transport “%s”."
 msgstr ""
 
 #. Translators: The first %s is replaced with an OAuth2 service display name, like the strings from "OAuth2Service" translation context,
@@ -6978,9 +6781,7 @@ msgstr ""
 #. like "On This Computer : Personal".
 #: ../src/libedataserverui/e-credentials-prompter-impl-oauth2.c:540
 #, c-format
-msgid ""
-"Login to your %s account and accept conditions in order to access your memo "
-"list “%s”."
+msgid "Login to your %s account and accept conditions in order to access your memo list “%s”."
 msgstr ""
 
 #. Translators: The first %s is replaced with an OAuth2 service display name, like the strings from "OAuth2Service" translation context,
@@ -6988,9 +6789,7 @@ msgstr ""
 #. like "On This Computer : Personal".
 #: ../src/libedataserverui/e-credentials-prompter-impl-oauth2.c:547
 #, c-format
-msgid ""
-"Login to your %s account and accept conditions in order to access your task "
-"list “%s”."
+msgid "Login to your %s account and accept conditions in order to access your task list “%s”."
 msgstr ""
 
 #. Translators: The first %s is replaced with an OAuth2 service display name, like the strings from "OAuth2Service" translation context,
@@ -6998,9 +6797,7 @@ msgstr ""
 #. like "On This Computer : Personal".
 #: ../src/libedataserverui/e-credentials-prompter-impl-oauth2.c:554
 #, c-format
-msgid ""
-"Login to your %s account and accept conditions in order to access your "
-"account “%s”."
+msgid "Login to your %s account and accept conditions in order to access your account “%s”."
 msgstr ""
 
 #: ../src/libedataserverui/e-credentials-prompter-impl-oauth2.c:605
@@ -7103,6 +6900,8 @@ msgid "%d year"
 msgid_plural "%d years"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/libedataserverui/e-reminders-widget.c:301
 msgctxt "overdue"
@@ -7184,8 +6983,7 @@ msgstr "Прыняць _назаўсёды"
 #: ../src/libedataserverui/e-trust-prompt.c:186
 #: ../src/modules/trust-prompt/trust-prompt-gtk.c:157
 #, c-format
-msgid ""
-"SSL/TLS certificate for “%s” is not trusted. Do you wish to accept it?"
+msgid "SSL/TLS certificate for “%s” is not trusted. Do you wish to accept it?"
 msgstr ""
 
 #: ../src/libedataserverui/e-trust-prompt.c:208
@@ -7204,15 +7002,12 @@ msgstr "Сертыфікацыйны цэнтр подпісу невядомы.
 
 #: ../src/libedataserverui/e-trust-prompt.c:275
 #: ../src/modules/trust-prompt/module-trust-prompt.c:82
-msgid ""
-"The certificate does not match the expected identity of the site that it was "
-"retrieved from."
-msgstr ""
-"Сертыфікат не адпавядае чаканым ідэнтыфікацыйным даным пляцоўкі, з якой ён "
-"быў атрыманы."
+msgid "The certificate does not match the expected identity of the site that it was retrieved from."
+msgstr "Сертыфікат не адпавядае чаканым ідэнтыфікацыйным даным пляцоўкі, з якой ён быў атрыманы."
 
 #: ../src/libedataserverui/e-trust-prompt.c:277
 #: ../src/modules/trust-prompt/module-trust-prompt.c:84
+#| msgid "The certificate's activation time is still in the future."
 msgid "The certificate’s activation time is still in the future."
 msgstr ""
 
@@ -7223,13 +7018,12 @@ msgstr "Тэрмін дзеяння сертыфіката вычарпаны."
 
 #: ../src/libedataserverui/e-trust-prompt.c:281
 #: ../src/modules/trust-prompt/module-trust-prompt.c:88
-msgid ""
-"The certificate has been revoked according to the connection’s certificate "
-"revocation list."
+msgid "The certificate has been revoked according to the connection’s certificate revocation list."
 msgstr ""
 
 #: ../src/libedataserverui/e-trust-prompt.c:283
 #: ../src/modules/trust-prompt/module-trust-prompt.c:90
+#| msgid "The certificate's algorithm is considered insecure."
 msgid "The certificate’s algorithm is considered insecure."
 msgstr ""
 
@@ -7275,9 +7069,7 @@ msgstr ""
 
 #: ../src/modules/gnome-online-accounts/e-goa-password-based.c:248
 #, c-format
-msgid ""
-"Cannot find a corresponding account in the org.gnome.OnlineAccounts service "
-"from which to obtain a password for “%s”"
+msgid "Cannot find a corresponding account in the org.gnome.OnlineAccounts service from which to obtain a password for “%s”"
 msgstr ""
 
 #: ../src/modules/gnome-online-accounts/e-goa-password-based.c:315
@@ -7318,14 +7110,11 @@ msgstr "Не ўдалося адшукаць элемент Account"
 #: ../src/modules/gnome-online-accounts/goaewsclient.c:288
 #, c-format
 msgid "Failed to find ASUrl and OABUrl in autodiscover response"
-msgstr ""
-"Не ўдалося адшукаць ASUrl і OABUrl у адказе аўтаматычнага пошуку паслуг"
+msgstr "Не ўдалося адшукаць ASUrl і OABUrl у адказе аўтаматычнага пошуку паслуг"
 
 #: ../src/modules/gnome-online-accounts/module-gnome-online-accounts.c:1406
 #, c-format
-msgid ""
-"Cannot find a corresponding account in the org.gnome.OnlineAccounts service "
-"from which to obtain an access token for “%s”"
+msgid "Cannot find a corresponding account in the org.gnome.OnlineAccounts service from which to obtain an access token for “%s”"
 msgstr ""
 
 #: ../src/modules/gnome-online-accounts/module-gnome-online-accounts.c:1456
@@ -7351,9 +7140,7 @@ msgstr "Пачакаць з запускам да далучэння перша�
 
 #: ../src/services/evolution-addressbook-factory/evolution-addressbook-factory.c:42
 #: ../src/services/evolution-calendar-factory/evolution-calendar-factory.c:44
-msgid ""
-"Overrides compile-time backend per process option; use 1 to enable, 0 to "
-"disable, any other value is to use compile-time option"
+msgid "Overrides compile-time backend per process option; use 1 to enable, 0 to disable, any other value is to use compile-time option"
 msgstr ""
 
 #: ../src/services/evolution-alarm-notify/e-alarm-notify.c:227
@@ -7377,12 +7164,8 @@ msgstr ""
 
 #: ../src/services/evolution-alarm-notify/e-alarm-notify.c:373
 #, c-format
-msgid ""
-"A calendar reminder is about to trigger. This reminder is configured to run "
-"the following program:\n"
-"\n"
-"        %s\n"
-"\n"
+msgid "A calendar reminder is about to trigger. This reminder is configured to run the following program:\n\n"
+"        %s\n\n"
 "Are you sure you want to run this program?"
 msgstr ""
 
@@ -7416,6 +7199,8 @@ msgid "You have %d reminder"
 msgid_plural "You have %d reminders"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/services/evolution-source-registry/builtin/birthdays.source.in.h:1
 msgid "Birthdays & Anniversaries"
@@ -7423,7 +7208,7 @@ msgstr "Дні нараджэнняў і гадавіны"
 
 #: ../src/services/evolution-source-registry/builtin/caldav-stub.source.in.h:1
 msgid "CalDAV"
-msgstr "CalDAV"
+msgstr ""
 
 #: ../src/services/evolution-source-registry/builtin/carddav-stub.source.in.h:1
 msgid "CardDAV"
@@ -7431,7 +7216,7 @@ msgstr ""
 
 #: ../src/services/evolution-source-registry/builtin/google-stub.source.in.h:1
 msgid "Google"
-msgstr "Google"
+msgstr ""
 
 #: ../src/services/evolution-source-registry/builtin/ldap-stub.source.in.h:1
 msgid "On LDAP Servers"
@@ -7497,8 +7282,7 @@ msgid "[vcard|csv]"
 msgstr ""
 
 #: ../src/tools/addressbook-export/addressbook-export.c:978
-msgid ""
-"Command line arguments error, please use --help option to see the usage."
+msgid "Command line arguments error, please use --help option to see the usage."
 msgstr ""
 
 #: ../src/tools/addressbook-export/addressbook-export.c:992
@@ -7518,9 +7302,7 @@ msgid "Show source’s authentication information"
 msgstr ""
 
 #: ../src/tools/list-sources/list-sources.c:92
-msgid ""
-"Write in machine readable format (one source per line, without localized "
-"property names and tab as separator)"
+msgid "Write in machine readable format (one source per line, without localized property names and tab as separator)"
 msgstr ""
 
 #: ../src/tools/list-sources/list-sources.c:95
@@ -7665,3 +7447,4 @@ msgstr ""
 #, c-format
 msgid "No sources had been found\n"
 msgstr ""
+

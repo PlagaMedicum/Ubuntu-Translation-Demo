@@ -1,26 +1,21 @@
-# Беларускі пераклад wget.
-# This file is distributed under the same license as the wget package.
-# Copyright (C) 2003, 2004 Free Software Foundation, Inc.
-# Hleb Valoska <el_globus@tut.by>, 2003.
-# Alexander Nyakhaychyk <nyakhaychyk@gmail.com>, 2003, 2004, 2007, 2008, 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: wget 1.12-pre6\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: bug-wget@gnu.org\n"
 "POT-Creation-Date: 2019-05-05 04:06+0000\n"
-"PO-Revision-Date: 2019-05-05 05:59+0000\n"
-"Last-Translator: Alex Nyakhaychyk <Unknown>\n"
-"Language-Team: Belarusian <i18n@mova.org>\n"
+"PO-Revision-Date: 2019-07-08 17:22\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Launchpad-Export-Date: 2019-05-11 11:38+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: be\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Launchpad-Export-Date: 2019-05-11 11:39+0000\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/wget.po\n"
+"Language: be_BY\n"
 
 #: lib/error.c:195
 msgid "Unknown system error"
@@ -370,7 +365,7 @@ msgstr ""
 #: src/cookies.c:774 src/spider.c:92
 #, c-format
 msgid "%s\n"
-msgstr "%s\n"
+msgstr ""
 
 #: src/cookies.c:1225 src/cookies.c:1346
 #, c-format
@@ -389,9 +384,7 @@ msgstr "Памылка закрыцця %s: %s\n"
 
 #: src/ftp-ls.c:1045
 msgid "Unsupported listing type, trying Unix listing parser.\n"
-msgstr ""
-"Гэты від сьпіса файлаў не падтрымліваецца, спроба ўжыць разбор Unix-"
-"сьпісаў.\n"
+msgstr "Гэты від сьпіса файлаў не падтрымліваецца, спроба ўжыць разбор Unix-сьпісаў.\n"
 
 #: src/ftp-ls.c:1096 src/ftp-ls.c:1098
 #, c-format
@@ -523,20 +516,15 @@ msgstr ""
 
 #: src/ftp.c:940
 #, c-format
-msgid ""
-"cwd_count: %d\n"
+msgid "cwd_count: %d\n"
 "cwd_start: %d\n"
 "cwd_end: %d\n"
 msgstr ""
 
 #: src/ftp.c:970
 #, c-format
-msgid ""
-"No such directory %s.\n"
-"\n"
-msgstr ""
-"Адсутнічае дырэкторыя %s.\n"
-"\n"
+msgid "No such directory %s.\n\n"
+msgstr "Адсутнічае дырэкторыя %s.\n\n"
 
 #: src/ftp.c:991
 msgid "==> CWD not required.\n"
@@ -569,11 +557,9 @@ msgid "Invalid PORT.\n"
 msgstr "Кепскі загад PORT.\n"
 
 #: src/ftp.c:1197
-msgid ""
-"\n"
+msgid "\n"
 "REST failed, starting from scratch.\n"
-msgstr ""
-"\n"
+msgstr "\n"
 "Збой загаду REST; пачынаем усё нанова.\n"
 
 #: src/ftp.c:1240
@@ -588,21 +574,13 @@ msgstr "Адсутнічае файл %s.\n"
 
 #: src/ftp.c:1296
 #, c-format
-msgid ""
-"No such file %s.\n"
-"\n"
-msgstr ""
-"Адсутнічае файл %s.\n"
-"\n"
+msgid "No such file %s.\n\n"
+msgstr "Адсутнічае файл %s.\n\n"
 
 #: src/ftp.c:1346
 #, c-format
-msgid ""
-"No such file or directory %s.\n"
-"\n"
-msgstr ""
-"Адсутнічае файл ці дырэкторыя %s.\n"
-"\n"
+msgid "No such file or directory %s.\n\n"
+msgstr "Адсутнічае файл ці дырэкторыя %s.\n\n"
 
 #: src/ftp.c:1505 src/http.c:2563
 #, c-format
@@ -639,21 +617,13 @@ msgstr "(спроба: %2d)"
 
 #: src/ftp.c:2039 src/http.c:4731
 #, c-format
-msgid ""
-"%s (%s) - written to stdout %s[%s]\n"
-"\n"
-msgstr ""
-"%s (%s) - запісаны ў stdout %s[%s]\n"
-"\n"
+msgid "%s (%s) - written to stdout %s[%s]\n\n"
+msgstr "%s (%s) - запісаны ў stdout %s[%s]\n\n"
 
 #: src/ftp.c:2040 src/http.c:4732
 #, c-format
-msgid ""
-"%s (%s) - %s saved [%s]\n"
-"\n"
-msgstr ""
-"%s (%s) - %s захаваны [%s]\n"
-"\n"
+msgid "%s (%s) - %s saved [%s]\n\n"
+msgstr "%s (%s) - %s захаваны [%s]\n\n"
 
 #: src/ftp.c:2100 src/main.c:2172 src/metalink.c:1135 src/recur.c:511
 #: src/recur.c:749 src/retr.c:1309
@@ -674,9 +644,7 @@ msgstr "Выдалены %s.\n"
 #: src/ftp.c:2213
 #, c-format
 msgid "Recursion depth %d exceeded max. depth %d.\n"
-msgstr ""
-"Значэньне рэкурсыўнае глыбіні %d большае за найбольшую дазволеную глыбіню "
-"%d.\n"
+msgstr "Значэньне рэкурсыўнае глыбіні %d большае за найбольшую дазволеную глыбіню %d.\n"
 
 #: src/ftp.c:2283
 #, c-format
@@ -685,21 +653,13 @@ msgstr "Аддалены файл не навейшы за мясцовы фай
 
 #: src/ftp.c:2291
 #, c-format
-msgid ""
-"Remote file is newer than local file %s -- retrieving.\n"
-"\n"
-msgstr ""
-"Аддалены файл навейшы за мясцовы файл %s -- выцягваем.\n"
-"\n"
+msgid "Remote file is newer than local file %s -- retrieving.\n\n"
+msgstr "Аддалены файл навейшы за мясцовы файл %s -- выцягваем.\n\n"
 
 #: src/ftp.c:2298
 #, c-format
-msgid ""
-"The sizes do not match (local %s) -- retrieving.\n"
-"\n"
-msgstr ""
-"Памеры не супадаюць (мясцовы %s) -- выцягваецца.\n"
-"\n"
+msgid "The sizes do not match (local %s) -- retrieving.\n\n"
+msgstr "Памеры не супадаюць (мясцовы %s) -- выцягваецца.\n\n"
 
 #: src/ftp.c:2316
 msgid "Invalid name of the symlink, skipping.\n"
@@ -707,12 +667,8 @@ msgstr "Нерэчаісная назва спасылкі; мінаецца.\n"
 
 #: src/ftp.c:2333
 #, c-format
-msgid ""
-"Already have correct symlink %s -> %s\n"
-"\n"
-msgstr ""
-"Ужо маецца правільная спасылка %s -> %s\n"
-"\n"
+msgid "Already have correct symlink %s -> %s\n\n"
+msgstr "Ужо маецца правільная спасылка %s -> %s\n\n"
 
 #: src/ftp.c:2342
 #, c-format
@@ -837,8 +793,7 @@ msgid "GnuTLS: unimplemented 'secure-protocol' option value %d\n"
 msgstr ""
 
 #: src/gnutls.c:786
-msgid ""
-"GnuTLS: Cannot set prio string directly. Falling back to default priority.\n"
+msgid "GnuTLS: Cannot set prio string directly. Falling back to default priority.\n"
 msgstr ""
 
 #: src/gnutls.c:914 src/openssl.c:825
@@ -966,21 +921,15 @@ msgstr "Адсутнічаюць загалоўкі; верагодна, HTTP/0.
 
 #: src/http.c:1623
 #, c-format
-msgid ""
-"File %s already there; not retrieving.\n"
-"\n"
-msgstr ""
-"Файл %s ужо тут; абмінаем.\n"
-"\n"
+msgid "File %s already there; not retrieving.\n\n"
+msgstr "Файл %s ужо тут; абмінаем.\n\n"
 
 #: src/http.c:1833
 msgid "gmtime failed. This is probably a bug.\n"
 msgstr ""
 
 #: src/http.c:1894
-msgid ""
-"Cannot convert timestamp to http format. Falling back to time 0 as last "
-"modification time.\n"
+msgid "Cannot convert timestamp to http format. Falling back to time 0 as last modification time.\n"
 msgstr ""
 
 #: src/http.c:1998
@@ -1033,8 +982,7 @@ msgstr "Запіс у %s.\n"
 
 #: src/http.c:2797
 #, c-format
-msgid ""
-"When downloading signature:\n"
+msgid "When downloading signature:\n"
 "%s: %s.\n"
 msgstr ""
 
@@ -1052,8 +1000,7 @@ msgid "Invalid pri value. Assuming %d.\n"
 msgstr ""
 
 #: src/http.c:3076
-msgid ""
-"Could not find acceptable digest for Metalink resources.\n"
+msgid "Could not find acceptable digest for Metalink resources.\n"
 "Ignoring them.\n"
 msgstr ""
 
@@ -1094,28 +1041,20 @@ msgstr " [крочым]"
 
 #: src/http.c:3883
 #, c-format
-msgid ""
-"File %s not modified on server. Omitting download.\n"
-"\n"
+msgid "File %s not modified on server. Omitting download.\n\n"
 msgstr ""
 
 #: src/http.c:3956
 #, c-format
-msgid ""
-"Server ignored If-Modified-Since header for file %s.\n"
-"You might want to add --no-if-modified-since option.\n"
-"\n"
+msgid "Server ignored If-Modified-Since header for file %s.\n"
+"You might want to add --no-if-modified-since option.\n\n"
 msgstr ""
 
 #: src/http.c:3976
-msgid ""
-"\n"
-"    The file is already fully retrieved; nothing to do.\n"
-"\n"
-msgstr ""
-"\n"
-"    Файл ужо цалкам атрыманы; рабіць нічога ня трэба.\n"
-"\n"
+msgid "\n"
+"    The file is already fully retrieved; nothing to do.\n\n"
+msgstr "\n"
+"    Файл ужо цалкам атрыманы; рабіць нічога ня трэба.\n\n"
 
 #: src/http.c:4020
 msgid "Length: "
@@ -1169,9 +1108,7 @@ msgid "ERROR: Redirection (%d) without location.\n"
 msgstr "ПАМЫЛКА: перанакіраваньне (%d) без знаходжаньня.\n"
 
 #: src/http.c:4464
-msgid ""
-"Could not find Metalink data in HTTP response. Downloading file using HTTP "
-"GET.\n"
+msgid "Could not find Metalink data in HTTP response. Downloading file using HTTP GET.\n"
 msgstr ""
 
 #: src/http.c:4473
@@ -1188,17 +1125,12 @@ msgstr "Загаловак Last-Modified адсутнічае -- адбіткі 
 
 #: src/http.c:4550
 msgid "Last-modified header invalid -- time-stamp ignored.\n"
-msgstr ""
-"Загаловак Last-Modified нерэчаісны -- адбітак часу будзе ігнаравацца.\n"
+msgstr "Загаловак Last-Modified нерэчаісны -- адбітак часу будзе ігнаравацца.\n"
 
 #: src/http.c:4580
 #, c-format
-msgid ""
-"Server file no newer than local file %s -- not retrieving.\n"
-"\n"
-msgstr ""
-"Аддалены файл не навейшы за мясцовы %s -- абмінаем.\n"
-"\n"
+msgid "Server file no newer than local file %s -- not retrieving.\n\n"
+msgstr "Аддалены файл не навейшы за мясцовы %s -- абмінаем.\n\n"
 
 #: src/http.c:4588
 #, c-format
@@ -1210,55 +1142,36 @@ msgid "Remote file is newer, retrieving.\n"
 msgstr "Аддалены файл навейшы, загружаю.\n"
 
 #: src/http.c:4615
-msgid ""
-"Remote file exists and could contain links to other resources -- "
-"retrieving.\n"
-"\n"
+msgid "Remote file exists and could contain links to other resources -- retrieving.\n\n"
 msgstr ""
 
 #: src/http.c:4621
-msgid ""
-"Remote file exists but does not contain any link -- not retrieving.\n"
-"\n"
+msgid "Remote file exists but does not contain any link -- not retrieving.\n\n"
 msgstr ""
 
 #: src/http.c:4630
-msgid ""
-"Remote file exists and could contain further links,\n"
-"but recursion is disabled -- not retrieving.\n"
-"\n"
+msgid "Remote file exists and could contain further links,\n"
+"but recursion is disabled -- not retrieving.\n\n"
 msgstr ""
 
 #: src/http.c:4636
-msgid ""
-"Remote file exists.\n"
-"\n"
-msgstr ""
-"Аддалены файл існуе.\n"
-"\n"
+msgid "Remote file exists.\n\n"
+msgstr "Аддалены файл існуе.\n\n"
 
 #: src/http.c:4645
 #, c-format
 msgid "%s URL: %s %2d %s\n"
-msgstr "%s URL: %s %2d %s\n"
+msgstr ""
 
 #: src/http.c:4695
 #, c-format
-msgid ""
-"%s (%s) - written to stdout %s[%s/%s]\n"
-"\n"
-msgstr ""
-"%s (%s) - запісаны ў stdout %s[%s/%s]\n"
-"\n"
+msgid "%s (%s) - written to stdout %s[%s/%s]\n\n"
+msgstr "%s (%s) - запісаны ў stdout %s[%s/%s]\n\n"
 
 #: src/http.c:4696
 #, c-format
-msgid ""
-"%s (%s) - %s saved [%s/%s]\n"
-"\n"
-msgstr ""
-"%s (%s) - %s захаваны [%s/%s]\n"
-"\n"
+msgid "%s (%s) - %s saved [%s/%s]\n\n"
+msgstr "%s (%s) - %s захаваны [%s/%s]\n\n"
 
 #: src/http.c:4757
 #, c-format
@@ -1287,8 +1200,7 @@ msgstr ""
 
 #: src/init.c:579
 #, c-format
-msgid ""
-"%s: WGETRC points to %s, which couldn't be accessed because of error: %s.\n"
+msgid "%s: WGETRC points to %s, which couldn't be accessed because of error: %s.\n"
 msgstr ""
 
 #: src/init.c:678 src/netrc.c:452
@@ -1313,16 +1225,14 @@ msgstr "%s: невядомы загад %s у %s; радок %d.\n"
 
 #: src/init.c:745
 #, c-format
-msgid ""
-"Parsing system wgetrc file (env SYSTEM_WGETRC) failed.  Please check\n"
+msgid "Parsing system wgetrc file (env SYSTEM_WGETRC) failed.  Please check\n"
 "'%s',\n"
 "or specify a different file using --config.\n"
 msgstr ""
 
 #: src/init.c:760
 #, c-format
-msgid ""
-"Parsing system wgetrc file failed.  Please check\n"
+msgid "Parsing system wgetrc file failed.  Please check\n"
 "'%s',\n"
 "or specify a different file using --config.\n"
 msgstr ""
@@ -1340,8 +1250,7 @@ msgstr "%s: Нядзейсны загад --execute %s\n"
 #: src/init.c:1037
 #, c-format
 msgid "%s: %s: Invalid boolean %s; use `on' or `off'.\n"
-msgstr ""
-"%s: %s: Нядзейснае булева значэнне %s; выкарыстоўвайце «on» ці «off».\n"
+msgstr "%s: %s: Нядзейснае булева значэнне %s; выкарыстоўвайце «on» ці «off».\n"
 
 #: src/init.c:1070
 #, c-format
@@ -1370,9 +1279,7 @@ msgstr "%s: %s: Нядзейсны адрэзак часу %s\n"
 
 #: src/init.c:1435 src/main.c:1912
 #, c-format
-msgid ""
-"use-askpass requires a string or either environment variable WGET_ASKPASS or "
-"SSH_ASKPASS to be set.\n"
+msgid "use-askpass requires a string or either environment variable WGET_ASKPASS or SSH_ASKPASS to be set.\n"
 msgstr ""
 
 #: src/init.c:1453 src/init.c:1475 src/init.c:1583 src/init.c:1639
@@ -1398,8 +1305,7 @@ msgstr "%s: %s: Нядзейсны тып прагрэсбару %s.\n"
 
 #: src/init.c:1678
 #, c-format
-msgid ""
-"%s: %s: Invalid restriction %s,\n"
+msgid "%s: %s: Invalid restriction %s,\n"
 "    use [unix|vms|windows],[lowercase|uppercase],[nocontrol],[ascii].\n"
 msgstr ""
 
@@ -1438,8 +1344,7 @@ msgstr ""
 
 #: src/log.c:931 src/log.c:950
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "Redirecting output to %s.\n"
 msgstr ""
 
@@ -1454,20 +1359,15 @@ msgid "Usage: %s [OPTION]... [URL]...\n"
 msgstr "Выкарыстанне: %s [OPTION]... [URL]...\n"
 
 #: src/main.c:593
-msgid ""
-"Mandatory arguments to long options are mandatory for short options too.\n"
-"\n"
-msgstr ""
-"Аргумэнты, абавязкоўвыя для доўгіх опцыяў, абавязковыя й для кароткіх.\n"
-"\n"
+msgid "Mandatory arguments to long options are mandatory for short options too.\n\n"
+msgstr "Аргумэнты, абавязкоўвыя для доўгіх опцыяў, абавязковыя й для кароткіх.\n\n"
 
 #: src/main.c:595
 msgid "Startup:\n"
 msgstr "Запуск:\n"
 
 #: src/main.c:597
-msgid ""
-"  -V,  --version                   display the version of Wget and exit\n"
+msgid "  -V,  --version                   display the version of Wget and exit\n"
 msgstr ""
 
 #: src/main.c:599
@@ -1479,8 +1379,7 @@ msgid "  -b,  --background                go to background after startup\n"
 msgstr ""
 
 #: src/main.c:603
-msgid ""
-"  -e,  --execute=COMMAND           execute a `.wgetrc'-style command\n"
+msgid "  -e,  --execute=COMMAND           execute a `.wgetrc'-style command\n"
 msgstr ""
 
 #: src/main.c:607
@@ -1496,8 +1395,7 @@ msgid "  -a,  --append-output=FILE        append messages to FILE\n"
 msgstr ""
 
 #: src/main.c:614
-msgid ""
-"  -d,  --debug                     print lots of debugging information\n"
+msgid "  -d,  --debug                     print lots of debugging information\n"
 msgstr ""
 
 #: src/main.c:618
@@ -1513,27 +1411,19 @@ msgid "  -v,  --verbose                   be verbose (this is the default)\n"
 msgstr ""
 
 #: src/main.c:625
-msgid ""
-"  -nv, --no-verbose                turn off verboseness, without being "
-"quiet\n"
+msgid "  -nv, --no-verbose                turn off verboseness, without being quiet\n"
 msgstr ""
 
 #: src/main.c:627
-msgid ""
-"       --report-speed=TYPE         output bandwidth as TYPE.  TYPE can be "
-"bits\n"
+msgid "       --report-speed=TYPE         output bandwidth as TYPE.  TYPE can be bits\n"
 msgstr ""
 
 #: src/main.c:629
-msgid ""
-"  -i,  --input-file=FILE           download URLs found in local or external "
-"FILE\n"
+msgid "  -i,  --input-file=FILE           download URLs found in local or external FILE\n"
 msgstr ""
 
 #: src/main.c:632
-msgid ""
-"       --input-metalink=FILE       download files covered in local Metalink "
-"FILE\n"
+msgid "       --input-metalink=FILE       download files covered in local Metalink FILE\n"
 msgstr ""
 
 #: src/main.c:635
@@ -1541,8 +1431,7 @@ msgid "  -F,  --force-html                treat input file as HTML\n"
 msgstr ""
 
 #: src/main.c:637
-msgid ""
-"  -B,  --base=URL                  resolves HTML input-file links (-i -F)\n"
+msgid "  -B,  --base=URL                  resolves HTML input-file links (-i -F)\n"
 "                                     relative to URL\n"
 msgstr ""
 
@@ -1555,8 +1444,7 @@ msgid "       --no-config                 do not read any config file\n"
 msgstr ""
 
 #: src/main.c:644
-msgid ""
-"       --rejected-log=FILE         log reasons for URL rejection to FILE\n"
+msgid "       --rejected-log=FILE         log reasons for URL rejection to FILE\n"
 msgstr ""
 
 #: src/main.c:648
@@ -1564,20 +1452,15 @@ msgid "Download:\n"
 msgstr "Запампоўка:\n"
 
 #: src/main.c:650
-msgid ""
-"  -t,  --tries=NUMBER              set number of retries to NUMBER (0 "
-"unlimits)\n"
+msgid "  -t,  --tries=NUMBER              set number of retries to NUMBER (0 unlimits)\n"
 msgstr ""
 
 #: src/main.c:652
-msgid ""
-"       --retry-connrefused         retry even if connection is refused\n"
+msgid "       --retry-connrefused         retry even if connection is refused\n"
 msgstr ""
 
 #: src/main.c:654
-msgid ""
-"       --retry-on-http-error=ERRORS    comma-separated list of HTTP errors "
-"to retry\n"
+msgid "       --retry-on-http-error=ERRORS    comma-separated list of HTTP errors to retry\n"
 msgstr ""
 
 #: src/main.c:656
@@ -1585,27 +1468,20 @@ msgid "  -O,  --output-document=FILE      write documents to FILE\n"
 msgstr ""
 
 #: src/main.c:658
-msgid ""
-"  -nc, --no-clobber                skip downloads that would download to\n"
+msgid "  -nc, --no-clobber                skip downloads that would download to\n"
 "                                     existing files (overwriting them)\n"
 msgstr ""
 
 #: src/main.c:661
-msgid ""
-"       --no-netrc                  don't try to obtain credentials from "
-".netrc\n"
+msgid "       --no-netrc                  don't try to obtain credentials from .netrc\n"
 msgstr ""
 
 #: src/main.c:663
-msgid ""
-"  -c,  --continue                  resume getting a partially-downloaded "
-"file\n"
+msgid "  -c,  --continue                  resume getting a partially-downloaded file\n"
 msgstr ""
 
 #: src/main.c:665
-msgid ""
-"       --start-pos=OFFSET          start downloading from zero-based "
-"position OFFSET\n"
+msgid "       --start-pos=OFFSET          start downloading from zero-based position OFFSET\n"
 msgstr ""
 
 #: src/main.c:667
@@ -1613,28 +1489,21 @@ msgid "       --progress=TYPE             select progress gauge type\n"
 msgstr ""
 
 #: src/main.c:669
-msgid ""
-"       --show-progress             display the progress bar in any verbosity "
-"mode\n"
+msgid "       --show-progress             display the progress bar in any verbosity mode\n"
 msgstr ""
 
 #: src/main.c:671
-msgid ""
-"  -N,  --timestamping              don't re-retrieve files unless newer "
-"than\n"
+msgid "  -N,  --timestamping              don't re-retrieve files unless newer than\n"
 "                                     local\n"
 msgstr ""
 
 #: src/main.c:674
-msgid ""
-"       --no-if-modified-since      don't use conditional if-modified-since "
-"get\n"
+msgid "       --no-if-modified-since      don't use conditional if-modified-since get\n"
 "                                     requests in timestamping mode\n"
 msgstr ""
 
 #: src/main.c:677
-msgid ""
-"       --no-use-server-timestamps  don't set the local file's timestamp by\n"
+msgid "       --no-use-server-timestamps  don't set the local file's timestamp by\n"
 "                                     the one on the server\n"
 msgstr ""
 
@@ -1647,25 +1516,19 @@ msgid "       --spider                    don't download anything\n"
 msgstr ""
 
 #: src/main.c:684
-msgid ""
-"  -T,  --timeout=SECONDS           set all timeout values to SECONDS\n"
+msgid "  -T,  --timeout=SECONDS           set all timeout values to SECONDS\n"
 msgstr ""
 
 #: src/main.c:687
-msgid ""
-"       --dns-servers=ADDRESSES     list of DNS servers to query (comma "
-"separated)\n"
+msgid "       --dns-servers=ADDRESSES     list of DNS servers to query (comma separated)\n"
 msgstr ""
 
 #: src/main.c:689
-msgid ""
-"       --bind-dns-address=ADDRESS  bind DNS resolver to ADDRESS (hostname or "
-"IP) on local host\n"
+msgid "       --bind-dns-address=ADDRESS  bind DNS resolver to ADDRESS (hostname or IP) on local host\n"
 msgstr ""
 
 #: src/main.c:692
-msgid ""
-"       --dns-timeout=SECS          set the DNS lookup timeout to SECS\n"
+msgid "       --dns-timeout=SECS          set the DNS lookup timeout to SECS\n"
 msgstr ""
 
 #: src/main.c:694
@@ -1681,15 +1544,11 @@ msgid "  -w,  --wait=SECONDS              wait SECONDS between retrievals\n"
 msgstr ""
 
 #: src/main.c:700
-msgid ""
-"       --waitretry=SECONDS         wait 1..SECONDS between retries of a "
-"retrieval\n"
+msgid "       --waitretry=SECONDS         wait 1..SECONDS between retries of a retrieval\n"
 msgstr ""
 
 #: src/main.c:702
-msgid ""
-"       --random-wait               wait from 0.5*WAIT...1.5*WAIT secs "
-"between retrievals\n"
+msgid "       --random-wait               wait from 0.5*WAIT...1.5*WAIT secs between retrievals\n"
 msgstr ""
 
 #: src/main.c:704
@@ -1701,9 +1560,7 @@ msgid "  -Q,  --quota=NUMBER              set retrieval quota to NUMBER\n"
 msgstr ""
 
 #: src/main.c:708
-msgid ""
-"       --bind-address=ADDRESS      bind to ADDRESS (hostname or IP) on local "
-"host\n"
+msgid "       --bind-address=ADDRESS      bind to ADDRESS (hostname or IP) on local host\n"
 msgstr ""
 
 #: src/main.c:710
@@ -1715,15 +1572,11 @@ msgid "       --no-dns-cache              disable caching DNS lookups\n"
 msgstr ""
 
 #: src/main.c:714
-msgid ""
-"       --restrict-file-names=OS    restrict chars in file names to ones OS "
-"allows\n"
+msgid "       --restrict-file-names=OS    restrict chars in file names to ones OS allows\n"
 msgstr ""
 
 #: src/main.c:716
-msgid ""
-"       --ignore-case               ignore case when matching "
-"files/directories\n"
+msgid "       --ignore-case               ignore case when matching files/directories\n"
 msgstr ""
 
 #: src/main.c:719
@@ -1735,20 +1588,16 @@ msgid "  -6,  --inet6-only                connect only to IPv6 addresses\n"
 msgstr ""
 
 #: src/main.c:723
-msgid ""
-"       --prefer-family=FAMILY      connect first to addresses of specified "
-"family,\n"
+msgid "       --prefer-family=FAMILY      connect first to addresses of specified family,\n"
 "                                     one of IPv6, IPv4, or none\n"
 msgstr ""
 
 #: src/main.c:727
-msgid ""
-"       --user=USER                 set both ftp and http user to USER\n"
+msgid "       --user=USER                 set both ftp and http user to USER\n"
 msgstr ""
 
 #: src/main.c:729
-msgid ""
-"       --password=PASS             set both ftp and http password to PASS\n"
+msgid "       --password=PASS             set both ftp and http password to PASS\n"
 msgstr ""
 
 #: src/main.c:731
@@ -1756,13 +1605,9 @@ msgid "       --ask-password              prompt for passwords\n"
 msgstr ""
 
 #: src/main.c:733
-msgid ""
-"       --use-askpass=COMMAND       specify credential handler for requesting "
-"\n"
-"                                     username and password.  If no COMMAND "
-"is \n"
-"                                     specified the WGET_ASKPASS or the "
-"SSH_ASKPASS \n"
+msgid "       --use-askpass=COMMAND       specify credential handler for requesting \n"
+"                                     username and password.  If no COMMAND is \n"
+"                                     specified the WGET_ASKPASS or the SSH_ASKPASS \n"
 "                                     environment variable is used.\n"
 msgstr ""
 
@@ -1771,13 +1616,11 @@ msgid "       --no-iri                    turn off IRI support\n"
 msgstr ""
 
 #: src/main.c:740
-msgid ""
-"       --local-encoding=ENC        use ENC as the local encoding for IRIs\n"
+msgid "       --local-encoding=ENC        use ENC as the local encoding for IRIs\n"
 msgstr ""
 
 #: src/main.c:742
-msgid ""
-"       --remote-encoding=ENC       use ENC as the default remote encoding\n"
+msgid "       --remote-encoding=ENC       use ENC as the default remote encoding\n"
 msgstr ""
 
 #: src/main.c:744
@@ -1785,33 +1628,23 @@ msgid "       --unlink                    remove file before clobber\n"
 msgstr ""
 
 #: src/main.c:747
-msgid ""
-"       --keep-badhash              keep files with checksum mismatch (append "
-".badhash)\n"
+msgid "       --keep-badhash              keep files with checksum mismatch (append .badhash)\n"
 msgstr ""
 
 #: src/main.c:749
-msgid ""
-"       --metalink-index=NUMBER     Metalink application/metalink4+xml "
-"metaurl ordinal NUMBER\n"
+msgid "       --metalink-index=NUMBER     Metalink application/metalink4+xml metaurl ordinal NUMBER\n"
 msgstr ""
 
 #: src/main.c:751
-msgid ""
-"       --metalink-over-http        use Metalink metadata from HTTP response "
-"headers\n"
+msgid "       --metalink-over-http        use Metalink metadata from HTTP response headers\n"
 msgstr ""
 
 #: src/main.c:753
-msgid ""
-"       --preferred-location        preferred location for Metalink "
-"resources\n"
+msgid "       --preferred-location        preferred location for Metalink resources\n"
 msgstr ""
 
 #: src/main.c:757
-msgid ""
-"       --xattr                     turn on storage of metadata in extended "
-"file attributes\n"
+msgid "       --xattr                     turn on storage of metadata in extended file attributes\n"
 msgstr ""
 
 #: src/main.c:762
@@ -1839,9 +1672,7 @@ msgid "  -P,  --directory-prefix=PREFIX   save files to PREFIX/..\n"
 msgstr ""
 
 #: src/main.c:774
-msgid ""
-"       --cut-dirs=NUMBER           ignore NUMBER remote directory "
-"components\n"
+msgid "       --cut-dirs=NUMBER           ignore NUMBER remote directory components\n"
 msgstr ""
 
 #: src/main.c:778
@@ -1861,20 +1692,16 @@ msgid "       --no-cache                  disallow server-cached data\n"
 msgstr ""
 
 #: src/main.c:786
-msgid ""
-"       --default-page=NAME         change the default page name (normally\n"
+msgid "       --default-page=NAME         change the default page name (normally\n"
 "                                     this is 'index.html'.)\n"
 msgstr ""
 
 #: src/main.c:789
-msgid ""
-"  -E,  --adjust-extension          save HTML/CSS documents with proper "
-"extensions\n"
+msgid "  -E,  --adjust-extension          save HTML/CSS documents with proper extensions\n"
 msgstr ""
 
 #: src/main.c:791
-msgid ""
-"       --ignore-length             ignore 'Content-Length' header field\n"
+msgid "       --ignore-length             ignore 'Content-Length' header field\n"
 msgstr ""
 
 #: src/main.c:793
@@ -1882,14 +1709,11 @@ msgid "       --header=STRING             insert STRING among the headers\n"
 msgstr ""
 
 #: src/main.c:796
-msgid ""
-"       --compression=TYPE          choose compression, one of auto, gzip and "
-"none. (default: none)\n"
+msgid "       --compression=TYPE          choose compression, one of auto, gzip and none. (default: none)\n"
 msgstr ""
 
 #: src/main.c:799
-msgid ""
-"       --max-redirect              maximum redirections allowed per page\n"
+msgid "       --max-redirect              maximum redirections allowed per page\n"
 msgstr ""
 
 #: src/main.c:801
@@ -1901,9 +1725,7 @@ msgid "       --proxy-password=PASS       set PASS as proxy password\n"
 msgstr ""
 
 #: src/main.c:805
-msgid ""
-"       --referer=URL               include 'Referer: URL' header in HTTP "
-"request\n"
+msgid "       --referer=URL               include 'Referer: URL' header in HTTP request\n"
 msgstr ""
 
 #: src/main.c:807
@@ -1911,15 +1733,11 @@ msgid "       --save-headers              save the HTTP headers to file\n"
 msgstr ""
 
 #: src/main.c:809
-msgid ""
-"  -U,  --user-agent=AGENT          identify as AGENT instead of "
-"Wget/VERSION\n"
+msgid "  -U,  --user-agent=AGENT          identify as AGENT instead of Wget/VERSION\n"
 msgstr ""
 
 #: src/main.c:811
-msgid ""
-"       --no-http-keep-alive        disable HTTP keep-alive (persistent "
-"connections)\n"
+msgid "       --no-http-keep-alive        disable HTTP keep-alive (persistent connections)\n"
 msgstr ""
 
 #: src/main.c:813
@@ -1927,68 +1745,48 @@ msgid "       --no-cookies                don't use cookies\n"
 msgstr ""
 
 #: src/main.c:815
-msgid ""
-"       --load-cookies=FILE         load cookies from FILE before session\n"
+msgid "       --load-cookies=FILE         load cookies from FILE before session\n"
 msgstr ""
 
 #: src/main.c:817
-msgid ""
-"       --save-cookies=FILE         save cookies to FILE after session\n"
+msgid "       --save-cookies=FILE         save cookies to FILE after session\n"
 msgstr ""
 
 #: src/main.c:819
-msgid ""
-"       --keep-session-cookies      load and save session (non-permanent) "
-"cookies\n"
+msgid "       --keep-session-cookies      load and save session (non-permanent) cookies\n"
 msgstr ""
 
 #: src/main.c:821
-msgid ""
-"       --post-data=STRING          use the POST method; send STRING as the "
-"data\n"
+msgid "       --post-data=STRING          use the POST method; send STRING as the data\n"
 msgstr ""
 
 #: src/main.c:823
-msgid ""
-"       --post-file=FILE            use the POST method; send contents of "
-"FILE\n"
+msgid "       --post-file=FILE            use the POST method; send contents of FILE\n"
 msgstr ""
 
 #: src/main.c:825
-msgid ""
-"       --method=HTTPMethod         use method \"HTTPMethod\" in the request\n"
+msgid "       --method=HTTPMethod         use method \"HTTPMethod\" in the request\n"
 msgstr ""
 
 #: src/main.c:827
-msgid ""
-"       --body-data=STRING          send STRING as data. --method MUST be "
-"set\n"
+msgid "       --body-data=STRING          send STRING as data. --method MUST be set\n"
 msgstr ""
 
 #: src/main.c:829
-msgid ""
-"       --body-file=FILE            send contents of FILE. --method MUST be "
-"set\n"
+msgid "       --body-file=FILE            send contents of FILE. --method MUST be set\n"
 msgstr ""
 
 #: src/main.c:831
-msgid ""
-"       --content-disposition       honor the Content-Disposition header "
-"when\n"
-"                                     choosing local file names "
-"(EXPERIMENTAL)\n"
+msgid "       --content-disposition       honor the Content-Disposition header when\n"
+"                                     choosing local file names (EXPERIMENTAL)\n"
 msgstr ""
 
 #: src/main.c:834
-msgid ""
-"       --content-on-error          output the received content on server "
-"errors\n"
+msgid "       --content-on-error          output the received content on server errors\n"
 msgstr ""
 
 #: src/main.c:836
-msgid ""
-"       --auth-no-challenge         send Basic HTTP authentication "
-"information\n"
+msgid "       --auth-no-challenge         send Basic HTTP authentication information\n"
 "                                     without first waiting for the server's\n"
 "                                     challenge\n"
 msgstr ""
@@ -1998,9 +1796,7 @@ msgid "HTTPS (SSL/TLS) options:\n"
 msgstr "Опцыі HTTPS (SSL/TLS):\n"
 
 #: src/main.c:845
-msgid ""
-"       --secure-protocol=PR        choose secure protocol, one of auto, "
-"SSLv2,\n"
+msgid "       --secure-protocol=PR        choose secure protocol, one of auto, SSLv2,\n"
 "                                     SSLv3, TLSv1, TLSv1_1, TLSv1_2 and PFS\n"
 msgstr ""
 
@@ -2009,8 +1805,7 @@ msgid "       --https-only                only follow secure HTTPS links\n"
 msgstr ""
 
 #: src/main.c:850
-msgid ""
-"       --no-check-certificate      don't validate the server's certificate\n"
+msgid "       --no-check-certificate      don't validate the server's certificate\n"
 msgstr ""
 
 #: src/main.c:852
@@ -2018,8 +1813,7 @@ msgid "       --certificate=FILE          client certificate file\n"
 msgstr ""
 
 #: src/main.c:854
-msgid ""
-"       --certificate-type=TYPE     client certificate type, PEM or DER\n"
+msgid "       --certificate-type=TYPE     client certificate type, PEM or DER\n"
 msgstr ""
 
 #: src/main.c:856
@@ -2035,9 +1829,7 @@ msgid "       --ca-certificate=FILE       file with the bundle of CAs\n"
 msgstr ""
 
 #: src/main.c:862
-msgid ""
-"       --ca-directory=DIR          directory where hash list of CAs is "
-"stored\n"
+msgid "       --ca-directory=DIR          directory where hash list of CAs is stored\n"
 msgstr ""
 
 #: src/main.c:864
@@ -2045,35 +1837,24 @@ msgid "       --crl-file=FILE             file with bundle of CRLs\n"
 msgstr ""
 
 #: src/main.c:866
-msgid ""
-"       --pinnedpubkey=FILE/HASHES  Public key (PEM/DER) file, or any number\n"
-"                                   of base64 encoded sha256 hashes preceded "
-"by\n"
-"                                   'sha256//' and separated by ';', to "
-"verify\n"
+msgid "       --pinnedpubkey=FILE/HASHES  Public key (PEM/DER) file, or any number\n"
+"                                   of base64 encoded sha256 hashes preceded by\n"
+"                                   'sha256//' and separated by ';', to verify\n"
 "                                   peer against\n"
 msgstr ""
 
 #: src/main.c:872
-msgid ""
-"       --random-file=FILE          file with random data for seeding the SSL "
-"PRNG\n"
+msgid "       --random-file=FILE          file with random data for seeding the SSL PRNG\n"
 msgstr ""
 
 #: src/main.c:876
-msgid ""
-"       --egd-file=FILE             file naming the EGD socket with random "
-"data\n"
+msgid "       --egd-file=FILE             file naming the EGD socket with random data\n"
 msgstr ""
 
 #: src/main.c:880
-msgid ""
-"       --ciphers=STR           Set the priority string (GnuTLS) or cipher "
-"list string (OpenSSL) directly.\n"
-"                                   Use with care. This option overrides --"
-"secure-protocol.\n"
-"                                   The format and syntax of this string "
-"depend on the specific SSL/TLS engine.\n"
+msgid "       --ciphers=STR           Set the priority string (GnuTLS) or cipher list string (OpenSSL) directly.\n"
+"                                   Use with care. This option overrides --secure-protocol.\n"
+"                                   The format and syntax of this string depend on the specific SSL/TLS engine.\n"
 msgstr ""
 
 #: src/main.c:887
@@ -2085,9 +1866,7 @@ msgid "       --no-hsts                   disable HSTS\n"
 msgstr ""
 
 #: src/main.c:891
-msgid ""
-"       --hsts-file                 path of HSTS database (will override "
-"default)\n"
+msgid "       --hsts-file                 path of HSTS database (will override default)\n"
 msgstr ""
 
 #: src/main.c:896
@@ -2095,9 +1874,7 @@ msgid "FTP options:\n"
 msgstr "Опцыі FTP:\n"
 
 #: src/main.c:899
-msgid ""
-"       --ftp-stmlf                 use Stream_LF format for all binary FTP "
-"files\n"
+msgid "       --ftp-stmlf                 use Stream_LF format for all binary FTP files\n"
 msgstr ""
 
 #: src/main.c:902
@@ -2117,8 +1894,7 @@ msgid "       --no-glob                   turn off FTP file name globbing\n"
 msgstr ""
 
 #: src/main.c:910
-msgid ""
-"       --no-passive-ftp            disable the \"passive\" transfer mode\n"
+msgid "       --no-passive-ftp            disable the \"passive\" transfer mode\n"
 msgstr ""
 
 #: src/main.c:912
@@ -2126,9 +1902,7 @@ msgid "       --preserve-permissions      preserve remote file permissions\n"
 msgstr ""
 
 #: src/main.c:914
-msgid ""
-"       --retr-symlinks             when recursing, get linked-to files (not "
-"dir)\n"
+msgid "       --retr-symlinks             when recursing, get linked-to files (not dir)\n"
 msgstr ""
 
 #: src/main.c:919
@@ -2136,28 +1910,20 @@ msgid "FTPS options:\n"
 msgstr ""
 
 #: src/main.c:921
-msgid ""
-"       --ftps-implicit                 use implicit FTPS (default port is "
-"990)\n"
+msgid "       --ftps-implicit                 use implicit FTPS (default port is 990)\n"
 msgstr ""
 
 #: src/main.c:923
-msgid ""
-"       --ftps-resume-ssl               resume the SSL/TLS session started in "
-"the control connection when\n"
+msgid "       --ftps-resume-ssl               resume the SSL/TLS session started in the control connection when\n"
 "                                         opening a data connection\n"
 msgstr ""
 
 #: src/main.c:926
-msgid ""
-"       --ftps-clear-data-connection    cipher the control channel only; all "
-"the data will be in plaintext\n"
+msgid "       --ftps-clear-data-connection    cipher the control channel only; all the data will be in plaintext\n"
 msgstr ""
 
 #: src/main.c:928
-msgid ""
-"       --ftps-fallback-to-ftp          fall back to FTP if FTPS is not "
-"supported in the target server\n"
+msgid "       --ftps-fallback-to-ftp          fall back to FTP if FTPS is not supported in the target server\n"
 msgstr ""
 
 #: src/main.c:932
@@ -2165,19 +1931,15 @@ msgid "WARC options:\n"
 msgstr ""
 
 #: src/main.c:934
-msgid ""
-"       --warc-file=FILENAME        save request/response data to a .warc.gz "
-"file\n"
+msgid "       --warc-file=FILENAME        save request/response data to a .warc.gz file\n"
 msgstr ""
 
 #: src/main.c:936
-msgid ""
-"       --warc-header=STRING        insert STRING into the warcinfo record\n"
+msgid "       --warc-header=STRING        insert STRING into the warcinfo record\n"
 msgstr ""
 
 #: src/main.c:938
-msgid ""
-"       --warc-max-size=NUMBER      set maximum size of WARC files to NUMBER\n"
+msgid "       --warc-max-size=NUMBER      set maximum size of WARC files to NUMBER\n"
 msgstr ""
 
 #: src/main.c:940
@@ -2185,14 +1947,11 @@ msgid "       --warc-cdx                  write CDX index files\n"
 msgstr ""
 
 #: src/main.c:942
-msgid ""
-"       --warc-dedup=FILENAME       do not store records listed in this CDX "
-"file\n"
+msgid "       --warc-dedup=FILENAME       do not store records listed in this CDX file\n"
 msgstr ""
 
 #: src/main.c:945
-msgid ""
-"       --no-warc-compression       do not compress WARC files with GZIP\n"
+msgid "       --no-warc-compression       do not compress WARC files with GZIP\n"
 msgstr ""
 
 #: src/main.c:948
@@ -2200,15 +1959,11 @@ msgid "       --no-warc-digests           do not calculate SHA1 digests\n"
 msgstr ""
 
 #: src/main.c:950
-msgid ""
-"       --no-warc-keep-log          do not store the log file in a WARC "
-"record\n"
+msgid "       --no-warc-keep-log          do not store the log file in a WARC record\n"
 msgstr ""
 
 #: src/main.c:952
-msgid ""
-"       --warc-tempdir=DIRECTORY    location for temporary files created by "
-"the\n"
+msgid "       --warc-tempdir=DIRECTORY    location for temporary files created by the\n"
 "                                     WARC writer\n"
 msgstr ""
 
@@ -2221,64 +1976,44 @@ msgid "  -r,  --recursive                 specify recursive download\n"
 msgstr ""
 
 #: src/main.c:961
-msgid ""
-"  -l,  --level=NUMBER              maximum recursion depth (inf or 0 for "
-"infinite)\n"
+msgid "  -l,  --level=NUMBER              maximum recursion depth (inf or 0 for infinite)\n"
 msgstr ""
 
 #: src/main.c:963
-msgid ""
-"       --delete-after              delete files locally after downloading "
-"them\n"
+msgid "       --delete-after              delete files locally after downloading them\n"
 msgstr ""
 
 #: src/main.c:965
-msgid ""
-"  -k,  --convert-links             make links in downloaded HTML or CSS "
-"point to\n"
+msgid "  -k,  --convert-links             make links in downloaded HTML or CSS point to\n"
 "                                     local files\n"
 msgstr ""
 
 #: src/main.c:968
-msgid ""
-"       --convert-file-only         convert the file part of the URLs only "
-"(usually known as the basename)\n"
+msgid "       --convert-file-only         convert the file part of the URLs only (usually known as the basename)\n"
 msgstr ""
 
 #: src/main.c:970
-msgid ""
-"       --backups=N                 before writing file X, rotate up to N "
-"backup files\n"
+msgid "       --backups=N                 before writing file X, rotate up to N backup files\n"
 msgstr ""
 
 #: src/main.c:974
-msgid ""
-"  -K,  --backup-converted          before converting file X, back up as "
-"X_orig\n"
+msgid "  -K,  --backup-converted          before converting file X, back up as X_orig\n"
 msgstr ""
 
 #: src/main.c:977
-msgid ""
-"  -K,  --backup-converted          before converting file X, back up as "
-"X.orig\n"
+msgid "  -K,  --backup-converted          before converting file X, back up as X.orig\n"
 msgstr ""
 
 #: src/main.c:980
-msgid ""
-"  -m,  --mirror                    shortcut for -N -r -l inf --no-remove-"
-"listing\n"
+msgid "  -m,  --mirror                    shortcut for -N -r -l inf --no-remove-listing\n"
 msgstr ""
 
 #: src/main.c:982
-msgid ""
-"  -p,  --page-requisites           get all images, etc. needed to display "
-"HTML page\n"
+msgid "  -p,  --page-requisites           get all images, etc. needed to display HTML page\n"
 msgstr ""
 
 #: src/main.c:984
-msgid ""
-"       --strict-comments           turn on strict (SGML) handling of HTML "
-"comments\n"
+msgid "       --strict-comments           turn on strict (SGML) handling of HTML comments\n"
 msgstr ""
 
 #: src/main.c:988
@@ -2286,15 +2021,11 @@ msgid "Recursive accept/reject:\n"
 msgstr "Рэкурсіўныя дазволы/забароны:\n"
 
 #: src/main.c:990
-msgid ""
-"  -A,  --accept=LIST               comma-separated list of accepted "
-"extensions\n"
+msgid "  -A,  --accept=LIST               comma-separated list of accepted extensions\n"
 msgstr ""
 
 #: src/main.c:992
-msgid ""
-"  -R,  --reject=LIST               comma-separated list of rejected "
-"extensions\n"
+msgid "  -R,  --reject=LIST               comma-separated list of rejected extensions\n"
 msgstr ""
 
 #: src/main.c:994
@@ -2314,35 +2045,27 @@ msgid "       --regex-type=TYPE           regex type (posix)\n"
 msgstr ""
 
 #: src/main.c:1005
-msgid ""
-"  -D,  --domains=LIST              comma-separated list of accepted domains\n"
+msgid "  -D,  --domains=LIST              comma-separated list of accepted domains\n"
 msgstr ""
 
 #: src/main.c:1007
-msgid ""
-"       --exclude-domains=LIST      comma-separated list of rejected domains\n"
+msgid "       --exclude-domains=LIST      comma-separated list of rejected domains\n"
 msgstr ""
 
 #: src/main.c:1009
-msgid ""
-"       --follow-ftp                follow FTP links from HTML documents\n"
+msgid "       --follow-ftp                follow FTP links from HTML documents\n"
 msgstr ""
 
 #: src/main.c:1011
-msgid ""
-"       --follow-tags=LIST          comma-separated list of followed HTML "
-"tags\n"
+msgid "       --follow-tags=LIST          comma-separated list of followed HTML tags\n"
 msgstr ""
 
 #: src/main.c:1013
-msgid ""
-"       --ignore-tags=LIST          comma-separated list of ignored HTML "
-"tags\n"
+msgid "       --ignore-tags=LIST          comma-separated list of ignored HTML tags\n"
 msgstr ""
 
 #: src/main.c:1015
-msgid ""
-"  -H,  --span-hosts                go to foreign hosts when recursive\n"
+msgid "  -H,  --span-hosts                go to foreign hosts when recursive\n"
 msgstr ""
 
 #: src/main.c:1017
@@ -2354,9 +2077,7 @@ msgid "  -I,  --include-directories=LIST  list of allowed directories\n"
 msgstr ""
 
 #: src/main.c:1021
-msgid ""
-"       --trust-server-names        use the name specified by the "
-"redirection\n"
+msgid "       --trust-server-names        use the name specified by the redirection\n"
 "                                     URL's last component\n"
 msgstr ""
 
@@ -2365,8 +2086,7 @@ msgid "  -X,  --exclude-directories=LIST  list of excluded directories\n"
 msgstr ""
 
 #: src/main.c:1026
-msgid ""
-"  -np, --no-parent                 don't ascend to the parent directory\n"
+msgid "  -np, --no-parent                 don't ascend to the parent directory\n"
 msgstr ""
 
 #: src/main.c:1029
@@ -2374,9 +2094,7 @@ msgid "Email bug reports, questions, discussions to <bug-wget@gnu.org>\n"
 msgstr ""
 
 #: src/main.c:1030
-msgid ""
-"and/or open issues at "
-"https://savannah.gnu.org/bugs/?func=additem&group=wget.\n"
+msgid "and/or open issues at https://savannah.gnu.org/bugs/?func=additem&group=wget.\n"
 msgstr ""
 
 #: src/main.c:1035
@@ -2426,7 +2144,7 @@ msgstr ""
 
 #: src/main.c:1250
 msgid "Wgetrc: "
-msgstr "Wgetrc: "
+msgstr ""
 
 #: src/main.c:1251
 msgid "Locale: "
@@ -2442,27 +2160,23 @@ msgstr "Спасылка: "
 
 #: src/main.c:1257
 #, c-format
-msgid ""
-"GNU Wget %s built on %s.\n"
-"\n"
-msgstr ""
-"GNU Wget %s скампіляваны на %s.\n"
-"\n"
+msgid "GNU Wget %s built on %s.\n\n"
+msgstr "GNU Wget %s скампіляваны на %s.\n\n"
 
 #: src/main.c:1284
 #, c-format
 msgid "    %s (env)\n"
-msgstr "    %s (env)\n"
+msgstr ""
 
 #: src/main.c:1291
 #, c-format
 msgid "    %s (user)\n"
-msgstr "    %s (user)\n"
+msgstr ""
 
 #: src/main.c:1296
 #, c-format
 msgid "    %s (system)\n"
-msgstr "    %s (system)\n"
+msgstr ""
 
 #. TRANSLATORS: When available, an actual copyright character
 #. (circle-c) should be used in preference to "(C)".
@@ -2472,25 +2186,18 @@ msgid "Copyright (C) %s Free Software Foundation, Inc.\n"
 msgstr ""
 
 #: src/main.c:1327
-msgid ""
-"License GPLv3+: GNU GPL version 3 or later\n"
+msgid "License GPLv3+: GNU GPL version 3 or later\n"
 "<http://www.gnu.org/licenses/gpl.html>.\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
-"License GPLv3+: GNU GPL version 3 or later\n"
-"<http://www.gnu.org/licenses/gpl.html>.\n"
-"This is free software: you are free to change and redistribute it.\n"
-"There is NO WARRANTY, to the extent permitted by law.\n"
 
 #. TRANSLATORS: When available, please use the proper diacritics for
 #. names such as this one. See en_US.po for reference.
 #: src/main.c:1335
-msgid ""
-"\n"
+msgid "\n"
 "Originally written by Hrvoje Niksic <hniksic@xemacs.org>.\n"
-msgstr ""
-"\n"
+msgstr "\n"
 "Першастваральнік - Hrvoje Niksic <hniksic@xemacs.org>.\n"
 
 #: src/main.c:1338
@@ -2524,16 +2231,12 @@ msgstr ""
 
 #: src/main.c:1598
 #, c-format
-msgid ""
-"Both --no-clobber and --convert-links were specified, only --convert-links "
-"will be used.\n"
+msgid "Both --no-clobber and --convert-links were specified, only --convert-links will be used.\n"
 msgstr ""
 
 #: src/main.c:1600
 #, c-format
-msgid ""
-"Both --no-clobber and --convert-file-only were specified, only --convert-"
-"file-only will be used.\n"
+msgid "Both --no-clobber and --convert-file-only were specified, only --convert-file-only will be used.\n"
 msgstr ""
 
 #: src/main.c:1633
@@ -2552,37 +2255,28 @@ msgid "Cannot specify both --inet4-only and --inet6-only.\n"
 msgstr ""
 
 #: src/main.c:1658
-msgid ""
-"Cannot specify both -k or --convert-file-only and -O if multiple URLs are "
-"given, or in combination\n"
-"with -p or -r. See the manual for details.\n"
-"\n"
+msgid "Cannot specify both -k or --convert-file-only and -O if multiple URLs are given, or in combination\n"
+"with -p or -r. See the manual for details.\n\n"
 msgstr ""
 
 #: src/main.c:1667
-msgid ""
-"WARNING: combining -O with -r or -p will mean that all downloaded content\n"
-"will be placed in the single file you specified.\n"
-"\n"
+msgid "WARNING: combining -O with -r or -p will mean that all downloaded content\n"
+"will be placed in the single file you specified.\n\n"
 msgstr ""
 
 #: src/main.c:1673
-msgid ""
-"WARNING: timestamping does nothing in combination with -O. See the manual\n"
-"for details.\n"
-"\n"
+msgid "WARNING: timestamping does nothing in combination with -O. See the manual\n"
+"for details.\n\n"
 msgstr ""
 
 #: src/main.c:1693
 #, c-format
-msgid ""
-"WARC output does not work with --no-clobber, --no-clobber will be disabled.\n"
+msgid "WARC output does not work with --no-clobber, --no-clobber will be disabled.\n"
 msgstr ""
 
 #: src/main.c:1700
 #, c-format
-msgid ""
-"WARC output does not work with timestamping, timestamping will be disabled.\n"
+msgid "WARC output does not work with timestamping, timestamping will be disabled.\n"
 msgstr ""
 
 #: src/main.c:1707
@@ -2592,22 +2286,17 @@ msgstr ""
 
 #: src/main.c:1713
 #, c-format
-msgid ""
-"WARC output does not work with --continue or --start-pos, they will be "
-"disabled.\n"
+msgid "WARC output does not work with --continue or --start-pos, they will be disabled.\n"
 msgstr ""
 
 #: src/main.c:1721
 #, c-format
-msgid ""
-"Digests are disabled; WARC deduplication will not find duplicate records.\n"
+msgid "Digests are disabled; WARC deduplication will not find duplicate records.\n"
 msgstr ""
 
 #: src/main.c:1742
 #, c-format
-msgid ""
-"Compression does not work with --continue or --start-pos, they will be "
-"disabled.\n"
+msgid "Compression does not work with --continue or --start-pos, they will be disabled.\n"
 msgstr ""
 
 #: src/main.c:1753
@@ -2617,9 +2306,7 @@ msgstr "Нельга адначасова выбіраць --ask-password і --p
 
 #: src/main.c:1761
 #, c-format
-msgid ""
-"Specifying both --start-pos and --continue is not recommended; --continue "
-"will be disabled.\n"
+msgid "Specifying both --start-pos and --continue is not recommended; --continue will be disabled.\n"
 msgstr ""
 
 #: src/main.c:1774
@@ -2634,16 +2321,12 @@ msgstr ""
 
 #: src/main.c:1827
 #, c-format
-msgid ""
-"You cannot use --post-data or --post-file along with --method. --method "
-"expects data through --body-data and --body-file options\n"
+msgid "You cannot use --post-data or --post-file along with --method. --method expects data through --body-data and --body-file options\n"
 msgstr ""
 
 #: src/main.c:1836
 #, c-format
-msgid ""
-"You must specify a method through --method=HTTPMethod to use with --body-"
-"data or --body-file.\n"
+msgid "You must specify a method through --method=HTTPMethod to use with --body-data or --body-file.\n"
 msgstr ""
 
 #: src/main.c:1842
@@ -2658,15 +2341,12 @@ msgstr "Гэтая версія ня мае падтрымкі IRIs\n"
 
 #: src/main.c:2006
 #, c-format
-msgid ""
-"-k or -r can be used together with -O only if outputting to a regular file.\n"
+msgid "-k or -r can be used together with -O only if outputting to a regular file.\n"
 msgstr ""
 
 #: src/main.c:2012
 #, c-format
-msgid ""
-"--convert-links or --convert-file-only can be used together only if "
-"outputting to a regular file.\n"
+msgid "--convert-links or --convert-file-only can be used together only if outputting to a regular file.\n"
 msgstr ""
 
 #: src/main.c:2023
@@ -2706,8 +2386,7 @@ msgstr ""
 
 #: src/main.c:2264
 #, c-format
-msgid ""
-"FINISHED --%s--\n"
+msgid "FINISHED --%s--\n"
 "Total wall clock time: %s\n"
 "Downloaded: %d files, %s in %s (%s)\n"
 msgstr ""
@@ -2980,21 +2659,18 @@ msgstr ""
 
 #: src/openssl.c:970
 #, c-format
-msgid ""
-"%s: no certificate subject alternative name matches\n"
+msgid "%s: no certificate subject alternative name matches\n"
 "\trequested host name %s.\n"
 msgstr ""
 
 #: src/openssl.c:989
 #, c-format
-msgid ""
-"    %s: certificate common name %s doesn't match requested host name %s.\n"
+msgid "    %s: certificate common name %s doesn't match requested host name %s.\n"
 msgstr ""
 
 #: src/openssl.c:1021
 #, c-format
-msgid ""
-"    %s: certificate common name is invalid (contains a NUL character).\n"
+msgid "    %s: certificate common name is invalid (contains a NUL character).\n"
 "    This may be an indication that the host is not who it claims to be\n"
 "    (that is, it is not the real %s).\n"
 msgstr ""
@@ -3006,11 +2682,9 @@ msgstr ""
 
 #: src/progress.c:244
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "%*s[ skipping %sK ]"
-msgstr ""
-"\n"
+msgstr "\n"
 "%*s[ абмінаем %sK ]"
 
 #: src/progress.c:465
@@ -3046,8 +2720,7 @@ msgstr "Немагчыма адкрыць %s: %s"
 
 #: src/res.c:553
 msgid "Loading robots.txt; please ignore errors.\n"
-msgstr ""
-"Загружаецца robots.txt; калі ласка, не зьвяртайце ўвагі на памылкі.\n"
+msgstr "Загружаецца robots.txt; калі ласка, не зьвяртайце ўвагі на памылкі.\n"
 
 #: src/retr.c:928
 #, c-format
@@ -3065,46 +2738,25 @@ msgid "%d redirections exceeded.\n"
 msgstr "перавышэньне колькасьці перанакіраваньняў (%d).\n"
 
 #: src/retr.c:1333
-msgid ""
-"Giving up.\n"
-"\n"
-msgstr ""
-"Здаемся.\n"
-"\n"
+msgid "Giving up.\n\n"
+msgstr "Здаемся.\n\n"
 
 #: src/retr.c:1333
-msgid ""
-"Retrying.\n"
-"\n"
-msgstr ""
-"Паўтараем спробу.\n"
-"\n"
+msgid "Retrying.\n\n"
+msgstr "Паўтараем спробу.\n\n"
 
 #: src/spider.c:75
-msgid ""
-"Found no broken links.\n"
-"\n"
-msgstr ""
-"Зламаныя спасылкі ня знойдзены.\n"
-"\n"
+msgid "Found no broken links.\n\n"
+msgstr "Зламаныя спасылкі ня знойдзены.\n\n"
 
 #: src/spider.c:82
 #, c-format
-msgid ""
-"Found %d broken link.\n"
-"\n"
-msgid_plural ""
-"Found %d broken links.\n"
-"\n"
-msgstr[0] ""
-"Знойдзена %d зламаная спсылка.\n"
-"\n"
-msgstr[1] ""
-"Знойдзены %d зламаныя спсылкі.\n"
-"\n"
-msgstr[2] ""
-"Знойдзена %d зламаных спсылак.\n"
-"\n"
+msgid "Found %d broken link.\n\n"
+msgid_plural "Found %d broken links.\n\n"
+msgstr[0] "Знойдзена %d зламаная спсылка.\n\n"
+msgstr[1] "Знойдзены %d зламаныя спсылкі.\n\n"
+msgstr[2] "Знойдзена %d зламаных спсылак.\n\n"
+msgstr[3] ""
 
 #: src/url.c:674
 msgid "No error"
@@ -3154,8 +2806,7 @@ msgstr ""
 #: src/utils.c:128
 #, c-format
 msgid "%s: %s: Failed to allocate enough memory; memory exhausted.\n"
-msgstr ""
-"%s: %s: немагчыма размеркаваць дастаткова памяці; памяць вычэрпаная.\n"
+msgstr "%s: %s: немагчыма размеркаваць дастаткова памяці; памяць вычэрпаная.\n"
 
 #: src/utils.c:134
 #, c-format
@@ -3209,9 +2860,7 @@ msgstr ""
 
 #: src/utils.c:939
 #, c-format
-msgid ""
-"Trying to open file %s but it changed since last check. Security check "
-"failed."
+msgid "Trying to open file %s but it changed since last check. Security check failed."
 msgstr ""
 
 #: src/utils.c:2445
@@ -3248,9 +2897,7 @@ msgstr ""
 
 #: src/warc.c:872
 #, c-format
-msgid ""
-"Opening WARC file %s.\n"
-"\n"
+msgid "Opening WARC file %s.\n\n"
 msgstr ""
 
 #: src/warc.c:878
@@ -3272,14 +2919,12 @@ msgstr ""
 
 #: src/warc.c:1105
 #, c-format
-msgid ""
-"Loaded %d record from CDX.\n"
-"\n"
-msgid_plural ""
-"Loaded %d records from CDX.\n"
-"\n"
+msgid "Loaded %d record from CDX.\n\n"
+msgid_plural "Loaded %d records from CDX.\n\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: src/warc.c:1151
 #, c-format
@@ -3309,3 +2954,4 @@ msgstr ""
 #: src/warc.c:1495
 msgid "Found exact match in CDX file. Saving revisit record to WARC.\n"
 msgstr ""
+

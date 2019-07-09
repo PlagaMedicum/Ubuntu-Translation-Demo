@@ -1,896 +1,886 @@
-# Ukrainian translation for powertop
-# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
-# This file is distributed under the same license as the powertop package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
-#
+# Translators:
+# Margie Foster <margie@linux.intel.com>, 2012
+# Patrick McCarty <patrick.mccarty@linux.intel.com>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: powertop\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: \"powertop@lists.01.org\"\n"
 "POT-Creation-Date: 2017-03-10 11:05-0800\n"
-"PO-Revision-Date: 2018-05-28 13:29+0000\n"
-"Last-Translator: Andrii Prokopenko <Unknown>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:12\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 12:27+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/powertop.po\n"
 
 #: src/calibrate/calibrate.cpp:238
 #, c-format
 msgid "Cannot create temp file\n"
-msgstr "Неможливо створити тимчасовиий файл\n"
+msgstr ""
 
 #: src/calibrate/calibrate.cpp:258
 #, c-format
 msgid "Calibrating: CPU usage on %i threads\n"
-msgstr "Калібрування: використання ЦП на %i потоках\n"
+msgstr ""
 
 #: src/calibrate/calibrate.cpp:273
 #, c-format
 msgid "Calibrating: CPU wakeup power consumption\n"
-msgstr "Калібрування: пускове енергоспоживання Центрального процесора\n"
+msgstr ""
 
 #: src/calibrate/calibrate.cpp:290
 #, c-format
 msgid "Calibrating USB devices\n"
-msgstr "Калібрування USB пристрою\n"
+msgstr ""
 
 #: src/calibrate/calibrate.cpp:292 src/calibrate/calibrate.cpp:309
 #: src/calibrate/calibrate.cpp:317 src/calibrate/calibrate.cpp:334
 #, c-format
 msgid ".... device %s \n"
-msgstr ".... пристрій %s \n"
+msgstr ""
 
 #: src/calibrate/calibrate.cpp:307
 #, c-format
 msgid "Calibrating radio devices\n"
-msgstr "Калібрування радіопристроїв\n"
+msgstr ""
 
 #: src/calibrate/calibrate.cpp:331
 #, c-format
 msgid "Calibrating backlight\n"
-msgstr "Калібрування підсвічування\n"
+msgstr ""
 
 #: src/calibrate/calibrate.cpp:355 src/calibrate/calibrate.cpp:365
 #, c-format
 msgid "Calibrating idle\n"
-msgstr "Калібрування idle\n"
+msgstr ""
 
 #: src/calibrate/calibrate.cpp:378
 #, c-format
 msgid "Calibrating: disk usage \n"
-msgstr "Калібрування: використання диску \n"
+msgstr ""
 
 #: src/calibrate/calibrate.cpp:403
 msgid "Starting PowerTOP power estimate calibration \n"
-msgstr "Запуск калібрування PowerTOP для оцінки енергоспоживання \n"
+msgstr ""
 
 #: src/calibrate/calibrate.cpp:426
 msgid "Finishing PowerTOP power estimate calibration \n"
-msgstr "Завершення калібрування PowerTOP для оцінки енергоспоживання \n"
+msgstr ""
 
 #: src/calibrate/calibrate.cpp:430
 #, c-format
 msgid "Parameters after calibration:\n"
-msgstr "Параметри після калібрування:\n"
+msgstr ""
 
 #: src/cpu/abstract_cpu.cpp:74
 msgid "Idle"
-msgstr "Очікування"
+msgstr ""
 
 #: src/cpu/abstract_cpu.cpp:76
 msgid "Turbo Mode"
-msgstr "Турборежим"
+msgstr ""
 
 #: src/cpu/cpu_core.cpp:37 src/cpu/cpu_core.cpp:93 src/cpu/intel_cpus.cpp:318
 #, c-format
 msgid "  Core"
-msgstr "  Ядро"
+msgstr ""
 
 #: src/cpu/cpu.cpp:81
 #, c-format
 msgid "cpu package %i"
-msgstr "пакунок ЦПП %i"
+msgstr ""
 
 #: src/cpu/cpu.cpp:82
 msgid "cpu package"
-msgstr "пакунок ЦПП"
+msgstr ""
 
 #: src/cpu/cpu.cpp:85 src/cpu/cpu.cpp:92
 #, c-format
 msgid "package-%i"
-msgstr "пакунок-%i"
+msgstr ""
 
 #: src/cpu/cpu.cpp:86
 msgid "cpu rapl package"
-msgstr "пакунок cpu rapl"
+msgstr ""
 
 #: src/cpu/cpu.cpp:93
 msgid "dram rapl package"
-msgstr "пакунок dram rapl"
+msgstr ""
 
 #: src/cpu/cpu.cpp:458
 msgid "Processor Idle State Report"
-msgstr "Процесор Очік Стан  Звіт"
+msgstr ""
 
 #: src/cpu/cpu.cpp:522 src/cpu/cpu.cpp:740 src/cpu/cpu_package.cpp:47
 #, c-format
 msgid "Package"
-msgstr "Пакунок"
+msgstr ""
 
 #: src/cpu/cpu.cpp:553 src/cpu/cpu.cpp:762
 #, c-format
 msgid "Core %d"
-msgstr "Ядро %d"
+msgstr ""
 
 #: src/cpu/cpu.cpp:560
 #, c-format
 msgid "GPU %d"
-msgstr "ГП %d"
+msgstr ""
 
 #: src/cpu/cpu.cpp:581
 msgid "CPU"
-msgstr "ЦП"
+msgstr ""
 
 #: src/cpu/cpu.cpp:663
 msgid "Processor Frequency Report"
-msgstr "Процесор  Частота   Звіт"
+msgstr ""
 
 #: src/cpu/cpu.cpp:783
 #, c-format
 msgid "CPU %d"
-msgstr "ЦП %d"
+msgstr ""
 
 #: src/cpu/cpu.cpp:984
 #, c-format
 msgid "cpu_idle event returned no state?\n"
-msgstr "подія cpu_idle не повернула стан?\n"
+msgstr ""
 
 #: src/cpu/cpu.cpp:999
 #, c-format
 msgid "power or cpu_frequency event returned no state?\n"
-msgstr "подія power або cpu_frequency не повернула стан?\n"
+msgstr ""
 
 #: src/cpu/cpu_linux.cpp:79
 msgid "C0 polling"
-msgstr "C0 опитув"
+msgstr ""
 
 #: src/cpu/cpu_linux.cpp:242 src/cpu/cpu_linux.cpp:341
 #: src/cpu/intel_cpus.cpp:641
 #, c-format
 msgid " CPU %i"
-msgstr " ЦП %i"
+msgstr ""
 
 #: src/cpu/cpu_package.cpp:105 src/cpu/intel_cpus.cpp:402
 #, c-format
 msgid "  Package"
-msgstr "  Пакунок"
+msgstr ""
 
 #: src/cpu/intel_cpus.cpp:125
 #, c-format
 msgid "read_msr cpu%d 0x%llx : "
-msgstr "read_msr cpu%d 0x%llx : "
+msgstr ""
 
 #: src/cpu/intel_cpus.cpp:564
 msgid "C0 active"
-msgstr "C0 активн"
+msgstr ""
 
 #: src/cpu/intel_cpus.cpp:622
 #, c-format
 msgid "Average"
-msgstr "Середнє"
+msgstr ""
 
 #: src/cpu/intel_gpu.cpp:64
 #, c-format
 msgid "  GPU "
-msgstr "  ГП "
+msgstr ""
 
 #: src/devices/ahci.cpp:154
 #, c-format
 msgid "SATA link: %s"
-msgstr "З’єднання SATA: %s"
+msgstr ""
 
 #: src/devices/ahci.cpp:156
 #, c-format
 msgid "SATA disk: %s"
-msgstr "Диск SATA: %s"
+msgstr ""
 
 #: src/devices/ahci.cpp:374
 msgid "AHCI ALPM Residency Statistics - Not supported on this macine"
-msgstr "Статистика використання AHCI ALPM - Не підтримується на цій машині"
+msgstr ""
 
 #: src/devices/ahci.cpp:389
 msgid "Link"
-msgstr "З'єднання"
+msgstr ""
 
 #: src/devices/ahci.cpp:390
 msgid "Active"
-msgstr "Активно"
+msgstr ""
 
 #: src/devices/ahci.cpp:391
 msgid "Partial"
-msgstr "Частково"
+msgstr ""
 
 #: src/devices/ahci.cpp:392
 msgid "Slumber"
-msgstr "Сон"
+msgstr ""
 
 #: src/devices/ahci.cpp:393
 msgid "Devslp"
-msgstr "Devslp"
+msgstr ""
 
 #: src/devices/ahci.cpp:399
 msgid "AHCI ALPM Residency Statistics"
-msgstr "Статистика використання AHCI ALPM"
+msgstr ""
 
 #: src/devices/alsa.cpp:77
 #, c-format
 msgid "Audio codec %s: %s (%s)"
-msgstr "Аудіокодек %s: %s (%s)"
+msgstr ""
 
 #: src/devices/alsa.cpp:79 src/devices/alsa.cpp:81
 #, c-format
 msgid "Audio codec %s: %s"
-msgstr "Аудіокодек %s: %s"
+msgstr ""
 
 #: src/devices/devfreq.cpp:261
 msgid "Device Freq stats"
-msgstr "Дані частоти пристрою"
+msgstr ""
 
 #: src/devices/devfreq.cpp:279
 msgid " Devfreq is not enabled"
-msgstr " Devfreq не увімкнено"
+msgstr ""
 
 #: src/devices/devfreq.cpp:284
 msgid " No devfreq devices available"
-msgstr " Жодних пристроїв devfreq не знайдено"
+msgstr ""
 
 #: src/devices/device.cpp:172 src/process/do_process.cpp:831
 #, c-format
 msgid "The battery reports a discharge rate of %sW\n"
-msgstr "Розряд батареї складає %sВт\n"
+msgstr ""
 
 #: src/devices/device.cpp:174 src/process/do_process.cpp:833
 #, c-format
 msgid "The power consumed was %sJ\n"
-msgstr "Енергоспоживання склало %sДж\n"
+msgstr ""
 
 #: src/devices/device.cpp:180
 #, c-format
 msgid "System baseline power is estimated at %sW\n"
-msgstr "Оцінка базисного рівня потужності склала %sВт\n"
+msgstr ""
 
 #: src/devices/device.cpp:187
 msgid "Power est.    Usage     Device name\n"
-msgstr "Оцін.потужн.Використ. Назва пристрою\n"
+msgstr ""
 
 #: src/devices/device.cpp:189
 msgid "              Usage     Device name\n"
-msgstr "              Використ. Назва пристрою\n"
+msgstr ""
 
 #: src/devices/device.cpp:256
 msgid "The battery reports a discharge rate of: "
-msgstr "Батарея повідомляє про швидкість розряджання: "
+msgstr ""
 
 #: src/devices/device.cpp:261
 msgid "The power consumed was : "
-msgstr "Енергоспоживання склало: "
+msgstr ""
 
 #: src/devices/device.cpp:268
 msgid "The system baseline power is estimated at: "
-msgstr "Оцінка базисного рівня потужності склала: "
+msgstr ""
 
 #: src/devices/device.cpp:277 src/process/do_process.cpp:850
 #: src/process/do_process.cpp:852 src/process/do_process.cpp:926
 #: src/process/do_process.cpp:1077
 msgid "Usage"
-msgstr "Викор."
+msgstr ""
 
 #: src/devices/device.cpp:278
 msgid "Device Name"
-msgstr "Назва пристрою"
+msgstr ""
 
 #: src/devices/device.cpp:280 src/process/do_process.cpp:935
 #: src/process/do_process.cpp:1082
 msgid "PW Estimate"
-msgstr "Оцінка потужності"
+msgstr ""
 
 #: src/devices/device.cpp:317
 msgid "Device Power Report"
-msgstr "Пристр  Потуж Звіт"
+msgstr ""
 
 #: src/devices/network.cpp:177
 #, c-format
 msgid "Network interface: %s (%s)"
-msgstr "Мережевий інтерфейс: %s (%s)"
+msgstr ""
 
 #: src/devices/rfkill.cpp:65 src/devices/rfkill.cpp:69
 #, c-format
 msgid "Radio device: %s"
-msgstr "Радіопристрій: %s"
+msgstr ""
 
 #: src/devices/runtime_pm.cpp:216
 #, c-format
 msgid "I2C %s (%s): %s"
-msgstr "I2C %s (%s): %s"
+msgstr ""
 
 #: src/devices/runtime_pm.cpp:216 src/tuning/tuningi2c.cpp:57
 #: src/tuning/tuningi2c.cpp:59
 msgid "Adapter"
-msgstr "Адаптер"
+msgstr ""
 
 #: src/devices/runtime_pm.cpp:216 src/devlist.cpp:331
 #: src/tuning/tuningi2c.cpp:57 src/tuning/tuningi2c.cpp:59
 msgid "Device"
-msgstr "Пристрій"
+msgstr ""
 
 #: src/devices/runtime_pm.cpp:241
 #, c-format
 msgid "PCI Device: %s"
-msgstr "Пристрій PCI: %s"
+msgstr ""
 
 #: src/devices/usb.cpp:51 src/devices/usb.cpp:96 src/devices/usb.cpp:98
 #, c-format
 msgid "USB device: %s"
-msgstr "Пристрій USB: %s"
+msgstr ""
 
 #: src/devices/usb.cpp:94
 #, c-format
 msgid "USB device: %s (%s)"
-msgstr "Пристрій USB: %s (%s)"
+msgstr ""
 
 #: src/devlist.cpp:330
 msgid "Process"
-msgstr "Процес"
+msgstr ""
 
 #: src/devlist.cpp:347
 msgid "Process Device Activity"
-msgstr "Процес  Пристр Актив-ть"
+msgstr ""
 
 #: src/display.cpp:70
 msgid "Overview"
-msgstr "Огляд"
+msgstr ""
 
 #: src/display.cpp:71
 msgid "Idle stats"
-msgstr "Дані простою"
+msgstr ""
 
 #: src/display.cpp:72
 msgid "Frequency stats"
-msgstr "Дані частоти"
+msgstr ""
 
 #: src/display.cpp:73
 msgid "Device stats"
-msgstr "Дані пристроїв"
+msgstr ""
 
 #: src/display.cpp:131
 msgid "Exit"
-msgstr "Вихід"
+msgstr ""
 
 #: src/display.cpp:132
 msgid "Navigate"
-msgstr "Навігація"
+msgstr ""
 
 #: src/lib.cpp:288
 #, c-format
 msgid "%7sW"
-msgstr "%7sВт"
+msgstr ""
 
 #: src/lib.cpp:291
 #, c-format
 msgid "    0 mW"
-msgstr "    0 мВт"
+msgstr ""
 
 #: src/lib.cpp:410
 msgid "PS/2 Touchpad / Keyboard / Mouse"
-msgstr "PS/2 сенсорна панель / клавіатура / миша"
+msgstr ""
 
 #: src/lib.cpp:411
 msgid "SATA controller"
-msgstr "Контролер SATA"
+msgstr ""
 
 #: src/lib.cpp:412
 msgid "Intel built in USB hub"
-msgstr "Вбудований USB-концентратор від Intel"
+msgstr ""
 
 #: src/lib.cpp:467
 #, c-format
 msgid "glob returned GLOB_NOSPACE\n"
-msgstr "результатом glob є GLOB_NOSPACE\n"
+msgstr ""
 
 #: src/lib.cpp:471
 #, c-format
 msgid "glob returned GLOB_ABORTED\n"
-msgstr "результатом glob є GLOB_ABORTED\n"
+msgstr ""
 
 #: src/lib.cpp:475
 #, c-format
 msgid "glob returned GLOB_NOMATCH\n"
-msgstr "результатом glob є GLOB_NOMATCH\n"
+msgstr ""
 
 #: src/lib.cpp:513 src/lib.cpp:549
 #, c-format
-msgid ""
-"Model-specific registers (MSR)\t\t\t not found (try enabling "
-"CONFIG_X86_MSR).\n"
+msgid "Model-specific registers (MSR)\t\t\t not found (try enabling CONFIG_X86_MSR).\n"
 msgstr ""
-"Специфічні для моделі регістри (MSR)\t\t\t не знайдені (спробуйте увімкнути "
-"CONFIG_X86_MSR).\n"
 
 #: src/main.cpp:102
 #, c-format
 msgid "PowerTOP version "
-msgstr "Версія PowerTOP "
+msgstr ""
 
 #: src/main.cpp:108
 msgid "Set refresh time out"
-msgstr "Налаштуйте таймер оновлення"
+msgstr ""
 
 #: src/main.cpp:121
 msgid "Usage: powertop [OPTIONS]"
-msgstr "Використання: powertop [ПАРАМЕТРИ]"
+msgstr ""
 
 #: src/main.cpp:122
 msgid "sets all tunable options to their GOOD setting"
-msgstr "встановити всі доступні налаштовувані параметри в значення ДОБРЕ"
+msgstr ""
 
 #: src/main.cpp:123
 msgid "runs powertop in calibration mode"
-msgstr "завантажувати powertop в режимі калібрування"
+msgstr ""
 
 #: src/main.cpp:124 src/main.cpp:127
 msgid "[=filename]"
-msgstr "[=ім'я_файлу]"
+msgstr ""
 
 #: src/main.cpp:124
 msgid "generate a csv report"
-msgstr "створити cvs звіт"
+msgstr ""
 
 #: src/main.cpp:125
 msgid "run in \"debug\" mode"
-msgstr "завантажувати в режимі «зневадження»"
+msgstr ""
 
 #: src/main.cpp:126
 msgid "[=devnode]"
-msgstr "[=devnode]"
+msgstr ""
 
 #: src/main.cpp:126
 msgid "uses an Extech Power Analyzer for measurements"
-msgstr "використовувати для вимірів аналізатор потужності Extech"
+msgstr ""
 
 #: src/main.cpp:127
 msgid "generate a html report"
-msgstr "створити звіт у форматі HTML"
+msgstr ""
 
 #: src/main.cpp:128
 msgid "[=iterations] number of times to run each test"
-msgstr "[=ітерації] скільки разів запускати кожен тест"
+msgstr ""
 
 #: src/main.cpp:129
 msgid "suppress stderr output"
-msgstr "придушити вивід в stderr"
+msgstr ""
 
 #: src/main.cpp:130 src/main.cpp:131
 msgid "[=seconds]"
-msgstr "[=секунди]"
+msgstr ""
 
 #: src/main.cpp:130
 msgid "interval for power consumption measurement"
-msgstr "інтервал для вимірювання енергоспоживання"
+msgstr ""
 
 #: src/main.cpp:131
 msgid "generate a report for 'x' seconds"
-msgstr "створити звіт для 'x' секунд"
+msgstr ""
 
 #: src/main.cpp:132
 msgid "[=workload]"
-msgstr "[=робоче навантаження]"
+msgstr ""
 
 #: src/main.cpp:132
 msgid "file to execute for workload"
-msgstr "файл для виконання у якості робочого навантаження"
+msgstr ""
 
 #: src/main.cpp:133
 msgid "print version information"
-msgstr "вивести дані про версію"
+msgstr ""
 
 #: src/main.cpp:134
 msgid "print this help menu"
-msgstr "вивести це довідкове меню"
+msgstr ""
 
 #: src/main.cpp:136
 msgid "For more help please refer to the 'man 8 powertop'"
-msgstr "Для отримання додаткових відомостей, зверніться до 'man 8 powertop'"
+msgstr ""
 
 #: src/main.cpp:231
 #, c-format
 msgid "Unknown issue running workload!\n"
-msgstr "Невідома помилка під час робочого навантаження!\n"
+msgstr ""
 
 #: src/main.cpp:288
 msgid "PowerTOP is out of memory. PowerTOP is Aborting"
-msgstr "PowerTOP не вистачає пам'яті. PowerTOP завершив свою роботу"
+msgstr ""
 
 #: src/main.cpp:296
 #, c-format
 msgid "Preparing to take measurements\n"
-msgstr "Підготовка до вимірювань\n"
+msgstr ""
 
 #: src/main.cpp:301
 #, c-format
 msgid "Taking %d measurement(s) for a duration of %d second(s) each.\n"
-msgstr "Виконано вимірювань - %d, тривалістю %dс кожне.\n"
+msgstr ""
 
 #: src/main.cpp:303
 #, c-format
 msgid "Measuring workload %s.\n"
-msgstr "Вимірювання робочого навантаження %s.\n"
+msgstr ""
 
 #: src/main.cpp:326
 #, c-format
 msgid "PowerTOP "
-msgstr "PowerTOP "
+msgstr ""
 
 #: src/main.cpp:327 src/main.cpp:377
 #, c-format
 msgid "exiting...\n"
-msgstr "вихід...\n"
+msgstr ""
 
 #: src/main.cpp:361
 #, c-format
 msgid "modprobe cpufreq_stats failed"
-msgstr "збій modprobe cpufreq_stats"
+msgstr ""
 
 #: src/main.cpp:364
 #, c-format
 msgid "modprobe msr failed"
-msgstr "збій modprobe msr"
+msgstr ""
 
 #: src/main.cpp:376 src/main.cpp:380
 #, c-format
 msgid "Failed to mount debugfs!\n"
-msgstr "Збій монтування debugfs!\n"
+msgstr ""
 
 #: src/main.cpp:381
 #, c-format
 msgid "Should still be able to auto tune...\n"
-msgstr "Слід продовжувати автоматично налаштувати...\n"
+msgstr ""
 
 #: src/main.cpp:463
 #, c-format
 msgid "Invalid CSV filename\n"
-msgstr "Нприпустиме ім'я файлу CSV\n"
+msgstr ""
 
 #: src/main.cpp:479
 #, c-format
 msgid "Invalid HTML filename\n"
-msgstr "Неприпустиме ім'я файлу HTML\n"
+msgstr ""
 
 #: src/main.cpp:488
 #, c-format
 msgid "Quiet mode failed!\n"
-msgstr "Збій тихого режиму!\n"
+msgstr ""
 
 #: src/main.cpp:555
 msgid "Leaving PowerTOP"
-msgstr "Полишаємо PowerTOP"
+msgstr ""
 
 #: src/parameters/persistent.cpp:46 src/parameters/persistent.cpp:155
 msgid "Cannot save to file"
-msgstr "Неможливо зберегти файл"
+msgstr ""
 
 #: src/parameters/persistent.cpp:89 src/parameters/persistent.cpp:180
 msgid "Cannot load from file"
-msgstr "Неможливо завантажити файл"
+msgstr ""
 
 #: src/parameters/persistent.cpp:138
 #, c-format
 msgid "Loaded %i prior measurements\n"
-msgstr "Завантажено попередніх вимірювань: %i\n"
+msgstr ""
 
 #: src/parameters/persistent.cpp:181
-msgid ""
-"File will be loaded after taking minimum number of measurement(s) with "
-"battery only \n"
+msgid "File will be loaded after taking minimum number of measurement(s) with battery only \n"
 msgstr ""
-"Файл буде завантажений після виконання мінімальної кількості вимірювань "
-"(лише з батареєю) \n"
 
 #: src/perf/perf.cpp:115
 #, c-format
-msgid ""
-"Too many open files, please increase the limit of open file descriptors.\n"
+msgid "Too many open files, please increase the limit of open file descriptors.\n"
 msgstr ""
-"Відкрито забагато файлів. Збільшіть обмеження дескрипторів відкриття файлу.\n"
 
 #: src/perf/perf.cpp:117
 #, c-format
 msgid "PowerTOP %s needs the kernel to support the 'perf' subsystem\n"
-msgstr "PowerTOP %s потребує підтримки ядром підсистеми 'perf'\n"
+msgstr ""
 
 #: src/perf/perf.cpp:118
 #, c-format
 msgid "as well as support for trace points in the kernel:\n"
-msgstr "як і підтримка точок відстеження для ядра системи:\n"
+msgstr ""
 
 #: src/process/do_process.cpp:819
 #, c-format
-msgid ""
-"Estimated power: %5.1f    Measured power: %5.1f    Sum: %5.1f\n"
-"\n"
+msgid "Estimated power: %5.1f    Measured power: %5.1f    Sum: %5.1f\n\n"
 msgstr ""
-"Розрахункова потужність: %5.1f Виміряна потужність: %5.1f Сумарна: %5.1f\n"
-"\n"
 
 #: src/process/do_process.cpp:838
 #, c-format
 msgid "The estimated remaining time is %i hours, %i minutes\n"
-msgstr "До завершення залишилось приблизно %iгод. %i хв.\n"
+msgstr ""
 
 #: src/process/do_process.cpp:846
 msgid "Summary"
-msgstr "Підсумок"
+msgstr ""
 
 #: src/process/do_process.cpp:846
 msgid "wakeups/second"
-msgstr "пробуджень/с"
+msgstr ""
 
 #: src/process/do_process.cpp:846
 msgid "GPU ops/seconds"
-msgstr "оп/с ГП"
+msgstr ""
 
 #: src/process/do_process.cpp:846
 msgid "VFS ops/sec and"
-msgstr "оп/с VFS та"
+msgstr ""
 
 #: src/process/do_process.cpp:846
 msgid "CPU use"
-msgstr "використання ЦП"
+msgstr ""
 
 #: src/process/do_process.cpp:850
 msgid "Power est."
-msgstr "Оцін. потужність"
+msgstr ""
 
 #: src/process/do_process.cpp:850 src/process/do_process.cpp:852
 #: src/process/do_process.cpp:1078
 msgid "Events/s"
-msgstr "Подій/с"
+msgstr ""
 
 #: src/process/do_process.cpp:850 src/process/do_process.cpp:852
 #: src/process/do_process.cpp:931 src/process/do_process.cpp:1079
 msgid "Category"
-msgstr "Категорія"
+msgstr ""
 
 #: src/process/do_process.cpp:850 src/process/do_process.cpp:852
 #: src/process/do_process.cpp:932 src/process/do_process.cpp:1080
 #: src/tuning/tuning.cpp:243 src/tuning/tuning.cpp:271
 #: src/tuning/tuning.cpp:289
 msgid "Description"
-msgstr "Опис"
+msgstr ""
 
 #: src/process/do_process.cpp:927
 msgid "Wakeups/s"
-msgstr "Пробуджень/с"
+msgstr ""
 
 #: src/process/do_process.cpp:928
 msgid "GPU ops/s"
-msgstr "оп/с ГП"
+msgstr ""
 
 #: src/process/do_process.cpp:929
 msgid "Disk IO/s"
-msgstr "Диск IO/с"
+msgstr ""
 
 #: src/process/do_process.cpp:930
 msgid "GFX Wakeups/s"
-msgstr "Пробудж/с GFX"
+msgstr ""
 
 #: src/process/do_process.cpp:1017
 msgid "Overview of Software Power Consumers"
-msgstr "Зведення про проґрамних споживачів енергії"
+msgstr ""
 
 #: src/process/do_process.cpp:1057
 msgid "Target:"
-msgstr "Мета:"
+msgstr ""
 
 #: src/process/do_process.cpp:1058
 msgid "1 units/s"
-msgstr "1 од/с"
+msgstr ""
 
 #: src/process/do_process.cpp:1059
 msgid "System: "
-msgstr "Система: "
+msgstr ""
 
 #: src/process/do_process.cpp:1061
 msgid " wakeup/s"
-msgstr " пробуджень/с"
+msgstr ""
 
 #: src/process/do_process.cpp:1062
 msgid "CPU: "
-msgstr "ЦП: "
+msgstr ""
 
 #: src/process/do_process.cpp:1064
 #, c-format
 msgid "% usage"
-msgstr "% uвикор-ня"
+msgstr ""
 
 #: src/process/do_process.cpp:1065
 msgid "GPU:"
-msgstr "ГП:"
+msgstr ""
 
 #: src/process/do_process.cpp:1067 src/process/do_process.cpp:1073
 msgid " ops/s"
-msgstr " оп/с"
+msgstr ""
 
 #: src/process/do_process.cpp:1068
 msgid "GFX:"
-msgstr "GFX:"
+msgstr ""
 
 #: src/process/do_process.cpp:1070
 msgid " wakeups/s"
-msgstr " пробудж/с"
+msgstr ""
 
 #: src/process/do_process.cpp:1071
 msgid "VFS:"
-msgstr "VFS:"
+msgstr ""
 
 #: src/process/do_process.cpp:1139
 msgid "Top 10 Power Consumers"
-msgstr "10 основних споживачів енергії"
+msgstr ""
 
 #: src/report/report.cpp:122
 msgid "PowerTOP Version"
-msgstr "Версія PowerTOP"
+msgstr ""
 
 #: src/report/report.cpp:131
 msgid "Kernel Version"
-msgstr "Версія ядра"
+msgstr ""
 
 #: src/report/report.cpp:135
 msgid "System Name"
-msgstr "Назва системи"
+msgstr ""
 
 #: src/report/report.cpp:142
 msgid "CPU Information"
-msgstr "Інформація про ЦП"
+msgstr ""
 
 #: src/report/report.cpp:154
 msgid "OS Information"
-msgstr "Інформація про ОС"
+msgstr ""
 
 #: src/report/report.cpp:161
 msgid "System Information"
-msgstr "Інформація про систему"
+msgstr ""
 
 #: src/report/report.cpp:195
 #, c-format
 msgid "Cannot open output file %s (%s)\n"
-msgstr "Неможливо відкрити вихідний файл %s (%s)\n"
+msgstr ""
 
 #: src/report/report.cpp:211
 #, c-format
 msgid "PowerTOP outputing using base filename %s\n"
-msgstr "PowerTOP виводить дані використовуючи базове ім'я файлу %s\n"
+msgstr ""
 
 #: src/tuning/bluetooth.cpp:46 src/tuning/ethernet.cpp:50
 #: src/tuning/runtime.cpp:42 src/tuning/tunable.cpp:49
 #: src/tuning/tuningi2c.cpp:35 src/tuning/tuningsysfs.cpp:45
 #: src/tuning/tuningusb.cpp:39 src/tuning/wifi.cpp:45
 msgid "Good"
-msgstr "Добре"
+msgstr ""
 
 #: src/tuning/bluetooth.cpp:46 src/tuning/ethernet.cpp:50
 #: src/tuning/runtime.cpp:42 src/tuning/tunable.cpp:50
 #: src/tuning/tuningi2c.cpp:35 src/tuning/tuningsysfs.cpp:45
 #: src/tuning/tuningusb.cpp:39 src/tuning/wifi.cpp:45
 msgid "Bad"
-msgstr "Погано"
+msgstr ""
 
 #: src/tuning/bluetooth.cpp:46 src/tuning/ethernet.cpp:50
 #: src/tuning/runtime.cpp:42 src/tuning/tunable.cpp:51
 #: src/tuning/tuningi2c.cpp:35 src/tuning/tuningsysfs.cpp:45
 #: src/tuning/tuningusb.cpp:39 src/tuning/wifi.cpp:45
 msgid "Unknown"
-msgstr "Невідомо"
+msgstr ""
 
 #: src/tuning/bluetooth.cpp:48
 #, c-format
 msgid "Bluetooth device interface status"
-msgstr "Стан інтерфейсу пристрою Bluetooth"
+msgstr ""
 
 #: src/tuning/ethernet.cpp:54
 #, c-format
 msgid "Wake-on-lan status for device %s"
-msgstr "Стан Wake-on-lan для пристрою %s"
+msgstr ""
 
 #: src/tuning/runtime.cpp:48
 #, c-format
 msgid "Runtime PM for %s device %s"
-msgstr "Керування живленням під час виконання для пристрою %s %s"
+msgstr ""
 
 #: src/tuning/runtime.cpp:50
 #, c-format
 msgid "%s device %s has no runtime power management"
-msgstr "Пристрій %s %s не підтримує керування живленням під час виконання"
+msgstr ""
 
 #: src/tuning/runtime.cpp:74
 #, c-format
 msgid "PCI Device %s has no runtime power management"
-msgstr "Пристрій PCI %s не підтримує керування живленням під час виконання"
+msgstr ""
 
 #: src/tuning/runtime.cpp:76
 #, c-format
 msgid "Runtime PM for PCI Device %s"
-msgstr "Керування живленням процесу для пристрою PCI %s"
+msgstr ""
 
 #: src/tuning/tuning.cpp:62
 msgid "Enable Audio codec power management"
-msgstr "Увімкнути керування живленням для Аудіо кодека"
+msgstr ""
 
 #: src/tuning/tuning.cpp:63
 msgid "NMI watchdog should be turned off"
-msgstr "Система вартовий пес NMI повинна бути вимкнена"
+msgstr ""
 
 #: src/tuning/tuning.cpp:64
 msgid "Power Aware CPU scheduler"
-msgstr "Планувальник енергопопереджень Центрального процесора"
+msgstr ""
 
 #: src/tuning/tuning.cpp:65
 msgid "VM writeback timeout"
-msgstr "Закінчення часу зворотнього запису Віртуальної Машини"
+msgstr ""
 
 #: src/tuning/tuning.cpp:82
 msgid "Tunables"
-msgstr "Налаштовувані"
+msgstr ""
 
 #: src/tuning/tuning.cpp:82
 msgid " <ESC> Exit | <Enter> Toggle tunable | <r> Window refresh"
-msgstr " <ESC> Вихід | <Enter> Перемкнути налаштування | <r> Оновити вікно"
+msgstr ""
 
 #: src/tuning/tuning.cpp:244
 msgid "Script"
-msgstr "Скрипт"
+msgstr ""
 
 #: src/tuning/tuning.cpp:258
 msgid "Software Settings in Need of Tuning"
-msgstr "Програмні параметри, що потребують підлаштувань"
+msgstr ""
 
 #: src/tuning/tuning.cpp:277
 msgid "Untunable Software Issues"
-msgstr "Неналаштовувані параметри програм"
+msgstr ""
 
 #: src/tuning/tuning.cpp:301
 msgid "Optimal Tuned Software Settings"
-msgstr "Оптимальні параметри налаштовуваних програм"
+msgstr ""
 
 #: src/tuning/tuningi2c.cpp:57
 #, c-format
 msgid "Runtime PM for I2C %s %s (%s)"
-msgstr "Керування живленням під час виконання для I2C %s %s (%s)"
+msgstr ""
 
 #: src/tuning/tuningi2c.cpp:59
 #, c-format
 msgid "I2C %s %s has no runtime power management"
-msgstr "I2C %s %s не підтримує керування живленням під час виконання"
+msgstr ""
 
 #: src/tuning/tuningsysfs.cpp:123
 #, c-format
 msgid "Enable SATA link power management for %s"
-msgstr "Увімкнути керування живленням з'єднання SATA для %s"
+msgstr ""
 
 #: src/tuning/tuningusb.cpp:54
 #, c-format
 msgid "Autosuspend for unknown USB device %s (%s:%s)"
-msgstr "Автопризупинка нерозпізнаних пристроїв USB %s (%s:%s)"
+msgstr ""
 
 #: src/tuning/tuningusb.cpp:71 src/tuning/tuningusb.cpp:73
 #: src/tuning/tuningusb.cpp:75
 #, c-format
 msgid "Autosuspend for USB device %s [%s]"
-msgstr "Автоматичне засинання для USB пристрою %s [%s]"
+msgstr ""
 
 #: src/tuning/wifi.cpp:48
 #, c-format
 msgid "Wireless Power Saving for interface %s"
-msgstr "Енергозбереження для бездротового інтерфейсу %s"
+msgstr ""
+

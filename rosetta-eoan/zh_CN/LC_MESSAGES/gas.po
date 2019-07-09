@@ -1,87 +1,82 @@
-# Simplified Chinese translation for opcode.
-# Copyright (C) 2005 Free Software Foundation, Inc.
-# This file is distributed under the same license as the binutils package.
-# Meng Jie <zuxyhere@eastday.com>, 2005.
-# Mingye Wang <arthur200126@gmail.com>, 2015.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: gas 2.24.90\n"
-"Report-Msgid-Bugs-To: bug-binutils@gnu.org\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-02-02 15:50+0000\n"
-"PO-Revision-Date: 2015-11-26 01:20+0000\n"
-"Last-Translator: Mingye Wang <arthur2e5@aosc.xyz>\n"
-"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"PO-Revision-Date: 2019-07-08 17:40\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Launchpad-Export-Date: 2019-05-11 10:37+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Launchpad-Export-Date: 2019-05-11 10:36+0000\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/gas.po\n"
 "Language: zh_CN\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
 
 #: app.c:490 app.c:504
 msgid "end of file in comment"
-msgstr "到达注释尾部"
+msgstr ""
 
 #: app.c:582 app.c:629
 #, c-format
 msgid "end of file in string; '%c' inserted"
-msgstr "到达字符串尾部；'%c'被插入"
+msgstr ""
 
 #: app.c:655
 #, c-format
 msgid "unknown escape '\\%c' in string; ignored"
-msgstr "字符串中发现未知转义符'\\%c'；忽略"
+msgstr ""
 
 #: app.c:829 input-scrub.c:363
 msgid "end of file not at end of a line; newline inserted"
-msgstr "文件结束，非行尾；插入新行"
+msgstr ""
 
 #: app.c:992
 msgid "end of file in multiline comment"
-msgstr "文件结束于多行注释"
+msgstr ""
 
 #: app.c:1067
 msgid "end of file after a one-character quote; \\0 inserted"
-msgstr "文件结束在一个引号字符之后；\\0 替换"
+msgstr ""
 
 #: app.c:1075
 msgid "end of file in escape character"
-msgstr "文件以转义符结束"
+msgstr ""
 
 #: app.c:1087
 msgid "missing close quote; (assumed)"
-msgstr "缺少结尾的引号；(假定)"
+msgstr ""
 
 #: app.c:1156 app.c:1211 app.c:1223 app.c:1303
 msgid "end of file in comment; newline inserted"
-msgstr "到达注释尾部；插入新行"
+msgstr ""
 
 #: as.c:162
 msgid "missing emulation mode name"
-msgstr "缺少仿真模式名"
+msgstr ""
 
 #: as.c:177
 #, c-format
 msgid "unrecognized emulation name `%s'"
-msgstr "未识别的枚举值‘%s’"
+msgstr ""
 
 #: as.c:224
 #, c-format
 msgid "GNU assembler version %s (%s) using BFD version %s\n"
-msgstr "GNU汇编版本 %s (%s) 使用BFD版本 %s\n"
+msgstr ""
 
 #: as.c:236
 #, c-format
 msgid "Usage: %s [option...] [asmfile...]\n"
-msgstr "用法：%s [option...] [asmfile...]\n"
+msgstr ""
 
 #: as.c:238
 #, c-format
-msgid ""
-"Options:\n"
+msgid "Options:\n"
 "  -a[sub-option...]\t  turn on listings\n"
 "                      \t  Sub-options [default hls]:\n"
 "                      \t  c      omit false conditionals\n"
@@ -94,18 +89,6 @@ msgid ""
 "                      \t  s      include symbols\n"
 "                      \t  =FILE  list to FILE (must be last sub-option)\n"
 msgstr ""
-"选项：\n"
-"  -a[sub-option...]\t  以列表输出\n"
-"                      \t  子选项 [默认为 hls]:\n"
-"                      \t  c      忽略假汇编情况\n"
-"                      \t  d      忽略调试指令\n"
-"                      \t  g      包含整体信息\n"
-"                      \t  h      包含高级源代码\n"
-"                      \t  l      包含汇编\n"
-"                      \t  m      包含宏扩展\n"
-"                      \t  n      关闭格式处理\n"
-"                      \t  s      包含符号表\n"
-"                      \t  =FILE  列表输出到文件FILE (必须是最后一个子选项)\n"
 
 #: as.c:252
 #, c-format
@@ -114,70 +97,62 @@ msgstr ""
 
 #: as.c:255
 #, c-format
-msgid ""
-"  --compress-debug-sections[={none|zlib|zlib-gnu|zlib-gabi}]\n"
-"                          compress DWARF debug sections using zlib "
-"[default]\n"
+msgid "  --compress-debug-sections[={none|zlib|zlib-gnu|zlib-gabi}]\n"
+"                          compress DWARF debug sections using zlib [default]\n"
 msgstr ""
 
 #: as.c:258
 #, c-format
-msgid ""
-"  --nocompress-debug-sections\n"
+msgid "  --nocompress-debug-sections\n"
 "                          don't compress DWARF debug sections\n"
 msgstr ""
 
 #: as.c:262
 #, c-format
-msgid ""
-"  --compress-debug-sections[={none|zlib|zlib-gnu|zlib-gabi}]\n"
+msgid "  --compress-debug-sections[={none|zlib|zlib-gnu|zlib-gabi}]\n"
 "                          compress DWARF debug sections using zlib\n"
 msgstr ""
 
 #: as.c:265
 #, c-format
-msgid ""
-"  --nocompress-debug-sections\n"
+msgid "  --nocompress-debug-sections\n"
 "                          don't compress DWARF debug sections [default]\n"
 msgstr ""
 
 #: as.c:269
 #, c-format
 msgid "  -D                      produce assembler debugging messages\n"
-msgstr "  -D                      产生汇编调试信息\n"
+msgstr ""
 
 #: as.c:271
 #, c-format
-msgid ""
-"  --debug-prefix-map OLD=NEW\n"
+msgid "  --debug-prefix-map OLD=NEW\n"
 "                          map OLD to NEW in debug information\n"
 msgstr ""
 
 #: as.c:274
 #, c-format
 msgid "  --defsym SYM=VAL        define symbol SYM to given value\n"
-msgstr "  --defsym SYM=VAL        将给定值赋予符号SYM\n"
+msgstr ""
 
 #: as.c:290
 #, c-format
 msgid "                          emulate output (default %s)\n"
-msgstr "                          模拟输出 (默认为 %s)\n"
+msgstr ""
 
 #: as.c:295
 #, c-format
 msgid "  --execstack             require executable stack for this object\n"
-msgstr "  --execstack 需要可执行堆栈给当前目标\n"
+msgstr ""
 
 #: as.c:297
 #, c-format
-msgid ""
-"  --noexecstack           don't require executable stack for this object\n"
-msgstr "  --noexecstack 不需要可执行堆栈给当前目标\n"
+msgid "  --noexecstack           don't require executable stack for this object\n"
+msgstr ""
 
 #: as.c:299
 #, c-format
-msgid ""
-"  --size-check=[error|warning]\n"
+msgid "  --size-check=[error|warning]\n"
 "\t\t\t  ELF .size directive check (default --size-check=error)\n"
 msgstr ""
 
@@ -198,14 +173,12 @@ msgstr ""
 
 #: as.c:309
 #, c-format
-msgid ""
-"                          generate ELF common symbols with STT_COMMON type\n"
+msgid "                          generate ELF common symbols with STT_COMMON type\n"
 msgstr ""
 
 #: as.c:305
 #, c-format
-msgid ""
-"  --sectname-subst        enable section name substitution sequences\n"
+msgid "  --sectname-subst        enable section name substitution sequences\n"
 msgstr ""
 
 #: as.c:309
@@ -215,82 +188,73 @@ msgstr ""
 
 #: as.c:316
 #, c-format
-msgid ""
-"                          generate GNU Build notes if none are present in "
-"the input\n"
+msgid "                          generate GNU Build notes if none are present in the input\n"
 msgstr ""
 
 #: as.c:308
 #, c-format
 msgid "  -f                      skip whitespace and comment preprocessing\n"
-msgstr "  -f 跳过空白字符和注释\n"
+msgstr ""
 
 #: as.c:310
 #, c-format
 msgid "  -g --gen-debug          generate debugging information\n"
-msgstr "  -g --gen-debug          产生调试信息\n"
+msgstr ""
 
 #: as.c:312
 #, c-format
 msgid "  --gstabs                generate STABS debugging information\n"
-msgstr "  --gstabs 生成 STABS 调试信息\n"
+msgstr ""
 
 #: as.c:314
 #, c-format
-msgid ""
-"  --gstabs+               generate STABS debug info with GNU extensions\n"
-msgstr "  --gstabs+               产生带有GNU 扩展的STABS 调试信息\n"
+msgid "  --gstabs+               generate STABS debug info with GNU extensions\n"
+msgstr ""
 
 #: as.c:316
 #, c-format
 msgid "  --gdwarf-2              generate DWARF2 debugging information\n"
-msgstr "  --gdwarf-2 产生 DWARF2 调式信息\n"
+msgstr ""
 
 #: as.c:318
 #, c-format
-msgid ""
-"  --gdwarf-sections       generate per-function section names for DWARF line "
-"information\n"
+msgid "  --gdwarf-sections       generate per-function section names for DWARF line information\n"
 msgstr ""
 
 #: as.c:320
 #, c-format
 msgid "  --hash-size=<value>     set the hash table size close to <value>\n"
-msgstr "  --hash-size=<value>  设置哈希表的大小接近<value>\n"
+msgstr ""
 
 #: as.c:322
 #, c-format
 msgid "  --help                  show this message and exit\n"
-msgstr "  --help                  打印此帮助并退出\n"
+msgstr ""
 
 #: as.c:324
 #, c-format
 msgid "  --target-help           show target specific options\n"
-msgstr "  --target-help           显示目标机器特定的命令行选项\n"
+msgstr ""
 
 #: as.c:326
 #, c-format
-msgid ""
-"  -I DIR                  add DIR to search list for .include directives\n"
-msgstr "  -I 目录                 将目录添加至类路径\n"
+msgid "  -I DIR                  add DIR to search list for .include directives\n"
+msgstr ""
 
 #: as.c:328
 #, c-format
 msgid "  -J                      don't warn about signed overflow\n"
-msgstr "  -J 不警告带符号溢出\n"
+msgstr ""
 
 #: as.c:330
 #, c-format
-msgid ""
-"  -K                      warn when differences altered for long "
-"displacements\n"
+msgid "  -K                      warn when differences altered for long displacements\n"
 msgstr ""
 
 #: as.c:332
 #, c-format
-msgid ""
-"  -L,--keep-locals        keep local symbols (e.g. starting with `L')\n"
-msgstr "  -L,--keep-locals        保持本地符号表不变 (比如说那些以`L'开头的)\n"
+msgid "  -L,--keep-locals        keep local symbols (e.g. starting with `L')\n"
+msgstr ""
 
 #: as.c:334
 #, c-format
@@ -299,50 +263,39 @@ msgstr ""
 
 #: as.c:336
 #, c-format
-msgid ""
-"  --MD FILE               write dependency information in FILE (default "
-"none)\n"
-msgstr "  --MD FILE               将依赖信息输出到文件FILE (默认为空)\n"
+msgid "  --MD FILE               write dependency information in FILE (default none)\n"
+msgstr ""
 
 #: as.c:338
 #, c-format
 msgid "  -nocpp                  ignored\n"
-msgstr "  -nocpp 忽略\n"
+msgstr ""
 
 #: as.c:340
 #, c-format
-msgid ""
-"  -no-pad-sections        do not pad the end of sections to alignment "
-"boundaries\n"
+msgid "  -no-pad-sections        do not pad the end of sections to alignment boundaries\n"
 msgstr ""
 
 #: as.c:342
 #, c-format
-msgid ""
-"  -o OBJFILE              name the object-file output OBJFILE (default "
-"a.out)\n"
-msgstr "  -o OBJFILE              将目标文件重命名为OBJFILE (默认为a.out)\n"
+msgid "  -o OBJFILE              name the object-file output OBJFILE (default a.out)\n"
+msgstr ""
 
 #: as.c:344
 #, c-format
 msgid "  -R                      fold data section into text section\n"
-msgstr "  -R 把数据段折叠进文本段\n"
+msgstr ""
 
 #: as.c:346
 #, c-format
-msgid ""
-"  --reduce-memory-overheads \n"
+msgid "  --reduce-memory-overheads \n"
 "                          prefer smaller memory use at the cost of longer\n"
 "                          assembly times\n"
 msgstr ""
-"  --reduce-memory-overheads \n"
-"                          以更长的汇编执行次数\n"
-"                          来减少内存的使用\n"
 
 #: as.c:350
 #, c-format
-msgid ""
-"  --statistics            print various measured statistics from execution\n"
+msgid "  --statistics            print various measured statistics from execution\n"
 msgstr ""
 
 #: as.c:352
@@ -352,111 +305,95 @@ msgstr ""
 
 #: as.c:354
 #, c-format
-msgid ""
-"  --traditional-format    Use same format as native assembler when possible\n"
-msgstr "  --traditional-format 尽可能使用于本地汇编程序同一格式\n"
+msgid "  --traditional-format    Use same format as native assembler when possible\n"
+msgstr ""
 
 #: as.c:356
 #, c-format
 msgid "  --version               print assembler version number and exit\n"
-msgstr "  --version 打印汇编程序版本号并退出\n"
+msgstr ""
 
 #: as.c:358
 #, c-format
 msgid "  -W  --no-warn           suppress warnings\n"
-msgstr "  -W --no-warn 隐藏警告信息\n"
+msgstr ""
 
 #: as.c:360
 #, c-format
 msgid "  --warn                  don't suppress warnings\n"
-msgstr "  --warn                  不隐藏警告信息\n"
+msgstr ""
 
 #: as.c:362
 #, c-format
 msgid "  --fatal-warnings        treat warnings as errors\n"
-msgstr "  --fatal-warnings 把警告作为错误显示\n"
+msgstr ""
 
 #: as.c:365
 #, c-format
-msgid ""
-"  --itbl INSTTBL          extend instruction set to include instructions\n"
-"                          matching the specifications defined in file "
-"INSTTBL\n"
+msgid "  --itbl INSTTBL          extend instruction set to include instructions\n"
+"                          matching the specifications defined in file INSTTBL\n"
 msgstr ""
-"  --itbl INSTTBL          用文件INSTTBL 中所声明的内容\n"
-"                          来扩展指令集\n"
 
 #: as.c:369
 #, c-format
 msgid "  -w                      ignored\n"
-msgstr "  -w                      忽略\n"
+msgstr ""
 
 #: as.c:371
 #, c-format
 msgid "  -X                      ignored\n"
-msgstr "  -X                      忽略\n"
+msgstr ""
 
 #: as.c:373
 #, c-format
 msgid "  -Z                      generate object file even after errors\n"
-msgstr "  -Z 有错误也生成目标文件\n"
+msgstr ""
 
 #: as.c:375
 #, c-format
-msgid ""
-"  --listing-lhs-width     set the width in words of the output data column "
-"of\n"
+msgid "  --listing-lhs-width     set the width in words of the output data column of\n"
 "                          the listing\n"
 msgstr ""
-"  --listing-lhs-width     设置输出列表的列宽度，\n"
-"                          以词为单位\n"
 
 #: as.c:378
 #, c-format
-msgid ""
-"  --listing-lhs-width2    set the width in words of the continuation lines\n"
-"                          of the output data column; ignored if smaller "
-"than\n"
+msgid "  --listing-lhs-width2    set the width in words of the continuation lines\n"
+"                          of the output data column; ignored if smaller than\n"
 "                          the width of the first line\n"
 msgstr ""
-"  --listing-lhs-width2    设置输出列表的后续列宽度，\n"
-"                          以词为单位；如果给定宽度小于第一行的\n"
-"                          就忽略这个参数\n"
 
 #: as.c:382
 #, c-format
-msgid ""
-"  --listing-rhs-width     set the max width in characters of the lines from\n"
+msgid "  --listing-rhs-width     set the max width in characters of the lines from\n"
 "                          the source file\n"
 msgstr ""
 
 #: as.c:385
 #, c-format
-msgid ""
-"  --listing-cont-lines    set the maximum number of continuation lines used\n"
+msgid "  --listing-cont-lines    set the maximum number of continuation lines used\n"
 "                          for the output data column of the listing\n"
 msgstr ""
 
 #: as.c:388
 #, c-format
 msgid "  @FILE                   read options from FILE\n"
-msgstr "  @FILE 从FILE读选项\n"
+msgstr ""
 
 #: as.c:396
 #, c-format
 msgid "Report bugs to %s\n"
-msgstr "将错误报告到 %s\n"
+msgstr ""
 
 #: as.c:616
 #, c-format
 msgid "unrecognized option -%c%s"
-msgstr "无效选项 -%c%s"
+msgstr ""
 
 #. This output is intended to follow the GNU standards document.
 #: as.c:658
 #, c-format
 msgid "GNU assembler %s\n"
-msgstr "GNU 汇编器 %s\n"
+msgstr ""
 
 #: as.c:678
 #, c-format
@@ -465,58 +402,54 @@ msgstr ""
 
 #: as.c:660
 #, c-format
-msgid ""
-"This program is free software; you may redistribute it under the terms of\n"
+msgid "This program is free software; you may redistribute it under the terms of\n"
 "the GNU General Public License version 3 or later.\n"
 "This program has absolutely no warranty.\n"
 msgstr ""
-"本软件是自由软件；您可以使用 GNU General Public License 版本 3 或更新版本重新发放。\n"
-"本软件完全不带有任何保证。\n"
 
 #: as.c:665
 #, c-format
-msgid ""
-"This assembler was configured for a target of `%s' and default,\n"
+msgid "This assembler was configured for a target of `%s' and default,\n"
 "cpu type `%s'.\n"
 msgstr ""
 
 #: as.c:669
 #, c-format
 msgid "This assembler was configured for a target of `%s'.\n"
-msgstr "为目标\"%s\"配置汇编程序。\n"
+msgstr ""
 
 #: as.c:677
 msgid "multiple emulation names specified"
-msgstr "多个模拟名字被给定"
+msgstr ""
 
 #: as.c:679
 msgid "emulations not handled in this configuration"
-msgstr "模拟机不在此配置下处理"
+msgstr ""
 
 #: as.c:684
 #, c-format
 msgid "alias = %s\n"
-msgstr "alias = %s\n"
+msgstr ""
 
 #: as.c:685
 #, c-format
 msgid "canonical = %s\n"
-msgstr "canonical = %s\n"
+msgstr ""
 
 #: as.c:686
 #, c-format
 msgid "cpu-type = %s\n"
-msgstr "cpu类型= %s\n"
+msgstr ""
 
 #: as.c:688
 #, c-format
 msgid "format = %s\n"
-msgstr "format = %s\n"
+msgstr ""
 
 #: as.c:691
 #, c-format
 msgid "bfd-target = %s\n"
-msgstr "bfd-target = %s\n"
+msgstr ""
 
 #: as.c:708
 #, c-format
@@ -530,16 +463,16 @@ msgstr ""
 
 #: as.c:736
 msgid "bad defsym; format is --defsym name=value"
-msgstr "错误的defsym；格式为--defsym name=value"
+msgstr ""
 
 #: as.c:756
 msgid "no file name following -t option"
-msgstr "-t 选项后没有文件名"
+msgstr ""
 
 #: as.c:771
 #, c-format
 msgid "failed to read instruction table %s\n"
-msgstr "读取说明目录失败 %s\n"
+msgstr ""
 
 #: as.c:887
 #, c-format
@@ -559,16 +492,16 @@ msgstr ""
 #: as.c:969
 #, c-format
 msgid "invalid listing option `%c'"
-msgstr "无效列举选项'%c'"
+msgstr ""
 
 #: as.c:1022
 msgid "--hash-size needs a numeric argument"
-msgstr "--hash-size 需要一个数字参数"
+msgstr ""
 
 #: as.c:1044
 #, c-format
 msgid "%s: total time in assembly: %ld.%06ld\n"
-msgstr "%s：在集合中的所有时间：%ld.%06ld\n"
+msgstr ""
 
 #: as.c:1243
 msgid "libbfd ABI mismatch"
@@ -584,14 +517,12 @@ msgstr ""
 msgid "%d warning"
 msgid_plural "%d warnings"
 msgstr[0] ""
-msgstr[1] ""
 
 #: as.c:1327
 #, c-format
 msgid "%d error"
 msgid_plural "%d errors"
 msgstr[0] ""
-msgstr[1] ""
 
 #: as.c:1331
 #, c-format
@@ -624,7 +555,7 @@ msgstr ""
 #: config/tc-v850.c:2538 config/tc-v850.c:2609 config/tc-v850.c:2656
 #: config/tc-v850.c:2693 config/tc-v850.c:2730 config/tc-v850.c:2993
 msgid "too many fixups"
-msgstr "过多固定值"
+msgstr ""
 
 #: cgen.c:372 cgen.c:392 config/tc-d10v.c:461 config/tc-d30v.c:453
 #: config/tc-i370.c:2127 config/tc-mn10200.c:1040 config/tc-mn10300.c:1677
@@ -632,7 +563,7 @@ msgstr "过多固定值"
 #: config/tc-v850.c:2681 config/tc-v850.c:2721 config/tc-v850.c:2966
 #: config/tc-z80.c:446
 msgid "illegal operand"
-msgstr "非法操作数"
+msgstr ""
 
 #: cgen.c:396 config/tc-avr.c:899 config/tc-d10v.c:463 config/tc-d30v.c:455
 #: config/tc-h8300.c:502 config/tc-i370.c:2129 config/tc-mcore.c:661
@@ -643,15 +574,15 @@ msgstr "非法操作数"
 #: config/tc-v850.c:2969 config/tc-xgate.c:895 config/tc-z80.c:557
 #: config/tc-z8k.c:349
 msgid "missing operand"
-msgstr "缺少操作数"
+msgstr ""
 
 #: cgen.c:767
 msgid "a reloc on this operand implies an overflow"
-msgstr "一个在此操作数上的重定位产生了一个溢出"
+msgstr ""
 
 #: cgen.c:790
 msgid "operand mask overflow"
-msgstr "操作数掩码溢出"
+msgstr ""
 
 #. We can't actually support subtracting a symbol.
 #: cgen.c:851 config/tc-arm.c:1776 config/tc-arm.c:10346 config/tc-arm.c:10398
@@ -667,12 +598,12 @@ msgstr "操作数掩码溢出"
 #: config/tc-v850.c:3451 config/tc-vax.c:282 config/tc-xstormy16.c:482
 #: config/tc-xtensa.c:5949 config/tc-xtensa.c:13095
 msgid "expression too complex"
-msgstr "表达式太复杂"
+msgstr ""
 
 #: cgen.c:950 config/tc-ppc.c:7027 config/tc-s390.c:2365 config/tc-v850.c:3503
 #: config/tc-xstormy16.c:539
 msgid "unresolved expression that must be resolved"
-msgstr "未定义表达式必须先被定义"
+msgstr ""
 
 #: cgen.c:975 config/tc-xstormy16.c:564
 #, c-format
@@ -681,27 +612,27 @@ msgstr ""
 
 #: cgen.c:1026 config/tc-nios2.c:1360 config/tc-pru.c:788
 msgid "relocation is not supported"
-msgstr "不支持重新配置"
+msgstr ""
 
 #: cond.c:82
 msgid "invalid identifier for \".ifdef\""
-msgstr "\".ifdef\"为非法标识符"
+msgstr ""
 
 #: cond.c:149
 msgid "non-constant expression in \".if\" statement"
-msgstr "在\".if\" 表达式中的非常量表达式"
+msgstr ""
 
 #: cond.c:276
 msgid "bad format for ifc or ifnc"
-msgstr "对于ifc 或ifnc 的错误格式"
+msgstr ""
 
 #: cond.c:306
 msgid "\".elseif\" without matching \".if\""
-msgstr "“.elseif”与\".if\"不匹配"
+msgstr ""
 
 #: cond.c:310
 msgid "\".elseif\" after \".else\""
-msgstr "\".elseif\" 在\".else\" 之后"
+msgstr ""
 
 #: cond.c:313 cond.c:419
 msgid "here is the previous \".else\""
@@ -713,15 +644,15 @@ msgstr ""
 
 #: cond.c:345
 msgid "non-constant expression in \".elseif\" statement"
-msgstr "在\".elseif\"表达式中的非常量表达式"
+msgstr ""
 
 #: cond.c:383
 msgid "\".endif\" without \".if\""
-msgstr "\".endif\"是没有\".if\"的"
+msgstr ""
 
 #: cond.c:412
 msgid "\".else\" without matching \".if\""
-msgstr "\".else\"没有匹配\".if\""
+msgstr ""
 
 #: cond.c:416
 msgid "duplicate \".else\""
@@ -729,7 +660,7 @@ msgstr ""
 
 #: cond.c:467
 msgid ".ifeqs syntax error"
-msgstr ".ifeqs语法错误"
+msgstr ""
 
 #: cond.c:548
 msgid "end of macro inside conditional"
@@ -741,7 +672,7 @@ msgstr ""
 
 #: cond.c:553
 msgid "here is the start of the unterminated conditional"
-msgstr "这里是未结束的条件表达式的开始"
+msgstr ""
 
 #: cond.c:557
 msgid "here is the \"else\" of the unterminated conditional"
@@ -749,7 +680,7 @@ msgstr ""
 
 #: config/atof-ieee.c:139
 msgid "cannot create floating-point number"
-msgstr "不能产生浮点数"
+msgstr ""
 
 #: config/atof-ieee.c:286
 msgid "NaNs are not supported by this target\n"
@@ -762,7 +693,7 @@ msgstr ""
 #: config/atof-ieee.c:781 config/atof-vax.c:449 config/tc-arm.c:1152
 #: config/tc-ia64.c:11608 config/tc-tic30.c:1263 config/tc-tic4x.c:2585
 msgid "Unrecognized or unsupported floating point constant"
-msgstr "无法识别或不支持的浮点数常量"
+msgstr ""
 
 #: config/obj-aout.c:81
 #, c-format
@@ -772,7 +703,7 @@ msgstr ""
 #: config/obj-aout.c:85
 #, c-format
 msgid "Attempt to put an undefined symbol into set %s"
-msgstr "尝试将未定义符号插入集合 %s"
+msgstr ""
 
 #: config/obj-aout.c:112 config/obj-coff.c:1382
 #, c-format
@@ -782,7 +713,7 @@ msgstr ""
 #: config/obj-coff.c:135 dw2gencfi.c:334
 #, c-format
 msgid "Inserting \"%s\" into structure table failed: %s"
-msgstr "插入\"%s\"进入结构表失败： %s"
+msgstr ""
 
 #: config/obj-coff.c:214 config/obj-coff.c:1681 config/tc-ppc.c:5647
 #: config/tc-tic54x.c:3980 read.c:2960
@@ -793,7 +724,7 @@ msgstr ""
 #. Zero is used as an end marker in the file.
 #: config/obj-coff.c:435
 msgid "Line numbers must be positive integers\n"
-msgstr "行号必须是正整数\n"
+msgstr ""
 
 #: config/obj-coff.c:467
 msgid ".ln pseudo-op inside .def/.endef: ignored."
@@ -801,7 +732,7 @@ msgstr ""
 
 #: config/obj-coff.c:509 ecoff.c:3245
 msgid ".loc outside of .text"
-msgstr ".loc在.text之外"
+msgstr ""
 
 #: config/obj-coff.c:516
 msgid ".loc pseudo-op inside .def/.endef: ignored."
@@ -864,7 +795,7 @@ msgstr ""
 
 #: config/obj-coff.c:1338
 msgid "mismatched .eb"
-msgstr "不匹配.ed"
+msgstr ""
 
 #: config/obj-coff.c:1361
 #, c-format
@@ -882,35 +813,35 @@ msgstr ""
 #: config/obj-coff.c:1646
 #, c-format
 msgid "unsupported section attribute '%c'"
-msgstr "不被支持的扇区属性'%c'"
+msgstr ""
 
 #: config/obj-coff.c:1650 config/tc-ppc.c:5629
 #, c-format
 msgid "unknown section attribute '%c'"
-msgstr "未知扇区属性'%c'"
+msgstr ""
 
 #: config/obj-coff.c:1693 config/obj-macho.c:267
 #, c-format
 msgid "Ignoring changed section attributes for %s"
-msgstr "忽略对'%s'扇区属性的修改"
+msgstr ""
 
 #: config/obj-coff.c:1831
 #, c-format
 msgid "0x%lx: \"%s\" type = %ld, class = %d, segment = %d\n"
-msgstr "0x%lx:\"%s\" 类型＝%ld，类别＝%d,段＝%d\n"
+msgstr ""
 
 #: config/obj-ecoff.c:124
 msgid "Can't set GP value"
-msgstr "不能设置GP值"
+msgstr ""
 
 #: config/obj-ecoff.c:131
 msgid "Can't set register masks"
-msgstr "不能设置暂存器掩码"
+msgstr ""
 
 #: config/obj-elf.c:348 config/tc-sparc.c:4564 config/tc-v850.c:511
 #, c-format
 msgid "bad .common segment %s"
-msgstr "坏的.conmon段%s"
+msgstr ""
 
 #: config/obj-elf.c:424
 msgid "Missing symbol name in directive"
@@ -961,15 +892,15 @@ msgstr ""
 
 #: config/obj-elf.c:911 read.c:2944
 msgid "unrecognized section type"
-msgstr "未知段类型"
+msgstr ""
 
 #: config/obj-elf.c:943
 msgid "unrecognized section attribute"
-msgstr "未知扇区属性"
+msgstr ""
 
 #: config/obj-elf.c:974 config/tc-alpha.c:4208
 msgid "missing name"
-msgstr "缺少名字"
+msgstr ""
 
 #: config/obj-elf.c:1134
 msgid "invalid merge entity size"
@@ -1051,7 +982,7 @@ msgstr ""
 
 #: config/obj-elf.c:1732
 msgid "bad string constant"
-msgstr "错误的字符串常量"
+msgstr ""
 
 #: config/obj-elf.c:1736
 msgid "expected <tag> , <value>"
@@ -1088,7 +1019,7 @@ msgstr ""
 #: config/obj-elf.c:2052
 #, c-format
 msgid "unrecognized symbol type \"%s\""
-msgstr "未知符号类型\"%s\""
+msgstr ""
 
 #: config/obj-elf.c:2219 config/obj-elf.c:2222
 #, c-format
@@ -1097,8 +1028,7 @@ msgstr ""
 
 #: config/obj-elf.c:2256
 #, c-format
-msgid ""
-"invalid attempt to declare external version name as default in symbol `%s'"
+msgid "invalid attempt to declare external version name as default in symbol `%s'"
 msgstr ""
 
 #: config/obj-elf.c:2325 ecoff.c:3600
@@ -1114,12 +1044,12 @@ msgstr ""
 #: config/obj-elf.c:2449
 #, c-format
 msgid "can't create group: %s"
-msgstr "不能创建组:%s"
+msgstr ""
 
 #: config/obj-elf.c:2603
 #, c-format
 msgid "failed to set up debugging information: %s"
-msgstr "生成调试信息失败:%s"
+msgstr ""
 
 #: config/obj-elf.c:2623
 #, c-format
@@ -1244,9 +1174,7 @@ msgstr ""
 
 #: config/obj-macho.c:1082 config/obj-macho.c:1402 config/obj-macho.c:1486
 #, c-format
-msgid ""
-"'%s' can't be a weak_definition (currently only supported in sections of "
-"type coalesced)"
+msgid "'%s' can't be a weak_definition (currently only supported in sections of type coalesced)"
 msgstr ""
 
 #: config/obj-macho.c:1167
@@ -1255,9 +1183,7 @@ msgstr ""
 
 #: config/obj-macho.c:1184
 #, c-format
-msgid ""
-"attempt to add an indirect_symbol to a stub or reference section with a zero-"
-"sized element at %s"
+msgid "attempt to add an indirect_symbol to a stub or reference section with a zero-sized element at %s"
 msgstr ""
 
 #: config/obj-macho.c:1214
@@ -1301,9 +1227,7 @@ msgstr ""
 
 #: config/obj-macho.c:1804
 #, c-format
-msgid ""
-"the number of .indirect_symbols defined in section %s does not match the "
-"number expected (%d defined, %d expected)"
+msgid "the number of .indirect_symbols defined in section %s does not match the number expected (%d defined, %d expected)"
 msgstr ""
 
 #: config/obj-macho.c:1824
@@ -1400,18 +1324,15 @@ msgid "16-bit SIMD scalar or floating-point half precision register expected"
 msgstr ""
 
 #: config/tc-aarch64.c:407
-msgid ""
-"32-bit SIMD scalar or floating-point single precision register expected"
+msgid "32-bit SIMD scalar or floating-point single precision register expected"
 msgstr ""
 
 #: config/tc-aarch64.c:411
-msgid ""
-"64-bit SIMD scalar or floating-point double precision register expected"
+msgid "64-bit SIMD scalar or floating-point double precision register expected"
 msgstr ""
 
 #: config/tc-aarch64.c:415
-msgid ""
-"128-bit SIMD scalar or floating-point quad precision register expected"
+msgid "128-bit SIMD scalar or floating-point quad precision register expected"
 msgstr ""
 
 #: config/tc-aarch64.c:420 config/tc-arm.c:4401
@@ -1606,7 +1527,7 @@ msgstr ""
 
 #: config/tc-aarch64.c:2992
 msgid "shift operator expected"
-msgstr "预期的移位操作符"
+msgstr ""
 
 #: config/tc-aarch64.c:3000
 msgid "invalid use of 'MSL'"
@@ -1642,7 +1563,7 @@ msgstr ""
 
 #: config/tc-aarch64.c:3075
 msgid "invalid shift operator"
-msgstr "无效的移位操作符"
+msgstr ""
 
 #: config/tc-aarch64.c:3108
 msgid "missing shift amount"
@@ -1684,7 +1605,7 @@ msgstr ""
 
 #: config/tc-aarch64.c:3448
 msgid "invalid address"
-msgstr "无效地址"
+msgstr ""
 
 #: config/tc-aarch64.c:3504
 msgid "invalid use of 32-bit register offset"
@@ -1744,9 +1665,7 @@ msgstr ""
 
 #: config/tc-aarch64.c:3932
 #, c-format
-msgid ""
-"system register name '%s' is deprecated and may be removed in a future "
-"release"
+msgid "system register name '%s' is deprecated and may be removed in a future release"
 msgstr ""
 
 #: config/tc-aarch64.c:4004
@@ -1804,7 +1723,7 @@ msgstr ""
 
 #: config/tc-aarch64.c:4663 config/tc-aarch64.c:4667 config/tc-aarch64.c:6447
 msgid "immediate value"
-msgstr "立即数"
+msgstr ""
 
 #: config/tc-aarch64.c:4666
 #, c-format
@@ -1813,16 +1732,12 @@ msgstr ""
 
 #: config/tc-aarch64.c:4673
 #, c-format
-msgid ""
-"invalid number of registers in the list; only 1 register is expected at "
-"operand %d -- `%s'"
+msgid "invalid number of registers in the list; only 1 register is expected at operand %d -- `%s'"
 msgstr ""
 
 #: config/tc-aarch64.c:4677
 #, c-format
-msgid ""
-"invalid number of registers in the list; %d registers are expected at "
-"operand %d -- `%s'"
+msgid "invalid number of registers in the list; %d registers are expected at operand %d -- `%s'"
 msgstr ""
 
 #: config/tc-aarch64.c:4683
@@ -1895,7 +1810,7 @@ msgstr ""
 #: config/tc-aarch64.c:6177 config/tc-aarch64.c:6202 config/tc-aarch64.c:6218
 #: config/tc-aarch64.c:6242
 msgid "invalid addressing mode"
-msgstr "无效寻址模式"
+msgstr ""
 
 #: config/tc-aarch64.c:5992
 msgid "the optional immediate offset can only be 0"
@@ -2002,7 +1917,7 @@ msgstr ""
 #: config/tc-metag.c:2444 config/tc-metag.c:2453 config/tc-metag.c:2492
 #: config/tc-metag.c:2501 config/tc-metag.c:3021 config/tc-metag.c:3030
 msgid "immediate out of range"
-msgstr "立即数越界"
+msgstr ""
 
 #: config/tc-aarch64.c:7390 config/tc-metag.c:4656 config/tc-xtensa.c:4183
 msgid "invalid immediate"
@@ -2238,12 +2153,12 @@ msgstr ""
 #: config/tc-alpha.c:960
 #, c-format
 msgid "!%s does not use a sequence number"
-msgstr "!%s不使用序列号"
+msgstr ""
 
 #: config/tc-alpha.c:970
 #, c-format
 msgid "Bad sequence number: !%s!%s"
-msgstr "坏序列号:!%s!%s"
+msgstr ""
 
 #: config/tc-alpha.c:1186 config/tc-alpha.c:3360
 #, c-format
@@ -2581,23 +2496,20 @@ msgstr ""
 #: config/tc-xtensa.c:5432 config/tc-xtensa.c:5508 config/tc-xtensa.c:5625
 #: config/tc-z80.c:1935
 msgid "syntax error"
-msgstr "语法错误"
+msgstr ""
 
 #: config/tc-alpha.c:5681
-msgid ""
-"Alpha options:\n"
+msgid "Alpha options:\n"
 "-32addr\t\t\ttreat addresses as 32-bit values\n"
 "-F\t\t\tlack floating point instructions support\n"
 "-mev4 | -mev45 | -mev5 | -mev56 | -mpca56 | -mev6 | -mev67 | -mev68 | -mall\n"
 "\t\t\tspecify variant of Alpha architecture\n"
-"-m21064 | -m21066 | -m21164 | -m21164a | -m21164pc | -m21264 | -m21264a | -"
-"m21264b\n"
+"-m21064 | -m21066 | -m21164 | -m21164a | -m21164pc | -m21264 | -m21264a | -m21264b\n"
 "\t\t\tthese variants include PALcode opcodes\n"
 msgstr ""
 
 #: config/tc-alpha.c:5691
-msgid ""
-"VMS options:\n"
+msgid "VMS options:\n"
 "-+\t\t\tencode (don't truncate) names longer than 64 characters\n"
 "-H\t\t\tshow new symbol after hash truncation\n"
 "-replace/-noreplace\tenable or disable the optimization of procedure calls\n"
@@ -2838,16 +2750,13 @@ msgstr ""
 
 #: config/tc-arc.c:3543
 #, c-format
-msgid ""
-"The following ARC-specific assembler options are deprecated and are "
-"accepted\n"
+msgid "The following ARC-specific assembler options are deprecated and are accepted\n"
 "for compatibility only:\n"
 msgstr ""
 
 #: config/tc-arc.c:3546
 #, c-format
-msgid ""
-"  -mEA\n"
+msgid "  -mEA\n"
 "  -mbarrel-shifter\n"
 "  -mbarrel_shifter\n"
 "  -mcrc\n"
@@ -2922,9 +2831,7 @@ msgstr ""
 
 #: config/tc-arc.c:4264
 #, c-format
-msgid ""
-"A jump instruction with long immediate detected at the end of the ZOL label "
-"@%s"
+msgid "A jump instruction with long immediate detected at the end of the ZOL label @%s"
 msgstr ""
 
 #: config/tc-arc.c:4270
@@ -2981,7 +2888,7 @@ msgstr ""
 
 #: config/tc-arc.c:4692
 msgid "invalid mode"
-msgstr "无效的权限模式"
+msgstr ""
 
 #: config/tc-arc.c:4710
 msgid "expected comma after register mode"
@@ -3433,7 +3340,6 @@ msgstr ""
 msgid "%s relocations do not fit in %d byte"
 msgid_plural "%s relocations do not fit in %d bytes"
 msgstr[0] ""
-msgstr[1] ""
 
 #: config/tc-arm.c:3657
 msgid ".inst.n operand too big. Use .inst.w instead"
@@ -3544,7 +3450,7 @@ msgstr ""
 #: config/tc-arm.c:24170 config/tc-arm.c:24234 config/tc-arm.c:24242
 #: config/tc-metag.c:5176 config/tc-z8k.c:1151 config/tc-z8k.c:1161
 msgid "immediate value out of range"
-msgstr "立即数越界"
+msgstr ""
 
 #: config/tc-arm.c:4974
 msgid "invalid FPA immediate expression"
@@ -3604,8 +3510,7 @@ msgstr ""
 
 #: config/tc-arm.c:6013 config/tc-arm.c:12353 config/tc-arm.c:12398
 #: config/tc-arm.c:12402
-msgid ""
-"selected processor does not support requested special purpose register"
+msgid "selected processor does not support requested special purpose register"
 msgstr ""
 
 #: config/tc-arm.c:6018
@@ -3671,7 +3576,7 @@ msgstr ""
 
 #: config/tc-arm.c:6899
 msgid "immediate value is out of range"
-msgstr "立即数越界"
+msgstr ""
 
 #: config/tc-arm.c:7046
 msgid "iWMMXt data or control register expected"
@@ -3692,9 +3597,7 @@ msgid "use of r13 is deprecated"
 msgstr ""
 
 #: config/tc-arm.c:7382
-msgid ""
-"ARMv8.2 scalar fp16 instruction cannot be conditional, the behaviour is "
-"UNPREDICTABLE"
+msgid "ARMv8.2 scalar fp16 instruction cannot be conditional, the behaviour is UNPREDICTABLE"
 msgstr ""
 
 #: config/tc-arm.c:7457
@@ -3796,8 +3699,7 @@ msgid "writeback of base register when in register list is UNPREDICTABLE"
 msgstr ""
 
 #: config/tc-arm.c:8901
-msgid ""
-"if writeback register is in list, it must be the lowest reg in the list"
+msgid "if writeback register is in list, it must be the lowest reg in the list"
 msgstr ""
 
 #: config/tc-arm.c:8938
@@ -4033,8 +3935,7 @@ msgid "dest and source1 must be the same register"
 msgstr ""
 
 #: config/tc-arm.c:11155
-msgid ""
-"selected architecture does not support wide conditional branch instruction"
+msgid "selected architecture does not support wide conditional branch instruction"
 msgstr ""
 
 #: config/tc-arm.c:11188
@@ -4054,9 +3955,7 @@ msgid "SP not allowed in register list"
 msgstr ""
 
 #: config/tc-arm.c:11437 config/tc-arm.c:11543
-msgid ""
-"having the base register in the register list when using write back is "
-"UNPREDICTABLE"
+msgid "having the base register in the register list when using write back is UNPREDICTABLE"
 msgstr ""
 
 #: config/tc-arm.c:11445
@@ -4093,9 +3992,7 @@ msgid "r14 not allowed as first register when second register is omitted"
 msgstr ""
 
 #: config/tc-arm.c:11738
-msgid ""
-"This instruction may be unpredictable if executed on M-profile cores with "
-"interrupts enabled."
+msgid "This instruction may be unpredictable if executed on M-profile cores with interrupts enabled."
 msgstr ""
 
 #: config/tc-arm.c:11767 config/tc-arm.c:11780 config/tc-arm.c:11816
@@ -4124,9 +4021,7 @@ msgstr ""
 
 #: config/tc-arm.c:11980
 #, c-format
-msgid ""
-"Use of r%u as a source register is deprecated when r%u is the destination "
-"register."
+msgid "Use of r%u as a source register is deprecated when r%u is the destination register."
 msgstr ""
 
 #: config/tc-arm.c:12173
@@ -4260,9 +4155,7 @@ msgid "immediate has bits set outside the operand size"
 msgstr ""
 
 #: config/tc-arm.c:16226
-msgid ""
-"vfmal/vfmsl with FP16 type cannot be conditional, the behaviour is "
-"UNPREDICTABLE"
+msgid "vfmal/vfmsl with FP16 type cannot be conditional, the behaviour is UNPREDICTABLE"
 msgstr ""
 
 #: config/tc-arm.c:16356
@@ -4278,9 +4171,7 @@ msgid "bad type for scalar"
 msgstr ""
 
 #: config/tc-arm.c:16708
-msgid ""
-"immediate constant is valid both as a bit-pattern and a floating point value "
-"(using the fp value)"
+msgid "immediate constant is valid both as a bit-pattern and a floating point value (using the fp value)"
 msgstr ""
 
 #: config/tc-arm.c:16719 config/tc-arm.c:16727
@@ -4349,9 +4240,7 @@ msgid "scalar out of range"
 msgstr ""
 
 #: config/tc-arm.c:17577
-msgid ""
-"Dot Product instructions cannot be conditional,  the behaviour is "
-"UNPREDICTABLE"
+msgid "Dot Product instructions cannot be conditional,  the behaviour is UNPREDICTABLE"
 msgstr ""
 
 #: config/tc-arm.c:18150 config/tc-arm.c:18236
@@ -4393,22 +4282,16 @@ msgid "ADD/SUB sp, sp #imm"
 msgstr ""
 
 #: config/tc-arm.c:18612
-msgid ""
-"IT blocks containing 32-bit Thumb instructions are performance deprecated in "
-"ARMv8-A and ARMv8-R"
+msgid "IT blocks containing 32-bit Thumb instructions are performance deprecated in ARMv8-A and ARMv8-R"
 msgstr ""
 
 #: config/tc-arm.c:18624
 #, c-format
-msgid ""
-"IT blocks containing 16-bit Thumb instructions of the following class are "
-"performance deprecated in ARMv8-A and ARMv8-R: %s"
+msgid "IT blocks containing 16-bit Thumb instructions of the following class are performance deprecated in ARMv8-A and ARMv8-R: %s"
 msgstr ""
 
 #: config/tc-arm.c:18638
-msgid ""
-"IT blocks containing more than one conditional instruction are performance "
-"deprecated in ARMv8-A and ARMv8-R"
+msgid "IT blocks containing more than one conditional instruction are performance deprecated in ARMv8-A and ARMv8-R"
 msgstr ""
 
 #: config/tc-arm.c:18706
@@ -4435,8 +4318,7 @@ msgstr ""
 
 #: config/tc-arm.c:18760
 #, c-format
-msgid ""
-"selected processor does not support 32bit wide variant of instruction `%s'"
+msgid "selected processor does not support 32bit wide variant of instruction `%s'"
 msgstr ""
 
 #: config/tc-arm.c:18763
@@ -4540,7 +4422,7 @@ msgstr ""
 
 #: config/tc-arm.c:23424
 msgid "offset not a multiple of 4"
-msgstr "偏移量不是 4 的倍数"
+msgstr ""
 
 #: config/tc-arm.c:23625
 msgid "invalid smc expression"
@@ -4690,7 +4572,7 @@ msgstr ""
 #: config/tc-mcore.c:1928 config/tc-microblaze.c:1978 config/tc-mmix.c:2895
 #: config/tc-moxie.c:825 config/tc-ns32k.c:2248 config/tc-score.c:7478
 msgid "<unknown>"
-msgstr "<未知>"
+msgstr ""
 
 #: config/tc-arm.c:25188
 #, c-format
@@ -5004,8 +4886,7 @@ msgstr ""
 
 #: config/tc-arm.c:26708
 #, c-format
-msgid ""
-"unknown implicit IT mode `%s', should be arm, thumb, always, or never."
+msgid "unknown implicit IT mode `%s', should be arm, thumb, always, or never."
 msgstr ""
 
 #: config/tc-arm.c:26731 config/tc-metag.c:5913
@@ -5049,8 +4930,7 @@ msgstr ""
 
 #: config/tc-arm.c:27479
 #, c-format
-msgid ""
-"architectural extension `%s' is not allowed for the current base architecture"
+msgid "architectural extension `%s' is not allowed for the current base architecture"
 msgstr ""
 
 #: config/tc-arm.c:27508
@@ -5065,8 +4945,7 @@ msgstr ""
 
 #: config/tc-avr.c:659
 #, c-format
-msgid ""
-"AVR Assembler options:\n"
+msgid "AVR Assembler options:\n"
 "  -mmcu=[avr-name] select microcontroller variant\n"
 "                   [avr-name] can be:\n"
 "                   avr1  - classic AVR core without data RAM\n"
@@ -5082,8 +4961,7 @@ msgid ""
 "                   avr51 - enhanced AVR core with up to 128K program memory\n"
 "                   avr6  - enhanced AVR core with up to 256K program memory\n"
 "                   avrxmega2 - XMEGA, > 8K, < 64K FLASH, < 64K RAM\n"
-"                   avrxmega3 - XMEGA, RAM + FLASH < 64K, Flash visible in "
-"RAM\n"
+"                   avrxmega3 - XMEGA, RAM + FLASH < 64K, Flash visible in RAM\n"
 "                   avrxmega4 - XMEGA, > 64K, <= 128K FLASH, <= 64K RAM\n"
 "                   avrxmega5 - XMEGA, > 64K, <= 128K FLASH, > 64K RAM\n"
 "                   avrxmega6 - XMEGA, > 128K, <= 256K FLASH, <= 64K RAM\n"
@@ -5093,8 +4971,7 @@ msgstr ""
 
 #: config/tc-avr.c:682
 #, c-format
-msgid ""
-"  -mall-opcodes    accept all AVR opcodes, even if not supported by MCU\n"
+msgid "  -mall-opcodes    accept all AVR opcodes, even if not supported by MCU\n"
 "  -mno-skip-bug    disable warnings for skipping two-word instructions\n"
 "                   (default for avr4, avr5)\n"
 "  -mno-wrap        reject rjmp/rcall instructions with 8K wrap-around\n"
@@ -5192,7 +5069,7 @@ msgstr ""
 #: config/tc-avr.c:1322 config/tc-xgate.c:1352
 #, c-format
 msgid "unknown constraint `%c'"
-msgstr "未知的约束‘%c’"
+msgstr ""
 
 #: config/tc-avr.c:1385 config/tc-avr.c:2677
 msgid "`,' required"
@@ -5377,10 +5254,8 @@ msgstr ""
 #: config/tc-cr16.c:181 read.c:4683
 #, c-format
 msgid "field width %lu too big to fit in %d byte: truncated to %d bits"
-msgid_plural ""
-"field width %lu too big to fit in %d bytes: truncated to %d bits"
+msgid_plural "field width %lu too big to fit in %d bytes: truncated to %d bits"
 msgstr[0] ""
-msgstr[1] ""
 
 #: config/tc-cr16.c:208 read.c:4709
 #, c-format
@@ -5621,8 +5496,7 @@ msgstr ""
 
 #: config/tc-cris.c:939
 #, c-format
-msgid ""
-"Internal error found in md_convert_frag: offset %ld.  Please report this."
+msgid "Internal error found in md_convert_frag: offset %ld.  Please report this."
 msgstr ""
 
 #: config/tc-cris.c:964
@@ -5647,9 +5521,7 @@ msgstr ""
 #. perhaps with a 10-byte sequence: "move.d NNNN,$pc/$acr", "jump
 #. $acr", "nop"; but doesn't seem worth it at the moment.)
 #: config/tc-cris.c:1051
-msgid ""
-"Out-of-range .word offset handling is not implemented for .arch "
-"common_v10_v32"
+msgid "Out-of-range .word offset handling is not implemented for .arch common_v10_v32"
 msgstr ""
 
 #: config/tc-cris.c:1096
@@ -5812,9 +5684,7 @@ msgid "invalid <arch> in --march=<arch>: %s"
 msgstr ""
 
 #: config/tc-cris.c:3958 config/tc-ft32.c:689 config/tc-moxie.c:778
-msgid ""
-"Semantics error.  This type of operand can not be relocated, it must be an "
-"assembly-time constant"
+msgid "Semantics error.  This type of operand can not be relocated, it must be an assembly-time constant"
 msgstr ""
 
 #: config/tc-cris.c:4007 config/tc-ft32.c:710 config/tc-moxie.c:826
@@ -5829,8 +5699,7 @@ msgid "CRIS-specific options:\n"
 msgstr ""
 
 #: config/tc-cris.c:4022
-msgid ""
-"  -h, -H                  Don't execute, print this help text.  Deprecated.\n"
+msgid "  -h, -H                  Don't execute, print this help text.  Deprecated.\n"
 msgstr ""
 
 #: config/tc-cris.c:4024
@@ -5838,9 +5707,7 @@ msgid "  -N                      Warn when branches are expanded to jumps.\n"
 msgstr ""
 
 #: config/tc-cris.c:4026
-msgid ""
-"  --underscore            User symbols are normally prepended with "
-"underscore.\n"
+msgid "  --underscore            User symbols are normally prepended with underscore.\n"
 msgstr ""
 
 #: config/tc-cris.c:4028
@@ -5860,8 +5727,7 @@ msgid "  --pic\t\t\tEnable generation of position-independent code.\n"
 msgstr ""
 
 #: config/tc-cris.c:4038
-msgid ""
-"  --march=<arch>\t\tGenerate code for <arch>.  Valid choices for <arch>\n"
+msgid "  --march=<arch>\t\tGenerate code for <arch>.  Valid choices for <arch>\n"
 "\t\t\t\tare v0_v10, v10, v32 and common_v10_v32.\n"
 msgstr ""
 
@@ -6012,7 +5878,7 @@ msgstr ""
 #: config/tc-mcore.c:1923 config/tc-microblaze.c:1970
 #: config/tc-microblaze.c:2268 config/tc-microblaze.c:2291
 msgid "unknown"
-msgstr "未知"
+msgstr ""
 
 #: config/tc-csky.c:876
 #, c-format
@@ -6121,8 +5987,7 @@ msgstr ""
 
 #: config/tc-csky.c:1134
 #, c-format
-msgid ""
-"  -mlabr  -mliterals-after-br\temit literals after branch instructions\n"
+msgid "  -mlabr  -mliterals-after-br\temit literals after branch instructions\n"
 msgstr ""
 
 #: config/tc-csky.c:1136
@@ -6228,7 +6093,7 @@ msgstr ""
 
 #: config/tc-mcore.c:742
 msgid "missing ']'"
-msgstr "缺少 ']'"
+msgstr ""
 
 #: config/tc-mips.c:14011 config/tc-mips.c:14075 config/tc-mips.c:14086
 #: config/tc-score.c:2691 config/tc-score.c:2737
@@ -6278,8 +6143,7 @@ msgstr ""
 
 #: config/tc-d10v.c:216
 #, c-format
-msgid ""
-"D10V options:\n"
+msgid "D10V options:\n"
 "-O                      Optimize.  Will do some operations in parallel.\n"
 "--gstabs-packing        Pack adjacent short instructions together even\n"
 "                        when --gstabs is specified.  On by default.\n"
@@ -6357,9 +6221,7 @@ msgid "IU instruction may not be in the left container"
 msgstr ""
 
 #: config/tc-d10v.c:1041 config/tc-d10v.c:1056
-msgid ""
-"Instruction in R container is squashed by flow control instruction in L "
-"container."
+msgid "Instruction in R container is squashed by flow control instruction in L container."
 msgstr ""
 
 #: config/tc-d10v.c:1054 config/tc-d30v.c:1075
@@ -6420,15 +6282,12 @@ msgstr ""
 
 #: config/tc-d30v.c:239
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "D30V options:\n"
-"-O                      Make adjacent short instructions parallel if "
-"possible.\n"
+"-O                      Make adjacent short instructions parallel if possible.\n"
 "-n                      Warn about all NOPs inserted by the assembler.\n"
 "-N                      Warn about NOPs inserted after word multiplies.\n"
-"-c                      Warn about symbols whose names match register "
-"names.\n"
+"-c                      Warn about symbols whose names match register names.\n"
 "-C                      Opposite of -C.  -c is the default.\n"
 msgstr ""
 
@@ -6469,8 +6328,7 @@ msgstr ""
 
 #: config/tc-d30v.c:1066
 #, c-format
-msgid ""
-"special left instruction `%s' kills instruction `%s' in right container"
+msgid "special left instruction `%s' kills instruction `%s' in right container"
 msgstr ""
 
 #: config/tc-d30v.c:1077
@@ -6743,20 +6601,17 @@ msgstr ""
 
 #: config/tc-frv.c:463
 #, c-format
-msgid ""
-"-mdword         Mark generated file as using a 8-byte stack alignment\n"
+msgid "-mdword         Mark generated file as using a 8-byte stack alignment\n"
 msgstr ""
 
 #: config/tc-frv.c:464
 #, c-format
-msgid ""
-"-mno-dword      Mark generated file as using a 4-byte stack alignment\n"
+msgid "-mno-dword      Mark generated file as using a 4-byte stack alignment\n"
 msgstr ""
 
 #: config/tc-frv.c:465
 #, c-format
-msgid ""
-"-mdouble        Mark generated file as using double precision FP insns\n"
+msgid "-mdouble        Mark generated file as using double precision FP insns\n"
 msgstr ""
 
 #: config/tc-frv.c:466
@@ -6766,8 +6621,7 @@ msgstr ""
 
 #: config/tc-frv.c:467
 #, c-format
-msgid ""
-"-mmuladd        Mark generated file as using multiply add/subtract insns\n"
+msgid "-mmuladd        Mark generated file as using multiply add/subtract insns\n"
 msgstr ""
 
 #: config/tc-frv.c:468
@@ -6782,23 +6636,17 @@ msgstr ""
 
 #: config/tc-frv.c:470
 #, c-format
-msgid ""
-"-mpic           Mark generated file as using small position independent "
-"code\n"
+msgid "-mpic           Mark generated file as using small position independent code\n"
 msgstr ""
 
 #: config/tc-frv.c:471
 #, c-format
-msgid ""
-"-mPIC           Mark generated file as using large position independent "
-"code\n"
+msgid "-mPIC           Mark generated file as using large position independent code\n"
 msgstr ""
 
 #: config/tc-frv.c:472
 #, c-format
-msgid ""
-"-mlibrary-pic   Mark generated file as using position independent code for "
-"libraries\n"
+msgid "-mlibrary-pic   Mark generated file as using position independent code for libraries\n"
 msgstr ""
 
 #: config/tc-frv.c:473
@@ -6819,7 +6667,7 @@ msgstr ""
 #: config/tc-frv.c:476
 #, c-format
 msgid "                Record the cpu type\n"
-msgstr "                记录 CPU 类型\n"
+msgstr ""
 
 #: config/tc-frv.c:477
 #, c-format
@@ -6895,8 +6743,7 @@ msgstr ""
 
 #: config/tc-ft32.c:523
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "-no-relax\t\tdon't relax relocations\n"
 "\t\t\t\n"
 msgstr ""
@@ -6913,8 +6760,7 @@ msgstr ""
 
 #: config/tc-h8300.c:178
 #, c-format
-msgid ""
-"new section '%s' defined without attributes - this might cause problems"
+msgid "new section '%s' defined without attributes - this might cause problems"
 msgstr ""
 
 #: config/tc-h8300.c:448 config/tc-h8300.c:456
@@ -7073,10 +6919,8 @@ msgstr ""
 
 #: config/tc-h8300.c:2230
 #, c-format
-msgid ""
-"  -mach=<name>             Set the H8300 machine type to one of:\n"
-"                           h8300h, h8300hn, h8300s, h8300sn, h8300sx, "
-"h8300sxn\n"
+msgid "  -mach=<name>             Set the H8300 machine type to one of:\n"
+"                           h8300h, h8300hn, h8300s, h8300sn, h8300sx, h8300sxn\n"
 msgstr ""
 
 #: config/tc-h8300.c:2233
@@ -7931,9 +7775,7 @@ msgid "ambiguous memory operand size for `%s`"
 msgstr ""
 
 #: config/tc-i386.c:5554
-msgid ""
-"no instruction mnemonic suffix given and no register operands; can't size "
-"instruction"
+msgid "no instruction mnemonic suffix given and no register operands; can't size instruction"
 msgstr ""
 
 #: config/tc-i386.c:6084
@@ -7964,9 +7806,7 @@ msgstr ""
 
 #: config/tc-i386.c:6532
 #, c-format
-msgid ""
-"source register `%s%s' implicitly denotes `%s%.3s%u' to `%s%.3s%u' source "
-"group in `%s'"
+msgid "source register `%s%s' implicitly denotes `%s%.3s%u' to `%s%.3s%u' source group in `%s'"
 msgstr ""
 
 #: config/tc-i386.c:6139
@@ -8284,16 +8124,14 @@ msgstr ""
 
 #: config/tc-i386.c:10486
 #, c-format
-msgid ""
-"  -Q                      ignored\n"
+msgid "  -Q                      ignored\n"
 "  -V                      print assembler version number\n"
 "  -k                      ignored\n"
 msgstr ""
 
 #: config/tc-i386.c:10491
 #, c-format
-msgid ""
-"  -n                      Do not optimize code alignment\n"
+msgid "  -n                      Do not optimize code alignment\n"
 "  -q                      quieten some warnings\n"
 msgstr ""
 
@@ -8319,10 +8157,8 @@ msgstr ""
 
 #: config/tc-i386.c:10510
 #, c-format
-msgid ""
-"  -march=CPU[,+EXTENSION...]\n"
-"                          generate code for CPU and EXTENSION, CPU is one "
-"of:\n"
+msgid "  -march=CPU[,+EXTENSION...]\n"
+"                          generate code for CPU and EXTENSION, CPU is one of:\n"
 msgstr ""
 
 #: config/tc-i386.c:10514
@@ -8342,59 +8178,48 @@ msgstr ""
 
 #: config/tc-i386.c:11499
 #, c-format
-msgid ""
-"  -msse-check=[none|error|warning] (default: warning)\n"
+msgid "  -msse-check=[none|error|warning] (default: warning)\n"
 "                          check SSE instructions\n"
 msgstr ""
 
 #: config/tc-i386.c:11502
 #, c-format
-msgid ""
-"  -moperand-check=[none|error|warning] (default: warning)\n"
+msgid "  -moperand-check=[none|error|warning] (default: warning)\n"
 "                          check operand combinations for validity\n"
 msgstr ""
 
 #: config/tc-i386.c:11505
 #, c-format
-msgid ""
-"  -mavxscalar=[128|256] (default: 128)\n"
-"                          encode scalar AVX instructions with specific "
-"vector\n"
+msgid "  -mavxscalar=[128|256] (default: 128)\n"
+"                          encode scalar AVX instructions with specific vector\n"
 "                           length\n"
 msgstr ""
 
 #: config/tc-i386.c:11509
 #, c-format
-msgid ""
-"  -mvexwig=[0|1] (default: 0)\n"
+msgid "  -mvexwig=[0|1] (default: 0)\n"
 "                          encode VEX instructions with specific VEX.W value\n"
 "                           for VEX.W bit ignored instructions\n"
 msgstr ""
 
 #: config/tc-i386.c:11513
 #, c-format
-msgid ""
-"  -mevexlig=[128|256|512] (default: 128)\n"
-"                          encode scalar EVEX instructions with specific "
-"vector\n"
+msgid "  -mevexlig=[128|256|512] (default: 128)\n"
+"                          encode scalar EVEX instructions with specific vector\n"
 "                           length\n"
 msgstr ""
 
 #: config/tc-i386.c:11517
 #, c-format
-msgid ""
-"  -mevexwig=[0|1] (default: 0)\n"
-"                          encode EVEX instructions with specific EVEX.W "
-"value\n"
+msgid "  -mevexwig=[0|1] (default: 0)\n"
+"                          encode EVEX instructions with specific EVEX.W value\n"
 "                           for EVEX.W bit ignored instructions\n"
 msgstr ""
 
 #: config/tc-i386.c:11521
 #, c-format
-msgid ""
-"  -mevexrcig=[rne|rd|ru|rz] (default: rne)\n"
-"                          encode EVEX instructions with specific EVEX.RC "
-"value\n"
+msgid "  -mevexrcig=[rne|rd|ru|rz] (default: rne)\n"
+"                          encode EVEX instructions with specific EVEX.RC value\n"
 "                           for SAE-only ignored instructions\n"
 msgstr ""
 
@@ -8420,8 +8245,7 @@ msgstr ""
 
 #: config/tc-i386.c:11533
 #, c-format
-msgid ""
-"  -msyntax=[att|intel] (default: att)\n"
+msgid "  -msyntax=[att|intel] (default: att)\n"
 "                          use AT&T/Intel syntax\n"
 msgstr ""
 
@@ -8442,8 +8266,7 @@ msgstr ""
 
 #: config/tc-i386.c:10553
 #, c-format
-msgid ""
-"  -mshared                disable branch optimization for shared code\n"
+msgid "  -mshared                disable branch optimization for shared code\n"
 msgstr ""
 
 #: config/tc-i386.c:11545
@@ -8453,8 +8276,7 @@ msgstr ""
 
 #: config/tc-i386.c:11551
 #, c-format
-msgid ""
-"                          generate x86 used ISA and feature properties\n"
+msgid "                          generate x86 used ISA and feature properties\n"
 msgstr ""
 
 #: config/tc-i386.c:10556
@@ -8464,15 +8286,13 @@ msgstr ""
 
 #: config/tc-i386.c:11558
 #, c-format
-msgid ""
-"  -momit-lock-prefix=[no|yes] (default: no)\n"
+msgid "  -momit-lock-prefix=[no|yes] (default: no)\n"
 "                          strip all lock prefixes\n"
 msgstr ""
 
 #: config/tc-i386.c:11561
 #, c-format
-msgid ""
-"  -mfence-as-lock-add=[no|yes] (default: no)\n"
+msgid "  -mfence-as-lock-add=[no|yes] (default: no)\n"
 "                          encode lfence, mfence and sfence as\n"
 "                           lock addl $0x0, (%%{re}sp)\n"
 msgstr ""
@@ -9103,8 +8923,7 @@ msgstr ""
 
 #: config/tc-ia64.c:6670
 #, c-format
-msgid ""
-"Internal error: don't know how to force %s to end of instruction group"
+msgid "Internal error: don't know how to force %s to end of instruction group"
 msgstr ""
 
 #: config/tc-ia64.c:6683
@@ -9153,8 +8972,7 @@ msgid "Unrecognized option '-x%s'"
 msgstr ""
 
 #: config/tc-ia64.c:7147
-msgid ""
-"IA-64 options:\n"
+msgid "IA-64 options:\n"
 "  --mconstant-gp\t  mark output file as using the constant-GP model\n"
 "\t\t\t  (sets ELF header flag EF_IA_64_CONS_GP)\n"
 "  --mauto-pic\t\t  mark output file as using the constant-GP model\n"
@@ -9173,8 +8991,7 @@ msgstr ""
 
 #. Note for translators: "automagically" can be translated as "automatically" here.
 #: config/tc-ia64.c:7164
-msgid ""
-"  -xauto\t\t  automagically remove dependency violations (default)\n"
+msgid "  -xauto\t\t  automagically remove dependency violations (default)\n"
 "  -xnone\t\t  turn off dependency violation checking\n"
 "  -xdebug\t\t  debug dependency violation checker\n"
 "  -xdebugn\t\t  debug dependency violation checker but turn off\n"
@@ -9516,20 +9333,17 @@ msgstr ""
 
 #: config/tc-m32r.c:374
 #, c-format
-msgid ""
-"  -m32r                   disable support for the m32rx instruction set\n"
+msgid "  -m32r                   disable support for the m32rx instruction set\n"
 msgstr ""
 
 #: config/tc-m32r.c:376
 #, c-format
-msgid ""
-"  -m32rx                  support the extended m32rx instruction set\n"
+msgid "  -m32rx                  support the extended m32rx instruction set\n"
 msgstr ""
 
 #: config/tc-m32r.c:378
 #, c-format
-msgid ""
-"  -m32r2                  support the extended m32r2 instruction set\n"
+msgid "  -m32r2                  support the extended m32r2 instruction set\n"
 msgstr ""
 
 #: config/tc-m32r.c:380
@@ -9554,9 +9368,7 @@ msgstr ""
 
 #: config/tc-m32r.c:388
 #, c-format
-msgid ""
-"  -no-bitinst             disallow the M32R2's extended bit-field "
-"instructions\n"
+msgid "  -no-bitinst             disallow the M32R2's extended bit-field instructions\n"
 msgstr ""
 
 #: config/tc-m32r.c:390
@@ -9566,8 +9378,7 @@ msgstr ""
 
 #: config/tc-m32r.c:393
 #, c-format
-msgid ""
-"  -warn-explicit-parallel-conflicts     warn when parallel instructions\n"
+msgid "  -warn-explicit-parallel-conflicts     warn when parallel instructions\n"
 msgstr ""
 
 #: config/tc-m32r.c:395
@@ -9582,27 +9393,22 @@ msgstr ""
 
 #: config/tc-m32r.c:399
 #, c-format
-msgid ""
-"                                         instructions might violate "
-"constraints\n"
+msgid "                                         instructions might violate constraints\n"
 msgstr ""
 
 #: config/tc-m32r.c:401
 #, c-format
-msgid ""
-"  -Wp                     synonym for -warn-explicit-parallel-conflicts\n"
+msgid "  -Wp                     synonym for -warn-explicit-parallel-conflicts\n"
 msgstr ""
 
 #: config/tc-m32r.c:403
 #, c-format
-msgid ""
-"  -Wnp                    synonym for -no-warn-explicit-parallel-conflicts\n"
+msgid "  -Wnp                    synonym for -no-warn-explicit-parallel-conflicts\n"
 msgstr ""
 
 #: config/tc-m32r.c:405
 #, c-format
-msgid ""
-"  -ignore-parallel-conflicts            do not check parallel instructions\n"
+msgid "  -ignore-parallel-conflicts            do not check parallel instructions\n"
 msgstr ""
 
 #: config/tc-m32r.c:407
@@ -9612,8 +9418,7 @@ msgstr ""
 
 #: config/tc-m32r.c:409
 #, c-format
-msgid ""
-"  -no-ignore-parallel-conflicts         check parallel instructions for\n"
+msgid "  -no-ignore-parallel-conflicts         check parallel instructions for\n"
 msgstr ""
 
 #: config/tc-m32r.c:411
@@ -9633,9 +9438,7 @@ msgstr ""
 
 #: config/tc-m32r.c:418
 #, c-format
-msgid ""
-"  -warn-unmatched-high    warn when an (s)high reloc has no matching low "
-"reloc\n"
+msgid "  -warn-unmatched-high    warn when an (s)high reloc has no matching low reloc\n"
 msgstr ""
 
 #: config/tc-m32r.c:420
@@ -9706,16 +9509,12 @@ msgstr ""
 
 #: config/tc-m32r.c:1121
 #, c-format
-msgid ""
-"%s: output of 1st instruction is the same as an input to 2nd instruction - "
-"is this intentional ?"
+msgid "%s: output of 1st instruction is the same as an input to 2nd instruction - is this intentional ?"
 msgstr ""
 
 #: config/tc-m32r.c:1125
 #, c-format
-msgid ""
-"%s: output of 2nd instruction is the same as an input to 1st instruction - "
-"is this intentional ?"
+msgid "%s: output of 2nd instruction is the same as an input to 1st instruction - is this intentional ?"
 msgstr ""
 
 #: config/tc-i370.c:1047 config/tc-m32r.c:1488 config/tc-microblaze.c:192
@@ -9759,8 +9558,7 @@ msgstr ""
 
 #: config/tc-m68hc11.c:416
 #, c-format
-msgid ""
-"Motorola 68HC11/68HC12/68HCS12 options:\n"
+msgid "Motorola 68HC11/68HC12/68HCS12 options:\n"
 "  -m68hc11 | -m68hc12 |\n"
 "  -m68hcs12 | -mm9s12x |\n"
 "  -mm9s12xg               specify the processor [default %s]\n"
@@ -9851,8 +9649,7 @@ msgstr ""
 
 #: config/tc-m68hc11.c:969
 #, c-format
-msgid ""
-"# Example of `%s' instructions\n"
+msgid "# Example of `%s' instructions\n"
 "\t.sect .text\n"
 "_start:\n"
 msgstr ""
@@ -10214,8 +10011,7 @@ msgid "displacement too large for this architecture; needs 68020 or higher"
 msgstr ""
 
 #: config/tc-m68k.c:2774
-msgid ""
-"scale factor invalid on this architecture; needs cpu32 or 68020 or higher"
+msgid "scale factor invalid on this architecture; needs cpu32 or 68020 or higher"
 msgstr ""
 
 #: config/tc-m68k.c:2779
@@ -10428,8 +10224,7 @@ msgstr ""
 
 #: config/tc-m68k.c:6403
 #, c-format
-msgid ""
-"Condition <%c%c> in structured control directive can not be encoded correctly"
+msgid "Condition <%c%c> in structured control directive can not be encoded correctly"
 msgstr ""
 
 #: config/tc-m68k.c:6699
@@ -10510,8 +10305,7 @@ msgid "architecture features both enabled and disabled"
 msgstr ""
 
 #: config/tc-m68k.c:7675
-msgid ""
-"selected processor does not have all features of selected architecture"
+msgid "selected processor does not have all features of selected architecture"
 msgstr ""
 
 #: config/tc-m68k.c:7684
@@ -10524,8 +10318,7 @@ msgstr ""
 
 #: config/tc-m68k.c:7728
 #, c-format
-msgid ""
-"-march=<arch>\t\tset architecture\n"
+msgid "-march=<arch>\t\tset architecture\n"
 "-mcpu=<cpu>\t\tset cpu [default %s]\n"
 msgstr ""
 
@@ -10536,8 +10329,7 @@ msgstr ""
 
 #: config/tc-m68k.c:7739
 #, c-format
-msgid ""
-"-l\t\t\tuse 1 word for refs to undefined symbols [default 2]\n"
+msgid "-l\t\t\tuse 1 word for refs to undefined symbols [default 2]\n"
 "-pic, -k\t\tgenerate position independent code\n"
 "-S\t\t\tturn jbsr into jsr\n"
 "--pcrel                 never turn PC-relative branches into absolute jumps\n"
@@ -10563,7 +10355,7 @@ msgstr ""
 #: config/tc-m68k.c:7769 config/tc-xtensa.c:6356
 #, c-format
 msgid "\n"
-msgstr "\n"
+msgstr ""
 
 #: config/tc-m68k.c:7800
 #, c-format
@@ -10584,7 +10376,6 @@ msgstr ""
 msgid "%s relocations do not fit in %u byte"
 msgid_plural "%s relocations do not fit in %u bytes"
 msgstr[0] ""
-msgstr[1] ""
 
 #: config/tc-m68k.c:8140
 #, c-format
@@ -10726,8 +10517,7 @@ msgstr ""
 
 #: config/tc-mcore.c:1687
 #, c-format
-msgid ""
-"MCORE specific options:\n"
+msgid "MCORE specific options:\n"
 "  -{no-}jsri2bsr\t  {dis}able jsri to bsr transformation (def: dis)\n"
 "  -{no-}sifilter\t  {dis}able silicon filter behavior (def: dis)\n"
 "  -cpu=[210|340]          select CPU type\n"
@@ -10753,7 +10543,6 @@ msgstr ""
 msgid "odd distance branch (0x%lx byte)"
 msgid_plural "odd distance branch (0x%lx bytes)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: config/tc-mcore.c:1957
 #, c-format
@@ -10781,16 +10570,14 @@ msgstr ""
 
 #: config/tc-mep.c:339
 #, c-format
-msgid ""
-"MeP specific command line options:\n"
+msgid "MeP specific command line options:\n"
 "  -EB                     assemble for a big endian system\n"
 "  -EL                     assemble for a little endian system (default)\n"
 "  -mconfig=<name>         specify a chip configuration to use\n"
 "  -maverage -mno-average -mmult -mno-mult -mdiv -mno-div\n"
 "  -mbitops -mno-bitops -mleadz -mno-leadz -mabsdiff -mno-absdiff\n"
 "  -mminmax -mno-minmax -mclip -mno-clip -msatur -mno-satur -mcop32\n"
-"                          enable/disable the given opcodes\n"
-"\n"
+"                          enable/disable the given opcodes\n\n"
 "  If -mconfig is given, the other -m options modify it.  Otherwise,\n"
 "  if no -m options are given, all core opcodes are enabled;\n"
 "  if any enabling -m options are given, only those are enabled;\n"
@@ -10997,9 +10784,7 @@ msgid "source and destination increment mode must agree"
 msgstr ""
 
 #: config/tc-metag.c:2040
-msgid ""
-"PC, CT, TR and TT are treated as if they are a single unit but operands must "
-"be in different units"
+msgid "PC, CT, TR and TT are treated as if they are a single unit but operands must be in different units"
 msgstr ""
 
 #: config/tc-metag.c:2049
@@ -11390,15 +11175,11 @@ msgid "PC relative branch to label %s which is not in the instruction space"
 msgstr ""
 
 #: config/tc-microblaze.c:2271
-msgid ""
-"Variable is accessed using small data read only anchor, but it is not in the "
-"small data read only section"
+msgid "Variable is accessed using small data read only anchor, but it is not in the small data read only section"
 msgstr ""
 
 #: config/tc-microblaze.c:2294
-msgid ""
-"Variable is accessed using small data read write anchor, but it is not in "
-"the small data read write section"
+msgid "Variable is accessed using small data read write anchor, but it is not in the small data read write section"
 msgstr ""
 
 #: config/tc-microblaze.c:2303
@@ -11445,7 +11226,7 @@ msgstr ""
 
 #: config/tc-mips.c:3210
 msgid "missing `]'"
-msgstr "缺少 `]'"
+msgstr ""
 
 #: config/tc-mips.c:3433
 #, c-format
@@ -11740,8 +11521,7 @@ msgid "unrecognized extended version of MIPS16 opcode"
 msgstr ""
 
 #: config/tc-mips.c:8621 config/tc-mips.c:18657
-msgid ""
-"macro instruction expanded into multiple instructions in a branch delay slot"
+msgid "macro instruction expanded into multiple instructions in a branch delay slot"
 msgstr ""
 
 #: config/tc-mips.c:8624 config/tc-mips.c:18665
@@ -11749,15 +11529,11 @@ msgid "macro instruction expanded into multiple instructions"
 msgstr ""
 
 #: config/tc-mips.c:8628
-msgid ""
-"macro instruction expanded into a wrong size instruction in a 16-bit branch "
-"delay slot"
+msgid "macro instruction expanded into a wrong size instruction in a 16-bit branch delay slot"
 msgstr ""
 
 #: config/tc-mips.c:8630
-msgid ""
-"macro instruction expanded into a wrong size instruction in a 32-bit branch "
-"delay slot"
+msgid "macro instruction expanded into a wrong size instruction in a 32-bit branch delay slot"
 msgstr ""
 
 #: config/tc-mips.c:9074
@@ -12096,7 +11872,7 @@ msgstr ""
 
 #: config/tc-mips.c:19299 config/tc-score.c:5667
 msgid "invalid number"
-msgstr "无效编号"
+msgstr ""
 
 #: config/tc-mips.c:19376 ecoff.c:2999
 msgid ".end directive without a preceding .ent directive"
@@ -12129,8 +11905,7 @@ msgstr ""
 
 #: config/tc-mips.c:19912
 #, c-format
-msgid ""
-"MIPS options:\n"
+msgid "MIPS options:\n"
 "-EB\t\t\tgenerate big endian output\n"
 "-EL\t\t\tgenerate little endian output\n"
 "-g, -g2\t\t\tdo not remove unneeded NOPs or swap branches\n"
@@ -12140,8 +11915,7 @@ msgstr ""
 
 #: config/tc-mips.c:19919
 #, c-format
-msgid ""
-"-mips1\t\t\tgenerate MIPS ISA I instructions\n"
+msgid "-mips1\t\t\tgenerate MIPS ISA I instructions\n"
 "-mips2\t\t\tgenerate MIPS ISA II instructions\n"
 "-mips3\t\t\tgenerate MIPS ISA III instructions\n"
 "-mips4\t\t\tgenerate MIPS ISA IV instructions\n"
@@ -12161,153 +11935,128 @@ msgstr ""
 
 #: config/tc-mips.c:19944
 #, c-format
-msgid ""
-"-mCPU\t\t\tequivalent to -march=CPU -mtune=CPU. Deprecated.\n"
+msgid "-mCPU\t\t\tequivalent to -march=CPU -mtune=CPU. Deprecated.\n"
 "-no-mCPU\t\tdon't generate code specific to CPU.\n"
 "\t\t\tFor -mCPU and -no-mCPU, CPU must be one of:\n"
 msgstr ""
 
 #: config/tc-mips.c:19957
 #, c-format
-msgid ""
-"-mips16\t\t\tgenerate mips16 instructions\n"
+msgid "-mips16\t\t\tgenerate mips16 instructions\n"
 "-no-mips16\t\tdo not generate mips16 instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:19981
 #, c-format
-msgid ""
-"-mmips16e2\t\tgenerate MIPS16e2 instructions\n"
+msgid "-mmips16e2\t\tgenerate MIPS16e2 instructions\n"
 "-mno-mips16e2\t\tdo not generate MIPS16e2 instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:19960
 #, c-format
-msgid ""
-"-mmicromips\t\tgenerate microMIPS instructions\n"
+msgid "-mmicromips\t\tgenerate microMIPS instructions\n"
 "-mno-micromips\t\tdo not generate microMIPS instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:19963
 #, c-format
-msgid ""
-"-msmartmips\t\tgenerate smartmips instructions\n"
+msgid "-msmartmips\t\tgenerate smartmips instructions\n"
 "-mno-smartmips\t\tdo not generate smartmips instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:19966
 #, c-format
-msgid ""
-"-mdsp\t\t\tgenerate DSP instructions\n"
+msgid "-mdsp\t\t\tgenerate DSP instructions\n"
 "-mno-dsp\t\tdo not generate DSP instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:19969
 #, c-format
-msgid ""
-"-mdspr2\t\t\tgenerate DSP R2 instructions\n"
+msgid "-mdspr2\t\t\tgenerate DSP R2 instructions\n"
 "-mno-dspr2\t\tdo not generate DSP R2 instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:19972
 #, c-format
-msgid ""
-"-mdspr3\t\t\tgenerate DSP R3 instructions\n"
+msgid "-mdspr3\t\t\tgenerate DSP R3 instructions\n"
 "-mno-dspr3\t\tdo not generate DSP R3 instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:19975
 #, c-format
-msgid ""
-"-mmt\t\t\tgenerate MT instructions\n"
+msgid "-mmt\t\t\tgenerate MT instructions\n"
 "-mno-mt\t\t\tdo not generate MT instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:19978
 #, c-format
-msgid ""
-"-mmcu\t\t\tgenerate MCU instructions\n"
+msgid "-mmcu\t\t\tgenerate MCU instructions\n"
 "-mno-mcu\t\tdo not generate MCU instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:19981
 #, c-format
-msgid ""
-"-mmsa\t\t\tgenerate MSA instructions\n"
+msgid "-mmsa\t\t\tgenerate MSA instructions\n"
 "-mno-msa\t\tdo not generate MSA instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:19984
 #, c-format
-msgid ""
-"-mxpa\t\t\tgenerate eXtended Physical Address (XPA) instructions\n"
+msgid "-mxpa\t\t\tgenerate eXtended Physical Address (XPA) instructions\n"
 "-mno-xpa\t\tdo not generate eXtended Physical Address (XPA) instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:19987
 #, c-format
-msgid ""
-"-mvirt\t\t\tgenerate Virtualization instructions\n"
+msgid "-mvirt\t\t\tgenerate Virtualization instructions\n"
 "-mno-virt\t\tdo not generate Virtualization instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:20014
 #, c-format
-msgid ""
-"-mcrc\t\t\tgenerate CRC instructions\n"
+msgid "-mcrc\t\t\tgenerate CRC instructions\n"
 "-mno-crc\t\tdo not generate CRC instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:20017
 #, c-format
-msgid ""
-"-mginv\t\t\tgenerate Global INValidate (GINV) instructions\n"
+msgid "-mginv\t\t\tgenerate Global INValidate (GINV) instructions\n"
 "-mno-ginv\t\tdo not generate Global INValidate instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:20128
 #, c-format
-msgid ""
-"-mloongson-mmi\t\tgenerate Loongson MultiMedia extensions Instructions (MMI) "
-"instructions\n"
-"-mno-loongson-mmi\tdo not generate Loongson MultiMedia extensions "
-"Instructions\n"
+msgid "-mloongson-mmi\t\tgenerate Loongson MultiMedia extensions Instructions (MMI) instructions\n"
+"-mno-loongson-mmi\tdo not generate Loongson MultiMedia extensions Instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:20131
 #, c-format
-msgid ""
-"-mloongson-cam\t\tgenerate Loongson Content Address Memory (CAM) "
-"instructions\n"
-"-mno-loongson-cam\tdo not generate Loongson Content Address Memory "
-"Instructions\n"
+msgid "-mloongson-cam\t\tgenerate Loongson Content Address Memory (CAM) instructions\n"
+"-mno-loongson-cam\tdo not generate Loongson Content Address Memory Instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:20134
 #, c-format
-msgid ""
-"-mloongson-ext\t\tgenerate Loongson EXTensions (EXT) instructions\n"
+msgid "-mloongson-ext\t\tgenerate Loongson EXTensions (EXT) instructions\n"
 "-mno-loongson-ext\tdo not generate Loongson EXTensions Instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:20137
 #, c-format
-msgid ""
-"-mloongson-ext2\t\tgenerate Loongson EXTensions R2 (EXT2) instructions\n"
+msgid "-mloongson-ext2\t\tgenerate Loongson EXTensions R2 (EXT2) instructions\n"
 "-mno-loongson-ext2\tdo not generate Loongson EXTensions R2 Instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:19990
 #, c-format
-msgid ""
-"-minsn32\t\tonly generate 32-bit microMIPS instructions\n"
+msgid "-minsn32\t\tonly generate 32-bit microMIPS instructions\n"
 "-mno-insn32\t\tgenerate all microMIPS instructions\n"
 msgstr ""
 
 #: config/tc-mips.c:20143
 #, c-format
-msgid ""
-"-mfix-loongson2f-jump\twork around Loongson2F JUMP instructions\n"
+msgid "-mfix-loongson2f-jump\twork around Loongson2F JUMP instructions\n"
 "-mfix-loongson2f-nop\twork around Loongson2F NOP errata\n"
 "-mfix-vr4120\t\twork around certain VR4120 errata\n"
 "-mfix-vr4130\t\twork around VR4130 mflo/mfhi errata\n"
@@ -12326,23 +12075,20 @@ msgstr ""
 
 #: config/tc-mips.c:20007
 #, c-format
-msgid ""
-"-mhard-float\t\tallow floating-point instructions\n"
+msgid "-mhard-float\t\tallow floating-point instructions\n"
 "-msoft-float\t\tdo not allow floating-point instructions\n"
 "-msingle-float\t\tonly allow 32-bit floating-point operations\n"
 "-mdouble-float\t\tallow 32-bit and 64-bit floating-point operations\n"
 "--[no-]construct-floats\t[dis]allow floating point values to be constructed\n"
 "--[no-]relax-branch\t[dis]allow out-of-range branches to be relaxed\n"
 "-mignore-branch-isa\taccept invalid branches requiring an ISA mode switch\n"
-"-mno-ignore-branch-isa\treject invalid branches requiring an ISA mode "
-"switch\n"
+"-mno-ignore-branch-isa\treject invalid branches requiring an ISA mode switch\n"
 "-mnan=ENCODING\t\tselect an IEEE 754 NaN encoding convention, either of:\n"
 msgstr ""
 
 #: config/tc-mips.c:20025
 #, c-format
-msgid ""
-"-KPIC, -call_shared\tgenerate SVR4 position independent code\n"
+msgid "-KPIC, -call_shared\tgenerate SVR4 position independent code\n"
 "-call_nonpic\t\tgenerate non-PIC code that can operate with DSOs\n"
 "-mvxworks-pic\t\tgenerate VxWorks position independent code\n"
 "-non_shared\t\tdo not generate code that can operate with DSOs\n"
@@ -12383,8 +12129,7 @@ msgstr ""
 
 #: config/tc-mmix.c:703
 #, c-format
-msgid ""
-"  -fixed-special-register-names\n"
+msgid "  -fixed-special-register-names\n"
 "                          Allow only the original special register names.\n"
 msgstr ""
 
@@ -12405,35 +12150,29 @@ msgstr ""
 
 #: config/tc-mmix.c:712
 #, c-format
-msgid ""
-"  -no-predefined-syms     Do not provide mmixal built-in constants.\n"
+msgid "  -no-predefined-syms     Do not provide mmixal built-in constants.\n"
 "                          Implies -fixed-special-register-names.\n"
 msgstr ""
 
 #: config/tc-mmix.c:715
 #, c-format
-msgid ""
-"  -no-expand              Do not expand GETA, branches, PUSHJ or JUMP\n"
+msgid "  -no-expand              Do not expand GETA, branches, PUSHJ or JUMP\n"
 "                          into multiple instructions.\n"
 msgstr ""
 
 #: config/tc-mmix.c:718
 #, c-format
-msgid ""
-"  -no-merge-gregs         Do not merge GREG definitions with nearby values.\n"
+msgid "  -no-merge-gregs         Do not merge GREG definitions with nearby values.\n"
 msgstr ""
 
 #: config/tc-mmix.c:720
 #, c-format
-msgid ""
-"  -linker-allocated-gregs If there's no suitable GREG definition for the     "
-"                     operands of an instruction, let the linker resolve.\n"
+msgid "  -linker-allocated-gregs If there's no suitable GREG definition for the                          operands of an instruction, let the linker resolve.\n"
 msgstr ""
 
 #: config/tc-mmix.c:723
 #, c-format
-msgid ""
-"  -x                      Do not warn when an operand to GETA, a branch,\n"
+msgid "  -x                      Do not warn when an operand to GETA, a branch,\n"
 "                          PUSHJ or JUMP is not known to be within range.\n"
 "                          The linker will catch any errors.  Implies\n"
 "                          -linker-allocated-gregs."
@@ -12628,8 +12367,7 @@ msgstr ""
 
 #: config/tc-mn10200.c:300
 #, c-format
-msgid ""
-"MN10200 options:\n"
+msgid "MN10200 options:\n"
 "none yet\n"
 msgstr ""
 
@@ -12648,8 +12386,7 @@ msgstr ""
 
 #: config/tc-mn10300.c:439
 #, c-format
-msgid ""
-"MN10300 assembler options:\n"
+msgid "MN10300 assembler options:\n"
 "none yet\n"
 msgstr ""
 
@@ -12695,8 +12432,7 @@ msgstr ""
 
 #: config/tc-moxie.c:643
 #, c-format
-msgid ""
-"  -EB                     assemble for a big endian system (default)\n"
+msgid "  -EB                     assemble for a big endian system (default)\n"
 "  -EL                     assemble for a little endian system\n"
 msgstr ""
 
@@ -12741,25 +12477,21 @@ msgstr ""
 
 #: config/tc-msp430.c:1603
 #, c-format
-msgid ""
-"MSP430 options:\n"
+msgid "MSP430 options:\n"
 "  -mmcu=<msp430-name>     - select microcontroller type\n"
 "  -mcpu={430|430x|430xv2} - select microcontroller architecture\n"
 msgstr ""
 
 #: config/tc-msp430.c:1607
 #, c-format
-msgid ""
-"  -msilicon-errata=<name>[,<name>...] - enable fixups for silicon errata\n"
-"  -msilicon-errata-warn=<name>[,<name>...] - warn when a fixup might be "
-"needed\n"
+msgid "  -msilicon-errata=<name>[,<name>...] - enable fixups for silicon errata\n"
+"  -msilicon-errata-warn=<name>[,<name>...] - warn when a fixup might be needed\n"
 "   supported errata names: cpu4, cpu8, cpu11, cpu12, cpu13, cpu19\n"
 msgstr ""
 
 #: config/tc-msp430.c:1611
 #, c-format
-msgid ""
-"  -mQ - enable relaxation at assembly time. DANGEROUS!\n"
+msgid "  -mQ - enable relaxation at assembly time. DANGEROUS!\n"
 "  -mP - enable polymorph instructions\n"
 msgstr ""
 
@@ -12795,8 +12527,7 @@ msgstr ""
 
 #: config/tc-msp430.c:1626
 #, c-format
-msgid ""
-"  -mdata-region={none|lower|upper|either} - select region data will be\n"
+msgid "  -mdata-region={none|lower|upper|either} - select region data will be\n"
 "    placed in.\n"
 msgstr ""
 
@@ -12829,8 +12560,7 @@ msgstr ""
 
 #: config/tc-msp430.c:1911
 #, c-format
-msgid ""
-"unknown expression in operand %s.  Use #llo(), #lhi(), #hlo() or #hhi()"
+msgid "unknown expression in operand %s.  Use #llo(), #lhi(), #hlo() or #hhi()"
 msgstr ""
 
 #: config/tc-msp430.c:1962
@@ -12966,7 +12696,6 @@ msgstr ""
 msgid "instruction %s requires %d operand"
 msgid_plural "instruction %s requires %d operands"
 msgstr[0] ""
-msgstr[1] ""
 
 #: config/tc-msp430.c:2622
 #, c-format
@@ -13136,17 +12865,17 @@ msgstr ""
 #: config/tc-mt.c:152
 #, c-format
 msgid "  -march=ms1-64-001         allow ms1-64-001 instructions\n"
-msgstr "  -march=ms1-64-001         允许 ms1-64-001 指令\n"
+msgstr ""
 
 #: config/tc-mt.c:153
 #, c-format
 msgid "  -march=ms1-16-002         allow ms1-16-002 instructions (default)\n"
-msgstr "  -march=ms1-64-002         允许 ms1-64-002 指令 (默认)\n"
+msgstr ""
 
 #: config/tc-mt.c:154
 #, c-format
 msgid "  -march=ms1-16-003         allow ms1-16-003 instructions\n"
-msgstr "  -march=ms1-64-001         允许 ms1-64-003 指令\n"
+msgstr ""
 
 #: config/tc-mt.c:155
 #, c-format
@@ -13185,9 +12914,7 @@ msgstr ""
 
 #: config/tc-mt.c:281 config/tc-mt.c:286
 #, c-format
-msgid ""
-"conditional branch or jal insn's operand references R%ld of previous "
-"arithmetic or logic insn."
+msgid "conditional branch or jal insn's operand references R%ld of previous arithmetic or logic insn."
 msgstr ""
 
 #: config/tc-mt.c:349
@@ -13195,21 +12922,18 @@ msgid "md_estimate_size_before_relax\n"
 msgstr ""
 
 #: config/tc-nds32.c:1934
-msgid ""
-"<arch name>\t  Assemble for architecture <arch name>\n"
+msgid "<arch name>\t  Assemble for architecture <arch name>\n"
 "\t\t\t  <arch name> could be\n"
 "\t\t\t  v3, v3j, v3m, v3f, v3s, v2, v2j, v2f, v2s"
 msgstr ""
 
 #: config/tc-nds32.c:1938
-msgid ""
-"<baseline>\t  Assemble for baseline <baseline>\n"
+msgid "<baseline>\t  Assemble for baseline <baseline>\n"
 "\t\t\t  <baseline> could be v2, v3, v3m"
 msgstr ""
 
 #: config/tc-nds32.c:1941
-msgid ""
-"<freg>\t  Specify a FPU configuration\n"
+msgid "<freg>\t  Specify a FPU configuration\n"
 "\t\t\t  <freg>\n"
 "\t\t\t  0:     8 SP /  4 DP registers\n"
 "\t\t\t  1:    16 SP /  8 DP registers\n"
@@ -13218,8 +12942,7 @@ msgid ""
 msgstr ""
 
 #: config/tc-nds32.c:1947
-msgid ""
-"<abi>\t          Specify a abi version\n"
+msgid "<abi>\t          Specify a abi version\n"
 "\t\t\t  <abi> could be v1, v2, v2fp, v2fpp"
 msgstr ""
 
@@ -13281,22 +13004,19 @@ msgstr ""
 
 #: config/tc-nds32.c:2026
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 " NDS32-specific assembler options:\n"
 msgstr ""
 
 #: config/tc-nds32.c:2027
 #, c-format
-msgid ""
-"  -O1,\t\t\t  Optimize for performance\n"
+msgid "  -O1,\t\t\t  Optimize for performance\n"
 "  -Os\t\t\t  Optimize for space\n"
 msgstr ""
 
 #: config/tc-nds32.c:2030
 #, c-format
-msgid ""
-"  -EL, -mel or -little    Produce little endian output\n"
+msgid "  -EL, -mel or -little    Produce little endian output\n"
 "  -EB, -meb or -big       Produce big endian output\n"
 "  -mpic\t\t\t  Generate PIC\n"
 "  -mno-fp-as-gp-relax\t  Suppress fp-as-gp relaxation for this file\n"
@@ -13654,23 +13374,18 @@ msgid "invalid register %s"
 msgstr ""
 
 #: config/tc-nios2.c:1540
-msgid ""
-"Register at (r1) can sometimes be corrupted by assembler optimizations.\n"
+msgid "Register at (r1) can sometimes be corrupted by assembler optimizations.\n"
 "Use .set noat to turn off those optimizations (and this warning)."
 msgstr ""
 
 #: config/tc-nios2.c:1545
-msgid ""
-"The debugger will corrupt bt (r25).\n"
-"If you don't need to debug this code use .set nobreak to turn off this "
-"warning."
+msgid "The debugger will corrupt bt (r25).\n"
+"If you don't need to debug this code use .set nobreak to turn off this warning."
 msgstr ""
 
 #: config/tc-nios2.c:1549
-msgid ""
-"The debugger will corrupt sstatus/ba (r30).\n"
-"If you don't need to debug this code use .set nobreak to turn off this "
-"warning."
+msgid "The debugger will corrupt sstatus/ba (r30).\n"
+"If you don't need to debug this code use .set nobreak to turn off this warning."
 msgstr ""
 
 #: config/tc-nios2.c:1939 config/tc-nios2.c:1967
@@ -13696,7 +13411,7 @@ msgstr ""
 #: config/tc-nios2.c:3110 config/tc-nios2.c:3137 config/tc-pru.c:1406
 #: config/tc-pru.c:1431 config/tc-xtensa.c:2108
 msgid "too many arguments"
-msgstr "实参太多"
+msgstr ""
 
 #: config/tc-nios2.c:3126 config/tc-pru.c:1383
 #, c-format
@@ -13915,8 +13630,7 @@ msgstr ""
 
 #: config/tc-ns32k.c:2173
 #, c-format
-msgid ""
-"NS32K options:\n"
+msgid "NS32K options:\n"
 "-m32032 | -m32532\tselect variant of NS32K architecture\n"
 "--disp-size-default=<1|2|4>\n"
 msgstr ""
@@ -13929,7 +13643,7 @@ msgstr ""
 #: config/tc-pdp11.c:336 config/tc-pdp11.c:354 config/tc-pdp11.c:379
 #: config/tc-pdp11.c:385 config/tc-pdp11.c:398
 msgid "Bad register name"
-msgstr "错误的寄存器名"
+msgstr ""
 
 #: config/tc-pdp11.c:417 config/tc-pdp11.c:481 config/tc-pdp11.c:492
 msgid "Error in expression"
@@ -14015,12 +13729,11 @@ msgstr ""
 
 #: config/tc-pj.c:289
 msgid "expected expression"
-msgstr "需要表达式"
+msgstr ""
 
 #: config/tc-pj.c:355
 #, c-format
-msgid ""
-"PJ options:\n"
+msgid "PJ options:\n"
 "-little\t\t\tgenerate little endian code\n"
 "-big\t\t\tgenerate big endian code\n"
 msgstr ""
@@ -14059,8 +13772,7 @@ msgstr ""
 
 #: config/tc-ppc.c:1326
 #, c-format
-msgid ""
-"PowerPC options:\n"
+msgid "PowerPC options:\n"
 "-a32                    generate ELF32/XCOFF32\n"
 "-a64                    generate ELF64/XCOFF64\n"
 "-u                      ignored\n"
@@ -14083,10 +13795,8 @@ msgstr ""
 
 #: config/tc-ppc.c:1345
 #, c-format
-msgid ""
-"-mppc64, -m620          generate code for PowerPC 620/625/630\n"
-"-mppc64bridge           generate code for PowerPC 64, including bridge "
-"insns\n"
+msgid "-mppc64, -m620          generate code for PowerPC 620/625/630\n"
+"-mppc64bridge           generate code for PowerPC 64, including bridge insns\n"
 "-mbooke                 generate code for 32-bit PowerPC BookE\n"
 "-ma2                    generate code for A2 architecture\n"
 "-mpower4, -mpwr4        generate code for Power4 architecture\n"
@@ -14096,16 +13806,14 @@ msgid ""
 "-mpower7, -mpwr7        generate code for Power7 architecture\n"
 "-mpower8, -mpwr8        generate code for Power8 architecture\n"
 "-mpower9, -mpwr9        generate code for Power9 architecture\n"
-"-mcell                  generate code for Cell Broadband Engine "
-"architecture\n"
+"-mcell                  generate code for Cell Broadband Engine architecture\n"
 "-mcom                   generate code for Power/PowerPC common instructions\n"
 "-many                   generate code for any architecture (PWR/PWRX/PPC)\n"
 msgstr ""
 
 #: config/tc-ppc.c:1360
 #, c-format
-msgid ""
-"-maltivec               generate code for AltiVec\n"
+msgid "-maltivec               generate code for AltiVec\n"
 "-mvsx                   generate code for Vector-Scalar (VSX) instructions\n"
 "-me300                  generate code for PowerPC e300 family\n"
 "-me500, -me500x2        generate code for Motorola e500 core complex\n"
@@ -14123,8 +13831,7 @@ msgstr ""
 
 #: config/tc-ppc.c:1376
 #, c-format
-msgid ""
-"-mrelocatable           support for GCC's -mrelocatble option\n"
+msgid "-mrelocatable           support for GCC's -mrelocatble option\n"
 "-mrelocatable-lib       support for GCC's -mrelocatble-lib option\n"
 "-memb                   set PPC_EMB bit in ELF flags\n"
 "-mlittle, -mlittle-endian, -le\n"
@@ -14140,8 +13847,7 @@ msgstr ""
 
 #: config/tc-ppc.c:1390
 #, c-format
-msgid ""
-"-nops=count             when aligning, more than COUNT nops uses a branch\n"
+msgid "-nops=count             when aligning, more than COUNT nops uses a branch\n"
 "-ppc476-workaround      warn if emitting data to code sections\n"
 msgstr ""
 
@@ -14597,8 +14303,7 @@ msgstr ""
 
 #: config/tc-pru.c:1537
 #, c-format
-msgid ""
-"PRU options:\n"
+msgid "PRU options:\n"
 "  -mlink-relax     generate relocations for linker relaxation (default).\n"
 "  -mno-link-relax  don't generate relocations for linker relaxation.\n"
 msgstr ""
@@ -14717,9 +14422,7 @@ msgid "lui expression not in range 0..1048575"
 msgstr ""
 
 #: config/tc-riscv.c:2034
-msgid ""
-"bad value for opcode field, value must be 0...127 and lower 2 bits must be "
-"0x3"
+msgid "bad value for opcode field, value must be 0...127 and lower 2 bits must be 0x3"
 msgstr ""
 
 #: config/tc-riscv.c:2050
@@ -14784,8 +14487,7 @@ msgstr ""
 
 #: config/tc-riscv.c:2969
 #, c-format
-msgid ""
-"RISC-V options:\n"
+msgid "RISC-V options:\n"
 "  -fpic          generate position-independent code\n"
 "  -fno-pic       don't generate position-independent code (default)\n"
 "  -march=ISA     set the RISC-V architecture\n"
@@ -15041,9 +14743,7 @@ msgid "jump not 3..10 bytes away (is %d)"
 msgstr ""
 
 #: config/tc-rx.c:2662
-msgid ""
-"Use of an RX string instruction detected in a file being assembled without "
-"string instruction support"
+msgid "Use of an RX string instruction detected in a file being assembled without string instruction support"
 msgstr ""
 
 #: config/tc-s12z.c:341
@@ -15161,8 +14861,7 @@ msgstr ""
 
 #: config/tc-s390.c:474
 #, c-format
-msgid ""
-"        S390 options:\n"
+msgid "        S390 options:\n"
 "        -mregnames        Allow symbolic names for registers\n"
 "        -mwarn-areg-zero  Warn about zero base/index registers\n"
 "        -mno-regnames     Do not allow symbolic names for registers\n"
@@ -15172,8 +14871,7 @@ msgstr ""
 
 #: config/tc-s390.c:481
 #, c-format
-msgid ""
-"        -V                print assembler version number\n"
+msgid "        -V                print assembler version number\n"
 "        -Qy, -Qn          ignored\n"
 msgstr ""
 
@@ -15234,9 +14932,7 @@ msgid "odd numbered general purpose register specified as register pair"
 msgstr ""
 
 #: config/tc-s390.c:1353
-msgid ""
-"invalid floating point register pair.  Valid fp register pair operands are "
-"0, 1, 4, 5, 8, 9, 12 or 13."
+msgid "invalid floating point register pair.  Valid fp register pair operands are 0, 1, 4, 5, 8, 9, 12 or 13."
 msgstr ""
 
 #: config/tc-s390.c:1442
@@ -15448,8 +15144,7 @@ msgid "invalid constant: 32 bit expression not in range [0, 0xffffffff]"
 msgstr ""
 
 #: config/tc-score.c:3594
-msgid ""
-"invalid constant: 32 bit expression not in range [-0x80000000, 0x7fffffff]"
+msgid "invalid constant: 32 bit expression not in range [-0x80000000, 0x7fffffff]"
 msgstr ""
 
 #: config/tc-score.c:3783 config/tc-score.c:3811
@@ -15507,8 +15202,7 @@ msgid "end on line error"
 msgstr ""
 
 #: config/tc-score.c:5204
-msgid ""
-"invalid constant: 25 bit expression not in range [-16777216, 16777215]"
+msgid "invalid constant: 25 bit expression not in range [-16777216, 16777215]"
 msgstr ""
 
 #: config/tc-score.c:5231
@@ -15615,9 +15309,7 @@ msgstr ""
 
 #: config/tc-score.c:7812
 #, c-format
-msgid ""
-"        -NWARN\t\tdo not print warning message when fixing data "
-"dependencies\n"
+msgid "        -NWARN\t\tdo not print warning message when fixing data dependencies\n"
 msgstr ""
 
 #: config/tc-score.c:7814
@@ -15652,9 +15344,7 @@ msgstr ""
 
 #: config/tc-score.c:7826
 #, c-format
-msgid ""
-"        -USE_R1\t\tassemble code for no warning message when using temp "
-"register r1\n"
+msgid "        -USE_R1\t\tassemble code for no warning message when using temp register r1\n"
 msgstr ""
 
 #: config/tc-score.c:7828
@@ -15669,8 +15359,7 @@ msgstr ""
 
 #: config/tc-score.c:7832
 #, c-format
-msgid ""
-"        -G gpnum\tassemble code for setting gpsize, default is 8 bytes\n"
+msgid "        -G gpnum\tassemble code for setting gpsize, default is 8 bytes\n"
 msgstr ""
 
 #: config/tc-score.c:7834
@@ -15849,8 +15538,7 @@ msgstr ""
 
 #: config/tc-sh.c:3331
 #, c-format
-msgid ""
-"SH options:\n"
+msgid "SH options:\n"
 "--little\t\tgenerate little endian code\n"
 "--big\t\t\tgenerate big endian code\n"
 "--relax\t\t\talter jump instructions for long displacements\n"
@@ -15952,8 +15640,7 @@ msgstr ""
 
 #: config/tc-sparc.c:724
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "\t\t\tspecify variant of SPARC architecture\n"
 "-bump\t\t\twarn when assembler switches architectures\n"
 "-sparc\t\t\tignored\n"
@@ -15964,8 +15651,7 @@ msgstr ""
 
 #: config/tc-sparc.c:736
 #, c-format
-msgid ""
-"-32\t\t\tcreate 32 bit object file\n"
+msgid "-32\t\t\tcreate 32 bit object file\n"
 "-64\t\t\tcreate 64 bit object file\n"
 msgstr ""
 
@@ -15976,8 +15662,7 @@ msgstr ""
 
 #: config/tc-sparc.c:741
 #, c-format
-msgid ""
-"-TSO\t\t\tuse Total Store Ordering\n"
+msgid "-TSO\t\t\tuse Total Store Ordering\n"
 "-PSO\t\t\tuse Partial Store Ordering\n"
 "-RMO\t\t\tuse Relaxed Memory Ordering\n"
 msgstr ""
@@ -15989,8 +15674,7 @@ msgstr ""
 
 #: config/tc-sparc.c:747
 #, c-format
-msgid ""
-"-KPIC\t\t\tgenerate PIC\n"
+msgid "-KPIC\t\t\tgenerate PIC\n"
 "-V\t\t\tprint assembler version number\n"
 "-undeclared-regs\tignore application global register usage without\n"
 "\t\t\tappropriate .register directive (default)\n"
@@ -16004,8 +15688,7 @@ msgstr ""
 
 #: config/tc-sparc.c:760
 #, c-format
-msgid ""
-"-EL\t\t\tgenerate code for a little endian machine\n"
+msgid "-EL\t\t\tgenerate code for a little endian machine\n"
 "-EB\t\t\tgenerate code for a big endian machine\n"
 "--little-endian-data\tgenerate code for a machine having big endian\n"
 "                        instructions and little endian data.\n"
@@ -16130,9 +15813,7 @@ msgstr ""
 
 #: config/tc-sparc.c:2306
 #, c-format
-msgid ""
-"Illegal operands: %%%s cannot be used together with other relocs in the insn "
-"()"
+msgid "Illegal operands: %%%s cannot be used together with other relocs in the insn ()"
 msgstr ""
 
 #: config/tc-sparc.c:2317
@@ -16167,8 +15848,7 @@ msgstr ""
 
 #: config/tc-sparc.c:2818
 #, c-format
-msgid ""
-"Illegal operands: Can't do arithmetics other than + and - involving %%%s()"
+msgid "Illegal operands: Can't do arithmetics other than + and - involving %%%s()"
 msgstr ""
 
 #: config/tc-sparc.c:2935
@@ -16178,9 +15858,7 @@ msgstr ""
 
 #: config/tc-sparc.c:2945
 #, c-format
-msgid ""
-"Illegal operands: Can't do arithmetics involving %%%s() of a relocatable "
-"symbol"
+msgid "Illegal operands: Can't do arithmetics involving %%%s() of a relocatable symbol"
 msgstr ""
 
 #: config/tc-sparc.c:2963
@@ -16361,8 +16039,7 @@ msgid "Can't hash instruction '%s':%s"
 msgstr ""
 
 #: config/tc-spu.c:184
-msgid ""
-"SPU options:\n"
+msgid "SPU options:\n"
 "  --apuasm\t\t  emulate behaviour of apuasm\n"
 msgstr ""
 
@@ -16836,8 +16513,7 @@ msgstr ""
 
 #: config/tc-tic4x.c:2772
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "TIC4X options:\n"
 "  -mcpu=CPU  -mCPU        select architecture variant. CPU can be:\n"
 "                            30 - TMS320C30\n"
@@ -16847,8 +16523,7 @@ msgid ""
 "                            40 - TMS320C40\n"
 "                            44 - TMS320C44\n"
 "  -mrev=REV               set cpu hardware revision (integer numbers).\n"
-"                          Combinations of -mcpu and -mrev will "
-"enable/disable\n"
+"                          Combinations of -mcpu and -mrev will enable/disable\n"
 "                          the appropriate options (-midle2, -mlowpower and\n"
 "                          -menhanced) according to the selected type\n"
 "  -mbig                   select big memory model\n"
@@ -17117,8 +16792,7 @@ msgstr ""
 
 #: config/tc-tic54x.c:3503
 #, c-format
-msgid ""
-"Use the .mmregs directive to use memory-mapped register names such as '%s'"
+msgid "Use the .mmregs directive to use memory-mapped register names such as '%s'"
 msgstr ""
 
 #: config/tc-tic54x.c:3554
@@ -17151,8 +16825,7 @@ msgstr ""
 
 #: config/tc-tic54x.c:3676
 #, c-format
-msgid ""
-"Condition \"%s\" uses a different accumulator from a preceding condition"
+msgid "Condition \"%s\" uses a different accumulator from a preceding condition"
 msgstr ""
 
 #: config/tc-tic54x.c:3683
@@ -17177,15 +16850,11 @@ msgid "lk addressing modes are invalid for memory-mapped register addressing"
 msgstr ""
 
 #: config/tc-tic54x.c:3766
-msgid ""
-"Address mode *+ARx is not allowed in memory-mapped register addressing.  "
-"Resulting behavior is undefined."
+msgid "Address mode *+ARx is not allowed in memory-mapped register addressing.  Resulting behavior is undefined."
 msgstr ""
 
 #: config/tc-tic54x.c:3792
-msgid ""
-"Destination accumulator for each part of this parallel instruction must be "
-"different"
+msgid "Destination accumulator for each part of this parallel instruction must be different"
 msgstr ""
 
 #: config/tc-tic54x.c:3841
@@ -17294,14 +16963,9 @@ msgstr ""
 
 #: config/tc-tic54x.c:4846
 #, c-format
-msgid ""
-"Instruction does not fit in available delay slots (%d-word insn, %d slot "
-"left)"
-msgid_plural ""
-"Instruction does not fit in available delay slots (%d-word insn, %d slots "
-"left)"
+msgid "Instruction does not fit in available delay slots (%d-word insn, %d slot left)"
+msgid_plural "Instruction does not fit in available delay slots (%d-word insn, %d slots left)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: config/tc-tic54x.c:4890
 #, c-format
@@ -17320,19 +16984,12 @@ msgstr ""
 
 #: config/tc-tic54x.c:4921
 #, c-format
-msgid ""
-"Instruction does not fit in available delay slots (%d-word insn, %d slot "
-"left). Resulting behavior is undefined."
-msgid_plural ""
-"Instruction does not fit in available delay slots (%d-word insn, %d slots "
-"left). Resulting behavior is undefined."
+msgid "Instruction does not fit in available delay slots (%d-word insn, %d slot left). Resulting behavior is undefined."
+msgid_plural "Instruction does not fit in available delay slots (%d-word insn, %d slots left). Resulting behavior is undefined."
 msgstr[0] ""
-msgstr[1] ""
 
 #: config/tc-tic54x.c:4935
-msgid ""
-"Instructions which cause PC discontinuity are not allowed in a delay slot. "
-"Resulting behavior is undefined."
+msgid "Instructions which cause PC discontinuity are not allowed in a delay slot. Resulting behavior is undefined."
 msgstr ""
 
 #: config/tc-tic54x.c:4946
@@ -17341,9 +16998,7 @@ msgid "'%s' is not repeatable. Resulting behavior is undefined."
 msgstr ""
 
 #: config/tc-tic54x.c:4950
-msgid ""
-"Instructions using long offset modifiers or absolute addresses are not "
-"repeatable. Resulting behavior is undefined."
+msgid "Instructions using long offset modifiers or absolute addresses are not repeatable. Resulting behavior is undefined."
 msgstr ""
 
 #: config/tc-tic54x.c:5100
@@ -17377,8 +17032,7 @@ msgstr ""
 
 #: config/tc-tic6x.c:321
 #, c-format
-msgid ""
-"  -march=ARCH             enable instructions from architecture ARCH\n"
+msgid "  -march=ARCH             enable instructions from architecture ARCH\n"
 msgstr ""
 
 #: config/tc-tic6x.c:322
@@ -17403,21 +17057,18 @@ msgstr ""
 
 #: config/tc-tic6x.c:326
 #, c-format
-msgid ""
-"  -mpid=no                code uses position-dependent data addressing\n"
+msgid "  -mpid=no                code uses position-dependent data addressing\n"
 msgstr ""
 
 #: config/tc-tic6x.c:327
 #, c-format
-msgid ""
-"  -mpid=near              code uses position-independent data addressing,\n"
+msgid "  -mpid=near              code uses position-independent data addressing,\n"
 "                            GOT accesses use near DP addressing\n"
 msgstr ""
 
 #: config/tc-tic6x.c:329
 #, c-format
-msgid ""
-"  -mpid=far               code uses position-independent data addressing,\n"
+msgid "  -mpid=far               code uses position-independent data addressing,\n"
 "                            GOT accesses use far DP addressing\n"
 msgstr ""
 
@@ -17646,9 +17297,7 @@ msgstr ""
 
 #: config/tc-tic6x.c:3350
 #, c-format
-msgid ""
-"'%.*s' instruction not supported on this functional unit for this "
-"architecture"
+msgid "'%.*s' instruction not supported on this functional unit for this architecture"
 msgstr ""
 
 #: config/tc-tic6x.c:3370
@@ -17835,8 +17484,7 @@ msgstr ""
 
 #: config/tc-tilegx.c:142
 #, c-format
-msgid ""
-"  -Q                      ignored\n"
+msgid "  -Q                      ignored\n"
 "  -V                      print assembler version number\n"
 "  -EB/-EL                 generate big-endian/little-endian code\n"
 "  --32/--64               generate 32bit/64bit code\n"
@@ -17857,9 +17505,7 @@ msgstr ""
 
 #: config/tc-tilegx.c:849 config/tc-tilepro.c:740
 #, c-format
-msgid ""
-"Two instructions in the same bundle both write to register %s, which is not "
-"allowed."
+msgid "Two instructions in the same bundle both write to register %s, which is not allowed."
 msgstr ""
 
 #: config/tc-tilegx.c:914 config/tc-tilepro.c:804
@@ -17936,12 +17582,9 @@ msgstr ""
 
 #: config/tc-tilepro.c:99
 #, c-format
-msgid ""
-"  -Q                      ignored\n"
+msgid "  -Q                      ignored\n"
 "  -V                      print assembler version number\n"
 msgstr ""
-"  -Q                      此项忽略\n"
-"  -V                      打印汇编器版本号\n"
 
 #: config/tc-v850.c:294
 #, c-format
@@ -18009,14 +17652,12 @@ msgstr ""
 
 #: config/tc-v850.c:1541
 #, c-format
-msgid ""
-"  -mwarn-signed-overflow    Warn if signed immediate values overflow\n"
+msgid "  -mwarn-signed-overflow    Warn if signed immediate values overflow\n"
 msgstr ""
 
 #: config/tc-v850.c:1542
 #, c-format
-msgid ""
-"  -mwarn-unsigned-overflow  Warn if unsigned immediate values overflow\n"
+msgid "  -mwarn-unsigned-overflow  Warn if unsigned immediate values overflow\n"
 msgstr ""
 
 #: config/tc-v850.c:1543
@@ -18061,16 +17702,12 @@ msgstr ""
 
 #: config/tc-v850.c:1551
 #, c-format
-msgid ""
-"  --disp-size-default-22    branch displacement with unknown size is 22 bits "
-"(default)\n"
+msgid "  --disp-size-default-22    branch displacement with unknown size is 22 bits (default)\n"
 msgstr ""
 
 #: config/tc-v850.c:1552
 #, c-format
-msgid ""
-"  --disp-size-default-32    branch displacement with unknown size is 32 "
-"bits\n"
+msgid "  --disp-size-default-32    branch displacement with unknown size is 32 bits\n"
 msgstr ""
 
 #: config/tc-v850.c:1553
@@ -18090,42 +17727,32 @@ msgstr ""
 
 #: config/tc-v850.c:1556
 #, c-format
-msgid ""
-"  -mgcc-abi                 Mark the binary as using the old GCC ABI\n"
+msgid "  -mgcc-abi                 Mark the binary as using the old GCC ABI\n"
 msgstr ""
 
 #: config/tc-v850.c:1557
 #, c-format
-msgid ""
-"  -mrh850-abi               Mark the binary as using the RH850 ABI "
-"(default)\n"
+msgid "  -mrh850-abi               Mark the binary as using the RH850 ABI (default)\n"
 msgstr ""
 
 #: config/tc-v850.c:1558
 #, c-format
-msgid ""
-"  -m8byte-align             Mark the binary as using 64-bit alignment\n"
+msgid "  -m8byte-align             Mark the binary as using 64-bit alignment\n"
 msgstr ""
 
 #: config/tc-v850.c:1559
 #, c-format
-msgid ""
-"  -m4byte-align             Mark the binary as using 32-bit alignment "
-"(default)\n"
+msgid "  -m4byte-align             Mark the binary as using 32-bit alignment (default)\n"
 msgstr ""
 
 #: config/tc-v850.c:1560
 #, c-format
-msgid ""
-"  -msoft-float              Mark the binary as not using FP insns (default "
-"for pre e2v3)\n"
+msgid "  -msoft-float              Mark the binary as not using FP insns (default for pre e2v3)\n"
 msgstr ""
 
 #: config/tc-v850.c:1561
 #, c-format
-msgid ""
-"  -mhard-float              Mark the binary as using FP insns (default for "
-"e2v3 and up)\n"
+msgid "  -mhard-float              Mark the binary as using FP insns (default for e2v3 and up)\n"
 msgstr ""
 
 #: config/tc-v850.c:1949
@@ -18200,7 +17827,7 @@ msgstr ""
 
 #: config/tc-v850.c:2760
 msgid "invalid register name"
-msgstr "无效寄存器名"
+msgstr ""
 
 #: config/tc-v850.c:2766
 msgid "register r0 cannot be used here"
@@ -18430,8 +18057,7 @@ msgstr ""
 
 #: config/tc-vax.c:2293
 #, c-format
-msgid ""
-"VAX options:\n"
+msgid "VAX options:\n"
 "-d LENGTH\t\tignored\n"
 "-J\t\t\tignored\n"
 "-S\t\t\tignored\n"
@@ -18442,8 +18068,7 @@ msgstr ""
 
 #: config/tc-vax.c:2302
 #, c-format
-msgid ""
-"VMS options:\n"
+msgid "VMS options:\n"
 "-+\t\t\thash encode names longer than 31 characters\n"
 "-1\t\t\t`const' handling compatible with gcc 1.x\n"
 "-H\t\t\tshow new symbol after hash truncation\n"
@@ -18605,8 +18230,7 @@ msgstr ""
 
 #: config/tc-xgate.c:370
 #, c-format
-msgid ""
-"Freescale XGATE co-processor options:\n"
+msgid "Freescale XGATE co-processor options:\n"
 "  -mshort                 use 16-bit int ABI (default)\n"
 "  -mlong                  use 32-bit int ABI\n"
 "  -mshort-double          use 32-bit double ABI\n"
@@ -18674,8 +18298,7 @@ msgid ":operand value(%d) too big for constraint"
 msgstr ""
 
 #: config/tc-xgate.c:1302
-msgid ""
-"you must use a hi/lo directive or 16-bit macro to load a 16-bit value."
+msgid "you must use a hi/lo directive or 16-bit macro to load a 16-bit value."
 msgstr ""
 
 #: config/tc-xgate.c:1315
@@ -18930,7 +18553,6 @@ msgstr ""
 msgid "found %d operand for '%s':  Expected %d"
 msgid_plural "found %d operands for '%s':  Expected %d"
 msgstr[0] ""
-msgstr[1] ""
 
 #: config/tc-xtensa.c:4052
 msgid "immediate operands sum to greater than 32"
@@ -19111,8 +18733,7 @@ msgstr ""
 
 #: config/tc-xtensa.c:6573
 #, c-format
-msgid ""
-"opcodes '%s' (slot %d) and '%s' (slot %d) both have volatile port accesses"
+msgid "opcodes '%s' (slot %d) and '%s' (slot %d) both have volatile port accesses"
 msgstr ""
 
 #: config/tc-xtensa.c:6589
@@ -19128,8 +18749,7 @@ msgid "..."
 msgstr ""
 
 #: config/tc-xtensa.c:8255
-msgid ""
-"instruction sequence (write a0, branch, retw) may trigger hardware errata"
+msgid "instruction sequence (write a0, branch, retw) may trigger hardware errata"
 msgstr ""
 
 #: config/tc-xtensa.c:8367
@@ -19146,8 +18766,7 @@ msgid "fr_var %lu < length %d"
 msgstr ""
 
 #: config/tc-xtensa.c:8615
-msgid ""
-"loop containing less than three instructions may trigger hardware errata"
+msgid "loop containing less than three instructions may trigger hardware errata"
 msgstr ""
 
 #: config/tc-xtensa.c:8687
@@ -19214,9 +18833,7 @@ msgid "loop too long for LOOP instruction"
 msgstr ""
 
 #: config/tc-xtensa.c:11327 config/tc-xtensa.c:11567
-msgid ""
-"literal pool location required for text-section-literals; specify with "
-".literal_position"
+msgid "literal pool location required for text-section-literals; specify with .literal_position"
 msgstr ""
 
 #: config/tc-xtensa.c:11436
@@ -19461,8 +19078,7 @@ msgstr ""
 
 #: config/tc-z8k.c:1344
 #, c-format
-msgid ""
-" Z8K options:\n"
+msgid " Z8K options:\n"
 "  -z8001                  generate segmented code\n"
 "  -z8002                  generate unsegmented code\n"
 "  -linkrelax              create linker relaxable code\n"
@@ -19523,7 +19139,6 @@ msgstr ""
 msgid "opcode '%s': replacement does not have %d op"
 msgid_plural "opcode '%s': replacement does not have %d ops"
 msgstr[0] ""
-msgstr[1] ""
 
 #: config/xtensa-relax.c:1783
 #, c-format
@@ -19895,8 +19510,7 @@ msgstr ""
 
 #: ecoff.c:3484
 #, c-format
-msgid ""
-"line number (%d) for .stab%c directive cannot fit in index field (20 bits)"
+msgid "line number (%d) for .stab%c directive cannot fit in index field (20 bits)"
 msgstr ""
 
 #: ecoff.c:3518
@@ -19934,8 +19548,7 @@ msgid "bad floating-point constant: unknown error code=%d"
 msgstr ""
 
 #: expr.c:396
-msgid ""
-"a bignum with underscores may not have more than 8 hex digits in any word"
+msgid "a bignum with underscores may not have more than 8 hex digits in any word"
 msgstr ""
 
 #: expr.c:419
@@ -20004,7 +19617,7 @@ msgstr ""
 
 #: expr.c:1947 symbols.c:1396
 msgid "division by zero"
-msgstr "被零除"
+msgstr ""
 
 #: expr.c:1953
 msgid "shift count"
@@ -20031,7 +19644,6 @@ msgstr ""
 msgid "can't extend frag %lu char"
 msgid_plural "can't extend frag %lu chars"
 msgstr[0] ""
-msgstr[1] ""
 
 #. For error messages.
 #. Detect if we are reading from stdin by examining the file
@@ -20075,11 +19687,11 @@ msgstr ""
 
 #: listing.c:253 messages.c:165 messages.c:167 messages.c:170
 msgid "Warning: "
-msgstr "警告： "
+msgstr ""
 
 #: listing.c:259 messages.c:230 messages.c:232 messages.c:235
 msgid "Error: "
-msgstr "错误： "
+msgstr ""
 
 #: listing.c:625
 #, c-format
@@ -20088,10 +19700,8 @@ msgstr ""
 
 #: listing.c:1329
 #, c-format
-msgid ""
-"\n"
-" time stamp    \t: %s\n"
-"\n"
+msgid "\n"
+" time stamp    \t: %s\n\n"
 msgstr ""
 
 #: listing.c:1339
@@ -20101,42 +19711,36 @@ msgstr ""
 
 #: listing.c:1344
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "\t%s "
 msgstr ""
 
 #: listing.c:1354
-msgid ""
-"\n"
+msgid "\n"
 " options passed\t: "
 msgstr ""
 
 #: listing.c:1393
 #, c-format
-msgid ""
-" GNU assembler version %s (%s)\n"
+msgid " GNU assembler version %s (%s)\n"
 "\t using BFD version %s."
 msgstr ""
 
 #: listing.c:1396
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 " input file    \t: %s"
 msgstr ""
 
 #: listing.c:1397
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 " output file   \t: %s"
 msgstr ""
 
 #: listing.c:1398
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 " target        \t: %s"
 msgstr ""
 
@@ -20210,7 +19814,7 @@ msgstr ""
 
 #: macro.c:837 macro.c:839
 msgid "missing `)'"
-msgstr "缺少‘)’"
+msgstr ""
 
 #: macro.c:936
 #, c-format
@@ -20265,7 +19869,7 @@ msgstr ""
 #: messages.c:289
 #, c-format
 msgid "Fatal error: "
-msgstr "致命错误： "
+msgstr ""
 
 #: messages.c:310
 #, c-format
@@ -20285,7 +19889,7 @@ msgstr ""
 #: messages.c:316
 #, c-format
 msgid "Please report this bug.\n"
-msgstr "请报告该 BUG。\n"
+msgstr ""
 
 #: messages.c:400
 #, c-format
@@ -20329,14 +19933,12 @@ msgstr ""
 
 #: read.c:718
 #, c-format
-msgid ""
-".bundle_lock sequence at %u bytes, but .bundle_align_mode limit is %u bytes"
+msgid ".bundle_lock sequence at %u bytes, but .bundle_align_mode limit is %u bytes"
 msgstr ""
 
 #: read.c:727
 #, c-format
-msgid ""
-"single instruction is %u bytes long, but .bundle_align_mode limit is %u bytes"
+msgid "single instruction is %u bytes long, but .bundle_align_mode limit is %u bytes"
 msgstr ""
 
 #: read.c:768 read.c:2811 read.c:3452
@@ -20618,7 +20220,6 @@ msgstr ""
 msgid "bignum truncated to %d byte"
 msgid_plural "bignum truncated to %d bytes"
 msgstr[0] ""
-msgstr[1] ""
 
 #: read.c:4832 read.c:5042
 msgid "unresolvable or nonpositive repeat count; using 1"
@@ -20717,7 +20318,7 @@ msgstr ""
 
 #: read.c:6120
 msgid "missing .func"
-msgstr "缺少 .func"
+msgstr ""
 
 #: read.c:6137
 msgid ".endfunc missing for previous .func"
@@ -20894,7 +20495,6 @@ msgstr ""
 msgid "value of %s too large for field of %d byte at %s"
 msgid_plural "value of %s too large for field of %d bytes at %s"
 msgstr[0] ""
-msgstr[1] ""
 
 #: write.c:1125
 #, c-format
@@ -20935,14 +20535,12 @@ msgstr ""
 msgid "can't write %ld byte to section %s of %s: '%s'"
 msgid_plural "can't write %ld bytes to section %s of %s: '%s'"
 msgstr[0] ""
-msgstr[1] ""
 
 #: write.c:1630 write.c:1666
 #, c-format
 msgid "can't fill %ld byte in section %s of %s: '%s'"
 msgid_plural "can't fill %ld bytes in section %s of %s: '%s'"
 msgstr[0] ""
-msgstr[1] ""
 
 #: write.c:1915
 msgid "unable to create reloc for build note"
@@ -20972,7 +20570,6 @@ msgstr ""
 msgid "alignment padding (%lu byte) not a multiple of %ld"
 msgid_plural "alignment padding (%lu bytes) not a multiple of %ld"
 msgstr[0] ""
-msgstr[1] ""
 
 #: write.c:2610
 #, c-format
@@ -20997,7 +20594,6 @@ msgstr ""
 
 #: write.c:2865
 #, c-format
-msgid ""
-"Infinite loop encountered whilst attempting to compute the addresses of "
-"symbols in section %s"
+msgid "Infinite loop encountered whilst attempting to compute the addresses of symbols in section %s"
 msgstr ""
+

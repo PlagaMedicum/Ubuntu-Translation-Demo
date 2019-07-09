@@ -1,23 +1,21 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2003 Free Software Foundation, Inc.
-# Ales Nyakhaychyk <nab@mail.by>, 2003.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: gnupg 1.2.2\n"
-"Report-Msgid-Bugs-To: translations@gnupg.org\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-12-14 15:07+0100\n"
-"PO-Revision-Date: 2016-02-15 18:23+0000\n"
-"Last-Translator: Alex Nehaichik <mail@l0gin.net>\n"
-"Language-Team: Belarusian <i18n@mova.org>\n"
+"PO-Revision-Date: 2019-07-08 16:48\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Launchpad-Export-Date: 2019-05-11 11:49+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: be\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/gnupg2.po\n"
+"Language: be_BY\n"
 
 #: agent/call-pinentry.c:309
 #, c-format
@@ -83,15 +81,11 @@ msgid "pinentry.qualitybar.tooltip"
 msgstr ""
 
 #: agent/call-pinentry.c:1002
-msgid ""
-"Please enter your PIN, so that the secret key can be unlocked for this "
-"session"
+msgid "Please enter your PIN, so that the secret key can be unlocked for this session"
 msgstr ""
 
 #: agent/call-pinentry.c:1005
-msgid ""
-"Please enter your passphrase, so that the secret key can be unlocked for "
-"this session"
+msgid "Please enter your passphrase, so that the secret key can be unlocked for this session"
 msgstr ""
 
 #: agent/call-pinentry.c:1042 agent/call-pinentry.c:1221
@@ -200,9 +194,7 @@ msgstr ""
 
 #: agent/command-ssh.c:2795
 #, c-format
-msgid ""
-"An ssh process requested the use of key%%0A  %s%%0A  (%s)%%0ADo you want to "
-"allow this?"
+msgid "An ssh process requested the use of key%%0A  %s%%0A  (%s)%%0ADo you want to allow this?"
 msgstr ""
 
 #: agent/command-ssh.c:2802
@@ -224,9 +216,7 @@ msgstr ""
 
 #: agent/command-ssh.c:3115
 #, c-format
-msgid ""
-"Please enter a passphrase to protect the received secret key%%0A   %s%%0A   "
-"%s%%0Awithin gpg-agent's key storage"
+msgid "Please enter a passphrase to protect the received secret key%%0A   %s%%0A   %s%%0Awithin gpg-agent's key storage"
 msgstr ""
 
 #: agent/command-ssh.c:3696
@@ -310,15 +300,12 @@ msgstr ""
 
 #: agent/genkey.c:202
 #, c-format
-msgid ""
-"You have not entered a passphrase!%0AAn empty passphrase is not allowed."
+msgid "You have not entered a passphrase!%0AAn empty passphrase is not allowed."
 msgstr ""
 
 #: agent/genkey.c:204
 #, c-format
-msgid ""
-"You have not entered a passphrase - this is in general a bad idea!%0APlease "
-"confirm that you do not want to have any protection on your key."
+msgid "You have not entered a passphrase - this is in general a bad idea!%0APlease confirm that you do not want to have any protection on your key."
 msgstr ""
 
 #: agent/genkey.c:216
@@ -331,15 +318,17 @@ msgid "A passphrase should be at least %u character long."
 msgid_plural "A passphrase should be at least %u characters long."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: agent/genkey.c:252
 #, c-format
-msgid ""
-"A passphrase should contain at least %u digit or%%0Aspecial character."
-msgid_plural ""
-"A passphrase should contain at least %u digits or%%0Aspecial characters."
+msgid "A passphrase should contain at least %u digit or%%0Aspecial character."
+msgid_plural "A passphrase should contain at least %u digits or%%0Aspecial characters."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: agent/genkey.c:278
 #, c-format
@@ -361,8 +350,7 @@ msgstr ""
 
 #: agent/gpg-agent.c:157 agent/preset-passphrase.c:73 scd/scdaemon.c:111
 #: tools/gpg-check-pattern.c:69
-msgid ""
-"@Options:\n"
+msgid "@Options:\n"
 " "
 msgstr ""
 
@@ -492,8 +480,7 @@ msgid "Usage: @GPG_AGENT@ [options] (-h for help)"
 msgstr ""
 
 #: agent/gpg-agent.c:527
-msgid ""
-"Syntax: @GPG_AGENT@ [options] [command [args]]\n"
+msgid "Syntax: @GPG_AGENT@ [options] [command [args]]\n"
 "Secret key management for @GNUPG@\n"
 msgstr ""
 
@@ -638,29 +625,24 @@ msgid "Usage: gpg-preset-passphrase [options] KEYGRIP (-h for help)\n"
 msgstr ""
 
 #: agent/preset-passphrase.c:103
-msgid ""
-"Syntax: gpg-preset-passphrase [options] KEYGRIP\n"
+msgid "Syntax: gpg-preset-passphrase [options] KEYGRIP\n"
 "Password cache maintenance\n"
 msgstr ""
 
 #: agent/protect-tool.c:106 g10/gpg.c:431 kbx/kbxutil.c:71 sm/gpgsm.c:200
 #: dirmngr/dirmngr.c:162 tools/gpgconf.c:73
-msgid ""
-"@Commands:\n"
+msgid "@Commands:\n"
 " "
-msgstr ""
-"@Загады:\n"
+msgstr "@Загады:\n"
 " "
 
 #: agent/protect-tool.c:115 g10/gpg.c:541 g10/gpgv.c:74 kbx/kbxutil.c:81
 #: sm/gpgsm.c:248 dirmngr/dirmngr.c:177 tools/gpg-connect-agent.c:75
 #: tools/gpgconf.c:98 tools/symcryptrun.c:171
-msgid ""
-"@\n"
+msgid "@\n"
 "Options:\n"
 " "
-msgstr ""
-"@\n"
+msgstr "@\n"
 "Выбары:\n"
 " "
 
@@ -669,8 +651,7 @@ msgid "Usage: gpg-protect-tool [options] (-h for help)\n"
 msgstr ""
 
 #: agent/protect-tool.c:156
-msgid ""
-"Syntax: gpg-protect-tool [options] [args]\n"
+msgid "Syntax: gpg-protect-tool [options] [args]\n"
 "Secret key maintenance tool\n"
 msgstr ""
 
@@ -683,14 +664,11 @@ msgid "Please enter the passphrase to protect the new PKCS#12 object."
 msgstr ""
 
 #: agent/protect-tool.c:704
-msgid ""
-"Please enter the passphrase to protect the imported object within the GnuPG "
-"system."
+msgid "Please enter the passphrase to protect the imported object within the GnuPG system."
 msgstr ""
 
 #: agent/protect-tool.c:709
-msgid ""
-"Please enter the passphrase or the PIN\n"
+msgid "Please enter the passphrase or the PIN\n"
 "needed to complete this operation."
 msgstr ""
 
@@ -755,9 +733,7 @@ msgstr ""
 #. certificate.
 #: agent/trustlist.c:664
 #, c-format
-msgid ""
-"Do you ultimately trust%%0A  \"%s\"%%0Ato correctly certify user "
-"certificates?"
+msgid "Do you ultimately trust%%0A  \"%s\"%%0Ato correctly certify user certificates?"
 msgstr ""
 
 #: agent/trustlist.c:673 common/audit.c:467
@@ -779,9 +755,7 @@ msgstr ""
 #. as stored in the certificate.
 #: agent/trustlist.c:707
 #, c-format
-msgid ""
-"Please verify that the certificate identified as:%%0A  \"%s\"%%0Ahas the "
-"fingerprint:%%0A  %s"
+msgid "Please verify that the certificate identified as:%%0A  \"%s\"%%0Ahas the fingerprint:%%0A  %s"
 msgstr ""
 
 #. TRANSLATORS: "Correct" is the label of a button and intended
@@ -802,9 +776,7 @@ msgstr ""
 
 #: agent/findkey.c:299
 #, c-format
-msgid ""
-"This passphrase has not been changed%%0Asince %.4s-%.2s-%.2s.  Please change "
-"it now."
+msgid "This passphrase has not been changed%%0Asince %.4s-%.2s-%.2s.  Please change it now."
 msgstr ""
 
 #: agent/findkey.c:313 agent/findkey.c:320
@@ -817,9 +789,7 @@ msgstr ""
 
 #: agent/findkey.c:1491
 #, c-format
-msgid ""
-"Do you really want to delete the key identified by keygrip%%0A  %s%%0A  "
-"%%C%%0A?"
+msgid "Do you really want to delete the key identified by keygrip%%0A  %s%%0A  %%C%%0A?"
 msgstr ""
 
 #: agent/findkey.c:1515 agent/findkey.c:1529
@@ -827,8 +797,7 @@ msgid "Delete key"
 msgstr ""
 
 #: agent/findkey.c:1526
-msgid ""
-"Warning: This key is also listed for use with SSH!\n"
+msgid "Warning: This key is also listed for use with SSH!\n"
 "Deleting the key might remove your ability to access remote machines."
 msgstr ""
 
@@ -964,7 +933,7 @@ msgstr ""
 
 #: common/yesno.c:46 common/yesno.c:87
 msgid "yY"
-msgstr "yY"
+msgstr ""
 
 #. TRANSLATORS: See doc/TRANSLATE about this string.
 #: common/yesno.c:48 common/yesno.c:84
@@ -973,7 +942,7 @@ msgstr "no [не]"
 
 #: common/yesno.c:49 common/yesno.c:88
 msgid "nN"
-msgstr "nN"
+msgstr ""
 
 #. TRANSLATORS: See doc/TRANSLATE about this string.
 #: common/yesno.c:86
@@ -982,7 +951,7 @@ msgstr "quit [выйсьці]"
 
 #: common/yesno.c:89
 msgid "qQ"
-msgstr "qQ"
+msgstr ""
 
 #. TRANSLATORS: See doc/TRANSLATE about this string.
 #: common/yesno.c:123
@@ -1468,8 +1437,7 @@ msgstr ""
 
 #: g10/armor.c:1314
 #, c-format
-msgid ""
-"quoted printable character in armor - probably a buggy MTA has been used\n"
+msgid "quoted printable character in armor - probably a buggy MTA has been used\n"
 msgstr ""
 
 #: g10/build-packet.c:1210
@@ -1479,9 +1447,7 @@ msgstr ""
 
 #: g10/build-packet.c:1262
 #, c-format
-msgid ""
-"a notation name must have only printable characters or spaces, and end with "
-"an '='\n"
+msgid "a notation name must have only printable characters or spaces, and end with an '='\n"
 msgstr ""
 
 #: g10/build-packet.c:1274 g10/build-packet.c:1370
@@ -1709,8 +1675,7 @@ msgid "Replace existing key? (y/N) "
 msgstr ""
 
 #: g10/card-util.c:1358
-msgid ""
-"Note: There is no guarantee that the card supports the requested size.\n"
+msgid "Note: There is no guarantee that the card supports the requested size.\n"
 "      If the key generation does not succeed, please check the\n"
 "      documentation of your card to see what sizes are allowed.\n"
 msgstr ""
@@ -1807,8 +1772,7 @@ msgstr ""
 
 #: g10/card-util.c:1650
 #, c-format
-msgid ""
-"Please note that the factory settings of the PINs are\n"
+msgid "Please note that the factory settings of the PINs are\n"
 "   PIN = '%s'     Admin PIN = '%s'\n"
 "You should change them using the command --change-pin\n"
 msgstr ""
@@ -2065,8 +2029,7 @@ msgstr ""
 
 #: g10/encrypt.c:581
 #, c-format
-msgid ""
-"WARNING: forcing symmetric cipher %s (%d) violates recipient preferences\n"
+msgid "WARNING: forcing symmetric cipher %s (%d) violates recipient preferences\n"
 msgstr ""
 
 #: g10/encrypt.c:594 g10/decrypt-data.c:105 g10/gpg.c:3920 g10/gpg.c:3960
@@ -2082,9 +2045,7 @@ msgstr ""
 
 #: g10/encrypt.c:735 g10/sign.c:1028
 #, c-format
-msgid ""
-"WARNING: forcing compression algorithm %s (%d) violates recipient "
-"preferences\n"
+msgid "WARNING: forcing compression algorithm %s (%d) violates recipient preferences\n"
 msgstr ""
 
 #: g10/encrypt.c:845
@@ -2114,8 +2075,7 @@ msgstr ""
 
 #: g10/decrypt-data.c:176 sm/decrypt.c:130
 #, c-format
-msgid ""
-"WARNING: message was encrypted with a weak key in the symmetric cipher.\n"
+msgid "WARNING: message was encrypted with a weak key in the symmetric cipher.\n"
 msgstr ""
 
 #: g10/decrypt-data.c:188
@@ -2130,14 +2090,12 @@ msgstr ""
 
 #: g10/exec.c:319
 #, c-format
-msgid ""
-"external program calls are disabled due to unsafe options file permissions\n"
+msgid "external program calls are disabled due to unsafe options file permissions\n"
 msgstr ""
 
 #: g10/exec.c:349
 #, c-format
-msgid ""
-"this platform requires temporary files when calling external programs\n"
+msgid "this platform requires temporary files when calling external programs\n"
 msgstr ""
 
 #: g10/exec.c:427
@@ -2500,18 +2458,14 @@ msgid "use strict OpenPGP behavior"
 msgstr ""
 
 #: g10/gpg.c:680 sm/gpgsm.c:360
-msgid ""
-"@\n"
+msgid "@\n"
 "(See the man page for a complete listing of all commands and options)\n"
-msgstr ""
-"@\n"
+msgstr "@\n"
 "(Глядзіце man старонку, для больш поўнага апісаньня ўсіх загадаў і выбараў)\n"
 
 #: g10/gpg.c:683
-msgid ""
-"@\n"
-"Examples:\n"
-"\n"
+msgid "@\n"
+"Examples:\n\n"
 " -se -r Bob [file]          sign and encrypt for user Bob\n"
 " --clear-sign [file]        make a clear text signature\n"
 " --detach-sign [file]       make a detached signature\n"
@@ -2524,18 +2478,15 @@ msgid "Usage: @GPG@ [options] [files] (-h for help)"
 msgstr ""
 
 #: g10/gpg.c:1066
-msgid ""
-"Syntax: @GPG@ [options] [files]\n"
+msgid "Syntax: @GPG@ [options] [files]\n"
 "Sign, check, encrypt or decrypt\n"
 "Default operation depends on the input data\n"
 msgstr ""
 
 #: g10/gpg.c:1077 sm/gpgsm.c:583
-msgid ""
-"\n"
+msgid "\n"
 "Supported algorithms:\n"
-msgstr ""
-"\n"
+msgstr "\n"
 "Альгарытмы, якія падтрымліваюцца:\n"
 
 #: g10/gpg.c:1080
@@ -2606,8 +2557,7 @@ msgstr ""
 
 #: g10/gpg.c:1602
 #, c-format
-msgid ""
-"WARNING: unsafe enclosing directory ownership on configuration file '%s'\n"
+msgid "WARNING: unsafe enclosing directory ownership on configuration file '%s'\n"
 msgstr ""
 
 #: g10/gpg.c:1605
@@ -2622,8 +2572,7 @@ msgstr ""
 
 #: g10/gpg.c:1614
 #, c-format
-msgid ""
-"WARNING: unsafe enclosing directory permissions on configuration file '%s'\n"
+msgid "WARNING: unsafe enclosing directory permissions on configuration file '%s'\n"
 msgstr ""
 
 #: g10/gpg.c:1617
@@ -3100,8 +3049,7 @@ msgid "Usage: gpgv [options] [files] (-h for help)"
 msgstr ""
 
 #: g10/gpgv.c:150
-msgid ""
-"Syntax: gpgv [options] [files]\n"
+msgid "Syntax: gpgv [options] [files]\n"
 "Check signatures against known trusted keys\n"
 msgstr ""
 
@@ -3250,8 +3198,7 @@ msgstr ""
 
 #: g10/import.c:1106
 #, c-format
-msgid ""
-"WARNING: key %s contains preferences for unavailable\n"
+msgid "WARNING: key %s contains preferences for unavailable\n"
 "algorithms on these user IDs:\n"
 msgstr ""
 
@@ -3277,14 +3224,12 @@ msgstr ""
 
 #: g10/import.c:1190
 #, c-format
-msgid ""
-"re-distribute this key to avoid potential algorithm mismatch problems\n"
+msgid "re-distribute this key to avoid potential algorithm mismatch problems\n"
 msgstr ""
 
 #: g10/import.c:1215
 #, c-format
-msgid ""
-"you can update your preferences with: gpg --edit-key %s updpref save\n"
+msgid "you can update your preferences with: gpg --edit-key %s updpref save\n"
 msgstr ""
 
 #: g10/import.c:1716 g10/import.c:2547
@@ -3665,11 +3610,8 @@ msgid "[self-signature]"
 msgstr ""
 
 #: g10/keyedit.c:384 g10/pkclist.c:274
-msgid ""
-"Please decide how far you trust this user to correctly verify other users' "
-"keys\n"
-"(by looking at passports, checking fingerprints from different sources, "
-"etc.)\n"
+msgid "Please decide how far you trust this user to correctly verify other users' keys\n"
+"(by looking at passports, checking fingerprints from different sources, etc.)\n"
 msgstr ""
 
 #: g10/keyedit.c:388 g10/pkclist.c:286
@@ -3683,15 +3625,13 @@ msgid "  %d = I trust fully\n"
 msgstr ""
 
 #: g10/keyedit.c:407
-msgid ""
-"Please enter the depth of this trust signature.\n"
+msgid "Please enter the depth of this trust signature.\n"
 "A depth greater than 1 allows the key you are signing to make\n"
 "trust signatures on your behalf.\n"
 msgstr ""
 
 #: g10/keyedit.c:424
-msgid ""
-"Please enter a domain to restrict this signature, or enter for none.\n"
+msgid "Please enter a domain to restrict this signature, or enter for none.\n"
 msgstr ""
 
 #: g10/keyedit.c:552
@@ -3735,8 +3675,7 @@ msgstr ""
 
 #: g10/keyedit.c:674
 #, c-format
-msgid ""
-"The self-signature on \"%s\"\n"
+msgid "The self-signature on \"%s\"\n"
 "is a PGP 2.x-style signature.\n"
 msgstr ""
 
@@ -3746,20 +3685,17 @@ msgstr ""
 
 #: g10/keyedit.c:696
 #, c-format
-msgid ""
-"Your current signature on \"%s\"\n"
+msgid "Your current signature on \"%s\"\n"
 "has expired.\n"
 msgstr ""
 
 #: g10/keyedit.c:701
-msgid ""
-"Do you want to issue a new signature to replace the expired one? (y/N) "
+msgid "Do you want to issue a new signature to replace the expired one? (y/N) "
 msgstr ""
 
 #: g10/keyedit.c:722
 #, c-format
-msgid ""
-"Your current signature on \"%s\"\n"
+msgid "Your current signature on \"%s\"\n"
 "is a local signature.\n"
 msgstr ""
 
@@ -3800,9 +3736,7 @@ msgid "Do you want your signature to expire at the same time? (Y/n) "
 msgstr ""
 
 #: g10/keyedit.c:867
-msgid ""
-"How carefully have you verified the key you are about to sign actually "
-"belongs\n"
+msgid "How carefully have you verified the key you are about to sign actually belongs\n"
 "to the person named above?  If you don't know what to answer, enter \"0\".\n"
 msgstr ""
 
@@ -3832,8 +3766,7 @@ msgstr ""
 
 #: g10/keyedit.c:913
 #, c-format
-msgid ""
-"Are you sure that you want to sign this key with your\n"
+msgid "Are you sure that you want to sign this key with your\n"
 "key \"%s\" (%s)\n"
 msgstr ""
 
@@ -4053,9 +3986,7 @@ msgid "Need the secret key to do this.\n"
 msgstr ""
 
 #: g10/keyedit.c:1589
-msgid ""
-"* The 'sign' command may be prefixed with an 'l' for local signatures "
-"(lsign),\n"
+msgid "* The 'sign' command may be prefixed with an 'l' for local signatures (lsign),\n"
 "  a 't' for trust signatures (tsign), an 'nr' for non-revocable signatures\n"
 "  (nrsign), or any combination thereof (ltsign, tnrsign, etc.).\n"
 msgstr ""
@@ -4164,8 +4095,7 @@ msgid "Do you really want to revoke this subkey? (y/N) "
 msgstr ""
 
 #: g10/keyedit.c:2056
-msgid ""
-"Owner trust may not be set while using a user provided trust database\n"
+msgid "Owner trust may not be set while using a user provided trust database\n"
 msgstr ""
 
 #: g10/keyedit.c:2101
@@ -4335,8 +4265,7 @@ msgid "This key has been disabled"
 msgstr ""
 
 #: g10/keyedit.c:3656
-msgid ""
-"Please note that the shown key validity is not necessarily correct\n"
+msgid "Please note that the shown key validity is not necessarily correct\n"
 "unless you restart the program.\n"
 msgstr ""
 
@@ -4352,8 +4281,7 @@ msgstr ""
 
 #: g10/keyedit.c:3831
 #, c-format
-msgid ""
-"WARNING: no user ID has been marked as primary.  This command may\n"
+msgid "WARNING: no user ID has been marked as primary.  This command may\n"
 "              cause a different user ID to become the assumed primary.\n"
 msgstr ""
 
@@ -4368,9 +4296,7 @@ msgid "You may want to change its expiration date too.\n"
 msgstr ""
 
 #: g10/keyedit.c:3943
-msgid ""
-"WARNING: This is a PGP2-style key.  Adding a photo ID may cause some "
-"versions\n"
+msgid "WARNING: This is a PGP2-style key.  Adding a photo ID may cause some versions\n"
 "         of PGP to reject this key.\n"
 msgstr ""
 
@@ -4408,6 +4334,8 @@ msgid "Deleted %d signature.\n"
 msgid_plural "Deleted %d signatures.\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/keyedit.c:4112
 msgid "Nothing deleted.\n"
@@ -4428,6 +4356,8 @@ msgid "User ID \"%s\": %d signature removed\n"
 msgid_plural "User ID \"%s\": %d signatures removed\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/keyedit.c:4163
 #, c-format
@@ -4440,9 +4370,7 @@ msgid "User ID \"%s\": already clean\n"
 msgstr ""
 
 #: g10/keyedit.c:4233
-msgid ""
-"WARNING: This is a PGP 2.x-style key.  Adding a designated revoker may "
-"cause\n"
+msgid "WARNING: This is a PGP 2.x-style key.  Adding a designated revoker may cause\n"
 "         some versions of PGP to reject this key.\n"
 msgstr ""
 
@@ -4474,14 +4402,11 @@ msgid "WARNING: appointing a key as a designated revoker cannot be undone!\n"
 msgstr ""
 
 #: g10/keyedit.c:4347
-msgid ""
-"Are you sure you want to appoint this key as a designated revoker? (y/N) "
+msgid "Are you sure you want to appoint this key as a designated revoker? (y/N) "
 msgstr ""
 
 #: g10/keyedit.c:4415
-msgid ""
-"Are you sure you want to change the expiration time for multiple subkeys? "
-"(y/N) "
+msgid "Are you sure you want to change the expiration time for multiple subkeys? (y/N) "
 msgstr ""
 
 #: g10/keyedit.c:4420
@@ -4715,8 +4640,7 @@ msgstr ""
 
 #: g10/keygen.c:1538
 #, c-format
-msgid ""
-"WARNING: some OpenPGP programs can't handle a DSA key with this digest size\n"
+msgid "WARNING: some OpenPGP programs can't handle a DSA key with this digest size\n"
 msgstr ""
 
 #: g10/keygen.c:1719
@@ -4880,8 +4804,7 @@ msgid "Please select which elliptic curve you want:\n"
 msgstr ""
 
 #: g10/keygen.c:2450
-msgid ""
-"Please specify how long the key should be valid.\n"
+msgid "Please specify how long the key should be valid.\n"
 "         0 = key does not expire\n"
 "      <n>  = key expires in n days\n"
 "      <n>w = key expires in n weeks\n"
@@ -4890,8 +4813,7 @@ msgid ""
 msgstr ""
 
 #: g10/keygen.c:2461
-msgid ""
-"Please specify how long the signature should be valid.\n"
+msgid "Please specify how long the signature should be valid.\n"
 "         0 = signature does not expire\n"
 "      <n>  = signature expires in n days\n"
 "      <n>w = signature expires in n weeks\n"
@@ -4931,8 +4853,7 @@ msgid "Signature expires at %s\n"
 msgstr ""
 
 #: g10/keygen.c:2520
-msgid ""
-"Your system can't display dates beyond 2038.\n"
+msgid "Your system can't display dates beyond 2038.\n"
 "However, it will be correctly handled up to 2106.\n"
 msgstr ""
 
@@ -4941,10 +4862,8 @@ msgid "Is this correct? (y/N) "
 msgstr ""
 
 #: g10/keygen.c:2601
-msgid ""
-"\n"
-"GnuPG needs to construct a user ID to identify your key.\n"
-"\n"
+msgid "\n"
+"GnuPG needs to construct a user ID to identify your key.\n\n"
 msgstr ""
 
 #. TRANSLATORS: This string is in general not anymore used
@@ -4952,13 +4871,10 @@ msgstr ""
 #. the new string is not translated this old string will
 #. be used.
 #: g10/keygen.c:2616
-msgid ""
-"\n"
-"You need a user ID to identify your key; the software constructs the user "
-"ID\n"
+msgid "\n"
+"You need a user ID to identify your key; the software constructs the user ID\n"
 "from the Real Name, Comment and Email Address in this form:\n"
-"    \"Heinrich Heine (Der Dichter) <heinrichh@duesseldorf.de>\"\n"
-"\n"
+"    \"Heinrich Heine (Der Dichter) <heinrichh@duesseldorf.de>\"\n\n"
 msgstr ""
 
 #: g10/keygen.c:2635
@@ -5005,15 +4921,12 @@ msgstr ""
 
 #: g10/keygen.c:2725
 #, c-format
-msgid ""
-"You selected this USER-ID:\n"
-"    \"%s\"\n"
-"\n"
+msgid "You selected this USER-ID:\n"
+"    \"%s\"\n\n"
 msgstr ""
 
 #: g10/keygen.c:2730
-msgid ""
-"Please don't put the email address into the real name or the comment\n"
+msgid "Please don't put the email address into the real name or the comment\n"
 msgstr ""
 
 #. TRANSLATORS: These are the allowed answers in
@@ -5052,8 +4965,7 @@ msgid "Please correct the error first\n"
 msgstr ""
 
 #: g10/keygen.c:2837
-msgid ""
-"We need to generate a lot of random bytes. It is a good idea to perform\n"
+msgid "We need to generate a lot of random bytes. It is a good idea to perform\n"
 "some other action (type on the keyboard, move the mouse, utilize the\n"
 "disks) during the prime generation; this gives the random number\n"
 "generator a better chance to gain enough entropy.\n"
@@ -5067,10 +4979,8 @@ msgstr ""
 
 #: g10/keygen.c:3973
 #, c-format
-msgid ""
-"About to create a key for:\n"
-"    \"%s\"\n"
-"\n"
+msgid "About to create a key for:\n"
+"    \"%s\"\n\n"
 msgstr ""
 
 #: g10/keygen.c:3975
@@ -5131,21 +5041,18 @@ msgid "public and secret key created and signed.\n"
 msgstr ""
 
 #: g10/keygen.c:4893
-msgid ""
-"Note that this key cannot be used for encryption.  You may want to use\n"
+msgid "Note that this key cannot be used for encryption.  You may want to use\n"
 "the command \"--edit-key\" to generate a subkey for this purpose.\n"
 msgstr ""
 
 #: g10/keygen.c:5036 g10/keygen.c:5224
 #, c-format
-msgid ""
-"key has been created %lu second in future (time warp or clock problem)\n"
+msgid "key has been created %lu second in future (time warp or clock problem)\n"
 msgstr ""
 
 #: g10/keygen.c:5038 g10/keygen.c:5226
 #, c-format
-msgid ""
-"key has been created %lu seconds in future (time warp or clock problem)\n"
+msgid "key has been created %lu seconds in future (time warp or clock problem)\n"
 msgstr ""
 
 #: g10/keygen.c:5049 g10/keygen.c:5237
@@ -5197,6 +5104,8 @@ msgid "%d good signature\n"
 msgid_plural "%d good signatures\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/keylist.c:478
 #, c-format
@@ -5204,6 +5113,8 @@ msgid "%d bad signature\n"
 msgid_plural "%d bad signatures\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/keylist.c:482
 #, c-format
@@ -5211,6 +5122,8 @@ msgid "%d signature not checked due to a missing key\n"
 msgid_plural "%d signatures not checked due to missing keys\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/keylist.c:487
 #, c-format
@@ -5218,6 +5131,8 @@ msgid "%d signature not checked due to an error\n"
 msgid_plural "%d signatures not checked due to errors\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/keylist.c:569
 #, c-format
@@ -5225,6 +5140,8 @@ msgid "Warning: %lu key skipped due to its large size\n"
 msgid_plural "Warning: %lu keys skipped due to their large sizes\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/keylist.c:591
 msgid "Keyring"
@@ -5267,6 +5184,8 @@ msgid "%lu keys cached so far (%lu signature)\n"
 msgid_plural "%lu keys cached so far (%lu signatures)\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/keyring.c:1557
 #, c-format
@@ -5274,6 +5193,8 @@ msgid "%lu key cached"
 msgid_plural "%lu keys cached"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/keyring.c:1559
 #, c-format
@@ -5281,6 +5202,8 @@ msgid " (%lu signature)\n"
 msgid_plural " (%lu signatures)\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/keyring.c:1635
 #, c-format
@@ -5339,6 +5262,8 @@ msgid "refreshing %d key from %s\n"
 msgid_plural "refreshing %d keys from %s\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/keyserver.c:1430
 #, c-format
@@ -5462,8 +5387,7 @@ msgstr ""
 
 #: g10/mainproc.c:605
 #, c-format
-msgid ""
-"IDEA cipher unavailable, optimistically attempting to use %s instead\n"
+msgid "IDEA cipher unavailable, optimistically attempting to use %s instead\n"
 msgstr ""
 
 #: g10/mainproc.c:691 g10/mainproc.c:722
@@ -5472,8 +5396,7 @@ msgid "WARNING: message was not integrity protected\n"
 msgstr ""
 
 #: g10/mainproc.c:702
-msgid ""
-"Hint: If this message was created before the year 2003 it is\n"
+msgid "Hint: If this message was created before the year 2003 it is\n"
 "likely that this message is legitimate.  This is because back\n"
 "then integrity protection was not widely used.\n"
 msgstr ""
@@ -5635,8 +5558,7 @@ msgstr ""
 
 #: g10/mainproc.c:2522
 #, c-format
-msgid ""
-"WARNING: multiple signatures detected.  Only the first will be checked.\n"
+msgid "WARNING: multiple signatures detected.  Only the first will be checked.\n"
 msgstr ""
 
 #: g10/mainproc.c:2531
@@ -5731,8 +5653,7 @@ msgstr ""
 
 #: g10/misc.c:1087
 #, c-format
-msgid ""
-"WARNING: \"%s%s\" is an obsolete option - it has no effect except on %s\n"
+msgid "WARNING: \"%s%s\" is an obsolete option - it has no effect except on %s\n"
 msgstr ""
 
 #: g10/misc.c:1151
@@ -5761,8 +5682,7 @@ msgstr ""
 
 #: g10/misc.c:1721
 #, c-format
-msgid ""
-"ECDSA public key is expected to be in SEC encoding multiple of 8 bits\n"
+msgid "ECDSA public key is expected to be in SEC encoding multiple of 8 bits\n"
 msgstr ""
 
 #: g10/misc.c:1743
@@ -5854,8 +5774,7 @@ msgid "Please enter the passphrase to export the OpenPGP secret key:"
 msgstr ""
 
 #: g10/passphrase.c:520
-msgid ""
-"Do you really want to permanently delete the OpenPGP secret subkey key:"
+msgid "Do you really want to permanently delete the OpenPGP secret subkey key:"
 msgstr ""
 
 #: g10/passphrase.c:523
@@ -5864,8 +5783,7 @@ msgstr ""
 
 #: g10/passphrase.c:532
 #, c-format
-msgid ""
-"%s\n"
+msgid "%s\n"
 "\"%.*s\"\n"
 "%u-bit %s key, ID %s,\n"
 "created %s%s.\n"
@@ -5873,8 +5791,7 @@ msgid ""
 msgstr ""
 
 #: g10/photoid.c:77
-msgid ""
-"\n"
+msgid "\n"
 "Pick an image to use for your photo ID.  The image must be a JPEG file.\n"
 "Remember that the image is stored within your public key.  If you use a\n"
 "very large picture, your key will become very large as well!\n"
@@ -5937,8 +5854,7 @@ msgid "  aka \"%s\"\n"
 msgstr ""
 
 #: g10/pkclist.c:267
-msgid ""
-"How much do you trust that this key actually belongs to the named user?\n"
+msgid "How much do you trust that this key actually belongs to the named user?\n"
 msgstr ""
 
 #: g10/pkclist.c:282
@@ -5970,9 +5886,7 @@ msgstr ""
 
 #: g10/pkclist.c:304
 #, c-format
-msgid ""
-"The minimum trust level for this key is: %s\n"
-"\n"
+msgid "The minimum trust level for this key is: %s\n\n"
 msgstr ""
 
 #: g10/pkclist.c:310 g10/revoke.c:805
@@ -6013,15 +5927,13 @@ msgid "%s: This key is bad!  It has been marked as untrusted!\n"
 msgstr ""
 
 #: g10/pkclist.c:484
-msgid ""
-"This key is bad!  It has been marked as untrusted!  If you\n"
+msgid "This key is bad!  It has been marked as untrusted!  If you\n"
 "*really* know what you are doing, you may answer the next\n"
 "question with yes.\n"
 msgstr ""
 
 #: g10/pkclist.c:489
-msgid ""
-"It is NOT certain that the key belongs to the person named\n"
+msgid "It is NOT certain that the key belongs to the person named\n"
 "in the user ID.  If you *really* know what you are doing,\n"
 "you may answer the next question with yes.\n"
 msgstr ""
@@ -6097,8 +6009,7 @@ msgstr ""
 
 #: g10/pkclist.c:664
 #, c-format
-msgid ""
-"         There is no indication that the signature belongs to the owner.\n"
+msgid "         There is no indication that the signature belongs to the owner.\n"
 msgstr ""
 
 #: g10/pkclist.c:673
@@ -6113,8 +6024,7 @@ msgstr ""
 
 #: g10/pkclist.c:682
 #, c-format
-msgid ""
-"WARNING: This key is not certified with sufficiently trusted signatures!\n"
+msgid "WARNING: This key is not certified with sufficiently trusted signatures!\n"
 msgstr ""
 
 #: g10/pkclist.c:684
@@ -6161,8 +6071,7 @@ msgid "Current recipients:\n"
 msgstr ""
 
 #: g10/pkclist.c:1160
-msgid ""
-"\n"
+msgid "\n"
 "Enter the user ID.  End with an empty line: "
 msgstr ""
 
@@ -6327,15 +6236,13 @@ msgid "This is a revocation certificate for the OpenPGP key:"
 msgstr ""
 
 #: g10/revoke.c:581
-msgid ""
-"A revocation certificate is a kind of \"kill switch\" to publicly\n"
+msgid "A revocation certificate is a kind of \"kill switch\" to publicly\n"
 "declare that a key shall not anymore be used.  It is not possible\n"
 "to retract such a revocation certificate once it has been published."
 msgstr ""
 
 #: g10/revoke.c:584
-msgid ""
-"Use it to revoke this key in case of a compromise or loss of\n"
+msgid "Use it to revoke this key in case of a compromise or loss of\n"
 "the secret key.  However, if the secret key is still accessible,\n"
 "it is better to generate a new revocation certificate and give\n"
 "a reason for the revocation.  For details see the description of\n"
@@ -6343,8 +6250,7 @@ msgid ""
 msgstr ""
 
 #: g10/revoke.c:590
-msgid ""
-"To avoid an accidental use of this file, a colon has been inserted\n"
+msgid "To avoid an accidental use of this file, a colon has been inserted\n"
 "before the 5 dashes below.  Remove this colon with a text editor\n"
 "before importing and publishing this revocation certificate."
 msgstr ""
@@ -6377,9 +6283,7 @@ msgid "Create a revocation certificate for this key? (y/N) "
 msgstr ""
 
 #: g10/revoke.c:754
-msgid ""
-"Revocation certificate created.\n"
-"\n"
+msgid "Revocation certificate created.\n\n"
 "Please move it to a medium which you can hide away; if Mallory gets\n"
 "access to this certificate he can use it to make your key unusable.\n"
 "It is smart to print this certificate and store it away, just in case\n"
@@ -6468,6 +6372,8 @@ msgid "public key %s is %lu second newer than the signature\n"
 msgid_plural "public key %s is %lu seconds newer than the signature\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/sig-check.c:334
 #, c-format
@@ -6475,24 +6381,26 @@ msgid "public key %s is %lu day newer than the signature\n"
 msgid_plural "public key %s is %lu days newer than the signature\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/sig-check.c:348 g10/sign.c:267
 #, c-format
-msgid ""
-"key %s was created %lu second in the future (time warp or clock problem)\n"
-msgid_plural ""
-"key %s was created %lu seconds in the future (time warp or clock problem)\n"
+msgid "key %s was created %lu second in the future (time warp or clock problem)\n"
+msgid_plural "key %s was created %lu seconds in the future (time warp or clock problem)\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/sig-check.c:357
 #, c-format
-msgid ""
-"key %s was created %lu day in the future (time warp or clock problem)\n"
-msgid_plural ""
-"key %s was created %lu days in the future (time warp or clock problem)\n"
+msgid "key %s was created %lu day in the future (time warp or clock problem)\n"
+msgid_plural "key %s was created %lu days in the future (time warp or clock problem)\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/sig-check.c:375
 #, c-format
@@ -6531,21 +6439,17 @@ msgstr ""
 
 #: g10/sign.c:89
 #, c-format
-msgid ""
-"WARNING: unable to %%-expand notation (too large).  Using unexpanded.\n"
+msgid "WARNING: unable to %%-expand notation (too large).  Using unexpanded.\n"
 msgstr ""
 
 #: g10/sign.c:115
 #, c-format
-msgid ""
-"WARNING: unable to %%-expand policy URL (too large).  Using unexpanded.\n"
+msgid "WARNING: unable to %%-expand policy URL (too large).  Using unexpanded.\n"
 msgstr ""
 
 #: g10/sign.c:138
 #, c-format
-msgid ""
-"WARNING: unable to %%-expand preferred keyserver URL (too large).  Using "
-"unexpanded.\n"
+msgid "WARNING: unable to %%-expand preferred keyserver URL (too large).  Using unexpanded.\n"
 msgstr ""
 
 #: g10/sign.c:363
@@ -6555,8 +6459,7 @@ msgstr ""
 
 #: g10/sign.c:922
 #, c-format
-msgid ""
-"WARNING: forcing digest algorithm %s (%d) violates recipient preferences\n"
+msgid "WARNING: forcing digest algorithm %s (%d) violates recipient preferences\n"
 msgstr ""
 
 #: g10/sign.c:1053
@@ -6585,8 +6488,7 @@ msgid "skipped: secret key already present\n"
 msgstr ""
 
 #: g10/skclist.c:243
-msgid ""
-"this is a PGP generated Elgamal key which is not secure for signatures!"
+msgid "this is a PGP generated Elgamal key which is not secure for signatures!"
 msgstr ""
 
 #: g10/tdbdump.c:57 g10/trustdb.c:370
@@ -6596,8 +6498,7 @@ msgstr ""
 
 #: g10/tdbdump.c:105
 #, c-format
-msgid ""
-"# List of assigned trustvalues, created %s\n"
+msgid "# List of assigned trustvalues, created %s\n"
 "# (Use \"gpg --import-ownertrust\" to restore them)\n"
 msgstr ""
 
@@ -6848,8 +6749,7 @@ msgstr ""
 
 #: g10/tofu.c:1327
 #, c-format
-msgid ""
-"This is the first time the email address \"%s\" is being used with key %s."
+msgid "This is the first time the email address \"%s\" is being used with key %s."
 msgstr ""
 
 #: g10/tofu.c:1336
@@ -6858,17 +6758,16 @@ msgid "The email address \"%s\" is associated with %d key!"
 msgid_plural "The email address \"%s\" is associated with %d keys!"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:1342
-msgid ""
-"  Since this binding's policy was 'auto', it has been changed to 'ask'."
+msgid "  Since this binding's policy was 'auto', it has been changed to 'ask'."
 msgstr ""
 
 #: g10/tofu.c:1348
 #, c-format
-msgid ""
-"Please indicate whether this email address should be associated with key %s "
-"or whether you think someone is impersonating \"%s\"."
+msgid "Please indicate whether this email address should be associated with key %s or whether you think someone is impersonating \"%s\"."
 msgstr ""
 
 #: g10/tofu.c:1608
@@ -6896,6 +6795,8 @@ msgid "The email address \"%s\" is associated with %d key:\n"
 msgid_plural "The email address \"%s\" is associated with %d keys:\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:1747
 #, c-format
@@ -6912,6 +6813,8 @@ msgid "Verified %d message."
 msgid_plural "Verified %d messages."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:1827
 #, c-format
@@ -6919,6 +6822,8 @@ msgid "Encrypted %d message."
 msgid_plural "Encrypted %d messages."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:1834
 #, c-format
@@ -6926,6 +6831,8 @@ msgid "Verified %d message in the future."
 msgid_plural "Verified %d messages in the future."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:1838
 #, c-format
@@ -6933,6 +6840,8 @@ msgid "Encrypted %d message in the future."
 msgid_plural "Encrypted %d messages in the future."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:1852
 #, c-format
@@ -6940,6 +6849,8 @@ msgid "Messages verified over the past %d day: %d."
 msgid_plural "Messages verified over the past %d days: %d."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:1858
 #, c-format
@@ -6947,6 +6858,8 @@ msgid "Messages encrypted over the past %d day: %d."
 msgid_plural "Messages encrypted over the past %d days: %d."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:1868
 #, c-format
@@ -6954,6 +6867,8 @@ msgid "Messages verified over the past %d month: %d."
 msgid_plural "Messages verified over the past %d months: %d."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:1874
 #, c-format
@@ -6961,6 +6876,8 @@ msgid "Messages encrypted over the past %d month: %d."
 msgid_plural "Messages encrypted over the past %d months: %d."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:1884
 #, c-format
@@ -6968,6 +6885,8 @@ msgid "Messages verified over the past %d year: %d."
 msgid_plural "Messages verified over the past %d years: %d."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:1890
 #, c-format
@@ -6975,6 +6894,8 @@ msgid "Messages encrypted over the past %d year: %d."
 msgid_plural "Messages encrypted over the past %d years: %d."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:1898
 #, c-format
@@ -7034,6 +6955,8 @@ msgid "%lld~year"
 msgid_plural "%lld~years"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:2882
 #, c-format
@@ -7041,6 +6964,8 @@ msgid "%lld~month"
 msgid_plural "%lld~months"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:2887
 #, c-format
@@ -7048,6 +6973,8 @@ msgid "%lld~week"
 msgid_plural "%lld~weeks"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:2892
 #, c-format
@@ -7055,6 +6982,8 @@ msgid "%lld~day"
 msgid_plural "%lld~days"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:2897
 #, c-format
@@ -7062,6 +6991,8 @@ msgid "%lld~hour"
 msgid_plural "%lld~hours"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:2902
 #, c-format
@@ -7069,6 +7000,8 @@ msgid "%lld~minute"
 msgid_plural "%lld~minutes"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:2904
 #, c-format
@@ -7076,6 +7009,8 @@ msgid "%lld~second"
 msgid_plural "%lld~seconds"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:3142
 #, c-format
@@ -7093,6 +7028,8 @@ msgid "%s: Verified %ld~signature in the past %s."
 msgid_plural "%s: Verified %ld~signatures in the past %s."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:3166
 msgid "Encrypted 0 messages."
@@ -7104,6 +7041,8 @@ msgid "Encrypted %ld~message in the past %s."
 msgid_plural "Encrypted %ld~messages in the past %s."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:3185
 #, c-format
@@ -7112,14 +7051,12 @@ msgstr ""
 
 #: g10/tofu.c:3219
 #, c-format
-msgid ""
-"Warning: we have yet to see a message signed using this key and user id!\n"
+msgid "Warning: we have yet to see a message signed using this key and user id!\n"
 msgstr ""
 
 #: g10/tofu.c:3222
 #, c-format
-msgid ""
-"Warning: we've only seen one message signed using this key and user id!\n"
+msgid "Warning: we've only seen one message signed using this key and user id!\n"
 msgstr ""
 
 #: g10/tofu.c:3226
@@ -7134,20 +7071,16 @@ msgstr ""
 
 #: g10/tofu.c:3258
 #, c-format
-msgid ""
-"Warning: if you think you've seen more signatures by this key and user id, "
-"then this key might be a forgery!  Carefully examine the email address for "
-"small variations.  If the key is suspect, then use\n"
+msgid "Warning: if you think you've seen more signatures by this key and user id, then this key might be a forgery!  Carefully examine the email address for small variations.  If the key is suspect, then use\n"
 "  %s\n"
 "to mark it as being bad.\n"
-msgid_plural ""
-"Warning: if you think you've seen more signatures by this key and these user "
-"ids, then this key might be a forgery!  Carefully examine the email "
-"addresses for small variations.  If the key is suspect, then use\n"
+msgid_plural "Warning: if you think you've seen more signatures by this key and these user ids, then this key might be a forgery!  Carefully examine the email addresses for small variations.  If the key is suspect, then use\n"
 "  %s\n"
 "to mark it as being bad.\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/tofu.c:3343 g10/tofu.c:3506 g10/tofu.c:3712 g10/tofu.c:3765
 #: g10/tofu.c:3906 g10/tofu.c:3983 g10/tofu.c:4021
@@ -7261,6 +7194,8 @@ msgid "%d key processed"
 msgid_plural "%d keys processed"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/trustdb.c:1965
 #, c-format
@@ -7268,6 +7203,8 @@ msgid " (%d validity count cleared)\n"
 msgid_plural " (%d validity counts cleared)\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: g10/trustdb.c:2035
 #, c-format
@@ -7281,8 +7218,7 @@ msgstr ""
 
 #: g10/trustdb.c:2167
 #, c-format
-msgid ""
-"depth: %d  valid: %3d  signed: %3d  trust: %d-, %dq, %dn, %dm, %df, %du\n"
+msgid "depth: %d  valid: %3d  signed: %3d  trust: %d-, %dq, %dn, %dm, %df, %du\n"
 msgstr ""
 
 #: g10/trustdb.c:2248
@@ -7356,8 +7292,7 @@ msgstr ""
 
 #: g10/verify.c:116
 #, c-format
-msgid ""
-"the signature could not be verified.\n"
+msgid "the signature could not be verified.\n"
 "Please remember that the signature file (.sig or .asc)\n"
 "should be the first file given on the command line.\n"
 msgstr ""
@@ -7385,8 +7320,7 @@ msgid "Usage: kbxutil [options] [files] (-h for help)"
 msgstr ""
 
 #: kbx/kbxutil.c:120
-msgid ""
-"Syntax: kbxutil [options] [files]\n"
+msgid "Syntax: kbxutil [options] [files]\n"
 "List, export, import Keybox data\n"
 msgstr ""
 
@@ -7421,8 +7355,7 @@ msgid "||Please enter the PIN for the standard keys."
 msgstr ""
 
 #: scd/app-nks.c:1107
-msgid ""
-"|NP|Please enter a new PIN Unblocking Code (PUK) for the standard keys."
+msgid "|NP|Please enter a new PIN Unblocking Code (PUK) for the standard keys."
 msgstr ""
 
 #: scd/app-nks.c:1109
@@ -7438,15 +7371,11 @@ msgid "||Please enter the PIN for the key to create qualified signatures."
 msgstr ""
 
 #: scd/app-nks.c:1127
-msgid ""
-"|NP|Please enter a new PIN Unblocking Code (PUK) for the key to create "
-"qualified signatures."
+msgid "|NP|Please enter a new PIN Unblocking Code (PUK) for the key to create qualified signatures."
 msgstr ""
 
 #: scd/app-nks.c:1129
-msgid ""
-"|P|Please enter the PIN Unblocking Code (PUK) for the key to create "
-"qualified signatures."
+msgid "|P|Please enter the PIN Unblocking Code (PUK) for the key to create qualified signatures."
 msgstr ""
 
 #: scd/app-nks.c:1233 scd/app-openpgp.c:2754 scd/app-dinsig.c:531
@@ -7547,10 +7476,11 @@ msgstr ""
 #: scd/app-openpgp.c:2319
 #, c-format
 msgid "%d Admin PIN attempt remaining before card is permanently locked\n"
-msgid_plural ""
-"%d Admin PIN attempts remaining before card is permanently locked\n"
+msgid_plural "%d Admin PIN attempts remaining before card is permanently locked\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. TRANSLATORS: Do not translate the "|A|" prefix but keep it at
 #. the start of the string.  Use %0A (single percent) for a linefeed.
@@ -7665,6 +7595,8 @@ msgid "key generation completed (%d second)\n"
 msgid_plural "key generation completed (%d seconds)\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: scd/app-openpgp.c:4132
 #, c-format
@@ -7688,8 +7620,7 @@ msgstr ""
 
 #: scd/app-openpgp.c:4880
 #, c-format
-msgid ""
-"verification of Admin PIN is currently prohibited through this command\n"
+msgid "verification of Admin PIN is currently prohibited through this command\n"
 msgstr ""
 
 #: scd/app-openpgp.c:5192 scd/app-openpgp.c:5203
@@ -7757,15 +7688,13 @@ msgid "Usage: @SCDAEMON@ [options] (-h for help)"
 msgstr ""
 
 #: scd/scdaemon.c:303
-msgid ""
-"Syntax: scdaemon [options] [command [args]]\n"
+msgid "Syntax: scdaemon [options] [command [args]]\n"
 "Smartcard daemon for @GNUPG@\n"
 msgstr ""
 
 #: scd/scdaemon.c:822
 #, c-format
-msgid ""
-"please use the option '--daemon' to run the program in the background\n"
+msgid "please use the option '--daemon' to run the program in the background\n"
 msgstr ""
 
 #: scd/scdaemon.c:1197 dirmngr/dirmngr.c:2084
@@ -8069,9 +7998,7 @@ msgstr ""
 
 #: sm/certdump.c:833
 #, c-format
-msgid ""
-"Please enter the passphrase to unlock the secret key for the X.509 "
-"certificate:\n"
+msgid "Please enter the passphrase to unlock the secret key for the X.509 certificate:\n"
 "\"%s\"\n"
 "S/N %s, ID 0x%08lX,\n"
 "created %s, expires %s.\n"
@@ -8208,9 +8135,7 @@ msgid "line %d: key generation failed: %s <%s>\n"
 msgstr ""
 
 #: sm/certreqgen.c:1328
-msgid ""
-"To complete this certificate request please enter the passphrase for the key "
-"you just created once more.\n"
+msgid "To complete this certificate request please enter the passphrase for the key you just created once more.\n"
 msgstr ""
 
 #: sm/certreqgen-ui.c:159
@@ -8494,8 +8419,7 @@ msgid "Usage: @GPGSM@ [options] [files] (-h for help)"
 msgstr ""
 
 #: sm/gpgsm.c:565
-msgid ""
-"Syntax: @GPGSM@ [options] [files]\n"
+msgid "Syntax: @GPGSM@ [options] [files]\n"
 "Sign, check, encrypt or decrypt using the S/MIME protocol\n"
 "Default operation depends on the input data\n"
 msgstr ""
@@ -8626,26 +8550,20 @@ msgstr ""
 
 #: sm/qualified.c:206
 #, c-format
-msgid ""
-"You are about to create a signature using your certificate:\n"
+msgid "You are about to create a signature using your certificate:\n"
 "\"%s\"\n"
-"This will create a qualified signature by law equated to a handwritten "
-"signature.\n"
-"\n"
+"This will create a qualified signature by law equated to a handwritten signature.\n\n"
 "%s%sAre you really sure that you want to do this?"
 msgstr ""
 
 #: sm/qualified.c:215 sm/verify.c:653
 #, c-format
-msgid ""
-"Note, that this software is not officially approved to create or verify such "
-"signatures.\n"
+msgid "Note, that this software is not officially approved to create or verify such signatures.\n"
 msgstr ""
 
 #: sm/qualified.c:282
 #, c-format
-msgid ""
-"You are about to create a signature using your certificate:\n"
+msgid "You are about to create a signature using your certificate:\n"
 "\"%s\"\n"
 "Note, that this certificate will NOT create a qualified signature!"
 msgstr ""
@@ -8682,8 +8600,7 @@ msgstr ""
 
 #: sm/verify.c:510
 #, c-format
-msgid ""
-"invalid signature: message digest attribute does not match computed one\n"
+msgid "invalid signature: message digest attribute does not match computed one\n"
 msgstr ""
 
 #: sm/verify.c:631
@@ -9032,9 +8949,7 @@ msgstr ""
 
 #: dirmngr/crlcache.c:1312
 #, c-format
-msgid ""
-"force-crl-refresh active and %d minutes passed for issuer id %s; update "
-"required\n"
+msgid "force-crl-refresh active and %d minutes passed for issuer id %s; update required\n"
 msgstr ""
 
 #: dirmngr/crlcache.c:1320
@@ -9224,9 +9139,7 @@ msgstr ""
 
 #: dirmngr/crlcache.c:2242
 #, c-format
-msgid ""
-"updating the DIR file failed - cache entry will get lost with the next "
-"program start\n"
+msgid "updating the DIR file failed - cache entry will get lost with the next program start\n"
 msgstr ""
 
 #: dirmngr/crlcache.c:2279
@@ -9235,14 +9148,11 @@ msgid "Begin CRL dump (retrieved via %s)\n"
 msgstr ""
 
 #: dirmngr/crlcache.c:2302
-msgid ""
-" ERROR: The CRL will not be used because it was still too old after an "
-"update!\n"
+msgid " ERROR: The CRL will not be used because it was still too old after an update!\n"
 msgstr ""
 
 #: dirmngr/crlcache.c:2305
-msgid ""
-" ERROR: The CRL will not be used due to an unknown critical extension!\n"
+msgid " ERROR: The CRL will not be used due to an unknown critical extension!\n"
 msgstr ""
 
 #: dirmngr/crlcache.c:2308
@@ -9374,8 +9284,7 @@ msgid "Usage: dirmngr-client [options] [certfile|pattern] (-h for help)\n"
 msgstr ""
 
 #: dirmngr/dirmngr-client.c:173
-msgid ""
-"Syntax: dirmngr-client [options] [certfile|pattern]\n"
+msgid "Syntax: dirmngr-client [options] [certfile|pattern]\n"
 "Test an X.509 certificate against a CRL or do an OCSP check\n"
 "The process returns 0 if the certificate is valid, 1 if it is\n"
 "not valid and other error codes for general failures\n"
@@ -9567,10 +9476,8 @@ msgid "route all network traffic via Tor"
 msgstr ""
 
 #: dirmngr/dirmngr.c:262
-msgid ""
-"@\n"
-"(See the \"info\" manual for a complete listing of all commands and "
-"options)\n"
+msgid "@\n"
+"(See the \"info\" manual for a complete listing of all commands and options)\n"
 msgstr ""
 
 #: dirmngr/dirmngr.c:400
@@ -9578,8 +9485,7 @@ msgid "Usage: @DIRMNGR@ [options] (-h for help)"
 msgstr ""
 
 #: dirmngr/dirmngr.c:402
-msgid ""
-"Syntax: @DIRMNGR@ [options] [command [args]]\n"
+msgid "Syntax: @DIRMNGR@ [options] [command [args]]\n"
 "Keyserver, CRL, and OCSP access for @GNUPG@\n"
 msgstr ""
 
@@ -9709,8 +9615,7 @@ msgid "Usage: dirmngr_ldap [options] [URL] (-h for help)\n"
 msgstr ""
 
 #: dirmngr/dirmngr_ldap.c:211
-msgid ""
-"Syntax: dirmngr_ldap [options] [URL]\n"
+msgid "Syntax: dirmngr_ldap [options] [URL]\n"
 "Internal LDAP helper for Dirmngr\n"
 "Interface and options may change without notice\n"
 msgstr ""
@@ -10254,8 +10159,7 @@ msgid "Usage: @GPG@-connect-agent [options] (-h for help)"
 msgstr ""
 
 #: tools/gpg-connect-agent.c:208
-msgid ""
-"Syntax: @GPG@-connect-agent [options]\n"
+msgid "Syntax: @GPG@-connect-agent [options]\n"
 "Connect to a running agent and send commands\n"
 msgstr ""
 
@@ -10551,8 +10455,7 @@ msgid "Usage: @GPGCONF@ [options] (-h for help)"
 msgstr ""
 
 #: tools/gpgconf.c:139
-msgid ""
-"Syntax: @GPGCONF@ [options]\n"
+msgid "Syntax: @GPGCONF@ [options]\n"
 "Manage configuration options for tools of the @GNUPG@ system\n"
 msgstr ""
 
@@ -10569,8 +10472,7 @@ msgid "No argument allowed"
 msgstr ""
 
 #: tools/symcryptrun.c:166
-msgid ""
-"@\n"
+msgid "@\n"
 "Commands:\n"
 " "
 msgstr ""
@@ -10604,9 +10506,7 @@ msgid "Usage: symcryptrun [options] (-h for help)"
 msgstr ""
 
 #: tools/symcryptrun.c:224
-msgid ""
-"Syntax: symcryptrun --class CLASS --program PROGRAM --keyfile KEYFILE "
-"[options...] COMMAND [inputfile]\n"
+msgid "Syntax: symcryptrun --class CLASS --program PROGRAM --keyfile KEYFILE [options...] COMMAND [inputfile]\n"
 "Call a simple symmetric encryption tool\n"
 msgstr ""
 
@@ -10740,7 +10640,7 @@ msgid "Usage: gpg-check-pattern [options] patternfile (-h for help)\n"
 msgstr ""
 
 #: tools/gpg-check-pattern.c:147
-msgid ""
-"Syntax: gpg-check-pattern [options] patternfile\n"
+msgid "Syntax: gpg-check-pattern [options] patternfile\n"
 "Check a passphrase given on stdin against the patternfile\n"
 msgstr ""
+

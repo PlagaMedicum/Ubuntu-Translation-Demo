@@ -1,26 +1,25 @@
-# Ukrainian translation for eject
-# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
-# This file is distributed under the same license as the eject package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: eject\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2012-02-20 00:35+0100\n"
-"PO-Revision-Date: 2013-05-01 16:02+0000\n"
-"Last-Translator: stuartlittle <Stuartlittle1970@gmail.com>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:18\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 10:46+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/eject.po\n"
+"Language: uk_UA\n"
 
 #: ../eject.c:156
 #, c-format
-msgid ""
-"Eject version %s by Jeff Tranter (tranter@pobox.com)\n"
+msgid "Eject version %s by Jeff Tranter (tranter@pobox.com)\n"
 "Usage:\n"
 "  eject -h\t\t\t\t-- display command usage and exit\n"
 "  eject -V\t\t\t\t-- display program version and exit\n"
@@ -30,8 +29,7 @@ msgid ""
 "  eject [-vn] -c <slot> [<name>]\t-- switch discs on a CD-ROM changer\n"
 "  eject [-vn] -t [<name>]\t\t-- close tray\n"
 "  eject [-vn] -T [<name>]\t\t-- toggle tray\n"
-"  eject [-vn] -i on|off|1|0 [<name>]\t-- toggle manual eject protection "
-"on/off\n"
+"  eject [-vn] -i on|off|1|0 [<name>]\t-- toggle manual eject protection on/off\n"
 "  eject [-vn] -x <speed> [<name>]\t-- set CD-ROM max speed\n"
 "  eject [-vn] -X [<name>]\t\t-- list CD-ROM available speeds\n"
 "Options:\n"
@@ -43,22 +41,18 @@ msgid ""
 "  -q\t-- eject tape\n"
 "  -p\t-- use /proc/mounts instead of /etc/mtab\n"
 "  -m\t-- do not unmount device even if it is mounted\n"
-msgstr ""
-"Eject version %s автор Jeff Tranter (tranter@pobox.com)\n"
+msgstr "Eject version %s автор Jeff Tranter (tranter@pobox.com)\n"
 "Використання:\n"
 "  eject -h\t\t\t\t-- показати допомогу та вийти\n"
 "  eject -V\t\t\t\t-- показати версію програми та вийти\n"
 "  eject [-vnrsfqpm] [<ім’я>]\t\t-- витягнути пристрій\n"
 "  eject [-vn] -d\t\t\t-- показати типовий пристрій\n"
-"  eject [-vn] -a on|off|1|0 [<ім’я>]\t-- увімкнути\\вимкнути авто-"
-"витягнення\n"
+"  eject [-vn] -a on|off|1|0 [<ім’я>]\t-- увімкнути\\вимкнути авто-витягнення\n"
 "  eject [-vn] -c <слот> [<ім’я>]\t-- змінити диски на CD-чейнджері\n"
 "  eject [-vn] -t [<ім’я>]\t\t-- закрити лоток\n"
 "  eject [-vn] -T [<ім’я>]\t\t-- переключити лоток\n"
-"  eject [-vn] -i on|off|1|0 [<ім’я>]\t-- увімкнути\\вимкнути захист від "
-"ручного витягнення\n"
-"  eject [-vn] -x <швидкість> [<ім’я>]\t-- встановити максимальну швидкість "
-"CD-ROM\n"
+"  eject [-vn] -i on|off|1|0 [<ім’я>]\t-- увімкнути\\вимкнути захист від ручного витягнення\n"
+"  eject [-vn] -x <швидкість> [<ім’я>]\t-- встановити максимальну швидкість CD-ROM\n"
 "  eject [-vn] -X [<ім’я>]\t\t-- список доступних швидкостей CD-ROM\n"
 "Параметри:\n"
 "  -v\t-- увімкнути розширений вивід\n"
@@ -72,16 +66,13 @@ msgstr ""
 
 #: ../eject.c:188
 #, c-format
-msgid ""
-"Long options:\n"
+msgid "Long options:\n"
 "  -h --help   -v --verbose      -d --default\n"
 "  -a --auto   -c --changerslot  -t --trayclose  -x --cdspeed\n"
-"  -r --cdrom  -s --scsi         -f --floppy     -X --listspeed     -q --"
-"tape\n"
+"  -r --cdrom  -s --scsi         -f --floppy     -X --listspeed     -q --tape\n"
 "  -n --noop   -V --version\n"
 "  -p --proc   -m --no-unmount   -T --traytoggle\n"
-msgstr ""
-"Довгі опції:\n"
+msgstr "Довгі опції:\n"
 "-h --help -v --verbose -d --default\n"
 "-a --auto -c --changerslot -t --trayclose -x --cdspeed\n"
 "-r --cdrom -s --scsi -f --floppy -X --listspeed -q --tape\n"
@@ -90,15 +81,12 @@ msgstr ""
 
 #: ../eject.c:207
 #, c-format
-msgid ""
-"Parameter <name> can be a device file or a mount point.\n"
+msgid "Parameter <name> can be a device file or a mount point.\n"
 "If omitted, name defaults to `%s'.\n"
 "By default tries -r, -s, -f, and -q in order until success.\n"
-msgstr ""
-"Параметр <ім’я> може представляти файл пристрою або точку монтування.\n"
+msgstr "Параметр <ім’я> може представляти файл пристрою або точку монтування.\n"
 "Якщо він не вказаний, буде використовуватися `%s'.\n"
-"Типово використовуються опції -r, -s, -f и -q (до першого успішного "
-"виконання).\n"
+"Типово використовуються опції -r, -s, -f и -q (до першого успішного виконання).\n"
 
 #: ../eject.c:263
 #, c-format
@@ -188,8 +176,7 @@ msgstr "%s: вибір швидкості приводу не підтримує
 #: ../eject.c:755
 #, c-format
 msgid "%s: unable to read the speed from /proc/sys/dev/cdrom/info\n"
-msgstr ""
-"%s: не вдається прочитати значення швидкості з /proc/sys/dev/cdrom/info\n"
+msgstr "%s: не вдається прочитати значення швидкості з /proc/sys/dev/cdrom/info\n"
 
 #: ../eject.c:770
 #, c-format
@@ -219,8 +206,7 @@ msgstr "%s: збереження вихідної швидкості %d\n"
 #: ../eject.c:842
 #, c-format
 msgid "%s: Could not restore original CD-ROM speed (was %d, is now %d)\n"
-msgstr ""
-"%s: Неможливо відновити вихідну швидкість CD-ROM (початково %d, зараз %d)\n"
+msgstr "%s: Неможливо відновити вихідну швидкість CD-ROM (початково %d, зараз %d)\n"
 
 #: ../eject.c:846
 #, c-format
@@ -350,9 +336,7 @@ msgstr "%s: `%s' не є точкою монтування\n"
 #: ../eject.c:1460
 #, c-format
 msgid "%s: tried to use `%s' as device name but it is no block device\n"
-msgstr ""
-"%s: спроба використання `%s' у якості ім’я пристрою, яке не є блочним "
-"пристроєм\n"
+msgstr "%s: спроба використання `%s' у якості ім’я пристрою, яке не є блочним пристроєм\n"
 
 #: ../eject.c:1468
 #, c-format
@@ -477,3 +461,4 @@ msgstr "застосування: volname [<файл-пристрою>]\n"
 #: ../volname.c:65 ../volname.c:71 ../volname.c:77
 msgid "volname"
 msgstr "мітка тому"
+

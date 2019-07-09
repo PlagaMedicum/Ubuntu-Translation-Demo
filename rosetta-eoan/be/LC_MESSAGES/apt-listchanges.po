@@ -1,21 +1,21 @@
-# Belarusian translation for apt-listchanges
-# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
-# This file is distributed under the same license as the apt-listchanges package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: apt-listchanges\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-11-29 09:36+0100\n"
-"PO-Revision-Date: 2012-01-05 11:17+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Belarusian <be@li.org>\n"
+"PO-Revision-Date: 2019-07-08 16:56\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 10:32+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/apt-listchanges.po\n"
+"Language: be_BY\n"
 
 #: ../apt-listchanges.py:62
 #, python-format
@@ -75,9 +75,7 @@ msgstr ""
 
 #: ../apt-listchanges.py:199
 #, python-format
-msgid ""
-"%(pkg)s: Version %(version)s is lower than version of related packages "
-"(%(maxversion)s)"
+msgid "%(pkg)s: Version %(version)s is lower than version of related packages (%(maxversion)s)"
 msgstr ""
 
 #: ../apt-listchanges.py:271
@@ -140,8 +138,7 @@ msgstr ""
 
 #: ../apt-listchanges/apt_listchanges.py:186
 #, python-format
-msgid ""
-"The gtk frontend needs a working python3-gi,\n"
+msgid "The gtk frontend needs a working python3-gi,\n"
 "but it cannot be loaded. Falling back to %(frontend)s.\n"
 "The error is: %(errmsg)s"
 msgstr ""
@@ -181,8 +178,7 @@ msgstr ""
 
 #: ../apt-listchanges/apt_listchanges.py:475
 #, python-format
-msgid ""
-"None of the following directories is accessible by user %(user)s: %(dirs)s"
+msgid "None of the following directories is accessible by user %(user)s: %(dirs)s"
 msgstr ""
 
 #: ../apt-listchanges/apt_listchanges.py:505
@@ -200,8 +196,7 @@ msgstr ""
 
 #: ../apt-listchanges/ALCConfig.py:108
 #, python-format
-msgid ""
-"Unknown argument %(arg)s for option %(opt)s.  Allowed are: %(allowed)s."
+msgid "Unknown argument %(arg)s for option %(opt)s.  Allowed are: %(allowed)s."
 msgstr ""
 
 #: ../apt-listchanges/ALCConfig.py:120
@@ -239,16 +234,12 @@ msgstr ""
 
 #: ../apt-listchanges/DebianFiles.py:277
 #, python-format
-msgid ""
-"Unable to retrieve changelog for package %(pkg)s; 'apt-get changelog' failed "
-"with: %(errmsg)s"
+msgid "Unable to retrieve changelog for package %(pkg)s; 'apt-get changelog' failed with: %(errmsg)s"
 msgstr ""
 
 #: ../apt-listchanges/DebianFiles.py:283
 #, python-format
-msgid ""
-"Unable to retrieve changelog for package %(pkg)s; could not run 'apt-get "
-"changelog': %(errmsg)s"
+msgid "Unable to retrieve changelog for package %(pkg)s; could not run 'apt-get changelog': %(errmsg)s"
 msgstr ""
 
 #: ../apt-listchanges/DebianFiles.py:322
@@ -281,8 +272,7 @@ msgid "Packages list:"
 msgstr ""
 
 #: ../apt-listchanges/ALCApt.py:74
-msgid ""
-"APT_HOOK_INFO_FD environment variable is not defined\n"
+msgid "APT_HOOK_INFO_FD environment variable is not defined\n"
 "(is Dpkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD set to 20?)"
 msgstr ""
 
@@ -296,19 +286,14 @@ msgid "Will read apt pipeline messages from file descriptor %d"
 msgstr ""
 
 #: ../apt-listchanges/ALCApt.py:86
-msgid ""
-"Incorrect value (0) of APT_HOOK_INFO_FD environment variable.\n"
-"If the warning persists after restart of the package manager (e.g. "
-"aptitude),\n"
-"please check if the /etc/apt/apt.conf.d/20listchanges file was properly "
-"updated."
+msgid "Incorrect value (0) of APT_HOOK_INFO_FD environment variable.\n"
+"If the warning persists after restart of the package manager (e.g. aptitude),\n"
+"please check if the /etc/apt/apt.conf.d/20listchanges file was properly updated."
 msgstr ""
 
 #: ../apt-listchanges/ALCApt.py:91
-msgid ""
-"APT_HOOK_INFO_FD environment variable is incorrectly defined\n"
-"(Dpkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD should be greater "
-"than 2)."
+msgid "APT_HOOK_INFO_FD environment variable is incorrectly defined\n"
+"(Dpkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD should be greater than 2)."
 msgstr ""
 
 #: ../apt-listchanges/ALCApt.py:97
@@ -317,8 +302,7 @@ msgid "Cannot read from file descriptor %(fd)d: %(errmsg)s"
 msgstr ""
 
 #: ../apt-listchanges/ALCApt.py:103
-msgid ""
-"Wrong or missing VERSION from apt pipeline\n"
+msgid "Wrong or missing VERSION from apt pipeline\n"
 "(is Dpkg::Tools::Options::/usr/bin/apt-listchanges::Version set to 2?)"
 msgstr ""
 
@@ -333,8 +317,7 @@ msgid "apt-listchanges warning: %(msg)s"
 msgstr ""
 
 #: ../apt-listchanges/ALCSeenDb.py:56
-msgid ""
-"Path to the seen database is unknown.\n"
+msgid "Path to the seen database is unknown.\n"
 "Please either specify it with --save-seen option\n"
 "or pass --profile=apt to have it read from the configuration file."
 msgstr ""
@@ -354,6 +337,6 @@ msgid "List the changes"
 msgstr ""
 
 #: ../apt-listchanges/apt-listchanges.ui:43
-msgid ""
-"The following changes are found in the packages you are about to install:"
+msgid "The following changes are found in the packages you are about to install:"
 msgstr ""
+

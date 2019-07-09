@@ -1,393 +1,405 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# Daniel Korostil <ted.korostiled@gmail.com>, 2016, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-todo&keywords=I18N+L10N&component=General\n"
 "POT-Creation-Date: 2019-02-07 11:26+0000\n"
-"PO-Revision-Date: 2019-02-24 02:29+0000\n"
-"Last-Translator: Daniel Korostil <Unknown>\n"
-"Language-Team: linux.org.ua\n"
+"PO-Revision-Date: 2019-07-08 17:04\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Launchpad-Export-Date: 2019-05-11 13:31+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"X-Project-Style: gnome\n"
-"Language: uk\n"
+"X-Generator: crowdin.com\n"
+"Language: uk_UA\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/gnome-todo.po\n"
 
 #: data/appdata/org.gnome.Todo.appdata.xml.in:7
 #: data/org.gnome.Todo.desktop.in:3 src/gtd-application.c:156
 #: src/gtd-window.c:799 src/gtd-window.c:830 src/main.c:35
 msgid "To Do"
-msgstr "Треба зробити"
+msgstr ""
 
 #: data/appdata/org.gnome.Todo.appdata.xml.in:8
 msgid "Task manager for GNOME"
-msgstr "Менеджер завдань для GNOME"
+msgstr ""
 
 #: data/appdata/org.gnome.Todo.appdata.xml.in:11
-msgid ""
-"GNOME To Do is a task management application designed to integrate with "
-"GNOME. It is extensible through plugins and supports custom task providers."
+#| msgid ""
+#| "GNOME To Do is a simple task management application designed to integrate "
+#| "with GNOME."
+msgid "GNOME To Do is a task management application designed to integrate with GNOME. It is extensible through plugins and supports custom task providers."
 msgstr ""
-"GNOME Треба зробити — проста програма для керування завданнями, яка "
-"інтегрована з GNOME. Її можна розширити плагінами і підтримкою інших "
-"постачальників завдань."
 
 #: data/appdata/org.gnome.Todo.appdata.xml.in:24
 msgid "GNOME To Do with the dark theme variant"
-msgstr "GNOME Треба зробити з варіантом темної теми"
+msgstr ""
 
 #: data/appdata/org.gnome.Todo.appdata.xml.in:28
 msgid "Editing a tasklist with GNOME To Do"
-msgstr "Редагування переліку завдань з GNOME Треба зробити"
+msgstr ""
 
 #: data/appdata/org.gnome.Todo.appdata.xml.in:32
 msgid "Task lists displayed on grid mode"
-msgstr "Завдання можна переглядати ґратками"
+msgstr ""
 
 #: data/appdata/org.gnome.Todo.appdata.xml.in:36
 msgid "Task lists displayed on list mode"
-msgstr "Завдання можна переглядати списком"
+msgstr ""
 
 #: data/appdata/org.gnome.Todo.appdata.xml.in:40
+#| msgid "First run of GNOME To Do"
 msgid "Available plugins for GNOME To Do"
-msgstr "Доступні плагіни для GNOME Треба зробити"
+msgstr ""
 
 #: data/appdata/org.gnome.Todo.appdata.xml.in:44
 msgid "Visualizing tasks for today on GNOME To Do’s Today panel"
 msgstr ""
-"Візуалізація завдань на сьогодні для сьогоднішньої панелі GNOME Треба зробити"
 
 #: data/gtk/menus.ui:15 data/ui/plugin-dialog.ui:75
 msgid "Extensions"
-msgstr "Розширення"
+msgstr ""
 
 #: data/gtk/menus.ui:22
 msgid "_About"
-msgstr "_Про програму"
+msgstr ""
 
 #: data/gtk/menus.ui:26
 msgid "_Quit"
-msgstr "Ви_йти"
+msgstr ""
 
 #: data/org.gnome.Todo.desktop.in:4
 msgid "Manage your personal tasks"
-msgstr "Керувати особистими завданнями"
+msgstr ""
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: data/org.gnome.Todo.desktop.in:7
 msgid "org.gnome.Todo"
-msgstr "org.gnome.Todo"
+msgstr ""
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.Todo.desktop.in:13
+#| msgid "Task;Productivity;"
 msgid "Task;Productivity;Todo;"
-msgstr "Задача;Продуктивність;Зробити;"
+msgstr ""
 
 #: data/org.gnome.todo.gschema.xml:6
 msgid "Window maximized"
-msgstr "Вікно розгорнуто"
+msgstr ""
 
 #: data/org.gnome.todo.gschema.xml:7
 msgid "Window maximized state"
-msgstr "Стан розгорнутого вікна"
+msgstr ""
 
 #: data/org.gnome.todo.gschema.xml:11
 msgid "Window size"
-msgstr "Розмір вікна"
+msgstr ""
 
 #: data/org.gnome.todo.gschema.xml:12
 msgid "Window size (width and height)."
-msgstr "Розмір вікна (ширина і висота)."
+msgstr ""
 
 #: data/org.gnome.todo.gschema.xml:16
 msgid "Window position"
-msgstr "Позиція вікна"
+msgstr ""
 
 #: data/org.gnome.todo.gschema.xml:17
 msgid "Window position (x and y)."
-msgstr "Розташування вікна (x та y)."
+msgstr ""
 
 #: data/org.gnome.todo.gschema.xml:21
 msgid "First run of GNOME To Do"
-msgstr "Перший запуск програми GNOME Треба зробити"
+msgstr ""
 
 #: data/org.gnome.todo.gschema.xml:22
-msgid ""
-"Whether it’s the first run of GNOME To Do (to run the initial setup) or not"
+#| msgid ""
+#| "Whether it's the first run of GNOME To Do (to run the initial setup) or "
+#| "not"
+msgid "Whether it’s the first run of GNOME To Do (to run the initial setup) or not"
 msgstr ""
-"Чи це перший запуск GNOME Треба зробити (щоб запустити відповідні "
-"налаштування), чи ні"
 
 #: data/org.gnome.todo.gschema.xml:26
 msgid "Default provider to add new lists to"
-msgstr "Типовий постачальник для додавання списків у нього"
+msgstr ""
 
 #: data/org.gnome.todo.gschema.xml:27
 msgid "The identifier of the default provider to add new lists to"
-msgstr "Ідентифікатор типового постачальника для додання списків у нього"
+msgstr ""
 
 #: data/org.gnome.todo.gschema.xml:31
 msgid "List of active extensions"
-msgstr "Список увімкнутих розширень"
+msgstr ""
 
 #: data/org.gnome.todo.gschema.xml:32
 msgid "The list of active extensions"
-msgstr "Список увімкнутих розширень"
+msgstr ""
 
 #: data/org.gnome.todo.gschema.xml:36
 msgid "The current list selector"
-msgstr "Поточний вибір переліку"
+msgstr ""
 
 #: data/org.gnome.todo.gschema.xml:37
+#| msgid "The current list selector. Can be 'grid' or 'list'."
 msgid "The current list selector. Can be “grid” or “list”."
-msgstr "Поточний вибір переліку. Може бути «ґратка» або «список»."
+msgstr ""
 
 #: data/ui/edit-pane.ui:43
+#| msgid "Notes"
 msgid "_Notes"
-msgstr "_Примітки"
+msgstr ""
 
 #: data/ui/edit-pane.ui:93
+#| msgid "Due Date"
 msgid "D_ue Date"
-msgstr "Дата _завершення"
+msgstr ""
 
 #: data/ui/edit-pane.ui:111
+#| msgid "Today"
 msgid "_Today"
-msgstr "_Сьогодні"
+msgstr ""
 
 #: data/ui/edit-pane.ui:121
+#| msgid "Tomorrow"
 msgid "To_morrow"
-msgstr "За_втра"
+msgstr ""
 
 #: data/ui/edit-pane.ui:169
+#| msgid "Priority"
 msgid "_Priority"
-msgstr "_Пріоритет"
+msgstr ""
 
 #: data/ui/edit-pane.ui:187
 msgctxt "taskpriority"
 msgid "None"
-msgstr "Немає"
+msgstr ""
 
 #: data/ui/edit-pane.ui:188
 msgid "Low"
-msgstr "Низький"
+msgstr ""
 
 #: data/ui/edit-pane.ui:189
 msgid "Medium"
-msgstr "Середній"
+msgstr ""
 
 #: data/ui/edit-pane.ui:190
 msgid "High"
-msgstr "Високий"
+msgstr ""
 
 #: data/ui/edit-pane.ui:198 data/ui/list-selector-panel.ui:93
+#| msgid "Delete"
 msgid "_Delete"
-msgstr "В_идалити"
+msgstr ""
 
 #: data/ui/edit-pane.ui:249
 msgctxt "taskdate"
 msgid "None"
-msgstr "Немає"
+msgstr ""
 
 #: data/ui/initial-setup.ui:25
 msgid "Welcome"
-msgstr "Вітаємо"
+msgstr ""
 
 #: data/ui/initial-setup.ui:40
+#| msgid "Login to online accounts to access your tasks"
 msgid "Log in to online accounts to access your tasks"
-msgstr "Для доступу до ваших завдань увійдіть в мережеві облікові записи"
+msgstr ""
 
 #: data/ui/initial-setup.ui:67
 msgid "To Do Setup"
-msgstr "Налаштування GNOME Треба зробити"
+msgstr ""
 
 #: data/ui/initial-setup.ui:70 data/ui/provider-popover.ui:43
 #: data/ui/window.ui:74
+#| msgid "Cancel"
 msgid "_Cancel"
-msgstr "_Скасувати"
+msgstr ""
 
 #: data/ui/initial-setup.ui:80
+#| msgid "Done"
 msgid "_Done"
-msgstr "_Зроблено"
+msgstr ""
 
 #: data/ui/list-selector-panel.ui:79 data/ui/list-selector-panel.ui:173
+#| msgid "Rename"
 msgid "_Rename"
-msgstr "Пере_йменувати"
+msgstr ""
 
 #: data/ui/list-selector-panel.ui:119 src/views/gtd-list-selector-panel.c:469
 msgid "Lists"
-msgstr "Списки"
+msgstr ""
 
 #: data/ui/list-selector-panel.ui:129
 msgid "Tasks"
-msgstr "Завдання"
+msgstr ""
 
 #: data/ui/list-selector-panel.ui:147
 msgid "Name of the task list"
-msgstr "Назва списку завдань"
+msgstr ""
 
 #: data/ui/list-selector-panel.ui:263
+#| msgid "New List"
 msgid "_New List"
-msgstr "_Створити список"
+msgstr ""
 
 #: data/ui/list-view.ui:113
 msgid "Show or hide completed tasks"
-msgstr "Показати або приховати завершені завдання"
+msgstr ""
 
 #: data/ui/list-view.ui:140 src/gtd-task-list-view.c:388
 msgid "Done"
-msgstr "Зроблено"
+msgstr ""
 
 #: data/ui/new-task-row.ui:29
 msgid "New task…"
-msgstr "Створити завдання…"
+msgstr ""
 
 #: data/ui/plugin-dialog.ui:118
 msgid "No extensions found"
-msgstr "Не знайдено жодного розширення"
+msgstr ""
 
 #: data/ui/provider-popover.ui:25
+#| msgid "Create"
 msgid "Create _List"
-msgstr "Створити _список"
+msgstr ""
 
 #: data/ui/provider-popover.ui:59
 msgid "List Name"
-msgstr "Назва списку"
+msgstr ""
 
 #: data/ui/provider-popover.ui:155
 msgid "Select a storage location"
-msgstr "Виберіть місце зберігання"
+msgstr ""
 
 #: data/ui/provider-row.ui:70
 msgid "Off"
-msgstr "Вимкнено"
+msgstr ""
 
 #: data/ui/provider-selector.ui:27
 msgid "Click to add a new Google account"
-msgstr "Натисніть, щоб додати обліковий запис Google"
+msgstr ""
 
 #: data/ui/provider-selector.ui:51
 msgid "Google"
-msgstr "Google"
+msgstr ""
 
 #: data/ui/provider-selector.ui:67
 msgid "Click to add a new ownCloud account"
-msgstr "Натисніть, щоб додати обліковий запис ownCloud"
+msgstr ""
 
 #: data/ui/provider-selector.ui:91
 msgid "ownCloud"
-msgstr "ownCloud"
+msgstr ""
 
 #: data/ui/provider-selector.ui:107
 msgid "Click to add a new Microsoft Exchange account"
-msgstr "Натисніть, щоб додати обліковий запис Microsoft Exchange"
+msgstr ""
 
 #: data/ui/provider-selector.ui:131
 msgid "Microsoft Exchange"
-msgstr "Microsoft Exchange"
+msgstr ""
 
 #: data/ui/provider-selector.ui:154
 msgid "Or you can just store your tasks on this computer"
-msgstr "Або можете просто зберігати завдання на цьому комп'ютері"
+msgstr ""
 
 #: plugins/background/gtd-plugin-background.c:150
 #, c-format
 msgid "%1$s and one more task"
 msgid_plural "%1$s and %2$d other tasks"
-msgstr[0] "%1$s і ще одне завдання"
-msgstr[1] "%1$s та ще %2$d завдання"
-msgstr[2] "%1$s та ще %2$d завдань"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: plugins/background/gtd-plugin-background.c:249
 #, c-format
 msgid "You have %d task for today"
 msgid_plural "You have %d tasks for today"
-msgstr[0] "У вас сьогодні %d завдання"
-msgstr[1] "У вас сьогодні %d завдання"
-msgstr[2] "У вас сьогодні %d завдань"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: plugins/background/org.gnome.todo.background.gschema.xml:6
 msgid "Run To Do on startup"
-msgstr "Розпочинати роботу GNOME Треба зробити під час запуску"
+msgstr ""
 
 #: plugins/background/org.gnome.todo.background.gschema.xml:7
 msgid "Whether GNOME To Do should run on startup"
-msgstr "Чи має GNOME Треба зробити починати роботу під час запуску"
+msgstr ""
 
 #: plugins/background/org.gnome.todo.background.gschema.xml:11
 msgid "Show notifications on startup"
-msgstr "Показувати сповіщення під час запуску"
+msgstr ""
 
 #: plugins/background/org.gnome.todo.background.gschema.xml:12
 msgid "Whether GNOME To Do should show notifications or not"
-msgstr "Чи має GNOME Треба зробити показувати сповіщення"
+msgstr ""
 
 #: plugins/background/ui/preferences.ui:53
 msgid "Run on Startup"
-msgstr "Виконувати під час запуску"
+msgstr ""
 
 #: plugins/background/ui/preferences.ui:66
 msgid "Run To Do automatically when you log in"
-msgstr "Запускати GNOME Треба зробити автоматично під час входу в систему"
+msgstr ""
 
 #: plugins/background/ui/preferences.ui:122
 msgid "Show Notifications"
-msgstr "Показувати сповіщення"
+msgstr ""
 
 #: plugins/background/ui/preferences.ui:135
 msgid "When To Do runs, show a startup notification"
-msgstr "Коли працює GNOME Треба зробити, показувати сповіщення про запуск"
+msgstr ""
 
 #: plugins/eds/gtd-plugin-eds.c:201
 msgid "Error loading GNOME Online Accounts"
-msgstr "Помилка завантаження мережевих облікових записів GNOME"
+msgstr ""
 
 #: plugins/eds/gtd-provider-eds.c:139
+#| msgid "Failed to connect to task list source"
 msgid "Failed to connect to task list"
-msgstr "Не вдалося з'єднатись зі списком завдань"
+msgstr ""
 
 #: plugins/eds/gtd-provider-eds.c:351
 msgid "An error occurred while creating a task"
-msgstr "Під час створення завдання сталася помилка"
+msgstr ""
 
 #: plugins/eds/gtd-provider-eds.c:383
 msgid "An error occurred while modifying a task"
-msgstr "Під час зміни завдання сталася помилка"
+msgstr ""
 
 #: plugins/eds/gtd-provider-eds.c:404
 msgid "An error occurred while removing a task"
-msgstr "Під час вилучення завдання сталася помилка"
+msgstr ""
 
 #: plugins/eds/gtd-provider-eds.c:422
 msgid "An error occurred while creating a task list"
-msgstr "Під час створення списку завдань сталася помилка"
+msgstr ""
 
 #: plugins/eds/gtd-provider-eds.c:444 plugins/eds/gtd-provider-eds.c:467
 msgid "An error occurred while modifying a task list"
-msgstr "Під час зміни списку завдань сталася помилка"
+msgstr ""
 
 #: plugins/eds/gtd-provider-local.c:50
 msgid "Local"
-msgstr "Локально"
+msgstr ""
 
 #: plugins/eds/gtd-provider-local.c:56
 msgid "On This Computer"
-msgstr "На цьому комп'ютері"
+msgstr ""
 
 #: plugins/eds/gtd-task-list-eds.c:277 plugins/eds/gtd-task-list-eds.c:307
 #: plugins/eds/gtd-task-list-eds.c:331
 msgid "Error fetching tasks from list"
-msgstr "Помилка одержання завдань зі списку"
+msgstr ""
 
 #: plugins/scheduled-panel/gtd-panel-scheduled.c:97 src/gtd-edit-pane.c:110
 msgid "No date set"
-msgstr "Не вказано дати"
+msgstr ""
 
 #. Translators: This message will never be used with '1 day ago'
 #. * but the singular form is required because some languages do not
@@ -398,13 +410,14 @@ msgstr "Не вказано дати"
 #, c-format
 msgid "%d day ago"
 msgid_plural "%d days ago"
-msgstr[0] "%d день тому"
-msgstr[1] "%d дні тому"
-msgstr[2] "%d днів тому"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: plugins/scheduled-panel/gtd-panel-scheduled.c:114 src/gtd-task-row.c:147
 msgid "Yesterday"
-msgstr "Вчора"
+msgstr ""
 
 #. Setup a title
 #: plugins/scheduled-panel/gtd-panel-scheduled.c:118
@@ -413,265 +426,249 @@ msgstr "Вчора"
 #: plugins/today-panel/gtd-panel-today.c:139
 #: plugins/today-panel/gtd-panel-today.c:273 src/gtd-task-row.c:139
 msgid "Today"
-msgstr "Сьогодні"
+msgstr ""
 
 #: plugins/scheduled-panel/gtd-panel-scheduled.c:122 src/gtd-task-row.c:143
 msgid "Tomorrow"
-msgstr "Завтра"
+msgstr ""
 
 #. Setup a title
 #: plugins/scheduled-panel/gtd-panel-scheduled.c:356
 #: plugins/scheduled-panel/gtd-panel-scheduled.c:358
 #: plugins/scheduled-panel/gtd-panel-scheduled.c:495
 msgid "Scheduled"
-msgstr "Заплановано"
+msgstr ""
 
 #: plugins/scheduled-panel/gtd-panel-scheduled.c:500
 #: plugins/today-panel/gtd-panel-today.c:278
 #: plugins/unscheduled-panel/unscheduled-panel/__init__.py:58
 msgid "Clear completed tasks…"
-msgstr "Очистити завершені завдання…"
+msgstr ""
 
 #: plugins/score/score/__init__.py:90
 msgid "No task completed today"
-msgstr "Не виконано жодного завдання за сьогодні"
+msgstr ""
 
 #: plugins/todoist/gtd-provider-todoist.c:212
 msgid "Error fetching Todoist account key"
-msgstr "Помилка при отримання ключа облікового запису Todoist"
+msgstr ""
 
 #: plugins/todoist/gtd-provider-todoist.c:213
 msgid "Please ensure that Todoist account is correctly configured."
 msgstr ""
-"Будь ласка, переконайтесь, що обліковий запис Todoist налаштований належним "
-"чином."
 
 #: plugins/todoist/gtd-provider-todoist.c:557
 #, c-format
-msgid ""
-"GNOME To Do doesn’t have the necessary permissions to perform this action: %s"
+msgid "GNOME To Do doesn’t have the necessary permissions to perform this action: %s"
 msgstr ""
-"GNOME Треба зробити не має необхідних прав для виконання цієї дії: %s"
 
 #: plugins/todoist/gtd-provider-todoist.c:565
 #, c-format
-msgid ""
-"Invalid response received from Todoist servers. Please reload GNOME To Do."
+msgid "Invalid response received from Todoist servers. Please reload GNOME To Do."
 msgstr ""
-"Від серверів Todoist отримана неприпустима відповідь. Перезавантажте GNOME "
-"Треба зробити."
 
 #: plugins/todoist/gtd-provider-todoist.c:865
 msgid "An error occurred while updating a Todoist task"
-msgstr "Під час оновлення завдання Todoist сталася помилка"
+msgstr ""
 
 #: plugins/todoist/gtd-provider-todoist.c:982
 msgid "An error occurred while retrieving Todoist data"
-msgstr "Під час видобування даних Todoist сталася помилка"
+msgstr ""
 
 #: plugins/todoist/gtd-provider-todoist.c:1057
 msgid "An error occurred while updating Todoist"
-msgstr "Під час оновлення Todoist сталася помилка"
+msgstr ""
 
 #: plugins/todoist/gtd-provider-todoist.c:1117
 msgid "Todoist"
-msgstr "Todoist"
+msgstr ""
 
 #: plugins/todoist/gtd-provider-todoist.c:1426
 #, c-format
 msgid "Todoist: %s"
-msgstr "Todoist: %s"
+msgstr ""
 
 #: plugins/todoist/ui/preferences.ui:81
+#| msgid "No tasks found"
 msgid "No Todoist accounts found"
-msgstr "Не знайдено облікових записів Todoist"
+msgstr ""
 
 #: plugins/todoist/ui/preferences.ui:90
 msgid "Add a Todoist account"
-msgstr "Додати обліковий запис Todoist"
+msgstr ""
 
 #: plugins/todo-txt/gtd-plugin-todo-txt.c:87
 #: plugins/todo-txt/gtd-plugin-todo-txt.c:124
 msgid "Cannot create Todo.txt file"
-msgstr "Неможливо створити файл Todo.txt"
+msgstr ""
 
 #: plugins/todo-txt/gtd-plugin-todo-txt.c:161
 msgid "Select a Todo.txt-formatted file:"
-msgstr "Виберіть файл у форматі Todo.txt:"
+msgstr ""
 
 #. Filechooser
 #: plugins/todo-txt/gtd-plugin-todo-txt.c:165
 msgid "Select a file"
-msgstr "Оберіть файл"
+msgstr ""
 
 #: plugins/todo-txt/gtd-plugin-todo-txt.c:191
 msgid "Error opening Todo.txt file"
-msgstr "Помилка відкривання файлу Todo.txt"
+msgstr ""
 
 #: plugins/todo-txt/gtd-plugin-todo-txt.c:201
-msgid ""
-"<b>Warning!</b> Todo.txt support is experimental and unstable. You may "
-"experience instability, errors and eventually data loss. It is not "
-"recommended to use Todo.txt integration on production systems."
+msgid "<b>Warning!</b> Todo.txt support is experimental and unstable. You may experience instability, errors and eventually data loss. It is not recommended to use Todo.txt integration on production systems."
 msgstr ""
-"<b>Увага!</b> Підтримка Todo.txt експериментальна та ненадійна. Її робота "
-"може бути нестабільною, зазнавати помилок і, зрештою, втрати даних. Не "
-"рекомендується використовувати інтеграцію Todo.txt у виробничих системах."
 
 #: plugins/todo-txt/gtd-provider-todo-txt.c:326
 msgid "Error while opening the file monitor. Todo.txt will not be monitored"
 msgstr ""
-"Помилка відкриття відстеження файлів. Todo.txt не буде відстежуватись"
 
 #: plugins/todo-txt/gtd-provider-todo-txt.c:395
 msgid "Todo.txt"
-msgstr "Todo.txt"
+msgstr ""
 
 #: plugins/todo-txt/gtd-provider-todo-txt.c:401
 msgid "On the Todo.txt file"
-msgstr "На файл Todo.txt"
+msgstr ""
 
 #: plugins/todo-txt/org.gnome.todo.txt.gschema.xml:6
 msgid "Todo.txt File"
-msgstr "Файл Todo.txt"
+msgstr ""
 
 #: plugins/todo-txt/org.gnome.todo.txt.gschema.xml:7
 msgid "Source of the Todo.txt file"
-msgstr "Джерело файла Todo.txt"
+msgstr ""
 
 #. Translators: 'Unscheduled' as in 'Unscheduled tasks'
 #: plugins/unscheduled-panel/unscheduled-panel/__init__.py:41
 #: plugins/unscheduled-panel/unscheduled-panel/__init__.py:103
 msgid "Unscheduled"
-msgstr "Не заплановано"
+msgstr ""
 
 #. Translators: 'Unscheduled' as in 'Unscheduled tasks'
 #: plugins/unscheduled-panel/unscheduled-panel/__init__.py:106
 #, python-format
 msgid "Unscheduled (%d)"
-msgstr "Не заплановано (%d)"
+msgstr ""
 
 #: src/gtd-application.c:72
 msgid "Quit GNOME To Do"
-msgstr "Вихід з GNOME Треба зробити"
+msgstr ""
 
 #: src/gtd-application.c:73
 msgid "Enable debug messages"
-msgstr "Увімкнути повідомлення для зневадження"
+msgstr ""
 
 #: src/gtd-application.c:146
 #, c-format
 msgid "Copyright © %1$d The To Do authors"
-msgstr "© %1$d Автори GNOME Треба зробити"
+msgstr ""
 
 #: src/gtd-application.c:151
 #, c-format
 msgid "Copyright © %1$d–%2$d The To Do authors"
-msgstr "© %1$d–%2$d Автори GNOME Треба зробити"
+msgstr ""
 
 #: src/gtd-application.c:163
 msgid "translator-credits"
 msgstr ""
-"Daniel Korostil <ted.korostiled@gmail.com>\n"
-"\n"
-"Launchpad Contributions:\n"
-"  Andrii Prokopenko https://launchpad.net/~anprok\n"
-"  Daniel Korostil https://launchpad.net/~ted-korostiled"
 
 #: src/gtd-empty-list-widget.c:51
+#| msgid "Remove task lists"
 msgid "No more tasks left"
-msgstr "Більше не залишилось завдань"
+msgstr ""
 
 #: src/gtd-empty-list-widget.c:52
 msgid "Nothing else to do here"
-msgstr "Тут більше нічого робити"
+msgstr ""
 
 #: src/gtd-empty-list-widget.c:53
 msgid "You made it!"
-msgstr "Ви зробили це!"
+msgstr ""
 
 #: src/gtd-empty-list-widget.c:54
 msgid "Looks like there’s nothing else left here"
-msgstr "Схоже, що тут більше нічого шукати"
+msgstr ""
 
 #: src/gtd-empty-list-widget.c:59
 msgid "Get some rest now"
-msgstr "А тепер можете відпочити"
+msgstr ""
 
 #: src/gtd-empty-list-widget.c:60
 msgid "Enjoy the rest of your day"
-msgstr "Насолоджуйтесь рештою дня"
+msgstr ""
 
 #: src/gtd-empty-list-widget.c:61
 msgid "Good job!"
-msgstr "Гарна робота!"
+msgstr ""
 
 #: src/gtd-empty-list-widget.c:62
 msgid "Meanwhile, spread the love"
-msgstr "І не забувайте дарувати любов"
+msgstr ""
 
 #: src/gtd-empty-list-widget.c:63
 msgid "Working hard is always rewarded"
-msgstr "Важка праця завжди винагороджується"
+msgstr ""
 
 #: src/gtd-empty-list-widget.c:74
 msgid "No tasks found"
-msgstr "Не знайдено жодного завдання"
+msgstr ""
 
 #: src/gtd-empty-list-widget.c:75
+#| msgid "You can add tasks to lists in the <b>Lists</b> view"
 msgid "You can add tasks using the <b>+</b> above"
-msgstr "Можете додавати завдання за допомогою <b>+</b> зверху"
+msgstr ""
 
 #: src/gtd-plugin-dialog-row.c:97
 msgid "Error loading extension"
-msgstr "Помилка завантаження розширення"
+msgstr ""
 
 #: src/gtd-plugin-dialog-row.c:97
 msgid "Error unloading extension"
-msgstr "Помилка вивантаження розширення"
+msgstr ""
 
 #: src/gtd-task-list-view.c:292
 msgid "Removing this task will also remove its subtasks. Remove anyway?"
 msgstr ""
-"Вилучення цього завдання також вилучить його підзавдання. Все одно вилучити?"
 
 #: src/gtd-task-list-view.c:295
+#| msgid "Once removed, the task lists cannot be recovered."
 msgid "Once removed, the tasks cannot be recovered."
-msgstr "Після вилучення завдання буде неможливо відновити."
+msgstr ""
 
 #: src/gtd-task-list-view.c:298 src/views/gtd-list-selector-panel.c:388
 msgid "Cancel"
-msgstr "Скасувати"
+msgstr ""
 
 #: src/gtd-task-list-view.c:300
 msgid "Remove"
-msgstr "Вилучити"
+msgstr ""
 
 #: src/gtd-task-list-view.c:390
 #, c-format
 msgid "Done (%d)"
-msgstr "Виконано (%d)"
+msgstr ""
 
 #: src/gtd-task-list-view.c:660
 #, c-format
 msgid "Task <b>%s</b> removed"
-msgstr "Завдання <b>%s</b> вилучено"
+msgstr ""
 
 #: src/gtd-task-list-view.c:684
 msgid "Undo"
-msgstr "Повернути"
+msgstr ""
 
 #: src/gtd-window.c:476
 msgid "Details"
-msgstr "Подробиці"
+msgstr ""
 
 #: src/gtd-window.c:689
 msgid "Loading your task lists…"
-msgstr "Завантаження списку завдань…"
+msgstr ""
 
 #: src/gtd-window.c:793
 msgid "Click a task list to select"
-msgstr "Натисніть на список завдань, щоб вибрати"
+msgstr ""
 
 #. 
 #. * If there's no task available, draw a "No tasks" string at
@@ -679,20 +676,21 @@ msgstr "Натисніть на список завдань, щоб вибрат
 #. 
 #: src/views/gtd-list-selector-grid-item.c:250
 msgid "No tasks"
-msgstr "Немає завдань"
+msgstr ""
 
 #: src/views/gtd-list-selector-panel.c:381
 msgid "Remove the selected task lists?"
-msgstr "Вилучити вибраний список завдань?"
+msgstr ""
 
 #: src/views/gtd-list-selector-panel.c:384
 msgid "Once removed, the task lists cannot be recovered."
-msgstr "Після вилучення завдання неможливо відновити."
+msgstr ""
 
 #: src/views/gtd-list-selector-panel.c:396
 msgid "Remove task lists"
-msgstr "Вилучити списки завдань"
+msgstr ""
 
 #: src/views/gtd-list-selector-panel.c:709
 msgid "Clear completed tasks"
-msgstr "Очистити завершені завдання"
+msgstr ""
+

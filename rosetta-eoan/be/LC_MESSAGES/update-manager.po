@@ -1,24 +1,21 @@
-# Belarusian translation for update-manager
-# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
-# This file is distributed under the same license as the update-manager package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: update-manager\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
 "POT-Creation-Date: 2019-04-08 21:22+0000\n"
-"PO-Revision-Date: 2018-05-30 07:32+0000\n"
-"Last-Translator: Soltan Dzmitry <Unknown>\n"
-"Language-Team: Belarusian <be@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:23\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Launchpad-Export-Date: 2019-05-11 11:37+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: be\n"
+"X-Generator: crowdin.com\n"
+"Language: be_BY\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/update-manager.po\n"
 
 #: ../UpdateManager/backend/InstallBackendAptdaemon.py:69
 msgid "Checking for updates…"
@@ -49,9 +46,7 @@ msgid "Settings…"
 msgstr "Налады..."
 
 #: ../UpdateManager/Dialogs.py:162
-msgid ""
-"<b>Tip:</b> You can use Livepatch to keep your computer more secure between "
-"restarts."
+msgid "<b>Tip:</b> You can use Livepatch to keep your computer more secure between restarts."
 msgstr ""
 
 #: ../UpdateManager/Dialogs.py:165
@@ -64,6 +59,8 @@ msgid "%d Livepatch update applied since the last restart."
 msgid_plural "%d Livepatch updates applied since the last restart."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../UpdateManager/Dialogs.py:187
 #, python-format
@@ -71,6 +68,8 @@ msgid "%d Livepatch update failed to apply since the last restart."
 msgid_plural "%d Livepatch updates failed to apply since the last restart."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../UpdateManager/Dialogs.py:209 ../UpdateManager/UpdateManager.py:263
 msgid "You stopped the check for updates."
@@ -123,18 +122,13 @@ msgid "Not all updates can be installed"
 msgstr "Не ўсе абнаўленні могуць быць усталяваныя"
 
 #: ../UpdateManager/Dialogs.py:302
-msgid ""
-"Run a partial upgrade, to install as many updates as possible.\n"
-"\n"
+msgid "Run a partial upgrade, to install as many updates as possible.\n\n"
 "    This can be caused by:\n"
 "     * A previous upgrade which didn't complete\n"
 "     * Problems with some of the installed software\n"
 "     * Unofficial software packages not provided by Ubuntu\n"
 "     * Normal changes of a pre-release version of Ubuntu"
-msgstr ""
-"Запуск частковай мадэрнізацыі, каб усталяваць так шмат абнаўленняў, як гэта "
-"магчыма.\n"
-"\n"
+msgstr "Запуск частковай мадэрнізацыі, каб усталяваць так шмат абнаўленняў, як гэта магчыма.\n\n"
 "    Гэта можа быць выклікана:\n"
 "      * Папярэднімі абнаўленнямі, якія не былі скончанымі\n"
 "      * Праблемы з чымсьці з устаноўленага праграмнага забеспячэння\n"
@@ -155,8 +149,7 @@ msgstr "_Паспрабаваць зноў"
 
 #: ../UpdateManager/Dialogs.py:361
 msgid "The computer needs to restart to finish installing updates."
-msgstr ""
-"Неабходна перазагрузіць кампутар для завяршэння ўсталёўкі абнаўленняў."
+msgstr "Неабходна перазагрузіць кампутар для завяршэння ўсталёўкі абнаўленняў."
 
 #: ../UpdateManager/Dialogs.py:363
 msgid "Restart _Later"
@@ -178,8 +171,7 @@ msgstr "Не атрымалася праверыць наяўнасць абна
 
 #: ../UpdateManager/UpdateManager.py:264
 msgid "Updated software is available from a previous check."
-msgstr ""
-"З часу папярэдняга пошуку частка праграмнага забеспячэння была абноўленая"
+msgstr "З часу папярэдняга пошуку частка праграмнага забеспячэння была абноўленая"
 
 #. we assert a clean cache
 #: ../UpdateManager/UpdateManager.py:368
@@ -187,47 +179,28 @@ msgid "Software index is broken"
 msgstr "Індэкс праграмнага забеспячэння пашкоджаны"
 
 #: ../UpdateManager/UpdateManager.py:369
-msgid ""
-"It is impossible to install or remove any software. Please use the package "
-"manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix "
-"this issue at first."
-msgstr ""
-"Немагчыма ўсталяваць ці выдаліць праграмы. Калі ласка, выпраўце гэтую "
-"праблему з дапамогай \"Synaptic\" альбо выканаўшы ў тэрмінале \"sudo apt-get "
-"install -f\"."
+msgid "It is impossible to install or remove any software. Please use the package manager \"Synaptic\" or run \"sudo apt-get install -f\" in a terminal to fix this issue at first."
+msgstr "Немагчыма ўсталяваць ці выдаліць праграмы. Калі ласка, выпраўце гэтую праблему з дапамогай \"Synaptic\" альбо выканаўшы ў тэрмінале \"sudo apt-get install -f\"."
 
 #: ../UpdateManager/UpdateManager.py:375
 msgid "Could not initialize the package information"
 msgstr "Не атрымалася атрымаць інфармацыю аб пакунках"
 
 #: ../UpdateManager/UpdateManager.py:376
-msgid ""
-"An unresolvable problem occurred while initializing the package "
-"information.\n"
-"\n"
-"Please report this bug against the 'update-manager' package and include the "
-"following error message:\n"
-msgstr ""
-"Падчас працы з пакетам паўстала невырашальная памылка.\n"
-"\n"
-"Калі ласка, паведаміце аб гэтай памылцы пакета «update-manager» і ўключыце "
-"гэтае паведамленне:\n"
+msgid "An unresolvable problem occurred while initializing the package information.\n\n"
+"Please report this bug against the 'update-manager' package and include the following error message:\n"
+msgstr "Падчас працы з пакетам паўстала невырашальная памылка.\n\n"
+"Калі ласка, паведаміце аб гэтай памылцы пакета «update-manager» і ўключыце гэтае паведамленне:\n"
 
 #: ../UpdateManager/UpdateManager.py:393
 msgid "Could not calculate the upgrade"
 msgstr "Немагчыма падлічыць абнаўленне"
 
 #: ../UpdateManager/UpdateManager.py:394
-msgid ""
-"An unresolvable problem occurred while calculating the upgrade.\n"
-"\n"
-"Please report this bug against the 'update-manager' package and include the "
-"following error message:\n"
-msgstr ""
-"Пры вылічэнні параметраў абнаўлення адбылася памылка.\n"
-"\n"
-"Паведаміце пра гэты недахоп у пакеце «update-manager», дадаўшы да тэксту "
-"справаздачы наступнае паведамленне пра памылку:\n"
+msgid "An unresolvable problem occurred while calculating the upgrade.\n\n"
+"Please report this bug against the 'update-manager' package and include the following error message:\n"
+msgstr "Пры вылічэнні параметраў абнаўлення адбылася памылка.\n\n"
+"Паведаміце пра гэты недахоп у пакеце «update-manager», дадаўшы да тэксту справаздачы наступнае паведамленне пра памылку:\n"
 
 #: ../UpdateManager/UpdatesAvailable.py:252
 msgid "Install Now"
@@ -252,8 +225,7 @@ msgid "Version %s: \n"
 msgstr "Версія %s: \n"
 
 #: ../UpdateManager/UpdatesAvailable.py:578
-msgid ""
-"No network connection detected, you can not download changelog information."
+msgid "No network connection detected, you can not download changelog information."
 msgstr "Не выяўлена сеткавае злучэнне, немагчыма загрузіць спіс змяненняў."
 
 #: ../UpdateManager/UpdatesAvailable.py:588
@@ -279,6 +251,7 @@ msgid_plural "The updates have already been downloaded."
 msgstr[0] "Абнаўленне ўжо сцягнутае."
 msgstr[1] "Абнаўленні ўжо сцягнутыя."
 msgstr[2] "Абнаўленні ўжо сцягнутыя."
+msgstr[3] ""
 
 #: ../UpdateManager/UpdatesAvailable.py:754
 msgid "There are no updates to install."
@@ -290,26 +263,16 @@ msgstr "Загружаны памер невядомы."
 
 #: ../UpdateManager/UpdatesAvailable.py:790
 #, python-format
-msgid ""
-"Updated software has been issued since %s %s was released. Do you want to "
-"install it now?"
-msgstr ""
-"З часу выпуску  %s %s частка праграмнага забеспячэння была абноўлена. Хочаце "
-"ўсталяваць абнаўленне зараз?"
+msgid "Updated software has been issued since %s %s was released. Do you want to install it now?"
+msgstr "З часу выпуску  %s %s частка праграмнага забеспячэння была абноўлена. Хочаце ўсталяваць абнаўленне зараз?"
 
 #: ../UpdateManager/UpdatesAvailable.py:795
-msgid ""
-"Updated software is available for this computer. Do you want to install it "
-"now?"
-msgstr ""
-"Абноўленае праграмнае забеспячэнне даступнае для гэтага кампутара. Вы хочаце "
-"ўсталяваць яго зараз?"
+msgid "Updated software is available for this computer. Do you want to install it now?"
+msgstr "Абноўленае праграмнае забеспячэнне даступнае для гэтага кампутара. Вы хочаце ўсталяваць яго зараз?"
 
 #: ../UpdateManager/UpdatesAvailable.py:798
-msgid ""
-"The computer also needs to restart to finish installing previous updates."
-msgstr ""
-"Для завяршэння ўсталёўкі папярэдніх абнаўленняў кампутар варта перазагрузіць."
+msgid "The computer also needs to restart to finish installing previous updates."
+msgstr "Для завяршэння ўсталёўкі папярэдніх абнаўленняў кампутар варта перазагрузіць."
 
 #. print("on_button_install_clicked")
 #: ../UpdateManager/UpdatesAvailable.py:828
@@ -318,28 +281,20 @@ msgstr "Бракуе дыскавае прасторы"
 
 #: ../UpdateManager/UpdatesAvailable.py:829
 #, python-format
-msgid ""
-"The upgrade needs a total of %s free space on disk '%s'. Please free at "
-"least an additional %s of disk space on '%s'. %s"
+msgid "The upgrade needs a total of %s free space on disk '%s'. Please free at least an additional %s of disk space on '%s'. %s"
 msgstr ""
 
 #. specific ways to resolve lack of free space
 #: ../UpdateManager/UpdatesAvailable.py:834
-msgid ""
-"Remove temporary packages of former installations using 'sudo apt clean'."
+msgid "Remove temporary packages of former installations using 'sudo apt clean'."
 msgstr ""
 
 #: ../UpdateManager/UpdatesAvailable.py:836
-msgid ""
-"You can remove old kernels using 'sudo apt autoremove', and you could also "
-"set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of "
-"your initramfs."
+msgid "You can remove old kernels using 'sudo apt autoremove', and you could also set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of your initramfs."
 msgstr ""
 
 #: ../UpdateManager/UpdatesAvailable.py:841
-msgid ""
-"Empty your trash and remove temporary packages of former installations using "
-"'sudo apt clean'."
+msgid "Empty your trash and remove temporary packages of former installations using 'sudo apt clean'."
 msgstr ""
 
 #: ../UpdateManager/UpdatesAvailable.py:844
@@ -376,56 +331,39 @@ msgstr "Усталяваць усе даступныя абнаўленні"
 
 #: ../UpdateManager/Core/MyCache.py:418
 msgid "This update does not come from a source that supports changelogs."
-msgstr ""
-"Гэтае абнаўленне пастаўляецца крыніцай, што не падтрымлівае спісы зменаў."
+msgstr "Гэтае абнаўленне пастаўляецца крыніцай, што не падтрымлівае спісы зменаў."
 
 #: ../UpdateManager/Core/MyCache.py:424 ../UpdateManager/Core/MyCache.py:459
-msgid ""
-"Failed to download the list of changes. \n"
+msgid "Failed to download the list of changes. \n"
 "Please check your Internet connection."
-msgstr ""
-"Памылка пры загрузцы спісу змен. \n"
+msgstr "Памылка пры загрузцы спісу змен. \n"
 "Калі ласка, спраўдзьце вашае злучэнне з Інтэрнэтам."
 
 #: ../UpdateManager/Core/MyCache.py:431
 #, python-format
-msgid ""
-"Changes for %s versions:\n"
+msgid "Changes for %s versions:\n"
 "Installed version: %s\n"
-"Available version: %s\n"
-"\n"
-msgstr ""
-"Змены ў версіі %s :\n"
+"Available version: %s\n\n"
+msgstr "Змены ў версіі %s :\n"
 "Усталяваная версія: %s\n"
-"Даступная версія: %s\n"
-"\n"
+"Даступная версія: %s\n\n"
 
 #: ../UpdateManager/Core/MyCache.py:445
 #, python-format
-msgid ""
-"The changelog does not contain any relevant changes.\n"
-"\n"
+msgid "The changelog does not contain any relevant changes.\n\n"
 "Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
 "until the changes become available or try again later."
-msgstr ""
-"Спіс зменаў не ўтрымлівае звязаных з пакункам запісаў.\n"
-"\n"
-"Калі ласка, выкарыстоўвайце "
-"http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+msgstr "Спіс зменаў не ўтрымлівае звязаных з пакункам запісаў.\n\n"
+"Калі ласка, выкарыстоўвайце http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
 "пакуль змены не будуць даступны альбо паспрабуйце яшчэ раз пазней."
 
 #: ../UpdateManager/Core/MyCache.py:452
 #, python-format
-msgid ""
-"The list of changes is not available yet.\n"
-"\n"
+msgid "The list of changes is not available yet.\n\n"
 "Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
 "until the changes become available or try again later."
-msgstr ""
-"Спіс зменаў пакуль што недаступны.\n"
-"\n"
-"Калі ласка, выкарыстоўвайце "
-"http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
+msgstr "Спіс зменаў пакуль што недаступны.\n\n"
+"Калі ласка, выкарыстоўвайце http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
 "пакуль змены ня будуць даступны альбо паспрабуйце яшчэ раз пазней."
 
 #. Translators: the %s is a distro name, like 'Ubuntu' and 'base' as in
@@ -443,6 +381,7 @@ msgid_plural "%(size).0f kB"
 msgstr[0] "%(size).0f КБ"
 msgstr[1] "%(size).0f КБ"
 msgstr[2] "%(size).0f КБ"
+msgstr[3] ""
 
 #. TRANSLATORS: download size of updates, e.g. "2.3 MB"
 #: ../UpdateManager/Core/utils.py:487
@@ -475,25 +414,16 @@ msgid "The computer will need to restart."
 msgstr "Кампутар прыйдзецца перазагрузіць."
 
 #: ../data/gtkbuilder/UpdateManager.ui.h:7
-msgid ""
-"You are connected via roaming and may be charged for the data consumed by "
-"this update."
-msgstr ""
-"Вы знаходзіцеся ў роўмінгу і з вас можа спаганяцца плата за дадзеныя, якія "
-"перадаюцца пры абнаўленні."
+msgid "You are connected via roaming and may be charged for the data consumed by this update."
+msgstr "Вы знаходзіцеся ў роўмінгу і з вас можа спаганяцца плата за дадзеныя, якія перадаюцца пры абнаўленні."
 
 #: ../data/gtkbuilder/UpdateManager.ui.h:8
-msgid ""
-"You may want to wait until you’re not using a mobile broadband connection."
-msgstr ""
-"Магчыма, варта пачакаць, пакуль можна будзе скарыстацца злучэннем, выдатным "
-"ад шырокапалоснага мабільнага."
+msgid "You may want to wait until you’re not using a mobile broadband connection."
+msgstr "Магчыма, варта пачакаць, пакуль можна будзе скарыстацца злучэннем, выдатным ад шырокапалоснага мабільнага."
 
 #: ../data/gtkbuilder/UpdateManager.ui.h:9
 msgid "It’s safer to connect the computer to AC power before updating."
-msgstr ""
-"Бяспечней будзе падлучыць кампутар да крыніцы сілкавання перад пачаткам "
-"абнаўлення."
+msgstr "Бяспечней будзе падлучыць кампутар да крыніцы сілкавання перад пачаткам абнаўлення."
 
 #: ../data/update-manager.desktop.in.h:2
 msgid "Software Updates"
@@ -505,9 +435,7 @@ msgid "Show and install available updates"
 msgstr "Паказаць і ўсталяваць даступныя абнаўленні"
 
 #: ../data/update-manager.appdata.xml.in.h:3
-msgid ""
-"Software Updater checks for updates using apt and let you choose which "
-"updates to install."
+msgid "Software Updater checks for updates using apt and let you choose which updates to install."
 msgstr ""
 
 #: ../update-manager:71
@@ -523,8 +451,7 @@ msgid "Check if a new Ubuntu release is available"
 msgstr "Праверыць, ці даступны новы рэліз Ubuntu"
 
 #: ../update-manager:80
-msgid ""
-"If using the latest supported release, upgrade to the development release"
+msgid "If using the latest supported release, upgrade to the development release"
 msgstr ""
 
 #: ../update-manager:84
@@ -570,27 +497,19 @@ msgstr "Агульны статус падтрымкі '%s':"
 
 #: ../ubuntu-support-status:183
 msgid "You have %(num)s packages (%(percent).1f%%) supported until %(time)s"
-msgstr ""
-"У вас ёсць %(num)s з пакетаў (%(percent).1f%%) яшчэ спатрэбіцца %(time)s"
+msgstr "У вас ёсць %(num)s з пакетаў (%(percent).1f%%) яшчэ спатрэбіцца %(time)s"
 
 #: ../ubuntu-support-status:189
-msgid ""
-"You have %(num)s packages (%(percent).1f%%) that can not/no-longer be "
-"downloaded"
-msgstr ""
-"У вас ёсць  %(num)s пакетамі (%(percent).1f%%)  якія не могуць / не будуць "
-"сцягнутыя"
+msgid "You have %(num)s packages (%(percent).1f%%) that can not/no-longer be downloaded"
+msgstr "У вас ёсць  %(num)s пакетамі (%(percent).1f%%)  якія не могуць / не будуць сцягнутыя"
 
 #: ../ubuntu-support-status:192
 msgid "You have %(num)s packages (%(percent).1f%%) that are unsupported"
 msgstr "ў вас ёсць %(num)s пакетаў (%(percent).1f%%) з іх не падтрымліваюцца"
 
 #: ../ubuntu-support-status:205
-msgid ""
-"Run with --show-unsupported, --show-supported or --show-all to see more "
-"details"
-msgstr ""
-"Запуск з --show-unsupported, --show-supported or --show-all\r\n"
+msgid "Run with --show-unsupported, --show-supported or --show-all to see more details"
+msgstr "Запуск з --show-unsupported, --show-supported or --show-all\r\n"
 "каб убачыць больш падрабязную інфармацыю"
 
 #: ../ubuntu-support-status:209
@@ -641,13 +560,8 @@ msgid "%s needs to be marked as manually installed."
 msgstr "%s павінен быць пазначаны як усталяваны ўручную."
 
 #: ../janitor/plugincore/plugins/kdelibs4to5_plugin.py:50
-msgid ""
-"When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be "
-"installed. See bugs.launchpad.net, bug #279621 for details."
-msgstr ""
-"Пры абнаўленні, калі ўсталяваны kdelibs4-dev, то неабходна ўсталяваць "
-"kdelibs5-dev. Гэта баґ, аб якім можна пачытаць тут — bugs.launchpad.net, bug "
-"#279621"
+msgid "When upgrading, if kdelibs4-dev is installed, kdelibs5-dev needs to be installed. See bugs.launchpad.net, bug #279621 for details."
+msgstr "Пры абнаўленні, калі ўсталяваны kdelibs4-dev, то неабходна ўсталяваць kdelibs5-dev. Гэта баґ, аб якім можна пачытаць тут — bugs.launchpad.net, bug #279621"
 
 #: ../janitor/plugincore/plugins/dpkg_status_plugin.py:45
 #, python-format
@@ -664,7 +578,6 @@ msgid "Obsolete dpkg status entries"
 msgstr "Састарэлы змест станаў dpkg"
 
 #: ../janitor/plugincore/plugins/remove_lilo_plugin.py:43
-msgid ""
-"Remove lilo since grub is also installed.(See bug #314004 for details.)"
-msgstr ""
-"Выдаліце lilo, калі grub ужо ўсталяваны. (Глядзіце bug #314004 для дэталяў)"
+msgid "Remove lilo since grub is also installed.(See bug #314004 for details.)"
+msgstr "Выдаліце lilo, калі grub ужо ўсталяваны. (Глядзіце bug #314004 для дэталяў)"
+

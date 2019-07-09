@@ -1,22 +1,21 @@
-# Chinese (China) translation for dpkg
-# Copyright (c) 2006 Rosetta Contributors and Canonical Ltd 2006
-# This file is distributed under the same license as the dpkg package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: dpkg\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-03-25 15:07+0100\n"
-"PO-Revision-Date: 2008-07-08 02:31+0000\n"
-"Last-Translator: Aron Xu <Unknown>\n"
-"Language-Team: Chinese (China) <zh_CN@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:42\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Launchpad-Export-Date: 2019-05-11 10:46+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/dpkg-dev.po\n"
+"Language: zh_CN\n"
 
 #: scripts/dpkg-architecture.pl scripts/dpkg-buildflags.pl
 #: scripts/dpkg-buildpackage.pl scripts/dpkg-checkbuilddeps.pl
@@ -28,7 +27,7 @@ msgstr ""
 #: scripts/dpkg-shlibdeps.pl scripts/dpkg-source.pl scripts/dpkg-vendor.pl
 #, perl-format
 msgid "Debian %s version %s.\n"
-msgstr "Debian %s 版本 %s。\n"
+msgstr ""
 
 #: scripts/dpkg-architecture.pl scripts/dpkg-buildflags.pl
 #: scripts/dpkg-buildpackage.pl scripts/dpkg-distaddfile.pl
@@ -36,8 +35,7 @@ msgstr "Debian %s 版本 %s。\n"
 #: scripts/dpkg-gencontrol.pl scripts/dpkg-gensymbols.pl
 #: scripts/dpkg-parsechangelog.pl scripts/dpkg-shlibdeps.pl
 #: scripts/dpkg-source.pl scripts/dpkg-vendor.pl
-msgid ""
-"\n"
+msgid "\n"
 "This is free software; see the GNU General Public License version 2 or\n"
 "later for copying conditions. There is NO warranty.\n"
 msgstr ""
@@ -48,11 +46,9 @@ msgid "Usage: %s [<option>...] [<command>]"
 msgstr ""
 
 #: scripts/dpkg-architecture.pl
-msgid ""
-"Commands:\n"
+msgid "Commands:\n"
 "  -l, --list                list variables (default).\n"
-"  -L, --list-known          list valid architectures (matching some "
-"criteria).\n"
+"  -L, --list-known          list valid architectures (matching some criteria).\n"
 "  -e, --equal <arch>        compare with host Debian architecture.\n"
 "  -i, --is <arch-wildcard>  match against host Debian architecture.\n"
 "  -q, --query <variable>    prints only the value of <variable>.\n"
@@ -64,51 +60,44 @@ msgid ""
 msgstr ""
 
 #: scripts/dpkg-architecture.pl
-msgid ""
-"Options:\n"
+msgid "Options:\n"
 "  -a, --host-arch <arch>    set host Debian architecture.\n"
 "  -t, --host-type <type>    set host GNU system type.\n"
 "  -A, --target-arch <arch>  set target Debian architecture.\n"
 "  -T, --target-type <type>  set target GNU system type.\n"
 "  -W, --match-wildcard <arch-wildcard>\n"
-"                            restrict architecture list matching <arch-"
-"wildcard>.\n"
+"                            restrict architecture list matching <arch-wildcard>.\n"
 "  -B, --match-bits <arch-bits>\n"
-"                            restrict architecture list matching <arch-"
-"bits>.\n"
+"                            restrict architecture list matching <arch-bits>.\n"
 "  -E, --match-endian <arch-endian>\n"
-"                            restrict architecture list matching <arch-"
-"endian>.\n"
-"  -f, --force               force flag (override variables set in "
-"environment)."
+"                            restrict architecture list matching <arch-endian>.\n"
+"  -f, --force               force flag (override variables set in environment)."
 msgstr ""
 
 #: scripts/dpkg-architecture.pl
 #, perl-format
 msgid "unknown Debian architecture %s, you must specify GNU system type, too"
-msgstr "未知的 Debian 系统处理器架构 %s，您必须同时指定一个 GNU 系统类型"
+msgstr ""
 
 #: scripts/dpkg-architecture.pl
 #, perl-format
 msgid "unknown GNU system type %s, you must specify Debian architecture, too"
-msgstr "未知的 GNU 系统类型 %s，您必须同时指定一个 Debian 系统处理器架构"
+msgstr ""
 
 #: scripts/dpkg-architecture.pl
 #, perl-format
 msgid "unknown default GNU system type for Debian architecture %s"
-msgstr "unknown default GNU system type for Debian architecture %s"
+msgstr ""
 
 #: scripts/dpkg-architecture.pl
 #, perl-format
-msgid ""
-"default GNU system type %s for Debian arch %s does not match specified GNU "
-"system type %s"
+msgid "default GNU system type %s for Debian arch %s does not match specified GNU system type %s"
 msgstr ""
 
 #: scripts/dpkg-architecture.pl
 #, perl-format
 msgid "%s is not a supported variable name"
-msgstr "不支持 变量名 %s"
+msgstr ""
 
 #: scripts/dpkg-architecture.pl scripts/dpkg-buildflags.pl
 #: scripts/dpkg-distaddfile.pl scripts/dpkg-genbuildinfo.pl
@@ -122,9 +111,7 @@ msgstr ""
 
 #: scripts/dpkg-architecture.pl
 #, perl-format
-msgid ""
-"specified GNU system type %s does not match CC system type %s, try setting a "
-"correct CC environment variable"
+msgid "specified GNU system type %s does not match CC system type %s, try setting a correct CC environment variable"
 msgstr ""
 
 #: scripts/dpkg-buildflags.pl
@@ -133,23 +120,19 @@ msgid "Usage: %s [<command>]"
 msgstr ""
 
 #: scripts/dpkg-buildflags.pl
-msgid ""
-"Commands:\n"
+msgid "Commands:\n"
 "  --get <flag>       output the requested flag to stdout.\n"
 "  --origin <flag>    output the origin of the flag to stdout:\n"
 "                     value is one of vendor, system, user, env.\n"
 "  --status           output a synopsis with all parameters affecting the\n"
-"                     program behaviour, the resulting flags and their "
-"origin.\n"
+"                     program behaviour, the resulting flags and their origin.\n"
 "  --query            like --status, but in deb822 format.\n"
 "  --query-features <area>\n"
 "                     output the status of features for the given area.\n"
-"  --list             output a list of the flags supported by the current "
-"vendor.\n"
+"  --list             output a list of the flags supported by the current vendor.\n"
 "  --export=(sh|make|cmdline|configure)\n"
 "                     output something convenient to import the compilation\n"
-"                     flags in a shell script, in make, or in a command "
-"line.\n"
+"                     flags in a shell script, in make, or in a command line.\n"
 "  --dump             output all compilation flags with their values.\n"
 "  --help             show this help message.\n"
 "  --version          show the version.\n"
@@ -173,13 +156,10 @@ msgid "Usage: %s [<option>...]"
 msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
-msgid ""
-"Options:\n"
-"      --build=<type>[,...]    specify the build <type>: full, source, "
-"binary,\n"
+msgid "Options:\n"
+"      --build=<type>[,...]    specify the build <type>: full, source, binary,\n"
 "                                any, all (default is 'full').\n"
-"  -F, --build=full            normal full build (source and binary; "
-"default).\n"
+"  -F, --build=full            normal full build (source and binary; default).\n"
 "  -g, --build=source,all      source and arch-indep build.\n"
 "  -G, --build=source,any      source and arch-specific build.\n"
 "  -b, --build=binary          binary-only, no source files.\n"
@@ -190,37 +170,27 @@ msgid ""
 "      --pre-clean             pre clean source tree (default).\n"
 "      --no-post-clean         do not post clean source tree (default).\n"
 "  -tc, --post-clean           post clean source tree.\n"
-"  -D, --check-builddeps       check build dependencies and conflicts "
-"(default).\n"
-"  -d, --no-check-builddeps    do not check build dependencies and "
-"conflicts.\n"
+"  -D, --check-builddeps       check build dependencies and conflicts (default).\n"
+"  -d, --no-check-builddeps    do not check build dependencies and conflicts.\n"
 "      --ignore-builtin-builddeps\n"
 "                              do not check builtin build dependencies.\n"
 "  -P, --build-profiles=<profiles>\n"
-"                              assume comma-separated build <profiles> as "
-"active.\n"
-"      --rules-requires-root   assume legacy Rules-Requires-Root field "
-"value.\n"
-"  -R, --rules-file=<rules>    rules file to execute (default is "
-"debian/rules).\n"
+"                              assume comma-separated build <profiles> as active.\n"
+"      --rules-requires-root   assume legacy Rules-Requires-Root field value.\n"
+"  -R, --rules-file=<rules>    rules file to execute (default is debian/rules).\n"
 "  -T, --rules-target=<target> call debian/rules <target>.\n"
 "      --as-root               ensure -T calls the target with root rights.\n"
-"  -j, --jobs[=<number>|auto]  jobs to run simultaneously (passed to "
-"<rules>),\n"
+"  -j, --jobs[=<number>|auto]  jobs to run simultaneously (passed to <rules>),\n"
 "                                forced mode.\n"
 "  -J, --jobs-try[=<number>|auto]\n"
-"                              jobs to run simultaneously (passed to "
-"<rules>),\n"
+"                              jobs to run simultaneously (passed to <rules>),\n"
 "                                opt-in mode (default is auto).\n"
 "  -r, --root-command=<command>\n"
-"                              command to gain root rights (default is "
-"fakeroot).\n"
+"                              command to gain root rights (default is fakeroot).\n"
 "      --check-command=<command>\n"
-"                              command to check the .changes file (no "
-"default).\n"
+"                              command to check the .changes file (no default).\n"
 "      --check-option=<opt>    pass <opt> to check <command>.\n"
-"      --hook-<name>=<command> set <command> as the hook <name>, known "
-"hooks:\n"
+"      --hook-<name>=<command> set <command> as the hook <name>, known hooks:\n"
 "                                init preclean source build binary buildinfo\n"
 "                                changes postclean check sign done\n"
 "      --buildinfo-option=<opt>\n"
@@ -241,8 +211,7 @@ msgid ""
 msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
-msgid ""
-"Options passed to dpkg-architecture:\n"
+msgid "Options passed to dpkg-architecture:\n"
 "  -a, --host-arch <arch>      set the host Debian architecture.\n"
 "  -t, --host-type <type>      set the host GNU system type.\n"
 "      --target-arch <arch>    set the target Debian architecture.\n"
@@ -250,10 +219,8 @@ msgid ""
 msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
-msgid ""
-"Options passed to dpkg-genchanges:\n"
-"  -si                         source includes orig, if new upstream "
-"(default).\n"
+msgid "Options passed to dpkg-genchanges:\n"
+"  -si                         source includes orig, if new upstream (default).\n"
 "  -sa                         source includes orig, always.\n"
 "  -sd                         source is diff and .dsc only.\n"
 "  -v<version>                 changes since version <version>.\n"
@@ -264,15 +231,13 @@ msgid ""
 msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
-msgid ""
-"Options passed to dpkg-source:\n"
+msgid "Options passed to dpkg-source:\n"
 "  -sn                         force Debian native source format.\n"
 "  -s[sAkurKUR]                see dpkg-source for explanation.\n"
 "  -z, --compression-level=<level>\n"
 "                              compression level to use for source.\n"
 "  -Z, --compression=<compressor>\n"
-"                              compression to use for source "
-"(gz|xz|bzip2|lzma).\n"
+"                              compression to use for source (gz|xz|bzip2|lzma).\n"
 "  -i, --diff-ignore[=<regex>] ignore diffs of files matching <regex>.\n"
 "  -I, --tar-ignore[=<pattern>]\n"
 "                              filter out files when building tarballs.\n"
@@ -301,7 +266,7 @@ msgstr ""
 #: scripts/dpkg-buildpackage.pl
 #, perl-format
 msgid "unknown option or argument %s"
-msgstr "未知选项或参数 %s"
+msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
 #, perl-format
@@ -320,11 +285,11 @@ msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
 msgid "source package"
-msgstr "源码包"
+msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
 msgid "source version"
-msgstr "源码版本"
+msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
 msgid "source distribution"
@@ -332,11 +297,11 @@ msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
 msgid "source changed by"
-msgstr "源码修改者"
+msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
 msgid "host architecture"
-msgstr "主机架构"
+msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
 msgid "debian/rules is not executable; fixing that"
@@ -348,12 +313,10 @@ msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
 msgid "(Use -d flag to override.)"
-msgstr "(使用 -d 参数来忽略)"
+msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
-msgid ""
-"building a source package without cleaning up as you asked; it might contain "
-"undesired files"
+msgid "building a source package without cleaning up as you asked; it might contain undesired files"
 msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
@@ -362,7 +325,7 @@ msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
 msgid "dpkg-genchanges"
-msgstr "dpkg-genchanges"
+msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
 msgid "Press <enter> to start the signing process.\n"
@@ -380,19 +343,16 @@ msgstr ""
 #: scripts/dpkg-buildpackage.pl
 #, perl-format
 msgid "unable to determine %s"
-msgstr "无法确定 %s"
+msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
 msgid "using a gain-root-command while being root"
-msgstr "使用超级用户命令"
+msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
-msgid ""
-"fakeroot not found, either install the fakeroot\n"
+msgid "fakeroot not found, either install the fakeroot\n"
 "package, specify a command with the -r option, or run this as root"
 msgstr ""
-"未找到 fakeroot， 安装 fakeroot 软件包\n"
-"或使用 -r 选项或作为 root 运行此程序"
 
 #: scripts/dpkg-buildpackage.pl
 #, perl-format
@@ -431,16 +391,12 @@ msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
 #, perl-format
-msgid ""
-"short OpenPGP key IDs are broken; please use key fingerprints in %s or %s "
-"instead"
+msgid "short OpenPGP key IDs are broken; please use key fingerprints in %s or %s instead"
 msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
 #, perl-format
-msgid ""
-"long OpenPGP key IDs are strongly discouraged; please use key fingerprints "
-"in %s or %s instead"
+msgid "long OpenPGP key IDs are strongly discouraged; please use key fingerprints in %s or %s instead"
 msgstr ""
 
 #: scripts/dpkg-buildpackage.pl scripts/dpkg-checkbuilddeps.pl
@@ -448,7 +404,7 @@ msgstr ""
 #: scripts/Dpkg/IPC.pm scripts/Dpkg/OpenPGP.pm scripts/Dpkg/Shlibs.pm
 #, perl-format
 msgid "cannot open %s"
-msgstr "不能打开 %s"
+msgstr ""
 
 #: scripts/dpkg-buildpackage.pl scripts/dpkg-distaddfile.pl
 #: scripts/dpkg-genbuildinfo.pl scripts/dpkg-gencontrol.pl
@@ -484,13 +440,11 @@ msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
 msgid "full upload (original source is included)"
-msgstr "完整上载（包含原始的代码）"
+msgstr ""
 
 #: scripts/dpkg-buildpackage.pl
 #, perl-format
-msgid ""
-"%s must be updated to support the 'build-arch' and 'build-indep' targets (at "
-"least '%s' seems to be missing)"
+msgid "%s must be updated to support the 'build-arch' and 'build-indep' targets (at least '%s' seems to be missing)"
 msgstr ""
 
 #: scripts/dpkg-checkbuilddeps.pl
@@ -499,8 +453,7 @@ msgid "Usage: %s [<option>...] [<control-file>]"
 msgstr ""
 
 #: scripts/dpkg-checkbuilddeps.pl
-msgid ""
-"Options:\n"
+msgid "Options:\n"
 "  -A             ignore Build-Depends-Arch and Build-Conflicts-Arch.\n"
 "  -B             ignore Build-Depends-Indep and Build-Conflicts-Indep.\n"
 "  -I             ignore built-in build dependencies and conflicts.\n"
@@ -517,15 +470,14 @@ msgid ""
 msgstr ""
 
 #: scripts/dpkg-checkbuilddeps.pl
-msgid ""
-"<control-file> is the control file to process (default: debian/control)."
+msgid "<control-file> is the control file to process (default: debian/control)."
 msgstr ""
 
 #: scripts/dpkg-checkbuilddeps.pl scripts/dpkg-shlibdeps.pl
 #: scripts/dpkg-source.pl
 #, perl-format
 msgid "error occurred while parsing %s"
-msgstr "解析 %s 时出错"
+msgstr ""
 
 #: scripts/dpkg-checkbuilddeps.pl
 #, perl-format
@@ -539,9 +491,7 @@ msgstr ""
 
 #: scripts/dpkg-distaddfile.pl
 #, perl-format
-msgid ""
-"Usage: %s [<option>...] <filename> <section> <priority>\n"
-"\n"
+msgid "Usage: %s [<option>...] <filename> <section> <priority>\n\n"
 "Options:\n"
 "  -f<files-list-file>      write files here instead of debian/files.\n"
 "  -?, --help               show this help message.\n"
@@ -550,11 +500,11 @@ msgstr ""
 
 #: scripts/dpkg-distaddfile.pl
 msgid "need exactly a filename, section and priority"
-msgstr "需要一个确切的文件名、区段和优先级指定"
+msgstr ""
 
 #: scripts/dpkg-distaddfile.pl
 msgid "filename, section and priority may contain no whitespace"
-msgstr "文件名、区段和优先级参数中不能包含空白字符"
+msgstr ""
 
 #: scripts/dpkg-distaddfile.pl scripts/dpkg-genbuildinfo.pl
 #: scripts/dpkg-gencontrol.pl scripts/dpkg-mergechangelogs.pl
@@ -565,16 +515,15 @@ msgstr "文件名、区段和优先级参数中不能包含空白字符"
 #: scripts/Dpkg/Source/Quilt.pm
 #, perl-format
 msgid "cannot write %s"
-msgstr "无法写入 %s"
+msgstr ""
 
 #: scripts/dpkg-distaddfile.pl scripts/dpkg-genbuildinfo.pl
 #: scripts/dpkg-gencontrol.pl
 msgid "install new files list file"
-msgstr "安装新列表文件"
+msgstr ""
 
 #: scripts/dpkg-genbuildinfo.pl
-msgid ""
-"Options:\n"
+msgid "Options:\n"
 "  --build=<type>[,...]     specify the build <type>: full, source, binary,\n"
 "                             any, all (default is 'full').\n"
 "  -c<control-file>         get control info from this file.\n"
@@ -591,8 +540,7 @@ msgid ""
 msgstr ""
 
 #: scripts/dpkg-genbuildinfo.pl
-msgid ""
-"binary build with no binary artifacts found; .buildinfo is meaningless"
+msgid "binary build with no binary artifacts found; .buildinfo is meaningless"
 msgstr ""
 
 #: scripts/dpkg-genbuildinfo.pl
@@ -601,8 +549,7 @@ msgid "cannot install output buildinfo file '%s'"
 msgstr ""
 
 #: scripts/dpkg-genchanges.pl
-msgid ""
-"Options:\n"
+msgid "Options:\n"
 "  --build=<type>[,...]     specify the build <type>: full, source, binary,\n"
 "                             any, all (default is 'full').\n"
 "  -g                       source and arch-indep build.\n"
@@ -640,11 +587,11 @@ msgstr ""
 
 #: scripts/dpkg-genchanges.pl
 msgid "missing Section for source files"
-msgstr "构建源文件缺失了 Section 字段"
+msgstr ""
 
 #: scripts/dpkg-genchanges.pl
 msgid "missing Priority for source files"
-msgstr "构建源文件中缺失了 Priority 字段"
+msgstr ""
 
 #: scripts/dpkg-genchanges.pl scripts/Dpkg/Vendor.pm
 #, perl-format
@@ -653,26 +600,22 @@ msgstr ""
 
 #: scripts/dpkg-genchanges.pl
 msgid "not including original source code in upload"
-msgstr "上传数据中未包含原始代码"
-
-#: scripts/dpkg-genchanges.pl
-msgid "ignoring -sd option for native Debian package"
-msgstr "为本地的Debian包忽略 -sd 参数"
-
-#: scripts/dpkg-genchanges.pl
-msgid "including full source code in upload"
-msgstr "上传数据中包含完整的原始代码"
-
-#: scripts/dpkg-genchanges.pl
-msgid ""
-"binary-only arch-specific upload (source code and arch-indep packages not "
-"included)"
 msgstr ""
 
 #: scripts/dpkg-genchanges.pl
-msgid ""
-"binary-only arch-indep upload (source code and arch-specific packages not "
-"included)"
+msgid "ignoring -sd option for native Debian package"
+msgstr ""
+
+#: scripts/dpkg-genchanges.pl
+msgid "including full source code in upload"
+msgstr ""
+
+#: scripts/dpkg-genchanges.pl
+msgid "binary-only arch-specific upload (source code and arch-indep packages not included)"
+msgstr ""
+
+#: scripts/dpkg-genchanges.pl
+msgid "binary-only arch-indep upload (source code and arch-specific packages not included)"
 msgstr ""
 
 #: scripts/dpkg-genchanges.pl
@@ -686,22 +629,22 @@ msgstr ""
 #: scripts/dpkg-genchanges.pl
 #, perl-format
 msgid "package %s in control file but not in files list"
-msgstr "控制文件声明了包 %s 但它却不在文件列表中"
+msgstr ""
 
 #: scripts/dpkg-genchanges.pl
 #, perl-format
 msgid "package %s listed in files list but not in control info"
-msgstr "文件列表声明了包 %s 但它却不在控制信息中"
+msgstr ""
 
 #: scripts/dpkg-genchanges.pl
 #, perl-format
 msgid "missing Section for binary package %s; using '-'"
-msgstr "二进制包 %s 缺失了 Section 字段，现使用“-”代替"
+msgstr ""
 
 #: scripts/dpkg-genchanges.pl
 #, perl-format
 msgid "package %s has section %s in control file but %s in files list"
-msgstr "控制文件声明了包 %s 含有区段 %s，但文件列表声明的是 %s"
+msgstr ""
 
 #: scripts/dpkg-genchanges.pl
 #, perl-format
@@ -711,22 +654,21 @@ msgstr ""
 #: scripts/dpkg-genchanges.pl
 #, perl-format
 msgid "package %s has priority %s in control file but %s in files list"
-msgstr "控制文件声明了包 %s 含有优先级 %s，但文件列表声明的是 %s"
+msgstr ""
 
 #: scripts/dpkg-genchanges.pl scripts/Dpkg/Source/Package.pm
 #, perl-format
 msgid "missing information for critical output field %s"
-msgstr "缺少必需输出字段 %s 的信息"
+msgstr ""
 
 #: scripts/dpkg-genchanges.pl scripts/dpkg-gencontrol.pl
 #: scripts/Dpkg/Source/Package.pm
 #, perl-format
 msgid "missing information for output field %s"
-msgstr "缺少输出字段 %s 的信息"
+msgstr ""
 
 #: scripts/dpkg-gencontrol.pl
-msgid ""
-"Options:\n"
+msgid "Options:\n"
 "  -p<package>              print control file for package.\n"
 "  -c<control-file>         get control info from this file.\n"
 "  -l<changelog-file>       get per-version info from this file.\n"
@@ -735,8 +677,7 @@ msgid ""
 "  -f<files-list-file>      write files here instead of debian/files.\n"
 "  -P<package-build-dir>    temporary build directory instead of debian/tmp.\n"
 "  -n<filename>             assume the package filename will be <filename>.\n"
-"  -O[<file>]               write to stdout (or <file>), not "
-".../DEBIAN/control.\n"
+"  -O[<file>]               write to stdout (or <file>), not .../DEBIAN/control.\n"
 "  -is, -ip, -isp, -ips     deprecated, ignored for compatibility.\n"
 "  -D<field>=<value>        override or add a field and value.\n"
 "  -U<field>                remove a field.\n"
@@ -759,7 +700,7 @@ msgstr ""
 #: scripts/dpkg-gencontrol.pl
 #, perl-format
 msgid "package %s not in control info"
-msgstr "软件包 %s 不在控制信息内"
+msgstr ""
 
 #: scripts/dpkg-gencontrol.pl scripts/dpkg-gensymbols.pl
 msgid "no package stanza found in control info"
@@ -768,7 +709,7 @@ msgstr ""
 #: scripts/dpkg-gencontrol.pl scripts/dpkg-gensymbols.pl
 #, perl-format
 msgid "must specify package since control info has many (%s)"
-msgstr "因控制信息含有过多 (%s)，您必须指定一个包"
+msgstr ""
 
 #: scripts/dpkg-gencontrol.pl
 #, perl-format
@@ -777,9 +718,7 @@ msgstr ""
 
 #: scripts/dpkg-gencontrol.pl
 #, perl-format
-msgid ""
-"current host architecture '%s' does not appear in package's architecture "
-"list (%s)"
+msgid "current host architecture '%s' does not appear in package's architecture list (%s)"
 msgstr ""
 
 #: scripts/dpkg-gencontrol.pl
@@ -794,9 +733,7 @@ msgstr ""
 
 #: scripts/dpkg-gencontrol.pl
 #, perl-format
-msgid ""
-"the %s field contains an arch-specific dependency but the package is "
-"architecture all"
+msgid "the %s field contains an arch-specific dependency but the package is architecture all"
 msgstr ""
 
 #: scripts/dpkg-gencontrol.pl
@@ -808,7 +745,7 @@ msgstr ""
 #: scripts/Dpkg/Source/Patch.pm
 #, perl-format
 msgid "cannot stat %s"
-msgstr "无法检验 %s 的状态"
+msgstr ""
 
 #: scripts/dpkg-gencontrol.pl
 #, perl-format
@@ -816,37 +753,28 @@ msgid "cannot install output control file '%s'"
 msgstr ""
 
 #: scripts/dpkg-gensymbols.pl
-msgid ""
-"Options:\n"
-"  -l<library-path>         add directory to private shared library search "
-"list.\n"
+msgid "Options:\n"
+"  -l<library-path>         add directory to private shared library search list.\n"
 "  -p<package>              generate symbols file for package.\n"
 "  -P<package-build-dir>    temporary build directory instead of debian/tmp.\n"
 "  -e<library>              explicitly list libraries to scan.\n"
 "  -v<version>              version of the packages (defaults to\n"
 "                           version extracted from debian/changelog).\n"
-"  -c<level>                compare generated symbols file with the "
-"reference\n"
+"  -c<level>                compare generated symbols file with the reference\n"
 "                           template in the debian directory and fail if\n"
-"                           difference is too important; level goes from 0 "
-"for\n"
-"                           no check, to 4 for all checks (default level is "
-"1).\n"
+"                           difference is too important; level goes from 0 for\n"
+"                           no check, to 4 for all checks (default level is 1).\n"
 "  -q                       keep quiet and never emit any warnings or\n"
 "                           generate a diff between generated symbols\n"
 "                           file and the reference template.\n"
 "  -I<file>                 force usage of <file> as reference symbols\n"
 "                           file instead of the default file.\n"
-"  -O[<file>]               write to stdout (or <file>), not "
-".../DEBIAN/symbols.\n"
+"  -O[<file>]               write to stdout (or <file>), not .../DEBIAN/symbols.\n"
 "  -t                       write in template mode (tags are not\n"
 "                           processed and included in output).\n"
-"  -V                       verbose output; write deprecated symbols and "
-"pattern\n"
-"                           matching symbols as comments (in template mode "
-"only).\n"
-"  -a<arch>                 assume <arch> as host architecture when "
-"processing\n"
+"  -V                       verbose output; write deprecated symbols and pattern\n"
+"                           matching symbols as comments (in template mode only).\n"
+"  -a<arch>                 assume <arch> as host architecture when processing\n"
 "                           symbol files.\n"
 "  -d                       display debug information during work.\n"
 "  -?, --help               show this help message.\n"
@@ -911,16 +839,13 @@ msgid "no debian/symbols file used as basis for generating %s"
 msgstr ""
 
 #: scripts/dpkg-mergechangelogs.pl
-msgid ""
-"This is free software; see the GNU General Public License version 2 or\n"
+msgid "This is free software; see the GNU General Public License version 2 or\n"
 "later for copying conditions. There is NO warranty.\n"
 msgstr ""
 
 #: scripts/dpkg-mergechangelogs.pl
 #, perl-format
-msgid ""
-"Usage: %s [<option>...] <old> <new-a> <new-b> [<out>]\n"
-"\n"
+msgid "Usage: %s [<option>...] <old> <new-a> <new-b> [<out>]\n\n"
 "Options:\n"
 "  -m, --merge-prereleases  merge pre-releases together, ignores everything\n"
 "                           after the last '~' in the version.\n"
@@ -942,18 +867,15 @@ msgid "Usage: %s [<option>...] <file>...\n"
 msgstr ""
 
 #: scripts/dpkg-name.pl
-msgid ""
-"\n"
+msgid "\n"
 "Options:\n"
 "  -a, --no-architecture    no architecture part in filename.\n"
 "  -o, --overwrite          overwrite if file exists.\n"
 "  -k, --symlink            don't create a new file, but a symlink.\n"
 "  -s, --subdir [dir]       move file into subdirectory (use with care).\n"
-"  -c, --create-dir         create target directory if not there (use with "
-"care).\n"
+"  -c, --create-dir         create target directory if not there (use with care).\n"
 "  -?, --help               show this help message.\n"
-"  -v, --version            show the version.\n"
-"\n"
+"  -v, --version            show the version.\n\n"
 "file.deb changes to <package>_<version>_<architecture>.<package_type>\n"
 "according to the 'underscores convention'.\n"
 msgstr ""
@@ -1027,8 +949,7 @@ msgid "need at least a filename"
 msgstr ""
 
 #: scripts/dpkg-parsechangelog.pl
-msgid ""
-"Options:\n"
+msgid "Options:\n"
 "  -l <changelog-file>      get per-version info from this file.\n"
 "  -F <changelog-format>    force changelog format.\n"
 "  -S, --show-field <field> show the values for <field>.\n"
@@ -1037,8 +958,7 @@ msgid ""
 msgstr ""
 
 #: scripts/dpkg-parsechangelog.pl
-msgid ""
-"Parser options:\n"
+msgid "Parser options:\n"
 "      --format <output-format>\n"
 "                           set output format (defaults to 'dpkg').\n"
 "      --reverse            include all changes in reverse order.\n"
@@ -1046,10 +966,8 @@ msgid ""
 "  -s, --since <version>    include all changes later than <version>.\n"
 "  -v <version>             ditto.\n"
 "  -u, --until <version>    include all changes earlier than <version>.\n"
-"  -f, --from <version>     include all changes equal or later than "
-"<version>.\n"
-"  -t, --to <version>       include all changes up to or equal than "
-"<version>.\n"
+"  -f, --from <version>     include all changes equal or later than <version>.\n"
+"  -t, --to <version>       include all changes up to or equal than <version>.\n"
 "  -c, --count <number>     include <number> entries from the top (or tail\n"
 "                             if <number> is lower than 0).\n"
 "  -n <number>              ditto.\n"
@@ -1075,10 +993,7 @@ msgstr ""
 
 #: scripts/dpkg-scanpackages.pl
 #, perl-format
-msgid ""
-"Usage: %s [<option>...] <binary-path> [<override-file> [<path-prefix>]] > "
-"Packages\n"
-"\n"
+msgid "Usage: %s [<option>...] <binary-path> [<override-file> [<path-prefix>]] > Packages\n\n"
 "Options:\n"
 "  -t, --type <type>        scan for <type> packages (default is 'deb').\n"
 "  -a, --arch <arch>        architecture to scan for.\n"
@@ -1086,8 +1001,7 @@ msgid ""
 "  -m, --multiversion       allow multiple versions of a single package.\n"
 "  -e, --extra-override <file>\n"
 "                           use extra override file.\n"
-"  -M, --medium <medium>    add X-Medium field for dselect multicd access "
-"method\n"
+"  -M, --medium <medium>    add X-Medium field for dselect multicd access method\n"
 "  -?, --help               show this help message.\n"
 "      --version            show the version.\n"
 msgstr ""
@@ -1125,15 +1039,12 @@ msgstr ""
 
 #: scripts/dpkg-scanpackages.pl
 #, perl-format
-msgid ""
-"package %s (filename %s) is repeat but newer version; used that one and "
-"ignored data from %s!"
+msgid "package %s (filename %s) is repeat but newer version; used that one and ignored data from %s!"
 msgstr ""
 
 #: scripts/dpkg-scanpackages.pl
 #, perl-format
-msgid ""
-"package %s (filename %s) is repeat; ignored that one and using data from %s!"
+msgid "package %s (filename %s) is repeat; ignored that one and using data from %s!"
 msgstr ""
 
 #: scripts/dpkg-scanpackages.pl
@@ -1195,54 +1106,49 @@ msgstr ""
 
 #: scripts/dpkg-scansources.pl
 #, perl-format
-msgid ""
-"Usage: %s [<option>...] <binary-path> [<override-file> [<path-prefix>]] > "
-"Sources\n"
-"\n"
+msgid "Usage: %s [<option>...] <binary-path> [<override-file> [<path-prefix>]] > Sources\n\n"
 "Options:\n"
 "  -n, --no-sort            don't sort by package before outputting.\n"
 "  -e, --extra-override <file>\n"
 "                           use extra override file.\n"
 "  -s, --source-override <file>\n"
-"                           use file for additional source overrides, "
-"default\n"
+"                           use file for additional source overrides, default\n"
 "                           is regular override file with .src appended.\n"
 "      --debug              turn debugging on.\n"
 "  -?, --help               show this help message.\n"
-"      --version            show the version.\n"
-"\n"
+"      --version            show the version.\n\n"
 "See the man page for the full documentation.\n"
 msgstr ""
 
 #: scripts/dpkg-scansources.pl
 #, perl-format
 msgid "invalid override entry at line %d (%d fields)"
-msgstr "行 %d 处有无效的覆盖条目 (%d 个字段)"
+msgstr ""
 
 #: scripts/dpkg-scansources.pl
 #, perl-format
 msgid "ignoring duplicate override entry for %s at line %d"
-msgstr "已忽略重复的覆盖条目 %s，在行 %d 处"
+msgstr ""
 
 #: scripts/dpkg-scansources.pl
 #, perl-format
 msgid "ignoring override entry for %s, invalid priority %s"
-msgstr "已忽略覆盖条目 %s，优先级声明 %s 无效"
+msgstr ""
 
 #: scripts/dpkg-scansources.pl
 #, perl-format
 msgid "invalid source override entry at line %d (%d fields)"
-msgstr "在行 %d 处有无效的源覆盖条目 (%d 个字段)"
+msgstr ""
 
 #: scripts/dpkg-scansources.pl
 #, perl-format
 msgid "ignoring duplicate source override entry for %s at line %d"
-msgstr "已忽略重复的源覆盖条目 %s，在行 %d 处"
+msgstr ""
 
 #: scripts/dpkg-scansources.pl
 #, perl-format
 msgid "no binary packages specified in %s"
-msgstr "%s 中没有指定任何二进制包"
+msgstr ""
 
 #: scripts/dpkg-shlibdeps.pl
 #, perl-format
@@ -1256,12 +1162,11 @@ msgstr ""
 
 #: scripts/dpkg-shlibdeps.pl
 msgid "need at least one executable"
-msgstr "此处需要至少一个可执行程序"
+msgstr ""
 
 #: scripts/dpkg-shlibdeps.pl
 #, perl-format
-msgid ""
-"cannot find library %s needed by %s (ELF format: '%s' abi: '%s'; RPATH: '%s')"
+msgid "cannot find library %s needed by %s (ELF format: '%s' abi: '%s'; RPATH: '%s')"
 msgstr ""
 
 #: scripts/dpkg-shlibdeps.pl
@@ -1271,14 +1176,12 @@ msgstr ""
 
 #: scripts/dpkg-shlibdeps.pl
 #, perl-format
-msgid ""
-"no dependency information found for %s (used by %s)\n"
+msgid "no dependency information found for %s (used by %s)\n"
 "Hint: check if the library actually comes from a package."
 msgstr ""
 
 #: scripts/dpkg-shlibdeps.pl
-msgid ""
-"binaries to analyze should already be installed in their package's directory"
+msgid "binaries to analyze should already be installed in their package's directory"
 msgstr ""
 
 #: scripts/dpkg-shlibdeps.pl
@@ -1288,39 +1191,28 @@ msgstr ""
 
 #: scripts/dpkg-shlibdeps.pl
 #, perl-format
-msgid ""
-"%s contains an unresolvable reference to symbol %s: it's probably a plugin"
+msgid "%s contains an unresolvable reference to symbol %s: it's probably a plugin"
 msgstr ""
 
 #: scripts/dpkg-shlibdeps.pl
 #, perl-format
 msgid "%d similar warning has been skipped (use -v to see it)"
-msgid_plural ""
-"%d other similar warnings have been skipped (use -v to see them all)"
+msgid_plural "%d other similar warnings have been skipped (use -v to see them all)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: scripts/dpkg-shlibdeps.pl
 #, perl-format
-msgid ""
-"%s should not be linked against %s (it uses none of the library's symbols)"
+msgid "%s should not be linked against %s (it uses none of the library's symbols)"
 msgstr ""
 
 #: scripts/dpkg-shlibdeps.pl
 #, perl-format
-msgid ""
-"package could avoid a useless dependency if %s was not linked against %s (it "
-"uses none of the library's symbols)"
-msgid_plural ""
-"package could avoid a useless dependency if %s were not linked against %s "
-"(they use none of the library's symbols)"
+msgid "package could avoid a useless dependency if %s was not linked against %s (it uses none of the library's symbols)"
+msgid_plural "package could avoid a useless dependency if %s were not linked against %s (they use none of the library's symbols)"
 msgstr[0] ""
-msgstr[1] ""
 
 #: scripts/dpkg-shlibdeps.pl
-msgid ""
-"Note: libraries are not searched in other binary packages that do not have "
-"any shlibs or symbols file.\n"
+msgid "Note: libraries are not searched in other binary packages that do not have any shlibs or symbols file.\n"
 "To help dpkg-shlibdeps find private libraries, you might need to use -l."
 msgstr ""
 
@@ -1328,7 +1220,6 @@ msgstr ""
 msgid "cannot continue due to the error above"
 msgid_plural "cannot continue due to the errors listed above"
 msgstr[0] ""
-msgstr[1] ""
 
 #: scripts/dpkg-shlibdeps.pl
 #, perl-format
@@ -1346,18 +1237,15 @@ msgid "Usage: %s [<option>...] <executable>|-e<executable> [<option>...]"
 msgstr ""
 
 #: scripts/dpkg-shlibdeps.pl
-msgid ""
-"Positional options (order is significant):\n"
+msgid "Positional options (order is significant):\n"
 "  <executable>             include dependencies for <executable>,\n"
 "  -e<executable>           (use -e if <executable> starts with '-')\n"
 "  -d<dependency-field>     next executable(s) set shlibs:<dependency-field>."
 msgstr ""
 
 #: scripts/dpkg-shlibdeps.pl
-msgid ""
-"Options:\n"
-"  -l<library-dir>          add directory to private shared library search "
-"list.\n"
+msgid "Options:\n"
+"  -l<library-dir>          add directory to private shared library search list.\n"
 "  -p<varname-prefix>       set <varname-prefix>:* instead of shlibs:*.\n"
 "  -O[<file>]               write variable settings to stdout (or <file>).\n"
 "  -L<local-shlibs-file>    shlibs override file, not debian/shlibs.local.\n"
@@ -1366,13 +1254,10 @@ msgid ""
 "  -x<package>              exclude package from the generated dependencies.\n"
 "  -S<package-build-dir>    search needed libraries in the given\n"
 "                             package build directory first.\n"
-"  -I<package-build-dir>    ignore needed libraries, shlibs and symbols "
-"files\n"
+"  -I<package-build-dir>    ignore needed libraries, shlibs and symbols files\n"
 "                             in the given build directory.\n"
-"  -v                       enable verbose mode (can be used multiple "
-"times).\n"
-"  --ignore-missing-info    don't fail if dependency information can't be "
-"found.\n"
+"  -v                       enable verbose mode (can be used multiple times).\n"
+"  --ignore-missing-info    don't fail if dependency information can't be found.\n"
 "  --warnings=<value>       define set of active warnings (see manual page).\n"
 "  --admindir=<directory>   change the administrative directory.\n"
 "  -?, --help               show this help message.\n"
@@ -1381,8 +1266,7 @@ msgstr ""
 
 #: scripts/dpkg-shlibdeps.pl
 #, perl-format
-msgid ""
-"Dependency fields recognized are:\n"
+msgid "Dependency fields recognized are:\n"
 "  %s\n"
 msgstr ""
 
@@ -1405,14 +1289,11 @@ msgstr ""
 #: scripts/Dpkg/Checksums.pm
 #, perl-format
 msgid "cannot open file %s"
-msgstr "无法打开文件 %s"
+msgstr ""
 
 #: scripts/dpkg-shlibdeps.pl
 #, perl-format
-msgid ""
-"$ORIGIN is used in RPATH of %s and the corresponding directory could not be "
-"identified due to lack of DEBIAN sub-directory in the root of package's "
-"build tree"
+msgid "$ORIGIN is used in RPATH of %s and the corresponding directory could not be identified due to lack of DEBIAN sub-directory in the root of package's build tree"
 msgstr ""
 
 #: scripts/dpkg-shlibdeps.pl scripts/Dpkg/IPC.pm scripts/Dpkg/Shlibs/Cppfilt.pm
@@ -1422,16 +1303,16 @@ msgstr ""
 
 #: scripts/dpkg-shlibdeps.pl
 msgid "diversions involved - output may be incorrect"
-msgstr "转向复杂化 - 输出信息可能不正确"
+msgstr ""
 
 #: scripts/dpkg-shlibdeps.pl
 msgid "write diversion info to stderr"
-msgstr "转向信息写入到标准错误输出"
+msgstr ""
 
 #: scripts/dpkg-shlibdeps.pl
 #, perl-format
 msgid "unknown output from dpkg --search: '%s'"
-msgstr "未知的dpkg输出 --查找:\"%s\""
+msgstr ""
 
 #: scripts/dpkg-source.pl
 #, perl-format
@@ -1446,7 +1327,7 @@ msgstr ""
 #: scripts/dpkg-source.pl
 #, perl-format
 msgid "directory argument %s is not a directory"
-msgstr "指定的目录参数 %s 实际不是一个目录"
+msgstr ""
 
 #: scripts/dpkg-source.pl scripts/Dpkg/Source/BinaryFiles.pm
 #: scripts/Dpkg/Source/Package/V3/Bzr.pm scripts/Dpkg/Source/Package/V3/Git.pm
@@ -1462,13 +1343,13 @@ msgstr ""
 #: scripts/dpkg-source.pl scripts/Dpkg/Compression.pm
 #, perl-format
 msgid "%s is not a supported compression"
-msgstr "%s 是不支持的压缩方式"
+msgstr ""
 
 #: scripts/dpkg-source.pl scripts/Dpkg/Compression.pm
 #: scripts/Dpkg/Compression/Process.pm
 #, perl-format
 msgid "%s is not a compression level"
-msgstr "%s不是压缩级别"
+msgstr ""
 
 #: scripts/dpkg-source.pl scripts/dpkg-vendor.pl
 msgid "need an action option"
@@ -1486,8 +1367,7 @@ msgstr ""
 
 #: scripts/dpkg-source.pl
 #, perl-format
-msgid ""
-"binary package stanza %s is using an obsolete Build-Profiles field syntax"
+msgid "binary package stanza %s is using an obsolete Build-Profiles field syntax"
 msgstr ""
 
 #: scripts/dpkg-source.pl
@@ -1547,7 +1427,7 @@ msgstr ""
 #: scripts/Dpkg/Source/Package/V3/Native.pm
 #, perl-format
 msgid "unpack target exists: %s"
-msgstr "解压目的地已存在：%s"
+msgstr ""
 
 #: scripts/dpkg-source.pl
 #, perl-format
@@ -1557,7 +1437,7 @@ msgstr ""
 #: scripts/dpkg-source.pl
 #, perl-format
 msgid "extracting unsigned source package (%s)"
-msgstr "正在解压无签名的源码包 (%s)"
+msgstr ""
 
 #: scripts/dpkg-source.pl
 #, perl-format
@@ -1585,30 +1465,24 @@ msgid "Usage: %s [<option>...] <command>"
 msgstr ""
 
 #: scripts/dpkg-source.pl
-msgid ""
-"Commands:\n"
+msgid "Commands:\n"
 "  -x, --extract <filename>.dsc [<output-dir>]\n"
 "                           extract source package.\n"
 "  -b, --build <dir>        build source package.\n"
-"      --print-format <dir> print the format to be used for the source "
-"package.\n"
-"      --before-build <dir> run the corresponding source package format "
-"hook.\n"
-"      --after-build <dir>  run the corresponding source package format "
-"hook.\n"
+"      --print-format <dir> print the format to be used for the source package.\n"
+"      --before-build <dir> run the corresponding source package format hook.\n"
+"      --after-build <dir>  run the corresponding source package format hook.\n"
 "      --commit [<dir> [<patch-name>]]\n"
 "                           store upstream changes in a new patch."
 msgstr ""
 
 #: scripts/dpkg-source.pl
 #, perl-format
-msgid ""
-"Build options:\n"
+msgid "Build options:\n"
 "  -c<control-file>         get control info from this file.\n"
 "  -l<changelog-file>       get per-version info from this file.\n"
 "  -F<changelog-format>     force changelog format.\n"
-"  --format=<source-format> set the format to be used for the source "
-"package.\n"
+"  --format=<source-format> set the format to be used for the source package.\n"
 "  -V<name>=<value>         set a substitution variable.\n"
 "  -T<substvars-file>       read variables here.\n"
 "  -D<field>=<value>        override or add a .dsc field and value.\n"
@@ -1628,48 +1502,39 @@ msgid ""
 msgstr ""
 
 #: scripts/dpkg-source.pl
-msgid ""
-"Extract options:\n"
+msgid "Extract options:\n"
 "  --no-copy                don't copy .orig tarballs\n"
-"  --no-check               don't check signature and checksums before "
-"unpacking\n"
+"  --no-check               don't check signature and checksums before unpacking\n"
 "  --no-overwrite-dir       do not overwrite directory on extraction\n"
-"  --require-valid-signature abort if the package doesn't have a valid "
-"signature\n"
+"  --require-valid-signature abort if the package doesn't have a valid signature\n"
 "  --require-strong-checksums\n"
-"                           abort if the package contains no strong "
-"checksums\n"
+"                           abort if the package contains no strong checksums\n"
 "  --ignore-bad-version     allow bad source package versions."
 msgstr ""
 
 #: scripts/dpkg-source.pl
-msgid ""
-"General options:\n"
+msgid "General options:\n"
 "  -q                       quiet mode.\n"
 "  -?, --help               show this help message.\n"
 "      --version            show the version."
 msgstr ""
 
 #: scripts/dpkg-source.pl
-msgid ""
-"Source format specific build and extract options are available;\n"
+msgid "Source format specific build and extract options are available;\n"
 "use --format with --help to see them."
 msgstr ""
 
 #: scripts/dpkg-vendor.pl
-msgid ""
-"Commands:\n"
+msgid "Commands:\n"
 "  --is <vendor>           returns true if current vendor is <vendor>.\n"
-"  --derives-from <vendor> returns true if current vendor derives from "
-"<vendor>.\n"
+"  --derives-from <vendor> returns true if current vendor derives from <vendor>.\n"
 "  --query <field>         print the content of the vendor-specific field.\n"
 "  --help                  show this help message.\n"
 "  --version               show the version."
 msgstr ""
 
 #: scripts/dpkg-vendor.pl
-msgid ""
-"Options:\n"
+msgid "Options:\n"
 "  --vendor <vendor>       assume <vendor> is the current vendor."
 msgstr ""
 
@@ -1679,14 +1544,12 @@ msgid "vendor %s doesn't exist in %s"
 msgstr ""
 
 #: scripts/Dpkg/Arch.pm
-msgid ""
-"cannot determine CC system type, falling back to default (native compilation)"
+msgid "cannot determine CC system type, falling back to default (native compilation)"
 msgstr ""
 
 #: scripts/Dpkg/Arch.pm
 #, perl-format
-msgid ""
-"unknown CC system type %s, falling back to default (native compilation)"
+msgid "unknown CC system type %s, falling back to default (native compilation)"
 msgstr ""
 
 #: scripts/Dpkg/Arch.pm
@@ -1700,7 +1563,7 @@ msgstr ""
 #: scripts/Dpkg/Source/Package/V2.pm scripts/Dpkg/Source/Quilt.pm
 #, perl-format
 msgid "cannot read %s"
-msgstr "无法读取 %s"
+msgstr ""
 
 #: scripts/Dpkg/BuildFlags.pm
 #, perl-format
@@ -1730,7 +1593,7 @@ msgstr ""
 #: scripts/Dpkg/Build/Types.pm
 #, perl-format
 msgid "cannot combine %s and %s"
-msgstr "不能将 %s 与 %s 结合"
+msgstr ""
 
 #: scripts/Dpkg/Build/Types.pm
 #, perl-format
@@ -1739,17 +1602,14 @@ msgstr ""
 
 #: scripts/Dpkg/Changelog.pm
 #, perl-format
-msgid ""
-"%s(l%s): %s\n"
+msgid "%s(l%s): %s\n"
 "LINE: %s"
 msgstr ""
-"%s(l%s): %s\n"
-"行: %s"
 
 #: scripts/Dpkg/Changelog.pm
 #, perl-format
 msgid "%s(l%s): %s"
-msgstr "%s(l%s): %s"
+msgstr ""
 
 #: scripts/Dpkg/Changelog.pm
 msgid "'offset' without 'count' has no effect"
@@ -1818,30 +1678,30 @@ msgstr ""
 #: scripts/Dpkg/Changelog/Debian.pm
 #, perl-format
 msgid "found start of entry where expected %s"
-msgstr "在预想的 %s 处发现起始条目"
+msgstr ""
 
 #: scripts/Dpkg/Changelog/Debian.pm
 msgid "badly formatted heading line"
-msgstr "格式损坏的头行"
+msgstr ""
 
 #: scripts/Dpkg/Changelog/Debian.pm
 #, perl-format
 msgid "found trailer where expected %s"
-msgstr "在预想的 %s 处发现拖曳符"
+msgstr ""
 
 #: scripts/Dpkg/Changelog/Debian.pm scripts/Dpkg/Changelog/Entry/Debian.pm
 msgid "badly formatted trailer line"
-msgstr "格式损坏的尾行"
+msgstr ""
 
 #: scripts/Dpkg/Changelog/Debian.pm
 #, perl-format
 msgid "found change data where expected %s"
-msgstr "在预想的 %s 处发现更改的数据"
+msgstr ""
 
 #: scripts/Dpkg/Changelog/Debian.pm
 #, perl-format
 msgid "found blank line where expected %s"
-msgstr "在预想的 %s 中发现空行"
+msgstr ""
 
 #: scripts/Dpkg/Changelog/Debian.pm
 msgid "unrecognized line"
@@ -1865,7 +1725,7 @@ msgstr ""
 #: scripts/Dpkg/Changelog/Entry/Debian.pm
 #, perl-format
 msgid "repeated key-value %s"
-msgstr "重复的键值对 %s"
+msgstr ""
 
 #: scripts/Dpkg/Changelog/Entry/Debian.pm
 #, perl-format
@@ -1981,15 +1841,15 @@ msgstr ""
 
 #: scripts/Dpkg/Control.pm
 msgid "general section of control info file"
-msgstr "控制信息文件中的常规区段"
+msgstr ""
 
 #: scripts/Dpkg/Control.pm
 msgid "package's section of control info file"
-msgstr "控制信息文件中的包所属区段"
+msgstr ""
 
 #: scripts/Dpkg/Control.pm
 msgid "parsed version of changelog"
-msgstr "更新日志的已分析版本"
+msgstr ""
 
 #: scripts/Dpkg/Control.pm
 msgid "header stanza of copyright file"
@@ -2041,7 +1901,7 @@ msgstr ""
 #: scripts/Dpkg/Control/FieldsCore.pm
 #, perl-format
 msgid "unknown information field '%s' in input data in %s"
-msgstr "未知信息 '%s'在输入 %s 中"
+msgstr ""
 
 #: scripts/Dpkg/Control/FieldsCore.pm
 msgid "control information"
@@ -2050,7 +1910,7 @@ msgstr ""
 #: scripts/Dpkg/Control/HashCore.pm
 #, perl-format
 msgid "syntax error in %s at line %d: %s"
-msgstr "在 %s 处有语法错误，行数为 %d：%s"
+msgstr ""
 
 #: scripts/Dpkg/Control/HashCore.pm
 msgid "field cannot start with a hyphen"
@@ -2063,7 +1923,7 @@ msgstr ""
 
 #: scripts/Dpkg/Control/HashCore.pm
 msgid "continued value line not in field"
-msgstr "含有下一个值的行不在字段中"
+msgstr ""
 
 #: scripts/Dpkg/Control/HashCore.pm
 msgid "expected OpenPGP signature, found end of file after blank line"
@@ -2084,11 +1944,11 @@ msgstr ""
 
 #: scripts/Dpkg/Control/HashCore.pm
 msgid "line with unknown format (not field-colon-value)"
-msgstr "含有未知格式的行 (没有冒号分隔)"
+msgstr ""
 
 #: scripts/Dpkg/Control/HashCore.pm
 msgid "write error on control data"
-msgstr "对控制数据的写操作出错"
+msgstr ""
 
 #: scripts/Dpkg/Control/Info.pm
 msgid "first block lacks a Source field"
@@ -2107,7 +1967,7 @@ msgstr ""
 #: scripts/Dpkg/Deps.pm
 #, perl-format
 msgid "can't parse dependency %s"
-msgstr "无法分析依赖对象 %s"
+msgstr ""
 
 #: scripts/Dpkg/Deps.pm
 msgid "an union dependency can only contain simple dependencies"
@@ -2121,12 +1981,12 @@ msgstr ""
 #: scripts/Dpkg/Dist/Files.pm
 #, perl-format
 msgid "badly formed line in files list file, line %d"
-msgstr "列表文件中有格式损坏的行目在 %d 行"
+msgstr ""
 
 #: scripts/Dpkg/Dist/Files.pm
 #, perl-format
 msgid "duplicate files list entry for file %s (line %d)"
-msgstr "对文件 %s 声明了重复的文件列表条目 (行 %d)"
+msgstr ""
 
 #: scripts/Dpkg/Dist/Files.pm
 #, perl-format
@@ -2148,11 +2008,11 @@ msgstr ""
 
 #: scripts/Dpkg/ErrorHandling.pm
 msgid "warning"
-msgstr "警告"
+msgstr ""
 
 #: scripts/Dpkg/ErrorHandling.pm
 msgid "error"
-msgstr "错误"
+msgstr ""
 
 #: scripts/Dpkg/ErrorHandling.pm
 #, perl-format
@@ -2176,7 +2036,7 @@ msgstr ""
 #: scripts/Dpkg/IPC.pm
 #, perl-format
 msgid "pipe for %s"
-msgstr "供 %s 使用的管道"
+msgstr ""
 
 #: scripts/Dpkg/IPC.pm
 #, perl-format
@@ -2205,7 +2065,6 @@ msgstr ""
 msgid "%s didn't complete in %d second"
 msgid_plural "%s didn't complete in %d seconds"
 msgstr[0] ""
-msgstr[1] ""
 
 #: scripts/Dpkg/Interface/Storable.pm
 msgid "<standard input>"
@@ -2257,9 +2116,7 @@ msgid "must start with an alphanumeric character"
 msgstr ""
 
 #: scripts/Dpkg/Shlibs.pm
-msgid ""
-"deprecated use of LD_LIBRARY_PATH with private library directory which "
-"interferes with cross-building, please use -l option instead"
+msgid "deprecated use of LD_LIBRARY_PATH with private library directory which interferes with cross-building, please use -l option instead"
 msgstr ""
 
 #: scripts/Dpkg/Shlibs/Objdump.pm
@@ -2338,7 +2195,7 @@ msgstr ""
 #: scripts/Dpkg/Source/Functions.pm
 #, perl-format
 msgid "cannot stat directory %s (before removal)"
-msgstr "在删除之前无法检验目录 %s 的状态"
+msgstr ""
 
 #: scripts/Dpkg/Source/Functions.pm
 #, perl-format
@@ -2353,7 +2210,7 @@ msgstr ""
 #: scripts/Dpkg/Source/Functions.pm scripts/Dpkg/Source/Patch.pm
 #, perl-format
 msgid "cannot change timestamp for %s"
-msgstr "无法改变 %s 的时间戳"
+msgstr ""
 
 #: scripts/Dpkg/Source/Functions.pm
 #, perl-format
@@ -2377,14 +2234,9 @@ msgstr ""
 
 #: scripts/Dpkg/Source/BinaryFiles.pm
 #, perl-format
-msgid ""
-"detected %d unwanted binary file (add it in debian/source/include-binaries "
-"to allow its inclusion)."
-msgid_plural ""
-"detected %d unwanted binary files (add them in debian/source/include-"
-"binaries to allow their inclusion)."
+msgid "detected %d unwanted binary file (add it in debian/source/include-binaries to allow its inclusion)."
+msgid_plural "detected %d unwanted binary files (add them in debian/source/include-binaries to allow their inclusion)."
 msgstr[0] ""
-msgstr[1] ""
 
 #: scripts/Dpkg/Source/Package.pm
 #, perl-format
@@ -2394,7 +2246,7 @@ msgstr ""
 #: scripts/Dpkg/Source/Package.pm
 #, perl-format
 msgid "missing critical source control field %s"
-msgstr "缺失必需的源码控制字段 %s"
+msgstr ""
 
 #: scripts/Dpkg/Source/Package.pm
 #, perl-format
@@ -2413,7 +2265,7 @@ msgstr ""
 #: scripts/Dpkg/Source/Package.pm
 #, perl-format
 msgid "failed to verify signature on %s"
-msgstr "对 %s 校验签名失败"
+msgstr ""
 
 #: scripts/Dpkg/Source/Package.pm
 #, perl-format
@@ -2428,17 +2280,17 @@ msgstr ""
 #: scripts/Dpkg/Source/Package.pm
 #, perl-format
 msgid "%s does not exist"
-msgstr "%s 不存在"
+msgstr ""
 
 #: scripts/Dpkg/Source/Package.pm
 #, perl-format
 msgid "cannot make %s executable"
-msgstr "无法使得 %s 可执行"
+msgstr ""
 
 #: scripts/Dpkg/Source/Package.pm
 #, perl-format
 msgid "%s is not a plain file"
-msgstr "%s 不是一个文本文件"
+msgstr ""
 
 #: scripts/Dpkg/Source/Package.pm
 #, perl-format
@@ -2500,12 +2352,12 @@ msgstr ""
 #: scripts/Dpkg/Source/Package/V1.pm
 #, perl-format
 msgid "-s%s option overrides earlier -s%s option"
-msgstr "-s%s 选项会覆盖之前的 -s%s 选项"
+msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
 #, perl-format
 msgid "source handling style -s%s not allowed with -x"
-msgstr "源文件处理方式选项 -s%s 不能和 -x 结合使用"
+msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm scripts/Dpkg/Source/Package/V3/Native.pm
 msgid "multiple tarfiles in v1.0 source package"
@@ -2518,11 +2370,11 @@ msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm scripts/Dpkg/Source/Package/V3/Native.pm
 msgid "no tarfile in Files field"
-msgstr "Files 字段中没有 tar 文件"
+msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
 msgid "native package with .orig.tar"
-msgstr "带有 .orig.tar 文件的本地包"
+msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
 #, perl-format
@@ -2538,17 +2390,17 @@ msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
 msgid "unable to keep orig directory (already exists)"
-msgstr "无法保留原目录(已经存在)"
+msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
 #, perl-format
 msgid "failed to rename newly-extracted %s to %s"
-msgstr "重命名新解压的文件 %s 到 %s 失败"
+msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
 #, perl-format
 msgid "failed to rename saved %s to %s"
-msgstr "重命名新存为的文件 %s 到 %s 失败"
+msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm scripts/Dpkg/Source/Package/V2.pm
 #: scripts/Dpkg/Source/Quilt.pm
@@ -2566,15 +2418,13 @@ msgid "only supports gzip compression"
 msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
-msgid ""
-"-b takes at most a directory and an orig source argument (with v1.0 source "
-"package)"
+msgid "-b takes at most a directory and an orig source argument (with v1.0 source package)"
 msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
 #, perl-format
 msgid "source handling style -s%s not allowed with -b"
-msgstr "源码处理方式选项 -s%s 不能和 -b 结合使用"
+msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
 #, perl-format
@@ -2588,17 +2438,13 @@ msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
 #, perl-format
-msgid ""
-"orig argument is unpacked but source handling style -s%s calls for packed "
-"(.orig.tar.<ext>)"
+msgid "orig argument is unpacked but source handling style -s%s calls for packed (.orig.tar.<ext>)"
 msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
 #, perl-format
-msgid ""
-"orig argument is packed but source handling style -s%s calls for unpacked "
-"(.orig/)"
-msgstr "参数指定的源码已被打包，但给定的源码处理方式选项 -s%s 需要调用解压后的包(.orig/)"
+msgid "orig argument is packed but source handling style -s%s calls for unpacked (.orig/)"
+msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
 #, perl-format
@@ -2607,10 +2453,8 @@ msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
 #, perl-format
-msgid ""
-"orig argument is empty (means no orig, no diff) but source handling style -"
-"s%s wants something"
-msgstr "参数指定的源码实际为空(这意味着没有源代码也没有补丁)，但给定的源码处理方式选项 -s%s 需要它"
+msgid "orig argument is empty (means no orig, no diff) but source handling style -s%s wants something"
+msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
 #, perl-format
@@ -2629,21 +2473,17 @@ msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
 #, perl-format
-msgid ""
-".orig directory name %s is not <package>-<upstreamversion> (wanted %s)"
-msgstr ".orig 目录名 %s 不符合 <package>-<upstreamversion> 的格式(理想名字为 %s)"
-
-#: scripts/Dpkg/Source/Package/V1.pm
-#, perl-format
-msgid ""
-".orig.tar name %s is not <package>_<upstreamversion>.orig.tar (wanted %s)"
+msgid ".orig directory name %s is not <package>-<upstreamversion> (wanted %s)"
 msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
 #, perl-format
-msgid ""
-"tarfile '%s' already exists, not overwriting, giving up; use -sU or -sR to "
-"override"
+msgid ".orig.tar name %s is not <package>_<upstreamversion>.orig.tar (wanted %s)"
+msgstr ""
+
+#: scripts/Dpkg/Source/Package/V1.pm
+#, perl-format
+msgid "tarfile '%s' already exists, not overwriting, giving up; use -sU or -sR to override"
 msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
@@ -2670,9 +2510,7 @@ msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
 #, perl-format
-msgid ""
-"orig directory '%s' already exists, not overwriting, giving up; use -sA, -sK "
-"or -sP to override"
+msgid "orig directory '%s' already exists, not overwriting, giving up; use -sA, -sK or -sP to override"
 msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
@@ -2686,9 +2524,7 @@ msgid "the diff modifies the following upstream files: %s"
 msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
-msgid ""
-"use the '3.0 (quilt)' format to have separate and documented changes to "
-"upstream files, see dpkg-source(1)"
+msgid "use the '3.0 (quilt)' format to have separate and documented changes to upstream files, see dpkg-source(1)"
 msgstr ""
 
 #: scripts/Dpkg/Source/Package/V1.pm
@@ -2808,13 +2644,11 @@ msgstr ""
 
 #: scripts/Dpkg/Source/Package/V2.pm scripts/Dpkg/Source/Patch.pm
 msgid "binary file contents changed"
-msgstr "二进制文件内容已改变"
+msgstr ""
 
 #: scripts/Dpkg/Source/Package/V2.pm
 #, perl-format
-msgid ""
-"add %s in debian/source/include-binaries if you want to store the modified "
-"binary in the debian tarball"
+msgid "add %s in debian/source/include-binaries if you want to store the modified binary in the debian tarball"
 msgstr ""
 
 #: scripts/Dpkg/Source/Package/V2.pm
@@ -2870,15 +2704,12 @@ msgid "cannot find an editor"
 msgstr ""
 
 #: scripts/Dpkg/Source/Package/V3/Bzr.pm
-msgid ""
-"cannot unpack bzr-format source package because bzr is not in the PATH"
+msgid "cannot unpack bzr-format source package because bzr is not in the PATH"
 msgstr ""
 
 #: scripts/Dpkg/Source/Package/V3/Bzr.pm
 #, perl-format
-msgid ""
-"source directory is not the top directory of a bzr repository (%s/.bzr not "
-"present), but Format bzr was specified"
+msgid "source directory is not the top directory of a bzr repository (%s/.bzr not present), but Format bzr was specified"
 msgstr ""
 
 #: scripts/Dpkg/Source/Package/V3/Bzr.pm
@@ -2930,15 +2761,12 @@ msgid "--target-format option is missing"
 msgstr ""
 
 #: scripts/Dpkg/Source/Package/V3/Git.pm
-msgid ""
-"cannot unpack git-format source package because git is not in the PATH"
+msgid "cannot unpack git-format source package because git is not in the PATH"
 msgstr ""
 
 #: scripts/Dpkg/Source/Package/V3/Git.pm
 #, perl-format
-msgid ""
-"source directory is not the top directory of a git repository (%s/.git not "
-"present), but Format git was specified"
+msgid "source directory is not the top directory of a git repository (%s/.git not present), but Format git was specified"
 msgstr ""
 
 #: scripts/Dpkg/Source/Package/V3/Git.pm
@@ -3038,7 +2866,7 @@ msgstr ""
 #: scripts/Dpkg/Source/Patch.pm
 #, perl-format
 msgid "file %s has no final newline (either original or modified version)"
-msgstr "文件 %s 没有结尾行(可能是原始版本或修订版本)"
+msgstr ""
 
 #: scripts/Dpkg/Source/Patch.pm
 #, perl-format
@@ -3052,21 +2880,21 @@ msgstr ""
 #: scripts/Dpkg/Source/Patch.pm
 #, perl-format
 msgid "diff on %s"
-msgstr "对 %s 进行 diff 操作"
+msgstr ""
 
 #: scripts/Dpkg/Source/Patch.pm
 #, perl-format
 msgid "cannot stat file %s"
-msgstr "无法检验文件 %s 的状态"
+msgstr ""
 
 #: scripts/Dpkg/Source/Patch.pm
 #, perl-format
 msgid "cannot read link %s"
-msgstr "无法读取链接 %s"
+msgstr ""
 
 #: scripts/Dpkg/Source/Patch.pm
 msgid "device or socket is not allowed"
-msgstr "不允许使用设备或套接字"
+msgstr ""
 
 #: scripts/Dpkg/Source/Patch.pm
 msgid "unknown file type"
@@ -3075,7 +2903,7 @@ msgstr ""
 #: scripts/Dpkg/Source/Patch.pm
 #, perl-format
 msgid "ignoring deletion of file %s"
-msgstr "忽略对文件 %s 的删除指令"
+msgstr ""
 
 #: scripts/Dpkg/Source/Patch.pm
 #, perl-format
@@ -3085,22 +2913,22 @@ msgstr ""
 #: scripts/Dpkg/Source/Patch.pm
 #, perl-format
 msgid "ignoring deletion of directory %s"
-msgstr "忽略对目录 %s 的删除指令"
+msgstr ""
 
 #: scripts/Dpkg/Source/Patch.pm
 #, perl-format
 msgid "ignoring deletion of symlink %s"
-msgstr "忽略对符号链接 %s 的删除指令"
+msgstr ""
 
 #: scripts/Dpkg/Source/Patch.pm
 #, perl-format
 msgid "newly created empty file '%s' will not be represented in diff"
-msgstr "新建的空文档 '%s' 不会被显示在差别文件中."
+msgstr ""
 
 #: scripts/Dpkg/Source/Patch.pm
 #, perl-format
 msgid "executable mode %04o of '%s' will not be represented in diff"
-msgstr "执行模式 %04o of '%s' 不会被显示在差别文件中。"
+msgstr ""
 
 #: scripts/Dpkg/Source/Patch.pm
 #, perl-format
@@ -3184,9 +3012,7 @@ msgstr ""
 
 #: scripts/Dpkg/Source/Patch.pm
 #, perl-format
-msgid ""
-"diff '%s' patches files multiple times; split the diff in multiple files or "
-"merge the hunks into a single one"
+msgid "diff '%s' patches files multiple times; split the diff in multiple files or merge the hunks into a single one"
 msgstr ""
 
 #: scripts/Dpkg/Source/Patch.pm
@@ -3217,24 +3043,24 @@ msgstr ""
 #: scripts/Dpkg/Source/Patch.pm
 #, perl-format
 msgid "remove patch backup file %s"
-msgstr "删除补丁备份文件 %s"
+msgstr ""
 
 #: scripts/Dpkg/Source/Patch.pm
 msgid "nonexistent"
-msgstr "不存在"
+msgstr ""
 
 #: scripts/Dpkg/Source/Patch.pm
 msgid "plain file"
-msgstr "文本文件"
+msgstr ""
 
 #: scripts/Dpkg/Source/Patch.pm
 msgid "directory"
-msgstr "目录"
+msgstr ""
 
 #: scripts/Dpkg/Source/Patch.pm
 #, perl-format
 msgid "symlink to %s"
-msgstr "符号链接到 %s"
+msgstr ""
 
 #: scripts/Dpkg/Source/Patch.pm
 msgid "block device"
@@ -3278,9 +3104,7 @@ msgstr ""
 
 #: scripts/Dpkg/Source/Quilt.pm
 #, perl-format
-msgid ""
-"the series file (%s) contains unsupported options ('%s', line %s); dpkg-"
-"source might fail when applying patches"
+msgid "the series file (%s) contains unsupported options ('%s', line %s); dpkg-source might fail when applying patches"
 msgstr ""
 
 #: scripts/Dpkg/Source/Quilt.pm
@@ -3291,7 +3115,7 @@ msgstr ""
 #: scripts/Dpkg/Substvars.pm
 #, perl-format
 msgid "bad line in substvars file %s at line %d"
-msgstr "在 substvars 文件 %s 的第 %d 行发现损坏的行"
+msgstr ""
 
 #: scripts/Dpkg/Substvars.pm
 #, perl-format
@@ -3326,7 +3150,7 @@ msgstr ""
 #: scripts/Dpkg/Vars.pm
 #, perl-format
 msgid "source package has two conflicting values - %s and %s"
-msgstr "源文件包中含有互相冲突的值 - %s 和 %s"
+msgstr ""
 
 #: scripts/Dpkg/Vendor/Debian.pm
 #, perl-format
@@ -3334,15 +3158,11 @@ msgid "unknown host architecture '%s'"
 msgstr ""
 
 #: scripts/Dpkg/Vendor/Ubuntu.pm
-msgid ""
-"Version number suggests Ubuntu changes, but Maintainer: does not have Ubuntu "
-"address"
+msgid "Version number suggests Ubuntu changes, but Maintainer: does not have Ubuntu address"
 msgstr ""
 
 #: scripts/Dpkg/Vendor/Ubuntu.pm
-msgid ""
-"Version number suggests Ubuntu changes, but there is no XSBC-Original-"
-"Maintainer field"
+msgid "Version number suggests Ubuntu changes, but there is no XSBC-Original-Maintainer field"
 msgstr ""
 
 #: scripts/Dpkg/Version.pm
@@ -3379,3 +3199,4 @@ msgstr ""
 #, perl-format
 msgid "epoch part of the version number is not a number: '%s'"
 msgstr ""
+

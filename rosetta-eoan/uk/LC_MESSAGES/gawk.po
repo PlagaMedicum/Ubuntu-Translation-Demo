@@ -1,21 +1,21 @@
-# Ukrainian translation for gawk
-# Copyright (c) 2006 Rosetta Contributors and Canonical Ltd 2006
-# This file is distributed under the same license as the gawk package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: gawk\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-02-25 19:17+0200\n"
-"PO-Revision-Date: 2018-05-07 07:39+0000\n"
-"Last-Translator: Andrii Prokopenko <Unknown>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:06\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 10:59+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/gawk.po\n"
+"Language: uk_UA\n"
 
 #: array.c:259
 #, c-format
@@ -75,27 +75,19 @@ msgstr "asorti: перший аргумент не є масивом"
 
 #: array.c:849
 msgid "asort: cannot use a subarray of first arg for second arg"
-msgstr ""
-"asort: неможливо використовувати підмасив першого аргументу для другого "
-"аргументу"
+msgstr "asort: неможливо використовувати підмасив першого аргументу для другого аргументу"
 
 #: array.c:850
 msgid "asorti: cannot use a subarray of first arg for second arg"
-msgstr ""
-"asorti: неможливо використовувати підмасив першого аргументу для другого "
-"аргументу"
+msgstr "asorti: неможливо використовувати підмасив першого аргументу для другого аргументу"
 
 #: array.c:855
 msgid "asort: cannot use a subarray of second arg for first arg"
-msgstr ""
-"asort: неможливо використовувати підмасив другого аргументу для першого "
-"аргументу"
+msgstr "asort: неможливо використовувати підмасив другого аргументу для першого аргументу"
 
 #: array.c:856
 msgid "asorti: cannot use a subarray of second arg for first arg"
-msgstr ""
-"asorti: неможливо використовувати підмасив другого аргументу для першого "
-"аргументу"
+msgstr "asorti: неможливо використовувати підмасив другого аргументу для першого аргументу"
 
 #: array.c:1324
 #, c-format
@@ -127,14 +119,12 @@ msgstr "«%s» - вбудована функція, не може бути пе�
 
 #: awkgram.y:497
 msgid "regexp constant `//' looks like a C++ comment, but is not"
-msgstr ""
-"константа регулярного виразу «//» виглядає як коментар мови C++, але не є ним"
+msgstr "константа регулярного виразу «//» виглядає як коментар мови C++, але не є ним"
 
 #: awkgram.y:501
 #, c-format
 msgid "regexp constant `/%s/' looks like a C comment, but is not"
-msgstr ""
-"константа регулярного виразу «/%s/» виглядає як коментар мови C, але не є ним"
+msgstr "константа регулярного виразу «/%s/» виглядає як коментар мови C, але не є ним"
 
 #: awkgram.y:651
 #, c-format
@@ -169,8 +159,7 @@ msgstr "«return» використаний поза контекстом фун
 
 #: awkgram.y:1065
 msgid "plain `print' in BEGIN or END rule should probably be `print \"\"'"
-msgstr ""
-"можливо `print' у правилі BEGIN або END потрібно замінити на `print \"\"'"
+msgstr "можливо `print' у правилі BEGIN або END потрібно замінити на `print \"\"'"
 
 #: awkgram.y:1132 awkgram.y:1182
 msgid "`delete' is not allowed with SYMTAB"
@@ -198,8 +187,7 @@ msgstr "регулярний вираз ліворуч від оператора
 
 #: awkgram.y:1514 awkgram.y:1663
 msgid "old awk does not support the keyword `in' except after `for'"
-msgstr ""
-"старий awk не підтримує ключове слово `in', якщо лише воно не йде після `for'"
+msgstr "старий awk не підтримує ключове слово `in', якщо лише воно не йде після `for'"
 
 #: awkgram.y:1524
 msgid "regular expression on right of comparison"
@@ -229,8 +217,7 @@ msgstr "непрямі виклики функції є розширенням g
 #: awkgram.y:1854
 #, c-format
 msgid "can not use special variable `%s' for indirect function call"
-msgstr ""
-"неможливо використати спеціальну змінну «%s» для непрямого виклику функції"
+msgstr "неможливо використати спеціальну змінну «%s» для непрямого виклику функції"
 
 #: awkgram.y:1880
 #, c-format
@@ -324,20 +311,17 @@ msgstr "джерельний файл не закінчується символ
 
 #: awkgram.y:3489
 msgid "unterminated regexp ends with `\\' at end of file"
-msgstr ""
-"незавершений регулярний вираз закінчується символом`\\' у кінці файлу"
+msgstr "незавершений регулярний вираз закінчується символом`\\' у кінці файлу"
 
 #: awkgram.y:3516
 #, c-format
 msgid "%s: %d: tawk regex modifier `/.../%c' doesn't work in gawk"
-msgstr ""
-"%s: %d: модифікатор регулярного виразу tawk `/.../%c' не працює у gawk"
+msgstr "%s: %d: модифікатор регулярного виразу tawk `/.../%c' не працює у gawk"
 
 #: awkgram.y:3520
 #, c-format
 msgid "tawk regex modifier `/.../%c' doesn't work in gawk"
-msgstr ""
-"модифікатор регулярного виразу `/.../%c' програми tawk не працює у gawk"
+msgstr "модифікатор регулярного виразу `/.../%c' програми tawk не працює у gawk"
 
 #: awkgram.y:3533
 msgid "unterminated regexp"
@@ -436,13 +420,11 @@ msgstr "close: другий аргумент є розширенням gawk"
 
 #: awkgram.y:4545
 msgid "use of dcgettext(_\"...\") is incorrect: remove leading underscore"
-msgstr ""
-"використання dcgettext(_\"...\") некоректне: вилучіть ведуче підкреслювання"
+msgstr "використання dcgettext(_\"...\") некоректне: вилучіть ведуче підкреслювання"
 
 #: awkgram.y:4560
 msgid "use of dcngettext(_\"...\") is incorrect: remove leading underscore"
-msgstr ""
-"використання dcngettext(_\"...\") некоректне: вилучіть ведуче підкреслювання"
+msgstr "використання dcngettext(_\"...\") некоректне: вилучіть ведуче підкреслювання"
 
 #: awkgram.y:4579
 msgid "index: regexp constant as second argument is not allowed"
@@ -483,16 +465,12 @@ msgstr "ім’я функції `%s' визначено раніше"
 #: awkgram.y:4848
 #, c-format
 msgid "function `%s': can't use function name as parameter name"
-msgstr ""
-"функція `%s': неможливо використовувати ім’я функції у якості ім’я параметра"
+msgstr "функція `%s': неможливо використовувати ім’я функції у якості ім’я параметра"
 
 #: awkgram.y:4851
 #, c-format
-msgid ""
-"function `%s': can't use special variable `%s' as a function parameter"
-msgstr ""
-"функція `%s': не може використовувати спеціальну змінну `%s' у якості "
-"параметра функції"
+msgid "function `%s': can't use special variable `%s' as a function parameter"
+msgstr "функція `%s': не може використовувати спеціальну змінну `%s' у якості параметра функції"
 
 #: awkgram.y:4859
 #, c-format
@@ -516,11 +494,9 @@ msgstr "константа регулярного виразу #%d утворю�
 
 #: awkgram.y:5002
 #, c-format
-msgid ""
-"function `%s' called with space between name and `(',\n"
+msgid "function `%s' called with space between name and `(',\n"
 "or used as a variable or an array"
-msgstr ""
-"функція `%s' викликана з пробілом між іменем і `(',\n"
+msgstr "функція `%s' викликана з пробілом між іменем і `(',\n"
 "або використана як змінна або массив"
 
 #: awkgram.y:5217
@@ -533,10 +509,8 @@ msgid "division by zero attempted in `%%'"
 msgstr "спроба ділення на нуль у «%%»"
 
 #: awkgram.y:5552
-msgid ""
-"cannot assign a value to the result of a field post-increment expression"
-msgstr ""
-"неможливо призначити значення до результату виразу постінкрементного поля"
+msgid "cannot assign a value to the result of a field post-increment expression"
+msgstr "неможливо призначити значення до результату виразу постінкрементного поля"
 
 #: awkgram.y:5555
 #, c-format
@@ -653,9 +627,7 @@ msgstr "fatal: кількість аргументів з `$' має бути > 
 #: builtin.c:926
 #, c-format
 msgid "fatal: arg count %ld greater than total number of supplied arguments"
-msgstr ""
-"fatal: кількість аргументів %ld перевищує загальну кількість наданих "
-"аргументів"
+msgstr "fatal: кількість аргументів %ld перевищує загальну кількість наданих аргументів"
 
 #: builtin.c:930
 msgid "fatal: `$' not permitted after period in format"
@@ -706,11 +678,8 @@ msgstr "[s]printf: значення %g виходить за межі діапа
 
 #: builtin.c:1579
 #, c-format
-msgid ""
-"ignoring unknown format specifier character `%c': no argument converted"
-msgstr ""
-"ігнорування невідомого специфікатора формату `%c': жодного аргументу не "
-"перетворено"
+msgid "ignoring unknown format specifier character `%c': no argument converted"
+msgstr "ігнорування невідомого специфікатора формату `%c': жодного аргументу не перетворено"
 
 #: builtin.c:1584
 msgid "fatal: not enough arguments to satisfy format string"
@@ -790,11 +759,8 @@ msgstr "substr: початок індексу %g це кінець рядка"
 
 #: builtin.c:1863
 #, c-format
-msgid ""
-"substr: length %g at start index %g exceeds length of first argument (%lu)"
-msgstr ""
-"substr: довжина %g у початковому індексі %g перевищує довжину першого "
-"аргумента (%lu)"
+msgid "substr: length %g at start index %g exceeds length of first argument (%lu)"
+msgstr "substr: довжина %g у початковому індексі %g перевищує довжину першого аргумента (%lu)"
 
 #: builtin.c:1936
 msgid "strftime: format value in PROCINFO[\"strftime\"] has numeric type"
@@ -928,8 +894,7 @@ msgstr "lshift(%f, %f): дробові значення буду зрізані"
 #: builtin.c:3412
 #, c-format
 msgid "lshift(%f, %f): too large shift value will give strange results"
-msgstr ""
-"lshift(%f, %f): завелике значення зміщення продукуватиме дивні результати"
+msgstr "lshift(%f, %f): завелике значення зміщення продукуватиме дивні результати"
 
 #: builtin.c:3437
 msgid "rshift: received non-numeric first argument"
@@ -952,8 +917,7 @@ msgstr "rshift(%f, %f): дробові значення буду зрізані"
 #: builtin.c:3451
 #, c-format
 msgid "rshift(%f, %f): too large shift value will give strange results"
-msgstr ""
-"rshift(%f, %f): завелике значення зміщення продукуватиме дивні результати"
+msgstr "rshift(%f, %f): завелике значення зміщення продукуватиме дивні результати"
 
 #: builtin.c:3476 mpfr.c:977
 msgid "and: called with less than two arguments"
@@ -1034,8 +998,7 @@ msgstr ""
 
 #: builtin.c:4080
 #, c-format
-msgid ""
-"typeof detected invalid flags combination `%s'; please file a bug report."
+msgid "typeof detected invalid flags combination `%s'; please file a bug report."
 msgstr ""
 
 #: builtin.c:4095
@@ -1149,14 +1112,11 @@ msgid "non-zero integer value"
 msgstr "ненульове ціле значення"
 
 #: command.y:819
-msgid ""
-"backtrace [N] - print trace of all or N innermost (outermost if N < 0) "
-"frames."
+msgid "backtrace [N] - print trace of all or N innermost (outermost if N < 0) frames."
 msgstr ""
 
 #: command.y:821
-msgid ""
-"break [[filename:]N|function] - set breakpoint at the specified location."
+msgid "break [[filename:]N|function] - set breakpoint at the specified location."
 msgstr ""
 
 #: command.y:823
@@ -1164,14 +1124,11 @@ msgid "clear [[filename:]N|function] - delete breakpoints previously set."
 msgstr ""
 
 #: command.y:825
-msgid ""
-"commands [num] - starts a list of commands to be executed at a "
-"breakpoint(watchpoint) hit."
+msgid "commands [num] - starts a list of commands to be executed at a breakpoint(watchpoint) hit."
 msgstr ""
 
 #: command.y:827
-msgid ""
-"condition num [expr] - set or clear breakpoint or watchpoint condition."
+msgid "condition num [expr] - set or clear breakpoint or watchpoint condition."
 msgstr ""
 
 #: command.y:829
@@ -1199,8 +1156,7 @@ msgid "dump [filename] - dump instructions to file or stdout."
 msgstr ""
 
 #: command.y:841
-msgid ""
-"enable [once|del] [breakpoints] [range] - enable specified breakpoints."
+msgid "enable [once|del] [breakpoints] [range] - enable specified breakpoints."
 msgstr ""
 
 #: command.y:843
@@ -1232,9 +1188,7 @@ msgid "ignore N COUNT - set ignore-count of breakpoint number N to COUNT."
 msgstr ""
 
 #: command.y:857
-msgid ""
-"info topic - "
-"source|sources|variables|functions|break|frame|args|locals|display|watch."
+msgid "info topic - source|sources|variables|functions|break|frame|args|locals|display|watch."
 msgstr ""
 
 #: command.y:859
@@ -1246,8 +1200,7 @@ msgid "next [COUNT] - step program, proceeding through subroutine calls."
 msgstr ""
 
 #: command.y:863
-msgid ""
-"nexti [COUNT] - step one instruction, but proceed through subroutine calls."
+msgid "nexti [COUNT] - step one instruction, but proceed through subroutine calls."
 msgstr ""
 
 #: command.y:865
@@ -1283,8 +1236,7 @@ msgid "set var = value - assign value to a scalar variable."
 msgstr ""
 
 #: command.y:883
-msgid ""
-"silent - suspends usual message when stopped at a breakpoint/watchpoint."
+msgid "silent - suspends usual message when stopped at a breakpoint/watchpoint."
 msgstr ""
 
 #: command.y:885
@@ -1312,9 +1264,7 @@ msgid "undisplay [N] - remove variable(s) from automatic display list."
 msgstr ""
 
 #: command.y:897
-msgid ""
-"until [[filename:]N|function] - execute until program reaches a different "
-"line or line N within current frame."
+msgid "until [[filename:]N|function] - execute until program reaches a different line or line N within current frame."
 msgstr ""
 
 #: command.y:899
@@ -1330,9 +1280,7 @@ msgid "watch var - set a watchpoint for a variable."
 msgstr ""
 
 #: command.y:905
-msgid ""
-"where [N] - (same as backtrace) print trace of all or N innermost (outermost "
-"if N < 0) frames."
+msgid "where [N] - (same as backtrace) print trace of all or N innermost (outermost if N < 0) frames."
 msgstr ""
 
 #: command.y:1016 debug.c:401 gawkapi.c:258 msg.c:139
@@ -1460,9 +1408,7 @@ msgid "Source file (lines): %s (%d)\n"
 msgstr ""
 
 #: debug.c:754
-msgid ""
-"Number  Disp  Enabled  Location\n"
-"\n"
+msgid "Number  Disp  Enabled  Location\n\n"
 msgstr ""
 
 #: debug.c:765
@@ -1513,27 +1459,19 @@ msgid "No locals.\n"
 msgstr ""
 
 #: debug.c:857
-msgid ""
-"All defined variables:\n"
-"\n"
+msgid "All defined variables:\n\n"
 msgstr ""
 
 #: debug.c:867
-msgid ""
-"All defined functions:\n"
-"\n"
+msgid "All defined functions:\n\n"
 msgstr ""
 
 #: debug.c:886
-msgid ""
-"Auto-display variables:\n"
-"\n"
+msgid "Auto-display variables:\n\n"
 msgstr ""
 
 #: debug.c:889
-msgid ""
-"Watch variables:\n"
-"\n"
+msgid "Watch variables:\n\n"
 msgstr ""
 
 #: debug.c:1029
@@ -1646,8 +1584,7 @@ msgstr ""
 
 #: debug.c:2202
 #, c-format
-msgid ""
-"Note: breakpoint %d (enabled, ignore next %ld hits), also set at %s:%d"
+msgid "Note: breakpoint %d (enabled, ignore next %ld hits), also set at %s:%d"
 msgstr ""
 
 #: debug.c:2209
@@ -1657,8 +1594,7 @@ msgstr ""
 
 #: debug.c:2216
 #, c-format
-msgid ""
-"Note: breakpoint %d (disabled, ignore next %ld hits), also set at %s:%d"
+msgid "Note: breakpoint %d (disabled, ignore next %ld hits), also set at %s:%d"
 msgstr ""
 
 #: debug.c:2223
@@ -1913,14 +1849,10 @@ msgstr "переповнення буфера в genflags2str"
 
 #: eval.c:681
 #, c-format
-msgid ""
-"\n"
-"\t# Function Call Stack:\n"
-"\n"
-msgstr ""
-"\n"
-"\t# Стек виклику функції:\n"
-"\n"
+msgid "\n"
+"\t# Function Call Stack:\n\n"
+msgstr "\n"
+"\t# Стек виклику функції:\n\n"
 
 #: eval.c:709
 msgid "`IGNORECASE' is a gawk extension"
@@ -2010,8 +1942,7 @@ msgstr ""
 
 #: ext.c:66
 #, c-format
-msgid ""
-"load_ext: library `%s': does not define `plugin_is_GPL_compatible' (%s)\n"
+msgid "load_ext: library `%s': does not define `plugin_is_GPL_compatible' (%s)\n"
 msgstr ""
 
 #: ext.c:72
@@ -2371,21 +2302,15 @@ msgstr "split: другий аргумент не є массивом"
 
 #: field.c:979
 msgid "split: cannot use the same array for second and fourth args"
-msgstr ""
-"split: неможна використовувати один й той самий массив у другому і "
-"четвертому аргументах"
+msgstr "split: неможна використовувати один й той самий массив у другому і четвертому аргументах"
 
 #: field.c:984
 msgid "split: cannot use a subarray of second arg for fourth arg"
-msgstr ""
-"split: неможна використовувати підмассив другого аргументу у четвертому "
-"аргументі"
+msgstr "split: неможна використовувати підмассив другого аргументу у четвертому аргументі"
 
 #: field.c:987
 msgid "split: cannot use a subarray of fourth arg for second arg"
-msgstr ""
-"split: неможна використовувати підмассив четвертого аргументу у другому "
-"аргументі"
+msgstr "split: неможна використовувати підмассив четвертого аргументу у другому аргументі"
 
 #: field.c:1021
 msgid "split: null string for third arg is a gawk extension"
@@ -2405,21 +2330,15 @@ msgstr ""
 
 #: field.c:1076
 msgid "patsplit: cannot use the same array for second and fourth args"
-msgstr ""
-"patsplit: неможна використовувати один й той самий массив у другому і "
-"четвертому аргументах"
+msgstr "patsplit: неможна використовувати один й той самий массив у другому і четвертому аргументах"
 
 #: field.c:1081
 msgid "patsplit: cannot use a subarray of second arg for fourth arg"
-msgstr ""
-"patsplit: неможна використовувати підмассив другого аргументу у четвертому "
-"аргументі"
+msgstr "patsplit: неможна використовувати підмассив другого аргументу у четвертому аргументі"
 
 #: field.c:1084
 msgid "patsplit: cannot use a subarray of fourth arg for second arg"
-msgstr ""
-"patsplit: неможна використовувати підмассив четвертого аргументу у другому "
-"аргументі"
+msgstr "patsplit: неможна використовувати підмассив четвертого аргументу у другому аргументі"
 
 #: field.c:1134
 msgid "`FIELDWIDTHS' is a gawk extension"
@@ -2465,9 +2384,7 @@ msgstr ""
 
 #: gawkapi.c:520
 #, c-format
-msgid ""
-"node_to_awk_value: detected invalid numeric flags combination `%s'; please "
-"file a bug report."
+msgid "node_to_awk_value: detected invalid numeric flags combination `%s'; please file a bug report."
 msgstr ""
 
 #: gawkapi.c:548
@@ -2480,9 +2397,7 @@ msgstr ""
 
 #: gawkapi.c:607 gawkapi.c:641 gawkapi.c:668 gawkapi.c:701
 #, c-format
-msgid ""
-"node_to_awk_value detected invalid flags combination `%s'; please file a bug "
-"report."
+msgid "node_to_awk_value detected invalid flags combination `%s'; please file a bug report."
 msgstr ""
 
 #: gawkapi.c:1072
@@ -2547,8 +2462,7 @@ msgstr "вираз для перенаправлення `%s' має лише з
 
 #: io.c:796
 #, c-format
-msgid ""
-"filename `%.*s' for `%s' redirection may be result of logical expression"
+msgid "filename `%.*s' for `%s' redirection may be result of logical expression"
 msgstr ""
 
 #: io.c:844
@@ -2573,8 +2487,7 @@ msgstr "не можу відкрити іменований канал `%s' дл
 
 #: io.c:950
 #, c-format
-msgid ""
-"get_file socket creation not supported on this platform for `%s' with fd %d"
+msgid "get_file socket creation not supported on this platform for `%s' with fd %d"
 msgstr ""
 
 #: io.c:961
@@ -2593,11 +2506,8 @@ msgid "can't redirect to `%s' (%s)"
 msgstr "не можу перенаправити у `%s' (%s)"
 
 #: io.c:1153
-msgid ""
-"reached system limit for open files: starting to multiplex file descriptors"
-msgstr ""
-"відкрите максимальне число файлів: буде використовуватися перевантаження "
-"дескрипторів файлів"
+msgid "reached system limit for open files: starting to multiplex file descriptors"
+msgstr "відкрите максимальне число файлів: буде використовуватися перевантаження дескрипторів файлів"
 
 #: io.c:1169
 #, c-format
@@ -2624,9 +2534,7 @@ msgstr "закриття невідкритого перенаправлення
 #: io.c:1325
 #, c-format
 msgid "close: redirection `%s' not opened with `|&', second argument ignored"
-msgstr ""
-"close: перенаправлення `%s' не було відкрито з `|&', другий аргумент "
-"ігнорується"
+msgstr "close: перенаправлення `%s' не було відкрито з `|&', другий аргумент ігнорується"
 
 #: io.c:1342
 #, c-format
@@ -2803,8 +2711,7 @@ msgstr ""
 
 #: io.c:3159
 #, c-format
-msgid ""
-"input parser `%s' conflicts with previously installed input parser `%s'"
+msgid "input parser `%s' conflicts with previously installed input parser `%s'"
 msgstr ""
 
 #: io.c:3166
@@ -2818,8 +2725,7 @@ msgstr ""
 
 #: io.c:3214
 #, c-format
-msgid ""
-"output wrapper `%s' conflicts with previously installed output wrapper `%s'"
+msgid "output wrapper `%s' conflicts with previously installed output wrapper `%s'"
 msgstr ""
 
 #: io.c:3221
@@ -2833,9 +2739,7 @@ msgstr ""
 
 #: io.c:3271
 #, c-format
-msgid ""
-"two-way processor `%s' conflicts with previously installed two-way processor "
-"`%s'"
+msgid "two-way processor `%s' conflicts with previously installed two-way processor `%s'"
 msgstr ""
 
 #: io.c:3280
@@ -2862,8 +2766,7 @@ msgstr "зв’язок по протоколу IPv6 не підтримуєть
 
 #: main.c:333
 msgid "environment variable `POSIXLY_CORRECT' set: turning on `--posix'"
-msgstr ""
-"увімкнено режим `--posix' з-за наявності змінної оточення `POSIXLY_CORRECT'"
+msgstr "увімкнено режим `--posix' з-за наявності змінної оточення `POSIXLY_CORRECT'"
 
 #: main.c:339
 msgid "`--posix' overrides `--traditional'"
@@ -2904,16 +2807,12 @@ msgstr "відсутній текст програми!"
 #: main.c:574
 #, c-format
 msgid "Usage: %s [POSIX or GNU style options] -f progfile [--] file ...\n"
-msgstr ""
-"Використання: %s [параметри у стилі POSIX або GNU] -f файлПрограми [--] файл "
-"...\n"
+msgstr "Використання: %s [параметри у стилі POSIX або GNU] -f файлПрограми [--] файл ...\n"
 
 #: main.c:576
 #, c-format
 msgid "Usage: %s [POSIX or GNU style options] [--] %cprogram%c file ...\n"
-msgstr ""
-"Використання: %s [параметри у стилі POSIX або GNU] [--] %cпрограма%c файл "
-"...\n"
+msgstr "Використання: %s [параметри у стилі POSIX або GNU] [--] %cпрограма%c файл ...\n"
 
 #: main.c:581
 msgid "POSIX options:\t\tGNU long options: (standard)\n"
@@ -2965,11 +2864,11 @@ msgstr "\t-E файл\t\t\t--exec=файл\n"
 
 #: main.c:593
 msgid "\t-g\t\t\t--gen-pot\n"
-msgstr "\t-g\t\t\t--gen-pot\n"
+msgstr ""
 
 #: main.c:594
 msgid "\t-h\t\t\t--help\n"
-msgstr "\t-h\t\t\t--help\n"
+msgstr ""
 
 #: main.c:595
 msgid "\t-i includefile\t\t--include=includefile\n"
@@ -2996,7 +2895,7 @@ msgstr ""
 
 #: main.c:604
 msgid "\t-n\t\t\t--non-decimal-data\n"
-msgstr "\t-n\t\t\t--non-decimal-data\n"
+msgstr ""
 
 #: main.c:605
 msgid "\t-o[file]\t\t--pretty-print[=file]\n"
@@ -3004,7 +2903,7 @@ msgstr "\t-o[файл]\t\t--pretty-print[=файл]\n"
 
 #: main.c:606
 msgid "\t-O\t\t\t--optimize\n"
-msgstr "\t-O\t\t\t--optimize\n"
+msgstr ""
 
 #: main.c:607
 msgid "\t-p[file]\t\t--profile[=file]\n"
@@ -3012,11 +2911,11 @@ msgstr "\t-p[файл]\t\t--profile[=файл]\n"
 
 #: main.c:608
 msgid "\t-P\t\t\t--posix\n"
-msgstr "\t-P\t\t\t--posix\n"
+msgstr ""
 
 #: main.c:609
 msgid "\t-r\t\t\t--re-interval\n"
-msgstr "\t-r\t\t\t--re-interval\n"
+msgstr ""
 
 #: main.c:610
 msgid "\t-s\t\t\t--no-optimize\n"
@@ -3024,23 +2923,23 @@ msgstr ""
 
 #: main.c:611
 msgid "\t-S\t\t\t--sandbox\n"
-msgstr "\t-S\t\t\t--sandbox\n"
+msgstr ""
 
 #: main.c:612
 msgid "\t-t\t\t\t--lint-old\n"
-msgstr "\t-t\t\t\t--lint-old\n"
+msgstr ""
 
 #: main.c:613
 msgid "\t-V\t\t\t--version\n"
-msgstr "\t-V\t\t\t--version\n"
+msgstr ""
 
 #: main.c:615
 msgid "\t-W nostalgia\t\t--nostalgia\n"
-msgstr "\t-W nostalgia\t\t--nostalgia\n"
+msgstr ""
 
 #: main.c:618
 msgid "\t-Y\t\t--parsedebug\n"
-msgstr "\t-Y\t\t--parsedebug\n"
+msgstr ""
 
 #. TRANSLATORS: --help output 5 (end)
 #. TRANSLATORS: the placeholder indicates the bug-reporting address
@@ -3048,77 +2947,56 @@ msgstr "\t-Y\t\t--parsedebug\n"
 #. address for translation bugs.
 #. no-wrap
 #: main.c:627
-msgid ""
-"\n"
+msgid "\n"
 "To report bugs, see node `Bugs' in `gawk.info'\n"
 "which is section `Reporting Problems and Bugs' in the\n"
 "printed version.  This same information may be found at\n"
 "https://www.gnu.org/software/gawk/manual/html_node/Bugs.html.\n"
-"PLEASE do NOT try to report bugs by posting in comp.lang.awk.\n"
-"\n"
+"PLEASE do NOT try to report bugs by posting in comp.lang.awk.\n\n"
 msgstr ""
 
 #: main.c:634
-msgid ""
-"gawk is a pattern scanning and processing language.\n"
-"By default it reads standard input and writes standard output.\n"
-"\n"
-msgstr ""
-"gawk це мова розпізнавання і обробки шаблонів.\n"
-"Типово використовуються стандартні потоки вводу і виводу.\n"
-"\n"
+msgid "gawk is a pattern scanning and processing language.\n"
+"By default it reads standard input and writes standard output.\n\n"
+msgstr "gawk це мова розпізнавання і обробки шаблонів.\n"
+"Типово використовуються стандартні потоки вводу і виводу.\n\n"
 
 #: main.c:638
-msgid ""
-"Examples:\n"
+msgid "Examples:\n"
 "\tgawk '{ sum += $1 }; END { print sum }' file\n"
 "\tgawk -F: '{ print $1 }' /etc/passwd\n"
-msgstr ""
-"Examples:\n"
+msgstr "Examples:\n"
 "\tgawk '{ sum += $1 }; END { print sum }' файл\n"
 "\tgawk -F: '{ print $1 }' /etc/passwd\n"
 
 #: main.c:670
 #, c-format
-msgid ""
-"Copyright (C) 1989, 1991-%d Free Software Foundation.\n"
-"\n"
+msgid "Copyright (C) 1989, 1991-%d Free Software Foundation.\n\n"
 "This program is free software; you can redistribute it and/or modify\n"
 "it under the terms of the GNU General Public License as published by\n"
 "the Free Software Foundation; either version 3 of the License, or\n"
-"(at your option) any later version.\n"
-"\n"
-msgstr ""
-"Авторське право (C) 1989, 1991-%d Фонд вільного програмного забезпечення.\n"
-"\n"
+"(at your option) any later version.\n\n"
+msgstr "Авторське право (C) 1989, 1991-%d Фонд вільного програмного забезпечення.\n\n"
 "Це вільне програмне забезпечення; ви можете розповсюджувати\n"
 "і/або змінювати його на умовах GNU General Public License,\n"
 "оголошеної Free Software Foundation; або версії 3 цієї ліцензії,\n"
-"або (за вашим вибором) будь-якої пізнішої версії.\n"
-"\n"
+"або (за вашим вибором) будь-якої пізнішої версії.\n\n"
 
 #: main.c:678
-msgid ""
-"This program is distributed in the hope that it will be useful,\n"
+msgid "This program is distributed in the hope that it will be useful,\n"
 "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
 "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
-"GNU General Public License for more details.\n"
-"\n"
-msgstr ""
-"Ця програма розпосюджується з надією, що вона буде корисною, але БЕЗ\n"
+"GNU General Public License for more details.\n\n"
+msgstr "Ця програма розпосюджується з надією, що вона буде корисною, але БЕЗ\n"
 "ЯКИХОСЬ ГАРАНТІЙ; навіть без наявності гарантій КОМЕРЦІЙНОЇ ЦІННОСТІ або\n"
 "ПРИДАТНОСТІ ДЛЯ КОНКРЕТНОЇ МЕТИ. Для отримання детальнішої інформації\n"
-"дивіться УнІверсальну Суспільну Ліцензію GNU.\n"
-"\n"
+"дивіться УнІверсальну Суспільну Ліцензію GNU.\n\n"
 
 #: main.c:684
-msgid ""
-"You should have received a copy of the GNU General Public License\n"
+msgid "You should have received a copy of the GNU General Public License\n"
 "along with this program. If not, see http://www.gnu.org/licenses/.\n"
-msgstr ""
-"Ви повинні були отримати копію GNU General Public License\n"
-"разом з програмою. Якщо цього не сталося, дивіться "
-"http://www.gnu.org/licenses/.\n"
+msgstr "Ви повинні були отримати копію GNU General Public License\n"
+"разом з програмою. Якщо цього не сталося, дивіться http://www.gnu.org/licenses/.\n"
 
 #: main.c:725
 msgid "-Ft does not set FS to tab in POSIX awk"
@@ -3126,12 +3004,8 @@ msgstr "-Ft не встановлює FS у символ табуляції в a
 
 #: main.c:1127
 #, c-format
-msgid ""
-"%s: `%s' argument to `-v' not in `var=value' form\n"
-"\n"
-msgstr ""
-"%s: `%s' аргумент для `-v' не у форматі `змінна=значення'\n"
-"\n"
+msgid "%s: `%s' argument to `-v' not in `var=value' form\n\n"
+msgstr "%s: `%s' аргумент для `-v' не у форматі `змінна=значення'\n\n"
 
 #: main.c:1153
 #, c-format
@@ -3275,9 +3149,7 @@ msgstr "у послідовності`\\x' відстуні шістнадцяд
 
 #: node.c:611
 #, c-format
-msgid ""
-"hex escape \\x%.*s of %d characters probably not interpreted the way you "
-"expect"
+msgid "hex escape \\x%.*s of %d characters probably not interpreted the way you expect"
 msgstr ""
 
 #: node.c:626
@@ -3286,9 +3158,7 @@ msgid "escape sequence `\\%c' treated as plain `%c'"
 msgstr "послідовність `\\%c' розглядається `%c'"
 
 #: node.c:762
-msgid ""
-"Invalid multibyte data detected. There may be a mismatch between your data "
-"and your locale."
+msgid "Invalid multibyte data detected. There may be a mismatch between your data and your locale."
 msgstr ""
 
 #: posix/gawkmisc.c:177
@@ -3312,19 +3182,13 @@ msgstr ""
 
 #: profile.c:250
 #, c-format
-msgid ""
-"\t# %s rule(s)\n"
-"\n"
+msgid "\t# %s rule(s)\n\n"
 msgstr ""
 
 #: profile.c:258
 #, c-format
-msgid ""
-"\t# Rule(s)\n"
-"\n"
-msgstr ""
-"\t# Правило(а)\n"
-"\n"
+msgid "\t# Rule(s)\n\n"
+msgstr "\t# Правило(а)\n\n"
 
 #: profile.c:343
 #, c-format
@@ -3337,9 +3201,7 @@ msgstr ""
 
 #: profile.c:1132
 #, c-format
-msgid ""
-"\t# Loaded extensions (-l and/or @load)\n"
-"\n"
+msgid "\t# Loaded extensions (-l and/or @load)\n\n"
 msgstr ""
 
 #: profile.c:1181
@@ -3349,11 +3211,9 @@ msgstr "\t# профіль gawk, створений %s\n"
 
 #: profile.c:1731
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "\t# Functions, listed alphabetically\n"
-msgstr ""
-"\n"
+msgstr "\n"
 "\t# Функції, перераховані у алфавітному порядку\n"
 
 #: profile.c:1787
@@ -3538,3 +3398,4 @@ msgstr ""
 #: symbol.c:817
 msgid "can not pop main context"
 msgstr ""
+

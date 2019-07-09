@@ -1,23 +1,21 @@
-# Ukrainian messages for GNU cpio
-# Copyright (C) 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
-# This file is distributed under the same license as the cpio package.
-# Sergey Poznyakoff <gray@gnu.org>, 2005, 2006, 2007, 2008, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: cpio 2.11\n"
-"Report-Msgid-Bugs-To: bug-cpio@gnu.org\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2015-09-12 14:33+0300\n"
-"PO-Revision-Date: 2019-04-29 13:33+0000\n"
-"Last-Translator: Sergey Poznyakoff <Unknown>\n"
-"Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2019-07-08 17:20\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Launchpad-Export-Date: 2019-05-11 10:42+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: uk\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/cpio.po\n"
+"Language: uk_UA\n"
 
 #: gnu/argmatch.c:133
 #, c-format
@@ -59,11 +57,8 @@ msgid "Garbage in ARGP_HELP_FMT: %s"
 msgstr "Хибні дані в ARGP_HELP_FMT: %s"
 
 #: gnu/argp-help.c:1248
-msgid ""
-"Mandatory or optional arguments to long options are also mandatory or "
-"optional for any corresponding short options."
-msgstr ""
-"Аргументи, обов'язкові для довгих ключів, є обов'язковими й для коротких."
+msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+msgstr "Аргументи, обов'язкові для довгих ключів, є обов'язковими й для коротких."
 
 #: gnu/argp-help.c:1645
 msgid "Usage:"
@@ -80,8 +75,7 @@ msgstr " [ОПЦІЯ...]"
 #: gnu/argp-help.c:1688
 #, c-format
 msgid "Try '%s --help' or '%s --usage' for more information.\n"
-msgstr ""
-"Виконайте команду «%s --help» або «%s --usage», щоб дізнатися більше.\n"
+msgstr "Виконайте команду «%s --help» або «%s --usage», щоб дізнатися більше.\n"
 
 #: gnu/argp-help.c:1716
 #, c-format
@@ -235,11 +229,11 @@ msgstr "не вдалося повернутися до поточного ка�
 #. and use glyphs suitable for your language.
 #: gnu/quotearg.c:312
 msgid "`"
-msgstr "`"
+msgstr ""
 
 #: gnu/quotearg.c:313
 msgid "'"
-msgstr "'"
+msgstr ""
 
 #: gnu/version-etc.c:74
 #, c-format
@@ -259,21 +253,15 @@ msgid "(C)"
 msgstr "©"
 
 #: gnu/version-etc.c:86
-msgid ""
-"\n"
-"License GPLv3+: GNU GPL version 3 or later "
-"<http://gnu.org/licenses/gpl.html>.\n"
+msgid "\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.\n"
 "This is free software: you are free to change and redistribute it.\n"
-"There is NO WARRANTY, to the extent permitted by law.\n"
-"\n"
-msgstr ""
-"\n"
-"Ліцензія GPLv3+: GNU GPL версії 3 або пізнішої "
-"<http://gnu.org/licenses/gpl.html>\n"
+"There is NO WARRANTY, to the extent permitted by law.\n\n"
+msgstr "\n"
+"Ліцензія GPLv3+: GNU GPL версії 3 або пізнішої <http://gnu.org/licenses/gpl.html>\n"
 "Це є вільне програмне забезпечення: ви можете змінювати та розповсюджувати\n"
 "його.\n"
-"Немає ЖОДНИХ ГАРАНТІЙ, в межах дозволених правом.\n"
-"\n"
+"Немає ЖОДНИХ ГАРАНТІЙ, в межах дозволених правом.\n\n"
 
 #. TRANSLATORS: %s denotes an author name.
 #: gnu/version-etc.c:102
@@ -298,11 +286,9 @@ msgstr "Автори: %s, %s та %s.\n"
 #. ca. 16 screen columns and that a screen line has ca. 80 columns.
 #: gnu/version-etc.c:117
 #, c-format
-msgid ""
-"Written by %s, %s, %s,\n"
+msgid "Written by %s, %s, %s,\n"
 "and %s.\n"
-msgstr ""
-"Автори: %s, %s, %s\n"
+msgstr "Автори: %s, %s, %s\n"
 "та %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -310,11 +296,9 @@ msgstr ""
 #. ca. 16 screen columns and that a screen line has ca. 80 columns.
 #: gnu/version-etc.c:124
 #, c-format
-msgid ""
-"Written by %s, %s, %s,\n"
+msgid "Written by %s, %s, %s,\n"
 "%s, and %s.\n"
-msgstr ""
-"Автори: %s, %s, %s\n"
+msgstr "Автори: %s, %s, %s\n"
 "%s, та %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -322,11 +306,9 @@ msgstr ""
 #. ca. 16 screen columns and that a screen line has ca. 80 columns.
 #: gnu/version-etc.c:131
 #, c-format
-msgid ""
-"Written by %s, %s, %s,\n"
+msgid "Written by %s, %s, %s,\n"
 "%s, %s, and %s.\n"
-msgstr ""
-"Автори: %s, %s, %s\n"
+msgstr "Автори: %s, %s, %s\n"
 "%s, %s та %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -334,11 +316,9 @@ msgstr ""
 #. ca. 16 screen columns and that a screen line has ca. 80 columns.
 #: gnu/version-etc.c:139
 #, c-format
-msgid ""
-"Written by %s, %s, %s,\n"
+msgid "Written by %s, %s, %s,\n"
 "%s, %s, %s, and %s.\n"
-msgstr ""
-"Автори: %s, %s, %s\n"
+msgstr "Автори: %s, %s, %s\n"
 "%s, %s, %s та %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -346,12 +326,10 @@ msgstr ""
 #. ca. 16 screen columns and that a screen line has ca. 80 columns.
 #: gnu/version-etc.c:147
 #, c-format
-msgid ""
-"Written by %s, %s, %s,\n"
+msgid "Written by %s, %s, %s,\n"
 "%s, %s, %s, %s,\n"
 "and %s.\n"
-msgstr ""
-"Автори: %s, %s, %s\n"
+msgstr "Автори: %s, %s, %s\n"
 "%s, %s, %s, %s та %s.\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -359,12 +337,10 @@ msgstr ""
 #. ca. 16 screen columns and that a screen line has ca. 80 columns.
 #: gnu/version-etc.c:156
 #, c-format
-msgid ""
-"Written by %s, %s, %s,\n"
+msgid "Written by %s, %s, %s,\n"
 "%s, %s, %s, %s,\n"
 "%s, and %s.\n"
-msgstr ""
-"Автори: %s, %s, %s\n"
+msgstr "Автори: %s, %s, %s\n"
 "%s, %s, %s, %s,\n"
 "%s та %s.\n"
 
@@ -373,12 +349,10 @@ msgstr ""
 #. ca. 16 screen columns and that a screen line has ca. 80 columns.
 #: gnu/version-etc.c:167
 #, c-format
-msgid ""
-"Written by %s, %s, %s,\n"
+msgid "Written by %s, %s, %s,\n"
 "%s, %s, %s, %s,\n"
 "%s, %s, and others.\n"
-msgstr ""
-"Автори: %s, %s, %s\n"
+msgstr "Автори: %s, %s, %s\n"
 "%s, %s, %s, %s,\n"
 "%s, %s та інші.\n"
 
@@ -388,11 +362,9 @@ msgstr ""
 #. bugs (typically your translation team's web or email address).
 #: gnu/version-etc.c:245
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "Report bugs to: %s\n"
-msgstr ""
-"\n"
+msgstr "\n"
 "Про помилки звітуйте на %s\n"
 
 #: gnu/version-etc.c:247
@@ -412,8 +384,7 @@ msgstr "домашня сторінка %s: <http://www.gnu.org/software/%s/>\n"
 
 #: gnu/version-etc.c:256
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
-msgstr ""
-"Загальна допомога щодо використання ПЗ GNU: <http://www.gnu.org/gethelp/>\n"
+msgstr "Загальна допомога щодо використання ПЗ GNU: <http://www.gnu.org/gethelp/>\n"
 
 #. TRANSLATORS: %s after `Cannot' is a function name, e.g. `Cannot open'.
 #. Directly translating this to another language will not work, first because
@@ -455,16 +426,16 @@ msgid_plural "%s: Read error at byte %s, while reading %lu bytes"
 msgstr[0] "%s: Помилка в позиції %s, під час читання %lu байта"
 msgstr[1] "%s: Помилка в позиції %s, під час читання %lu байтів"
 msgstr[2] "%s: Помилка в позиції %s, під час читання %lu байтів"
+msgstr[3] ""
 
 #: lib/error.c:194
 #, c-format
 msgid "%s: Warning: Read error at byte %s, while reading %lu byte"
 msgid_plural "%s: Warning: Read error at byte %s, while reading %lu bytes"
 msgstr[0] "%s: Попередження: Помилка в позиції %s, під час читання %lu байта"
-msgstr[1] ""
-"%s: Попередження: Помилка в позиції %s, під час читання %lu байтів"
-msgstr[2] ""
-"%s: Попередження: Помилка в позиції %s, під час читання %lu байтів"
+msgstr[1] "%s: Попередження: Помилка в позиції %s, під час читання %lu байтів"
+msgstr[2] "%s: Попередження: Помилка в позиції %s, під час читання %lu байтів"
+msgstr[3] ""
 
 #: lib/error.c:261
 #, c-format
@@ -488,6 +459,7 @@ msgid_plural "%s: Wrote only %lu of %lu bytes"
 msgstr[0] "%s: Вдалося записати тільки %lu з %lu байта"
 msgstr[1] "%s: Вдалося записати тільки %lu з %lu байтів"
 msgstr[2] "%s: Вдалося записати тільки %lu з %lu байтів"
+msgstr[3] ""
 
 #: lib/names.c:140
 #, c-format
@@ -515,12 +487,12 @@ msgstr "exec/tcp: сервіс відсутній"
 #: lib/rtapelib.c:303
 #, c-format
 msgid "stdin"
-msgstr "stdin"
+msgstr ""
 
 #: lib/rtapelib.c:306
 #, c-format
 msgid "stdout"
-msgstr "stdout"
+msgstr ""
 
 #: lib/rtapelib.c:429
 #, c-format
@@ -579,8 +551,7 @@ msgstr "Неочікувані аргументи"
 
 #: rmt/rmt.c:689
 msgid "Manipulate a tape drive, accepting commands from a remote process"
-msgstr ""
-"Керує стрічковим пристроєм, отримуючи команди від віддаленого процесу"
+msgstr "Керує стрічковим пристроєм, отримуючи команди від віддаленого процесу"
 
 #: rmt/rmt.c:696 src/main.c:130 tests/genfile.c:167
 msgid "NUMBER"
@@ -621,6 +592,7 @@ msgid_plural "warning: skipped %ld bytes of junk"
 msgstr[0] "попередження: пропускається %ld байт зі сміттям"
 msgstr[1] "попередження: пропускається %ld байти зі сміттям"
 msgstr[2] "попередження: пропускається %ld байтів зі сміттям"
+msgstr[3] ""
 
 #: src/copyin.c:66
 #, c-format
@@ -660,14 +632,12 @@ msgstr "не вдається створити посилання %s на %s"
 #: src/copyin.c:524
 #, c-format
 msgid "cannot swap halfwords of %s: odd number of halfwords"
-msgstr ""
-"не вдається замінити містами півслова у назві %s: непарна кількість півслів"
+msgstr "не вдається замінити містами півслова у назві %s: непарна кількість півслів"
 
 #: src/copyin.c:532
 #, c-format
 msgid "cannot swap bytes of %s: odd number of bytes"
-msgstr ""
-"не вдається замінити містами байти у назві %s: непарна кількість півслів"
+msgstr "не вдається замінити містами байти у назві %s: непарна кількість півслів"
 
 #: src/copyin.c:682
 #, c-format
@@ -711,6 +681,7 @@ msgid_plural "%lu blocks\n"
 msgstr[0] "%lu блок\n"
 msgstr[1] "%lu блоки\n"
 msgstr[2] "%lu блоків\n"
+msgstr[3] ""
 
 #: src/copyout.c:51 src/copyout.c:60
 #, c-format
@@ -737,11 +708,11 @@ msgstr "файловий режим"
 
 #: src/copyout.c:339 src/copyout.c:401 src/copyout.c:478
 msgid "uid"
-msgstr "uid"
+msgstr ""
 
 #: src/copyout.c:342 src/copyout.c:403 src/copyout.c:482
 msgid "gid"
-msgstr "gid"
+msgstr ""
 
 #: src/copyout.c:345 src/copyout.c:406 src/copyout.c:486
 msgid "number of links"
@@ -814,9 +785,7 @@ msgid "%s linked to %s"
 msgstr "створено посилання %s до %s"
 
 #: src/main.c:77
-msgid ""
-"GNU `cpio' copies files to and from archives\n"
-"\n"
+msgid "GNU `cpio' copies files to and from archives\n\n"
 "Examples:\n"
 "  # Copy files named in name-list to the archive\n"
 "  cpio -o < name-list [> archive]\n"
@@ -824,9 +793,7 @@ msgid ""
 "  cpio -i [< archive]\n"
 "  # Copy files named in name-list to destination-directory\n"
 "  cpio -p destination-directory < name-list\n"
-msgstr ""
-"GNU `cpio' копіює файли до або з архівів\n"
-"\n"
+msgstr "GNU `cpio' копіює файли до або з архівів\n\n"
 "Приклади:\n"
 "  # Копіювати файли, вказані у переліку файлів, у архів\n"
 "  cpio -o < перелік-файлів [> архів]\n"
@@ -925,22 +892,16 @@ msgid "FLAG"
 msgstr "ОЗНАКА"
 
 #: src/main.c:141
-msgid ""
-"Control warning display. Currently FLAG is one of 'none', 'truncate', 'all'. "
-"Multiple options accumulate."
-msgstr ""
-"Управління відображенням попереджень. Наразі ознака має бути однією з "
-"'none', 'truncate', 'all'. Дозволяється вказування декількох опцій -W"
+msgid "Control warning display. Currently FLAG is one of 'none', 'truncate', 'all'. Multiple options accumulate."
+msgstr "Управління відображенням попереджень. Наразі ознака має бути однією з 'none', 'truncate', 'all'. Дозволяється вказування декількох опцій -W"
 
 #: src/main.c:142
 msgid "[USER][:.][GROUP]"
 msgstr "[КОРИСТУВАЧ][:.][ГРУПА]"
 
 #: src/main.c:143
-msgid ""
-"Set the ownership of all files created to the specified USER and/or GROUP"
-msgstr ""
-"Встановити вказаного користувача і/або ГРУПУ власником усіх створених файлів"
+msgid "Set the ownership of all files created to the specified USER and/or GROUP"
+msgstr "Встановити вказаного користувача і/або ГРУПУ власником усіх створених файлів"
 
 #: src/main.c:148
 msgid "Operation modifiers valid in copy-in and copy-out modes"
@@ -951,13 +912,8 @@ msgid "[[USER@]HOST:]FILE-NAME"
 msgstr "[[КОРИСТУВАЧ@]МАШИНА:]НАЗВА-ФАЙЛУ"
 
 #: src/main.c:150
-msgid ""
-"Use this FILE-NAME instead of standard input or output. Optional USER and "
-"HOST specify the user and host names in case of a remote archive"
-msgstr ""
-"Використовувати цю назву файлу як стандартний ввід або вивід. Необов'язкові "
-"частини КОРИСТУВАЧ та МАШИНА визначають ім'я користувача та назву машини у "
-"випадку віддаленого архіву."
+msgid "Use this FILE-NAME instead of standard input or output. Optional USER and HOST specify the user and host names in case of a remote archive"
+msgstr "Використовувати цю назву файлу як стандартний ввід або вивід. Необов'язкові частини КОРИСТУВАЧ та МАШИНА визначають ім'я користувача та назву машини у випадку віддаленого архіву."
 
 #: src/main.c:151 tests/genfile.c:170
 msgid "STRING"
@@ -981,37 +937,26 @@ msgstr "Опції-модифікатори, що є дійсними лише �
 
 #: src/main.c:163
 msgid "Only copy files that do not match any of the given patterns"
-msgstr ""
-"Копіювати лише такі файли, що їх назви не співпадають з жодним з вказаних "
-"шаблонів"
+msgstr "Копіювати лише такі файли, що їх назви не співпадають з жодним з вказаних шаблонів"
 
 #: src/main.c:165
 msgid "In the verbose table of contents listing, show numeric UID and GID"
 msgstr "У детальному змісті виводити цифрові значення UID та GID"
 
 #: src/main.c:168
-msgid ""
-"Read additional patterns specifying filenames to extract or list from FILE"
-msgstr ""
-"Прочитати з ФАЙЛУ додаткові шаблони назв файлів, що їх треба витягти або "
-"надрукувати"
+msgid "Read additional patterns specifying filenames to extract or list from FILE"
+msgstr "Прочитати з ФАЙЛУ додаткові шаблони назв файлів, що їх треба витягти або надрукувати"
 
 #: src/main.c:170
-msgid ""
-"When reading a CRC format archive, only verify the CRC's of each file in the "
-"archive, don't actually extract the files"
-msgstr ""
-"Під час читання архіву у форматі CRC, лише перевіряти контрольні суми файлів "
-"з архіву, але не витягувати їх"
+msgid "When reading a CRC format archive, only verify the CRC's of each file in the archive, don't actually extract the files"
+msgstr "Під час читання архіву у форматі CRC, лише перевіряти контрольні суми файлів з архіву, але не витягувати їх"
 
 #: src/main.c:172
 msgid "Interactively rename files"
 msgstr "Інтерактивне перейменування файлів"
 
 #: src/main.c:176
-msgid ""
-"Swap both halfwords of words and bytes of halfwords in the data. Equivalent "
-"to -sS"
+msgid "Swap both halfwords of words and bytes of halfwords in the data. Equivalent to -sS"
 msgstr "Міняти містами півслова у словах і байти у півсловах. Те ж саме, -sS"
 
 #: src/main.c:178
@@ -1027,13 +972,8 @@ msgid "Extract files to standard output"
 msgstr "Витягувати файли у стандартний вивід"
 
 #: src/main.c:185
-msgid ""
-"Archive filename to use instead of standard input. Optional USER and HOST "
-"specify the user and host names in case of a remote archive"
-msgstr ""
-"Використовувати вказану назву файлу замість стандартного вводу. "
-"Необов'язкові частини КОРИСТУВАЧ та МАШИНА визначають ім'я користувача та "
-"назву машини у випадку віддаленого архіву."
+msgid "Archive filename to use instead of standard input. Optional USER and HOST specify the user and host names in case of a remote archive"
+msgstr "Використовувати вказану назву файлу замість стандартного вводу. Необов'язкові частини КОРИСТУВАЧ та МАШИНА визначають ім'я користувача та назву машини у випадку віддаленого архіву."
 
 #: src/main.c:191
 msgid "Operation modifiers valid only in copy-out mode:"
@@ -1044,13 +984,8 @@ msgid "Append to an existing archive."
 msgstr "Додати до існуючого архіву."
 
 #: src/main.c:195
-msgid ""
-"Archive filename to use instead of standard output. Optional USER and HOST "
-"specify the user and host names in case of a remote archive"
-msgstr ""
-"Використовувати вказану назву файлу замість стандартного виводу. "
-"Необов'язкові частини  МАШИНА та КОРИСТУВАЧ визначають назву машини та  ім'я "
-"користувача у випадку віддаленого архіву."
+msgid "Archive filename to use instead of standard output. Optional USER and HOST specify the user and host names in case of a remote archive"
+msgstr "Використовувати вказану назву файлу замість стандартного виводу. Необов'язкові частини  МАШИНА та КОРИСТУВАЧ визначають назву машини та  ім'я користувача у випадку віддаленого архіву."
 
 #: src/main.c:197
 msgid "Renumber inodes"
@@ -1070,13 +1005,11 @@ msgstr "Опції-модифікатори, що є дійсними лише �
 
 #: src/main.c:210
 msgid "Link files instead of copying them, when  possible"
-msgstr ""
-"Коли це можливо, створювати посилання до файлів замість їх копіювання"
+msgstr "Коли це можливо, створювати посилання до файлів замість їх копіювання"
 
 #: src/main.c:217
 msgid "Operation modifiers valid in copy-in and copy-out modes:"
-msgstr ""
-"Опції-модифікатори, дійсні у режимах «копіювання-з» і «копіювання-до»:"
+msgstr "Опції-модифікатори, дійсні у режимах «копіювання-з» і «копіювання-до»:"
 
 #: src/main.c:219
 msgid "Do not strip file system prefix components from the file names"
@@ -1088,22 +1021,15 @@ msgstr "Створювати файли відносно поточного ка
 
 #: src/main.c:227
 msgid "Operation modifiers valid in copy-out and copy-pass modes:"
-msgstr ""
-"Опції-модифікатори, дійсні у режимах \"копіювання-з\" і \"копіювання-через\":"
+msgstr "Опції-модифікатори, дійсні у режимах \"копіювання-з\" і \"копіювання-через\":"
 
 #: src/main.c:229
-msgid ""
-"Filenames in the list are delimited by null characters instead of newlines"
-msgstr ""
-"Імена файлів у списку розділяються нульовими символами, а не новими рядками"
+msgid "Filenames in the list are delimited by null characters instead of newlines"
+msgstr "Імена файлів у списку розділяються нульовими символами, а не новими рядками"
 
 #: src/main.c:231
-msgid ""
-"Dereference  symbolic  links  (copy  the files that they point to instead of "
-"copying the links)."
-msgstr ""
-"Оброблювати файли на яки вказують символічні посилання (копіювати самі файли "
-"замість копіювання посилань)"
+msgid "Dereference  symbolic  links  (copy  the files that they point to instead of copying the links)."
+msgstr "Оброблювати файли на яки вказують символічні посилання (копіювати самі файли замість копіювання посилань)"
 
 #: src/main.c:233
 msgid "Reset the access times of files after reading them"
@@ -1111,9 +1037,7 @@ msgstr "Відновляти час доступу після читання ф�
 
 #: src/main.c:239
 msgid "Operation modifiers valid in copy-in and copy-pass modes:"
-msgstr ""
-"Опції-модифікатори, що є дійсними у режимах \"копіювання-до\" і \"копіювання-"
-"через\""
+msgstr "Опції-модифікатори, що є дійсними у режимах \"копіювання-до\" і \"копіювання-через\""
 
 #: src/main.c:241
 msgid "Retain previous file modification times when creating files"
@@ -1145,11 +1069,9 @@ msgstr "Формат архіву вказано декілька разів"
 
 #: src/main.c:385
 #, c-format
-msgid ""
-"invalid archive format `%s'; valid formats are:\n"
+msgid "invalid archive format `%s'; valid formats are:\n"
 "crc newc odc bin ustar tar (all-caps also recognized)"
-msgstr ""
-"недійсний формат архіву `%s'; дійсними форматами є:\n"
+msgstr "недійсний формат архіву `%s'; дійсними форматами є:\n"
 "crc newx odc bin ustar tar (дозволяються також назви великими літерами)"
 
 #: src/main.c:392 src/main.c:437 src/main.c:451
@@ -1158,13 +1080,11 @@ msgstr "Режим роботи вже встановлено"
 
 #: src/main.c:431
 msgid "--no-preserve-owner cannot be used with --owner"
-msgstr ""
-"опцію --no-preserve-owner не можна використовувати разом з опцією --owner"
+msgstr "опцію --no-preserve-owner не можна використовувати разом з опцією --owner"
 
 #: src/main.c:486
 msgid "--owner cannot be used with --no-preserve-owner"
-msgstr ""
-"опцію --owner не можна використовувати разом з опцією --no-preserve-owner"
+msgstr "опцію --owner не можна використовувати разом з опцією --no-preserve-owner"
 
 #: src/main.c:533
 #, c-format
@@ -1177,11 +1097,9 @@ msgstr "[каталог-призначення]"
 
 #: src/main.c:601
 #, c-format
-msgid ""
-"You must specify one of -oipt options.\n"
+msgid "You must specify one of -oipt options.\n"
 "Try `%s --help' or `%s --usage' for more information.\n"
-msgstr ""
-"Необхідно вказати одну з опцій -oipt.\n"
+msgstr "Необхідно вказати одну з опцій -oipt.\n"
 "Спробуйте `%s --help' або `%s --usage' для отримання докладнішого опису.\n"
 
 #: src/main.c:632
@@ -1193,11 +1111,8 @@ msgid "Too many arguments"
 msgstr "Забагато аргументів"
 
 #: src/main.c:663
-msgid ""
-"--append is used but no archive file name is given (use -F or -O options)"
-msgstr ""
-"Використано опцію --append але не вказано назви архіву (використовуйте опцію "
-"-F або -O)"
+msgid "--append is used but no archive file name is given (use -F or -O options)"
+msgstr "Використано опцію --append але не вказано назви архіву (використовуйте опцію -F або -O)"
 
 #: src/main.c:670
 msgid "Both -O and -F are used in copy-out mode"
@@ -1208,11 +1123,8 @@ msgid "Not enough arguments"
 msgstr "Забагато аргументів"
 
 #: src/main.c:690
-msgid ""
-"Archive format is not specified in copy-pass mode (use --format option)"
-msgstr ""
-"Не вказано формату архіву у режимі \"копіювання-через\" (використовуйте "
-"опцію --format)"
+msgid "Archive format is not specified in copy-pass mode (use --format option)"
+msgstr "Не вказано формату архіву у режимі \"копіювання-через\" (використовуйте опцію --format)"
 
 #: src/main.c:716
 #, c-format
@@ -1332,6 +1244,7 @@ msgid_plural "File %s shrunk by %s bytes, padding with zeros"
 msgstr[0] "Файл %s скоротився на %s байт; заповнення нулями"
 msgstr[1] "Файл %s скоротився на %s байти; заповнення нулями"
 msgstr[2] "Файл %s скоротився на %s байтів; заповнення нулями"
+msgstr[3] ""
 
 #: src/util.c:501 src/util.c:551
 #, c-format
@@ -1345,6 +1258,7 @@ msgid_plural "File %s grew, %<PRIuMAX> new bytes not copied"
 msgstr[0] "Розмір файлу %s збільшився, не скопійовано %<PRIuMAX> байтів"
 msgstr[1] "Розмір файлу %s збільшився, не скопійовано %<PRIuMAX> байтів"
 msgstr[2] "Розмір файлу %s збільшився, не скопійовано %<PRIuMAX> байтів"
+msgstr[3] ""
 
 #: src/util.c:592
 #, c-format
@@ -1402,11 +1316,9 @@ msgid "cannot change to directory `%s'"
 msgstr "неможливо змінити каталог «%s»"
 
 #: tests/genfile.c:112
-msgid ""
-"genfile manipulates data files for GNU paxutils test suite.\n"
+msgid "genfile manipulates data files for GNU paxutils test suite.\n"
 "OPTIONS are:\n"
-msgstr ""
-"genfile - програма обробки файлів з набору перевірок пакету GNU paxutils\n"
+msgstr "genfile - програма обробки файлів з набору перевірок пакету GNU paxutils\n"
 "Перелік опцій:\n"
 
 #: tests/genfile.c:128
@@ -1431,8 +1343,7 @@ msgstr "Читати назви файлів з вказаного файлу"
 
 #: tests/genfile.c:136
 msgid "-T reads null-terminated names"
-msgstr ""
-"файл, вказаний з опцією -T, містить назви, відокремлені нульовими символами"
+msgstr "файл, вказаний з опцією -T, містить назви, відокремлені нульовими символами"
 
 #: tests/genfile.c:137
 msgid "PATTERN"
@@ -1440,8 +1351,7 @@ msgstr "ШАБЛОН"
 
 #: tests/genfile.c:138
 msgid "Fill the file with the given PATTERN. PATTERN is 'default' or 'zeros'"
-msgstr ""
-"Взірець заповнення файла: 'default' (типовий) або 'zeros' (заповнення нулями)"
+msgstr "Взірець заповнення файла: 'default' (типовий) або 'zeros' (заповнення нулями)"
 
 #: tests/genfile.c:141
 msgid "Size of a block for sparse file"
@@ -1464,8 +1374,7 @@ msgid "File statistics options:"
 msgstr "Статистика файлів:"
 
 #: tests/genfile.c:155
-msgid ""
-"Print contents of struct stat for each given file. Default FORMAT is: "
+msgid "Print contents of struct stat for each given file. Default FORMAT is: "
 msgstr "Виводити вміст структури stat для кожного файла. Типовий формат: "
 
 #: tests/genfile.c:162
@@ -1477,17 +1386,12 @@ msgid "OPTION"
 msgstr "ОПЦІЯ"
 
 #: tests/genfile.c:165
-msgid ""
-"Execute ARGS. Useful with --checkpoint and one of --cut, --append, --touch, -"
-"-unlink"
-msgstr ""
-"Виконати вказану команду. Для ужитку з опціями --cut, --append, --touch або -"
-"-unlink"
+msgid "Execute ARGS. Useful with --checkpoint and one of --cut, --append, --touch, --unlink"
+msgstr "Виконати вказану команду. Для ужитку з опціями --cut, --append, --touch або --unlink"
 
 #: tests/genfile.c:168
 msgid "Perform given action (see below) upon reaching checkpoint NUMBER"
-msgstr ""
-"Виконати вказану операцію (див. нижче) по досягненню контрольної відмітки"
+msgstr "Виконати вказану операцію (див. нижче) по досягненню контрольної відмітки"
 
 #: tests/genfile.c:171
 msgid "Set date for next --touch option"
@@ -1498,25 +1402,16 @@ msgid "Display executed checkpoints and exit status of COMMAND"
 msgstr "Друкувати виконані операції і код завершення команди"
 
 #: tests/genfile.c:179
-msgid ""
-"Synchronous execution actions. These are executed when checkpoint number "
-"given by --checkpoint option is reached."
-msgstr ""
-"Операції синхронного виконання. Виконуються по досягненню контрольної "
-"відмітки, вказаної опцією --checkpoint."
+msgid "Synchronous execution actions. These are executed when checkpoint number given by --checkpoint option is reached."
+msgstr "Операції синхронного виконання. Виконуються по досягненню контрольної відмітки, вказаної опцією --checkpoint."
 
 #: tests/genfile.c:182
-msgid ""
-"Truncate FILE to the size specified by previous --length option (or 0, if it "
-"is not given)"
-msgstr ""
-"Обрізати файл до розміру, вказаного попередньою опцією --length (до 0, якщо "
-"її не було вказано)"
+msgid "Truncate FILE to the size specified by previous --length option (or 0, if it is not given)"
+msgstr "Обрізати файл до розміру, вказаного попередньою опцією --length (до 0, якщо її не було вказано)"
 
 #: tests/genfile.c:186
 msgid "Append SIZE bytes to FILE. SIZE is given by previous --length option."
-msgstr ""
-"Додати до файла кількість байтів, вказану попередньою опцією --length."
+msgstr "Додати до файла кількість байтів, вказану попередньою опцією --length."
 
 #: tests/genfile.c:189
 msgid "Update the access and modification times of FILE"
@@ -1592,9 +1487,7 @@ msgstr "назва файла містить нульовий символ"
 #: tests/genfile.c:566
 #, c-format
 msgid "cannot generate sparse files on standard output, use --file option"
-msgstr ""
-"неможливо створювати розсіяні файли на стандартному виводі; користайтеся "
-"опцією --file"
+msgstr "неможливо створювати розсіяні файли на стандартному виводі; користайтеся опцією --file"
 
 #: tests/genfile.c:657
 #, c-format
@@ -1660,3 +1553,4 @@ msgstr "Процес-нащадок закінчився\n"
 #, c-format
 msgid "--stat requires file names"
 msgstr "опція --stat вимагає назв файлів"
+

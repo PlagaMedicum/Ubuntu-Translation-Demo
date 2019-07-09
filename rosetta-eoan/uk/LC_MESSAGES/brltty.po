@@ -1,23 +1,21 @@
-# Ukrainian translation for brltty
-# Copyright (c) 2018 Rosetta Contributors and Canonical Ltd 2018
-# This file is distributed under the same license as the brltty package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: brltty\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-01-04 14:10+0100\n"
-"PO-Revision-Date: 2018-05-27 11:41+0000\n"
-"Last-Translator: Andrii Prokopenko <Unknown>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:19\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Launchpad-Export-Date: 2019-05-11 10:38+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/brltty.po\n"
+"Language: uk_UA\n"
 
 #: Programs/brltty.c:167
 #, c-format
@@ -647,7 +645,7 @@ msgstr ""
 
 #: Programs/menu_prefs.c:916
 msgid "FM"
-msgstr "FM"
+msgstr ""
 
 #: Programs/menu_prefs.c:954
 msgid "FM Volume"
@@ -930,21 +928,16 @@ msgid "Log Messages"
 msgstr "Повідомлення журналу"
 
 #: Programs/config.c:607
-msgid ""
-"Log the versions of the core, API, and built-in drivers, and then exit."
-msgstr ""
-"Записувати версії ядра, API, вбудованих драйверів і завершувати роботу"
+msgid "Log the versions of the core, API, and built-in drivers, and then exit."
+msgstr "Записувати версії ядра, API, вбудованих драйверів і завершувати роботу"
 
 #: Programs/config.c:572
 msgid "Log to standard error rather than to the system log."
-msgstr ""
-"Реєструвати помилки у стандартний вивід помилок, а не в системний журнал."
+msgstr "Реєструвати помилки у стандартний вивід помилок, а не в системний журнал."
 
 #: Programs/config.c:586
 #, c-format
-msgid ""
-"Logging level (%s or one of {%s}) and/or log categories to enable (any "
-"combination of {%s}, each optionally prefixed by %s to disable)"
+msgid "Logging level (%s or one of {%s}) and/or log categories to enable (any combination of {%s}, each optionally prefixed by %s to disable)"
 msgstr ""
 
 #: Programs/menu_prefs.c:810
@@ -965,7 +958,7 @@ msgstr "Нижня права точка"
 
 #: Programs/menu_prefs.c:915
 msgid "MIDI"
-msgstr "MIDI"
+msgstr ""
 
 #: Programs/config.c:556
 msgid "MIDI (Musical Instrument Digital Interface) device specifier."
@@ -1363,9 +1356,7 @@ msgid "Report problems with the key table."
 msgstr ""
 
 #: Programs/brltty-ttb.c:186
-msgid ""
-"Report the characters within the current screen font that aren't defined "
-"within the text table."
+msgid "Report the characters within the current screen font that aren't defined within the text table."
 msgstr ""
 
 #: Programs/menu_prefs.c:737
@@ -2965,6 +2956,7 @@ msgid_plural "seconds"
 msgstr[0] "секунда"
 msgstr[1] "секунди"
 msgstr[2] "секунд"
+msgstr[3] ""
 
 #: Programs/cmds.auto.h:446
 msgid "select next choice"
@@ -3257,8 +3249,7 @@ msgstr "білий"
 
 #: Programs/xbrlapi.c:824
 #, c-format
-msgid ""
-"xbrlapi: Couldn't find modifiers to apply to %d for getting keysym %08X\n"
+msgid "xbrlapi: Couldn't find modifiers to apply to %d for getting keysym %08X\n"
 msgstr ""
 
 #: Programs/xbrlapi.c:800
@@ -3341,3 +3332,4 @@ msgstr ""
 #: Programs/cmd_utils.c:123
 msgid "yellow"
 msgstr "жовтий"
+

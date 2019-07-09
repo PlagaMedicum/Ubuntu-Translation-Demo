@@ -1,24 +1,23 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the fwupd package.
-#
 # Translators:
-# Yuri Chornoivan <yurchor@ukr.net>, 2015-2019
+# Richard Hughes <richard@hughsie.com>, 2015,2017-2019
 msgid ""
 msgstr ""
-"Project-Id-Version: fwupd\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-26 23:11+0000\n"
-"PO-Revision-Date: 2019-05-04 00:46+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
-"Language-Team: Ukrainian "
-"(http://www.transifex.com/freedesktop/fwupd/language/uk/)\n"
+"PO-Revision-Date: 2019-07-08 17:07\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 13:30+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: uk\n"
+"X-Generator: crowdin.com\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/fwupd.po\n"
 
 #: ../policy/org.freedesktop.fwupd.policy.in.h:1
 msgid "Install signed system firmware"
@@ -27,9 +26,7 @@ msgstr "Встановити підписану мікропрограму си�
 #. TRANSLATORS: this is the PolicyKit modal dialog
 #: ../policy/org.freedesktop.fwupd.policy.in.h:3
 msgid "Authentication is required to update the firmware on this machine"
-msgstr ""
-"Щоб отримати доступ до оновлення мікропрограми цього комп’ютера, вам слід "
-"пройти розпізнавання"
+msgstr "Щоб отримати доступ до оновлення мікропрограми цього комп’ютера, вам слід пройти розпізнавання"
 
 #: ../policy/org.freedesktop.fwupd.policy.in.h:4
 msgid "Install unsigned system firmware"
@@ -42,9 +39,7 @@ msgstr "Встановити стару версію мікропрограми 
 #. TRANSLATORS: this is the PolicyKit modal dialog
 #: ../policy/org.freedesktop.fwupd.policy.in.h:7
 msgid "Authentication is required to downgrade the firmware on this machine"
-msgstr ""
-"Для встановлення застарілої версії мікропрограми на цей комп’ютер слід "
-"пройти розпізнавання"
+msgstr "Для встановлення застарілої версії мікропрограми на цей комп’ютер слід пройти розпізнавання"
 
 #: ../policy/org.freedesktop.fwupd.policy.in.h:8
 msgid "Install signed device firmware"
@@ -52,11 +47,8 @@ msgstr "Встановити підписану мікропрограму пр�
 
 #. TRANSLATORS: this is the PolicyKit modal dialog
 #: ../policy/org.freedesktop.fwupd.policy.in.h:10
-msgid ""
-"Authentication is required to update the firmware on a removable device"
-msgstr ""
-"Для оновлення мікропрограми на портативному пристрої слід пройти "
-"розпізнавання"
+msgid "Authentication is required to update the firmware on a removable device"
+msgstr "Для оновлення мікропрограми на портативному пристрої слід пройти розпізнавання"
 
 #: ../policy/org.freedesktop.fwupd.policy.in.h:11
 msgid "Install unsigned device firmware"
@@ -64,11 +56,8 @@ msgstr "Встановити непідписану мікропрограму �
 
 #. TRANSLATORS: this is the PolicyKit modal dialog
 #: ../policy/org.freedesktop.fwupd.policy.in.h:13
-msgid ""
-"Authentication is required to downgrade the firmware on a removable device"
-msgstr ""
-"Для встановлення застарілої версії мікропрограми на портативний пристрій "
-"слід пройти розпізнавання"
+msgid "Authentication is required to downgrade the firmware on a removable device"
+msgstr "Для встановлення застарілої версії мікропрограми на портативний пристрій слід пройти розпізнавання"
 
 #: ../policy/org.freedesktop.fwupd.policy.in.h:14
 msgid "Unlock the device to allow access"
@@ -85,11 +74,8 @@ msgstr "Оновлення збережених даних щодо верифі
 
 #. TRANSLATORS: this is the PolicyKit modal dialog
 #: ../policy/org.freedesktop.fwupd.policy.in.h:19
-msgid ""
-"Authentication is required to update the stored checksums for the device"
-msgstr ""
-"Щоб отримати доступ до оновлення збережених контрольних сум для пристрою, "
-"вам слід пройти розпізнавання"
+msgid "Authentication is required to update the stored checksums for the device"
+msgstr "Щоб отримати доступ до оновлення збережених контрольних сум для пристрою, вам слід пройти розпізнавання"
 
 #. TRANSLATORS: this is a command alias, e.g. 'get-devices'
 #: ../libdfu/dfu-tool.c:121 ../plugins/synapticsmst/synapticsmst-tool.c:115
@@ -438,8 +424,7 @@ msgstr "Невідомий"
 #. TRANSLATORS: nothing attached that can be upgraded
 #: ../src/fu-util.c:283
 msgid "No hardware detected with firmware update capability"
-msgstr ""
-"Не виявлено обладнання із передбаченою можливістю оновлення мікропрограми"
+msgstr "Не виявлено обладнання із передбаченою можливістю оновлення мікропрограми"
 
 #. TRANSLATOR: the plugin only supports offline
 #: ../src/fu-util.c:317
@@ -486,7 +471,7 @@ msgstr "%s має такі оновлення мікропрограми:"
 
 #: ../src/fu-util.c:884
 msgid "GUID"
-msgstr "GUID"
+msgstr ""
 
 #. TRANSLATORS: section header for firmware version
 #: ../src/fu-util.c:888
@@ -555,8 +540,7 @@ msgstr "Перевизначити попередження для додатк�
 #. TRANSLATORS: command description
 #: ../src/fu-util.c:1106
 msgid "Get all devices that support firmware updates"
-msgstr ""
-"Отримати список усіх пристроїв, у яких передбачено оновлення мікропрограми"
+msgstr "Отримати список усіх пристроїв, у яких передбачено оновлення мікропрограми"
 
 #. TRANSLATORS: command description
 #: ../src/fu-util.c:1112
@@ -622,3 +606,4 @@ msgstr "Стежити за подіями у фоновій службі"
 #: ../src/fu-util.c:1197
 msgid "Firmware Utility"
 msgstr "Засіб роботи з мікропрограмами"
+

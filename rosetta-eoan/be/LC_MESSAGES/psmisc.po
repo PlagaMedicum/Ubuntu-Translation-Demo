@@ -1,31 +1,29 @@
-# Belarusian translation for psmisc
-# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
-# This file is distributed under the same license as the psmisc package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: psmisc\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-09-24 20:02+1000\n"
-"PO-Revision-Date: 2010-04-13 00:28+0000\n"
-"Last-Translator: Alex Nehaichik <mail@l0gin.net>\n"
-"Language-Team: Belarusian <be@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:19\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 11:32+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/psmisc.po\n"
+"Language: be_BY\n"
 
 #: src/fuser.c:137
 #, c-format
-msgid ""
-"Usage: fuser [-fIMuvw] [-a|-s] [-4|-6] [-c|-m|-n SPACE]\n"
+msgid "Usage: fuser [-fIMuvw] [-a|-s] [-4|-6] [-c|-m|-n SPACE]\n"
 "             [-k [-i] [-SIGNAL]] NAME...\n"
 "       fuser -l\n"
 "       fuser -V\n"
-"Show which processes use the named files, sockets, or filesystems.\n"
-"\n"
+"Show which processes use the named files, sockets, or filesystems.\n\n"
 "  -a,--all              display unused files too\n"
 "  -i,--interactive      ask before killing (ignored without -k)\n"
 "  -I,--inode            use always inodes to compare files\n"
@@ -45,47 +43,35 @@ msgstr ""
 
 #: src/fuser.c:158
 #, c-format
-msgid ""
-"  -4,--ipv4             search IPv4 sockets only\n"
+msgid "  -4,--ipv4             search IPv4 sockets only\n"
 "  -6,--ipv6             search IPv6 sockets only\n"
-msgstr ""
-"  -4,--ipv4             шукаць толькі IPv4 сокеты\n"
+msgstr "  -4,--ipv4             шукаць толькі IPv4 сокеты\n"
 "  -6,--ipv6             шукаць толькі IPv6 сокеты\n"
 
 #: src/fuser.c:161
 #, c-format
-msgid ""
-"  -                     reset options\n"
-"\n"
-"  udp/tcp names: [local_port][,[rmt_host][,[rmt_port]]]\n"
-"\n"
+msgid "  -                     reset options\n\n"
+"  udp/tcp names: [local_port][,[rmt_host][,[rmt_port]]]\n\n"
 msgstr ""
 
 #: src/fuser.c:168
 #, c-format
 msgid "fuser (PSmisc) %s\n"
-msgstr "fuser (PSmisc) %s\n"
+msgstr ""
 
 #: src/fuser.c:171 src/killall.c:782 src/pstree.c:1134
 #, c-format
-msgid ""
-"Copyright (C) 1993-2017 Werner Almesberger and Craig Small\n"
-"\n"
+msgid "Copyright (C) 1993-2017 Werner Almesberger and Craig Small\n\n"
 msgstr ""
 
 #: src/fuser.c:173 src/killall.c:784 src/peekfd.c:124 src/prtstat.c:68
 #: src/pstree.c:1136
 #, c-format
-msgid ""
-"PSmisc comes with ABSOLUTELY NO WARRANTY.\n"
+msgid "PSmisc comes with ABSOLUTELY NO WARRANTY.\n"
 "This is free software, and you are welcome to redistribute it under\n"
 "the terms of the GNU General Public License.\n"
 "For more information about these matters, see the files named COPYING.\n"
 msgstr ""
-"PSmisc comes with ABSOLUTELY NO WARRANTY.\n"
-"This is free software, and you are welcome to redistribute it under\n"
-"the terms of the GNU General Public License.\n"
-"For more information about these matters, see the files named COPYING.\n"
 
 #: src/fuser.c:192
 #, c-format
@@ -153,8 +139,7 @@ msgid "all option cannot be used with silent option."
 msgstr ""
 
 #: src/fuser.c:1312
-msgid ""
-"You cannot search for only IPv4 and only IPv6 sockets at the same time"
+msgid "You cannot search for only IPv4 and only IPv6 sockets at the same time"
 msgstr ""
 
 #: src/fuser.c:1401
@@ -233,9 +218,7 @@ msgstr "%s: працэс ня знойдзены\n"
 
 #: src/killall.c:742
 #, c-format
-msgid ""
-"Usage: killall [ -Z CONTEXT ] [ -u USER ] [ -y TIME ] [ -o TIME ] [ -"
-"eIgiqrvw ]\n"
+msgid "Usage: killall [ -Z CONTEXT ] [ -u USER ] [ -y TIME ] [ -o TIME ] [ -eIgiqrvw ]\n"
 "               [ -s SIGNAL | -SIGNAL ] NAME...\n"
 msgstr ""
 
@@ -246,10 +229,8 @@ msgstr "Выкарыстанне: killall [OPTION]... [--] NAME...\n"
 
 #: src/killall.c:749
 #, c-format
-msgid ""
-"       killall -l, --list\n"
-"       killall -V, --version\n"
-"\n"
+msgid "       killall -l, --list\n"
+"       killall -V, --version\n\n"
 "  -e,--exact          require exact match for very long names\n"
 "  -I,--ignore-case    case insensitive process name match\n"
 "  -g,--process-group  kill process group instead of process\n"
@@ -270,8 +251,7 @@ msgstr ""
 
 #: src/killall.c:770
 #, c-format
-msgid ""
-"  -Z,--context REGEXP kill only process(es) having context\n"
+msgid "  -Z,--context REGEXP kill only process(es) having context\n"
 "                      (must precede other arguments)\n"
 msgstr ""
 
@@ -315,32 +295,25 @@ msgstr ""
 
 #: src/peekfd.c:122
 #, c-format
-msgid ""
-"Copyright (C) 2007 Trent Waddington\n"
-"\n"
+msgid "Copyright (C) 2007 Trent Waddington\n\n"
 msgstr ""
 
 #: src/peekfd.c:132
 #, c-format
-msgid ""
-"Usage: peekfd [-8] [-n] [-c] [-d] [-V] [-h] <pid> [<fd> ..]\n"
+msgid "Usage: peekfd [-8] [-n] [-c] [-d] [-V] [-h] <pid> [<fd> ..]\n"
 "    -8, --eight-bit-clean        output 8 bit clean streams.\n"
 "    -n, --no-headers             don't display read/write from fd headers.\n"
 "    -c, --follow                 peek at any new child processes too.\n"
-"    -t, --tgid                   peek at all threads where tgid equals "
-"<pid>.\n"
-"    -d, --duplicates-removed     remove duplicate read/writes from the "
-"output.\n"
+"    -t, --tgid                   peek at all threads where tgid equals <pid>.\n"
+"    -d, --duplicates-removed     remove duplicate read/writes from the output.\n"
 "    -V, --version                prints version info.\n"
-"    -h, --help                   prints this help.\n"
-"\n"
+"    -h, --help                   prints this help.\n\n"
 "  Press CTRL-C to end output.\n"
 msgstr ""
 
 #: src/prtstat.c:54
 #, c-format
-msgid ""
-"Usage: prtstat [options] PID ...\n"
+msgid "Usage: prtstat [options] PID ...\n"
 "       prtstat -V\n"
 "Print information about a process\n"
 "    -r,--raw       Raw display of information\n"
@@ -354,9 +327,7 @@ msgstr ""
 
 #: src/prtstat.c:66
 #, c-format
-msgid ""
-"Copyright (C) 2009-2017 Craig Small\n"
-"\n"
+msgid "Copyright (C) 2009-2017 Craig Small\n\n"
 msgstr ""
 
 #: src/prtstat.c:78
@@ -389,41 +360,35 @@ msgstr ""
 
 #: src/prtstat.c:164
 #, c-format
-msgid ""
-"Process: %-14s\t\tState: %c (%s)\n"
+msgid "Process: %-14s\t\tState: %c (%s)\n"
 "  CPU#:  %-3d\t\tTTY: %s\tThreads: %ld\n"
 msgstr ""
 
 #: src/prtstat.c:169
 #, c-format
-msgid ""
-"Process, Group and Session IDs\n"
+msgid "Process, Group and Session IDs\n"
 "  Process ID: %d\t\t  Parent ID: %d\n"
 "    Group ID: %d\t\t Session ID: %d\n"
-"  T Group ID: %d\n"
-"\n"
+"  T Group ID: %d\n\n"
 msgstr ""
 
 #: src/prtstat.c:175
 #, c-format
-msgid ""
-"Page Faults\n"
+msgid "Page Faults\n"
 "  This Process    (minor major): %8lu  %8lu\n"
 "  Child Processes (minor major): %8lu  %8lu\n"
 msgstr ""
 
 #: src/prtstat.c:180
 #, c-format
-msgid ""
-"CPU Times\n"
+msgid "CPU Times\n"
 "  This Process    (user system guest blkio): %6.2f %6.2f %6.2f %6.2f\n"
 "  Child processes (user system guest):       %6.2f %6.2f %6.2f\n"
 msgstr ""
 
 #: src/prtstat.c:189
 #, c-format
-msgid ""
-"Memory\n"
+msgid "Memory\n"
 "  Vsize:       %-10s\n"
 "  RSS:         %-10s \t\t RSS Limit: %s\n"
 "  Code Start:  %#-10lx\t\t Code Stop:  %#-10lx\n"
@@ -433,8 +398,7 @@ msgstr ""
 
 #: src/prtstat.c:199
 #, c-format
-msgid ""
-"Scheduling\n"
+msgid "Scheduling\n"
 "  Policy: %s\n"
 "  Nice:   %ld \t\t RT Priority: %ld %s\n"
 msgstr ""
@@ -483,13 +447,11 @@ msgstr "%s парожні (не прымантаваны ?)\n"
 
 #: src/pstree.c:1092
 #, c-format
-msgid ""
-"Usage: pstree [-acglpsStuZ] [ -h | -H PID ] [ -n | -N type ]\n"
+msgid "Usage: pstree [-acglpsStuZ] [ -h | -H PID ] [ -n | -N type ]\n"
 "Usage: pstree [-acglpsStu] [ -h | -H PID ] [ -n | -N type ]\n"
 "              [ -A | -G | -U ] [ PID | USER ]\n"
 "       pstree -V\n"
-"Display a tree of processes.\n"
-"\n"
+"Display a tree of processes.\n\n"
 "  -a, --arguments     show command line arguments\n"
 "  -A, --ascii         use ASCII line drawing characters\n"
 "  -c, --compact       don't compact identical subtrees\n"
@@ -515,17 +477,14 @@ msgstr ""
 
 #: src/pstree.c:1121
 #, c-format
-msgid ""
-"  -Z, --security-context\n"
+msgid "  -Z, --security-context\n"
 "                      show SELinux security contexts\n"
 msgstr ""
 
 #: src/pstree.c:1124
 #, c-format
-msgid ""
-"  PID    start at this PID; default is 1 (init)\n"
-"  USER   show only trees rooted at processes of this user\n"
-"\n"
+msgid "  PID    start at this PID; default is 1 (init)\n"
+"  USER   show only trees rooted at processes of this user\n\n"
 msgstr ""
 
 #: src/pstree.c:1131
@@ -567,3 +526,4 @@ msgstr ""
 #, c-format
 msgid "%s: unknown signal; %s -l lists signals.\n"
 msgstr ""
+

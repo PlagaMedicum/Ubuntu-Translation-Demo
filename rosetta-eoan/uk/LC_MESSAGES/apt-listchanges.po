@@ -1,21 +1,21 @@
-# Ukrainian translation for apt-listchanges
-# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
-# This file is distributed under the same license as the apt-listchanges package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: apt-listchanges\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-11-29 09:36+0100\n"
-"PO-Revision-Date: 2016-02-18 11:13+0000\n"
-"Last-Translator: svv <skrypnychuk@gmail.com>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:24\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 10:32+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/apt-listchanges.po\n"
+"Language: uk_UA\n"
 
 #: ../apt-listchanges.py:62
 #, python-format
@@ -75,12 +75,8 @@ msgstr "%(pkg)s: Версія %(version)s вже була відображена
 
 #: ../apt-listchanges.py:199
 #, python-format
-msgid ""
-"%(pkg)s: Version %(version)s is lower than version of related packages "
-"(%(maxversion)s)"
-msgstr ""
-"%(pkg)s: Версія %(version)s є нижчою від від версії пов'язаних пакунків "
-"(%(maxversion)s)"
+msgid "%(pkg)s: Version %(version)s is lower than version of related packages (%(maxversion)s)"
+msgstr "%(pkg)s: Версія %(version)s є нижчою від від версії пов'язаних пакунків (%(maxversion)s)"
 
 #: ../apt-listchanges.py:271
 #, python-format
@@ -109,15 +105,12 @@ msgstr "Невдале надсилання до  %(address)s: %(errmsg)s"
 #: ../apt-listchanges/apt_listchanges.py:91
 #, python-format
 msgid "The mail frontend needs an installed 'sendmail', using %s"
-msgstr ""
-"Для поштової оболонки необхідне встановлення 'sendmail', використовуючи %s"
+msgstr "Для поштової оболонки необхідне встановлення 'sendmail', використовуючи %s"
 
 #: ../apt-listchanges/apt_listchanges.py:97
 #, python-format
 msgid "The mail frontend needs an e-mail address to be configured, using %s"
-msgstr ""
-"Для налаштування, поштовій оболонці потрібна адреса електронної пошти, "
-"використовуючи %s"
+msgstr "Для налаштування, поштовій оболонці потрібна адреса електронної пошти, використовуючи %s"
 
 #: ../apt-listchanges/apt_listchanges.py:110
 msgid "Available apt-listchanges frontends:"
@@ -145,12 +138,10 @@ msgstr "$DISPLAY не встановлено, повернення до %(fronte
 
 #: ../apt-listchanges/apt_listchanges.py:186
 #, python-format
-msgid ""
-"The gtk frontend needs a working python3-gi,\n"
+msgid "The gtk frontend needs a working python3-gi,\n"
 "but it cannot be loaded. Falling back to %(frontend)s.\n"
 "The error is: %(errmsg)s"
-msgstr ""
-"Оболонка gtk потребує працюючого python3-gi,\n"
+msgstr "Оболонка gtk потребує працюючого python3-gi,\n"
 "але не може бути завантаженим. Повернення до %(frontend)s.\n"
 "Помилка: %(errmsg)s"
 
@@ -185,13 +176,11 @@ msgstr "Помилка отримання користувача із змінн
 
 #: ../apt-listchanges/apt_listchanges.py:449
 msgid "Cannot find suitable user to drop root privileges"
-msgstr ""
-"Не вдається знайти необхідного користувача щоб вимкнути права адміністратора"
+msgstr "Не вдається знайти необхідного користувача щоб вимкнути права адміністратора"
 
 #: ../apt-listchanges/apt_listchanges.py:475
 #, python-format
-msgid ""
-"None of the following directories is accessible by user %(user)s: %(dirs)s"
+msgid "None of the following directories is accessible by user %(user)s: %(dirs)s"
 msgstr "Жоден із цих каталогів не доступний користувачеві %(user)s: %(dirs)s"
 
 #: ../apt-listchanges/apt_listchanges.py:505
@@ -205,15 +194,12 @@ msgstr "Невідомий параметр конфігураційного ф�
 
 #: ../apt-listchanges/ALCConfig.py:102
 msgid "Usage: apt-listchanges [options] {--apt | filename.deb ...}\n"
-msgstr ""
-"Використання: apt-listchanges [параметри] {--apt | ім’я_файлу.deb ...}\n"
+msgstr "Використання: apt-listchanges [параметри] {--apt | ім’я_файлу.deb ...}\n"
 
 #: ../apt-listchanges/ALCConfig.py:108
 #, python-format
-msgid ""
-"Unknown argument %(arg)s for option %(opt)s.  Allowed are: %(allowed)s."
-msgstr ""
-"Невідомий аргумент %(arg)s для параметру %(opt)s. Дозволеними є: %(allowed)s."
+msgid "Unknown argument %(arg)s for option %(opt)s.  Allowed are: %(allowed)s."
+msgstr "Невідомий аргумент %(arg)s для параметру %(opt)s. Дозволеними є: %(allowed)s."
 
 #: ../apt-listchanges/ALCConfig.py:120
 #, python-format
@@ -236,8 +222,7 @@ msgstr "--починаючи з=<version> та --show-all є взаємовик�
 
 #: ../apt-listchanges/ALCConfig.py:225
 msgid "--since=<version> expects a path to exactly one .deb archive"
-msgstr ""
-"--починаючи з=<version> очікується посилання до лише одного архіву .deb"
+msgstr "--починаючи з=<version> очікується посилання до лише одного архіву .deb"
 
 #: ../apt-listchanges/DebianFiles.py:118 ../apt-listchanges/DebianFiles.py:127
 #, python-format
@@ -251,21 +236,13 @@ msgstr "Виклик %(cmd)s для отримання журналу змін"
 
 #: ../apt-listchanges/DebianFiles.py:277
 #, python-format
-msgid ""
-"Unable to retrieve changelog for package %(pkg)s; 'apt-get changelog' failed "
-"with: %(errmsg)s"
-msgstr ""
-"Неможливо отримати журнал змін для пакунку %(pkg)s; 'apt-get changelog' не "
-"вдалося через: %(errmsg)s"
+msgid "Unable to retrieve changelog for package %(pkg)s; 'apt-get changelog' failed with: %(errmsg)s"
+msgstr "Неможливо отримати журнал змін для пакунку %(pkg)s; 'apt-get changelog' не вдалося через: %(errmsg)s"
 
 #: ../apt-listchanges/DebianFiles.py:283
 #, python-format
-msgid ""
-"Unable to retrieve changelog for package %(pkg)s; could not run 'apt-get "
-"changelog': %(errmsg)s"
-msgstr ""
-"неможливо отримати журнал змін для пакунку %(pkg)s; не можу запустити 'apt-"
-"get changelog': %(errmsg)s"
+msgid "Unable to retrieve changelog for package %(pkg)s; could not run 'apt-get changelog': %(errmsg)s"
+msgstr "неможливо отримати журнал змін для пакунку %(pkg)s; не можу запустити 'apt-get changelog': %(errmsg)s"
 
 #: ../apt-listchanges/DebianFiles.py:322
 #, python-format
@@ -297,11 +274,9 @@ msgid "Packages list:"
 msgstr "Перелік пакунків:"
 
 #: ../apt-listchanges/ALCApt.py:74
-msgid ""
-"APT_HOOK_INFO_FD environment variable is not defined\n"
+msgid "APT_HOOK_INFO_FD environment variable is not defined\n"
 "(is Dpkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD set to 20?)"
-msgstr ""
-"APT_HOOK_INFO_FD змінна оточення не визначена\n"
+msgstr "APT_HOOK_INFO_FD змінна оточення не визначена\n"
 "(це Dpkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD встановити до 20?)"
 
 #: ../apt-listchanges/ALCApt.py:80
@@ -314,28 +289,18 @@ msgid "Will read apt pipeline messages from file descriptor %d"
 msgstr "Буде прочитано  повідомлення лінії apt з дескриптора %d"
 
 #: ../apt-listchanges/ALCApt.py:86
-msgid ""
-"Incorrect value (0) of APT_HOOK_INFO_FD environment variable.\n"
-"If the warning persists after restart of the package manager (e.g. "
-"aptitude),\n"
-"please check if the /etc/apt/apt.conf.d/20listchanges file was properly "
-"updated."
-msgstr ""
-"Невірне значення (0) з APT_HOOK_INFO_FD змінної оточення.\n"
-"Якщо попередження зберігається після перезапуску менеджера пакетів "
-"(наприклад, aptitude),\n"
-"будь-ласка, перевірте чи файл /etc/apt/apt.conf.d/20listchanges був "
-"правильно оновлений."
+msgid "Incorrect value (0) of APT_HOOK_INFO_FD environment variable.\n"
+"If the warning persists after restart of the package manager (e.g. aptitude),\n"
+"please check if the /etc/apt/apt.conf.d/20listchanges file was properly updated."
+msgstr "Невірне значення (0) з APT_HOOK_INFO_FD змінної оточення.\n"
+"Якщо попередження зберігається після перезапуску менеджера пакетів (наприклад, aptitude),\n"
+"будь-ласка, перевірте чи файл /etc/apt/apt.conf.d/20listchanges був правильно оновлений."
 
 #: ../apt-listchanges/ALCApt.py:91
-msgid ""
-"APT_HOOK_INFO_FD environment variable is incorrectly defined\n"
-"(Dpkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD should be greater "
-"than 2)."
-msgstr ""
-"APT_HOOK_INFO_FD змінна оточення не правильно визначена\n"
-"(Dpkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD повинна бути більшою "
-"за 2)."
+msgid "APT_HOOK_INFO_FD environment variable is incorrectly defined\n"
+"(Dpkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD should be greater than 2)."
+msgstr "APT_HOOK_INFO_FD змінна оточення не правильно визначена\n"
+"(Dpkg::Tools::Options::/usr/bin/apt-listchanges::InfoFD повинна бути більшою за 2)."
 
 #: ../apt-listchanges/ALCApt.py:97
 #, python-format
@@ -343,11 +308,9 @@ msgid "Cannot read from file descriptor %(fd)d: %(errmsg)s"
 msgstr "Не можу прочитати з файлу дескриптора %(fd)d: %(errmsg)s"
 
 #: ../apt-listchanges/ALCApt.py:103
-msgid ""
-"Wrong or missing VERSION from apt pipeline\n"
+msgid "Wrong or missing VERSION from apt pipeline\n"
 "(is Dpkg::Tools::Options::/usr/bin/apt-listchanges::Version set to 2?)"
-msgstr ""
-"Невірна або відсутня ВЕРСІЯ з лінії apt\n"
+msgstr "Невірна або відсутня ВЕРСІЯ з лінії apt\n"
 "(це Dpkg::Tools::Options::/usr/bin/apt-listchanges::Version встановити до 2?)"
 
 #: ../apt-listchanges/ALCLog.py:30 ../apt-listchanges/ALCLog.py:36
@@ -361,12 +324,10 @@ msgid "apt-listchanges warning: %(msg)s"
 msgstr "Попередження apt-listchanges: %(msg)s"
 
 #: ../apt-listchanges/ALCSeenDb.py:56
-msgid ""
-"Path to the seen database is unknown.\n"
+msgid "Path to the seen database is unknown.\n"
 "Please either specify it with --save-seen option\n"
 "or pass --profile=apt to have it read from the configuration file."
-msgstr ""
-"Шлях до видимої бази даних невідомий.\n"
+msgstr "Шлях до видимої бази даних невідомий.\n"
 "Будь-ласка, вкажіть його за допомогою параметру --save-seen\n"
 "або pass --profile=apt для його читання з конфігураційного файлу."
 
@@ -385,6 +346,6 @@ msgid "List the changes"
 msgstr "Перелік змін"
 
 #: ../apt-listchanges/apt-listchanges.ui:43
-msgid ""
-"The following changes are found in the packages you are about to install:"
+msgid "The following changes are found in the packages you are about to install:"
 msgstr "У пакунках які ви збираєтесь встановити місяться такі зміни:"
+

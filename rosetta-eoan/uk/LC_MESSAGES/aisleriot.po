@@ -1,27 +1,30 @@
-# Ukranian translation of the gnome-games module.
-# Copyright (C) 1999,2000 Free Software Foundation, Inc.
-# Yuri Syrota <rasta@renome.rovno.ua>, 1999-2000.
-# Maxim Dziumanenko <dziumanenko@gmail.com>, 2004-2010
-# Wanderlust <wanderlust@ukr.net>, 2009.
-# Daniel Korostil <ted.korostiled@gmail.com>, 2014, 2015, 2016.
+# English (British) translation.
+# Copyright (C) 2007 gnome-games COPYRIGHT HOLDER
+# This file is distributed under the same licence as the gnome-games package.
+# Abigail Brady <morwen@evilmagic.org>, Bastien Nocera <hadess@hadess.net>, 2007.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2009, 2010, 2011, 2012.
+# Philip Withnall <philip@tecnocode.co.uk>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-games\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=aisleriot&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2019-03-12 09:58+0000\n"
-"PO-Revision-Date: 2018-01-26 00:32+0000\n"
-"Last-Translator: Daniel Korostil <Unknown>\n"
-"Language-Team: linux.org.ua\n"
+"PO-Revision-Date: 2019-07-08 17:24\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 13:09+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
 "X-Project-Style: gnome\n"
-"Language: uk\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/aisleriot.po\n"
 
 #: ../data/sol.appdata.xml.in.h:1
-#| msgid "AisleRiot Solitaire"
 msgid "Aisleriot Solitaire"
 msgstr "Пасьянс Айслеріот"
 
@@ -30,13 +33,8 @@ msgid "Play many different solitaire games"
 msgstr "Дозволяє грати у багато різних пасьянсів"
 
 #: ../data/sol.appdata.xml.in.h:3
-msgid ""
-"Aisleriot — also known as sol or solitaire — is a card game application that "
-"features over 80 different solitaire-type card games which are designed to "
-"play using a mouse, keyboard, or trackpad."
-msgstr ""
-"Айслеріот — також відомий як пасьянс — програма з понад 80 карткових ігор на "
-"кшталт пасьянсу, які створено для гри мишею, клавіатурою та тягучою панеллю."
+msgid "Aisleriot — also known as sol or solitaire — is a card game application that features over 80 different solitaire-type card games which are designed to play using a mouse, keyboard, or trackpad."
+msgstr "Айслеріот — також відомий як пасьянс — програма з понад 80 карткових ігор на кшталт пасьянсу, які створено для гри мишею, клавіатурою та тягучою панеллю."
 
 #: ../data/sol.desktop.in.in.h:1
 msgid "AisleRiot Solitaire"
@@ -67,12 +65,8 @@ msgid "Select the style of control"
 msgstr "Вибір стилю керування"
 
 #: ../src/aisleriot.schemas.in.h:6
-msgid ""
-"Select whether to drag the cards or to click on the source then the "
-"destination."
-msgstr ""
-"Чи перетягувати карти мишею, або вказувати місце, звідки карта береться та "
-"куди кладеться."
+msgid "Select whether to drag the cards or to click on the source then the destination."
+msgstr "Чи перетягувати карти мишею, або вказувати місце, звідки карта береться та куди кладеться."
 
 #: ../src/aisleriot.schemas.in.h:7
 msgid "Sound"
@@ -103,14 +97,8 @@ msgid "Statistics of games played"
 msgstr "Статистика минулих ігор"
 
 #: ../src/aisleriot.schemas.in.h:14
-msgid ""
-"A list of strings that come in the form of a quintuple: name, wins, total "
-"games played, best time (in seconds) and worst time (also in seconds). "
-"Unplayed games do not need to be represented."
-msgstr ""
-"Список рядків для форми п'ятірки: ім'я, перемог, всього ігор, найліпший час "
-"(в секундах) і найгірший час (також в секундах). Ігри, в які не гралося, не "
-"потрібно представляти."
+msgid "A list of strings that come in the form of a quintuple: name, wins, total games played, best time (in seconds) and worst time (also in seconds). Unplayed games do not need to be represented."
+msgstr "Список рядків для форми п'ятірки: ім'я, перемог, всього ігор, найліпший час (в секундах) і найгірший час (також в секундах). Ігри, в які не гралося, не потрібно представляти."
 
 #: ../src/aisleriot.schemas.in.h:15
 msgid "Recently played games"
@@ -184,37 +172,17 @@ msgstr "_Призупинити"
 #. %s is replaced with the name of the game in gnome-games.
 #: ../src/ar-stock.c:267
 #, c-format
-msgid ""
-"%s is free software; you can redistribute it and/or modify it under the "
-"terms of the GNU General Public License as published by the Free Software "
-"Foundation; either version %d of the License, or (at your option) any later "
-"version."
-msgstr ""
-"%s ― вільне програмне забезпечення. Ви можете його розповсюджувати чи "
-"змінювати на умовах ліцензії GNU General Public License, що оголошена Free "
-"Software Foundation; або версії %d ліцензії, або (на ваш розсуд) будь-якій "
-"більш пізній версії."
+msgid "%s is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version %d of the License, or (at your option) any later version."
+msgstr "%s ― вільне програмне забезпечення. Ви можете його розповсюджувати чи змінювати на умовах ліцензії GNU General Public License, що оголошена Free Software Foundation; або версії %d ліцензії, або (на ваш розсуд) будь-якій більш пізній версії."
 
 #: ../src/ar-stock.c:272
 #, c-format
-msgid ""
-"%s is distributed in the hope that it will be useful, but WITHOUT ANY "
-"WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS "
-"FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more "
-"details."
-msgstr ""
-"%s розповсюджується зі сподіванням, що програма буде корисною, але БЕЗ БУДЬ-"
-"ЯКИХ ГАРАНТІЙ; не гарантується навіть ПРИДАТНІСТЬ чи ВІДПОВІДНІСТЬ ПЕВНІЙ "
-"МЕТІ. Для отримання додаткової інформації ознайомтесь з GNU General Public "
-"License."
+msgid "%s is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details."
+msgstr "%s розповсюджується зі сподіванням, що програма буде корисною, але БЕЗ БУДЬ-ЯКИХ ГАРАНТІЙ; не гарантується навіть ПРИДАТНІСТЬ чи ВІДПОВІДНІСТЬ ПЕВНІЙ МЕТІ. Для отримання додаткової інформації ознайомтесь з GNU General Public License."
 
 #: ../src/ar-stock.c:277
-msgid ""
-"You should have received a copy of the GNU General Public License along with "
-"this program.  If not, see <http://www.gnu.org/licenses/>."
-msgstr ""
-"Ви мали отримати копію GNU General Public License разом з %s. Якщо цього не "
-"сталося, дивіться <http://www.gnu.org/licenses/>."
+msgid "You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>."
+msgstr "Ви мали отримати копію GNU General Public License разом з %s. Якщо цього не сталося, дивіться <http://www.gnu.org/licenses/>."
 
 #. Translators: this is the name of a type of card slot
 #: ../src/game.c:1390
@@ -255,8 +223,6 @@ msgstr "відбій"
 #. Translators: %s is the name of the card; "chooser" is the name of a type of card slot
 #: ../src/game.c:1442
 #, c-format
-#| msgctxt "slot hint"
-#| msgid "%s on reserve"
 msgctxt "slot hint"
 msgid "%s on chooser"
 msgstr "%s у виборі"
@@ -1213,55 +1179,55 @@ msgstr "ДЖОКЕР"
 #: ../src/lib/ar-card.c:239 ../src/lib/ar-card.c:263
 msgctxt "card symbol"
 msgid "A"
-msgstr "A"
+msgstr ""
 
 #. Translators: this is the symbol that's on a 2 card
 #: ../src/lib/ar-card.c:241
 msgctxt "card symbol"
 msgid "2"
-msgstr "2"
+msgstr ""
 
 #. Translators: this is the symbol that's on a 3 card
 #: ../src/lib/ar-card.c:243
 msgctxt "card symbol"
 msgid "3"
-msgstr "3"
+msgstr ""
 
 #. Translators: this is the symbol that's on a 4 card
 #: ../src/lib/ar-card.c:245
 msgctxt "card symbol"
 msgid "4"
-msgstr "4"
+msgstr ""
 
 #. Translators: this is the symbol that's on a 5 card
 #: ../src/lib/ar-card.c:247
 msgctxt "card symbol"
 msgid "5"
-msgstr "5"
+msgstr ""
 
 #. Translators: this is the symbol that's on a 6 card
 #: ../src/lib/ar-card.c:249
 msgctxt "card symbol"
 msgid "6"
-msgstr "6"
+msgstr ""
 
 #. Translators: this is the symbol that's on a 7 card
 #: ../src/lib/ar-card.c:251
 msgctxt "card symbol"
 msgid "7"
-msgstr "7"
+msgstr ""
 
 #. Translators: this is the symbol that's on a 8 card
 #: ../src/lib/ar-card.c:253
 msgctxt "card symbol"
 msgid "8"
-msgstr "8"
+msgstr ""
 
 #. Translators: this is the symbol that's on a 9 card
 #: ../src/lib/ar-card.c:255
 msgctxt "card symbol"
 msgid "9"
-msgstr "9"
+msgstr ""
 
 #. Translators: this is the symbol that's on a Jack card
 #: ../src/lib/ar-card.c:257
@@ -1285,7 +1251,7 @@ msgstr "Кл"
 #: ../src/lib/ar-card.c:265
 msgctxt "card symbol"
 msgid "1"
-msgstr "1"
+msgstr ""
 
 #: ../src/lib/ar-card.c:299
 msgid "ace of clubs"
@@ -1614,7 +1580,7 @@ msgstr "Статистика"
 #: ../src/stats-dialog.c:217 ../src/stats-dialog.c:223
 #, c-format
 msgid "%d"
-msgstr "%d"
+msgstr ""
 
 #. Translators: Translate the "%d" in this string this to "%Id" if you
 #. * want to use localised digits, and to "%d" otherwise.
@@ -1626,7 +1592,7 @@ msgstr "%d"
 #: ../src/stats-dialog.c:234
 #, c-format
 msgid "%d%%"
-msgstr "%d%%"
+msgstr ""
 
 #. For translators: N/A means "Not Applicable", use whatever
 #. * abbreviation you have for a value that has no meaning.
@@ -1639,7 +1605,7 @@ msgstr "Н/Д"
 #: ../src/stats-dialog.c:244 ../src/stats-dialog.c:252
 #, c-format
 msgid "%d:%02d"
-msgstr "%d:%02d"
+msgstr ""
 
 #: ../src/window.c:198
 msgid "Congratulations, you have won!"
@@ -1666,21 +1632,15 @@ msgid "About AisleRiot"
 msgstr "Про Айслеріот"
 
 #: ../src/window.c:401
-msgid ""
-"AisleRiot provides a rule-based solitaire card engine that allows many "
-"different games to be played."
-msgstr ""
-"Айслеріот є механізмом пасьянсів, з гнучкою системою визначення нових правил "
-"гри,  що дозволяє реалізувати велику кількість різних ігор."
+msgid "AisleRiot provides a rule-based solitaire card engine that allows many different games to be played."
+msgstr "Айслеріот є механізмом пасьянсів, з гнучкою системою визначення нових правил гри,  що дозволяє реалізувати велику кількість різних ігор."
 
 #: ../src/window.c:410
 msgid "translator-credits"
-msgstr ""
-"Юрій Сирота\n"
+msgstr "Юрій Сирота\n"
 "Максим Дзюманенко <dziumanenko@gmail.com>\n"
 "Wanderlust <wanderlust@ukr.net>\n"
-"Daniel Korostil <ted.korostiled@gmail.com>\n"
-"\n"
+"Daniel Korostil <ted.korostiled@gmail.com>\n\n"
 "Launchpad Contributions:\n"
 "  Daniel Korostil https://launchpad.net/~ted-korostiled\n"
 "  Dima Alexeenko https://launchpad.net/~droll\n"
@@ -1862,14 +1822,8 @@ msgid "Aisleriot cannot find the last game you played."
 msgstr "Не вдалось знайти останню зіграну гру."
 
 #: ../src/window.c:2316
-msgid ""
-"This usually occurs when you run an older version of Aisleriot which does "
-"not have the game you last played. The default game, Klondike, is being "
-"started instead."
-msgstr ""
-"Зазвичай це відбувається, якщо запущено більш стару версію програми "
-"Айслеріот, у якій гра ще не підтримувалась. Замість цього буде запущено "
-"типову гру - Клондайк."
+msgid "This usually occurs when you run an older version of Aisleriot which does not have the game you last played. The default game, Klondike, is being started instead."
+msgstr "Зазвичай це відбувається, якщо запущено більш стару версію програми Айслеріот, у якій гра ще не підтримувалась. Замість цього буде запущено типову гру - Клондайк."
 
 #: ../games/agnes.scm:72 ../games/terrace.scm:139
 #, scheme-format
@@ -2511,57 +2465,46 @@ msgid "Move ~a onto the king of diamonds."
 msgstr "Покласти ~a на короля дзвінкового."
 
 #: ../games/api.scm:572
-#| msgid "the black joker"
 msgid "Remove the black joker."
 msgstr "Вилучити чорного джокера."
 
 #: ../games/api.scm:572
-#| msgid "the red joker"
 msgid "Remove the red joker."
 msgstr "Вилучити червоного джокера."
 
 #: ../games/api.scm:574
-#| msgid "Remove the ten of clubs."
 msgid "Remove the ace of clubs."
 msgstr "Вилучити туз жировий."
 
 #: ../games/api.scm:575
-#| msgid "Remove the ten of clubs."
 msgid "Remove the two of clubs."
 msgstr "Вилучити двійку жирову."
 
 #: ../games/api.scm:576
-#| msgid "Remove the ten of clubs."
 msgid "Remove the three of clubs."
 msgstr "Вилучити трійку жирову."
 
 #: ../games/api.scm:577
-#| msgid "Remove the ten of clubs."
 msgid "Remove the four of clubs."
 msgstr "Вилучити четвірку жирову."
 
 #: ../games/api.scm:578
-#| msgid "Remove the ten of clubs."
 msgid "Remove the five of clubs."
 msgstr "Вилучити п'ятірку жирову."
 
 #: ../games/api.scm:579
-#| msgid "Remove the king of clubs."
 msgid "Remove the six of clubs."
 msgstr "Вилучити шістку жирову."
 
 #: ../games/api.scm:580
-#| msgid "Remove the ten of clubs."
 msgid "Remove the seven of clubs."
 msgstr "Вилучити сімку жирову."
 
 #: ../games/api.scm:581
-#| msgid "Remove the king of clubs."
 msgid "Remove the eight of clubs."
 msgstr "Вилучити вісімку жирову."
 
 #: ../games/api.scm:582
-#| msgid "Remove the king of clubs."
 msgid "Remove the nine of clubs."
 msgstr "Вилучити дев'ятку жирову."
 
@@ -2570,12 +2513,10 @@ msgid "Remove the ten of clubs."
 msgstr "Вилучити десятку жирову."
 
 #: ../games/api.scm:584
-#| msgid "Remove the king of clubs."
 msgid "Remove the jack of clubs."
 msgstr "Вилучити нижник жировий."
 
 #: ../games/api.scm:585
-#| msgid "Remove the ten of clubs."
 msgid "Remove the queen of clubs."
 msgstr "Вилучити кралю жирову."
 
@@ -2586,52 +2527,42 @@ msgstr "Вилучити короля жирового."
 
 #: ../games/api.scm:587 ../games/api.scm:602 ../games/api.scm:617
 #: ../games/api.scm:632 ../games/api.scm:633
-#| msgid "the unknown card"
 msgid "Remove the unknown card."
 msgstr "Вилучити невідому карту."
 
 #: ../games/api.scm:589
-#| msgid "Remove the ten of spades."
 msgid "Remove the ace of spades."
 msgstr "Вилучити туз виновий."
 
 #: ../games/api.scm:590
-#| msgid "Remove the ten of spades."
 msgid "Remove the two of spades."
 msgstr "Вилучити двійку винову."
 
 #: ../games/api.scm:591
-#| msgid "Remove the ten of spades."
 msgid "Remove the three of spades."
 msgstr "Вилучити трійку винову."
 
 #: ../games/api.scm:592
-#| msgid "Remove the ten of spades."
 msgid "Remove the four of spades."
 msgstr "Вилучити четвірку винову."
 
 #: ../games/api.scm:593
-#| msgid "Remove the ten of spades."
 msgid "Remove the five of spades."
 msgstr "Вилучити п'ятірку винову."
 
 #: ../games/api.scm:594
-#| msgid "Remove the king of spades."
 msgid "Remove the six of spades."
 msgstr "Вилучити шістку винову."
 
 #: ../games/api.scm:595
-#| msgid "Remove the ten of spades."
 msgid "Remove the seven of spades."
 msgstr "Вилучити сімку винову."
 
 #: ../games/api.scm:596
-#| msgid "Remove the king of spades."
 msgid "Remove the eight of spades."
 msgstr "Вилучити вісімку винову."
 
 #: ../games/api.scm:597
-#| msgid "Remove the king of spades."
 msgid "Remove the nine of spades."
 msgstr "Вилучити дев'ятку винову."
 
@@ -2640,12 +2571,10 @@ msgid "Remove the ten of spades."
 msgstr "Приберіть десятку вино."
 
 #: ../games/api.scm:599
-#| msgid "Remove the king of spades."
 msgid "Remove the jack of spades."
 msgstr "Вилучити нижника винового."
 
 #: ../games/api.scm:600
-#| msgid "Remove the ten of spades."
 msgid "Remove the queen of spades."
 msgstr "Вилучити кралю винову."
 
@@ -2655,47 +2584,38 @@ msgid "Remove the king of spades."
 msgstr "Приберіть короля винового."
 
 #: ../games/api.scm:604
-#| msgid "Remove the ten of hearts."
 msgid "Remove the ace of hearts."
 msgstr "Вилучити туз чирвовий."
 
 #: ../games/api.scm:605
-#| msgid "Remove the ten of hearts."
 msgid "Remove the two of hearts."
 msgstr "Вилучити двійку чирвову."
 
 #: ../games/api.scm:606
-#| msgid "Remove the ten of hearts."
 msgid "Remove the three of hearts."
 msgstr "Вилучити трійку чирвову."
 
 #: ../games/api.scm:607
-#| msgid "Remove the ten of hearts."
 msgid "Remove the four of hearts."
 msgstr "Вилучити четвірку чирвову."
 
 #: ../games/api.scm:608
-#| msgid "Remove the ten of hearts."
 msgid "Remove the five of hearts."
 msgstr "Вилучити п'ятірку чирвову."
 
 #: ../games/api.scm:609
-#| msgid "Remove the king of hearts."
 msgid "Remove the six of hearts."
 msgstr "Вилучити шістку чирвову."
 
 #: ../games/api.scm:610
-#| msgid "Remove the ten of hearts."
 msgid "Remove the seven of hearts."
 msgstr "Вилучити сімку чирвову."
 
 #: ../games/api.scm:611
-#| msgid "Remove the king of hearts."
 msgid "Remove the eight of hearts."
 msgstr "Вилучити вісімку чирвову."
 
 #: ../games/api.scm:612
-#| msgid "Remove the king of hearts."
 msgid "Remove the nine of hearts."
 msgstr "Вилучити дев'ятку чирвову."
 
@@ -2704,12 +2624,10 @@ msgid "Remove the ten of hearts."
 msgstr "Вилучити десятку чирвову."
 
 #: ../games/api.scm:614
-#| msgid "Remove the king of hearts."
 msgid "Remove the jack of hearts."
 msgstr "Вилучити нижника чирвового."
 
 #: ../games/api.scm:615
-#| msgid "Remove the ten of hearts."
 msgid "Remove the queen of hearts."
 msgstr "Вилучити кралю чирвову."
 
@@ -2719,47 +2637,38 @@ msgid "Remove the king of hearts."
 msgstr "Вилучити короля чирвового."
 
 #: ../games/api.scm:619
-#| msgid "Remove the ten of diamonds."
 msgid "Remove the ace of diamonds."
 msgstr "Вилучити туз дзвінковий."
 
 #: ../games/api.scm:620
-#| msgid "Remove the ten of diamonds."
 msgid "Remove the two of diamonds."
 msgstr "Вилучити двійку дзвінкову."
 
 #: ../games/api.scm:621
-#| msgid "Remove the ten of diamonds."
 msgid "Remove the three of diamonds."
 msgstr "Вилучити трійку дзвінкову."
 
 #: ../games/api.scm:622
-#| msgid "Remove the ten of diamonds."
 msgid "Remove the four of diamonds."
 msgstr "Вилучити четвірку дзвінкову."
 
 #: ../games/api.scm:623
-#| msgid "Remove the ten of diamonds."
 msgid "Remove the five of diamonds."
 msgstr "Вилучити п'ятірку дзвінкову."
 
 #: ../games/api.scm:624
-#| msgid "Remove the king of diamonds."
 msgid "Remove the six of diamonds."
 msgstr "Вилучити шістку дзвінкову."
 
 #: ../games/api.scm:625
-#| msgid "Remove the ten of diamonds."
 msgid "Remove the seven of diamonds."
 msgstr "Вилучити сімку дзвінкову."
 
 #: ../games/api.scm:626
-#| msgid "Remove the king of diamonds."
 msgid "Remove the eight of diamonds."
 msgstr "Вилучити вісімку дзвінкову."
 
 #: ../games/api.scm:627
-#| msgid "Remove the king of diamonds."
 msgid "Remove the nine of diamonds."
 msgstr "Вилучити дев'ятку дзвінкову."
 
@@ -2768,12 +2677,10 @@ msgid "Remove the ten of diamonds."
 msgstr "Вилучити десятку дзвінкову."
 
 #: ../games/api.scm:629
-#| msgid "Remove the king of diamonds."
 msgid "Remove the jack of diamonds."
 msgstr "Вилучити нижника дзвінкового."
 
 #: ../games/api.scm:630
-#| msgid "Remove the ten of diamonds."
 msgid "Remove the queen of diamonds."
 msgstr "Вилучити кралю дзвінкову."
 
@@ -2843,11 +2750,8 @@ msgstr "Покладіть будь-що в порожнє гніздо на с�
 
 #. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
 #: ../games/clock.scm:173
-msgid ""
-"Just because a crosswalk looks like a hopscotch board doesn't mean it is one"
-msgstr ""
-"Те що зебра переходу схожа на розмітку для гри в \"Класи\", не робить її "
-"такою"
+msgid "Just because a crosswalk looks like a hopscotch board doesn't mean it is one"
+msgstr "Те що зебра переходу схожа на розмітку для гри в \"Класи\", не робить її такою"
 
 #. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
 #: ../games/clock.scm:175
@@ -2867,8 +2771,7 @@ msgstr "Одеса -- найліпша гра. Справді."
 #. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
 #: ../games/clock.scm:181
 msgid "Tourniquets are not recommended unless in the direst emergency"
-msgstr ""
-"Користуватись турнікетами, за винятком крайньої потреби, не рекомендується"
+msgstr "Користуватись турнікетами, за винятком крайньої потреби, не рекомендується"
 
 #. Translators: This is one of the sentences that are used when the user wants to get a hint. Since the 'clock' game is a joke in itself, the sentence it nonsensical and/or a joke. So you can substitute anything you like here; you don't have to translate the original sentence!
 #: ../games/clock.scm:183
@@ -3469,7 +3372,6 @@ msgid "No redeals"
 msgstr "Без повторної здачі"
 
 #: ../games/klondike.scm:296
-#| msgid "Unlimited"
 msgid "Unlimited redeals"
 msgstr "Необмежено роздач"
 
@@ -3478,11 +3380,8 @@ msgid "Base Card:"
 msgstr "Основна карта:"
 
 #: ../games/maze.scm:147
-msgid ""
-"Aim to place the suits in the order which fits the current layout most "
-"naturally."
-msgstr ""
-"Метою гри є розташування мастей в порядку, що відповідає  поточному розкладу."
+msgid "Aim to place the suits in the order which fits the current layout most naturally."
+msgstr "Метою гри є розташування мастей в порядку, що відповідає  поточному розкладу."
 
 #: ../games/napoleons-tomb.scm:357
 msgid "Autoplay"
@@ -3527,9 +3426,7 @@ msgstr "Покласти відбій у резерв"
 
 #: ../games/spider.scm:184 ../games/spider.scm:300
 msgid "Undo until there are enough cards to fill all tableau piles"
-msgstr ""
-"Повертати назад, поки не буде достатньо карт, щоб заповнити всі стовпці "
-"таблиці"
+msgstr "Повертати назад, поки не буде достатньо карт, щоб заповнити всі стовпці таблиці"
 
 #: ../games/spider.scm:185
 msgid "Please fill in empty pile first."
@@ -3628,3 +3525,4 @@ msgstr "Атакувати зворотню сторону."
 #: ../games/whitehead.scm:243
 msgid "Move a build of cards on to the empty Tableau slot"
 msgstr "Перекладіть зв'язку карт в порожнє гніздо на столі"
+

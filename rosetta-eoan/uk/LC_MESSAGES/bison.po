@@ -1,26 +1,21 @@
-# Ukrainian translation of bison.
-# Copyright (C) 2007 Free Software Foundation, Inc.
-# This file is distributed under the same license as the bison package.
-#
-# Maxim V. Dziumanenko <dziumanenko@gmail.com>, 2007.
-# Yuri Chornoivan <yurchor@ukr.net>, 2012, 2013, 2018, 2019.
 msgid ""
 msgstr ""
-"Project-Id-Version: bison 3.3\n"
-"Report-Msgid-Bugs-To: bug-bison@gnu.org\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-02-03 14:37+0100\n"
-"PO-Revision-Date: 2019-02-23 10:09+0000\n"
-"Last-Translator: yurchor <Unknown>\n"
-"Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2019-07-08 17:20\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : "
-"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Launchpad-Export-Date: 2019-05-11 10:37+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: uk\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/bison.po\n"
+"Language: uk_UA\n"
 
 #: src/complain.c:321
 msgid "fatal error"
@@ -132,6 +127,7 @@ msgid_plural "%d shift/reduce conflicts"
 msgstr[0] "%d конфлікт зсуву/виводу"
 msgstr[1] "%d конфлікти зсуву/виводу"
 msgstr[2] "%d конфліктів зсуву/виводу"
+msgstr[3] ""
 
 #: src/conflicts.c:701
 #, c-format
@@ -145,6 +141,7 @@ msgid_plural "%d reduce/reduce conflicts"
 msgstr[0] "%d конфлікт виводу/виводу"
 msgstr[1] "%d конфлікти виводу/виводу"
 msgstr[2] "%d конфліктів виводу/виводу"
+msgstr[3] ""
 
 #: src/files.c:123
 #, c-format
@@ -187,51 +184,39 @@ msgid "Usage: %s [OPTION]... FILE\n"
 msgstr "Використання: %s [КЛЮЧІ]... ФАЙЛ\n"
 
 #: src/getargs.c:267
-msgid ""
-"Generate a deterministic LR or generalized LR (GLR) parser employing\n"
+msgid "Generate a deterministic LR or generalized LR (GLR) parser employing\n"
 "LALR(1), IELR(1), or canonical LR(1) parser tables.  IELR(1) and\n"
-"canonical LR(1) support is experimental.\n"
-"\n"
-msgstr ""
-"Створити детерміністичний аналізатор LR або узагальнений LR (GLR) з\n"
+"canonical LR(1) support is experimental.\n\n"
+msgstr "Створити детерміністичний аналізатор LR або узагальнений LR (GLR) з\n"
 "використанням LALR(1), IELR(1) або канонічних таблиць LR(1). Підтримку\n"
-"IELR(1) та канонічних таблиць LR(1) ще недостатньо перевірено.\n"
-"\n"
+"IELR(1) та канонічних таблиць LR(1) ще недостатньо перевірено.\n\n"
 
 #: src/getargs.c:274
-msgid ""
-"Mandatory arguments to long options are mandatory for short options too.\n"
-msgstr ""
-"Обов’язкові аргументи для довгих форм запису параметрів є обов’язковими і "
-"для скорочених форм.\n"
+msgid "Mandatory arguments to long options are mandatory for short options too.\n"
+msgstr "Обов’язкові аргументи для довгих форм запису параметрів є обов’язковими і для скорочених форм.\n"
 
 #: src/getargs.c:277
 msgid "The same is true for optional arguments.\n"
 msgstr "Те саме стосується необов’язкових аргументів.\n"
 
 #: src/getargs.c:281
-msgid ""
-"\n"
+msgid "\n"
 "Operation modes:\n"
 "  -h, --help                 display this help and exit\n"
 "  -V, --version              output version information and exit\n"
-"      --print-localedir      output directory containing locale-dependent "
-"data\n"
+"      --print-localedir      output directory containing locale-dependent data\n"
 "                             and exit\n"
 "      --print-datadir        output directory containing skeletons and XSLT\n"
 "                             and exit\n"
-"  -u, --update               apply fixes to the source grammar file and "
-"exit\n"
+"  -u, --update               apply fixes to the source grammar file and exit\n"
 "  -y, --yacc                 emulate POSIX Yacc\n"
 "  -W, --warnings[=CATEGORY]  report the warnings falling in CATEGORY\n"
-"  -f, --feature[=FEATURE]    activate miscellaneous features\n"
-"\n"
+"  -f, --feature[=FEATURE]    activate miscellaneous features\n\n"
 msgstr ""
 
 #: src/getargs.c:297
 #, c-format
-msgid ""
-"Parser:\n"
+msgid "Parser:\n"
 "  -L, --language=LANGUAGE          specify the output programming language\n"
 "  -S, --skeleton=FILE              specify the skeleton to use\n"
 "  -t, --debug                      instrument the parser for tracing\n"
@@ -243,29 +228,23 @@ msgid ""
 "                                   deprecated by '-Dapi.prefix=PREFIX'\n"
 "  -l, --no-lines                   don't generate '#line' directives\n"
 "  -k, --token-table                include a table of token names\n"
-msgstr ""
-"Аналізатор:\n"
-"  -L, --language=МОВА              вказати мову програмування виведених "
-"даних\n"
+msgstr "Аналізатор:\n"
+"  -L, --language=МОВА              вказати мову програмування виведених даних\n"
 "  -S, --skeleton=ФАЙЛ              вказати шаблон, який слід використати\n"
 "  -t, --debug                      налаштувати аналізатор для діагностики\n"
 "                                   те саме, що і «-Dparse.trace»\n"
 "      --locations                  увімкнути підтримку місць\n"
 "  -D, --define=НАЗВА[=ЗНАЧЕННЯ]    відповідник «%define НАЗВА \"ЗНАЧЕННЯ\"»\n"
-"  -F, --force-define=НАЗВА[=ЗНАЧЕННЯ] перевизначити «%define НАЗВА "
-"\"ЗНАЧЕННЯ\"»\n"
+"  -F, --force-define=НАЗВА[=ЗНАЧЕННЯ] перевизначити «%define НАЗВА \"ЗНАЧЕННЯ\"»\n"
 "  -p, --name-prefix=ПРЕФІКС        додавати ПРЕФІКС до зовнішніх символів,\n"
-"                                   слід надавати перевагу «-"
-"Dapi.prefix=ПРЕФІКС»\n"
+"                                   слід надавати перевагу «-Dapi.prefix=ПРЕФІКС»\n"
 "  -l, --no-lines                   не створювати інструкцій «#line»\n"
 "  -k, --token-table                включити таблицю назв елементів\n"
 
 #: src/getargs.c:315
-msgid ""
-"Output:\n"
+msgid "Output:\n"
 "      --defines[=FILE]       also produce a header file\n"
-"  -d                         likewise but cannot specify FILE (for POSIX "
-"Yacc)\n"
+"  -d                         likewise but cannot specify FILE (for POSIX Yacc)\n"
 "  -r, --report=THINGS        also produce details on the automaton\n"
 "      --report-file=FILE     write report to FILE\n"
 "  -v, --verbose              same as '--report=state'\n"
@@ -274,11 +253,9 @@ msgid ""
 "  -g, --graph[=FILE]         also output a graph of the automaton\n"
 "  -x, --xml[=FILE]           also output an XML report of the automaton\n"
 "                             (the XML schema is experimental)\n"
-msgstr ""
-"Виведення:\n"
+msgstr "Виведення:\n"
 "      --defines[=ФАЙЛ]       створити також файл заголовків\n"
-"  -d                         подібне, але без можливості вказати ФАЙЛ (для "
-"Yacc POSIX)\n"
+"  -d                         подібне, але без можливості вказати ФАЙЛ (для Yacc POSIX)\n"
 "  -r, --report=ЕЛЕМЕНТИ      також створити автоматичні записи подробиць\n"
 "      --report-file=ФАЙЛ     записати звіт до ФАЙЛа\n"
 "  -v, --verbose              те саме, що і «--report=state»\n"
@@ -290,8 +267,7 @@ msgstr ""
 
 #: src/getargs.c:330
 #, c-format
-msgid ""
-"Warning categories include:\n"
+msgid "Warning categories include:\n"
 "  'midrule-values'    unset or unused midrule values\n"
 "  'yacc'              incompatibilities with POSIX Yacc\n"
 "  'conflicts-sr'      S/R conflicts (enabled by default)\n"
@@ -304,8 +280,7 @@ msgid ""
 "  'no-CATEGORY'       turn off warnings in CATEGORY\n"
 "  'none'              turn off all the warnings\n"
 "  'error[=CATEGORY]'  treat warnings as errors\n"
-msgstr ""
-"Категорії попереджень:\n"
+msgstr "Категорії попереджень:\n"
 "  «midrule-values»  невстановлені або невикористані проміжні значення\n"
 "  «yacc»            несумісності з Yacc POSIX\n"
 "  «conflicts-sr»    S/R-конфлікти (типово увімкнено)\n"
@@ -320,16 +295,14 @@ msgstr ""
 "  «error»           вважати попередження помилками\n"
 
 #: src/getargs.c:347
-msgid ""
-"THINGS is a list of comma separated words that can include:\n"
+msgid "THINGS is a list of comma separated words that can include:\n"
 "  'state'        describe the states\n"
 "  'itemset'      complete the core item sets with their closure\n"
 "  'lookahead'    explicitly associate lookahead tokens to items\n"
 "  'solved'       describe shift/reduce conflicts solving\n"
 "  'all'          include all the above information\n"
 "  'none'         disable the report\n"
-msgstr ""
-"THINGS - список розділених комою слів, які можуть включати:\n"
+msgstr "THINGS - список розділених комою слів, які можуть включати:\n"
 "  «state»        описує стани\n"
 "  «itemset»      завершити набір елементів ядра та закрити їх\n"
 "  «lookahead»    явна прив'язати ознаки lookahead до елементів\n"
@@ -338,14 +311,12 @@ msgstr ""
 "  «none»         вимкнути звіт\n"
 
 #: src/getargs.c:358
-msgid ""
-"FEATURE is a list of comma separated words that can include:\n"
+msgid "FEATURE is a list of comma separated words that can include:\n"
 "  'caret'        show errors with carets\n"
 "  'all'          all of the above\n"
 "  'none'         disable all of the above\n"
 "  "
-msgstr ""
-"МОЖЛИВІСТЬ — список слів, відокремлених комами. Можливі слова:\n"
+msgstr "МОЖЛИВІСТЬ — список слів, відокремлених комами. Можливі слова:\n"
 "  «caret»        показати помилки, пов’язані з символами ^\n"
 "  «all»          всі вказані вище\n"
 "  «none»         вимкнути всі вказані вище\n"
@@ -363,9 +334,7 @@ msgstr "Домашня сторінка %s: <%s>.\n"
 
 #: src/getargs.c:368
 msgid "General help using GNU software: <http://www.gnu.org/gethelp/>.\n"
-msgstr ""
-"Загальна довідка щодо використання програмного забезпечення GNU: "
-"<http://www.gnu.org/gethelp/>.\n"
+msgstr "Загальна довідка щодо використання програмного забезпечення GNU: <http://www.gnu.org/gethelp/>.\n"
 
 #. TRANSLATORS: Replace LANG_CODE in this URL with your language
 #. code <http://translationproject.org/team/LANG_CODE.html> to
@@ -374,19 +343,16 @@ msgstr ""
 #. email address.
 #: src/getargs.c:383
 msgid "Report translation bugs to <http://translationproject.org/team/>.\n"
-msgstr ""
-"Звіти щодо вад у перекладах слід надсилати за адресами, вказаними тут: "
-"<http://translationproject.org/team/>.\n"
+msgstr "Звіти щодо вад у перекладах слід надсилати за адресами, вказаними тут: <http://translationproject.org/team/>.\n"
 
 #: src/getargs.c:386
 msgid "For complete documentation, run: info bison.\n"
-msgstr ""
-"З повною документацією можна ознайомитися за допомогою команди info bison.\n"
+msgstr "З повною документацією можна ознайомитися за допомогою команди info bison.\n"
 
 #: src/getargs.c:402
 #, c-format
 msgid "bison (GNU Bison) %s"
-msgstr "bison (GNU Bison) %s"
+msgstr ""
 
 #: src/getargs.c:404
 msgid "Written by Robert Corbett and Richard Stallman.\n"
@@ -395,17 +361,13 @@ msgstr "Автори: Роберт Корбет та Річард Столмен
 #: src/getargs.c:408
 #, c-format
 msgid "Copyright (C) %d Free Software Foundation, Inc.\n"
-msgstr "Copyright (C) %d Free Software Foundation, Inc.\n"
+msgstr ""
 
 #: src/getargs.c:411
-msgid ""
-"This is free software; see the source for copying conditions.  There is NO\n"
+msgid "This is free software; see the source for copying conditions.  There is NO\n"
 "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
-msgstr ""
-"Це програмне забезпечення є вільним, умови копіювання викладено у його "
-"початкових кодах.\n"
-"Умовами ліцензування програми НЕ передбачено жодних гарантій, зокрема "
-"гарантій працездатності\n"
+msgstr "Це програмне забезпечення є вільним, умови копіювання викладено у його початкових кодах.\n"
+"Умовами ліцензування програми НЕ передбачено жодних гарантій, зокрема гарантій працездатності\n"
 "або придатності для певної мети.\n"
 
 #: src/getargs.c:433
@@ -438,16 +400,12 @@ msgstr "Граматика"
 
 #: src/graphviz.c:46
 #, c-format
-msgid ""
-"// Generated by %s.\n"
+msgid "// Generated by %s.\n"
 "// Report bugs to <%s>.\n"
-"// Home page: <%s>.\n"
-"\n"
-msgstr ""
-"// Створено за допомогою %s.\n"
+"// Home page: <%s>.\n\n"
+msgstr "// Створено за допомогою %s.\n"
 "// Про вади повідомляйте на адресу <%s>.\n"
-"// Домашня сторінка: <%s>.\n"
-"\n"
+"// Домашня сторінка: <%s>.\n\n"
 
 #: src/location.c:94 src/scan-gram.l:937
 #, c-format
@@ -466,8 +424,7 @@ msgstr "правило є зайвим у аналізаторі через ко
 #: src/main.c:244
 #, c-format
 msgid "fix-its can be applied.  Rerun with option '--update'."
-msgstr ""
-"можна застосувати виправлення. Запустіть ще раз із параметром «--update»."
+msgstr "можна застосувати виправлення. Запустіть ще раз із параметром «--update»."
 
 #: src/muscle-tab.c:536
 #, c-format
@@ -544,7 +501,7 @@ msgstr "прийняти"
 
 #: src/print.c:252 src/print.c:326
 msgid "$default"
-msgstr "$default"
+msgstr ""
 
 #: src/print.c:362 src/print_graph.c:61
 #, c-format
@@ -581,8 +538,7 @@ msgstr "багатократні описи %s"
 #: src/reader.c:128
 #, c-format
 msgid "result type clash on merge function %s: <%s> != <%s>"
-msgstr ""
-"конфлікт типів результатів під час об’єднання функції %s: <%s> != <%s>"
+msgstr "конфлікт типів результатів під час об’єднання функції %s: <%s> != <%s>"
 
 #: src/reader.c:201
 #, c-format
@@ -602,8 +558,7 @@ msgstr "конфлікт типів на типовій дії: <%s> != <%s>"
 #: src/reader.c:323
 #, c-format
 msgid "empty rule for typed nonterminal, and no action"
-msgstr ""
-"порожнє правило для типізованого нетермінального символу, та відсутня дія"
+msgstr "порожнє правило для типізованого нетермінального символу, та відсутня дія"
 
 #: src/reader.c:339
 #, c-format
@@ -688,6 +643,7 @@ msgid_plural "%d nonterminals useless in grammar"
 msgstr[0] "%d зайвий нетермінал у граматиці"
 msgstr[1] "%d зайві нетермінали у граматиці"
 msgstr[2] "%d зайвих нетерміналів у граматиці"
+msgstr[3] ""
 
 #: src/reduce.c:361
 #, c-format
@@ -696,6 +652,7 @@ msgid_plural "%d rules useless in grammar"
 msgstr[0] "%d зайве правило у граматиці"
 msgstr[1] "%d зайві правила у граматиці"
 msgstr[2] "%d зайвих правил у граматиці"
+msgstr[3] ""
 
 #: src/reduce.c:388
 #, c-format
@@ -745,9 +702,7 @@ msgstr "некоректне посилання: %s"
 #: src/scan-code.l:505
 #, c-format
 msgid "syntax error after '%c', expecting integer, letter, '_', '[', or '$'"
-msgstr ""
-"синтаксична помилка після '%c'. Мало бути вказано ціле число, літеру, '_', "
-"'[' або '$'"
+msgstr "синтаксична помилка після '%c'. Мало бути вказано ціле число, літеру, '_', '[' або '$'"
 
 #: src/scan-code.l:511
 #, c-format
@@ -815,6 +770,7 @@ msgid_plural "invalid characters"
 msgstr[0] "некоректні символи"
 msgstr[1] "некоректні символи"
 msgstr[2] "некоректні символи"
+msgstr[3] ""
 
 #: src/scan-gram.l:375
 #, c-format
@@ -837,6 +793,7 @@ msgid_plural "invalid characters in bracketed name"
 msgstr[0] "некоректні символи у назві у дужках"
 msgstr[1] "некоректні символи у назві у дужках"
 msgstr[2] "некоректні символи у назві у дужках"
+msgstr[3] ""
 
 #: src/scan-gram.l:526
 #, c-format
@@ -941,8 +898,7 @@ msgstr "перевизначення номера лексеми користу�
 #: src/symtab.c:514
 #, c-format
 msgid "symbol %s is used, but is not defined as a token and has no rules"
-msgstr ""
-"символ %s використовується, але не визначений як лексема та не має правил"
+msgstr "символ %s використовується, але не визначений як лексема та не має правил"
 
 #: src/symtab.c:548
 #, c-format
@@ -1100,11 +1056,11 @@ msgstr "Помилка підпроцесу %s"
 #. and use glyphs suitable for your language.
 #: lib/quotearg.c:362
 msgid "`"
-msgstr "`"
+msgstr ""
 
 #: lib/quotearg.c:363
 msgid "'"
-msgstr "'"
+msgstr ""
 
 #: lib/timevar.c:316
 msgid "Execution times (seconds)"
@@ -1141,3 +1097,4 @@ msgstr "Підпроцес %s"
 #, c-format
 msgid "%s subprocess got fatal signal %d"
 msgstr "Підпроцесом %s отримано сигнал щодо аварійного завершення %d"
+

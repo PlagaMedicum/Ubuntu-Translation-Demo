@@ -1,68 +1,70 @@
-# Ukrainian translation for update-notifier
-# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
-# This file is distributed under the same license as the update-notifier package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: update-notifier\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-10 15:12+0000\n"
-"PO-Revision-Date: 2019-04-05 21:46+0000\n"
-"Last-Translator: Yuri Chornoivan <yurchor@gmail.com>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:32\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Launchpad-Export-Date: 2019-05-11 11:37+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/update-notifier.po\n"
+"Language: uk_UA\n"
 
 #: ../data/apt_check.py:25
 #, python-format
 msgid "Unknown Error: '%s' (%s)"
-msgstr "Невідома помилка: '%s' (%s)"
+msgstr ""
 
 #: ../data/apt_check.py:79
 msgid "Extended Security Maintenance (ESM) is enabled."
-msgstr "Extended Security Maintenance (ESM) увімкнено."
+msgstr ""
 
 #: ../data/apt_check.py:83
 msgid "Extended Security Maintenance (ESM) is not enabled."
-msgstr "Extended Security Maintenance (ESM) не увімкнено."
+msgstr ""
 
 #: ../data/apt_check.py:88
 #, python-format
 msgid "%i update can be installed immediately."
 msgid_plural "%i updates can be installed immediately."
-msgstr[0] "%i оновлення може бути встановлено негайно."
-msgstr[1] "%i оновлення може бути встановлено негайно."
-msgstr[2] "%i оновлень може бути встановлено негайно."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../data/apt_check.py:96
 #, python-format
 msgid "%i of these updates is provided through ESM."
 msgid_plural "%i of these updates are provided through ESM."
-msgstr[0] "%i з цих оновлень надано за допомогою ESM."
-msgstr[1] "%i з цих оновлень надано за допомогою ESM."
-msgstr[2] "%i з цих оновлень надано за допомогою ESM."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../data/apt_check.py:104
 #, python-format
 msgid "%i of these updates is a security update."
 msgid_plural "%i of these updates are security updates."
-msgstr[0] "%i з цих оновлень є оновленням захисту."
-msgstr[1] "%i з цих оновлень є оновленнями захисту."
-msgstr[2] "%i з цих оновлень є оновленнями захисту."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../data/apt_check.py:116
 #, python-format
 msgid "Enable ESM to receive %i additional security update."
 msgid_plural "Enable ESM to receive %i additional security updates."
-msgstr[0] "Увімкніть ESM, щоб отримати %i додаткове оновлення захисту."
-msgstr[1] "Увімкніть ESM, щоб отримати %i додаткових оновлення захисту."
-msgstr[2] "Увімкніть ESM, щоб отримати %i додаткових оновлень захисту."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../data/apt_check.py:124
 msgid "Enable ESM to receive additional future security updates."
@@ -70,358 +72,281 @@ msgstr ""
 
 #: ../data/apt_check.py:129
 msgid "See 'ua enable esm' or https://ubuntu.com/esm"
-msgstr "Див. «ua enable esm» або https://ubuntu.com/esm"
+msgstr ""
 
 #: ../data/apt_check.py:171
 #, python-format
 msgid "Error: Opening the cache (%s)"
-msgstr "Помилка: Відкриття кешу (%s)"
+msgstr ""
 
 #: ../data/apt_check.py:181
 msgid "Error: BrokenCount > 0"
-msgstr "Помилка: Невірний порядковий номер > 0"
+msgstr ""
 
 #: ../data/apt_check.py:188
 #, python-format
 msgid "Error: Marking the upgrade (%s)"
-msgstr "Помилка: Розмітка оновлення (%s)"
+msgstr ""
 
 #: ../data/apt_check.py:297
 msgid "Show the packages that are going to be installed/upgraded"
-msgstr "Показати пакунки, що будуть встановлені/оновлені"
+msgstr ""
 
 #: ../data/apt_check.py:303
 msgid "Show human readable output on stdout"
-msgstr "Вивести на стандартний вивід придатний для читання результат"
+msgstr ""
 
 #: ../data/apt_check.py:307
-msgid ""
-"Return the time in days when security updates are installed unattended (0 "
-"means disabled)"
+msgid "Return the time in days when security updates are installed unattended (0 means disabled)"
 msgstr ""
-"Показати кількість днів, що пройшли з останнього автоматичного оновлення "
-"системи безпеки  (0, якщо автоматичні оновлення вимкнені)"
 
 #: ../src/crash.c:46
 msgid "System program problem detected"
-msgstr "Виявлено помилку системної проґрами"
+msgstr ""
 
 #: ../src/crash.c:47
 msgid "Do you want to report the problem now?"
-msgstr "Бажаєте повідомити про проблему зараз?"
+msgstr ""
 
 #: ../src/crash.c:57
 msgid "Report problem…"
-msgstr "Повідомити про проблему…"
+msgstr ""
 
 #: ../src/crash.c:99 ../src/crash.c:206
 msgid "Crash report detected"
-msgstr "Виявлено звіт про аварійне завершення проґрами"
+msgstr ""
 
 #: ../src/crash.c:100
-msgid ""
-"An application has crashed on your system (now or in the past). Click on the "
-"notification icon to display details. "
+msgid "An application has crashed on your system (now or in the past). Click on the notification icon to display details. "
 msgstr ""
-"Проґрама у вашій системі завершилася аварійно (щойно, або раніше). Натисніть "
-"на піктограмі сповіщення для показу подробиць. "
 
 #. Create and show the notification
 #: ../src/avahi.c:16
 msgid "Network service discovery disabled"
-msgstr "Виявлення мережевих служб вимкнуто"
+msgstr ""
 
 #: ../src/avahi.c:17
-msgid ""
-"Your current network has a .local domain, which is not recommended and "
-"incompatible with the Avahi network service discovery. The service has been "
-"disabled."
+msgid "Your current network has a .local domain, which is not recommended and incompatible with the Avahi network service discovery. The service has been disabled."
 msgstr ""
-"Ваша поточна мережа має домен .local, що не рекомендовано і несумісно із "
-"виявленням мережевих служб Avahi. Сервіс було вимкнено."
 
 #: ../src/cdroms.c:48
 msgid "Software Packages Volume Detected"
-msgstr "Знайдено носій з пакунками проґрам"
+msgstr ""
 
 #: ../src/cdroms.c:49
-msgid ""
-"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
-"been detected.</span>\n"
-"\n"
+msgid "<span weight=\"bold\" size=\"larger\">A volume with software packages has been detected.</span>\n\n"
 "Would you like to open it with the package manager?"
 msgstr ""
-"<span weight=\"bold\" size=\"larger\">Було виявлено носій із пакунками "
-"проґрамного забезпечення.</span>\n"
-"\n"
-"Бажаєте відкрити його за допомогою менеджера пакунків?"
 
 #: ../src/cdroms.c:57
 msgid "Start Package Manager"
-msgstr "Запуск Менеджера пакунків"
+msgstr ""
 
 #: ../src/cdroms.c:63
 msgid "Upgrade volume detected"
-msgstr "Виявлено носій з оновленнями"
+msgstr ""
 
 #: ../src/cdroms.c:64
-msgid ""
-"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
-"packages has been detected.</span>\n"
-"\n"
+msgid "<span weight=\"bold\" size=\"larger\">A distribution volume with software packages has been detected.</span>\n\n"
 "Would you like to try to upgrade from it automatically? "
 msgstr ""
-"<span weight=\"bold\" size=\"larger\">Було виявлено дистрибутивний носій із "
-"пакунками проґрамного забезпечення.</span>\n"
-"\n"
-"Бажаєте спробувати автоматично оновитися з нього? "
 
 #: ../src/cdroms.c:71
 msgid "Run upgrade"
-msgstr "Почати оновлення"
+msgstr ""
 
 #: ../src/cdroms.c:79
 msgid "APTonCD volume detected"
-msgstr "Виявлено носій APTonCD"
+msgstr ""
 
 #: ../src/cdroms.c:80
-msgid ""
-"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
-"packages has been detected.</span>\n"
-"\n"
+msgid "<span weight=\"bold\" size=\"larger\">A volume with unofficial software packages has been detected.</span>\n\n"
 "Would you like to open it with the package manager?"
 msgstr ""
-"<span weight=\"bold\" size=\"larger\">Було виявлено носій із неофіційним "
-"проґрамним забезпеченням.</span>\n"
-"\n"
-"Бажаєте відкрити його за допомогою менеджера пакунків?"
 
 #: ../src/cdroms.c:88 ../src/update.c:39
 msgid "Start package manager"
-msgstr "Запустити менеджер пакунків"
+msgstr ""
 
 #: ../src/hooks.c:362 ../ui/hooks-dialog.ui.h:2
 msgid "_Run this action now"
-msgstr "_Виконати цю дію зараз"
+msgstr ""
 
 #: ../src/hooks.c:514 ../src/hooks.c:664
 msgid "Information available"
-msgstr "Наявна інформація"
+msgstr ""
 
 #: ../src/hooks.c:665
 msgid "Click on the notification icon to show the available information.\n"
 msgstr ""
-"Натисніть на піктограмі сповіщення для показу доступної інформації.\n"
 
 #: ../src/livepatch.c:62 ../src/livepatch.c:64
 msgid "Show Settings…"
-msgstr "Показати параметри…"
+msgstr ""
 
 #: ../src/livepatch.c:135
 msgid "An update has just been applied."
-msgstr "Щойно було застосовано оновлення."
+msgstr ""
 
 #: ../src/livepatch-tray.c:85
 msgid "Livepatch Settings…"
-msgstr "Параметри Livepatch…"
+msgstr ""
 
 #: ../src/livepatch-tray.c:118
 msgid "Livepatch is on"
-msgstr "Livepatch увімкнено"
+msgstr ""
 
 #: ../src/livepatch-tray.c:146
 msgid "No current updates"
-msgstr "Немає поточних оновлень"
+msgstr ""
 
 #: ../src/livepatch-tray.c:148
 msgid "%"
 msgid_plural "%"
-msgstr[0] "%"
-msgstr[1] "%"
-msgstr[2] "%"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/livepatch-tray.c:168
 msgid "An error occured when checking for Livepatch updates."
-msgstr "Під час спроби знайти оновлення Livepatch сталася помилка."
+msgstr ""
 
 #: ../src/livepatch-tray.c:173
 msgid "An error occured when applying Livepatch updates."
-msgstr "Під час спроби застосувати оновлення Livepatch сталася помилка."
+msgstr ""
 
 #: ../src/update.c:28
 msgid "Show updates"
-msgstr "Показати оновлення"
+msgstr ""
 
 #: ../src/update.c:32
 msgid "Install all updates"
-msgstr "Встановити усі оновлення"
+msgstr ""
 
 #: ../src/update.c:36
 msgid "Check for updates"
-msgstr "Перевірити на наявність оновлень"
+msgstr ""
 
 #: ../src/update.c:83
 #, c-format
 msgid "There is %i update available"
 msgid_plural "There are %i updates available"
-msgstr[0] "Наявне %i оновлення"
-msgstr[1] "Наявні %i оновлення"
-msgstr[2] "Наявних %i оновлень"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/update.c:147
 msgid "Show notifications"
-msgstr "Показати сповіщення"
+msgstr ""
 
 #. and update the tooltip
 #: ../src/update.c:203
 msgid "A package manager is working"
-msgstr "Працює менеджер пакунків"
+msgstr ""
 
 #: ../src/update.c:235
 #, c-format
-msgid ""
-"There is %i update available. Click on the notification icon to show the "
-"available update."
-msgid_plural ""
-"There are %i updates available. Click on the notification icon to show the "
-"available updates."
+msgid "There is %i update available. Click on the notification icon to show the available update."
+msgid_plural "There are %i updates available. Click on the notification icon to show the available updates."
 msgstr[0] ""
-"Доступно %i оновлення. Натисніть на піктограмі сповіщення, щоб показати "
-"доступне оновлення."
 msgstr[1] ""
-"Доступно %i оновлення. Натисніть на піктограмі сповіщення, щоб показати "
-"доступні оновлення."
 msgstr[2] ""
-"Доступно %i оновлень. Натисніть на піктограмі сповіщення, щоб показати "
-"доступні оновлення."
+msgstr[3] ""
 
 #: ../src/update.c:246
 msgid "Software updates available"
-msgstr "Наявні оновлення проґрамного забезпечення"
+msgstr ""
 
 #: ../src/update.c:284
-msgid ""
-"The update information is outdated. This may be caused by network problems "
-"or by a repository that is no longer available. Please update manually by "
-"selecting 'Show updates' from the indicator menu, and watching for any "
-"failing repositories."
+msgid "The update information is outdated. This may be caused by network problems or by a repository that is no longer available. Please update manually by selecting 'Show updates' from the indicator menu, and watching for any failing repositories."
 msgstr ""
-"Інформація про оновлення застаріла. Це може бути зпричинено мережевими "
-"проблемами або репозиторій відсутній. Будь-ласка, оновіть вручну обираючи "
-"'Показати оновлення' з меню індикатора, спостерігаючи за будь-якими "
-"помилковими репозиторіями."
 
 #: ../src/update.c:574
 #, c-format
-msgid ""
-"An error occurred, please run Package Manager from the right-click menu or "
-"apt-get in a terminal to see what is wrong.\n"
+msgid "An error occurred, please run Package Manager from the right-click menu or apt-get in a terminal to see what is wrong.\n"
 "The error message was: '%s'. "
 msgstr ""
-"Сталася помилка, будь-ласка, завантажте Менеджер Пакунків із меню чи "
-"виконайте команду apt-get у терміналі для того, щоб побачити причину "
-"помилки.\n"
-"Повідомлення про помилку: '%s'. "
 
 #: ../src/update.c:581
-msgid ""
-"An error occurred, please run Package Manager from the right-click menu or "
-"apt-get in a terminal to see what is wrong."
+msgid "An error occurred, please run Package Manager from the right-click menu or apt-get in a terminal to see what is wrong."
 msgstr ""
-"Виникла помилка, будь ласка, запустіть Менеджер пакунків із контекстного "
-"меню, або apt-get у терміналі для перегляду її причин."
 
 #: ../src/update.c:585
-msgid ""
-"This usually means that your installed packages have unmet dependencies"
+msgid "This usually means that your installed packages have unmet dependencies"
 msgstr ""
-"Зазвичай мається на увазі, що встановлені пакунки мають незадоволені "
-"залежності"
 
 #: ../src/update.c:598
 msgid "A problem occurred when checking for the updates."
-msgstr "Виникла проблема під час перевірки оновлень."
+msgstr ""
 
 #: ../src/update-notifier.c:585
 msgid "- inform about updates"
-msgstr "- інформувати про оновлення"
+msgstr ""
 
 #: ../src/update-notifier.c:587
 #, c-format
 msgid "Failed to init the UI: %s\n"
-msgstr "Не вдається завантажити графічний інтерфейс: %s\n"
+msgstr ""
 
 #: ../src/update-notifier.c:588
 msgid "unknown error"
-msgstr "невідома помилка"
+msgstr ""
 
 #: ../src/update-notifier.c:615
 msgid "update-notifier"
-msgstr "сповіщувач про оновлення"
+msgstr ""
 
 #: ../ui/hooks-dialog.ui.h:1
 msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
 msgstr ""
-"<span weight=\"bold\" size=\"larger\">Інформація про оновлення</span>"
 
 #: ../data/com.ubuntu.update-notifier.policy.in.h:1
 msgid "Authentication is needed to upgrade"
-msgstr "Для оновлення необхідне підтвердження."
+msgstr ""
 
 #: ../data/com.ubuntu.update-notifier.policy.in.h:2
 msgid "Authentication is needed to query package system lock status"
-msgstr "Для запиту статусу блокування системи пакета необхідне підтвердження"
+msgstr ""
 
 #: ../data/update-notifier.desktop.in.h:1
 msgid "Update Notifier"
-msgstr "Сповіщення про оновлення"
+msgstr ""
 
 #: ../data/update-notifier.desktop.in.h:2
 msgid "Check for available updates automatically"
-msgstr "Автоматично перевіряти наявність оновлень"
+msgstr ""
 
 #. Name
 #: ../data/package-data-downloads-failed.in:2
 msgid "Failure to download extra data files"
-msgstr "Не вдалося завантажити додаткові файли даних"
+msgstr ""
 
 #. Description
 #: ../data/package-data-downloads-failed.in:5
 #: ../data/package-data-downloads-failed-permanently.in:3
-msgid ""
-"The following packages requested additional data downloads after package "
-"installation, but the data could not be downloaded or could not be processed."
+msgid "The following packages requested additional data downloads after package installation, but the data could not be downloaded or could not be processed."
 msgstr ""
-"Наступні пакунки потребують додаткового завантаження даних після "
-"встановлення, але дані неможливо завантажити чи неможливо встановити."
 
 #. Description
 #: ../data/package-data-downloads-failed.in:5
 #: ../data/package-data-downloads-failed-permanently.in:3
 msgid "  $packages"
-msgstr "  $пакунки"
+msgstr ""
 
 #. Description
 #: ../data/package-data-downloads-failed.in:5
-msgid ""
-"The download will be attempted again later, or you can try the download "
-"again now.  Running this command requires an active Internet connection."
+msgid "The download will be attempted again later, or you can try the download again now.  Running this command requires an active Internet connection."
 msgstr ""
-"Пізніше буде зроблена повторна спроба завантаження, або ви можете спробувати "
-"знову зараз. Виконання цієї команди вимагає активного інтернет-з'єднання."
 
 #. Name
 #: ../data/package-data-downloads-failed-permanently.in:2
 msgid "Data files for some packages could not be downloaded"
-msgstr "Файли даних для деяких пакунків неможливо завантажити"
+msgstr ""
 
 #. Description
 #: ../data/package-data-downloads-failed-permanently.in:3
-msgid ""
-"This is a permanent failure that leaves these packages unusable on your "
-"system.  You may need to fix your Internet connection, then remove and "
-"reinstall the packages to fix this problem."
+msgid "This is a permanent failure that leaves these packages unusable on your system.  You may need to fix your Internet connection, then remove and reinstall the packages to fix this problem."
 msgstr ""
-"Ця помилка залишає у системі багато невикористаних пакунків. Для вирішення "
-"цієї проблеми налагодьте Інтернет з’єднання, повністю вилучіть та знову "
-"встановіть пакунки."
+

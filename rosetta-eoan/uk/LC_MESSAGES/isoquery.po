@@ -1,21 +1,21 @@
-# Ukrainian translation for isoquery
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
-# This file is distributed under the same license as the isoquery package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: isoquery\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-06-10 11:20+0200\n"
-"PO-Revision-Date: 2014-08-05 10:07+0000\n"
-"Last-Translator: Yuri Chornoivan <yurchor@gmail.com>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:13\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 12:36+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/isoquery.po\n"
+"Language: uk_UA\n"
 
 #. TRANSLATORS:
 #. The first placeholder is a filename, including the directory path.
@@ -23,109 +23,87 @@ msgstr ""
 #: src/isocodes.c:68
 #, c-format
 msgid "The file \"%s\" does not contain valid ISO %s data."
-msgstr "Файл \"%s\" не містить дійсних даних ISO %s ."
+msgstr ""
 
 #. TRANSLATORS: This is an error message.
 #: src/isocodes.c:93 src/isoquery.c:43 src/isoquery.c:60 src/isoquery.c:70
 #, c-format
 msgid "isoquery: %s\n"
-msgstr "запит iso: %s\n"
+msgstr ""
 
 #: src/isoquery.c:45
-msgid ""
-"Run \"isoquery --help\" to see a full list of available command line "
-"options.\n"
+msgid "Run \"isoquery --help\" to see a full list of available command line options.\n"
 msgstr ""
-"Віддайте команду «isoquery --help», щоб ознайомитися з повним списком "
-"доступних параметрів командного рядка.\n"
 
 #: src/options.c:45
-msgid ""
-"The ISO standard to use. Possible values: 639-2, 639-3, 639-5, 3166-1, 3166-"
-"2, 3166-3, 4217, 15924 (default: 3166-1)"
+msgid "The ISO standard to use. Possible values: 639-2, 639-3, 639-5, 3166-1, 3166-2, 3166-3, 4217, 15924 (default: 3166-1)"
 msgstr ""
-"Стандарт ISO для використання. Можливі значення: 639-2, 639-3, 639-5, 3166-"
-"1, 3166-2, 3166-3, 4217, 15924 (типово: 3166-1)"
 
 #: src/options.c:46
 msgid "STANDARD"
-msgstr "СТАНДАРТ"
+msgstr ""
 
 #: src/options.c:48
-msgid ""
-"Use pathname as prefix for the data files (default: /usr/share/iso-"
-"codes/json)"
+msgid "Use pathname as prefix for the data files (default: /usr/share/iso-codes/json)"
 msgstr ""
-"Використовуєте назву шляху як префікс для файлів даних (типово: "
-"/usr/share/iso-codes/json)"
 
 #: src/options.c:49
 msgid "PATHNAME"
-msgstr "ШЛЯХ"
+msgstr ""
 
 #: src/options.c:51
 msgid "Use this locale for output"
-msgstr "Використати це місце для виводу"
+msgstr ""
 
 #: src/options.c:52
 msgid "LOCALE"
-msgstr "ЛОКАЛЬ"
+msgstr ""
 
 #: src/options.c:54
 msgid "Name for the supplied codes (default)"
-msgstr "Назва для наданих кодів (типово)"
+msgstr ""
 
 #: src/options.c:56
-msgid ""
-"Official name for the supplied codes. This may be the same as --name (only "
-"applies to ISO 3166-1)"
+msgid "Official name for the supplied codes. This may be the same as --name (only applies to ISO 3166-1)"
 msgstr ""
-"Офіційна назва наданих кодів. Може бути така ж сама назва як  --name (лише "
-"для ISO 3166-1)"
 
 #: src/options.c:60
-msgid ""
-"Common name for the supplied codes. This may be the same as --name (only "
-"applies to ISO 639-2, 639-3, and 3166-1)"
+msgid "Common name for the supplied codes. This may be the same as --name (only applies to ISO 639-2, 639-3, and 3166-1)"
 msgstr ""
-"загальна назва для наданих кодів. Може бути така ж як --name (лише для to "
-"ISO 639-2, 639-3, and 3166-1)"
 
 #: src/options.c:63
 msgid "Separate entries with a NULL character instead of newline"
-msgstr "Замість нового рядка окремі записи із символом НУЛЬ"
+msgstr ""
 
 #: src/options.c:65
 msgid "Show program version and copyright"
-msgstr "Показати версію програми та авторські права"
+msgstr ""
 
 #: src/options.c:82
 msgid "[ISO codes]"
-msgstr "[коди ISO]"
+msgstr ""
 
 #. TRANSLATORS: The placeholder is a string like "1234-5".
 #: src/options.c:142
 #, c-format
 msgid "ISO standard \"%s\" is not supported."
-msgstr "Стандарт ISO \"%s\" не підтримується."
+msgstr ""
 
 #. TRANSLATORS: The placeholder is the version identifier.
 #: src/options.c:176
 #, c-format
 msgid "isoquery %s\n"
-msgstr "запит iso %s\n"
+msgstr ""
 
 #: src/options.c:177
 msgid "Copyright © 2007-2016 Dr. Tobias Quathamer\n"
 msgstr ""
-"Авторські права © 2007-2017 Dr. Tobias Quathamer\n"
-"Переклад українською Віталій Паславський\n"
 
 #. TRANSLATORS: Please change the uppercase words as
 #. appropriate for your language.
 #: src/options.c:180
 msgid "Translation to LANGUAGE Copyright © YEAR YOUR-NAME\n"
-msgstr "Переклад українською © Перекладачі Ubuntu, 2014\n"
+msgstr ""
 
 #. TRANSLATORS: The first placeholder is a code like "urgl" or
 #. "does-not-exist", the second placeholder is the current
@@ -133,4 +111,5 @@ msgstr "Переклад українською © Перекладачі Ubuntu
 #: src/search.c:60
 #, c-format
 msgid "The code \"%s\" is not defined in ISO %s."
-msgstr "Код \"%s\" не визначений в ISO %s."
+msgstr ""
+

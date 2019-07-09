@@ -1,319 +1,251 @@
-# Ukrainian translation for quota
-# Copyright (c) 2015 Rosetta Contributors and Canonical Ltd 2015
-# This file is distributed under the same license as the quota package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: quota\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-03-29 11:53+0100\n"
-"PO-Revision-Date: 2018-05-06 17:39+0000\n"
-"Last-Translator: Andrii Prokopenko <Unknown>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:31\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 11:32+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/quota.po\n"
+"Language: uk_UA\n"
 
 #: bylabel.c:274
 #, c-format
 msgid "Found an invalid UUID: %s\n"
-msgstr "Знайдений невірний UUID: %s\n"
+msgstr ""
 
 #: bylabel.c:294
 #, c-format
 msgid "Error checking device name: %s\n"
-msgstr "Помилка при перевірці імені пристрою: %s\n"
+msgstr ""
 
 #: convertquota.c:41
 #, c-format
-msgid ""
-"Utility for converting quota files.\n"
+msgid "Utility for converting quota files.\n"
 "Usage:\n"
-"\t%s [options] mountpoint\n"
-"\n"
+"\t%s [options] mountpoint\n\n"
 "-u, --user                          convert user quota file\n"
 "-g, --group                         convert group quota file\n"
 "-e, --convert-endian                convert quota file to correct endianity\n"
 "-f, --convert-format oldfmt,newfmt  convert from old to VFSv0 quota format\n"
 "-h, --help                          show this help text and exit\n"
-"-V, --version                       output version information and exit\n"
-"\n"
+"-V, --version                       output version information and exit\n\n"
 msgstr ""
-"Засіб для конвертування файлів квот.\n"
-"Використання:\n"
-"\t%s [опції] точка монтування\n"
-"\n"
-"-u, --user конвертувати файл квот користувача\n"
-"-g, --group конвертувати файл квот групи\n"
-"-e, --convert-endian конвертувати файл квот для виправлення порядку "
-"слідування байтів\n"
-"-f, --convert-format oldfmt,newfmt конвертувати зі старого формату у формат "
-"квот VFSv0\n"
-"-h, --help показати текст цієї довідки і вийти\n"
-"-V, --version вивести на екран інформацію про версію і вийти\n"
-"\n"
 
 #: convertquota.c:48 warnquota.c:1046 quotacheck.c:314 repquota.c:73
 #: common.c:127
 #, c-format
 msgid "Bugs to %s\n"
-msgstr "Помилка в: %s\n"
+msgstr ""
 
 #: convertquota.c:97
 msgid "You have to specify source and target format of conversion.\n"
-msgstr "Вкажіть початковий та кінцевий формат перетворення\n"
+msgstr ""
 
 #: convertquota.c:112 quotacheck.c:400 quotasync.c:88 repquota.c:163
 #: quotaon.c:113 setquota.c:264
 msgid "Bad number of arguments.\n"
-msgstr "Невірна кількість аргументів.\n"
+msgstr ""
 
 #: convertquota.c:119
 msgid "You have to specify action to perform.\n"
-msgstr "Вкажіть дію для виконання\n"
+msgstr ""
 
 #: convertquota.c:166 quotacheck_v2.c:241 quotaio_tree.c:58
 #, c-format
 msgid "Cannot read block %u: %s\n"
-msgstr "Неможливо прочитати блок %u: %s\n"
+msgstr ""
 
 #: convertquota.c:191 convertquota.c:283
 #, c-format
 msgid "Cannot commit dquot for id %u: %s\n"
-msgstr "Неможливо застосувати dquot для id %u: %s\n"
+msgstr ""
 
 #: convertquota.c:239
 msgid "Cannot read header of old quotafile.\n"
-msgstr "Не можу прочитати заголовок для старого файлу квот\n"
+msgstr ""
 
 #: convertquota.c:243
-msgid ""
-"Bad file magic or version (probably not quotafile with bad endianity).\n"
-msgstr "Некоректний файл (можливо не є файлом квот вірного формату)\n"
+msgid "Bad file magic or version (probably not quotafile with bad endianity).\n"
+msgstr ""
 
 #: convertquota.c:254
 msgid "Cannot read information about old quotafile.\n"
-msgstr "Неможливо прочитати інформацію про старий файл квот.\n"
+msgstr ""
 
 #: convertquota.c:296
 msgid "Cannot get name of new quotafile.\n"
-msgstr "Не можу отримати ім’я нового файлу квот\n"
+msgstr ""
 
 #: convertquota.c:302 quotacheck.c:765
 #, c-format
 msgid "Cannot rename new quotafile %s to name %s: %s\n"
-msgstr "Не можу перейменувати новий файл квот %s на файл з іменем %s: %s\n"
+msgstr ""
 
 #: convertquota.c:316
 #, c-format
 msgid "Cannot open old format file for %ss on %s\n"
-msgstr "Неможливо відкрити старий формат файлу для %ss в %s\n"
+msgstr ""
 
 #: convertquota.c:321 convertquota.c:354
 #, c-format
 msgid "Cannot create file for %ss for new format on %s: %s\n"
-msgstr "Неможливо створити файл %ss нового формату в %s: %s\n"
+msgstr ""
 
 #: convertquota.c:344
 #, c-format
 msgid "Cannot open old quota file on %s: %s\n"
-msgstr "Неможливо відкрити старий файл квот %s: %s\n"
+msgstr ""
 
 #: convertquota.c:381
 msgid "Unknown action should be performed.\n"
-msgstr "Має бути виконана невідома дія.\n"
+msgstr ""
 
 #: warnquota.c:58
-msgid ""
-"Hi,\n"
-"\n"
+msgid "Hi,\n\n"
 "We noticed that you are in violation with the quotasystem\n"
-"used on this system. We have found the following violations:\n"
-"\n"
+"used on this system. We have found the following violations:\n\n"
 msgstr ""
-"Привіт, \n"
-"\n"
-"Ми помітили, що ви порушуєте квоти, встановлені \n"
-"на цій системі. Ми виявили такі порушення:\n"
-"\n"
 
 #: warnquota.c:60
 #, c-format
-msgid ""
-"\n"
-"We hope that you will cleanup before your grace period expires.\n"
-"\n"
+msgid "\n"
+"We hope that you will cleanup before your grace period expires.\n\n"
 "Basically, this means that the system thinks you are using more disk space\n"
 "on the above partition(s) than you are allowed.  If you do not delete files\n"
 "and get below your quota before the grace period expires, the system will\n"
-"prevent you from creating new files.\n"
-"\n"
+"prevent you from creating new files.\n\n"
 "For additional assistance, please contact us at %s\n"
 "or via phone at %s.\n"
 msgstr ""
-"\n"
-"Ми сподіваємось, що ви виконаєте очищення до закінчення пільгового періоду. "
-"\n"
-"\n"
-"В принципі це означає, що система вважає, що ви використовуєте більше\n"
-"дискового простору на наведених вище розділах, ніж вам дозволено. \n"
-"Якщо ви не видалите файли та перевищуватимите квоту по закінченню\n"
-"пільгового періоду, система не дозволить вам створювати нові файли.\n"
-"\n"
-"Щоб отримати додаткову допомогу, зв'яжіться з нами на %s\n"
-"або по телефону на %s.\n"
 
 #: warnquota.c:67
 #, c-format
-msgid ""
-"Hi,\n"
-"\n"
+msgid "Hi,\n\n"
 "We noticed that the group %s you are member of violates the quotasystem\n"
-"used on this system. We have found the following violations:\n"
-"\n"
+"used on this system. We have found the following violations:\n\n"
 msgstr ""
-"Привіт,\n"
-"\n"
-"Ми помітили, що група %s, учасником якої ви є, порушує квоти, встановлені \n"
-"на цій системі. Ми виявили такі порушення:\n"
-"\n"
 
 #: warnquota.c:69
 #, c-format
-msgid ""
-"\n"
-"Please cleanup the group data before the grace period expires.\n"
-"\n"
+msgid "\n"
+"Please cleanup the group data before the grace period expires.\n\n"
 "Basically, this means that the system thinks group is using more disk space\n"
 "on the above partition(s) than it is allowed.  If you do not delete files\n"
 "and get below group quota before the grace period expires, the system will\n"
 "prevent you and other members of the group from creating new files owned by\n"
-"the group.\n"
-"\n"
+"the group.\n\n"
 "For additional assistance, please contact us at %s\n"
 "or via phone at %s.\n"
 msgstr ""
-"\n"
-"Будь ласка, очистіть дані групи до закінчення пільгового періоду. \n"
-"\n"
-"У принципі, це означає, що система вважає, що група використовує \n"
-"більше дискового простору на наведених вище розділах, ніж це \n"
-"дозволено. Якщо ви не видалите файли та перевищуватимите квоту\n"
-"по закінченню пільгового періоду, система не дозволить вам та іншим \n"
-"членам групи створювати нові файли, що належать цій групі.\n"
-"\n"
-"Щоб отримати додаткову допомогу, зв'яжіться з нами на %s\n"
-"або по телефону на %s.\n"
 
 #: warnquota.c:188
 #, c-format
 msgid "ldap_initialize() failed: %s\n"
-msgstr "збій ldap_initialize(): %s\n"
+msgstr ""
 
 #: warnquota.c:197
 #, c-format
 msgid "ldap_start_tls_s() failed: %s\n"
-msgstr "збій ldap_start_tls_s(): %s\n"
+msgstr ""
 
 #: warnquota.c:203
 #, c-format
 msgid "ldap_sasl_bind_s() failed: %s\n"
-msgstr "збій ldap_sasl_bind_s(): %s\n"
+msgstr ""
 
 #: warnquota.c:218
 #, c-format
 msgid "Cannot get name for uid/gid %u.\n"
-msgstr "Неможливо отримати назву для uid/gid %u.\n"
+msgstr ""
 
 #: warnquota.c:302
 #, c-format
 msgid "Cannot create pipe: %s\n"
-msgstr "Неможливо створити канал: %s\n"
+msgstr ""
 
 #: warnquota.c:308
 #, c-format
 msgid "Cannot fork: %s\n"
-msgstr "Неможливо створити відгалуження: %s\n"
+msgstr ""
 
 #: warnquota.c:313
 #, c-format
 msgid "Cannot duplicate descriptor: %s\n"
-msgstr "Неможливо дублювати дескриптор: %s\n"
+msgstr ""
 
 #: warnquota.c:317
 #, c-format
 msgid "Cannot execute '%s': %s\n"
-msgstr "Неможливо виконати «%s»: %s\n"
+msgstr ""
 
 #: warnquota.c:322
 #, c-format
 msgid "Cannot open pipe: %s\n"
-msgstr "Неможливо відкрити канал: %s\n"
+msgstr ""
 
 #: warnquota.c:400
 msgid "Could not setup ldap connection.\n"
-msgstr "Неможливо налаштувати з'єднання ldap.\n"
+msgstr ""
 
 #: warnquota.c:417
 #, c-format
-msgid ""
-"Could not format LDAP search filter for %s user and %s search attribute due "
-"to excessive length.\n"
+msgid "Could not format LDAP search filter for %s user and %s search attribute due to excessive length.\n"
 msgstr ""
 
 #: warnquota.c:428
 #, c-format
 msgid "Error with %s.\n"
-msgstr "Помилка з %s.\n"
+msgstr ""
 
 #: warnquota.c:429
 #, c-format
 msgid "ldap_search_ext_s() failed: %s\n"
-msgstr "збій ldap_search_ext_s(): %s\n"
+msgstr ""
 
 #: warnquota.c:435
 #, c-format
 msgid "Multiple entries found for client %s (%d).\n"
-msgstr "Кілька записів знайдено для клієнта %s (%d).\n"
+msgstr ""
 
 #: warnquota.c:439
 #, c-format
 msgid "Entry not found for client %s.\n"
-msgstr "Не знайдено записів для клієнта %s.\n"
+msgstr ""
 
 #: warnquota.c:449
 #, c-format
 msgid "Could not get values for %s.\n"
-msgstr "Неможливо отримати значення для %s.\n"
+msgstr ""
 
 #: warnquota.c:495
 #, c-format
 msgid "Administrator for a group %s not found. Cancelling mail.\n"
 msgstr ""
-"Адміністратора для групи %s не знайдено. Скасовуємо поштове повідомлення.\n"
 
 #: warnquota.c:547
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "                        Block limits               File limits\n"
 msgstr ""
-"\n"
-"                        Обмеження блоку               Обмеження файлу\n"
 
 #: warnquota.c:548
 #, c-format
-msgid ""
-"Filesystem           used    soft    hard  grace    used  soft  hard  grace\n"
+msgid "Filesystem           used    soft    hard  grace    used  soft  hard  grace\n"
 msgstr ""
 
 #: warnquota.c:588
 #, c-format
 msgid "Cannot wait for mailer: %s\n"
-msgstr "Не можу чекати поштової програми: %s\n"
+msgstr ""
 
 #: warnquota.c:590
 msgid "Warning: Mailer exitted abnormally.\n"
@@ -321,17 +253,14 @@ msgstr ""
 
 #: warnquota.c:647
 #, c-format
-msgid ""
-"Cannot open %s: %s\n"
+msgid "Cannot open %s: %s\n"
 "Will use device names.\n"
 msgstr ""
-"Неможливо відкрити %s: %s\n"
-"Будуть використовуватись назви пристроїв.\n"
 
 #: warnquota.c:670
 #, c-format
 msgid "Cannot parse line %d in quotatab (missing ':')\n"
-msgstr "Неможливо розібрати рядок %d в quotatab (пропущена ':')\n"
+msgstr ""
 
 #: warnquota.c:684
 #, c-format
@@ -340,35 +269,34 @@ msgstr ""
 
 #: warnquota.c:704
 #, c-format
-msgid ""
-"Incorrect format string for variable %s.\n"
+msgid "Incorrect format string for variable %s.\n"
 "Unrecognized expression %%%c.\n"
 msgstr ""
 
 #: warnquota.c:755
 #, c-format
 msgid "Cannot open %s: %s\n"
-msgstr "Неможливо відкрити %s: %s\n"
+msgstr ""
 
 #: warnquota.c:775
 #, c-format
 msgid "Line %d too long. Truncating.\n"
-msgstr "Рядок %d задовгий. Виконуємо скорочення.\n"
+msgstr ""
 
 #: warnquota.c:841
 #, c-format
 msgid "Cannot parse time at CC_BEFORE variable (line %d).\n"
-msgstr "Неможливо розібрати час у зсінній CC_BEFORE (рядок %d).\n"
+msgstr ""
 
 #: warnquota.c:891
 #, c-format
 msgid "Error in config file (line %d), ignoring\n"
-msgstr "Помилка в файлі конфігурації (рядок %d), ігноруємо\n"
+msgstr ""
 
 #: warnquota.c:894
 #, c-format
 msgid "Possible error in config file (line %d), ignoring\n"
-msgstr "Можлива помилка в файлі конфігурації (рядок %d), ігноруємо\n"
+msgstr ""
 
 #: warnquota.c:897
 msgid "Unterminated last line, ignoring\n"
@@ -381,16 +309,14 @@ msgstr ""
 
 #: warnquota.c:910
 #, c-format
-msgid ""
-"LDAP library version >= 2.3 detected. Please use LDAP_URI instead of "
-"hostname and port.\n"
+msgid "LDAP library version >= 2.3 detected. Please use LDAP_URI instead of hostname and port.\n"
 "Generated URI %s\n"
 msgstr ""
 
 #: warnquota.c:932
 #, c-format
 msgid "Cannot open file with group administrators: %s\n"
-msgstr "Неможливо відкрити файл з адміністраторами групи: %s\n"
+msgstr ""
 
 #: warnquota.c:947
 #, c-format
@@ -404,27 +330,19 @@ msgstr ""
 
 #: warnquota.c:966
 #, c-format
-msgid ""
-"Parse error at line %d. Trailing characters after administrators name.\n"
+msgid "Parse error at line %d. Trailing characters after administrators name.\n"
 msgstr ""
 
 #: warnquota.c:1029
-msgid ""
-"Usage:\n"
-"  warnquota [-ugsid] [-F quotaformat] [-c configfile] [-q quotatabfile] [-a "
-"adminsfile] [filesystem...]\n"
-"\n"
+msgid "Usage:\n"
+"  warnquota [-ugsid] [-F quotaformat] [-c configfile] [-q quotatabfile] [-a adminsfile] [filesystem...]\n\n"
 "-u, --user                      warn users\n"
 "-g, --group                     warn groups\n"
-"-s, --human-readable[=units]    display numbers in human friendly units "
-"(MB,\n"
+"-s, --human-readable[=units]    display numbers in human friendly units (MB,\n"
 "                                GB, ...). Units can be also specified\n"
-"                                explicitely by an optional argument in "
-"format\n"
-"                                [kgt],[kgt] where the first character "
-"specifies\n"
-"                                space units and the second character "
-"specifies\n"
+"                                explicitely by an optional argument in format\n"
+"                                [kgt],[kgt] where the first character specifies\n"
+"                                space units and the second character specifies\n"
 "                                inode units\n"
 "-i, --no-autofs                 avoid autofs mountpoints\n"
 "-d, --no-details                do not send quota information itself\n"
@@ -433,8 +351,7 @@ msgid ""
 "-q, --quota-tab=quotatab-file   non-default quotatab\n"
 "-a, --admins-file=admins-file   non-default admins file\n"
 "-h, --help                      display this help message and exit\n"
-"-v, --version                   display version information and exit\n"
-"\n"
+"-v, --version                   display version information and exit\n\n"
 msgstr ""
 
 #: warnquota.c:1102 repquota.c:134 quota.c:343
@@ -449,7 +366,7 @@ msgstr ""
 
 #: quotacheck.c:92
 msgid "Not enough memory.\n"
-msgstr "Недостатньо пам’яті.\n"
+msgstr ""
 
 #: quotacheck.c:124
 #, c-format
@@ -464,7 +381,7 @@ msgstr ""
 #: quotacheck.c:253
 #, c-format
 msgid "Cannot open file %s: %s\n"
-msgstr "Неможливо відкрити файл %s: %s\n"
+msgstr ""
 
 #: quotacheck.c:258
 msgid "Cannot get exact used space... Results might be inaccurate.\n"
@@ -472,10 +389,8 @@ msgstr ""
 
 #: quotacheck.c:296
 #, c-format
-msgid ""
-"Utility for checking and repairing quota files.\n"
-"%s [-gucbfinvdmMR] [-F <quota-format>] filesystem|-a\n"
-"\n"
+msgid "Utility for checking and repairing quota files.\n"
+"%s [-gucbfinvdmMR] [-F <quota-format>] filesystem|-a\n\n"
 "-u, --user                check user files\n"
 "-g, --group               check group files\n"
 "-c, --create-files        create new quota files\n"
@@ -492,8 +407,7 @@ msgid ""
 "-F, --format=formatname   check quota files of specific format\n"
 "-a, --all                 check all filesystems\n"
 "-h, --help                display this message and exit\n"
-"-V, --version             display version information and exit\n"
-"\n"
+"-V, --version             display version information and exit\n\n"
 msgstr ""
 
 #: quotacheck.c:427
@@ -547,15 +461,13 @@ msgstr ""
 
 #: quotacheck.c:527
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "Cannot open directory %s: %s\n"
 msgstr ""
 
 #: quotacheck.c:539
 #, c-format
-msgid ""
-"lstat: Cannot stat `%s/%s': %s\n"
+msgid "lstat: Cannot stat `%s/%s': %s\n"
 "Guess you'd better run fsck first !\n"
 "exiting...\n"
 msgstr ""
@@ -563,7 +475,7 @@ msgstr ""
 #: quotacheck.c:551
 #, c-format
 msgid "pushd %s/%s\n"
-msgstr "pushd %s/%s\n"
+msgstr ""
 
 #: quotacheck.c:567
 #, c-format
@@ -576,8 +488,7 @@ msgstr ""
 
 #: quotacheck.c:581
 #, c-format
-msgid ""
-"popd %s\n"
+msgid "popd %s\n"
 "Entering directory %s\n"
 msgstr ""
 
@@ -593,9 +504,7 @@ msgstr ""
 
 #: quotacheck.c:639
 #, c-format
-msgid ""
-"Quota for %ss is enabled on mountpoint %s so quotacheck might damage the "
-"file.\n"
+msgid "Quota for %ss is enabled on mountpoint %s so quotacheck might damage the file.\n"
 msgstr ""
 
 #: quotacheck.c:640 quotacheck.c:967
@@ -609,26 +518,24 @@ msgstr ""
 
 #: quotacheck.c:646
 #, c-format
-msgid ""
-"Quota for %ss is enabled on mountpoint %s so quotacheck might damage the "
-"file.\n"
+msgid "Quota for %ss is enabled on mountpoint %s so quotacheck might damage the file.\n"
 "Please turn quotas off or use -f to force checking.\n"
 msgstr ""
 
 #: quotacheck.c:653
 #, c-format
 msgid "Error while syncing quotas on %s: %s\n"
-msgstr "Помилка при синхронізації квот в %s: %s\n"
+msgstr ""
 
 #: quotacheck.c:658
 #, c-format
 msgid "Cannot get quotafile name for %s\n"
-msgstr "Неможливо отримати ім’я файлу квот для %s\n"
+msgstr ""
 
 #: quotacheck.c:663 quotaio.c:151 quotasys.c:843
 #, c-format
 msgid "Cannot open quotafile %s: %s\n"
-msgstr "Неможливо відкрити файл квот %s: %s\n"
+msgstr ""
 
 #: quotacheck.c:703
 msgid "Renaming new files to proper names.\n"
@@ -641,21 +548,21 @@ msgstr ""
 
 #: quotacheck.c:708
 msgid "Old file not found.\n"
-msgstr "Старий файл не знайдений.\n"
+msgstr ""
 
 #: quotacheck.c:711
 #, c-format
 msgid "Error while searching for old quota file %s: %s\n"
-msgstr "Помилка пошуку старого файлу квот %s: %s\n"
+msgstr ""
 
 #: quotacheck.c:720
 msgid "Old file found removed during check!\n"
-msgstr "Старий файл вилучений під час перевірки!\n"
+msgstr ""
 
 #: quotacheck.c:723
 #, c-format
 msgid "Error while opening old quota file %s: %s\n"
-msgstr "Помилка відкриття старого файлу квот %s: %s\n"
+msgstr ""
 
 #: quotacheck.c:729
 #, c-format
@@ -665,46 +572,46 @@ msgstr ""
 #: quotacheck.c:733
 #, c-format
 msgid "Quota file %s has IMMUTABLE flag set. Clearing.\n"
-msgstr "Файл квот %s мав прапор IMMUTABLE. Виправлено.\n"
+msgstr ""
 
 #: quotacheck.c:736
 #, c-format
 msgid "Failed to remove IMMUTABLE flag from quota file %s: %s\n"
-msgstr "Помилка вилучення прапора IMMUTABLE з файлу квот %s: %s\n"
+msgstr ""
 
 #: quotacheck.c:745
 #, c-format
 msgid "Renaming old quotafile to %s~\n"
-msgstr "Перейменування старого файлу квот на %s~\n"
+msgstr ""
 
 #: quotacheck.c:751
 #, c-format
 msgid "Name of quota file too long. Contact %s.\n"
-msgstr "Ім'я файлу  квот задовге. Контакт %s.\n"
+msgstr ""
 
 #: quotacheck.c:753
 #, c-format
 msgid "Cannot rename old quotafile %s to %s: %s\n"
-msgstr "Неможливо перейменувати старий файл квот %s в %s: %s\n"
+msgstr ""
 
 #: quotacheck.c:759
 msgid "Renaming new quotafile\n"
-msgstr "Перейменування нового файлу квот\n"
+msgstr ""
 
 #: quotacheck.c:771
 #, c-format
 msgid "Cannot change permission of %s: %s\n"
-msgstr "Неможливо змінити права до %s: %s\n"
+msgstr ""
 
 #: quotacheck.c:778
 #, c-format
 msgid "Cannot open new quota file %s: %s\n"
-msgstr "Неможливо відкрити новий файл квот %s: %s\n"
+msgstr ""
 
 #: quotacheck.c:783
 #, c-format
 msgid "Warning: Cannot set EXT2 flags on %s: %s\n"
-msgstr "Попередження: Неможливо встановити прапор EXT2 на %s: %s\n"
+msgstr ""
 
 #: quotacheck.c:803
 #, c-format
@@ -737,15 +644,13 @@ msgstr ""
 
 #: quotacheck.c:854
 #, c-format
-msgid ""
-"Cannot turn %s quotas off on %s: %s\n"
+msgid "Cannot turn %s quotas off on %s: %s\n"
 "Kernel won't know about changes quotacheck did.\n"
 msgstr ""
 
 #: quotacheck.c:867
 #, c-format
-msgid ""
-"Cannot turn %s quotas on on %s: %s\n"
+msgid "Cannot turn %s quotas on on %s: %s\n"
 "Kernel won't know about changes quotacheck did.\n"
 msgstr ""
 
@@ -756,8 +661,7 @@ msgstr ""
 
 #: quotacheck.c:895
 #, c-format
-msgid ""
-"Old %s file name could not been determined. Usage will not be subtracted.\n"
+msgid "Old %s file name could not been determined. Usage will not be subtracted.\n"
 msgstr ""
 
 #: quotacheck.c:900
@@ -767,9 +671,7 @@ msgstr ""
 
 #: quotacheck.c:912
 #, c-format
-msgid ""
-"Quota structure for %s owning quota file not present! Something is really "
-"wrong...\n"
+msgid "Quota structure for %s owning quota file not present! Something is really wrong...\n"
 msgstr ""
 
 #: quotacheck.c:917
@@ -785,36 +687,31 @@ msgstr ""
 #: quotacheck.c:933
 #, c-format
 msgid "Mountpoint %s is not a directory?!\n"
-msgstr "Точка монтування %s не є директорією?!\n"
+msgstr ""
 
 #: quotacheck.c:966
 #, c-format
-msgid ""
-"Cannot remount filesystem mounted on %s read-only. Counted values might not "
-"be right.\n"
+msgid "Cannot remount filesystem mounted on %s read-only. Counted values might not be right.\n"
 msgstr ""
 
 #: quotacheck.c:974
 #, c-format
-msgid ""
-"Cannot remount filesystem mounted on %s read-only so counted values might "
-"not be right.\n"
-"Please stop all programs writing to filesystem or use -m flag to force "
-"checking.\n"
+msgid "Cannot remount filesystem mounted on %s read-only so counted values might not be right.\n"
+"Please stop all programs writing to filesystem or use -m flag to force checking.\n"
 msgstr ""
 
 #: quotacheck.c:982
 msgid "Filesystem remounted read-only\n"
-msgstr "Файлова система перемонтована у режим \"лише читання\"\n"
+msgstr ""
 
 #: quotacheck.c:985
 #, c-format
 msgid "Scanning %s [%s] "
-msgstr "Сканування %s [%s] "
+msgstr ""
 
 #: quotacheck.c:1011
 msgid "done\n"
-msgstr "виконано\n"
+msgstr ""
 
 #: quotacheck.c:1020
 #, c-format
@@ -823,11 +720,8 @@ msgstr ""
 
 #: quotacheck.c:1024
 #, c-format
-msgid ""
-"Cannot remount filesystem %s read-write. cannot write new quota files.\n"
+msgid "Cannot remount filesystem %s read-write. cannot write new quota files.\n"
 msgstr ""
-"Неможливо перемонтувати файлову систему %s у режим \"читання-запису\". "
-"Помилка запису нових файлів квот.\n"
 
 #: quotacheck.c:1025
 msgid "Filesystem remounted RW.\n"
@@ -846,13 +740,10 @@ msgstr ""
 #: quotacheck.c:1141
 #, c-format
 msgid "Cannot get system info: %s\n"
-msgstr "Неможливо отримати системну інформацію: %s\n"
+msgstr ""
 
 #: quotacheck.c:1161
-msgid ""
-"Your kernel probably supports journaled quota but you are not using it. "
-"Consider switching to journaled quota to avoid running quotacheck after an "
-"unclean shutdown.\n"
+msgid "Your kernel probably supports journaled quota but you are not using it. Consider switching to journaled quota to avoid running quotacheck after an unclean shutdown.\n"
 msgstr ""
 
 #: quotacheck.c:1175 quotasys.c:933
@@ -862,30 +753,25 @@ msgstr ""
 #: quotacheck.c:1180
 #, c-format
 msgid "Skipping %s [%s]\n"
-msgstr "Пропущений %s [%s]\n"
+msgstr ""
 
 #: quotacheck.c:1197
 #, c-format
-msgid ""
-"Cannot guess format from filename on %s. Please specify format on "
-"commandline.\n"
+msgid "Cannot guess format from filename on %s. Please specify format on commandline.\n"
 msgstr ""
 
 #: quotacheck.c:1202
 #, c-format
 msgid "Detected quota format %s\n"
-msgstr "Визначено формат квот %s\n"
+msgstr ""
 
 #: quotacheck.c:1223
-msgid ""
-"Cannot find filesystem to check or filesystem not mounted with quota "
-"option.\n"
+msgid "Cannot find filesystem to check or filesystem not mounted with quota option.\n"
 msgstr ""
 
 #: quotacheck.c:1241
 #, c-format
-msgid ""
-"Allocated %d bytes memory\n"
+msgid "Allocated %d bytes memory\n"
 "Free'd %d bytes\n"
 "Lost %d bytes\n"
 msgstr ""
@@ -893,52 +779,52 @@ msgstr ""
 #: quot.c:82
 #, c-format
 msgid "Usage: %s [-acfugvViTq] [filesystem...]\n"
-msgstr "Використання: %s [-acfugvViTq] [filesystem...]\n"
+msgstr ""
 
 #: quot.c:180
 #, c-format
 msgid "%s (%s):\n"
-msgstr "%s (%s):\n"
+msgstr ""
 
 #: quot.c:184 quot.c:188
 #, c-format
 msgid "%d\t%llu\t%llu\n"
-msgstr "%d\t%llu\t%llu\n"
+msgstr ""
 
 #: quot.c:197
 #, c-format
 msgid "%s (%s) %ss:\n"
-msgstr "%s (%s) %ss:\n"
+msgstr ""
 
 #: quot.c:205 quot.c:207
 #, c-format
 msgid "%8llu    "
-msgstr "%8llu    "
+msgstr ""
 
 #: quot.c:210
 #, c-format
 msgid "%s"
-msgstr "%s"
+msgstr ""
 
 #: quot.c:212
 #, c-format
 msgid "%-8.8s"
-msgstr "%-8.8s"
+msgstr ""
 
 #: quot.c:214
 #, c-format
 msgid "#%-7d"
-msgstr "#%-7d"
+msgstr ""
 
 #: quot.c:216
 #, c-format
 msgid "    %8llu    %8llu    %8llu"
-msgstr "    %8llu    %8llu    %8llu"
+msgstr ""
 
 #: quot.c:364
 #, c-format
 msgid "cannot open %s: %s\n"
-msgstr "не вдалося відкрити %s: %s\n"
+msgstr ""
 
 #: quot.c:384
 #, c-format
@@ -947,25 +833,21 @@ msgstr ""
 
 #: quotasync.c:29
 #, c-format
-msgid ""
-"%1$s: Utility for syncing quotas.\n"
+msgid "%1$s: Utility for syncing quotas.\n"
 "Usage: %1$s [-ugP] mount-point...\n"
 "   or: %1$s [-ugP] -a\n"
-"   or: %1$s -h | -V\n"
-"\n"
+"   or: %1$s -h | -V\n\n"
 msgstr ""
 
 #: quotasync.c:36
 #, c-format
-msgid ""
-"Options:\n"
+msgid "Options:\n"
 "-u, --user     synchronize user quotas\n"
 "-g, --group    synchronize group quotas\n"
 "-P, --project  synchronize project quotas\n"
 "-a, --all      synchronize quotas for all mounted file systems\n"
 "-h, --help     display this help message and exit\n"
-"-V, --version  display version information and exit\n"
-"\n"
+"-V, --version  display version information and exit\n\n"
 msgstr ""
 
 #: quotasync.c:45
@@ -1001,48 +883,33 @@ msgstr ""
 
 #: quota_nld.c:85
 #, c-format
-msgid ""
-"Usage: %s [options]\n"
+msgid "Usage: %s [options]\n"
 "Options are:\n"
 " -h --help         shows this text\n"
 " -V --version      shows version information\n"
 " -C --no-console   do not try to write messages to console\n"
-" -b --print-below  write to console also information about getting below "
-"hard/soft limits\n"
+" -b --print-below  write to console also information about getting below hard/soft limits\n"
 " -D --no-dbus      do not try to write messages to DBUS\n"
 " -F --foreground   run daemon in foreground\n"
 msgstr ""
-"Використання: %s [параметри]\n"
-"Параметри:\n"
-"-h --help показати цей текст\n"
-"-V --version показати інформацію про версію\n"
-"-C --no-console не намагатися виводити повідомлення у консоль\n"
-"-b --print-below виводити у консоль також інформацію про отримання "
-"апаратних/програмних лімітів\n"
-"-D --no-dbus не намагатися виводити повідомлення у DBUS\n"
-"-F --foreground запуск демону з високим пріоритетом\n"
 
 #: quota_nld.c:119 rquota_svc.c:158
 #, c-format
 msgid "Unknown option '%c'.\n"
-msgstr "Невідома опція '%c'.\n"
+msgstr ""
 
 #: quota_nld.c:125
 msgid "No possible destination for messages. Nothing to do.\n"
 msgstr ""
-"Немає можливого призначення для повідомлень. Немає чого виконувати.\n"
 
 #: quota_nld.c:151
 msgid "Error parsing netlink message.\n"
-msgstr "Помилка розшифровування netlink-повідомлення.\n"
+msgstr ""
 
 #: quota_nld.c:158
-msgid ""
-"Unknown format of kernel netlink message!\n"
+msgid "Unknown format of kernel netlink message!\n"
 "Maybe your quota tools are too old?\n"
 msgstr ""
-"Невідомий формат netlink-повідомлення ядра!\n"
-"Можливо ваші програми керування квотами надто застаріли?\n"
 
 #: quota_nld.c:182
 msgid "Cannot allocate netlink socket!\n"
@@ -1051,64 +918,61 @@ msgstr ""
 #: quota_nld.c:188
 #, c-format
 msgid "Cannot register callback for netlink messages: %s\n"
-msgstr "Неможливо зареєструвати callback для netlink-повідомлень: %s\n"
+msgstr ""
 
 #: quota_nld.c:193
 #, c-format
 msgid "Cannot connect to netlink socket: %s\n"
-msgstr "Неможливо з’єднатися з netlink-сокетом: %s\n"
+msgstr ""
 
 #: quota_nld.c:205
 #, c-format
 msgid "Cannot resolve quota netlink name: %s\n"
-msgstr "Неможливо отримати ім’я мережевої адреси квоти: %s\n"
+msgstr ""
 
 #: quota_nld.c:211
 #, c-format
 msgid "Cannot join quota multicast group: %s\n"
-msgstr "Неможливо приєднатися до multicast-групи квот: %s\n"
+msgstr ""
 
 #: quota_nld.c:224
 #, c-format
 msgid "Cannot connect to system DBUS: %s\n"
-msgstr "Неможливо з’єднатися з системою DBUS: %s\n"
+msgstr ""
 
 #: quota_nld.c:292
 #, c-format
 msgid "Failed to find tty of user %llu to report warning to.\n"
 msgstr ""
-"Помилка пошуку tty користувача %llu для відправлення йому попередження.\n"
 
 #: quota_nld.c:297
 #, c-format
 msgid "Failed to open tty %s of user %llu to report warning.\n"
 msgstr ""
-"Помилка відкриття tty %s користувача %llu для відправлення йому "
-"попередження.\n"
 
 #: quota_nld.c:303
 msgid "Warning"
-msgstr "Попередження"
+msgstr ""
 
 #: quota_nld.c:306
 msgid "Error"
-msgstr "Помилка"
+msgstr ""
 
 #: quota_nld.c:308
 msgid "Info"
-msgstr "Інформація"
+msgstr ""
 
 #: quota_nld.c:311
 msgid "file limit reached"
-msgstr "досягнуто ліміт файлів"
+msgstr ""
 
 #: quota_nld.c:314
 msgid "file quota exceeded too long"
-msgstr "файлова квота задовго була перевищена"
+msgstr ""
 
 #: quota_nld.c:317
 msgid "file quota exceeded"
-msgstr "файлова квота перевищена"
+msgstr ""
 
 #: quota_nld.c:320
 msgid "block limit reached"
@@ -1145,21 +1009,20 @@ msgstr ""
 #: quota_nld.c:345
 #, c-format
 msgid "Failed to write quota message for user %llu to %s: %s\n"
-msgstr "Не вдалося записати повідомлення квоти користувачу %llu в %s: %s\n"
+msgstr ""
 
 #: quota_nld.c:358
 msgid "Cannot create DBUS message: No enough memory.\n"
-msgstr "Неможливо створити DBUS-повідомлення: Недостатньо пам’яті.\n"
+msgstr ""
 
 #: quota_nld.c:376
 msgid "Failed to write message to dbus: No enough memory.\n"
-msgstr "Не вдалося написати повідомлення dbus: Недостатньо пам’яті.\n"
+msgstr ""
 
 #: quota_nld.c:392
 #, c-format
 msgid "Failed to read or parse quota netlink message: %s\n"
 msgstr ""
-"Не вдалося прочитати або розібрати повідомлення мережевої адреси квоти: %s\n"
 
 #: quota_nld.c:403
 msgid "Undefined program name.\n"
@@ -1200,24 +1063,17 @@ msgstr ""
 
 #: repquota.c:51
 #, c-format
-msgid ""
-"Utility for reporting quotas.\n"
+msgid "Utility for reporting quotas.\n"
 "Usage:\n"
-"%s [-vugsi] [-c|C] [-t|n] [-F quotaformat] [-O (default | xml | csv)] (-a | "
-"mntpoint)\n"
-"\n"
+"%s [-vugsi] [-c|C] [-t|n] [-F quotaformat] [-O (default | xml | csv)] (-a | mntpoint)\n\n"
 "-v, --verbose                 display also users/groups without any usage\n"
 "-u, --user                    display information about users\n"
 "-g, --group                   display information about groups\n"
 "-P, --project                 display information about projects\n"
-"-s, --human-readable[=units]  display numbers in human friendly units (MB, "
-"GB,\n"
-"                              ...). Units can be also specified explicitely "
-"by\n"
-"                              an optional argument in format [kgt],[kgt] "
-"where\n"
-"                              the first character specifies space units and "
-"the\n"
+"-s, --human-readable[=units]  display numbers in human friendly units (MB, GB,\n"
+"                              ...). Units can be also specified explicitely by\n"
+"                              an optional argument in format [kgt],[kgt] where\n"
+"                              the first character specifies space units and the\n"
 "                              second character specifies inode units\n"
 "-t, --truncate-names          truncate names to 9 characters\n"
 "-p, --raw-grace               print grace time in seconds since epoch\n"
@@ -1230,8 +1086,7 @@ msgid ""
 "-a, --all                     report information for all mount points with\n"
 "                              quotas\n"
 "-h, --help                    display this help message and exit\n"
-"-V, --version                 display version information and exit\n"
-"\n"
+"-V, --version                 display version information and exit\n\n"
 msgstr ""
 
 #: repquota.c:167
@@ -1244,11 +1099,11 @@ msgstr ""
 
 #: repquota.c:375
 msgid "User"
-msgstr "Кристувач"
+msgstr ""
 
 #: repquota.c:377
 msgid "Group"
-msgstr "Група"
+msgstr ""
 
 #: repquota.c:379
 msgid "Project"
@@ -1265,7 +1120,7 @@ msgstr ""
 
 #: repquota.c:393
 msgid "Block"
-msgstr "Блок"
+msgstr ""
 
 #: repquota.c:394
 #, c-format
@@ -1303,9 +1158,7 @@ msgstr ""
 
 #: quotacheck_v1.c:72
 #, c-format
-msgid ""
-"WARNING - Quotafile %s was probably truncated. Cannot save quota "
-"settings...\n"
+msgid "WARNING - Quotafile %s was probably truncated. Cannot save quota settings...\n"
 msgstr ""
 
 #: quotacheck_v1.c:78
@@ -1314,18 +1167,16 @@ msgstr ""
 
 #: quotacheck_v2.c:55
 msgid "Checking quotafile info...\n"
-msgstr "Перевірка інформації файлу квот...\n"
+msgstr ""
 
 #: quotacheck_v2.c:60
 #, c-format
 msgid "Cannot read info from quota file %s: %s\n"
-msgstr "Неможливо прочитати інформацію з файлу квот %s: %s\n"
+msgstr ""
 
 #: quotacheck_v2.c:65
 #, c-format
-msgid ""
-"WARNING - Quota file %s was probably truncated. Cannot save quota "
-"settings...\n"
+msgid "WARNING - Quota file %s was probably truncated. Cannot save quota settings...\n"
 msgstr ""
 
 #: quotacheck_v2.c:77
@@ -1334,15 +1185,13 @@ msgstr ""
 
 #: quotacheck_v2.c:78
 #, c-format
-msgid ""
-"Size of file: %lu\n"
+msgid "Size of file: %lu\n"
 "Blocks: %u Free block: %u Block with free entry: %u Flags: %x\n"
 msgstr ""
 
 #: quotacheck_v2.c:85
 #, c-format
-msgid ""
-"Setting grace times and other flags to default values.\n"
+msgid "Setting grace times and other flags to default values.\n"
 "Assuming number of blocks is %u.\n"
 msgstr ""
 
@@ -1352,12 +1201,12 @@ msgstr ""
 
 #: quotacheck_v2.c:113
 msgid "Corrupted blocks: "
-msgstr "Пошкоджені блоки: "
+msgstr ""
 
 #: quotacheck_v2.c:117
 #, c-format
 msgid "Block %u: "
-msgstr "Блок %u: "
+msgstr ""
 
 #: quotacheck_v2.c:179
 msgid "Duplicated entries."
@@ -1365,16 +1214,12 @@ msgstr ""
 
 #: quotacheck_v2.c:183
 #, c-format
-msgid ""
-"Found more structures for ID %u. Using values: BHARD: %lld BSOFT: %lld "
-"IHARD: %lld ISOFT: %lld\n"
+msgid "Found more structures for ID %u. Using values: BHARD: %lld BSOFT: %lld IHARD: %lld ISOFT: %lld\n"
 msgstr ""
 
 #: quotacheck_v2.c:191
 #, c-format
-msgid ""
-"Found more structures for ID %u. Values: BHARD: %lld/%lld BSOFT: %lld/%lld "
-"IHARD: %lld/%lld ISOFT: %lld/%lld\n"
+msgid "Found more structures for ID %u. Values: BHARD: %lld/%lld BSOFT: %lld/%lld IHARD: %lld/%lld ISOFT: %lld/%lld\n"
 msgstr ""
 
 #: quotacheck_v2.c:196
@@ -1383,9 +1228,7 @@ msgstr ""
 
 #: quotacheck_v2.c:206
 #, c-format
-msgid ""
-"ID %u has more structures. User intervention needed (use -i for interactive "
-"mode or -n for automatic answer).\n"
+msgid "ID %u has more structures. User intervention needed (use -i for interactive mode or -n for automatic answer).\n"
 msgstr ""
 
 #: quotacheck_v2.c:243
@@ -1415,9 +1258,7 @@ msgstr ""
 
 #: quotacheck_v2.c:330
 #, c-format
-msgid ""
-"Quota file %s has corrupted headers. You have to specify quota format on "
-"command line.\n"
+msgid "Quota file %s has corrupted headers. You have to specify quota format on command line.\n"
 msgstr ""
 
 #: quotacheck_v2.c:346
@@ -1431,9 +1272,7 @@ msgstr ""
 
 #: quotacheck_v2.c:352
 #, c-format
-msgid ""
-"WARNING -  Quotafile %s was probably truncated. Cannot save quota "
-"settings...\n"
+msgid "WARNING -  Quotafile %s was probably truncated. Cannot save quota settings...\n"
 msgstr ""
 
 #: quotacheck_v2.c:358
@@ -1447,9 +1286,7 @@ msgstr ""
 
 #: quotacheck_v2.c:365
 #, c-format
-msgid ""
-"Quota file format version %d does not match the one specified on command "
-"line (%d). Quota file header may be corrupted.\n"
+msgid "Quota file format version %d does not match the one specified on command line (%d). Quota file header may be corrupted.\n"
 msgstr ""
 
 #: quotacheck_v2.c:370
@@ -1531,8 +1368,7 @@ msgstr ""
 
 #: quotaio.c:213
 #, c-format
-msgid ""
-"Quota on %s is stored in system files and must be manipulated by fs tools.\n"
+msgid "Quota on %s is stored in system files and must be manipulated by fs tools.\n"
 msgstr ""
 
 #: quotaio.c:223
@@ -1542,14 +1378,12 @@ msgstr ""
 
 #: quotaio.c:297
 #, c-format
-msgid ""
-"Trying to set quota limits out of range supported by quota format on %s.\n"
+msgid "Trying to set quota limits out of range supported by quota format on %s.\n"
 msgstr ""
 
 #: quotaio.c:303
 #, c-format
-msgid ""
-"Trying to set quota usage out of range supported by quota format on %s.\n"
+msgid "Trying to set quota usage out of range supported by quota format on %s.\n"
 msgstr ""
 
 #: quotaio_generic.c:54
@@ -1577,9 +1411,7 @@ msgid "Metadata init_io called when kernel support is not enabled.\n"
 msgstr ""
 
 #: quotaio_meta.c:27
-msgid ""
-"Metadata init_io called when kernel does not support generic quota "
-"interface!\n"
+msgid "Metadata init_io called when kernel does not support generic quota interface!\n"
 msgstr ""
 
 #: quotaio_rpc.c:77 quotaio_v1.c:278 quotaio_v2.c:464
@@ -1632,9 +1464,7 @@ msgstr ""
 
 #: quotaio_tree.c:468
 #, c-format
-msgid ""
-"Illegal reference (%u >= %u) in %s quota file on %s. Quota file is probably "
-"corrupted.\n"
+msgid "Illegal reference (%u >= %u) in %s quota file on %s. Quota file is probably corrupted.\n"
 "Please run quotacheck(8) and try again.\n"
 msgstr ""
 
@@ -1644,9 +1474,7 @@ msgid "Trying to write info to readonly quotafile on %s.\n"
 msgstr ""
 
 #: quotaio_v2.c:255
-msgid ""
-"Your quota file is stored in wrong endianity. Please use convertquota(8) to "
-"convert it.\n"
+msgid "Your quota file is stored in wrong endianity. Please use convertquota(8) to convert it.\n"
 msgstr ""
 
 #: quotaio_v2.c:388
@@ -1656,8 +1484,7 @@ msgstr ""
 
 #: quotaio_v2.c:518
 #, c-format
-msgid ""
-"Statistics:\n"
+msgid "Statistics:\n"
 "Total blocks: %u\n"
 "Data blocks: %u\n"
 "Entries: %u\n"
@@ -1671,11 +1498,11 @@ msgstr ""
 
 #: quotaio_xfs.c:267 quotaio_xfs.c:286
 msgid "ON"
-msgstr "УВІМК"
+msgstr ""
 
 #: quotaio_xfs.c:267 quotaio_xfs.c:286
 msgid "OFF"
-msgstr "ВИМК"
+msgstr ""
 
 #: quotaio_xfs.c:269 quotaio_xfs.c:273 quotaio_xfs.c:277
 #, c-format
@@ -1699,11 +1526,9 @@ msgstr ""
 
 #: quotaon.c:37
 #, c-format
-msgid ""
-"Usage:\n"
+msgid "Usage:\n"
 "\t%s [-guPvp] [-F quotaformat] [-x state] -a\n"
-"\t%s [-guPvp] [-F quotaformat] [-x state] filesys ...\n"
-"\n"
+"\t%s [-guPvp] [-F quotaformat] [-x state] filesys ...\n\n"
 "-a, --all                %s\n"
 "-f, --off                turn quotas off\n"
 "-u, --user               operate on user quotas\n"
@@ -1797,7 +1622,7 @@ msgstr ""
 
 #: quotaon.c:318 quotaon.c:334
 msgid "off"
-msgstr "вимк"
+msgstr ""
 
 #: quotaon.c:320
 msgid "on (accounting)"
@@ -1809,7 +1634,7 @@ msgstr ""
 
 #: quotaon.c:334
 msgid "on"
-msgstr "увімк"
+msgstr ""
 
 #: quotaon.c:336
 #, c-format
@@ -1877,9 +1702,7 @@ msgstr ""
 
 #: quotaon_xfs.c:118
 #, c-format
-msgid ""
-"Cannot delete %s quota on %s - switch quota enforcement and accounting off "
-"first\n"
+msgid "Cannot delete %s quota on %s - switch quota enforcement and accounting off first\n"
 msgstr ""
 
 #: quotaon_xfs.c:123
@@ -1934,7 +1757,7 @@ msgstr ""
 #: quotaon_xfs.c:248
 #, c-format
 msgid "Invalid argument \"%s\"\n"
-msgstr "Невірний аргумент \"%s\"\n"
+msgstr ""
 
 #: quotaops.c:82
 #, c-format
@@ -2012,9 +1835,7 @@ msgstr ""
 
 #: quotaops.c:260
 #, c-format
-msgid ""
-"  Filesystem                   blocks       soft       hard     inodes     "
-"soft     hard\n"
+msgid "  Filesystem                   blocks       soft       hard     inodes     soft     hard\n"
 msgstr ""
 
 #: quotaops.c:293
@@ -2033,8 +1854,7 @@ msgstr ""
 
 #: quotaops.c:333
 #, c-format
-msgid ""
-"Bad format:\n"
+msgid "Bad format:\n"
 "%s\n"
 msgstr ""
 
@@ -2080,8 +1900,7 @@ msgstr ""
 
 #: quotaops.c:431
 #, c-format
-msgid ""
-"  Filesystem                         block grace               inode grace\n"
+msgid "  Filesystem                         block grace               inode grace\n"
 msgstr ""
 
 #: quotaops.c:436 quotaops.c:442 quotaops.c:487 quotaops.c:500 setquota.c:288
@@ -2091,12 +1910,12 @@ msgstr ""
 
 #: quotaops.c:438 quotaops.c:444
 msgid "0seconds"
-msgstr "0секунд"
+msgstr ""
 
 #: quotaops.c:440 quotaops.c:446 quotasys.c:503
 #, c-format
 msgid "%useconds"
-msgstr "%uсекунд"
+msgstr ""
 
 #: quotaops.c:473 quotaops.c:572
 msgid "Bad format: three title lines assumed\n"
@@ -2104,8 +1923,7 @@ msgstr ""
 
 #: quotaops.c:483 quotaops.c:580
 #, c-format
-msgid ""
-"bad format:\n"
+msgid "bad format:\n"
 "%s\n"
 msgstr ""
 
@@ -2195,19 +2013,13 @@ msgstr ""
 
 #: setquota.c:59
 #, c-format
-msgid ""
-"Usage:\n"
+msgid "Usage:\n"
 "  setquota [-u|-g|-P] %1$s[-F quotaformat] <user|group|project>\n"
-"\t<block-softlimit> <block-hardlimit> <inode-softlimit> <inode-hardlimit> -"
-"a|<filesystem>...\n"
-"  setquota [-u|-g|-P] %1$s[-F quotaformat] <-p "
-"protouser|protogroup|protoproject> <user|group|project> -a|<filesystem>...\n"
+"\t<block-softlimit> <block-hardlimit> <inode-softlimit> <inode-hardlimit> -a|<filesystem>...\n"
+"  setquota [-u|-g|-P] %1$s[-F quotaformat] <-p protouser|protogroup|protoproject> <user|group|project> -a|<filesystem>...\n"
 "  setquota [-u|-g|-P] %1$s[-F quotaformat] -b [-c] -a|<filesystem>...\n"
-"  setquota [-u|-g|-P] [-F quotaformat] -t <blockgrace> <inodegrace> -"
-"a|<filesystem>...\n"
-"  setquota [-u|-g|-P] [-F quotaformat] <user|group|project> -T <blockgrace> "
-"<inodegrace> -a|<filesystem>...\n"
-"\n"
+"  setquota [-u|-g|-P] [-F quotaformat] -t <blockgrace> <inodegrace> -a|<filesystem>...\n"
+"  setquota [-u|-g|-P] [-F quotaformat] <user|group|project> -T <blockgrace> <inodegrace> -a|<filesystem>...\n\n"
 "-u, --user                 set limits for user\n"
 "-g, --group                set limits for group\n"
 "-P, --project              set limits for project\n"
@@ -2221,24 +2033,21 @@ msgid ""
 msgstr ""
 
 #: setquota.c:77
-msgid ""
-"-r, --remote               set remote quota (via RPC)\n"
+msgid "-r, --remote               set remote quota (via RPC)\n"
 "-m, --no-mixed-pathnames      trim leading slashes from NFSv4 mountpoints\n"
 msgstr ""
 
 #: setquota.c:80
-msgid ""
-"-t, --edit-period          edit grace period\n"
+msgid "-t, --edit-period          edit grace period\n"
 "-T, --edit-times           edit grace times for user/group/project\n"
 "-h, --help                 display this help text and exit\n"
-"-V, --version              display version information and exit\n"
-"\n"
+"-V, --version              display version information and exit\n\n"
 msgstr ""
 
 #: setquota.c:84 edquota.c:104 quota.c:90
 #, c-format
 msgid "Bugs to: %s\n"
-msgstr "Помилки в: %s\n"
+msgstr ""
 
 #: setquota.c:95
 #, c-format
@@ -2354,20 +2163,17 @@ msgstr ""
 
 #: setquota.c:482
 #, c-format
-msgid ""
-"Not setting block grace time on %s because softlimit is not exceeded.\n"
+msgid "Not setting block grace time on %s because softlimit is not exceeded.\n"
 msgstr ""
 
 #: setquota.c:486
 #, c-format
-msgid ""
-"Not setting inode grace time on %s because softlimit is not exceeded.\n"
+msgid "Not setting inode grace time on %s because softlimit is not exceeded.\n"
 msgstr ""
 
 #: setquota.c:497
 #, c-format
-msgid ""
-"cannot write times for %s. Maybe kernel does not support such operation?\n"
+msgid "cannot write times for %s. Maybe kernel does not support such operation?\n"
 msgstr ""
 
 #: quotasys.c:189
@@ -2387,8 +2193,7 @@ msgstr ""
 
 #: quotasys.c:370
 #, c-format
-msgid ""
-"Unknown quota format: %s\n"
+msgid "Unknown quota format: %s\n"
 "Supported formats are:\n"
 "  vfsold - original quota format\n"
 "  vfsv0 - standard quota format\n"
@@ -2399,8 +2204,7 @@ msgstr ""
 
 #: quotasys.c:397
 #, c-format
-msgid ""
-"Unknown output format: %s\n"
+msgid "Unknown output format: %s\n"
 "Supported formats are:\n"
 "  default - default\n"
 "  csv     - comma-separated values\n"
@@ -2414,59 +2218,59 @@ msgstr ""
 #: quotasys.c:491
 #, c-format
 msgid "%ddays"
-msgstr "%dдні(в)"
+msgstr ""
 
 #: quotasys.c:493
 #, c-format
 msgid "%02d:%02d"
-msgstr "%02d:%02d"
+msgstr ""
 
 #: quotasys.c:505
 #, c-format
 msgid "%uminutes"
-msgstr "%uхвилин(и)"
+msgstr ""
 
 #: quotasys.c:507
 #, c-format
 msgid "%uhours"
-msgstr "%uгодин(и)"
+msgstr ""
 
 #: quotasys.c:509
 #, c-format
 msgid "%udays"
-msgstr "%uдні(в)"
+msgstr ""
 
 #: quotasys.c:518
 msgid "second"
-msgstr "секунда"
+msgstr ""
 
 #: quotasys.c:518
 msgid "seconds"
-msgstr "секунд(и)"
+msgstr ""
 
 #: quotasys.c:520
 msgid "minute"
-msgstr "хвилина"
+msgstr ""
 
 #: quotasys.c:520
 msgid "minutes"
-msgstr "хвилин(и)"
+msgstr ""
 
 #: quotasys.c:522
 msgid "hour"
-msgstr "година"
+msgstr ""
 
 #: quotasys.c:522
 msgid "hours"
-msgstr "годин(и)"
+msgstr ""
 
 #: quotasys.c:524
 msgid "day"
-msgstr "день"
+msgstr ""
 
 #: quotasys.c:524
 msgid "days"
-msgstr "дні(в)"
+msgstr ""
 
 #: quotasys.c:582
 msgid "Integer overflow while parsing space number."
@@ -2579,8 +2383,7 @@ msgstr ""
 
 #: quotasys.c:1362
 #, c-format
-msgid ""
-"Device (%s) filesystem is mounted on unsupported device type. Skipping.\n"
+msgid "Device (%s) filesystem is mounted on unsupported device type. Skipping.\n"
 msgstr ""
 
 #: quotasys.c:1372
@@ -2590,66 +2393,54 @@ msgstr ""
 
 #: quotasys.c:1441
 #, c-format
-msgid ""
-"Cannot find a device with %s.\n"
+msgid "Cannot find a device with %s.\n"
 "Skipping...\n"
 msgstr ""
-"Не вдається знайти пристрій %s.\n"
-"Пропускається...\n"
 
 #: quotasys.c:1445
 #, c-format
-msgid ""
-"Cannot stat() a mountpoint with %s: %s\n"
+msgid "Cannot stat() a mountpoint with %s: %s\n"
 "Skipping...\n"
 msgstr ""
-"Неможливо отримати точки монтування %s: %s\n"
-"Пропускається...\n"
 
 #: quotasys.c:1453
 #, c-format
-msgid ""
-"Cannot stat() given mountpoint %s: %s\n"
+msgid "Cannot stat() given mountpoint %s: %s\n"
 "Skipping...\n"
 msgstr ""
-"Не вказані точки монтування %s: %s\n"
-"Пропускається...\n"
 
 #: quotasys.c:1463
 #, c-format
 msgid "Cannot find a filesystem mountpoint for directory %s\n"
 msgstr ""
-"Не вдається знайти точку монтування файлової системи для каталогу %s\n"
 
 #: quotasys.c:1469
 #, c-format
 msgid "Cannot resolve path %s: %s\n"
-msgstr "Не вдається дозволити шлях %s: %s\n"
+msgstr ""
 
 #: quotasys.c:1480
 #, c-format
 msgid "Cannot find mountpoint for device %s\n"
-msgstr "Не вдається знайти точку монтування для пристрою %s\n"
+msgstr ""
 
 #: quotasys.c:1486
 #, c-format
 msgid "Specified path %s is not directory nor device.\n"
-msgstr "Вказаний шлях %s не є каталогом або пристроєм.\n"
+msgstr ""
 
 #: quotasys.c:1494
 msgid "No correct mountpoint specified.\n"
-msgstr "Вказана не правильна точка монтування.\n"
+msgstr ""
 
 #: quotasys.c:1549
 #, c-format
 msgid "Mountpoint (or device) %s not found or has no quota enabled.\n"
 msgstr ""
-"Точка монтування (або пристрій) %s не знайдена або не увімкнені квоти.\n"
 
 #: rquota_svc.c:86
 #, c-format
-msgid ""
-"Usage: %s [options]\n"
+msgid "Usage: %s [options]\n"
 "Options are:\n"
 " -h --help             shows this text\n"
 " -V --version          shows version information\n"
@@ -2663,8 +2454,7 @@ msgstr ""
 
 #: rquota_svc.c:97
 #, c-format
-msgid ""
-"Usage: %s [options]\n"
+msgid "Usage: %s [options]\n"
 "Options are:\n"
 " -h --help             shows this text\n"
 " -V --version          shows version information\n"
@@ -2715,8 +2505,7 @@ msgstr ""
 
 #: rquota_svc.c:423
 #, c-format
-msgid ""
-"Warning: Cannot open export table %s: %s\n"
+msgid "Warning: Cannot open export table %s: %s\n"
 "Using '/' as a pseudofilesystem root.\n"
 msgstr ""
 
@@ -2865,38 +2654,28 @@ msgstr ""
 
 #: edquota.c:81
 #, c-format
-msgid ""
-"Usage:\n"
-"\tedquota %1$s[-u] [-F formatname] [-p username] [-f filesystem] username "
-"...\n"
-"\tedquota %1$s-g [-F formatname] [-p groupname] [-f filesystem] groupname "
-"...\n"
-"\tedquota %1$s-P [-F formatname] [-p projectname] [-f filesystem] "
-"projectname ...\n"
+msgid "Usage:\n"
+"\tedquota %1$s[-u] [-F formatname] [-p username] [-f filesystem] username ...\n"
+"\tedquota %1$s-g [-F formatname] [-p groupname] [-f filesystem] groupname ...\n"
+"\tedquota %1$s-P [-F formatname] [-p projectname] [-f filesystem] projectname ...\n"
 "\tedquota [-u|g|-P] [-F formatname] [-f filesystem] -t\n"
-"\tedquota [-u|g|-P] [-F formatname] [-f filesystem] -T "
-"username|groupname|projectname ...\n"
+"\tedquota [-u|g|-P] [-F formatname] [-f filesystem] -T username|groupname|projectname ...\n"
 msgstr ""
 
 #: edquota.c:86
-msgid ""
-"\n"
+msgid "\n"
 "-u, --user                    edit user data\n"
 "-g, --group                   edit group data\n"
 "-P, --project                 edit project data\n"
 msgstr ""
 
 #: edquota.c:92
-msgid ""
-"-r, --remote                  edit remote quota (via RPC)\n"
+msgid "-r, --remote                  edit remote quota (via RPC)\n"
 "-m, --no-mixed-pathnames      trim leading slashes from NFSv4 mountpoints\n"
 msgstr ""
-"-r, --remote редагувати віддалені квоти (через RPC)\n"
-"-m, --no-mixed-pathnames вилучити ведучі слеші з NFSv4 точок монтування\n"
 
 #: edquota.c:95
-msgid ""
-"-F, --format=formatname       edit quotas of a specific format\n"
+msgid "-F, --format=formatname       edit quotas of a specific format\n"
 "-p, --prototype=name          copy data from a prototype user/group\n"
 "    --always-resolve          always try to resolve name, even if it is\n"
 "                              composed only of digits\n"
@@ -2904,56 +2683,43 @@ msgid ""
 "-t, --edit-period             edit grace period\n"
 "-T, --edit-times              edit grace time of a user/group\n"
 "-h, --help                    display this help text and exit\n"
-"-V, --version                 display version information and exit\n"
-"\n"
+"-V, --version                 display version information and exit\n\n"
 msgstr ""
-"-F, --format=formatname змінити квоти використовуючи спеціяльний формат\n"
-"-p, --prototype=name копіювати дані з вихідних користувача/групи\n"
-"    --always-resolve завжди намагатися визначити ім’я, навіть якщо воно\n"
-"                              складається з цифр\n"
-"-f, --filesystem=filesystem змінювати дані лише в певній файловій системі\n"
-"-t, --edit-period змінити період відтермінування\n"
-"-T, --edit-times змінити період відтермінування користувача/групи\n"
-"-h, --help показати довідку\n"
-"-V, --version показати версію\n"
-"\n"
 
 #: edquota.c:190
-msgid ""
-"Prototype name does not make sense when editing grace period or times.\n"
+msgid "Prototype name does not make sense when editing grace period or times.\n"
 msgstr ""
-"Вихідне ім’я не має сенсу, коли змінюєте період або час відтермінування.\n"
 
 #: edquota.c:194
 msgid "Cannot change grace times over RPC protocol.\n"
-msgstr "Неможливо змінити час відтермінування через протокол RPC.\n"
+msgstr ""
 
 #: edquota.c:212
 #, c-format
 msgid "Cannot get quota information for user %s\n"
-msgstr "Неможливо отримати інформацію про квоту користувача %s\n"
+msgstr ""
 
 #: edquota.c:218
 msgid "fsname mismatch\n"
-msgstr "незбіг fsname\n"
+msgstr ""
 
 #: edquota.c:262
 msgid "No filesystems with quota detected.\n"
-msgstr "Не виявлено файлових систем з квотами.\n"
+msgstr ""
 
 #: edquota.c:278
 #, c-format
 msgid "Cannot create temporary file: %s\n"
-msgstr "Неможливо створити тимчасовий файл: %s\n"
+msgstr ""
 
 #: edquota.c:283
 #, c-format
 msgid "Cannot change owner of temporary file: %s\n"
-msgstr "Неможливо змінити власника тимчасового файлу: %s\n"
+msgstr ""
 
 #: edquota.c:290
 msgid "Cannot write grace times to file.\n"
-msgstr "Неможливо записати час відтермінування у файл.\n"
+msgstr ""
 
 #: edquota.c:295 edquota.c:314 edquota.c:347 edquota.c:366
 msgid "Cannot stat file with times.\n"
@@ -2961,7 +2727,7 @@ msgstr ""
 
 #: edquota.c:301
 msgid "Error while editing grace times.\n"
-msgstr "Помилка при змінюванні часу відтермінування.\n"
+msgstr ""
 
 #: edquota.c:312 edquota.c:364
 msgid "Cannot reopen!\n"
@@ -2969,32 +2735,32 @@ msgstr ""
 
 #: edquota.c:322
 msgid "Failed to parse grace times file.\n"
-msgstr "Помилка при обробці файлу відтермінування.\n"
+msgstr ""
 
 #: edquota.c:332
 #, c-format
 msgid "Cannot get quota information for user %s.\n"
-msgstr "Неможливо отримати інформацію про квоту користувача %s.\n"
+msgstr ""
 
 #: edquota.c:335
 msgid "Cannot write individual grace times to file.\n"
-msgstr "Неможливо записати у файл періоди окремих відтермінувань.\n"
+msgstr ""
 
 #: edquota.c:341
 msgid "Cannot write quotas to file.\n"
-msgstr "Неможливо записати квоти у файл.\n"
+msgstr ""
 
 #: edquota.c:353
 msgid "Error while editing quotas.\n"
-msgstr "Помилка при редагуванні квот.\n"
+msgstr ""
 
 #: edquota.c:375
 msgid "Cannot read individual grace times from file.\n"
-msgstr "Неможливо прочитати окремі періоди відтермінування з файлу.\n"
+msgstr ""
 
 #: edquota.c:381
 msgid "Cannot read quotas from file.\n"
-msgstr "Неможливо прочитати квоти з файлу.\n"
+msgstr ""
 
 #: quota.c:58
 msgid "Usage: quota [-guPqvswim] [-l | [-Q | -A]] [-F quotaformat]\n"
@@ -3003,44 +2769,33 @@ msgstr ""
 #: quota.c:59
 msgid "\tquota [-qvswim] [-l | [-Q | -A]] [-F quotaformat] -u username ...\n"
 msgstr ""
-"\tквота [-qvswim] [-l | [-Q | -A]] [-F формат квоти] -u ім’я користувача "
-"...\n"
 
 #: quota.c:60
-msgid ""
-"\tquota [-qvswim] [-l | [-Q | -A]] [-F quotaformat] -g groupname ...\n"
+msgid "\tquota [-qvswim] [-l | [-Q | -A]] [-F quotaformat] -g groupname ...\n"
 msgstr ""
-"\tквота [-qvswim] [-l | [-Q | -A]] [-F формат квоти] -g ім’я групи ...\n"
 
 #: quota.c:61
 msgid "\tquota [-qvswugPQm] [-F quotaformat] -f filesystem ...\n"
 msgstr ""
 
 #: quota.c:62
-msgid ""
-"\n"
+msgid "\n"
 "-u, --user                    display quota for user\n"
 "-g, --group                   display quota for group\n"
 "-P, --project                 display quota for project\n"
 "-q, --quiet                   print more terse message\n"
 "-v, --verbose                 print more verbose message\n"
-"-s, --human-readable[=units]  display numbers in human friendly units (MB, "
-"GB,\n"
-"                              ...). Units can be also specified explicitely "
-"by\n"
-"                              an optional argument in format [kgt],[kgt] "
-"where\n"
-"                              the first character specifies space units and "
-"the\n"
+"-s, --human-readable[=units]  display numbers in human friendly units (MB, GB,\n"
+"                              ...). Units can be also specified explicitely by\n"
+"                              an optional argument in format [kgt],[kgt] where\n"
+"                              the first character specifies space units and the\n"
 "                              second character specifies inode units\n"
-"    --always-resolve          always try to translate name to id, even if it "
-"is\n"
+"    --always-resolve          always try to translate name to id, even if it is\n"
 "\t\t\t      composed of only digits\n"
 "-w, --no-wrap                 do not wrap long lines\n"
 "-p, --raw-grace               print grace time in seconds since epoch\n"
 "-l, --local-only              do not query NFS filesystems\n"
-"-Q, --quiet-refuse            do not print error message when NFS server "
-"does\n"
+"-Q, --quiet-refuse            do not print error message when NFS server does\n"
 "                              not respond\n"
 "-i, --no-autofs               do not query autofs mountpoints\n"
 "-F, --format=formatname       display quota of a specific format\n"
@@ -3051,8 +2806,7 @@ msgid ""
 "    --show-mntpoint           show mount point of the file system in output\n"
 "    --hide-device             do not show file system device in output\n"
 "-h, --help                    display this help message and exit\n"
-"-V, --version                 display version information and exit\n"
-"\n"
+"-V, --version                 display version information and exit\n\n"
 msgstr ""
 
 #: quota.c:99
@@ -3061,24 +2815,24 @@ msgstr ""
 
 #: quota.c:101
 msgid "blocks"
-msgstr "блоки"
+msgstr ""
 
 #: quota.c:103
 #, c-format
 msgid "Disk quotas for %s %s (%cid %u): %s\n"
-msgstr "Дискові квоти для %s %s (%cid %u): %s\n"
+msgstr ""
 
 #: quota.c:106
 msgid "Filesystem"
-msgstr "Файлова система"
+msgstr ""
 
 #: quota.c:107 quota.c:108
 msgid "quota"
-msgstr "квота"
+msgstr ""
 
 #: quota.c:107 quota.c:108
 msgid "limit"
-msgstr "ліміт"
+msgstr ""
 
 #: quota.c:107 quota.c:108
 msgid "grace"
@@ -3086,11 +2840,11 @@ msgstr ""
 
 #: quota.c:108
 msgid "files"
-msgstr "файли"
+msgstr ""
 
 #: quota.c:189
 msgid "File limit reached on"
-msgstr "Ліміт файлів вичерпаний"
+msgstr ""
 
 #: quota.c:195
 msgid "In file grace period on"
@@ -3102,7 +2856,7 @@ msgstr ""
 
 #: quota.c:205
 msgid "Block limit reached on"
-msgstr "Ліміт блоків вичерпаний"
+msgstr ""
 
 #: quota.c:211
 msgid "In block grace period on"
@@ -3120,11 +2874,10 @@ msgstr ""
 #, c-format
 msgid "Warning: Ignoring -%c when filesystem list specified.\n"
 msgstr ""
-"Попередження: Ігнорується -%c коли вказаний перелік файлових систем.\n"
 
 #: quota.c:400
 msgid "No filesystem specified.\n"
-msgstr "Не вказана файлова система.\n"
+msgstr ""
 
 #: quota.c:408
 #, c-format
@@ -3134,7 +2887,7 @@ msgstr ""
 #: quota.c:414
 #, c-format
 msgid "getgroups(): %s\n"
-msgstr "getgroups(): %s\n"
+msgstr ""
 
 #: quota.c:419
 msgid "Project reports not supported without project name\n"
@@ -3143,9 +2896,10 @@ msgstr ""
 #: common.c:125
 #, c-format
 msgid "Quota utilities version %s.\n"
-msgstr "Версія утиліти Quota %s\n"
+msgstr ""
 
 #: common.c:126
 #, c-format
 msgid "Compiled with:%s\n"
-msgstr "Скомпільовано з використанням: %s\n"
+msgstr ""
+

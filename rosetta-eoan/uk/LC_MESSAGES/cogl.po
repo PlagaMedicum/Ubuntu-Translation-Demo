@@ -1,24 +1,26 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# Daniel Korostil <ted.korostiled@gmail.com>, 2014.
+# British English translation for cogl.
+# Copyright (C) 2011 cogl'S COPYRIGHT HOLDER
+# This file is distributed under the same licence as the cogl package.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2011, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0\n"
-"Report-Msgid-Bugs-To: "
-"http://bugzilla.gnome.org/enter_bug.cgi?product=cogl&keywords=I18N+L10N&compo"
-"nent=general\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=clutter\n"
 "POT-Creation-Date: 2016-08-26 18:36+0100\n"
-"PO-Revision-Date: 2014-05-29 03:28+0000\n"
-"Last-Translator: Daniel Korostil <Unknown>\n"
-"Language-Team: linux.org.ua\n"
+"PO-Revision-Date: 2019-07-08 17:19\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 13:07+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
 "X-Project-Style: gnome\n"
-"Language: uk\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/cogl.po\n"
 
 #: cogl/cogl-debug.c:181
 msgid "Supported debug values:"
@@ -239,12 +241,8 @@ msgid "Disable sharing the texture atlas between text and images"
 msgstr "Вимкнути обмін текстур атласу між текстом і зображенням"
 
 #: cogl/cogl-debug-options.h:126
-msgid ""
-"When this is set the glyph cache will always use a separate texture for its "
-"atlas. Otherwise it will try to share the atlas with images."
-msgstr ""
-"Коли це вказано, кеш гліфів завжди використовуватиме окремі текстури для "
-"свого атласу. Інакше воно намагатиметься поділити атлас через зображення."
+msgid "When this is set the glyph cache will always use a separate texture for its atlas. Otherwise it will try to share the atlas with images."
+msgstr "Коли це вказано, кеш гліфів завжди використовуватиме окремі текстури для свого атласу. Інакше воно намагатиметься поділити атлас через зображення."
 
 #: cogl/cogl-debug-options.h:131
 msgid "Disable texturing"
@@ -291,12 +289,8 @@ msgid "Disable non-power-of-two textures"
 msgstr "Вимкнути текстури non-power-of-two"
 
 #: cogl/cogl-debug-options.h:157
-msgid ""
-"Makes Cogl think that the GL driver doesn't support NPOT textures so that it "
-"will create sliced textures or textures with waste instead."
-msgstr ""
-"Змушує Cogl вважати, що драйвер GL не підтримує текстури NPOT, тобто він "
-"створить нарізані текстури або натомість текстури з обрізків."
+msgid "Makes Cogl think that the GL driver doesn't support NPOT textures so that it will create sliced textures or textures with waste instead."
+msgstr "Змушує Cogl вважати, що драйвер GL не підтримує текстури NPOT, тобто він створить нарізані текстури або натомість текстури з обрізків."
 
 #: cogl/cogl-debug-options.h:162
 msgid "Disable software clipping"
@@ -343,11 +337,8 @@ msgid "Disable read pixel optimization"
 msgstr "Вимкнути оптимізування пікселів для читання"
 
 #: cogl/cogl-debug-options.h:188
-msgid ""
-"Disable optimization for reading 1px for simple scenes of opaque rectangles"
-msgstr ""
-"Вимкнути оптимізування для читання одного пікселю для простих сцен "
-"непрозорих прямокутників"
+msgid "Disable optimization for reading 1px for simple scenes of opaque rectangles"
+msgstr "Вимкнути оптимізування для читання одного пікселю для простих сцен непрозорих прямокутників"
 
 #: cogl/cogl-debug-options.h:193
 msgid "Trace clipping"
@@ -364,3 +355,4 @@ msgstr "Стежити за проблемами продуктивності"
 #: cogl/cogl-debug-options.h:199
 msgid "Tries to highlight sub-optimal Cogl usage."
 msgstr "Намагається висвітлювати підоптмальне використання Cogl."
+

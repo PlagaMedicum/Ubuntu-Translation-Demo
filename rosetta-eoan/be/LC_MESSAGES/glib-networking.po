@@ -1,23 +1,25 @@
-# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2011.
-# Kasia Bondarava <kasia.bondarava@gmail.com>, 2012.
-# Yuras Shumovich <shumovichy@gmail.com>, 2017.
+# British English translation of glib-networking.
+# Copyright (C) 2011 glib-networking'S COPYRIGHT HOLDER
+# This file is distributed under the same licence as the glib-networking package.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2011, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: glib-networking master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/glib-networking/issues\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=glib&keywords=I18N+L10N&component=network\n"
 "POT-Creation-Date: 2019-04-26 10:15+0000\n"
-"PO-Revision-Date: 2019-02-23 17:09+0000\n"
-"Last-Translator: Yuras <shumovichy@gmail.com>\n"
-"Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
+"PO-Revision-Date: 2019-07-08 16:59\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Launchpad-Export-Date: 2019-05-11 13:03+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"X-Project-Style: gnome\n"
-"Language: be\n"
+"X-Generator: crowdin.com\n"
+"Language: be_BY\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/glib-networking.po\n"
 
 #: proxy/libproxy/glibproxyresolver.c:159
 msgid "Proxy resolver internal error."
@@ -133,12 +135,10 @@ msgstr "Выяўлена атака паніжэння версіі пратак
 #, c-format
 msgid "Message is too large for DTLS connection; maximum is %u byte"
 msgid_plural "Message is too large for DTLS connection; maximum is %u bytes"
-msgstr[0] ""
-"Паведамленне задоўгае для DTLS злучэння; дапускаецца не больш за %u байт"
-msgstr[1] ""
-"Паведамленне задоўгае для DTLS злучэння; дапускаецца не больш за %u байты"
-msgstr[2] ""
-"Паведамленне задоўгае для DTLS злучэння; дапускаецца не больш за %u байтаў"
+msgstr[0] "Паведамленне задоўгае для DTLS злучэння; дапускаецца не больш за %u байт"
+msgstr[1] "Паведамленне задоўгае для DTLS злучэння; дапускаецца не больш за %u байты"
+msgstr[2] "Паведамленне задоўгае для DTLS злучэння; дапускаецца не больш за %u байтаў"
+msgstr[3] ""
 
 #: tls/gnutls/gtlsconnection-gnutls.c:1110
 msgid "The operation timed out"
@@ -176,6 +176,7 @@ msgid_plural "Message of size %lu bytes is too large for DTLS connection"
 msgstr[0] "Паведамленне памеру %lu байт задоўгае для DTLS злучэння"
 msgstr[1] "Паведамленне памеру %lu байты задоўгае для DTLS злучэння"
 msgstr[2] "Паведамленне памеру %lu байтаў задоўгае для DTLS злучэння"
+msgstr[3] ""
 
 #: tls/gnutls/gtlsconnection-gnutls.c:2762
 #, c-format
@@ -184,6 +185,7 @@ msgid_plural "(maximum is %u bytes)"
 msgstr[0] "(максімум %u байт)"
 msgstr[1] "(максімум %u байты)"
 msgstr[2] "(максімум %u байтаў)"
+msgstr[3] ""
 
 #: tls/gnutls/gtlsconnection-gnutls.c:2821
 #, c-format
@@ -195,12 +197,8 @@ msgid "Error performing TLS close"
 msgstr "Памылка закрыцця TLS-злучэння"
 
 #: tls/gnutls/gtlsdatabase-gnutls.c:553
-msgid ""
-"Failed to load system trust store: GnuTLS was not configured with a system "
-"trust"
-msgstr ""
-"Не ўдалося загрузіць сістэмнае даверанае сховішча: GnuTLS настроены без "
-"сістэмнага даверанага сховішча"
+msgid "Failed to load system trust store: GnuTLS was not configured with a system trust"
+msgstr "Не ўдалося загрузіць сістэмнае даверанае сховішча: GnuTLS настроены без сістэмнага даверанага сховішча"
 
 #: tls/gnutls/gtlsdatabase-gnutls.c:558
 #, c-format
@@ -258,3 +256,4 @@ msgstr ""
 #, c-format
 msgid "There is a problem with the certificate private key: %s"
 msgstr ""
+

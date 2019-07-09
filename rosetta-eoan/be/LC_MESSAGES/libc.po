@@ -1,23 +1,21 @@
-# Belarusian translation for libc.
-# Copyright (C) 2002, 2003 Free Software Foundation, Inc.
-# This file is distributed under the same license as the glibc package.
-# Ales Nyakhaychyk <nab@mail.by>, 2002, 2003.
-# Viktar Siarheichyk <vics@eq.by>, 2014, 2016, 2017, 2018.
 msgid ""
 msgstr ""
-"Project-Id-Version: libc 2.27.9000\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-01-16 15:48+0530\n"
-"PO-Revision-Date: 2019-04-12 17:27+0000\n"
-"Last-Translator: Viktar Siarheichyk <Unknown>\n"
-"Language-Team: Belarusian <debian-l10n-belarusian@lists.debian.org>\n"
+"PO-Revision-Date: 2019-07-08 16:53\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-05-11 11:11+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: be\n"
-"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Launchpad-Export-Date: 2019-05-11 11:12+0000\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/libc.po\n"
+"Language: be_BY\n"
 
 #: argp/argp-help.c:227
 #, c-format
@@ -35,13 +33,8 @@ msgid "Garbage in ARGP_HELP_FMT: %s"
 msgstr "Смецце ў ARGP_HELP_FMT: %s"
 
 #: argp/argp-help.c:1214
-msgid ""
-"Mandatory or optional arguments to long options are also mandatory or "
-"optional for any corresponding short options."
-msgstr ""
-"Абавязковыя ці неабавязковыя аргументы да доўгіх параметраў таксама "
-"з'яўляюцца абавязковымі ці неабавязковымі для ўсіх адпаведных кароткіх "
-"параметраў."
+msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+msgstr "Абавязковыя ці неабавязковыя аргументы да доўгіх параметраў таксама з'яўляюцца абавязковымі ці неабавязковымі для ўсіх адпаведных кароткіх параметраў."
 
 #: argp/argp-help.c:1600
 msgid "Usage:"
@@ -58,8 +51,7 @@ msgstr " [ОПЦЫЯ...]"
 #: argp/argp-help.c:1643
 #, c-format
 msgid "Try `%s --help' or `%s --usage' for more information.\n"
-msgstr ""
-"Паспрабуйце \"%s --help\" ці \"%s --usage\" для больш падрабязных звестак.\n"
+msgstr "Паспрабуйце \"%s --help\" ці \"%s --usage\" для больш падрабязных звестак.\n"
 
 #: argp/argp-help.c:1671
 #, c-format
@@ -110,20 +102,16 @@ msgstr "(ПАМЫЛКА ПРАГРАМЫ) Параметр мусіць расп
 
 #: assert/assert-perr.c:35
 #, c-format
-msgid ""
-"%s%s%s:%u: %s%sUnexpected error: %s.\n"
+msgid "%s%s%s:%u: %s%sUnexpected error: %s.\n"
 "%n"
-msgstr ""
-"%s%s%s:%u: %s%sНечаканая памылка: %s.\n"
+msgstr "%s%s%s:%u: %s%sНечаканая памылка: %s.\n"
 "%n"
 
 #: assert/assert.c:101
 #, c-format
-msgid ""
-"%s%s%s:%u: %s%sAssertion `%s' failed.\n"
+msgid "%s%s%s:%u: %s%sAssertion `%s' failed.\n"
 "%n"
-msgstr ""
-"%s%s%s:%u: %s%sСцвярджэнне `%s' не спраўджана.\n"
+msgstr "%s%s%s:%u: %s%sСцвярджэнне `%s' не спраўджана.\n"
 "%n"
 
 #: catgets/gencat.c:110
@@ -139,21 +127,14 @@ msgid "Write output to file NAME"
 msgstr "Запісаць вывад у файл НАЗВА"
 
 #: catgets/gencat.c:118
-msgid ""
-"Generate message catalog.If INPUT-FILE is -, input is read from standard "
-"input.  If OUTPUT-FILE\n"
+msgid "Generate message catalog.If INPUT-FILE is -, input is read from standard input.  If OUTPUT-FILE\n"
 "is -, output is written to standard output.\n"
-msgstr ""
-"Стварыць каталог паведамленняў.\\vКалі УВАХОДНЫ-ФАЙЛ ёсць -, чытаецца з "
-"стандартнага ўводу. Калі ВЫХОДНЫ-ФАЙЛ ёсць -, выводзіцца на стандартны "
-"вывад.\n"
+msgstr "Стварыць каталог паведамленняў.\\vКалі УВАХОДНЫ-ФАЙЛ ёсць -, чытаецца з стандартнага ўводу. Калі ВЫХОДНЫ-ФАЙЛ ёсць -, выводзіцца на стандартны вывад.\n"
 
 #: catgets/gencat.c:123
-msgid ""
-"-o OUTPUT-FILE [INPUT-FILE]...\n"
+msgid "-o OUTPUT-FILE [INPUT-FILE]...\n"
 "[OUTPUT-FILE [INPUT-FILE]...]"
-msgstr ""
-"-o ВЫХОДНЫ-ФАЙЛ [УВАХОДНЫ-ФАЙЛ]...\n"
+msgstr "-o ВЫХОДНЫ-ФАЙЛ [УВАХОДНЫ-ФАЙЛ]...\n"
 "[ВЫХОДНЫ-ФАЙЛ [УВАХОДНЫ-ФАЙЛ]...]"
 
 #: catgets/gencat.c:229 debug/pcprofiledump.c:209 elf/ldconfig.c:308
@@ -163,11 +144,9 @@ msgstr ""
 #: malloc/memusagestat.c:563 nss/getent.c:933 nss/makedb.c:369
 #: posix/getconf.c:503 sysdeps/unix/sysv/linux/lddlibc4.c:61
 #, c-format
-msgid ""
-"For bug reporting instructions, please see:\n"
+msgid "For bug reporting instructions, please see:\n"
 "%s.\n"
-msgstr ""
-"Як рапартаваць аб памылках:\n"
+msgstr "Як рапартаваць аб памылках:\n"
 "%s.\n"
 
 #: catgets/gencat.c:245 debug/pcprofiledump.c:225 debug/xtrace.sh:64
@@ -178,12 +157,10 @@ msgstr ""
 #: nscd/nscd.c:509 nss/getent.c:87 nss/makedb.c:385 posix/getconf.c:485
 #: sysdeps/unix/sysv/linux/lddlibc4.c:68
 #, c-format
-msgid ""
-"Copyright (C) %s Free Software Foundation, Inc.\n"
+msgid "Copyright (C) %s Free Software Foundation, Inc.\n"
 "This is free software; see the source for copying conditions.  There is NO\n"
 "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
-msgstr ""
-"Copyright (C) %s Free Software Foundation, Inc.\n"
+msgstr "Copyright (C) %s Free Software Foundation, Inc.\n"
 "Гэта свабодная праграма; умовы распаўсюду ёсць у зыходным кодзе. Гарантый\n"
 " НІЯКІХ няма; у тым ліку працаздольнасці ці прыдатнасці для пэўнай мэты.\n"
 
@@ -315,41 +292,26 @@ msgstr "Выкарыстанне: xtrace [ОПЦЫЯ]... ПРАГРАМА [ОП�
 #: debug/xtrace.sh:32 elf/sotruss.sh:56 elf/sotruss.sh:67 elf/sotruss.sh:135
 #: malloc/memusage.sh:26
 msgid "Try \\`%s --help' or \\`%s --usage' for more information.\\n"
-msgstr ""
-"Паспрабуйце \\`%s --help' ці \\`%s --usage' для больш падрабязных звестак.\\n"
+msgstr "Паспрабуйце \\`%s --help' ці \\`%s --usage' для больш падрабязных звестак.\\n"
 
 #: debug/xtrace.sh:38
 msgid "%s: option '%s' requires an argument.\\n"
 msgstr "%s: опцыя '%s' патрабуе аргумент.\\n"
 
 #: debug/xtrace.sh:45
-msgid ""
-"Trace execution of program by printing currently executed function.\n"
-"\n"
-"     --data=FILE          Don't run the program, just print the data from "
-"FILE.\n"
-"\n"
+msgid "Trace execution of program by printing currently executed function.\n\n"
+"     --data=FILE          Don't run the program, just print the data from FILE.\n\n"
 "   -?,--help              Print this help and exit\n"
 "      --usage             Give a short usage message\n"
-"   -V,--version           Print version information and exit\n"
-"\n"
-"Mandatory arguments to long options are also mandatory for any "
-"corresponding\n"
-"short options.\n"
-"\n"
-msgstr ""
-"Сачыць за выкананнем праграмы, друкуючы функцыі, якія зараз выконваюцца.\n"
-"\n"
-"     --data=ФАЙЛ          Не выконваць гэтую праграму, толькі друкаваць "
-"даныя з файла ФАЙЛ.\n"
-"\n"
+"   -V,--version           Print version information and exit\n\n"
+"Mandatory arguments to long options are also mandatory for any corresponding\n"
+"short options.\n\n"
+msgstr "Сачыць за выкананнем праграмы, друкуючы функцыі, якія зараз выконваюцца.\n\n"
+"     --data=ФАЙЛ          Не выконваць гэтую праграму, толькі друкаваць даныя з файла ФАЙЛ.\n\n"
 "   -?,--help              Надрукаваць гэтую дапамогу і выйсці\n"
 "      --usage             Даць кароткае паведамленне аб выкарыстанні\n"
-"   -V,--version           Надрукаваць звесткі аб версіі і выйсці\n"
-"\n"
-"Абавязковыя аргументы да доўгіх опцыяў з'яўляюцца абавязковымі для ўсіх "
-"адпаведных кароткіх опцыяў.\n"
-"\n"
+"   -V,--version           Надрукаваць звесткі аб версіі і выйсці\n\n"
+"Абавязковыя аргументы да доўгіх опцыяў з'яўляюцца абавязковымі для ўсіх адпаведных кароткіх опцыяў.\n\n"
 
 #: debug/xtrace.sh:57 elf/ldd.bash.in:55 elf/sotruss.sh:49
 #: malloc/memusage.sh:64
@@ -405,7 +367,7 @@ msgstr "Невядомая аперацыйная сістэма"
 #: elf/cache.c:146
 #, c-format
 msgid ", OS ABI: %s %d.%d.%d"
-msgstr ", OS ABI: %s %d.%d.%d"
+msgstr ""
 
 #: elf/cache.c:163 elf/ldconfig.c:1332
 #, c-format
@@ -466,12 +428,8 @@ msgstr "пустая замена дынамічнага такену радка
 
 #: elf/dl-deps.c:131
 #, c-format
-msgid ""
-"cannot load auxiliary `%s' because of empty dynamic string token "
-"substitution\n"
-msgstr ""
-"не ўдалося загрузіць дадатковага `%s' з-за пустое замены дынамічнага такену "
-"радка (DST)\n"
+msgid "cannot load auxiliary `%s' because of empty dynamic string token substitution\n"
+msgstr "не ўдалося загрузіць дадатковага `%s' з-за пустое замены дынамічнага такену радка (DST)\n"
 
 #: elf/dl-deps.c:220
 msgid "cannot allocate dependency buffer"
@@ -763,8 +721,7 @@ msgid "Use CONF as configuration file"
 msgstr "Ужыць КАНФ у якасці канфігурацыйнага файла"
 
 #: elf/ldconfig.c:149
-msgid ""
-"Only process directories specified on the command line.  Don't build cache."
+msgid "Only process directories specified on the command line.  Don't build cache."
 msgstr "Апрацаваць толькі каталогі ў камандным радку. Не ствараць кэш."
 
 #: elf/ldconfig.c:150
@@ -882,8 +839,7 @@ msgstr ""
 
 #: elf/ldconfig.c:973
 #, c-format
-msgid ""
-"libraries %s and %s in directory %s have same soname but different type."
+msgid "libraries %s and %s in directory %s have same soname but different type."
 msgstr ""
 
 #: elf/ldconfig.c:1082
@@ -947,8 +903,7 @@ msgid "Written by %s and %s.\n"
 msgstr "Аўтары: %s і %s.\n"
 
 #: elf/ldd.bash.in:47
-msgid ""
-"Usage: ldd [OPTION]... FILE...\n"
+msgid "Usage: ldd [OPTION]... FILE...\n"
 "      --help              print this help and exit\n"
 "      --version           print version information and exit\n"
 "  -d, --data-relocs       process data relocations\n"
@@ -1146,14 +1101,11 @@ msgstr ""
 #: elf/readlib.c:169
 #, c-format
 msgid "%s is not an ELF file - it has the wrong magic bytes at the start.\n"
-msgstr ""
-"%s - гэта не ELF файл - ён мае памылковы \"чароўны байт\" на пачатку файлу.\n"
+msgstr "%s - гэта не ELF файл - ён мае памылковы \"чароўны байт\" на пачатку файлу.\n"
 
 #: elf/sln.c:76
 #, c-format
-msgid ""
-"Usage: sln src dest|file\n"
-"\n"
+msgid "Usage: sln src dest|file\n\n"
 msgstr ""
 
 #: elf/sln.c:97
@@ -1188,39 +1140,29 @@ msgstr ""
 
 #: elf/sotruss.sh:32
 #, sh-format
-msgid ""
-"Usage: sotruss [OPTION...] [--] EXECUTABLE [EXECUTABLE-OPTION...]\n"
+msgid "Usage: sotruss [OPTION...] [--] EXECUTABLE [EXECUTABLE-OPTION...]\n"
 "  -F, --from FROMLIST     Trace calls from objects on FROMLIST\n"
-"  -T, --to TOLIST         Trace calls to objects on TOLIST\n"
-"\n"
+"  -T, --to TOLIST         Trace calls to objects on TOLIST\n\n"
 "  -e, --exit              Also show exits from the function calls\n"
 "  -f, --follow            Trace child processes\n"
-"  -o, --output FILENAME   Write output to FILENAME (or FILENAME.$PID in "
-"case\n"
-"\t\t\t  -f is also used) instead of standard error\n"
-"\n"
+"  -o, --output FILENAME   Write output to FILENAME (or FILENAME.$PID in case\n"
+"\t\t\t  -f is also used) instead of standard error\n\n"
 "  -?, --help              Give this help list\n"
 "      --usage             Give a short usage message\n"
 "      --version           Print program version"
-msgstr ""
-"Выкарыстанне: sotruss [ОПЦЫЯ...] [--] ПРАГРАМА [ОПЦЫЯ-ПРАГРАМЫ...]\n"
+msgstr "Выкарыстанне: sotruss [ОПЦЫЯ...] [--] ПРАГРАМА [ОПЦЫЯ-ПРАГРАМЫ...]\n"
 "  -F, --from СПІС-АД       Сачыць за выклікамі ад аб'ектаў з спісу СПІС-АД\n"
-"  -T, --to СПІС-ДА         Сачыць за выклікамі да аб'ектаў з спісу СПІС-ДА\n"
-"\n"
+"  -T, --to СПІС-ДА         Сачыць за выклікамі да аб'ектаў з спісу СПІС-ДА\n\n"
 "  -e, --exit               Таксама паказаць выхады з гэтых функцыяў\n"
 "  -f, --follow             Сачыць за працэсамі-нашчадкамі\n"
-"  -o, --output НАЗВА-ФАЙЛА Запісаць вывад у файл НАЗВА-ФАЙЛА (ці НАЗВА-"
-"ФАЙЛА.$PID, калі\n"
-"\t\t\t   таксама ўжыты -f) замест стандартнага патоку памылак\n"
-"\n"
+"  -o, --output НАЗВА-ФАЙЛА Запісаць вывад у файл НАЗВА-ФАЙЛА (ці НАЗВА-ФАЙЛА.$PID, калі\n"
+"\t\t\t   таксама ўжыты -f) замест стандартнага патоку памылак\n\n"
 "  -?, --help               Даць гэты спіс выкарыстання\n"
 "      --usage              Даць кароткае паведамленне аб выкарыстанні\n"
 "      --version            Надрукаваць версію праграмы"
 
 #: elf/sotruss.sh:46
-msgid ""
-"Mandatory arguments to long options are also mandatory for any "
-"corresponding\\nshort options.\\n"
+msgid "Mandatory arguments to long options are also mandatory for any corresponding\\nshort options.\\n"
 msgstr ""
 
 #: elf/sotruss.sh:55
@@ -1236,8 +1178,7 @@ msgid "Written by %s.\\n"
 msgstr ""
 
 #: elf/sotruss.sh:86
-msgid ""
-"Usage: %s [-ef] [-F FROMLIST] [-o FILENAME] [-T TOLIST] [--exit]\n"
+msgid "Usage: %s [-ef] [-F FROMLIST] [-o FILENAME] [-T TOLIST] [--exit]\n"
 "\t    [--follow] [--from FROMLIST] [--output FILENAME] [--to TOLIST]\n"
 "\t    [--help] [--usage] [--version] [--]\n"
 "\t    EXECUTABLE [EXECUTABLE-OPTION...]\\n"
@@ -1493,12 +1434,10 @@ msgid "unknown iconv() error %d"
 msgstr ""
 
 #: iconv/iconv_prog.c:786
-msgid ""
-"The following list contains all the coded character sets known.  This does\n"
+msgid "The following list contains all the coded character sets known.  This does\n"
 "not necessarily mean that all combinations of these names can be used for\n"
 "the FROM and TO command line parameters.  One coded character set can be\n"
-"listed with several different names (aliases).\n"
-"\n"
+"listed with several different names (aliases).\n\n"
 "  "
 msgstr ""
 
@@ -1519,9 +1458,7 @@ msgid "Prefix used for all file accesses"
 msgstr ""
 
 #: iconv/iconvconfig.c:128
-msgid ""
-"Put output in FILE instead of installed location (--prefix does not apply to "
-"FILE)"
+msgid "Put output in FILE instead of installed location (--prefix does not apply to FILE)"
 msgstr ""
 
 #: iconv/iconvconfig.c:132
@@ -1647,12 +1584,8 @@ msgstr "файл стандартнай табліцы знакаў `%s' не з
 
 #: locale/programs/charmap.c:265
 #, c-format
-msgid ""
-"character map `%s' is not ASCII compatible, locale not ISO C compliant [--no-"
-"warnings=ascii]"
-msgstr ""
-"табліца знакаў `%s' не сумяшчальная з ASCII, лакаль не адпавядае ISO C [--no-"
-"warnings=ascii]"
+msgid "character map `%s' is not ASCII compatible, locale not ISO C compliant [--no-warnings=ascii]"
+msgstr "табліца знакаў `%s' не сумяшчальная з ASCII, лакаль не адпавядае ISO C [--no-warnings=ascii]"
 
 #: locale/programs/charmap.c:343
 #, c-format
@@ -1774,12 +1707,8 @@ msgstr "невядомы знак `%s'"
 
 #: locale/programs/charmap.c:893
 #, c-format
-msgid ""
-"number of bytes for byte sequence of beginning and end of range not the "
-"same: %d vs %d"
-msgstr ""
-"колькасць байтаў ў байтавай паслядоўнасці пачатку і канца дыяпазону "
-"розніцца: %d і %d"
+msgid "number of bytes for byte sequence of beginning and end of range not the same: %d vs %d"
+msgstr "колькасць байтаў ў байтавай паслядоўнасці пачатку і канца дыяпазону розніцца: %d і %d"
 
 #: locale/programs/charmap.c:998 locale/programs/ld-collate.c:2893
 #: locale/programs/repertoire.c:418
@@ -1788,8 +1717,7 @@ msgstr "няправільныя назвы дыяпазону знакаў"
 
 #: locale/programs/charmap.c:1010 locale/programs/repertoire.c:430
 msgid "hexadecimal range format should use only capital characters"
-msgstr ""
-"у шаснаццаткавым фармаце дыяпазону належыць ужываць толькі загалоўныя знакі"
+msgstr "у шаснаццаткавым фармаце дыяпазону належыць ужываць толькі загалоўныя знакі"
 
 #: locale/programs/charmap.c:1028 locale/programs/repertoire.c:448
 #, c-format
@@ -1983,33 +1911,23 @@ msgstr "%s: пачатковы і канцавы сімвалы дыяпазон
 
 #: locale/programs/ld-collate.c:1136
 #, c-format
-msgid ""
-"%s: byte sequences of first and last character must have the same length"
-msgstr ""
-"%s: байтавыя паслядоўнасці першага і апошняга знакаў мусяць быць аднолькавай "
-"даўжыні"
+msgid "%s: byte sequences of first and last character must have the same length"
+msgstr "%s: байтавыя паслядоўнасці першага і апошняга знакаў мусяць быць аднолькавай даўжыні"
 
 #: locale/programs/ld-collate.c:1178
 #, c-format
-msgid ""
-"%s: byte sequence of first character of range is not lower than that of the "
-"last character"
-msgstr ""
-"%s: байтавая паслядоўнасць першага знаку дыяпазону не меншая за "
-"паслядоўнасць апошняга знаку"
+msgid "%s: byte sequence of first character of range is not lower than that of the last character"
+msgstr "%s: байтавая паслядоўнасць першага знаку дыяпазону не меншая за паслядоўнасць апошняга знаку"
 
 #: locale/programs/ld-collate.c:1303
 #, c-format
 msgid "%s: symbolic range ellipsis must not directly follow `order_start'"
-msgstr ""
-"%s: эліпсіс сімвалічнага дыяпазону не можа ісці адразу за `order_start'"
+msgstr "%s: эліпсіс сімвалічнага дыяпазону не можа ісці адразу за `order_start'"
 
 #: locale/programs/ld-collate.c:1307
 #, c-format
-msgid ""
-"%s: symbolic range ellipsis must not be directly followed by `order_end'"
-msgstr ""
-"%s: за эліпсісам сімвалічнага дыяпазону не можа адразу ісці `order_end'"
+msgid "%s: symbolic range ellipsis must not be directly followed by `order_end'"
+msgstr "%s: за эліпсісам сімвалічнага дыяпазону не можа адразу ісці `order_end'"
 
 #: locale/programs/ld-collate.c:1327 locale/programs/ld-ctype.c:1363
 #, c-format
@@ -2028,11 +1946,8 @@ msgstr "%s: `%s' павінен быць знакам"
 
 #: locale/programs/ld-collate.c:1580
 #, c-format
-msgid ""
-"%s: `position' must be used for a specific level in all sections or none"
-msgstr ""
-"%s: `position' мусіць ужывацца для пэўнага ўзроўню ўва ўсіх секцыях альбо ў "
-"ніводнай"
+msgid "%s: `position' must be used for a specific level in all sections or none"
+msgstr "%s: `position' мусіць ужывацца для пэўнага ўзроўню ўва ўсіх секцыях альбо ў ніводнай"
 
 #: locale/programs/ld-collate.c:1604
 #, c-format
@@ -2306,18 +2221,15 @@ msgid "ellipsis range must be marked by two operands of same type"
 msgstr ""
 
 #: locale/programs/ld-ctype.c:2372
-msgid ""
-"with symbolic name range values the absolute ellipsis `...' must not be used"
+msgid "with symbolic name range values the absolute ellipsis `...' must not be used"
 msgstr ""
 
 #: locale/programs/ld-ctype.c:2387
-msgid ""
-"with UCS range values one must use the hexadecimal symbolic ellipsis `..'"
+msgid "with UCS range values one must use the hexadecimal symbolic ellipsis `..'"
 msgstr ""
 
 #: locale/programs/ld-ctype.c:2401
-msgid ""
-"with character code range values one must use the absolute ellipsis `...'"
+msgid "with character code range values one must use the absolute ellipsis `...'"
 msgstr ""
 
 #: locale/programs/ld-ctype.c:2552
@@ -2365,13 +2277,11 @@ msgstr ""
 
 #: locale/programs/ld-ctype.c:3242 locale/programs/ld-ctype.c:3265
 #, c-format
-msgid ""
-"%s: character `%s' needed as default value not representable with one byte"
+msgid "%s: character `%s' needed as default value not representable with one byte"
 msgstr ""
 
 #: locale/programs/ld-ctype.c:3321
-msgid ""
-"no output digits defined and none of the standard names in the charmap"
+msgid "no output digits defined and none of the standard names in the charmap"
 msgstr ""
 
 #: locale/programs/ld-ctype.c:3570
@@ -2437,9 +2347,7 @@ msgstr ""
 
 #: locale/programs/ld-monetary.c:245
 #, c-format
-msgid ""
-"%s: value of field `int_curr_symbol' does not correspond to a valid name in "
-"ISO 4217 [--no-warnings=intcurrsym]"
+msgid "%s: value of field `int_curr_symbol' does not correspond to a valid name in ISO 4217 [--no-warnings=intcurrsym]"
 msgstr ""
 
 #: locale/programs/ld-monetary.c:293 locale/programs/ld-monetary.c:322
@@ -2479,8 +2387,7 @@ msgstr ""
 
 #: locale/programs/ld-time.c:261
 #, c-format
-msgid ""
-"%s: direction flag in string %Zd in `era' field is not a single character"
+msgid "%s: direction flag in string %Zd in `era' field is not a single character"
 msgstr ""
 
 #: locale/programs/ld-time.c:273
@@ -2625,11 +2532,9 @@ msgid "Get locale-specific information."
 msgstr "Атрымлівае зьвесткі ў залежнасьці ад мясцовасьці."
 
 #: locale/programs/locale.c:86
-msgid ""
-"NAME\n"
+msgid "NAME\n"
 "[-a|-m]"
-msgstr ""
-"НАЗВА\n"
+msgstr "НАЗВА\n"
 "[-a|-m]"
 
 #: locale/programs/locale.c:190
@@ -2702,20 +2607,12 @@ msgid "<warnings>"
 msgstr "<папярэджанні>"
 
 #: locale/programs/localedef.c:135
-msgid ""
-"Comma-separated list of warnings to disable; supported warnings are: ascii, "
-"intcurrsym"
-msgstr ""
-"Спіс папярэджанняў праз коску, якія трэба адключыць; магчымыя папярэджанні: "
-"ascii, intcurrsym"
+msgid "Comma-separated list of warnings to disable; supported warnings are: ascii, intcurrsym"
+msgstr "Спіс папярэджанняў праз коску, якія трэба адключыць; магчымыя папярэджанні: ascii, intcurrsym"
 
 #: locale/programs/localedef.c:138
-msgid ""
-"Comma-separated list of warnings to enable; supported warnings are: ascii, "
-"intcurrsym"
-msgstr ""
-"Спіс папярэджанняў праз коску, якія трэба ўключыць; магчымыя папярэджанні: "
-"ascii, intcurrsym"
+msgid "Comma-separated list of warnings to enable; supported warnings are: ascii, intcurrsym"
+msgstr "Спіс папярэджанняў праз коску, якія трэба ўключыць; магчымыя папярэджанні: ascii, intcurrsym"
 
 #: locale/programs/localedef.c:141
 msgid "Archive control:"
@@ -2758,12 +2655,10 @@ msgid "Compile locale specification"
 msgstr "Кампіляваць спецыфікацыю лакалі"
 
 #: locale/programs/localedef.c:163
-msgid ""
-"NAME\n"
+msgid "NAME\n"
 "[--add-to-archive|--delete-from-archive] FILE...\n"
 "--list-archive [FILE]"
-msgstr ""
-"НАЗВА\n"
+msgstr "НАЗВА\n"
 "[--add-to-archive|--delete-from-archive] ФАЙЛ...\n"
 "--list-archive [ФАЙЛ]"
 
@@ -2793,13 +2688,11 @@ msgstr "не створана файлу вываду з-за выяўленых
 
 #: locale/programs/localedef.c:441
 #, c-format
-msgid ""
-"System's directory for character maps : %s\n"
+msgid "System's directory for character maps : %s\n"
 "\t\t       repertoire maps: %s\n"
 "\t\t       locale path    : %s\n"
 "%s"
-msgstr ""
-"Каталог сістэмы для табліцаў знакаў: %s\n"
+msgstr "Каталог сістэмы для табліцаў знакаў: %s\n"
 "\t       табліцаў рэпертуараў: %s\n"
 "\t\t    шлях да лакаляў: %s\n"
 "%s"
@@ -3007,28 +2900,14 @@ msgstr "файл табліцы рэпертуару `%s' не знойдзен�
 
 #: login/programs/pt_chown.c:79
 #, c-format
-msgid ""
-"Set the owner, group and access permission of the slave pseudo terminal "
-"corresponding to the master pseudo terminal passed on file descriptor `%d'.  "
-"This is the helper program for the `grantpt' function.  It is not intended "
-"to be run directly from the command line.\n"
-msgstr ""
-"Усталяванне ўладальніка, групы і дазволу доступу падлеглага псеўдатэрмінала, "
-"адпаведнага галоўнаму псеўдатэрміналу, пададзенаму файлавым дэскрыптарам "
-"`%d'. Гэта дапаможная праграма для функцыі `grantpt'. Яна не прызначаная для "
-"запуску проста з каманднага радку.\n"
+msgid "Set the owner, group and access permission of the slave pseudo terminal corresponding to the master pseudo terminal passed on file descriptor `%d'.  This is the helper program for the `grantpt' function.  It is not intended to be run directly from the command line.\n"
+msgstr "Усталяванне ўладальніка, групы і дазволу доступу падлеглага псеўдатэрмінала, адпаведнага галоўнаму псеўдатэрміналу, пададзенаму файлавым дэскрыптарам `%d'. Гэта дапаможная праграма для функцыі `grantpt'. Яна не прызначаная для запуску проста з каманднага радку.\n"
 
 #: login/programs/pt_chown.c:93
 #, c-format
-msgid ""
-"The owner is set to the current user, the group is set to `%s', and the "
-"access permission is set to `%o'.\n"
-"\n"
+msgid "The owner is set to the current user, the group is set to `%s', and the access permission is set to `%o'.\n\n"
 "%s"
-msgstr ""
-"Уладальнікам назначаны цяперашні карыстальнік, групай ўсталявана `%s', а "
-"правамі доступу - `%o'.\n"
-"\n"
+msgstr "Уладальнікам назначаны цяперашні карыстальнік, групай ўсталявана `%s', а правамі доступу - `%o'.\n\n"
 "%s"
 
 #: login/programs/pt_chown.c:204
@@ -3066,40 +2945,30 @@ msgid "%s: option '%s' requires an argument\\n"
 msgstr ""
 
 #: malloc/memusage.sh:38
-msgid ""
-"Usage: memusage [OPTION]... PROGRAM [PROGRAMOPTION]...\n"
-"Profile memory usage of PROGRAM.\n"
-"\n"
+msgid "Usage: memusage [OPTION]... PROGRAM [PROGRAMOPTION]...\n"
+"Profile memory usage of PROGRAM.\n\n"
 "   -n,--progname=NAME     Name of the program file to profile\n"
 "   -p,--png=FILE          Generate PNG graphic and store it in FILE\n"
 "   -d,--data=FILE         Generate binary data file and store it in FILE\n"
 "   -u,--unbuffered        Don't buffer output\n"
 "   -b,--buffer=SIZE       Collect SIZE entries before writing them out\n"
-"      --no-timer          Don't collect additional information through "
-"timer\n"
-"   -m,--mmap              Also trace mmap & friends\n"
-"\n"
+"      --no-timer          Don't collect additional information through timer\n"
+"   -m,--mmap              Also trace mmap & friends\n\n"
 "   -?,--help              Print this help and exit\n"
 "      --usage             Give a short usage message\n"
-"   -V,--version           Print version information and exit\n"
-"\n"
+"   -V,--version           Print version information and exit\n\n"
 " The following options only apply when generating graphical output:\n"
 "   -t,--time-based        Make graph linear in time\n"
 "   -T,--total             Also draw graph of total memory use\n"
 "      --title=STRING      Use STRING as title of the graph\n"
 "   -x,--x-size=SIZE       Make graphic SIZE pixels wide\n"
-"   -y,--y-size=SIZE       Make graphic SIZE pixels high\n"
-"\n"
-"Mandatory arguments to long options are also mandatory for any "
-"corresponding\n"
-"short options.\n"
-"\n"
+"   -y,--y-size=SIZE       Make graphic SIZE pixels high\n\n"
+"Mandatory arguments to long options are also mandatory for any corresponding\n"
+"short options.\n\n"
 msgstr ""
 
 #: malloc/memusage.sh:99
-msgid ""
-"Syntax: memusage [--data=FILE] [--progname=NAME] [--png=FILE] [--"
-"unbuffered]\n"
+msgid "Syntax: memusage [--data=FILE] [--progname=NAME] [--png=FILE] [--unbuffered]\n"
 "\t    [--buffer=SIZE] [--no-timer] [--time-based] [--total]\n"
 "\t    [--title=STRING] [--x-size=SIZE] [--y-size=SIZE]\n"
 "\t    PROGRAM [PROGRAMOPTION]..."
@@ -3130,9 +2999,7 @@ msgid "Title string used in output graphic"
 msgstr ""
 
 #: malloc/memusagestat.c:58
-msgid ""
-"Generate output linear to time (default is linear to number of function "
-"calls)"
+msgid "Generate output linear to time (default is linear to number of function calls)"
 msgstr ""
 
 #: malloc/memusagestat.c:62
@@ -3483,11 +3350,9 @@ msgid "Group Flags :"
 msgstr ""
 
 #: nis/nis_print.c:258
-msgid ""
-"\n"
+msgid "\n"
 "Group Members :\n"
-msgstr ""
-"\n"
+msgstr "\n"
 "Удзельнікі групы :\n"
 
 #: nis/nis_print.c:270
@@ -3580,11 +3445,9 @@ msgstr "Правы доступу: "
 
 #: nis/nis_print.c:333
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "Time to Live  : "
-msgstr ""
-"\n"
+msgstr "\n"
 "Час існаваньня  : "
 
 #: nis/nis_print.c:336
@@ -3862,9 +3725,7 @@ msgstr ""
 
 #: nscd/connections.c:575
 #, c-format
-msgid ""
-"suggested size of table for database %s larger than the persistent "
-"database's table"
+msgid "suggested size of table for database %s larger than the persistent database's table"
 msgstr ""
 
 #: nscd/connections.c:586 nscd/connections.c:670
@@ -3879,9 +3740,7 @@ msgstr ""
 
 #: nscd/connections.c:650
 #, c-format
-msgid ""
-"database for %s corrupted or simultaneously used; remove %s manually if "
-"necessary and restart"
+msgid "database for %s corrupted or simultaneously used; remove %s manually if necessary and restart"
 msgstr ""
 
 #: nscd/connections.c:656
@@ -4263,10 +4122,8 @@ msgstr ""
 
 #: nscd/nscd.c:485
 #, c-format
-msgid ""
-"Supported tables:\n"
-"%s\n"
-"\n"
+msgid "Supported tables:\n"
+"%s\n\n"
 "For bug reporting instructions, please see:\n"
 "%s.\n"
 msgstr ""
@@ -4356,9 +4213,7 @@ msgstr ""
 
 #: nscd/nscd_stat.c:224
 #, c-format
-msgid ""
-"nscd configuration:\n"
-"\n"
+msgid "nscd configuration:\n\n"
 "%15d  server debug level\n"
 msgstr ""
 
@@ -4384,8 +4239,7 @@ msgstr ""
 
 #: nscd/nscd_stat.c:257
 #, c-format
-msgid ""
-"%15d  current number of threads\n"
+msgid "%15d  current number of threads\n"
 "%15d  maximum number of threads\n"
 "%15lu  number of times clients had to wait\n"
 "%15s  paranoia mode enabled\n"
@@ -4395,10 +4249,8 @@ msgstr ""
 
 #: nscd/nscd_stat.c:292
 #, c-format
-msgid ""
-"\n"
-"%s cache:\n"
-"\n"
+msgid "\n"
+"%s cache:\n\n"
 "%15s  cache is enabled\n"
 "%15s  cache is persistent\n"
 "%15s  cache is shared\n"
@@ -4516,10 +4368,8 @@ msgstr ""
 
 #: nscd/selinux.c:439
 #, c-format
-msgid ""
-"\n"
-"SELinux AVC Statistics:\n"
-"\n"
+msgid "\n"
+"SELinux AVC Statistics:\n\n"
 "%15u  entry lookups\n"
 "%15u  entry hits\n"
 "%15u  entry misses\n"
@@ -4609,8 +4459,7 @@ msgid "Create simple database from textual input."
 msgstr ""
 
 #: nss/makedb.c:134
-msgid ""
-"INPUT-FILE OUTPUT-FILE\n"
+msgid "INPUT-FILE OUTPUT-FILE\n"
 "-o OUTPUT-FILE INPUT-FILE\n"
 "-u INPUT-FILE"
 msgstr ""
@@ -4696,14 +4545,11 @@ msgstr ""
 
 #: posix/getconf.c:496
 #, c-format
-msgid ""
-"Usage: getconf [-v SPEC] VAR\n"
-"  or:  getconf [-v SPEC] PATH_VAR PATH\n"
-"\n"
+msgid "Usage: getconf [-v SPEC] VAR\n"
+"  or:  getconf [-v SPEC] PATH_VAR PATH\n\n"
 "Get the configuration value for variable VAR, or for variable PATH_VAR\n"
 "for path PATH.  If SPEC is given, give values for compilation\n"
-"environment SPEC.\n"
-"\n"
+"environment SPEC.\n\n"
 msgstr ""
 
 #: posix/getconf.c:572
@@ -5042,8 +4888,7 @@ msgid "Signal generated by the completion of an asynchronous I/O request"
 msgstr ""
 
 #: stdio-common/psiginfo.c:153
-msgid ""
-"Signal generated by the arrival of a message on an empty message queue"
+msgid "Signal generated by the arrival of a message on an empty message queue"
 msgstr ""
 
 #: stdio-common/psiginfo.c:158
@@ -5051,8 +4896,7 @@ msgid "Signal sent by tkill()"
 msgstr ""
 
 #: stdio-common/psiginfo.c:163
-msgid ""
-"Signal generated by the completion of an asynchronous name lookup request"
+msgid "Signal generated by the completion of an asynchronous name lookup request"
 msgstr ""
 
 #: stdio-common/psiginfo.c:169
@@ -5351,20 +5195,13 @@ msgstr ""
 
 #: sunrpc/rpc_main.c:1399
 #, c-format
-msgid ""
-"\t%s [-abkCLNTM][-Dname[=value]] [-i size] [-I [-K seconds]] [-Y path] "
-"infile\n"
-msgstr ""
-"\t%s [-abkCLNTM][-Dname[=значэньне]] [-i памер] [-I [-K сэкунды]] [-Y шлях] "
-"файл_уводу\n"
+msgid "\t%s [-abkCLNTM][-Dname[=value]] [-i size] [-I [-K seconds]] [-Y path] infile\n"
+msgstr "\t%s [-abkCLNTM][-Dname[=значэньне]] [-i памер] [-I [-K сэкунды]] [-Y шлях] файл_уводу\n"
 
 #: sunrpc/rpc_main.c:1401
 #, c-format
-msgid ""
-"\t%s [-c | -h | -l | -m | -t | -Sc | -Ss | -Sm] [-o outfile] [infile]\n"
-msgstr ""
-"\t%s [-c | -h | -l | -m | -t | -Sc | -Ss | -Sm] [-o файл_вываду] "
-"[файл_уводу]\n"
+msgid "\t%s [-c | -h | -l | -m | -t | -Sc | -Ss | -Sm] [-o outfile] [infile]\n"
+msgstr "\t%s [-c | -h | -l | -m | -t | -Sc | -Ss | -Sm] [-o файл_вываду] [файл_уводу]\n"
 
 #: sunrpc/rpc_main.c:1403
 #, c-format
@@ -5513,12 +5350,10 @@ msgstr ""
 
 #: sunrpc/rpc_main.c:1440
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "For bug reporting instructions, please see:\n"
 "%s.\n"
-msgstr ""
-"\n"
+msgstr "\n"
 "Як рапартаваць аб памылках:\n"
 "%s.\n"
 
@@ -6702,9 +6537,7 @@ msgstr ""
 
 #: sysdeps/unix/sysv/linux/lddlibc4.c:60
 #, c-format
-msgid ""
-"Usage: lddlibc4 FILE\n"
-"\n"
+msgid "Usage: lddlibc4 FILE\n\n"
 msgstr ""
 
 #: sysdeps/unix/sysv/linux/lddlibc4.c:81
@@ -6756,18 +6589,15 @@ msgstr ""
 
 #: timezone/zdump.c:387
 #, c-format
-msgid ""
-"%s: usage: %s OPTIONS TIMEZONE ...\n"
+msgid "%s: usage: %s OPTIONS TIMEZONE ...\n"
 "Options include:\n"
-"  -c [L,]U   Start at year L (default -500), end before year U (default "
-"2500)\n"
+"  -c [L,]U   Start at year L (default -500), end before year U (default 2500)\n"
 "  -t [L,]U   Start at time L, end before time U (in seconds since 1970)\n"
 "  -i         List transitions briefly (format is experimental)\n"
 "  -v         List transitions verbosely\n"
 "  -V         List transitions a bit less verbosely\n"
 "  --help     Output this help\n"
-"  --version  Output version info\n"
-"\n"
+"  --version  Output version info\n\n"
 "Report bugs to %s.\n"
 msgstr ""
 
@@ -6815,11 +6645,9 @@ msgstr "увага: "
 
 #: timezone/zic.c:576
 #, c-format
-msgid ""
-"%s: usage is %s [ --version ] [ --help ] [ -v ] \\\n"
+msgid "%s: usage is %s [ --version ] [ --help ] [ -v ] \\\n"
 "\t[ -l localtime ] [ -p posixrules ] [ -d directory ] \\\n"
-"\t[ -t localtime-link ] [ -L leapseconds ] [ filename ... ]\n"
-"\n"
+"\t[ -t localtime-link ] [ -L leapseconds ] [ filename ... ]\n\n"
 "Report bugs to %s.\n"
 msgstr ""
 
@@ -7044,8 +6872,7 @@ msgid "format '%s' not handled by pre-2015 versions of zic"
 msgstr ""
 
 #: timezone/zic.c:1399
-msgid ""
-"Zone continuation line end time is not after end time of previous line"
+msgid "Zone continuation line end time is not after end time of previous line"
 msgstr ""
 
 #: timezone/zic.c:1426
@@ -7200,9 +7027,7 @@ msgid "use of 2/29 in non leap-year"
 msgstr ""
 
 #: timezone/zic.c:3192
-msgid ""
-"rule goes past start/end of month; will not work with pre-2004 versions of "
-"zic"
+msgid "rule goes past start/end of month; will not work with pre-2004 versions of zic"
 msgstr ""
 
 #: timezone/zic.c:3219
@@ -7225,3 +7050,4 @@ msgstr ""
 #, c-format
 msgid "%s: Can't create directory %s: %s"
 msgstr ""
+

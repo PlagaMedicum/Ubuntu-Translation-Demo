@@ -1,29 +1,29 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# Korostil Daniel <ted.korostiled@gmail.com>, 2011.
-# Alexandr Toorchyn <ilex@mail.ua>, 2011.
+# British English translation of glib-networking.
+# Copyright (C) 2011 glib-networking'S COPYRIGHT HOLDER
+# This file is distributed under the same licence as the glib-networking package.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2011, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=glib&keywords=I18N+L10N&component=network\n"
 "POT-Creation-Date: 2019-04-26 10:15+0000\n"
-"PO-Revision-Date: 2018-01-27 13:48+0000\n"
-"Last-Translator: Andrii Prokopenko <Unknown>\n"
-"Language-Team: translation@linux.org.ua\n"
+"PO-Revision-Date: 2019-07-08 17:09\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Launchpad-Export-Date: 2019-05-11 13:03+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"X-Project-Style: gnome\n"
-"Language: uk\n"
+"X-Generator: crowdin.com\n"
+"Language: uk_UA\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/glib-networking.po\n"
 
 #: proxy/libproxy/glibproxyresolver.c:159
 msgid "Proxy resolver internal error."
-msgstr "Внутрішня помилка розв'язника проксі."
+msgstr ""
 
 #: tls/base/gtlsconnection-base.c:282 tls/base/gtlsinputstream-base.c:74
 #: tls/base/gtlsoutputstream-base.c:74 tls/gnutls/gtlsconnection-gnutls.c:740
@@ -32,52 +32,52 @@ msgstr "Внутрішня помилка розв'язника проксі."
 #: tls/gnutls/gtlsoutputstream-gnutls.c:78
 #: tls/gnutls/gtlsoutputstream-gnutls.c:143
 msgid "Connection is closed"
-msgstr "З’єднання закрито"
+msgstr ""
 
 #: tls/base/gtlsconnection-base.c:355 tls/base/gtlsconnection-base.c:1015
 msgid "Operation would block"
-msgstr "Дію буде заблоковано"
+msgstr ""
 
 #: tls/base/gtlsconnection-base.c:809
 #: tls/gnutls/gtlsclientconnection-gnutls.c:454
 msgid "Server required TLS certificate"
-msgstr "Сервер потребує сертифікат TLS"
+msgstr ""
 
 #: tls/gnutls/gtlscertificate-gnutls.c:178
 #: tls/openssl/gtlscertificate-openssl.c:177
 #, c-format
 msgid "Could not parse DER certificate: %s"
-msgstr "Неможливо проаналізувати сертифікат DER: %s"
+msgstr ""
 
 #: tls/gnutls/gtlscertificate-gnutls.c:199
 #: tls/openssl/gtlscertificate-openssl.c:197
 #, c-format
 msgid "Could not parse PEM certificate: %s"
-msgstr "Неможливо проаналізувати сертифікат PEM: %s"
+msgstr ""
 
 #: tls/gnutls/gtlscertificate-gnutls.c:230
 #: tls/openssl/gtlscertificate-openssl.c:216
 #, c-format
 msgid "Could not parse DER private key: %s"
-msgstr "Неможливо проаналізувати закритий ключ DER: %s"
+msgstr ""
 
 #: tls/gnutls/gtlscertificate-gnutls.c:261
 #: tls/openssl/gtlscertificate-openssl.c:235
 #, c-format
 msgid "Could not parse PEM private key: %s"
-msgstr "Неможливо проаналізувати закритий ключ PEM: %s"
+msgstr ""
 
 #: tls/gnutls/gtlscertificate-gnutls.c:297
 #: tls/openssl/gtlscertificate-openssl.c:273
 msgid "No certificate data provided"
-msgstr "Не надано даних сертифіката"
+msgstr ""
 
 #: tls/gnutls/gtlsconnection-gnutls.c:405
 #: tls/openssl/gtlsclientconnection-openssl.c:536
 #: tls/openssl/gtlsserverconnection-openssl.c:425
 #, c-format
 msgid "Could not create TLS connection: %s"
-msgstr "Неможливо створити з'єднання TLS: %s"
+msgstr ""
 
 #. Cannot perform a blocking operation during a handshake on the
 #. * same thread that triggered the handshake. The only way this can
@@ -99,33 +99,33 @@ msgstr ""
 #: tls/gnutls/gtlsconnection-gnutls.c:1052
 #: tls/openssl/gtlsconnection-openssl.c:150
 msgid "Peer failed to perform TLS handshake"
-msgstr "Не вдалось виконати з'єднання TLS"
+msgstr ""
 
 #: tls/gnutls/gtlsconnection-gnutls.c:1037
 #: tls/openssl/gtlsconnection-openssl.c:238
 msgid "Peer requested illegal TLS rehandshake"
-msgstr "Вузол потребує нелегального перез'єднання TLS"
+msgstr ""
 
 #: tls/gnutls/gtlsconnection-gnutls.c:1058
 msgid "TLS connection closed unexpectedly"
-msgstr "Раптово закрито з'єднання TLS"
+msgstr ""
 
 #: tls/gnutls/gtlsconnection-gnutls.c:1072
 #: tls/openssl/gtlsconnection-openssl.c:175
 msgid "TLS connection peer did not send a certificate"
-msgstr "Вузол, з яким проводиться TLS-з’єднання, не надав сертифікат"
+msgstr ""
 
 #: tls/gnutls/gtlsconnection-gnutls.c:1078
 #: tls/gnutls/gtlsconnection-gnutls.c:2169
 #: tls/openssl/gtlsconnection-openssl.c:420
 #, c-format
 msgid "Unacceptable TLS certificate"
-msgstr "Неприпустимий сертифікат TLS"
+msgstr ""
 
 #: tls/gnutls/gtlsconnection-gnutls.c:1084
 #, c-format
 msgid "Peer sent fatal TLS alert: %s"
-msgstr "Пір надіслав фатальний сигнал TLS: %s"
+msgstr ""
 
 #: tls/gnutls/gtlsconnection-gnutls.c:1096
 msgid "Protocol version downgrade attack detected"
@@ -137,6 +137,8 @@ msgid "Message is too large for DTLS connection; maximum is %u byte"
 msgid_plural "Message is too large for DTLS connection; maximum is %u bytes"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: tls/gnutls/gtlsconnection-gnutls.c:1110
 msgid "The operation timed out"
@@ -173,6 +175,8 @@ msgid "Message of size %lu byte is too large for DTLS connection"
 msgid_plural "Message of size %lu bytes is too large for DTLS connection"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: tls/gnutls/gtlsconnection-gnutls.c:2762
 #, c-format
@@ -180,6 +184,8 @@ msgid "(maximum is %u byte)"
 msgid_plural "(maximum is %u bytes)"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: tls/gnutls/gtlsconnection-gnutls.c:2821
 #, c-format
@@ -191,9 +197,7 @@ msgid "Error performing TLS close"
 msgstr ""
 
 #: tls/gnutls/gtlsdatabase-gnutls.c:553
-msgid ""
-"Failed to load system trust store: GnuTLS was not configured with a system "
-"trust"
+msgid "Failed to load system trust store: GnuTLS was not configured with a system trust"
 msgstr ""
 
 #: tls/gnutls/gtlsdatabase-gnutls.c:558
@@ -204,7 +208,7 @@ msgstr ""
 #: tls/gnutls/gtlsserverconnection-gnutls.c:137
 #: tls/openssl/gtlsserverconnection-openssl.c:91
 msgid "Certificate has no private key"
-msgstr "Сертифікат не має закритого ключа"
+msgstr ""
 
 #: tls/openssl/gtlsclientconnection-openssl.c:417
 #: tls/openssl/gtlsclientconnection-openssl.c:483
@@ -222,26 +226,26 @@ msgstr ""
 #: tls/openssl/gtlsconnection-openssl.c:380
 #, c-format
 msgid "Error performing TLS handshake: %s"
-msgstr "Помилка виконання з'єднання TLS: %s"
+msgstr ""
 
 #: tls/openssl/gtlsconnection-openssl.c:390
 msgid "Server did not return a valid TLS certificate"
-msgstr "Сертифікат TLS, повернений сервером, не є справжнім"
+msgstr ""
 
 #: tls/openssl/gtlsconnection-openssl.c:504
 #, c-format
 msgid "Error reading data from TLS socket: %s"
-msgstr "Помилка зчитування даних з гнізда TLS: %s"
+msgstr ""
 
 #: tls/openssl/gtlsconnection-openssl.c:530
 #, c-format
 msgid "Error writing data to TLS socket: %s"
-msgstr "Помилка запису даних у гніздо TLS: %s"
+msgstr ""
 
 #: tls/openssl/gtlsconnection-openssl.c:556
 #, c-format
 msgid "Error performing TLS close: %s"
-msgstr "Помилка закриття TLS: %s"
+msgstr ""
 
 #: tls/openssl/gtlsserverconnection-openssl.c:102
 #, c-format
@@ -252,3 +256,4 @@ msgstr ""
 #, c-format
 msgid "There is a problem with the certificate private key: %s"
 msgstr ""
+

@@ -1,25 +1,22 @@
-# Rosetta Contributors and Canonical Ltd, 2010.
-# Yuri Matsuk <yuri@matsuk.net>, 2011.
-# Olya Matsuk <olya@matsuk.net>, 2011, 2012.
-# Kasia Bondarava <kasia.bondarava@gmail.com>, 2012.
-# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2012, 2013, 2014.
-# Yuras Shumovich <shumovichy@gmail.com>, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: seahorse master\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/seahorse/issues\n"
 "POT-Creation-Date: 2019-03-16 21:32+0000\n"
-"PO-Revision-Date: 2019-03-16 23:39+0000\n"
-"Last-Translator: Launchpad Translations Administrators <Unknown>\n"
-"Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
+"PO-Revision-Date: 2019-07-08 17:18\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Launchpad-Export-Date: 2019-05-11 11:53+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: be\n"
+"X-Generator: crowdin.com\n"
+"X-Project-Style: gnome\n"
+"Language: be_BY\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/seahorse.po\n"
 
 #: common/add-keyserver-dialog.vala:32
 msgid "Add Key Server"
@@ -104,12 +101,8 @@ msgid "Not a valid Key Server address."
 msgstr "Хібны адрас сервера ключоў."
 
 #: common/prefs.vala:167
-msgid ""
-"For help contact your system administrator or the administrator of the key "
-"server."
-msgstr ""
-"Для дапамогі звярніцеся да свайго сістэмнага адміністратара ці "
-"адміністратара сервера ключоў."
+msgid "For help contact your system administrator or the administrator of the key server."
+msgstr "Для дапамогі звярніцеся да свайго сістэмнага адміністратара ці адміністратара сервера ключоў."
 
 #: common/prefs.vala:236
 msgid "URL"
@@ -134,7 +127,7 @@ msgstr "Назва хоста ці адрас сервера."
 
 #: common/seahorse-add-keyserver.ui:93
 msgid ":"
-msgstr ":"
+msgstr ""
 
 #: common/seahorse-add-keyserver.ui:105
 msgid "The port to access the server on."
@@ -198,33 +191,34 @@ msgid "Revoked"
 msgstr "Адклікана"
 
 #: data/org.gnome.seahorse.gschema.xml:5
+#| msgid "Auto Retrieve Keys"
 msgid "Auto retrieve keys"
 msgstr "Аўтаматычна атрымоўваць ключы"
 
 #: data/org.gnome.seahorse.gschema.xml:6
-msgid ""
-"Whether or not keys should be automatically retrieved from key servers."
+msgid "Whether or not keys should be automatically retrieved from key servers."
 msgstr "Ці аўтаматычна атрымоўваць _ключы з сервераў ключоў."
 
 #: data/org.gnome.seahorse.gschema.xml:10
+#| msgid "None: Don’t publish keys"
 msgid "Auto publish keys"
 msgstr "Аўтаматычна публікаваць ключы"
 
 #: data/org.gnome.seahorse.gschema.xml:11
+#| msgid ""
+#| "Whether or not modified keys should be automatically synced with the "
+#| "default key server."
 msgid "Whether or not modified keys should be automatically published."
 msgstr "Ці аўтаматычна публікаваць змененыя _ключы."
 
 #: data/org.gnome.seahorse.gschema.xml:15
+#| msgid "Publish keys to this key server."
 msgid "Publish keys to this key server"
 msgstr "Публікаваць ключы на гэтым серверы ключоў"
 
 #: data/org.gnome.seahorse.gschema.xml:16
-msgid ""
-"The key server to publish PGP keys to. Or empty to suppress publishing of "
-"PGP keys."
-msgstr ""
-"Сервер ключоў, на якім публікаваць PGP ключы. Пакіньце пустым, каб скасаваць "
-"публікацыю PGP ключоў."
+msgid "The key server to publish PGP keys to. Or empty to suppress publishing of PGP keys."
+msgstr "Сервер ключоў, на якім публікаваць PGP ключы. Пакіньце пустым, каб скасаваць публікацыю PGP ключоў."
 
 #: data/org.gnome.seahorse.gschema.xml:20
 msgid "Last key server search pattern"
@@ -239,18 +233,15 @@ msgid "Last key servers used"
 msgstr "Апошнія выкарыстаныя серверы ключоў"
 
 #: data/org.gnome.seahorse.gschema.xml:26
-msgid ""
-"The last key server a search was performed against or empty for all key "
-"servers."
-msgstr ""
-"Апошні сервер ключоў, на якім ажыццяўляўся пошук, ці пуста для ўсіх сервераў "
-"ключоў."
+msgid "The last key server a search was performed against or empty for all key servers."
+msgstr "Апошні сервер ключоў, на якім ажыццяўляўся пошук, ці пуста для ўсіх сервераў ключоў."
 
 #: data/org.gnome.seahorse.manager.gschema.xml:5
 msgid "Show keyrings sidebar"
 msgstr "Паказаць паліцу вязак ключоў"
 
 #: data/org.gnome.seahorse.manager.gschema.xml:6
+#| msgid "Show sidebar listing keyrings"
 msgid "Show keyrings sidebar in Seahorse."
 msgstr "Паказаць паліцу вязак ключоў у Seahorse."
 
@@ -259,13 +250,8 @@ msgid "Which items to show"
 msgstr "Якія элементы паказваць"
 
 #: data/org.gnome.seahorse.manager.gschema.xml:11
-msgid ""
-"Filter which items to show. If empty, show all items, if “personal” show "
-"personal keys, if “trusted” show trusted."
-msgstr ""
-"Якія элементы паказваць. Калі пуста, паказваць усе элементы; калі "
-"\"personal\" (асабістыя), паказваць асабістыя ключы; калі \"trusted\" "
-"(давераныя), паказваць давераныя ключы."
+msgid "Filter which items to show. If empty, show all items, if “personal” show personal keys, if “trusted” show trusted."
+msgstr "Якія элементы паказваць. Калі пуста, паказваць усе элементы; калі \"personal\" (асабістыя), паказваць асабістыя ключы; калі \"trusted\" (давераныя), паказваць давераныя ключы."
 
 #: data/org.gnome.seahorse.manager.gschema.xml:16
 msgid "Width of the side pane"
@@ -284,20 +270,17 @@ msgid "The URIs of the keyrings chosen in the sidebar."
 msgstr "URL-адрасы вязак ключоў, выдраных на бакавой паліцы."
 
 #: data/org.gnome.seahorse.manager.gschema.xml:29
+#| msgid "The column to sort the seahorse keys by"
 msgid "The column to sort the Seahorse keys by"
 msgstr "Слупок, па якім сартаваць ключы Seahorse"
 
 #: data/org.gnome.seahorse.manager.gschema.xml:30
-msgid ""
-"Specify the column to sort the Seahorse key manager main window by. Columns "
-"are: “name”, “id”, “validity”, “expires”, “trust”, and “type”. Put a “-” in "
-"front of the column name to sort in descending order."
-msgstr ""
-"Вызначае слупок, па якім трэба сартаваць у галоўным акне кіраўніка ключоў "
-"Seahorse. Магчымыя слупкі: \"name\" (імя), \"id\" (ідэнтыфікатар), "
-"\"validity\" (правільнасць), \"expires\" (тэрмін прыдатрасці), \"trust\" "
-"(давер) і \"type\" (тып). Дадайце \"-\" у пачатак назвы слупка, каб "
-"сартаваць у адваротным кірунку."
+#| msgid ""
+#| "Specify the column to sort the seahorse key manager main window by. "
+#| "Columns are: 'name', 'id', 'validity', 'expires', 'trust', and 'type'. "
+#| "Put a '-' in front of the column name to sort in descending order."
+msgid "Specify the column to sort the Seahorse key manager main window by. Columns are: “name”, “id”, “validity”, “expires”, “trust”, and “type”. Put a “-” in front of the column name to sort in descending order."
+msgstr "Вызначае слупок, па якім трэба сартаваць у галоўным акне кіраўніка ключоў Seahorse. Магчымыя слупкі: \"name\" (імя), \"id\" (ідэнтыфікатар), \"validity\" (правільнасць), \"expires\" (тэрмін прыдатрасці), \"trust\" (давер) і \"type\" (тып). Дадайце \"-\" у пачатак назвы слупка, каб сартаваць у адваротным кірунку."
 
 #: data/org.gnome.seahorse.manager.gschema.xml:34
 msgid "Show validity column"
@@ -307,6 +290,7 @@ msgstr "Паказаць слупок правільнасці"
 #: data/org.gnome.seahorse.manager.gschema.xml:40
 #: data/org.gnome.seahorse.manager.gschema.xml:45
 #: data/org.gnome.seahorse.manager.gschema.xml:50
+#| msgid "Key is no longer used"
 msgid "No longer in use."
 msgstr "Больш не выкарыстоўваецца."
 
@@ -315,6 +299,7 @@ msgid "Show expiry column"
 msgstr "Паказаць слупок з тэрмінам прыдатнасці"
 
 #: data/org.gnome.seahorse.manager.gschema.xml:44
+#| msgid "Show owner trust column"
 msgid "Show trust column"
 msgstr "Паказаць слупок даверу"
 
@@ -323,6 +308,7 @@ msgid "Show type column"
 msgstr "Паказаць слупок тыпу"
 
 #: data/org.gnome.seahorse.window.gschema.xml:5
+#| msgid "Close this window"
 msgid "Width of the window"
 msgstr "Шырыня акна"
 
@@ -340,7 +326,7 @@ msgstr "Вышыня акна (ў пікселах)."
 
 #: data/org.gnome.seahorse.Application.appdata.xml.in:6
 msgid "Seahorse"
-msgstr "Seahorse"
+msgstr ""
 
 #: data/org.gnome.seahorse.Application.appdata.xml.in:7
 #: data/org.gnome.seahorse.Application.desktop.in.in:4
@@ -348,24 +334,12 @@ msgid "Manage your passwords and encryption keys"
 msgstr "Кіраванне паролямі і ключамі шыфравання"
 
 #: data/org.gnome.seahorse.Application.appdata.xml.in:9
-msgid ""
-"Seahorse is a GNOME application for managing encryption keys. It also "
-"integrates with nautilus, gedit and other places for encryption operations."
-msgstr ""
-"Seahorse, праграма для асяроддзя GNOME для кіравання ключамі шыфравання. Яна "
-"інтэгруецца з Наўтылусам, рэдактарам gedit ды іншымі праграмамі, якія "
-"патрабуюць доступ да шыфравання."
+msgid "Seahorse is a GNOME application for managing encryption keys. It also integrates with nautilus, gedit and other places for encryption operations."
+msgstr "Seahorse, праграма для асяроддзя GNOME для кіравання ключамі шыфравання. Яна інтэгруецца з Наўтылусам, рэдактарам gedit ды іншымі праграмамі, якія патрабуюць доступ да шыфравання."
 
 #: data/org.gnome.seahorse.Application.appdata.xml.in:13
-msgid ""
-"With seahorse you can create and manage PGP keys, create and manage SSH "
-"keys, publish and retrieve keys from key servers, cache your passphrase so "
-"you don’t have to keep typing it and backup your keys and keyring."
-msgstr ""
-"З дапамогай Seahorse можна ствараць і кіраваць PGP- і SSH-ключамі, "
-"публікаваць і сцягваць ключы з сервераў, запамінаць пароль дзеля таго, каб "
-"не трэба было яго штораз уводзіць, а таксама рабіць запасныя копіі вашых "
-"ключоў ды іх вязак."
+msgid "With seahorse you can create and manage PGP keys, create and manage SSH keys, publish and retrieve keys from key servers, cache your passphrase so you don’t have to keep typing it and backup your keys and keyring."
+msgstr "З дапамогай Seahorse можна ствараць і кіраваць PGP- і SSH-ключамі, публікаваць і сцягваць ключы з сервераў, запамінаць пароль дзеля таго, каб не трэба было яго штораз уводзіць, а таксама рабіць запасныя копіі вашых ключоў ды іх вязак."
 
 #: data/org.gnome.seahorse.Application.desktop.in.in:3 src/application.vala:158
 #: src/seahorse-key-manager.ui:276
@@ -516,6 +490,7 @@ msgid_plural "Are you sure you want to delete %d passwords?"
 msgstr[0] "Сапраўды выдаліць %d пароль?"
 msgstr[1] "Сапраўды выдаліць %d паролі?"
 msgstr[2] "Сапраўды выдаліць %d пароляў?"
+msgstr[3] ""
 
 #: gkr/gkr-keyring-add.vala:53
 msgid "Couldn’t add keyring"
@@ -580,20 +555,18 @@ msgid "_Password:"
 msgstr "_Пароль:"
 
 #: gkr/seahorse-gkr-add-item.ui:139 gkr/seahorse-gkr-add-keyring.ui:89
+#| msgid "_OK"
 msgid "OK"
 msgstr "Добра"
 
 #: gkr/seahorse-gkr-add-keyring.ui:6
+#| msgid "Add Password Keyring"
 msgid "Add password keyring"
 msgstr "Дадаць вязак парольных ключоў"
 
 #: gkr/seahorse-gkr-add-keyring.ui:24
-msgid ""
-"Please choose a name for the new keyring. You will be prompted for an unlock "
-"password."
-msgstr ""
-"Абярыце назву для новай вязкі ключоў. Пазней спатрэбіцца пароль для "
-"разблакіравання."
+msgid "Please choose a name for the new keyring. You will be prompted for an unlock password."
+msgstr "Абярыце назву для новай вязкі ключоў. Пазней спатрэбіцца пароль для разблакіравання."
 
 #: gkr/seahorse-gkr-add-keyring.ui:42
 msgid "New Keyring Name:"
@@ -886,36 +859,36 @@ msgstr "24hr: yes"
 #: libegg/egg-datetime.c:796 libegg/egg-datetime.c:1259
 #: libegg/egg-datetime.c:1263
 msgid "AM"
-msgstr "AM"
+msgstr ""
 
 #: libegg/egg-datetime.c:798 libegg/egg-datetime.c:1260
 #: libegg/egg-datetime.c:1267
 msgid "PM"
-msgstr "PM"
+msgstr ""
 
 #. Translators: This is hh:mm:ss AM/PM.
 #: libegg/egg-datetime.c:806
 #, c-format
 msgid "%02d:%02d:%02d %s"
-msgstr "%02d:%02d:%02d %s"
+msgstr ""
 
 #. Translators: This is hh:mm AM/PM.
 #: libegg/egg-datetime.c:809
 #, c-format
 msgid "%02d:%02d %s"
-msgstr "%02d:%02d %s"
+msgstr ""
 
 #. Translators: This is hh:mm:ss.
 #: libegg/egg-datetime.c:813
 #, c-format
 msgid "%02d:%02d:%02d"
-msgstr "%02d:%02d:%02d"
+msgstr ""
 
 #. Translators: This is hh:mm.
 #: libegg/egg-datetime.c:816
 #, c-format
 msgid "%02d:%02d"
-msgstr "%02d:%02d"
+msgstr ""
 
 #. TODO: should handle other display modes as well...
 #. Translators: This is YYYY-MM-DD
@@ -928,7 +901,7 @@ msgstr "%3$02d-%2$02d-%1$04d"
 #: libegg/egg-datetime.c:1240
 #, c-format
 msgid "%u:%u:%u"
-msgstr "%u:%u:%u"
+msgstr ""
 
 #: libseahorse/seahorse-widget.c:461
 #, c-format
@@ -1086,11 +1059,11 @@ msgstr "Ключы PGP"
 #: pgp/seahorse-gpgme-generate.c:76 pkcs11/pkcs11-generate.vala:60
 #: ssh/seahorse-ssh-generate.ui:141
 msgid "RSA"
-msgstr "RSA"
+msgstr ""
 
 #: pgp/seahorse-gpgme-generate.c:77
 msgid "DSA ElGamal"
-msgstr "DSA ElGamal"
+msgstr ""
 
 #: pgp/seahorse-gpgme-generate.c:129
 msgid "Couldn’t generate PGP key"
@@ -1106,14 +1079,12 @@ msgstr "Двойчы ўвядзіце парольную фразу для ва�
 
 #. Has line breaks because GtkLabel is completely broken WRT wrapping
 #: pgp/seahorse-gpgme-generate.c:181
-msgid ""
-"When creating a key we need to generate a lot of\n"
+msgid "When creating a key we need to generate a lot of\n"
 "random data and we need you to help. It’s a good\n"
 "idea to perform some other action like typing on\n"
 "the keyboard, moving the mouse, using applications.\n"
 "This gives the system the random data that it needs."
-msgstr ""
-"Пры стварэнні ключа трэба згенераваць шмат выпадковых даных,\n"
+msgstr "Пры стварэнні ключа трэба згенераваць шмат выпадковых даных,\n"
 "і для гэтага патрабуецца ваша дапамога. Калі ласка, выконвайце\n"
 "разнастайныя дзеянні, напрыклад, уводзьце тэкст з клавіятуры,\n"
 "варушыце мыш, карыстайцеся праграмамі. Такая актыўнасць дасць\n"
@@ -1124,6 +1095,7 @@ msgid "Generating key"
 msgstr "Генерацыя ключа"
 
 #: pgp/seahorse-gpgme-generate.c:313
+#| msgid "Must be at least 5 characters long"
 msgid "Name must be at least 5 characters long."
 msgstr "Імя мусіць складацца прынамсі з пяці знакаў."
 
@@ -1140,14 +1112,14 @@ msgid_plural "Are you sure you want to permanently delete %d keys?"
 msgstr[0] "Сапраўды незваротна выдаліць %d ключ?"
 msgstr[1] "Сапраўды незваротна выдаліць %d ключы?"
 msgstr[2] "Сапраўды незваротна выдаліць %d ключоў?"
+msgstr[3] ""
 
 #: pgp/seahorse-gpgme-key-op.c:347
 msgid "Wrong password"
 msgstr "Няправільны пароль"
 
 #: pgp/seahorse-gpgme-key-op.c:347
-msgid ""
-"This was the third time you entered a wrong password. Please try again."
+msgid "This was the third time you entered a wrong password. Please try again."
 msgstr "Вы тройчы ўвялі няправільны пароль. Паспрабуйце яшчэ раз."
 
 #: pgp/seahorse-gpgme-keyring.c:89
@@ -1184,14 +1156,11 @@ msgid_plural "Loaded %d keys"
 msgstr[0] "Загружаны %d ключ"
 msgstr[1] "Загружаны %d ключы"
 msgstr[2] "Загружана %d ключоў"
+msgstr[3] ""
 
 #: pgp/seahorse-gpgme-keyring.c:625
-msgid ""
-"Invalid key data (missing UIDs). This may be due to a computer with a date "
-"set in the future or a missing self-signature."
-msgstr ""
-"Няправільныя даныя ключа (адсутнічаюць UID-ідэнтыфікатары). Прычынай можа "
-"быць камп'ютар з датай, настаўленай у будучыні, альбо адсутнасць самаподпісу."
+msgid "Invalid key data (missing UIDs). This may be due to a computer with a date set in the future or a missing self-signature."
+msgstr "Няправільныя даныя ключа (адсутнічаюць UID-ідэнтыфікатары). Прычынай можа быць камп'ютар з датай, настаўленай у будучыні, альбо адсутнасць самаподпісу."
 
 #: pgp/seahorse-gpgme-keyring.c:755
 msgid "GnuPG keys"
@@ -1203,11 +1172,9 @@ msgstr "GnuPG: прадвызначаны каталог вязкі ключоў
 
 #: pgp/seahorse-gpgme-photos.c:72
 #, c-format
-msgid ""
-"<big><b>The photo is too large</b></big>\n"
+msgid "<big><b>The photo is too large</b></big>\n"
 "The recommended size for a photo on your key is %d × %d pixels."
-msgstr ""
-"<big><b>Фотаздымак надта вялікі</b></big>\n"
+msgstr "<big><b>Фотаздымак надта вялікі</b></big>\n"
 "Рэкамендаваны памер фотаздымка для вашага ключа - %d x %d пікселаў."
 
 #: pgp/seahorse-gpgme-photos.c:77
@@ -1220,11 +1187,8 @@ msgstr "_Змяніць памер"
 
 #: pgp/seahorse-gpgme-photos.c:127
 #, c-format
-msgid ""
-"This is not a image file, or an unrecognized kind of image file. Try to use "
-"a JPEG image."
-msgstr ""
-"Гэта не выява або невядомы тып выявы. Паспрабуйце ўжыць выяву ў фармаце JPEG."
+msgid "This is not a image file, or an unrecognized kind of image file. Try to use a JPEG image."
+msgstr "Гэта не выява або невядомы тып выявы. Паспрабуйце ўжыць выяву ў фармаце JPEG."
 
 #: pgp/seahorse-gpgme-photos.c:223
 msgid "All image files"
@@ -1309,12 +1273,8 @@ msgstr "Ключ больш не выкарыстоўваецца"
 
 #: pgp/seahorse-gpgme-revoke.c:164
 #, c-format
-msgid ""
-"You are about to add %s as a revoker for %s. This operation cannot be "
-"undone! Are you sure you want to continue?"
-msgstr ""
-"Вы збіраецеся адклікаць %2$s, дадаўшы %1$s. Гэтую аперацыю нельга ануляваць! "
-"Ці вы сапраўды хочаце працягнуць?"
+msgid "You are about to add %s as a revoker for %s. This operation cannot be undone! Are you sure you want to continue?"
+msgstr "Вы збіраецеся адклікаць %2$s, дадаўшы %1$s. Гэтую аперацыю нельга ануляваць! Ці вы сапраўды хочаце працягнуць?"
 
 #: pgp/seahorse-gpgme-revoke.c:176
 msgid "Couldn’t add revoker"
@@ -1326,11 +1286,9 @@ msgstr "Я разумею, што гэты сакрэтны ключ будзе 
 
 #: pgp/seahorse-gpgme-sign.c:99
 #, c-format
-msgid ""
-"This key was already signed by\n"
+msgid "This key was already signed by\n"
 "“%s”"
-msgstr ""
-"Гэты ключ ужо быў падпісаны\n"
+msgstr "Гэты ключ ужо быў падпісаны\n"
 "\"%s\""
 
 #: pgp/seahorse-gpgme-sign.c:104
@@ -1344,12 +1302,8 @@ msgid "No keys usable for signing"
 msgstr "Няма ключоў, прыдатных для падпісання"
 
 #: pgp/seahorse-gpgme-sign.c:164
-msgid ""
-"You have no personal PGP keys that can be used to indicate your trust of "
-"this key."
-msgstr ""
-"У вас няма асабістых ключоў PGP, якія вы маглі б выкарыстаць, каб "
-"пацвердзіць давер да гэтага ключа."
+msgid "You have no personal PGP keys that can be used to indicate your trust of this key."
+msgstr "У вас няма асабістых ключоў PGP, якія вы маглі б выкарыстаць, каб пацвердзіць давер да гэтага ключа."
 
 #: pgp/seahorse-gpgme-subkey.c:89
 msgctxt "Algorithm"
@@ -1358,14 +1312,12 @@ msgstr "Невядома"
 
 #: pgp/seahorse-gpgme-subkey.c:91
 msgid "ElGamal"
-msgstr "ElGamal"
+msgstr ""
 
 #: pgp/seahorse-hkp-source.c:533
 #, c-format
 msgid "Search was not specific enough. Server “%s” found too many keys."
-msgstr ""
-"Крытэрый пошуку не быў дастаткова акрэслены. Сервер \"%s\" знайшоў надта "
-"шмат ключоў."
+msgstr "Крытэрый пошуку не быў дастаткова акрэслены. Сервер \"%s\" знайшоў надта шмат ключоў."
 
 #: pgp/seahorse-hkp-source.c:536
 #, c-format
@@ -1407,9 +1359,7 @@ msgid "The search for keys failed."
 msgstr "Не ўдалося выканаць пошук ключоў."
 
 #: pgp/seahorse-keyserver-results.ui:16
-msgid ""
-"Double click on a key to inspect it, or click the import button to import it "
-"into your local keyring."
+msgid "Double click on a key to inspect it, or click the import button to import it into your local keyring."
 msgstr ""
 
 #: pgp/seahorse-keyserver-search.ui:8
@@ -1417,12 +1367,8 @@ msgid "Find Remote Keys"
 msgstr "Пошук аддаленых ключоў"
 
 #: pgp/seahorse-keyserver-search.ui:37
-msgid ""
-"This will find keys for others on the Internet. These keys can then be "
-"imported into your local key ring."
-msgstr ""
-"Пошук ключоў іншых карыстальнікаў у Інтэрнэце. Пазней гэтыя ключы можна "
-"імпартаваць у вашую мясцовую вязку ключоў."
+msgid "This will find keys for others on the Internet. These keys can then be imported into your local key ring."
+msgstr "Пошук ключоў іншых карыстальнікаў у Інтэрнэце. Пазней гэтыя ключы можна імпартаваць у вашую мясцовую вязку ключоў."
 
 #: pgp/seahorse-keyserver-search.ui:52
 msgid "_Search for keys containing: "
@@ -1460,6 +1406,7 @@ msgid_plural "<b>%d keys are selected for synchronizing</b>"
 msgstr[0] "<b>%d ключ вылучаны для сінхранізацыі</b>"
 msgstr[1] "<b>%d ключы вылучаны для сінхранізацыі</b>"
 msgstr[2] "<b>%d ключоў вылучаны для сінхранізацыі</b>"
+msgstr[3] ""
 
 #: pgp/seahorse-keyserver-sync.c:237
 msgid "Synchronizing keys…"
@@ -1470,24 +1417,12 @@ msgid "Sync Keys"
 msgstr "Сінхранізацыя ключоў"
 
 #: pgp/seahorse-keyserver-sync.ui:52
-msgid ""
-"This will publish the keys in your key ring so they’re available for others "
-"to use. You’ll also get any changes others have made since you received "
-"their keys."
-msgstr ""
-"Ключы з вашай вязкі будуць апублікаваны на серверы і стануць даступнымі для "
-"іншых карыстальнікаў. Вы таксама атрымаеце змены, якія зроблены іншымі "
-"карыстальнікамі пасля таго, як вы атрымалі іх ключы."
+msgid "This will publish the keys in your key ring so they’re available for others to use. You’ll also get any changes others have made since you received their keys."
+msgstr "Ключы з вашай вязкі будуць апублікаваны на серверы і стануць даступнымі для іншых карыстальнікаў. Вы таксама атрымаеце змены, якія зроблены іншымі карыстальнікамі пасля таго, як вы атрымалі іх ключы."
 
 #: pgp/seahorse-keyserver-sync.ui:65
-msgid ""
-"This will retrieve any changes others have made since you received their "
-"keys. No key server has been chosen for publishing, so your keys will not be "
-"made available to others."
-msgstr ""
-"Вы будзеце атрымліваць змены, якія зроблены іншымі карыстальнікамі пасля "
-"таго, як вы атрымалі іх ключы. Вы не абралі сервер ключоў для публікацыі, "
-"таму вашы ключы не будуць даступнымі для іншых карыстальнікаў."
+msgid "This will retrieve any changes others have made since you received their keys. No key server has been chosen for publishing, so your keys will not be made available to others."
+msgstr "Вы будзеце атрымліваць змены, якія зроблены іншымі карыстальнікамі пасля таго, як вы атрымалі іх ключы. Вы не абралі сервер ключоў для публікацыі, таму вашы ключы не будуць даступнымі для іншых карыстальнікаў."
 
 #: pgp/seahorse-keyserver-sync.ui:115
 msgid "_Key Servers"
@@ -1530,13 +1465,13 @@ msgid "PGP keys are for encrypting email or files"
 msgstr "Ключы PGP ужываюцца для шыфравання электронных лістоў ці файлаў"
 
 #: pgp/seahorse-pgp-generate.ui:18
+#| msgid "New PGP Key"
 msgid "New PGP key"
 msgstr "Новы ключ PGP"
 
 #: pgp/seahorse-pgp-generate.ui:67
 msgid "A PGP key allows you to encrypt email or files to other people."
-msgstr ""
-"Ключ PGP дазваляе шыфраваць электронныя лісты ці файлы для іншых людзей."
+msgstr "Ключ PGP дазваляе шыфраваць электронныя лісты ці файлы для іншых людзей."
 
 #. Full name of the key, usually the name of the user.
 #: pgp/seahorse-pgp-generate.ui:86
@@ -1671,7 +1606,7 @@ msgstr "Ніколі"
 
 #: pgp/seahorse-pgp-key-properties.c:1214
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #: pgp/seahorse-pgp-key-properties.c:1220
 msgid "Usage"
@@ -1722,20 +1657,13 @@ msgstr "Я давяраю подпісам \"%s\" на іншых ключах"
 
 #: pgp/seahorse-pgp-key-properties.c:1707
 #, c-format
-msgid ""
-"If you believe that the person that owns this key is “%s”, <i>sign</i> this "
-"key:"
-msgstr ""
-"Калі вы верыце, што ўласнік гэтага ключа - гэта \"%s\", <i>падпішыце</i> "
-"гэты ключ:"
+msgid "If you believe that the person that owns this key is “%s”, <i>sign</i> this key:"
+msgstr "Калі вы верыце, што ўласнік гэтага ключа - гэта \"%s\", <i>падпішыце</i> гэты ключ:"
 
 #: pgp/seahorse-pgp-key-properties.c:1714
 #, c-format
-msgid ""
-"If you no longer trust that “%s” owns this key, <i>revoke</i> your signature:"
-msgstr ""
-"Калі вы больш не верыце, што гэтым ключом валодае \"%s\", <i>адклікайце</i> "
-"свой подпіс:"
+msgid "If you no longer trust that “%s” owns this key, <i>revoke</i> your signature:"
+msgstr "Калі вы больш не верыце, што гэтым ключом валодае \"%s\", <i>адклікайце</i> свой подпіс:"
 
 #: pgp/seahorse-pgp-private-key-properties.ui:56
 #: pgp/seahorse-pgp-public-key-properties.ui:61
@@ -1989,11 +1917,8 @@ msgid "Re_voke"
 msgstr "_Адклікаць"
 
 #: pgp/seahorse-signer.c:63
-msgid ""
-"You have no personal PGP keys that can be used to sign a document or message."
-msgstr ""
-"У вас няма асабістых ключоў PGP, якія вы маглі б выкарыстаць для подпісу "
-"дакумента ці паведамлення."
+msgid "You have no personal PGP keys that can be used to sign a document or message."
+msgstr "У вас няма асабістых ключоў PGP, якія вы маглі б выкарыстаць для подпісу дакумента ці паведамлення."
 
 #: pgp/seahorse-signer.ui:7
 msgid "Choose Signing Key"
@@ -2009,9 +1934,7 @@ msgstr "Падпісанне ключа"
 
 #: pgp/seahorse-sign.ui:27
 msgid "By signing you indicate your trust that this key belongs to:"
-msgstr ""
-"Сваім подпісам вы пацвярджаеце сваю ўпэўненасць у тым, што гэты ключ "
-"належыць:"
+msgstr "Сваім подпісам вы пацвярджаеце сваю ўпэўненасць у тым, што гэты ключ належыць:"
 
 #: pgp/seahorse-sign.ui:34
 msgid "Key Name"
@@ -2034,42 +1957,20 @@ msgid "_Very Carefully"
 msgstr "_Вельмі рупліва"
 
 #: pgp/seahorse-sign.ui:134
-msgid ""
-"<i>Not at all:</i> means you believe the key is owned by the person who "
-"claims to own it, but you could not or did not verify this to be a fact."
-msgstr ""
-"<i>Зусім не правяраў:</i> вы верыце, што гэты ключ належыць асобе, якая "
-"прадставілася яго ўласнікам, але вы не можаце праверыць ці не правяралі "
-"сапраўднасць гэтага факта."
+msgid "<i>Not at all:</i> means you believe the key is owned by the person who claims to own it, but you could not or did not verify this to be a fact."
+msgstr "<i>Зусім не правяраў:</i> вы верыце, што гэты ключ належыць асобе, якая прадставілася яго ўласнікам, але вы не можаце праверыць ці не правяралі сапраўднасць гэтага факта."
 
 #: pgp/seahorse-sign.ui:147
-msgid ""
-"<i>Casually:</i> means you have done a casual verification that the key is "
-"owned by the person who claims to own it. For example, you could read the "
-"key fingerprint to the owner over the phone."
-msgstr ""
-"<i>Няўважліва:</i> вы няўважліва праверылі, што гэты ключ належыць асобе, "
-"якая прадставілася яго ўласнікам. Напрыклад, вы можаце прачытаць адбітак "
-"ключа ўласніку па тэлефоне."
+msgid "<i>Casually:</i> means you have done a casual verification that the key is owned by the person who claims to own it. For example, you could read the key fingerprint to the owner over the phone."
+msgstr "<i>Няўважліва:</i> вы няўважліва праверылі, што гэты ключ належыць асобе, якая прадставілася яго ўласнікам. Напрыклад, вы можаце прачытаць адбітак ключа ўласніку па тэлефоне."
 
 #: pgp/seahorse-sign.ui:168
-msgid ""
-"<i>Very Carefully:</i> Select this only if you are absolutely sure that this "
-"key is genuine."
-msgstr ""
-"<i>Вельмі рупліва:</i> Абярыце гэты параметр, толькі калі вы цалкам "
-"упэўнены, што гэты ключ сапраўдны."
+msgid "<i>Very Carefully:</i> Select this only if you are absolutely sure that this key is genuine."
+msgstr "<i>Вельмі рупліва:</i> Абярыце гэты параметр, толькі калі вы цалкам упэўнены, што гэты ключ сапраўдны."
 
 #: pgp/seahorse-sign.ui:184
-msgid ""
-"You could use a hard to forge photo identification (such as a passport) to "
-"personally check that the name on the key is correct. You should have also "
-"used email to check that the email address belongs to the owner."
-msgstr ""
-"Вы можаце выкарыстаць цяжкі для падробкі фотаздымак для ідэнтыфікацыі (як у "
-"пашпарце), каб асабіста праверыць, што назва ключа беспамылковая. Таксама вы "
-"можаце выкарыстаць адрас электроннай пошты, каб праверыць, што адрас "
-"сапраўды належыць уласніку."
+msgid "You could use a hard to forge photo identification (such as a passport) to personally check that the name on the key is correct. You should have also used email to check that the email address belongs to the owner."
+msgstr "Вы можаце выкарыстаць цяжкі для падробкі фотаздымак для ідэнтыфікацыі (як у пашпарце), каб асабіста праверыць, што назва ключа беспамылковая. Таксама вы можаце выкарыстаць адрас электроннай пошты, каб праверыць, што адрас сапраўды належыць уласніку."
 
 #: pgp/seahorse-sign.ui:215
 msgid "How others will see this signature:"
@@ -2138,6 +2039,7 @@ msgid_plural "Are you sure you want to permanently delete %d certificates?"
 msgstr[0] "Сапраўды незваротна выдаліць %d сертыфікат?"
 msgstr[1] "Сапраўды незваротна выдаліць %d сертыфікаты?"
 msgstr[2] "Сапраўды незваротна выдаліць %d сертыфікатаў?"
+msgstr[3] ""
 
 #: pkcs11/pkcs11-generate.vala:229
 msgid "Couldn’t generate private key"
@@ -2200,6 +2102,7 @@ msgid "Save certificate request"
 msgstr "Захаваць запыт сертыфіката"
 
 #: pkcs11/pkcs11-request.vala:107
+#| msgid "Save"
 msgid "_Save"
 msgstr ""
 
@@ -2229,6 +2132,7 @@ msgid "X.509 certificates and related keys"
 msgstr "X.509-сертыфікаты і звязаныя ключы"
 
 #: pkcs11/seahorse-pkcs11-generate.ui:6
+#| msgid "Private key"
 msgid "New private key"
 msgstr "Новы закрыты ключ"
 
@@ -2266,13 +2170,11 @@ msgstr "Версія гэтай праграмы"
 
 #: src/application.vala:160
 msgid "translator-credits"
-msgstr ""
-"Alexander Vlasov https://launchpad.net/~sachavav\n"
+msgstr "Alexander Vlasov https://launchpad.net/~sachavav\n"
 "Iryna Nikanchuk https://launchpad.net/~unetriste-deactivatedaccount\n"
 "Yuri Matsuk <yuri@matsuk.net>\n"
 "Kasia Bondarava<kasia.bondarava@gmail.com>\n"
-"Юрась Шумовіч <shumovichy@gmail.com>\n"
-"\n"
+"Юрась Шумовіч <shumovichy@gmail.com>\n\n"
 "Launchpad Contributions:\n"
 "  Ihar Hrachyshka https://launchpad.net/~ihar-hrachyshka\n"
 "  Iryna Nikanchuk https://launchpad.net/~unetriste-deactivatedaccount\n"
@@ -2284,6 +2186,7 @@ msgid "Seahorse Project Homepage"
 msgstr "Старонка праекта Seahorse"
 
 #: src/import-dialog.vala:30
+#| msgid "<b>Data to be imported:</b>"
 msgid "Data to be imported"
 msgstr ""
 
@@ -2467,6 +2370,7 @@ msgid_plural "Are you sure you want to delete %u secure shell keys?"
 msgstr[0] "Сапраўды выдаліць %u ключ бяспечнай абалонкі?"
 msgstr[1] "Сапраўды выдаліць %u ключы бяспечнай абалонкі?"
 msgstr[2] "Сапраўды выдаліць %u ключоў бяспечнай абалонкі?"
+msgstr[3] ""
 
 #: ssh/exporter.vala:52
 msgid "Secret SSH keys"
@@ -2601,35 +2505,28 @@ msgid "New Secure Shell Key"
 msgstr "Новы ключ SSH"
 
 #: ssh/seahorse-ssh-generate.ui:55
-msgid ""
-"A Secure Shell (SSH) key lets you connect securely to other computers."
+msgid "A Secure Shell (SSH) key lets you connect securely to other computers."
 msgstr "Ключ SSH дазваляе вам бяспечна злучацца з іншымі камп'ютарамі."
 
 #: ssh/seahorse-ssh-generate.ui:108
 msgid "Your email address, or a reminder of what this key is for."
-msgstr ""
-"Адрас вашай электроннай пошты ці напамін пра тое, для чаго прызначаны гэты "
-"ключ."
+msgstr "Адрас вашай электроннай пошты ці напамін пра тое, для чаго прызначаны гэты ключ."
 
 #: ssh/seahorse-ssh-generate.ui:142
 msgid "DSA"
-msgstr "DSA"
+msgstr ""
 
 #: ssh/seahorse-ssh-generate.ui:143
 msgid "ECDSA"
-msgstr "ECDSA"
+msgstr ""
 
 #: ssh/seahorse-ssh-generate.ui:144
 msgid "ED25519"
-msgstr "ED25519"
+msgstr ""
 
 #: ssh/seahorse-ssh-generate.ui:186
-msgid ""
-"If there is a computer you want to use this key with, you can set up that "
-"computer to recognize your new key."
-msgstr ""
-"Калі ёсць камп'ютар, для якога вы хочаце выкарыстоўваць гэты ключ, вы можаце "
-"наладзіць яго, каб ён пазнаваў гэты ключ."
+msgid "If there is a computer you want to use this key with, you can set up that computer to recognize your new key."
+msgstr "Калі ёсць камп'ютар, для якога вы хочаце выкарыстоўваць гэты ключ, вы можаце наладзіць яго, каб ён пазнаваў гэты ключ."
 
 #: ssh/seahorse-ssh-generate.ui:212
 msgid "_Just Create Key"
@@ -2678,12 +2575,8 @@ msgid "Set Up Computer for SSH Connection"
 msgstr "Наладзіць камп'ютар для злучэння праз SSH"
 
 #: ssh/seahorse-ssh-upload.ui:32
-msgid ""
-"To use your Secure Shell key with another computer that uses SSH, you must "
-"already have a login account on that computer."
-msgstr ""
-"Каб выкарыстоўваць ваш ключ SSH з іншым камп'ютарам, які выкарыстоўвае SSH, "
-"вы павінны мець конт для ўваходу на гэты камп'ютар."
+msgid "To use your Secure Shell key with another computer that uses SSH, you must already have a login account on that computer."
+msgstr "Каб выкарыстоўваць ваш ключ SSH з іншым камп'ютарам, які выкарыстоўвае SSH, вы павінны мець конт для ўваходу на гэты камп'ютар."
 
 #: ssh/seahorse-ssh-upload.ui:48
 msgid "_Server address:"
@@ -2708,12 +2601,12 @@ msgstr "Ключы OpenSSH"
 #: ssh/source.vala:47
 #, c-format
 msgid "OpenSSH: %s"
-msgstr "OpenSSH: %s"
+msgstr ""
 
 #: ssh/source.vala:51
 #, c-format
 msgid "openssh://%s"
-msgstr "openssh://%s"
+msgstr ""
 
 #: ssh/source.vala:245
 msgid "No private key file is available for this key."
@@ -2721,9 +2614,9 @@ msgstr "Для гэтага ключа няма даступнага файла 
 
 #: ssh/upload.vala:67
 msgid "Couldn’t configure Secure Shell keys on remote computer."
-msgstr ""
-"Не ўдалося настроіць канфігурацыю ключоў SSH на аддаленым камп'ютары."
+msgstr "Не ўдалося настроіць канфігурацыю ключоў SSH на аддаленым камп'ютары."
 
 #: ssh/upload.vala:71
 msgid "Configuring Secure Shell Keys…"
 msgstr "Настройка канфігурацыі ключоў SSH..."
+

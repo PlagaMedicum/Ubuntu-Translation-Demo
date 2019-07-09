@@ -1,40 +1,32 @@
-# Belarusian translation for whois
-# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
-# This file is distributed under the same license as the whois package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: whois\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-04-05 14:57+0000\n"
-"PO-Revision-Date: 2007-03-24 12:22+0000\n"
-"Last-Translator: Alex Nehaichik <mail@l0gin.net>\n"
-"Language-Team: Belarusian <be@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:22\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Launchpad-Export-Date: 2019-05-11 11:39+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/whois.po\n"
+"Language: be_BY\n"
 
 #: ../whois.c:233
 #, c-format
-msgid ""
-"Version %s.\n"
-"\n"
+msgid "Version %s.\n\n"
 "Report bugs to %s.\n"
-msgstr ""
-"Вэрсія %s.\n"
-"\n"
+msgstr "Вэрсія %s.\n\n"
 "Паведамляйце пра памылкі на %s.\n"
 
 #: ../whois.c:322
-msgid ""
-"This TLD has no whois server, but you can access the whois database at"
-msgstr ""
-"Гэты TLD ня мае whois паслужніка, але вы можаце атрымаць доступ да базы на"
+msgid "This TLD has no whois server, but you can access the whois database at"
+msgstr "Гэты TLD ня мае whois паслужніка, але вы можаце атрымаць доступ да базы на"
 
 #: ../whois.c:327
 msgid "This TLD has no whois server."
@@ -55,47 +47,29 @@ msgstr "Выкарыстоўваецца паслужнік %s.\n"
 
 #: ../whois.c:351
 #, c-format
-msgid ""
-"\n"
-"Querying for the IPv4 endpoint %s of a 6to4 IPv6 address.\n"
-"\n"
-msgstr ""
-"\n"
-"Запыт IPv4 канца %s у адраса 6to4 IPv6.\n"
-"\n"
+msgid "\n"
+"Querying for the IPv4 endpoint %s of a 6to4 IPv6 address.\n\n"
+msgstr "\n"
+"Запыт IPv4 канца %s у адраса 6to4 IPv6.\n\n"
 
 #: ../whois.c:358
 #, c-format
-msgid ""
-"\n"
-"Querying for the IPv4 endpoint %s of a Teredo IPv6 address.\n"
-"\n"
-msgstr ""
-"\n"
-"Запыт канца IPv4 %s у адрасе Teredo IPv6.\n"
-"\n"
+msgid "\n"
+"Querying for the IPv4 endpoint %s of a Teredo IPv6 address.\n\n"
+msgstr "\n"
+"Запыт канца IPv4 %s у адрасе Teredo IPv6.\n\n"
 
 #: ../whois.c:388
 #, c-format
-msgid ""
-"Query string: \"%s\"\n"
-"\n"
-msgstr ""
-"Радок запыта: \"%s\"\n"
-"\n"
+msgid "Query string: \"%s\"\n\n"
+msgstr "Радок запыта: \"%s\"\n\n"
 
 #: ../whois.c:398
 #, c-format
-msgid ""
-"\n"
-"\n"
-"Found a referral to %s.\n"
-"\n"
-msgstr ""
-"\n"
-"\n"
-"Знойдзены накіравальнік да %s.\n"
-"\n"
+msgid "\n\n"
+"Found a referral to %s.\n\n"
+msgstr "\n\n"
+"Знойдзены накіравальнік да %s.\n\n"
 
 #: ../whois.c:440 ../whois.c:443
 #, c-format
@@ -107,11 +81,9 @@ msgid "Warning: RIPE flags used with a traditional server."
 msgstr "Увага! Сьцягі RIPE выкарыстоўваюцца для традыцыйнага паслужніка."
 
 #: ../whois.c:802 ../whois.c:918
-msgid ""
-"Catastrophic error: disclaimer text has been changed.\n"
+msgid "Catastrophic error: disclaimer text has been changed.\n"
 "Please upgrade this program.\n"
-msgstr ""
-"Катастрафічная памылка: адмаўленьне было зьменена.\n"
+msgstr "Катастрафічная памылка: адмаўленьне было зьменена.\n"
 "Калі ласка, абнавіце праграму.\n"
 
 #: ../whois.c:978
@@ -135,23 +107,19 @@ msgstr "Абарвана сыгналам %d..."
 
 #: ../whois.c:1437
 #, c-format
-msgid ""
-"Usage: whois [OPTION]... OBJECT...\n"
-"\n"
+msgid "Usage: whois [OPTION]... OBJECT...\n\n"
 "-h HOST, --host HOST   connect to server HOST\n"
 "-p PORT, --port PORT   connect to PORT\n"
 "-H                     hide legal disclaimers\n"
 "      --verbose        explain what is being done\n"
 "      --help           display this help and exit\n"
-"      --version        output version information and exit\n"
-"\n"
+"      --version        output version information and exit\n\n"
 "These flags are supported by whois.ripe.net and some RIPE-like servers:\n"
 "-l                     find the one level less specific match\n"
 "-L                     find all levels less specific matches\n"
 "-m                     find all one level more specific matches\n"
 "-M                     find all levels of more specific matches\n"
-"-c                     find the smallest match containing a mnt-irt "
-"attribute\n"
+"-c                     find the smallest match containing a mnt-irt attribute\n"
 "-x                     exact match\n"
 "-b                     return brief IP address ranges with abuse contact\n"
 "-B                     turn off object filtering (show email addresses)\n"
@@ -200,6 +168,8 @@ msgid "Wrong salt length: %d byte when %d expected.\n"
 msgid_plural "Wrong salt length: %d bytes when %d expected.\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../mkpasswd.c:292
 #, c-format
@@ -207,6 +177,8 @@ msgid "Wrong salt length: %d byte when %d <= n <= %d expected.\n"
 msgid_plural "Wrong salt length: %d bytes when %d <= n <= %d expected.\n"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../mkpasswd.c:301
 #, c-format
@@ -225,19 +197,14 @@ msgstr ""
 
 #: ../mkpasswd.c:492
 #, c-format
-msgid ""
-"Usage: mkpasswd [OPTIONS]... [PASSWORD [SALT]]\n"
-"Crypts the PASSWORD using crypt(3).\n"
-"\n"
-msgstr ""
-"Выкарыстаньне: mkpasswd [ОПЦЫІ]... [ПАРОЛЬ [ПРЫПРАВА]]\n"
-"Шыфруе ПАРОЛЬ з дапамогай crypt(3).\n"
-"\n"
+msgid "Usage: mkpasswd [OPTIONS]... [PASSWORD [SALT]]\n"
+"Crypts the PASSWORD using crypt(3).\n\n"
+msgstr "Выкарыстаньне: mkpasswd [ОПЦЫІ]... [ПАРОЛЬ [ПРЫПРАВА]]\n"
+"Шыфруе ПАРОЛЬ з дапамогай crypt(3).\n\n"
 
 #: ../mkpasswd.c:495
 #, c-format
-msgid ""
-"      -m, --method=TYPE     select method TYPE\n"
+msgid "      -m, --method=TYPE     select method TYPE\n"
 "      -5                    like --method=md5\n"
 "      -S, --salt=SALT       use the specified SALT\n"
 "      -R, --rounds=NUMBER   use the specified NUMBER of rounds\n"
@@ -245,12 +212,10 @@ msgid ""
 "                            instead of /dev/tty\n"
 "      -s, --stdin           like --password-fd=0\n"
 "      -h, --help            display this help and exit\n"
-"      -V, --version         output version information and exit\n"
-"\n"
+"      -V, --version         output version information and exit\n\n"
 "If PASSWORD is missing then it is asked interactively.\n"
 "If no SALT is specified, a random one is generated.\n"
-"If TYPE is 'help', available methods are printed.\n"
-"\n"
+"If TYPE is 'help', available methods are printed.\n\n"
 "Report bugs to %s.\n"
 msgstr ""
 
@@ -258,3 +223,4 @@ msgstr ""
 #, c-format
 msgid "Available methods:\n"
 msgstr ""
+

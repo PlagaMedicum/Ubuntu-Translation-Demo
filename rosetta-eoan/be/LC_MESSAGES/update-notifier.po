@@ -1,23 +1,21 @@
-# Belarusian translation for update-notifier
-# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
-# This file is distributed under the same license as the update-notifier package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: update-notifier\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-10 15:12+0000\n"
-"PO-Revision-Date: 2017-12-04 14:45+0000\n"
-"Last-Translator: Maksim Tomkowicz <quendimax@gmail.com>\n"
-"Language-Team: Belarusian <be@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:23\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Launchpad-Export-Date: 2019-05-11 11:37+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/update-notifier.po\n"
+"Language: be_BY\n"
 
 #: ../data/apt_check.py:25
 #, python-format
@@ -38,6 +36,8 @@ msgid "%i update can be installed immediately."
 msgid_plural "%i updates can be installed immediately."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../data/apt_check.py:96
 #, python-format
@@ -45,6 +45,8 @@ msgid "%i of these updates is provided through ESM."
 msgid_plural "%i of these updates are provided through ESM."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../data/apt_check.py:104
 #, python-format
@@ -52,6 +54,8 @@ msgid "%i of these updates is a security update."
 msgid_plural "%i of these updates are security updates."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../data/apt_check.py:116
 #, python-format
@@ -59,6 +63,8 @@ msgid "Enable ESM to receive %i additional security update."
 msgid_plural "Enable ESM to receive %i additional security updates."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../data/apt_check.py:124
 msgid "Enable ESM to receive additional future security updates."
@@ -91,12 +97,8 @@ msgid "Show human readable output on stdout"
 msgstr "Выводзіць чытабельныя паведамленьні ў stdout"
 
 #: ../data/apt_check.py:307
-msgid ""
-"Return the time in days when security updates are installed unattended (0 "
-"means disabled)"
-msgstr ""
-"Вяртае колькасьць дзён, калі былі аўтаматычна ўсталяваныя абнаўленьні "
-"бясьпекі (0 - выключана)"
+msgid "Return the time in days when security updates are installed unattended (0 means disabled)"
+msgstr "Вяртае колькасьць дзён, калі былі аўтаматычна ўсталяваныя абнаўленьні бясьпекі (0 - выключана)"
 
 #: ../src/crash.c:46
 msgid "System program problem detected"
@@ -115,12 +117,8 @@ msgid "Crash report detected"
 msgstr "Знойдзена справаздача аб аварыі ў праграме"
 
 #: ../src/crash.c:100
-msgid ""
-"An application has crashed on your system (now or in the past). Click on the "
-"notification icon to display details. "
-msgstr ""
-"Дастасаваньне ў вашай сыстэме аварыйна завяршыла сваю працу (раней ці "
-"зараз). Пстрыкніце на значцы нагадваньня, каб убачыць падрабязнасьці. "
+msgid "An application has crashed on your system (now or in the past). Click on the notification icon to display details. "
+msgstr "Дастасаваньне ў вашай сыстэме аварыйна завяршыла сваю працу (раней ці зараз). Пстрыкніце на значцы нагадваньня, каб убачыць падрабязнасьці. "
 
 #. Create and show the notification
 #: ../src/avahi.c:16
@@ -128,28 +126,17 @@ msgid "Network service discovery disabled"
 msgstr "Служба дасьледваньня сеткі адключана"
 
 #: ../src/avahi.c:17
-msgid ""
-"Your current network has a .local domain, which is not recommended and "
-"incompatible with the Avahi network service discovery. The service has been "
-"disabled."
-msgstr ""
-"Ваша бягучая сетка мае дамэн .local, які не рэкамэндаваны і несумяшчальны са "
-"службай дасьледваньня сеткі Avahi. Гэтая служба была адключана."
+msgid "Your current network has a .local domain, which is not recommended and incompatible with the Avahi network service discovery. The service has been disabled."
+msgstr "Ваша бягучая сетка мае дамэн .local, які не рэкамэндаваны і несумяшчальны са службай дасьледваньня сеткі Avahi. Гэтая служба была адключана."
 
 #: ../src/cdroms.c:48
 msgid "Software Packages Volume Detected"
 msgstr "Знойдзены том з пакункамі праграмнага забесьпячэньня"
 
 #: ../src/cdroms.c:49
-msgid ""
-"<span weight=\"bold\" size=\"larger\">A volume with software packages has "
-"been detected.</span>\n"
-"\n"
+msgid "<span weight=\"bold\" size=\"larger\">A volume with software packages has been detected.</span>\n\n"
 "Would you like to open it with the package manager?"
-msgstr ""
-"<span weight=\"bold\" size=\"larger\">Быў знойдзены носьбіт з пакетамі "
-"праграм.</span>\n"
-"\n"
+msgstr "<span weight=\"bold\" size=\"larger\">Быў знойдзены носьбіт з пакетамі праграм.</span>\n\n"
 "Ці жадаеце адкрыць яго ў кіраўніку пакетаў?"
 
 #: ../src/cdroms.c:57
@@ -161,15 +148,9 @@ msgid "Upgrade volume detected"
 msgstr "Знойдзены том з абнаўленьнямі"
 
 #: ../src/cdroms.c:64
-msgid ""
-"<span weight=\"bold\" size=\"larger\">A distribution volume with software "
-"packages has been detected.</span>\n"
-"\n"
+msgid "<span weight=\"bold\" size=\"larger\">A distribution volume with software packages has been detected.</span>\n\n"
 "Would you like to try to upgrade from it automatically? "
-msgstr ""
-"<span weight=\"bold\" size=\"larger\">Знойдзены том дыстрыбуцыі з пакетамі "
-"праграмаў.</span>\n"
-"\n"
+msgstr "<span weight=\"bold\" size=\"larger\">Знойдзены том дыстрыбуцыі з пакетамі праграмаў.</span>\n\n"
 "Ці жадаеце паспрабаваць абнавіцца зь яго аўтаматычна? "
 
 #: ../src/cdroms.c:71
@@ -181,15 +162,9 @@ msgid "APTonCD volume detected"
 msgstr "Знойдзены том APTonCD"
 
 #: ../src/cdroms.c:80
-msgid ""
-"<span weight=\"bold\" size=\"larger\">A volume with unofficial software "
-"packages has been detected.</span>\n"
-"\n"
+msgid "<span weight=\"bold\" size=\"larger\">A volume with unofficial software packages has been detected.</span>\n\n"
 "Would you like to open it with the package manager?"
-msgstr ""
-"<span weight=\"bold\" size=\"larger\">Знойдзены том з неафіцыйнымі "
-"пакетамі.</span>\n"
-"\n"
+msgstr "<span weight=\"bold\" size=\"larger\">Знойдзены том з неафіцыйнымі пакетамі.</span>\n\n"
 "Ці жадаеце адкрыць яго ў кіраўніку пакетаў?"
 
 #: ../src/cdroms.c:88 ../src/update.c:39
@@ -233,6 +208,8 @@ msgid "%"
 msgid_plural "%"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/livepatch-tray.c:168
 msgid "An error occured when checking for Livepatch updates."
@@ -261,6 +238,7 @@ msgid_plural "There are %i updates available"
 msgstr[0] "Ёсць у наяўнасьці %i абнаўленьне"
 msgstr[1] "Ёсць у наяўнасьці %i абнаўленьні"
 msgstr[2] "Ёсць у наяўнасьці %i абнаўленьняў"
+msgstr[3] ""
 
 #: ../src/update.c:147
 msgid "Show notifications"
@@ -273,58 +251,35 @@ msgstr "Кіраўнік пакетаў ўжо працуе"
 
 #: ../src/update.c:235
 #, c-format
-msgid ""
-"There is %i update available. Click on the notification icon to show the "
-"available update."
-msgid_plural ""
-"There are %i updates available. Click on the notification icon to show the "
-"available updates."
-msgstr[0] ""
-"Даступна %i абнаўленьне. Націсьніце на значак у прасторы паведамленьняў, каб "
-"прагледзець даступныя абнаўленьні."
-msgstr[1] ""
-"Даступна %i абнаўленьні. Націсьніце на значак у прасторы паведамленьняў, каб "
-"прагледзець даступныя абнаўленьні."
-msgstr[2] ""
-"Даступна %i абнаўленьняў. Націсьніце на значак у прасторы паведамленьняў, "
-"каб прагледзець даступныя абнаўленьні."
+msgid "There is %i update available. Click on the notification icon to show the available update."
+msgid_plural "There are %i updates available. Click on the notification icon to show the available updates."
+msgstr[0] "Даступна %i абнаўленьне. Націсьніце на значак у прасторы паведамленьняў, каб прагледзець даступныя абнаўленьні."
+msgstr[1] "Даступна %i абнаўленьні. Націсьніце на значак у прасторы паведамленьняў, каб прагледзець даступныя абнаўленьні."
+msgstr[2] "Даступна %i абнаўленьняў. Націсьніце на значак у прасторы паведамленьняў, каб прагледзець даступныя абнаўленьні."
+msgstr[3] ""
 
 #: ../src/update.c:246
 msgid "Software updates available"
 msgstr "У наяўнасьці маюцца абнаўленьні"
 
 #: ../src/update.c:284
-msgid ""
-"The update information is outdated. This may be caused by network problems "
-"or by a repository that is no longer available. Please update manually by "
-"selecting 'Show updates' from the indicator menu, and watching for any "
-"failing repositories."
+msgid "The update information is outdated. This may be caused by network problems or by a repository that is no longer available. Please update manually by selecting 'Show updates' from the indicator menu, and watching for any failing repositories."
 msgstr ""
 
 #: ../src/update.c:574
 #, c-format
-msgid ""
-"An error occurred, please run Package Manager from the right-click menu or "
-"apt-get in a terminal to see what is wrong.\n"
+msgid "An error occurred, please run Package Manager from the right-click menu or apt-get in a terminal to see what is wrong.\n"
 "The error message was: '%s'. "
-msgstr ""
-"Узнікла памылка, калі ласка, запусціце графічны Кіраўнік пакета ці "
-"выканацйце у кансолі apt-get, каб даведацца больш.\n"
+msgstr "Узнікла памылка, калі ласка, запусціце графічны Кіраўнік пакета ці выканацйце у кансолі apt-get, каб даведацца больш.\n"
 "Тэкст паведамлення: \"%s\". "
 
 #: ../src/update.c:581
-msgid ""
-"An error occurred, please run Package Manager from the right-click menu or "
-"apt-get in a terminal to see what is wrong."
-msgstr ""
-"Узьнікла памылка. Калі ласка, запусьціце Кіраўнік пакетаў праз правую кнопку "
-"мышы альбо apt-get у тэрмінале, каб убачыць што здарылася."
+msgid "An error occurred, please run Package Manager from the right-click menu or apt-get in a terminal to see what is wrong."
+msgstr "Узьнікла памылка. Калі ласка, запусьціце Кіраўнік пакетаў праз правую кнопку мышы альбо apt-get у тэрмінале, каб убачыць што здарылася."
 
 #: ../src/update.c:585
-msgid ""
-"This usually means that your installed packages have unmet dependencies"
-msgstr ""
-"Звычайна, гэта азначае што вы ўсталявале пакеты, якія недарэчныя залежнасьці"
+msgid "This usually means that your installed packages have unmet dependencies"
+msgstr "Звычайна, гэта азначае што вы ўсталявале пакеты, якія недарэчныя залежнасьці"
 
 #: ../src/update.c:598
 msgid "A problem occurred when checking for the updates."
@@ -349,8 +304,7 @@ msgstr "нагадвальнік-аб-абнаўленьнях"
 
 #: ../ui/hooks-dialog.ui.h:1
 msgid "<span weight=\"bold\" size=\"larger\">Update information</span>"
-msgstr ""
-"<span weight=\"bold\" size=\"larger\">Зьвесткі пра абнаўленьне</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Зьвесткі пра абнаўленьне</span>"
 
 #: ../data/com.ubuntu.update-notifier.policy.in.h:1
 msgid "Authentication is needed to upgrade"
@@ -376,27 +330,19 @@ msgstr "Памылка запампоўкі дадатковых файлаў д
 #. Description
 #: ../data/package-data-downloads-failed.in:5
 #: ../data/package-data-downloads-failed-permanently.in:3
-msgid ""
-"The following packages requested additional data downloads after package "
-"installation, but the data could not be downloaded or could not be processed."
-msgstr ""
-"Наступныя пакеты патрабуюць дадатковай загрузкі дадзеных пасля ўстаноўкі, "
-"але дадзеныя немагчыма загрузіць ці немагчыма ўсталяваць."
+msgid "The following packages requested additional data downloads after package installation, but the data could not be downloaded or could not be processed."
+msgstr "Наступныя пакеты патрабуюць дадатковай загрузкі дадзеных пасля ўстаноўкі, але дадзеныя немагчыма загрузіць ці немагчыма ўсталяваць."
 
 #. Description
 #: ../data/package-data-downloads-failed.in:5
 #: ../data/package-data-downloads-failed-permanently.in:3
 msgid "  $packages"
-msgstr "  $packages"
+msgstr ""
 
 #. Description
 #: ../data/package-data-downloads-failed.in:5
-msgid ""
-"The download will be attempted again later, or you can try the download "
-"again now.  Running this command requires an active Internet connection."
-msgstr ""
-"Пазней будзе зроблена паўторная спроба загрузкі, ці вы можаце паспрабаваць "
-"ізноў цяпер. Выкананне гэтай каманды патрабуе актыўнага інтэрнэт-злучэння."
+msgid "The download will be attempted again later, or you can try the download again now.  Running this command requires an active Internet connection."
+msgstr "Пазней будзе зроблена паўторная спроба загрузкі, ці вы можаце паспрабаваць ізноў цяпер. Выкананне гэтай каманды патрабуе актыўнага інтэрнэт-злучэння."
 
 #. Name
 #: ../data/package-data-downloads-failed-permanently.in:2
@@ -405,11 +351,6 @@ msgstr "Файлы дадзеных для некаторых пакетаў н�
 
 #. Description
 #: ../data/package-data-downloads-failed-permanently.in:3
-msgid ""
-"This is a permanent failure that leaves these packages unusable on your "
-"system.  You may need to fix your Internet connection, then remove and "
-"reinstall the packages to fix this problem."
-msgstr ""
-"Гэтая памылка пакідае сістэме шмат нявыкарыстаных пакетаў. Для вырашэння "
-"гэтай праблемы наладзьце інтэрнэт-злучэнне, цалкам выдаліце і ўсталюйце "
-"пакеты."
+msgid "This is a permanent failure that leaves these packages unusable on your system.  You may need to fix your Internet connection, then remove and reinstall the packages to fix this problem."
+msgstr "Гэтая памылка пакідае сістэме шмат нявыкарыстаных пакетаў. Для вырашэння гэтай праблемы наладзьце інтэрнэт-злучэнне, цалкам выдаліце і ўсталюйце пакеты."
+

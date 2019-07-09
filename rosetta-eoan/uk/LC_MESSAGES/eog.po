@@ -1,26 +1,31 @@
-# Ukrainian translation for Eye of GNOME.
-# Copyright (C) 1999-2003 Free Software Foundation, Inc.
-# Yuri Syrota <rasta@renome.rovno.ua>, 1999, 2000.
-# Maxim Dziumanenko <dziumanenko@gmail.com>, 2004-2010
-# wanderlust <wanderlust@ukr.net>, 2009.
-# Daniel Korostil <ted.korostiled@gmail.com>, 2013, 2014, 2015, 2016, 2017.
+# English (British) translation.
+# Copyright (C) 2004 The Gnome Foundation
+# This file is distributed under the same license as the eog package.
+# Gareth Owen <gowen72@yahoo.com>, 2004.
+# David Lodge <dave@cirt.net>, 2004.
+# Alan Horkan <horkana tcd ie>, 2005.
+# Philip Withnall <philip@tecnocode.co.uk>, 2009, 2010.
+# Bruce Cowan <bruce@bcowan.eu>, 2010, 2011, 2012, 2018.
+# Chris Leonard <cjl@laptop.org>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: eog\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=eog&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2019-04-10 09:30+0000\n"
-"PO-Revision-Date: 2019-04-10 11:12+0000\n"
-"Last-Translator: Daniel Korostil <Unknown>\n"
-"Language-Team: linux.org.ua\n"
+"PO-Revision-Date: 2019-07-08 17:14\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Launchpad-Export-Date: 2019-05-11 10:47+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
 "X-Project-Style: gnome\n"
-"Language: uk\n"
+"Language: uk_UA\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/eog.po\n"
 
 #: data/eog.appdata.xml.in:6
 msgid "Eye of GNOME"
@@ -31,25 +36,12 @@ msgid "Browse and rotate images"
 msgstr "Перегляд та обертання зображень"
 
 #: data/eog.appdata.xml.in:9
-msgid ""
-"The Eye of GNOME is the official image viewer for the GNOME desktop. It "
-"integrates with the GTK+ look and feel of GNOME, and supports many image "
-"formats for viewing single images or images in a collection."
-msgstr ""
-"Очі GNOME — офіційний переглядач зображень у стільничному середовищі GNOME. "
-"Він інтегрований з GTK+ і GNOME, підтримує чимало форматів для переглядання "
-"зображень або збірок."
+msgid "The Eye of GNOME is the official image viewer for the GNOME desktop. It integrates with the GTK+ look and feel of GNOME, and supports many image formats for viewing single images or images in a collection."
+msgstr "Очі GNOME — офіційний переглядач зображень у стільничному середовищі GNOME. Він інтегрований з GTK+ і GNOME, підтримує чимало форматів для переглядання зображень або збірок."
 
 #: data/eog.appdata.xml.in:14
-msgid ""
-"The Eye of GNOME also allows to view the images in a fullscreen slideshow "
-"mode or set an image as the desktop wallpaper. It reads the camera tags to "
-"automatically rotate your images in the correct portrait or landscape "
-"orientation."
-msgstr ""
-"Очі GNOME також дозволяють переглядати зображення у повноекранному режимі "
-"показу слайдів або встановлювати зображення як стільничні шпалери. Він читає "
-"мітки камери для автоматичного обертання зображення в правильній орієнтації."
+msgid "The Eye of GNOME also allows to view the images in a fullscreen slideshow mode or set an image as the desktop wallpaper. It reads the camera tags to automatically rotate your images in the correct portrait or landscape orientation."
+msgstr "Очі GNOME також дозволяють переглядати зображення у повноекранному режимі показу слайдів або встановлювати зображення як стільничні шпалери. Він читає мітки камери для автоматичного обертання зображення в правильній орієнтації."
 
 #: data/eog.desktop.in.in:3 src/eog-application.c:312 src/eog-window.c:5568
 msgid "Image Viewer"
@@ -100,7 +92,6 @@ msgid "Image Prope_rties"
 msgstr ""
 
 #: data/eog-gear-menu.ui:43
-#| msgid "Slideshow"
 msgid "Sli_deshow"
 msgstr "Показ _слайдів"
 
@@ -251,7 +242,6 @@ msgstr "_Скасувати"
 
 #: data/eog-multiple-save-as-dialog.ui:46
 #: src/eog-close-confirmation-dialog.c:184
-#| msgid "Save As"
 msgid "Save _As"
 msgstr "Зберегти _як"
 
@@ -268,7 +258,6 @@ msgid "_Filename format:"
 msgstr "_Формат назви файла:"
 
 #: data/eog-multiple-save-as-dialog.ui:162
-#| msgid "Destination folder:"
 msgid "_Destination folder:"
 msgstr "_Цільова тека:"
 
@@ -281,12 +270,10 @@ msgid "File Path Specifications"
 msgstr "Визначення шляху файла"
 
 #: data/eog-multiple-save-as-dialog.ui:268
-#| msgid "Start counter at:"
 msgid "_Start counter at:"
 msgstr "По_чинати відлік з:"
 
 #: data/eog-multiple-save-as-dialog.ui:301
-#| msgid "Replace spaces with underscores"
 msgid "_Replace spaces with underscores"
 msgstr "За_мінювати пробіли на підкреслення"
 
@@ -453,7 +440,6 @@ msgid "Rotate the image 90 degrees to the left"
 msgstr "Обернути зображення проти годинникової стрілки на 90 градусів"
 
 #: data/fullscreen-toolbar.ui:155
-#| msgid "Rotate Counterc_lockwise"
 msgid "Rotate Counter_clockwise"
 msgstr "Обернути _проти годинникової стрілки"
 
@@ -466,8 +452,7 @@ msgid "_Rotate Clockwise"
 msgstr "Обернути _за годинниковою стрілкою"
 
 #: data/fullscreen-toolbar.ui:193
-msgid ""
-"Changes the visibility of the image gallery pane in the current window"
+msgid "Changes the visibility of the image gallery pane in the current window"
 msgstr "Змінює видимість панелі галереї зображень у поточному вікні"
 
 #: data/fullscreen-toolbar.ui:195
@@ -479,12 +464,10 @@ msgid "Pause or resume the slideshow"
 msgstr "Зупинити або відновити показ слайдів"
 
 #: data/fullscreen-toolbar.ui:233
-#| msgid "_Fullscreen"
 msgid "_Leave Fullscreen"
 msgstr "Вийти з _повноекранного режиму"
 
 #: data/fullscreen-toolbar.ui:235
-#| msgid "_Leave Fullscreen"
 msgid "Leave fullscreen mode"
 msgstr "Вийти з повноекранного режиму"
 
@@ -643,36 +626,30 @@ msgid "Size"
 msgstr "Розмір"
 
 #: data/metadata-sidebar.ui:46
-#| msgid "Type:"
 msgid "Type"
 msgstr "Тип"
 
 #: data/metadata-sidebar.ui:63
-#| msgid "File size:"
 msgid "File Size"
 msgstr "Розмір файла"
 
 #: data/metadata-sidebar.ui:82
-#| msgid "Folder:"
 msgid "Folder"
 msgstr "Тека"
 
 #: data/metadata-sidebar.ui:99
-#| msgid "Aperture Value:"
 msgid "Aperture"
 msgstr "Діафрагма"
 
 #: data/metadata-sidebar.ui:116
-#| msgid "Exposure Time:"
 msgid "Exposure"
 msgstr "Експозиція"
 
 #: data/metadata-sidebar.ui:133
 msgid "ISO"
-msgstr "ISO"
+msgstr ""
 
 #: data/metadata-sidebar.ui:151
-#| msgid "Metering Mode:"
 msgid "Metering"
 msgstr "Вимірювання"
 
@@ -689,7 +666,6 @@ msgid "Time"
 msgstr "Час"
 
 #: data/metadata-sidebar.ui:380
-#| msgid "Focal Length:"
 msgid "Focal Length"
 msgstr "Фокусна відстань"
 
@@ -698,59 +674,36 @@ msgid "Automatic orientation"
 msgstr "Автоматичне орієнтування"
 
 #: data/org.gnome.eog.gschema.xml.in:12
-msgid ""
-"Whether the image should be rotated automatically based on EXIF orientation."
-msgstr ""
-"Чи повинно зображення автоматично обертатись відповідно до даних EXIF."
+msgid "Whether the image should be rotated automatically based on EXIF orientation."
+msgstr "Чи повинно зображення автоматично обертатись відповідно до даних EXIF."
 
 #: data/org.gnome.eog.gschema.xml.in:17
-msgid ""
-"The color that is used to fill the area behind the image. If the use-"
-"background-color key is not set, the color is determined by the active GTK+ "
-"theme instead."
-msgstr ""
-"колір, який використовується для заливання ділянки за зображенням. Якщо ключ "
-"use-background-color не встановлено, колір натомість визначить тема GTK+."
+msgid "The color that is used to fill the area behind the image. If the use-background-color key is not set, the color is determined by the active GTK+ theme instead."
+msgstr "колір, який використовується для заливання ділянки за зображенням. Якщо ключ use-background-color не встановлено, колір натомість визначить тема GTK+."
 
 #: data/org.gnome.eog.gschema.xml.in:21
 msgid "Interpolate Image"
 msgstr "Інтерполювати зображення"
 
 #: data/org.gnome.eog.gschema.xml.in:22
-msgid ""
-"Whether the image should be interpolated on zoom-out. This leads to better "
-"quality but is somewhat slower than non-interpolated images."
-msgstr ""
-"Визначає, чи потрібно інтерполювати зображення коли змінюється його масштаб. "
-"В результаті можна отримати кращу якість при сповільненні роботи, на відміну "
-"від неінтерпольованих зображень."
+msgid "Whether the image should be interpolated on zoom-out. This leads to better quality but is somewhat slower than non-interpolated images."
+msgstr "Визначає, чи потрібно інтерполювати зображення коли змінюється його масштаб. В результаті можна отримати кращу якість при сповільненні роботи, на відміну від неінтерпольованих зображень."
 
 #: data/org.gnome.eog.gschema.xml.in:26
 msgid "Extrapolate Image"
 msgstr "Екстраполювати зображення"
 
 #: data/org.gnome.eog.gschema.xml.in:27
-msgid ""
-"Whether the image should be extrapolated on zoom-in. This leads to blurry "
-"quality and is somewhat slower than non-extrapolated images."
-msgstr ""
-"Визначає, чи потрібно екстраполювати зображення коли змінюється його "
-"масштаб. В результаті можна отримати кращу якість при сповільненні роботи, "
-"на відміну від неекстрапольованих зображень."
+msgid "Whether the image should be extrapolated on zoom-in. This leads to blurry quality and is somewhat slower than non-extrapolated images."
+msgstr "Визначає, чи потрібно екстраполювати зображення коли змінюється його масштаб. В результаті можна отримати кращу якість при сповільненні роботи, на відміну від неекстрапольованих зображень."
 
 #: data/org.gnome.eog.gschema.xml.in:31
 msgid "Transparency indicator"
 msgstr "Індикатор прозорості"
 
 #: data/org.gnome.eog.gschema.xml.in:32
-msgid ""
-"Determines how transparency should be indicated. Valid values are "
-"CHECK_PATTERN, COLOR and NONE. If COLOR is chosen, then the trans-color key "
-"determines the color value used."
-msgstr ""
-"Визначає, як потрібно позначати прозорість. Правильними значеннями є  "
-"CHECK_PATTERN, COLOR і NONE. Якщо вибрано COLOR, то ключ кольору, яким "
-"позначатиметься прозорість, буде визначати значення."
+msgid "Determines how transparency should be indicated. Valid values are CHECK_PATTERN, COLOR and NONE. If COLOR is chosen, then the trans-color key determines the color value used."
+msgstr "Визначає, як потрібно позначати прозорість. Правильними значеннями є  CHECK_PATTERN, COLOR і NONE. Якщо вибрано COLOR, то ключ кольору, яким позначатиметься прозорість, буде визначати значення."
 
 #: data/org.gnome.eog.gschema.xml.in:36
 msgid "Scroll wheel zoom"
@@ -765,42 +718,24 @@ msgid "Zoom multiplier"
 msgstr "Коефіцієнт збільшення"
 
 #: data/org.gnome.eog.gschema.xml.in:42
-msgid ""
-"The multiplier to be applied when using the mouse scroll wheel for zooming. "
-"This value defines the zooming step used for each scroll event. For example, "
-"0.05 results in a 5% zoom increment for each scroll event and 1.00 result in "
-"a 100% zoom increment."
-msgstr ""
-"Множник, що застосовується при використанні колеса миші для зміни масштабу. "
-"Це значення визначає крок зміни масштабу при кожній русі прокручування. "
-"Наприклад, 0.05 означає збільшення на 5% для кожної події прокручування, а "
-"1.00 — збільшення на 100%."
+msgid "The multiplier to be applied when using the mouse scroll wheel for zooming. This value defines the zooming step used for each scroll event. For example, 0.05 results in a 5% zoom increment for each scroll event and 1.00 result in a 100% zoom increment."
+msgstr "Множник, що застосовується при використанні колеса миші для зміни масштабу. Це значення визначає крок зміни масштабу при кожній русі прокручування. Наприклад, 0.05 означає збільшення на 5% для кожної події прокручування, а 1.00 — збільшення на 100%."
 
 #: data/org.gnome.eog.gschema.xml.in:46
 msgid "Transparency color"
 msgstr "Колір прозорості"
 
 #: data/org.gnome.eog.gschema.xml.in:47
-msgid ""
-"If the transparency key has the value COLOR, then this key determines the "
-"color which is used for indicating transparency."
-msgstr ""
-"Якщо ключ transparency має значення COLOR, то цей ключ визначає колір, яким "
-"позначатиметься прозорість."
+msgid "If the transparency key has the value COLOR, then this key determines the color which is used for indicating transparency."
+msgstr "Якщо ключ transparency має значення COLOR, то цей ключ визначає колір, яким позначатиметься прозорість."
 
 #: data/org.gnome.eog.gschema.xml.in:51
 msgid "Use a custom background color"
 msgstr "Використати власний колір тла"
 
 #: data/org.gnome.eog.gschema.xml.in:52
-msgid ""
-"If this is active, the color set by the background-color key will be used to "
-"fill the area behind the image. If it is not set, the current GTK+ theme "
-"will determine the fill color."
-msgstr ""
-"Якщо ввімкнено, вказаний колір у ключі background-color буде використано для "
-"заповнення ділянки за зображенням. Якщо не вказано, поточна тема GTK+ "
-"визначить колір заливання."
+msgid "If this is active, the color set by the background-color key will be used to fill the area behind the image. If it is not set, the current GTK+ theme will determine the fill color."
+msgstr "Якщо ввімкнено, вказаний колір у ключі background-color буде використано для заповнення ділянки за зображенням. Якщо не вказано, поточна тема GTK+ визначить колір заливання."
 
 #: data/org.gnome.eog.gschema.xml.in:58
 msgid "Loop through the image sequence"
@@ -808,34 +743,23 @@ msgstr "Циклічна послідовність зображень"
 
 #: data/org.gnome.eog.gschema.xml.in:59
 msgid "Whether the sequence of images should be shown in an endless loop."
-msgstr ""
-"Визначає, що потрібно показувати послідовність зображень у нескінченному "
-"циклі."
+msgstr "Визначає, що потрібно показувати послідовність зображень у нескінченному циклі."
 
 #: data/org.gnome.eog.gschema.xml.in:63
 msgid "Allow zoom greater than 100% initially"
 msgstr "Дозволяти початковий масштаб більше 100%"
 
 #: data/org.gnome.eog.gschema.xml.in:64
-msgid ""
-"If this is set to FALSE small images will not be stretched to fit into the "
-"screen initially."
-msgstr ""
-"Якщо не позначено, то малі зображення не будуть розтягуватись до розмірів "
-"екрана на початку."
+msgid "If this is set to FALSE small images will not be stretched to fit into the screen initially."
+msgstr "Якщо не позначено, то малі зображення не будуть розтягуватись до розмірів екрана на початку."
 
 #: data/org.gnome.eog.gschema.xml.in:68
 msgid "Delay in seconds until showing the next image"
 msgstr "Затримка у секундах перед наступним зображенням"
 
 #: data/org.gnome.eog.gschema.xml.in:69
-msgid ""
-"A value greater than 0 determines the seconds an image stays on screen until "
-"the next one is shown automatically. Zero disables the automatic browsing."
-msgstr ""
-"Значення більше 0 визначає кількість секунд, яку зображення лишатиметься на "
-"екрані перед автоматичною появою наступного. Нуль вимикає автоматичний "
-"перегляд."
+msgid "A value greater than 0 determines the seconds an image stays on screen until the next one is shown automatically. Zero disables the automatic browsing."
+msgstr "Значення більше 0 визначає кількість секунд, яку зображення лишатиметься на екрані перед автоматичною появою наступного. Нуль вимикає автоматичний перегляд."
 
 #: data/org.gnome.eog.gschema.xml.in:75
 msgid "Show/Hide the window statusbar."
@@ -846,12 +770,8 @@ msgid "Show/Hide the image gallery pane."
 msgstr "Показувати/приховувати панель галереї зображень."
 
 #: data/org.gnome.eog.gschema.xml.in:83
-msgid ""
-"Image gallery pane position. Set to 0 for bottom; 1 for left; 2 for top; 3 "
-"for right."
-msgstr ""
-"Положення панелі галереї зображень. Встановіть 0 — знизу; 1 — ліворуч; 2 — "
-"згори; 3 — праворуч."
+msgid "Image gallery pane position. Set to 0 for bottom; 1 for left; 2 for top; 3 for right."
+msgstr "Положення панелі галереї зображень. Встановіть 0 — знизу; 1 — ліворуч; 2 — згори; 3 — праворуч."
 
 #: data/org.gnome.eog.gschema.xml.in:87
 msgid "Whether the image gallery pane should be resizable."
@@ -874,64 +794,36 @@ msgid "Trash images without asking"
 msgstr "Знищувати зображення не питаючи дозволу"
 
 #: data/org.gnome.eog.gschema.xml.in:104
-msgid ""
-"If activated, Eye of GNOME won’t ask for confirmation when moving images to "
-"the trash. It will still ask if any of the files cannot be moved to the "
-"trash and would be deleted instead."
-msgstr ""
-"Якщо активне, «Око GNOME» не запитуватиме підтвердження при переміщенні "
-"зображень до смітника. Однак, ви будете отримувати запити у випадку, якщо "
-"файли не можна перенести до смітника, а натомість їх пропонується вилучити."
+#| msgid ""
+#| "If activated, Eye of GNOME won't ask for confirmation when moving images "
+#| "to the trash. It will still ask if any of the files cannot be moved to "
+#| "the trash and would be deleted instead."
+msgid "If activated, Eye of GNOME won’t ask for confirmation when moving images to the trash. It will still ask if any of the files cannot be moved to the trash and would be deleted instead."
+msgstr "Якщо активне, «Око GNOME» не запитуватиме підтвердження при переміщенні зображень до смітника. Однак, ви будете отримувати запити у випадку, якщо файли не можна перенести до смітника, а натомість їх пропонується вилучити."
 
 #: data/org.gnome.eog.gschema.xml.in:108
-msgid ""
-"Whether the file chooser should show the user’s pictures folder if no images "
-"are loaded."
-msgstr ""
-"Чи у вікні вибору файла слід показувати зображення з теки малюнків, якщо "
-"зображення не завантажено у програмі."
+msgid "Whether the file chooser should show the user’s pictures folder if no images are loaded."
+msgstr "Чи у вікні вибору файла слід показувати зображення з теки малюнків, якщо зображення не завантажено у програмі."
 
 #: data/org.gnome.eog.gschema.xml.in:109
-msgid ""
-"If activated and no image is loaded in the active window, the file chooser "
-"will display the user’s pictures folder using the XDG special user "
-"directories. If deactivated or the pictures folder has not been set up, it "
-"will show the current working directory."
-msgstr ""
-"Якщо ввімкнено й у активному вікні не завантажено зображення, вікно вибору "
-"файлів показуватиме теку користувача для малюнків, зі спеціальних каталогів "
-"XDG. Якщо вимкнено або теку малюнків не встановлено, показуватиметься "
-"поточний каталог."
+msgid "If activated and no image is loaded in the active window, the file chooser will display the user’s pictures folder using the XDG special user directories. If deactivated or the pictures folder has not been set up, it will show the current working directory."
+msgstr "Якщо ввімкнено й у активному вікні не завантажено зображення, вікно вибору файлів показуватиме теку користувача для малюнків, зі спеціальних каталогів XDG. Якщо вимкнено або теку малюнків не встановлено, показуватиметься поточний каталог."
 
 #: data/org.gnome.eog.gschema.xml.in:113
-msgid ""
-"Whether the metadata list in the properties dialog should have its own page."
+msgid "Whether the metadata list in the properties dialog should have its own page."
 msgstr "Чи матиме список метаданих власну сторінку у вікні властивостей."
 
 #: data/org.gnome.eog.gschema.xml.in:114
-msgid ""
-"If activated, the detailed metadata list in the properties dialog will be "
-"moved to its own page in the dialog. This should make the dialog more usable "
-"on smaller screens, e.g. as used by netbooks. If disabled, the widget will "
-"be embedded on the “Metadata” page."
-msgstr ""
-"Якщо ввімкнено, докладний список метаданих у діалозі властивостей буде "
-"показано на власній сторінці у вікні. Це дозволяє краще розміщуватись на "
-"маленьких екранах, наприклад? нетбуках. Якщо вимкнено, віджет вбудовується у "
-"сторінку «Метадані»."
+msgid "If activated, the detailed metadata list in the properties dialog will be moved to its own page in the dialog. This should make the dialog more usable on smaller screens, e.g. as used by netbooks. If disabled, the widget will be embedded on the “Metadata” page."
+msgstr "Якщо ввімкнено, докладний список метаданих у діалозі властивостей буде показано на власній сторінці у вікні. Це дозволяє краще розміщуватись на маленьких екранах, наприклад? нетбуках. Якщо вимкнено, віджет вбудовується у сторінку «Метадані»."
 
 #: data/org.gnome.eog.gschema.xml.in:120
 msgid "Active plugins"
 msgstr "Увімкнути додатки"
 
 #: data/org.gnome.eog.gschema.xml.in:121
-msgid ""
-"List of active plugins. It doesn’t contain the “Location” of the active "
-"plugins. See the .eog-plugin file for obtaining the “Location” of a given "
-"plugin."
-msgstr ""
-"Список увімкнутих додатків. У списку не міститься «адреси» додатків. Щоб "
-"дізнатись «адресу» певного додатка дивіться файл .eog-plugin\"."
+msgid "List of active plugins. It doesn’t contain the “Location” of the active plugins. See the .eog-plugin file for obtaining the “Location” of a given plugin."
+msgstr "Список увімкнутих додатків. У списку не міститься «адреси» додатків. Щоб дізнатись «адресу» певного додатка дивіться файл .eog-plugin\"."
 
 #: data/popup-menus.ui:6
 msgid "Open _with"
@@ -965,7 +857,7 @@ msgstr "На весь екран подвійним клацанням"
 #. This is an icon file name
 #: plugins/fullscreen/fullscreen.plugin.desktop.in:8
 msgid "view-fullscreen"
-msgstr "view-fullscreen"
+msgstr ""
 
 #: plugins/fullscreen/fullscreen.plugin.desktop.in:9
 msgid "Activate fullscreen mode with double-click"
@@ -980,7 +872,7 @@ msgstr "Перезавантажити зображення"
 #. This is an icon file name
 #: plugins/reload/reload.plugin.desktop.in:8
 msgid "view-refresh"
-msgstr "view-refresh"
+msgstr ""
 
 #: plugins/reload/reload.plugin.desktop.in:9
 msgid "Reload current image"
@@ -990,7 +882,7 @@ msgstr "Перезавантажити поточне зображення"
 #: plugins/statusbar-date/eog-statusbar-date-plugin.c:69
 #: src/eog-exif-util.c:193 src/eog-exif-util.c:195
 msgid "%a, %d %B %Y  %X"
-msgstr "%a, %d %B %Y  %X"
+msgstr ""
 
 #: plugins/statusbar-date/statusbar-date.plugin.desktop.in:5
 msgid "Date in statusbar"
@@ -1016,13 +908,11 @@ msgstr "Зберегти зміни у зображенні «%s» перед з
 #: src/eog-close-confirmation-dialog.c:564
 #, c-format
 msgid "There is %d image with unsaved changes. Save changes before closing?"
-msgid_plural ""
-"There are %d images with unsaved changes. Save changes before closing?"
+msgid_plural "There are %d images with unsaved changes. Save changes before closing?"
 msgstr[0] "У %d зображенні є незбережені зміни. Зберегти їх перед закриттям?"
-msgstr[1] ""
-"У %d зображеннях є незбережені зміни. Зберегти їх перед закриттям?"
-msgstr[2] ""
-"У %d зображеннях є незбережені зміни. Зберегти їх перед закриттям?"
+msgstr[1] "У %d зображеннях є незбережені зміни. Зберегти їх перед закриттям?"
+msgstr[2] "У %d зображеннях є незбережені зміни. Зберегти їх перед закриттям?"
+msgstr[3] ""
 
 #: src/eog-close-confirmation-dialog.c:584
 msgid "S_elect the images you want to save:"
@@ -1061,24 +951,15 @@ msgid "The given locations contain no images."
 msgstr "Вказані місця не містять зображень."
 
 #: src/eog-error-message-area.c:350
-msgid ""
-"This image contains multiple pages. Image Viewer displays only the first "
-"page.\n"
+msgid "This image contains multiple pages. Image Viewer displays only the first page.\n"
 "Do you want to open the image with the Document Viewer to see all pages?"
-msgstr ""
-"Це зображення містить кілька сторінок. Переглядач зображень показує тільки "
-"першу.\n"
-"Бажаєте відкрити зображення через переглядач документів, щоб побачити всі "
-"сторінки?"
+msgstr "Це зображення містить кілька сторінок. Переглядач зображень показує тільки першу.\n"
+"Бажаєте відкрити зображення через переглядач документів, щоб побачити всі сторінки?"
 
 #: src/eog-error-message-area.c:355
-msgid ""
-"This image contains multiple pages. Image Viewer displays only the first "
-"page.\n"
+msgid "This image contains multiple pages. Image Viewer displays only the first page.\n"
 "You may want to install the Document Viewer to see all pages."
-msgstr ""
-"Це зображення містить кілька сторінок. Переглядач зображень показує тільки "
-"першу.\n"
+msgstr "Це зображення містить кілька сторінок. Переглядач зображень показує тільки першу.\n"
 "Вам слід встановити переглядач документів, щоб побачити всі сторінки."
 
 #. TRANSLATORS: This is the actual focal length used when
@@ -1101,12 +982,8 @@ msgid "File format is unknown or unsupported"
 msgstr "Формат файла невідомий або не підтримується"
 
 #: src/eog-file-chooser.c:124
-msgid ""
-"Image Viewer could not determine a supported writable file format based on "
-"the filename."
-msgstr ""
-"Переглядач зображень не може визначити підтримуваний записуваний формат "
-"файла, який основано на назві файла."
+msgid "Image Viewer could not determine a supported writable file format based on the filename."
+msgstr "Переглядач зображень не може визначити підтримуваний записуваний формат файла, який основано на назві файла."
 
 #: src/eog-file-chooser.c:125
 msgid "Please try a different file extension like .png or .jpg."
@@ -1116,7 +993,7 @@ msgstr "Спробуйте різні розширення файлів, нап�
 #: src/eog-file-chooser.c:160
 #, c-format
 msgid "%s (*.%s)"
-msgstr "%s (*.%s)"
+msgstr ""
 
 #: src/eog-file-chooser.c:212
 msgid "All files"
@@ -1134,9 +1011,9 @@ msgid_plural "pixels"
 msgstr[0] "точка"
 msgstr[1] "точки"
 msgstr[2] "точок"
+msgstr[3] ""
 
 #: src/eog-file-chooser.c:457 src/eog-file-chooser.c:473
-#| msgid "_Open…"
 msgid "_Open"
 msgstr "_Відкрити"
 
@@ -1219,11 +1096,11 @@ msgstr "Інше"
 
 #: src/eog-metadata-details.c:72
 msgid "XMP Exif"
-msgstr "XMP Exif"
+msgstr ""
 
 #: src/eog-metadata-details.c:73
 msgid "XMP IPTC"
-msgstr "XMP IPTC"
+msgstr ""
 
 #: src/eog-metadata-details.c:74
 msgid "XMP Rights Management"
@@ -1259,13 +1136,12 @@ msgstr "Південь"
 
 #: src/eog-metadata-sidebar.c:144
 #, c-format
-#| msgid "%i × %i pixel  %s    %i%%"
-#| msgid_plural "%i × %i pixels  %s    %i%%"
 msgid "%i × %i pixel"
 msgid_plural "%i × %i pixels"
 msgstr[0] "%i × %i піксель"
 msgstr[1] "%i × %i пікселі"
 msgstr[2] "%i × %i пікселів"
+msgstr[3] ""
 
 #: src/eog-metadata-sidebar.c:155 src/eog-properties-dialog.c:182
 msgid "Unknown"
@@ -1273,12 +1149,12 @@ msgstr "Невідомо"
 
 #: src/eog-metadata-sidebar.c:219
 msgid "%a, %d %B %Y"
-msgstr "%a, %d %B %Y"
+msgstr ""
 
 #: src/eog-metadata-sidebar.c:223
 #, c-format
 msgid "%X"
-msgstr "%X"
+msgstr ""
 
 #: src/eog-preferences-dialog.c:125
 #, c-format
@@ -1287,6 +1163,7 @@ msgid_plural "%lu seconds"
 msgstr[0] "%lu секунда"
 msgstr[1] "%lu секунди"
 msgstr[2] "%lu секунд"
+msgstr[3] ""
 
 #: src/eog-print.c:371
 msgid "Image Settings"
@@ -1397,7 +1274,7 @@ msgstr "як є"
 #: src/eog-statusbar.c:118
 #, c-format
 msgid "%d / %d"
-msgstr "%d / %d"
+msgstr ""
 
 #: src/eog-thumb-view.c:543
 msgid "Taken on"
@@ -1429,6 +1306,7 @@ msgid_plural "%i × %i pixels  %s    %i%%"
 msgstr[0] "%i × %i точку  %s    %i%%"
 msgstr[1] "%i × %i точки  %s    %i%%"
 msgstr[2] "%i × %i точок  %s    %i%%"
+msgstr[3] ""
 
 #: src/eog-window.c:934 src/eog-window.c:2677
 msgctxt "MessageArea"
@@ -1439,11 +1317,9 @@ msgstr "_Сховати"
 #. * with the automatic line break.
 #: src/eog-window.c:944
 #, c-format
-msgid ""
-"The image “%s” has been modified by an external application.\n"
+msgid "The image “%s” has been modified by an external application.\n"
 "Would you like to reload it?"
-msgstr ""
-"Зображення «%s» змінено через іншу програму.\n"
+msgstr "Зображення «%s» змінено через іншу програму.\n"
 "Оновити його?"
 
 #. Translators: This string is displayed in the statusbar
@@ -1468,11 +1344,9 @@ msgstr "Переглядання слайдами"
 
 #: src/eog-window.c:2247
 #, c-format
-msgid ""
-"Error printing file:\n"
+msgid "Error printing file:\n"
 "%s"
-msgstr ""
-"Помилка при друкуванні файла:\n"
+msgstr "Помилка при друкуванні файла:\n"
 "%s"
 
 #: src/eog-window.c:2626 src/eog-window.c:2641
@@ -1487,11 +1361,12 @@ msgstr "_Відкрити налаштування тла"
 #. * with the automatic line break.
 #: src/eog-window.c:2691
 #, c-format
-msgid ""
-"The image “%s” has been set as Desktop Background.\n"
+#| msgid ""
+#| "The image \"%s\" has been set as Desktop Background.\n"
+#| "Would you like to modify its appearance?"
+msgid "The image “%s” has been set as Desktop Background.\n"
 "Would you like to modify its appearance?"
-msgstr ""
-"Зображення «%s» встановлено як тло стільниці.\n"
+msgstr "Зображення «%s» встановлено як тло стільниці.\n"
 "Змінити його вигляд?"
 
 #: src/eog-window.c:3181
@@ -1500,22 +1375,20 @@ msgstr "Збереження зображення локально…"
 
 #: src/eog-window.c:3259
 #, c-format
-msgid ""
-"Are you sure you want to remove\n"
+msgid "Are you sure you want to remove\n"
 "“%s” permanently?"
 msgstr "Вилучити «%s» остаточно?"
 
 #: src/eog-window.c:3262
 #, c-format
-msgid ""
-"Are you sure you want to remove\n"
+msgid "Are you sure you want to remove\n"
 "the selected image permanently?"
-msgid_plural ""
-"Are you sure you want to remove\n"
+msgid_plural "Are you sure you want to remove\n"
 "the %d selected images permanently?"
 msgstr[0] "Вилучити %d вибране зображення безповоротно?"
 msgstr[1] "Вилучити %d вибраних зображення безповоротно?"
 msgstr[2] "Вилучити %d вибраних зображень безповоротно?"
+msgstr[3] ""
 
 #: src/eog-window.c:3284 src/eog-window.c:3550
 msgid "_Delete"
@@ -1553,47 +1426,45 @@ msgstr "Помилка при вилученні зображення %s"
 
 #: src/eog-window.c:3512
 #, c-format
-msgid ""
-"Are you sure you want to move\n"
+#| msgid ""
+#| "Are you sure you want to move\n"
+#| "\"%s\" to the trash?"
+msgid "Are you sure you want to move\n"
 "“%s” to the trash?"
 msgstr "Перемістити «%s» у смітник?"
 
 #: src/eog-window.c:3515
 #, c-format
-msgid ""
-"A trash for “%s” couldn’t be found. Do you want to remove this image "
-"permanently?"
-msgstr ""
-"Неможливо знайти смітника для «%s». Остаточно вилучити це зображення?"
+#| msgid ""
+#| "A trash for \"%s\" couldn't be found. Do you want to remove this image "
+#| "permanently?"
+msgid "A trash for “%s” couldn’t be found. Do you want to remove this image permanently?"
+msgstr "Неможливо знайти смітника для «%s». Остаточно вилучити це зображення?"
 
 #: src/eog-window.c:3520
 #, c-format
-msgid ""
-"Are you sure you want to move\n"
+msgid "Are you sure you want to move\n"
 "the selected image to the trash?"
-msgid_plural ""
-"Are you sure you want to move\n"
+msgid_plural "Are you sure you want to move\n"
 "the %d selected images to the trash?"
-msgstr[0] ""
-"Перемістити\n"
+msgstr[0] "Перемістити\n"
 "%d вибране зображення у смітник?"
-msgstr[1] ""
-"Перемістити\n"
+msgstr[1] "Перемістити\n"
 "%d вибраних зображення у смітник?"
-msgstr[2] ""
-"Перемістити\n"
+msgstr[2] "Перемістити\n"
 "%d вибраних зображень у смітник?"
+msgstr[3] ""
 
 #: src/eog-window.c:3525
-msgid ""
-"Some of the selected images can’t be moved to the trash and will be removed "
-"permanently. Are you sure you want to proceed?"
-msgstr ""
-"Деякі з вибраних зображень не можна перенести до смітника, а тому їх буде "
-"вилучено остаточно. Продовжити?"
+#| msgid ""
+#| "Some of the selected images can't be moved to the trash and will be "
+#| "removed permanently. Are you sure you want to proceed?"
+msgid "Some of the selected images can’t be moved to the trash and will be removed permanently. Are you sure you want to proceed?"
+msgstr "Деякі з вибраних зображень не можна перенести до смітника, а тому їх буде вилучено остаточно. Продовжити?"
 
 #: src/eog-window.c:3589 src/eog-window.c:3603
 #, c-format
+#| msgid "Couldn't access trash."
 msgid "Couldn’t access trash."
 msgstr "Неможливо одержати доступ до смітника."
 
@@ -1606,7 +1477,6 @@ msgid "Show the current image in fullscreen mode"
 msgstr "Показати зображення у повноекранному режимі"
 
 #: src/eog-window.c:4406
-#| msgid "Prope_rties"
 msgid "Properties"
 msgstr "Властивості"
 
@@ -1616,11 +1486,9 @@ msgstr "Програма перегляду зображень для GNOME."
 
 #: src/eog-window.c:5574
 msgid "translator-credits"
-msgstr ""
-"Юрій Сирота\n"
+msgstr "Юрій Сирота\n"
 "Максим Дзюманенко <dziumanenko@gmail.com>\n"
-"Daniel Korostil <ted.korostiled@gmail.com>\n"
-"\n"
+"Daniel Korostil <ted.korostiled@gmail.com>\n\n"
 "Launchpad Contributions:\n"
 "  Andrii Prokopenko https://launchpad.net/~anprok\n"
 "  Artem Polivanchuk https://launchpad.net/~artemp\n"
@@ -1642,7 +1510,7 @@ msgstr ""
 #: src/eog-zoom-entry.c:81
 #, c-format
 msgid "%d%%"
-msgstr "%d%%"
+msgstr ""
 
 #: src/main.c:56
 msgid "GNOME Image Viewer"
@@ -1665,10 +1533,8 @@ msgid "Start a new instance instead of reusing an existing one"
 msgstr "Запускати новий екземпляр замість використання наявного"
 
 #: src/main.c:67
-msgid ""
-"Open in a single window, if multiple windows are open the first one is used"
-msgstr ""
-"Відкрите в одному вікно, якщо кілька вікон відкрито і перше використовується"
+msgid "Open in a single window, if multiple windows are open the first one is used"
+msgstr "Відкрите в одному вікно, якщо кілька вікон відкрито і перше використовується"
 
 #: src/main.c:69
 msgid "Show the application’s version"
@@ -1682,6 +1548,5 @@ msgstr "[ФАЙЛ…]"
 #: src/main.c:112
 #, c-format
 msgid "Run “%s --help” to see a full list of available command line options."
-msgstr ""
-"Виконайте «%s --help», щоб побачити повний перелік параметрів командного "
-"рядка."
+msgstr "Виконайте «%s --help», щоб побачити повний перелік параметрів командного рядка."
+

@@ -1,27 +1,26 @@
-# Belarusian translation for adduser
-# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
-# This file is distributed under the same license as the adduser package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: adduser\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-06-17 18:51+0200\n"
-"PO-Revision-Date: 2010-02-16 08:36+0000\n"
-"Last-Translator: Iryna Nikanchuk <Unknown>\n"
-"Language-Team: Belarusian <be@li.org>\n"
+"PO-Revision-Date: 2019-07-08 16:55\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 10:30+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/adduser.po\n"
+"Language: be_BY\n"
 
 #. everyone can issue "--help" and "--version", but only root can go on
 #: ../adduser:150
 msgid "Only root may add a user or group to the system.\n"
-msgstr ""
-"Толькі адміністратар можа дадаваць карыстальніка альбо групу ў сыстэму.\n"
+msgstr "Толькі адміністратар можа дадаваць карыстальніка альбо групу ў сыстэму.\n"
 
 #: ../adduser:176 ../deluser:137
 msgid "Only one or two names allowed.\n"
@@ -72,8 +71,7 @@ msgstr "Гэты GID `%s' ужо ўжываецца.\n"
 
 #: ../adduser:294
 #, perl-format
-msgid ""
-"No GID is available in the range %d-%d (FIRST_SYS_GID - LAST_SYS_GID).\n"
+msgid "No GID is available in the range %d-%d (FIRST_SYS_GID - LAST_SYS_GID).\n"
 msgstr ""
 
 #: ../adduser:295 ../adduser:325
@@ -138,9 +136,7 @@ msgstr ""
 
 #: ../adduser:394
 #, perl-format
-msgid ""
-"No UID/GID pair is available in the range %d-%d (FIRST_SYS_UID - "
-"LAST_SYS_UID).\n"
+msgid "No UID/GID pair is available in the range %d-%d (FIRST_SYS_UID - LAST_SYS_UID).\n"
 msgstr ""
 
 #: ../adduser:395 ../adduser:407 ../adduser:487 ../adduser:499
@@ -150,8 +146,7 @@ msgstr "Карыстальнік `%s' ня быў створаны.\n"
 
 #: ../adduser:406
 #, perl-format
-msgid ""
-"No UID is available in the range %d-%d (FIRST_SYS_UID - LAST_SYS_UID).\n"
+msgid "No UID is available in the range %d-%d (FIRST_SYS_UID - LAST_SYS_UID).\n"
 msgstr ""
 
 #: ../adduser:411 ../adduser:417 ../adduser:503 ../adduser:509
@@ -185,9 +180,7 @@ msgstr ""
 
 #: ../adduser:453
 #, perl-format
-msgid ""
-"%s failed with return code 15, shadow not enabled, password aging cannot be "
-"set. Continuing.\n"
+msgid "%s failed with return code 15, shadow not enabled, password aging cannot be set. Continuing.\n"
 msgstr ""
 
 #: ../adduser:478
@@ -197,8 +190,7 @@ msgstr "Дабаўленьне карыстальніка `%s' ...\n"
 
 #: ../adduser:486
 #, perl-format
-msgid ""
-"No UID/GID pair is available in the range %d-%d (FIRST_UID - LAST_UID).\n"
+msgid "No UID/GID pair is available in the range %d-%d (FIRST_UID - LAST_UID).\n"
 msgstr ""
 
 #: ../adduser:498
@@ -277,9 +269,7 @@ msgstr ""
 
 #: ../adduser:660
 #, perl-format
-msgid ""
-"Warning: The home directory `%s' does not belong to the user you are "
-"currently creating.\n"
+msgid "Warning: The home directory `%s' does not belong to the user you are currently creating.\n"
 msgstr ""
 
 #: ../adduser:665
@@ -329,17 +319,14 @@ msgstr "Такога GID %d не існуе.\n"
 
 #: ../adduser:848
 #, perl-format
-msgid ""
-"Cannot deal with %s.\n"
+msgid "Cannot deal with %s.\n"
 "It is not a dir, file, or symlink.\n"
 msgstr ""
 
 #: ../adduser:868
 #, perl-format
-msgid ""
-"%s: To avoid problems, the username should consist only of\n"
-"letters, digits, underscores, periods, at signs and dashes, and not start "
-"with\n"
+msgid "%s: To avoid problems, the username should consist only of\n"
+"letters, digits, underscores, periods, at signs and dashes, and not start with\n"
 "a dash (as defined by IEEE Std 1003.1-2001). For compatibility with Samba\n"
 "machine accounts $ is also supported at the end of the username\n"
 msgstr ""
@@ -350,8 +337,7 @@ msgstr ""
 
 #: ../adduser:880
 #, perl-format
-msgid ""
-"%s: Please enter a username matching the regular expression configured\n"
+msgid "%s: Please enter a username matching the regular expression configured\n"
 "via the NAME_REGEX configuration variable.  Use the `--force-badname'\n"
 "option to relax this check or reconfigure NAME_REGEX.\n"
 msgstr ""
@@ -395,28 +381,22 @@ msgstr ""
 
 #: ../adduser:984
 #, perl-format
-msgid ""
-"adduser version %s\n"
-"\n"
+msgid "adduser version %s\n\n"
 msgstr ""
 
 #: ../adduser:985
-msgid ""
-"Adds a user or group to the system.\n"
+msgid "Adds a user or group to the system.\n"
 "  \n"
 "Copyright (C) 1997, 1998, 1999 Guy Maor <maor@debian.org>\n"
 "Copyright (C) 1995 Ian Murdock <imurdock@gnu.ai.mit.edu>,\n"
-"                   Ted Hajek <tedhajek@boombox.micro.umn.edu>\n"
-"\n"
+"                   Ted Hajek <tedhajek@boombox.micro.umn.edu>\n\n"
 msgstr ""
 
 #: ../adduser:992 ../deluser:466
-msgid ""
-"This program is free software; you can redistribute it and/or modify\n"
+msgid "This program is free software; you can redistribute it and/or modify\n"
 "it under the terms of the GNU General Public License as published by\n"
 "the Free Software Foundation; either version 2 of the License, or (at\n"
-"your option) any later version.\n"
-"\n"
+"your option) any later version.\n\n"
 "This program is distributed in the hope that it will be useful, but\n"
 "WITHOUT ANY WARRANTY; without even the implied warranty of\n"
 "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\n"
@@ -424,43 +404,34 @@ msgid ""
 msgstr ""
 
 #: ../adduser:1006
-msgid ""
-"adduser [--home DIR] [--shell SHELL] [--no-create-home] [--uid ID]\n"
+msgid "adduser [--home DIR] [--shell SHELL] [--no-create-home] [--uid ID]\n"
 "[--firstuid ID] [--lastuid ID] [--gecos GECOS] [--ingroup GROUP | --gid ID]\n"
 "[--disabled-password] [--disabled-login] [--add_extra_groups] USER\n"
-"   Add a normal user\n"
-"\n"
+"   Add a normal user\n\n"
 "adduser --system [--home DIR] [--shell SHELL] [--no-create-home] [--uid ID]\n"
-"[--gecos GECOS] [--group | --ingroup GROUP | --gid ID] [--disabled-"
-"password]\n"
+"[--gecos GECOS] [--group | --ingroup GROUP | --gid ID] [--disabled-password]\n"
 "[--disabled-login] [--add_extra_groups] USER\n"
-"   Add a system user\n"
-"\n"
+"   Add a system user\n\n"
 "adduser --group [--gid ID] GROUP\n"
 "addgroup [--gid ID] GROUP\n"
-"   Add a user group\n"
-"\n"
+"   Add a user group\n\n"
 "addgroup --system [--gid ID] GROUP\n"
-"   Add a system group\n"
-"\n"
+"   Add a system group\n\n"
 "adduser USER GROUP\n"
-"   Add an existing user to an existing group\n"
-"\n"
+"   Add an existing user to an existing group\n\n"
 "general options:\n"
 "  --quiet | -q      don't give process information to stdout\n"
 "  --force-badname   allow usernames which do not match the\n"
 "                    NAME_REGEX configuration variable\n"
 "  --help | -h       usage message\n"
 "  --version | -v    version number and copyright\n"
-"  --conf | -c FILE  use FILE as configuration file\n"
-"\n"
+"  --conf | -c FILE  use FILE as configuration file\n\n"
 msgstr ""
 
 #. everyone can issue "--help" and "--version", but only root can go on
 #: ../deluser:99
 msgid "Only root may remove a user or group from the system.\n"
-msgstr ""
-"Толькі адміністратар можа выдаліць карыстальніка ці групу з вашае сыстэмы.\n"
+msgstr "Толькі адміністратар можа выдаліць карыстальніка ці групу з вашае сыстэмы.\n"
 
 #: ../deluser:120
 msgid "No options allowed after names.\n"
@@ -475,9 +446,7 @@ msgid "Enter a user name to remove: "
 msgstr "Увядзіце імя карыстальніка, якога трэба выдаліць: "
 
 #: ../deluser:170
-msgid ""
-"In order to use the --remove-home, --remove-all-files, and --backup "
-"features,\n"
+msgid "In order to use the --remove-home, --remove-all-files, and --backup features,\n"
 "you need to install the `perl' package. To accomplish that, run\n"
 "apt-get install perl.\n"
 msgstr ""
@@ -497,8 +466,7 @@ msgid "WARNING: You are just about to delete the root account (uid 0)\n"
 msgstr ""
 
 #: ../deluser:235
-msgid ""
-"Usually this is never required as it may render the whole system unusable\n"
+msgid "Usually this is never required as it may render the whole system unusable\n"
 msgstr ""
 
 #: ../deluser:236
@@ -592,9 +560,7 @@ msgstr "выдаленьне карыстальніка `%s' з групы `%s' 
 
 #: ../deluser:458
 #, perl-format
-msgid ""
-"deluser version %s\n"
-"\n"
+msgid "deluser version %s\n\n"
 msgstr ""
 
 #: ../deluser:459
@@ -602,57 +568,44 @@ msgid "Removes users and groups from the system.\n"
 msgstr ""
 
 #: ../deluser:461
-msgid ""
-"Copyright (C) 2000 Roland Bauerschmidt <roland@copyleft.de>\n"
-"\n"
-msgstr ""
-"Аўтарскія правы (C) 2000 Роланд Баўэршмідт <roland@copyleft.de>\n"
-"\n"
+msgid "Copyright (C) 2000 Roland Bauerschmidt <roland@copyleft.de>\n\n"
+msgstr "Аўтарскія правы (C) 2000 Роланд Баўэршмідт <roland@copyleft.de>\n\n"
 
 #: ../deluser:463
-msgid ""
-"deluser is based on adduser by Guy Maor <maor@debian.org>, Ian Murdock\n"
-"<imurdock@gnu.ai.mit.edu> and Ted Hajek <tedhajek@boombox.micro.umn.edu>\n"
-"\n"
+msgid "deluser is based on adduser by Guy Maor <maor@debian.org>, Ian Murdock\n"
+"<imurdock@gnu.ai.mit.edu> and Ted Hajek <tedhajek@boombox.micro.umn.edu>\n\n"
 msgstr ""
 
 #: ../deluser:479
-msgid ""
-"deluser USER\n"
+msgid "deluser USER\n"
 "  remove a normal user from the system\n"
-"  example: deluser mike\n"
-"\n"
+"  example: deluser mike\n\n"
 "  --remove-home             remove the users home directory and mail spool\n"
 "  --remove-all-files        remove all files owned by user\n"
 "  --backup                  backup files before removing.\n"
 "  --backup-to <DIR>         target directory for the backups.\n"
 "                            Default is the current directory.\n"
-"  --system                  only remove if system user\n"
-"\n"
+"  --system                  only remove if system user\n\n"
 "delgroup GROUP\n"
 "deluser --group GROUP\n"
 "  remove a group from the system\n"
-"  example: deluser --group students\n"
-"\n"
+"  example: deluser --group students\n\n"
 "  --system                  only remove if system group\n"
-"  --only-if-empty           only remove if no members left\n"
-"\n"
+"  --only-if-empty           only remove if no members left\n\n"
 "deluser USER GROUP\n"
 "  remove the user from a group\n"
-"  example: deluser mike students\n"
-"\n"
+"  example: deluser mike students\n\n"
 "general options:\n"
 "  --quiet | -q      don't give process information to stdout\n"
 "  --help | -h       usage message\n"
 "  --version | -v    version number and copyright\n"
-"  --conf | -c FILE  use FILE as configuration file\n"
-"\n"
+"  --conf | -c FILE  use FILE as configuration file\n\n"
 msgstr ""
 
 #: ../AdduserCommon.pm:64 ../AdduserCommon.pm:70
 #, perl-format
 msgid "%s: %s"
-msgstr "%s: %s"
+msgstr ""
 
 #: ../AdduserCommon.pm:82
 #, perl-format
@@ -685,36 +638,27 @@ msgstr ""
 
 #: ../adduser:931
 #, perl-format
-msgid ""
-"%s: Please enter a username matching the regular expression configured\n"
-"via the NAME_REGEX[_SYSTEM] configuration variable.  Use the `--force-"
-"badname'\n"
+msgid "%s: Please enter a username matching the regular expression configured\n"
+"via the NAME_REGEX[_SYSTEM] configuration variable.  Use the `--force-badname'\n"
 "option to relax this check or reconfigure NAME_REGEX.\n"
 msgstr ""
 
 #: ../adduser:1071
-msgid ""
-"adduser [--home DIR] [--shell SHELL] [--no-create-home] [--uid ID]\n"
+msgid "adduser [--home DIR] [--shell SHELL] [--no-create-home] [--uid ID]\n"
 "[--firstuid ID] [--lastuid ID] [--gecos GECOS] [--ingroup GROUP | --gid ID]\n"
 "[--disabled-password] [--disabled-login] [--encrypt-home] USER\n"
-"   Add a normal user\n"
-"\n"
+"   Add a normal user\n\n"
 "adduser --system [--home DIR] [--shell SHELL] [--no-create-home] [--uid ID]\n"
-"[--gecos GECOS] [--group | --ingroup GROUP | --gid ID] [--disabled-"
-"password]\n"
+"[--gecos GECOS] [--group | --ingroup GROUP | --gid ID] [--disabled-password]\n"
 "[--disabled-login] USER\n"
-"   Add a system user\n"
-"\n"
+"   Add a system user\n\n"
 "adduser --group [--gid ID] GROUP\n"
 "addgroup [--gid ID] GROUP\n"
-"   Add a user group\n"
-"\n"
+"   Add a user group\n\n"
 "addgroup --system [--gid ID] GROUP\n"
-"   Add a system group\n"
-"\n"
+"   Add a system group\n\n"
 "adduser USER GROUP\n"
-"   Add an existing user to an existing group\n"
-"\n"
+"   Add an existing user to an existing group\n\n"
 "general options:\n"
 "  --quiet | -q      don't give process information to stdout\n"
 "  --force-badname   allow usernames which do not match the\n"
@@ -722,14 +666,12 @@ msgid ""
 "  --extrausers      uses extra users as the database\n"
 "  --help | -h       usage message\n"
 "  --version | -v    version number and copyright\n"
-"  --conf | -c FILE  use FILE as configuration file\n"
-"\n"
+"  --conf | -c FILE  use FILE as configuration file\n\n"
 msgstr ""
 
 #: ../deluser:170
-msgid ""
-"In order to use the --remove-home, --remove-all-files, and --backup "
-"features,\n"
+msgid "In order to use the --remove-home, --remove-all-files, and --backup features,\n"
 "you need to install the `perl-modules' package. To accomplish that, run\n"
 "apt-get install perl-modules.\n"
 msgstr ""
+

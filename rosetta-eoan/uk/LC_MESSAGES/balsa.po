@@ -1,29 +1,24 @@
-# Ukrainian translation of balsa.
-# Copyright (C) 1999 Free Software Foundation, Inc.
-# Yuri Syrota <rasta@renome.rovno.ua>, 1999.
-# Maxim Dziumanenko <mvd@mylinux.com.ua>, 2004
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: balsa 2.0.16\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-24 05:25+0000\n"
-"PO-Revision-Date: 2019-02-23 14:57+0000\n"
-"Last-Translator: Maxim Dziumanenko <mvd@mylinux.com.ua>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:20\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Launchpad-Export-Date: 2019-05-11 11:43+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: uk\n"
+"X-Generator: crowdin.com\n"
+"Language: uk_UA\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/balsa.po\n"
 
 #: ../balsa.appdata.xml.in.h:1
-msgid ""
-"Balsa is a graphical mail client. While it is in active development, Balsa "
-"has many features such as:"
+msgid "Balsa is a graphical mail client. While it is in active development, Balsa has many features such as:"
 msgstr ""
 
 #: ../balsa.appdata.xml.in.h:2
@@ -60,7 +55,7 @@ msgstr ""
 
 #: ../balsa.desktop.in.in.h:1 ../balsa-mailto-handler.desktop.in.in.h:1
 msgid "Balsa"
-msgstr "Balsa"
+msgstr ""
 
 #: ../balsa.desktop.in.in.h:2 ../balsa-mailto-handler.desktop.in.in.h:2
 msgid "Email utility"
@@ -341,27 +336,22 @@ msgstr "Ніколи"
 
 #: ../libbalsa/gmime-gpgme-signature.c:169
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "Signature validity: %s"
 msgstr ""
 
 #: ../libbalsa/gmime-gpgme-signature.c:170
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "Signed on: %s"
-msgstr ""
-"\n"
+msgstr "\n"
 "Підписаний: %s"
 
 #: ../libbalsa/gmime-gpgme-signature.c:172
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "Key fingerprint: %s"
-msgstr ""
-"\n"
+msgstr "\n"
 "Відбиток ключа: %s"
 
 #: ../libbalsa/gmime-multipart-crypt.c:228
@@ -374,16 +364,12 @@ msgid "unsupported protocol “%s”"
 msgstr ""
 
 #: ../libbalsa/gmime-multipart-crypt.c:265
-msgid ""
-"Cannot verify multipart/signed part: signature content-type does not match "
-"protocol."
+msgid "Cannot verify multipart/signed part: signature content-type does not match protocol."
 msgstr ""
 
 #: ../libbalsa/gmime-multipart-crypt.c:461
 #, c-format
-msgid ""
-"Cannot decrypt multipart/encrypted part: unsupported encryption protocol "
-"“%s”."
+msgid "Cannot decrypt multipart/encrypted part: unsupported encryption protocol “%s”."
 msgstr ""
 
 #: ../libbalsa/gmime-multipart-crypt.c:462
@@ -391,9 +377,7 @@ msgid "(none)"
 msgstr ""
 
 #: ../libbalsa/gmime-multipart-crypt.c:475
-msgid ""
-"Cannot decrypt multipart/encrypted part: content-type does not match "
-"protocol."
+msgid "Cannot decrypt multipart/encrypted part: content-type does not match protocol."
 msgstr ""
 
 #: ../libbalsa/gmime-multipart-crypt.c:490
@@ -401,8 +385,7 @@ msgid "Cannot decrypt multipart/encrypted part: unexpected content type"
 msgstr ""
 
 #: ../libbalsa/gmime-multipart-crypt.c:532
-msgid ""
-"Cannot decrypt multipart/encrypted part: failed to parse decrypted content"
+msgid "Cannot decrypt multipart/encrypted part: failed to parse decrypted content"
 msgstr ""
 
 #: ../libbalsa/html.c:66
@@ -416,17 +399,13 @@ msgid "Could not convert HTML part to text: %s"
 msgstr ""
 
 #: ../libbalsa/html.c:400
-msgid ""
-"This message part contains images from a remote server.\n"
+msgid "This message part contains images from a remote server.\n"
 "To protect your privacy, Balsa has not downloaded them.\n"
 "You may choose to download them if you trust the server."
 msgstr ""
 
 #: ../libbalsa/html.c:408 ../libbalsa/html.c:1079
-msgid ""
-"This message part contains images from a remote server. To protect your "
-"privacy, Balsa has not downloaded them. You may choose to download them if "
-"you trust the server."
+msgid "This message part contains images from a remote server. To protect your privacy, Balsa has not downloaded them. You may choose to download them if you trust the server."
 msgstr ""
 
 #: ../libbalsa/html.c:417 ../libbalsa/html.c:1090
@@ -446,12 +425,12 @@ msgstr "_Закрити"
 #: ../libbalsa/mailbox_local.c:1954 ../src/sendmsg-window.c:3766
 #: ../src/sendmsg-window.c:3768
 msgid "Re:"
-msgstr "Re:"
+msgstr ""
 
 #: ../libbalsa/identity.c:104 ../src/sendmsg-window.c:3706
 #: ../src/sendmsg-window.c:3707 ../src/sendmsg-window.c:3708
 msgid "Fwd:"
-msgstr "Fwd:"
+msgstr ""
 
 #: ../libbalsa/identity.c:166
 msgid "New Identity"
@@ -569,8 +548,7 @@ msgid "send messages in both plain text and _HTML format"
 msgstr ""
 
 #: ../libbalsa/identity.c:997
-msgid ""
-"request positive (successful) _Delivery Status Notification by default"
+msgid "request positive (successful) _Delivery Status Notification by default"
 msgstr ""
 
 #: ../libbalsa/identity.c:1001
@@ -615,9 +593,7 @@ msgid "Prepend si_gnature"
 msgstr ""
 
 #: ../libbalsa/identity.c:1041
-msgid ""
-"Signing and encrypting messages are possible only if Balsa is built with "
-"cryptographic support."
+msgid "Signing and encrypting messages are possible only if Balsa is built with cryptographic support."
 msgstr ""
 
 #: ../libbalsa/identity.c:1046
@@ -645,14 +621,12 @@ msgid "remind me if messages can be encrypted"
 msgstr ""
 
 #: ../libbalsa/identity.c:1064
-msgid ""
-"use secret key with this id for signing GnuPG messages\n"
+msgid "use secret key with this id for signing GnuPG messages\n"
 "(leave empty for automatic selection)"
 msgstr ""
 
 #: ../libbalsa/identity.c:1068
-msgid ""
-"use certificate with this id for signing S/MIME messages\n"
+msgid "use certificate with this id for signing S/MIME messages\n"
 "(leave empty for automatic selection)"
 msgstr ""
 
@@ -746,11 +720,9 @@ msgstr ""
 #. IMAP host name + message
 #: ../libbalsa/imap-server.c:286
 #, c-format
-msgid ""
-"IMAP server %s alert:\n"
+msgid "IMAP server %s alert:\n"
 "%s"
-msgstr ""
-"Застереження від IMAP сервера %s:\n"
+msgstr "Застереження від IMAP сервера %s:\n"
 "%s"
 
 #. IMAP host name + message
@@ -822,39 +794,32 @@ msgstr "_Відкинути"
 
 #: ../libbalsa/libbalsa.c:535
 #, c-format
-msgid ""
-"<big><b>Authenticity of this certificate could not be verified.</b></big>\n"
+msgid "<big><b>Authenticity of this certificate could not be verified.</b></big>\n"
 "Reason: %s"
 msgstr ""
 
 #: ../libbalsa/libbalsa.c:582
 #, c-format
-msgid ""
-"Authenticity of this certificate could not be verified.\n"
+msgid "Authenticity of this certificate could not be verified.\n"
 "<b>Reason:</b> %s\n"
 "<b>This certificate belongs to:</b>\n"
-msgstr ""
-"Автентичність сертифікатів не можу бути перевірена.\n"
+msgstr "Автентичність сертифікатів не можу бути перевірена.\n"
 "<b>Причина:</b> %s\n"
 "<b>Цей сертифікат належить:</b>\n"
 
 #: ../libbalsa/libbalsa.c:594
-msgid ""
-"\n"
+msgid "\n"
 "<b>This certificate was issued by:</b>\n"
-msgstr ""
-"\n"
+msgstr "\n"
 "<b>Сертифікат виданий:</b>\n"
 
 #: ../libbalsa/libbalsa.c:605
 #, c-format
-msgid ""
-"<b>This certificate is valid</b>\n"
+msgid "<b>This certificate is valid</b>\n"
 "from %s\n"
 "to %s\n"
 "<b>Fingerprint:</b> %s"
-msgstr ""
-"<b>Цей сертифікат діє</b>\n"
+msgstr "<b>Цей сертифікат діє</b>\n"
 "з %s\n"
 "до %s\n"
 "<b>Відбитки:</b> %s"
@@ -949,8 +914,7 @@ msgstr ""
 
 #: ../libbalsa/libbalsa-gpgme.c:925
 #, c-format
-msgid ""
-"A key for “%s” is present, but it is expired, disabled, revoked or invalid"
+msgid "A key for “%s” is present, but it is expired, disabled, revoked or invalid"
 msgstr ""
 
 #: ../libbalsa/libbalsa-gpgme.c:928
@@ -985,10 +949,8 @@ msgstr ""
 
 #: ../libbalsa/libbalsa-gpgme-cb.c:223
 #, c-format
-msgid ""
-"There seems to be no public key for recipient “%s” in your key ring.\n"
-"If you are sure that the recipient owns a different key, select it from the "
-"list."
+msgid "There seems to be no public key for recipient “%s” in your key ring.\n"
+"If you are sure that the recipient owns a different key, select it from the list."
 msgstr ""
 
 #: ../libbalsa/libbalsa-gpgme-cb.c:236
@@ -1002,8 +964,7 @@ msgstr "Ід. користувача"
 #. create the dialog
 #: ../libbalsa/libbalsa-gpgme-cb.c:320
 #, c-format
-msgid ""
-"The owner trust for this key is “%s” only.\n"
+msgid "The owner trust for this key is “%s” only.\n"
 "Use this key anyway?"
 msgstr ""
 
@@ -1018,19 +979,15 @@ msgstr ""
 
 #: ../libbalsa/libbalsa-gpgme-cb.c:380
 #, c-format
-msgid ""
-"%s\n"
-"The passphrase for this key was bad, please try again!\n"
-"\n"
+msgid "%s\n"
+"The passphrase for this key was bad, please try again!\n\n"
 "Key: %s"
 msgstr ""
 
 #: ../libbalsa/libbalsa-gpgme-cb.c:385
 #, c-format
-msgid ""
-"%s\n"
-"Please enter the passphrase for the secret key!\n"
-"\n"
+msgid "%s\n"
+"Please enter the passphrase for the secret key!\n\n"
 "Key: %s"
 msgstr ""
 
@@ -1069,14 +1026,12 @@ msgstr ""
 
 #: ../libbalsa/libbalsa-gpgme-keys.c:367
 #, c-format
-msgid ""
-"Found %u key with fingerprint %s on the key server. Please check and import "
-"the proper key manually."
-msgid_plural ""
-"Found %u keys with fingerprint %s on the key server. Please check and import "
-"the proper key manually."
+msgid "Found %u key with fingerprint %s on the key server. Please check and import the proper key manually."
+msgid_plural "Found %u keys with fingerprint %s on the key server. Please check and import the proper key manually."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libbalsa/libbalsa-gpgme-keys.c:377
 #, c-format
@@ -1101,47 +1056,47 @@ msgstr ""
 
 #: ../libbalsa/libbalsa-gpgme-keys.c:501
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "• %d new user ID"
-msgid_plural ""
-"\n"
+msgid_plural "\n"
 "• %d new user IDs"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libbalsa/libbalsa-gpgme-keys.c:506
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "• %d new subkey"
-msgid_plural ""
-"\n"
+msgid_plural "\n"
 "• %d new subkeys"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libbalsa/libbalsa-gpgme-keys.c:511
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "• %d new signature"
-msgid_plural ""
-"\n"
+msgid_plural "\n"
 "• %d new signatures"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libbalsa/libbalsa-gpgme-keys.c:517
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "• %d new revocation"
-msgid_plural ""
-"\n"
+msgid_plural "\n"
 "• %d new revocations"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libbalsa/libbalsa-gpgme-keys.c:523
 msgid "The existing key in the key ring was not changed."
@@ -1306,6 +1261,8 @@ msgid "%u bit"
 msgid_plural "%u bits"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libbalsa/libbalsa-gpgme-widgets.c:715
 #, c-format
@@ -1437,11 +1394,9 @@ msgstr ""
 
 #: ../libbalsa/mailbox_imap.c:1607
 #, c-format
-msgid ""
-"IMAP SEARCH command failed for mailbox %s\n"
+msgid "IMAP SEARCH command failed for mailbox %s\n"
 "falling back to default searching method"
-msgstr ""
-"Помилка виконання команди IMAP SEARCH для поштової скриньки %s\n"
+msgstr "Помилка виконання команди IMAP SEARCH для поштової скриньки %s\n"
 "переключено на типовий метод пошуку"
 
 #: ../libbalsa/mailbox_imap.c:1671
@@ -1542,21 +1497,17 @@ msgstr ""
 
 #: ../libbalsa/mailbox_maildir.c:335 ../libbalsa/mailbox_mh.c:289
 #, c-format
-msgid ""
-"Could not remove contents of %s:\n"
+msgid "Could not remove contents of %s:\n"
 "%s"
-msgstr ""
-"Не вдається видалити вміст %s:\n"
+msgstr "Не вдається видалити вміст %s:\n"
 "%s"
 
 #: ../libbalsa/mailbox_maildir.c:341 ../libbalsa/mailbox_mbox.c:314
 #: ../libbalsa/mailbox_mh.c:295
 #, c-format
-msgid ""
-"Could not remove %s:\n"
+msgid "Could not remove %s:\n"
 "%s"
-msgstr ""
-"Не вдається видалити %s:\n"
+msgstr "Не вдається видалити %s:\n"
 "%s"
 
 #: ../libbalsa/mailbox_maildir.c:484 ../libbalsa/mailbox_mbox.c:701
@@ -1723,6 +1674,8 @@ msgid "%lu new message (%s)"
 msgid_plural "%lu new messages (%s)"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libbalsa/mailbox_pop3.c:666
 msgid "Deleting messages on server…"
@@ -1925,19 +1878,12 @@ msgid "The signature is valid but expired."
 msgstr "Підпис правильний, але вийшов його термін дії."
 
 #: ../libbalsa/rfc3156.c:633
-msgid ""
-"The signature is valid but the key used to verify the signature has expired."
-msgstr ""
-"Підпис правильний, але вийшов термін дії ключа, що використовується для "
-"перевірки підпису."
+msgid "The signature is valid but the key used to verify the signature has expired."
+msgstr "Підпис правильний, але вийшов термін дії ключа, що використовується для перевірки підпису."
 
 #: ../libbalsa/rfc3156.c:636
-msgid ""
-"The signature is valid but the key used to verify the signature has been "
-"revoked."
-msgstr ""
-"Підпис правильний, але ключ, що використовується для перевірки підпису, був "
-"відкликаний."
+msgid "The signature is valid but the key used to verify the signature has been revoked."
+msgstr "Підпис правильний, але ключ, що використовується для перевірки підпису, був відкликаний."
 
 #: ../libbalsa/rfc3156.c:639
 msgid "The signature is invalid."
@@ -1953,8 +1899,7 @@ msgstr "Ця частина не є справжнім підписом PGP."
 
 #: ../libbalsa/rfc3156.c:647
 msgid "The signature could not be verified due to an invalid crypto engine."
-msgstr ""
-"Підпис не може бути перевірений, через неправильний криптографічний механізм."
+msgstr "Підпис не може бути перевірений, через неправильний криптографічний механізм."
 
 #: ../libbalsa/rfc3156.c:650 ../libbalsa/rfc3156.c:725
 msgid "GnuPG is rebuilding the trust database and is currently unavailable."
@@ -2044,8 +1989,7 @@ msgstr ""
 
 #: ../libbalsa/send.c:653
 #, c-format
-msgid ""
-"Cannot reach SMTP server %s (%s), any queued message will remain in %s."
+msgid "Cannot reach SMTP server %s (%s), any queued message will remain in %s."
 msgstr ""
 
 #: ../libbalsa/send.c:846
@@ -2064,8 +2008,7 @@ msgstr ""
 
 #: ../libbalsa/send.c:989
 #, c-format
-msgid ""
-"Sending message failed: %s\n"
+msgid "Sending message failed: %s\n"
 "Message left in your outbox."
 msgstr ""
 
@@ -2080,6 +2023,8 @@ msgid "Transmitted %u message to %s"
 msgid_plural "Transmitted %u messages to %s"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libbalsa/send.c:1267 ../libbalsa/send.c:1333
 #, c-format
@@ -2093,8 +2038,7 @@ msgstr ""
 
 #: ../libbalsa/send.c:1300
 #, c-format
-msgid ""
-"Cannot determine character set for text file “%s”; sending as MIME type “%s”"
+msgid "Cannot determine character set for text file “%s”; sending as MIME type “%s”"
 msgstr ""
 
 #: ../libbalsa/send.c:1804
@@ -2102,11 +2046,14 @@ msgid "This message will not be encrypted for the BCC: recipient."
 msgid_plural "This message will not be encrypted for the BCC: recipients."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../libbalsa/send.c:1899
 msgid "This message will not be encrypted for the BCC: recipient(s)."
 msgstr "Це повідомлення не буде шифруватись для BCC: отримувача(ів)."
 
+#  host, authentication method
 #. host, authentication method
 #: ../libbalsa/server.c:485
 #, c-format
@@ -2236,9 +2183,7 @@ msgstr "Шлях %s потрібно вказати від кореня сист
 
 #: ../libinit_balsa/assistant_helper.c:189
 #, c-format
-msgid ""
-"Couldn’t create a directory: mkdir() failed on pathname “%s”, with error "
-"“%s”."
+msgid "Couldn’t create a directory: mkdir() failed on pathname “%s”, with error “%s”."
 msgstr ""
 
 #: ../libinit_balsa/assistant_helper.c:201
@@ -2253,11 +2198,9 @@ msgid "Couldn’t create a directory: mkdir() failed on pathname “%s”."
 msgstr ""
 
 #: ../libinit_balsa/assistant_init.c:49
-msgid ""
-"This will exit Balsa.\n"
+msgid "This will exit Balsa.\n"
 "Do you really want to do this?"
-msgstr ""
-"Це призведе до завершення Balsa.\n"
+msgstr "Це призведе до завершення Balsa.\n"
 "Ви дійсно хочете вийти?"
 
 #: ../libinit_balsa/assistant_init.c:69
@@ -2311,8 +2254,7 @@ msgstr "С_мітник:"
 
 #: ../libinit_balsa/assistant_page_directory.c:83
 #, c-format
-msgid ""
-"The pathname “%s” must be specified canonically — it must start with a “/”."
+msgid "The pathname “%s” must be specified canonically — it must start with a “/”."
 msgstr ""
 
 #: ../libinit_balsa/assistant_page_directory.c:123
@@ -2327,8 +2269,7 @@ msgstr ""
 
 #: ../libinit_balsa/assistant_page_directory.c:189
 #, c-format
-msgid ""
-"Problem verifying path “%s”:\n"
+msgid "Problem verifying path “%s”:\n"
 "%s"
 msgstr ""
 
@@ -2337,9 +2278,7 @@ msgid "_Verify locations"
 msgstr ""
 
 #: ../libinit_balsa/assistant_page_directory.c:256
-msgid ""
-"Please verify the locations of your default mail files. These will be "
-"created if necessary."
+msgid "Please verify the locations of your default mail files. These will be created if necessary."
 msgstr ""
 
 #: ../libinit_balsa/assistant_page_directory.c:320
@@ -2347,8 +2286,7 @@ msgid "Mail Files"
 msgstr "Поштові файли"
 
 #: ../libinit_balsa/assistant_page_finish.c:42
-msgid ""
-"You’ve successfully set up Balsa. Have fun!\n"
+msgid "You’ve successfully set up Balsa. Have fun!\n"
 "   -- The Balsa development team"
 msgstr ""
 
@@ -2357,21 +2295,12 @@ msgid "All Done!"
 msgstr "Завершено!"
 
 #: ../libinit_balsa/assistant_page_user.c:55
-msgid ""
-"The following settings are also needed (and you can find them later, if need "
-"be, in the Email application in the “Preferences” and “Identities” menu "
-"items)"
+msgid "The following settings are also needed (and you can find them later, if need be, in the Email application in the “Preferences” and “Identities” menu items)"
 msgstr ""
 
 #: ../libinit_balsa/assistant_page_user.c:61
-msgid ""
-" Whoever provides your email account should be able to give you the "
-"following information (if you have a Network Administrator, they may already "
-"have set this up for you):"
-msgstr ""
-" Будь-хто, хто надає вам поштову скриньку, повинен мати змогу надати вам "
-"наступну інформацію (якщо у вас є адміністратори мережі, вони встановлять це "
-"за вас):"
+msgid " Whoever provides your email account should be able to give you the following information (if you have a Network Administrator, they may already have set this up for you):"
+msgstr " Будь-хто, хто надає вам поштову скриньку, повинен мати змогу надати вам наступну інформацію (якщо у вас є адміністратори мережі, вони встановлять це за вас):"
 
 #: ../libinit_balsa/assistant_page_user.c:68
 msgid "SSL"
@@ -2409,6 +2338,7 @@ msgstr "_Пароль:"
 msgid "_SMTP Server:"
 msgstr "С_ервер SMTP:"
 
+#  2.1
 #. 2.1
 #: ../libinit_balsa/assistant_page_user.c:132
 msgid "Your real _name:"
@@ -2436,11 +2366,9 @@ msgstr ""
 
 #: ../libinit_balsa/assistant_page_user.c:331
 #, c-format
-msgid ""
-"Local Mail Problem\n"
+msgid "Local Mail Problem\n"
 "%s"
-msgstr ""
-"Проблема з локальною поштою\n"
+msgstr "Проблема з локальною поштою\n"
 "%s"
 
 #: ../libinit_balsa/assistant_page_welcome.c:27
@@ -2448,15 +2376,9 @@ msgid "Welcome to Balsa!"
 msgstr "Ласкаво просимо до Balsa!"
 
 #: ../libinit_balsa/assistant_page_welcome.c:30
-msgid ""
-"Before you can send or receive email:\n"
-"\n"
-"• either you should already have Internet access and an email account, "
-"provided by an Internet Service Provider, and you should have made that "
-"Internet connection on your computer\n"
-"\n"
-"• or your network administrator at your place of work/study/similar may have "
-"set up your computer to connect to the network."
+msgid "Before you can send or receive email:\n\n"
+"• either you should already have Internet access and an email account, provided by an Internet Service Provider, and you should have made that Internet connection on your computer\n\n"
+"• or your network administrator at your place of work/study/similar may have set up your computer to connect to the network."
 msgstr ""
 
 #: ../libnetclient/net-client.c:78 ../libnetclient/net-client.c:116
@@ -2685,8 +2607,7 @@ msgstr ""
 
 #: ../src/ab-window.c:735
 #, c-format
-msgid ""
-"Error opening address book “%s”:\n"
+msgid "Error opening address book “%s”:\n"
 "%s"
 msgstr ""
 
@@ -2826,11 +2747,9 @@ msgstr "З_апам'ятати пароль"
 
 #: ../src/balsa-app.c:73
 #, c-format
-msgid ""
-"Opening remote mailbox %s.\n"
+msgid "Opening remote mailbox %s.\n"
 "The _password for %s@%s:"
-msgstr ""
-"Відкривання віддаленої поштової скриньки %s.\n"
+msgstr "Відкривання віддаленої поштової скриньки %s.\n"
 "_Пароль для %s@%s:"
 
 #: ../src/balsa-app.c:78
@@ -2862,6 +2781,8 @@ msgid "Reply to Group: %d message is not from a mailing list."
 msgid_plural "Reply to Group: %d messages are not from a mailing list."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/balsa-index.c:1666
 #, c-format
@@ -2940,6 +2861,8 @@ msgid "Failed to copy %d message to mailbox “%s”: %s"
 msgid_plural "Failed to copy %d messages to mailbox “%s”: %s"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/balsa-index.c:2141
 #, c-format
@@ -3152,8 +3075,7 @@ msgstr ""
 
 #: ../src/balsa-message.c:2590
 #, c-format
-msgid ""
-"The sender of this mail, %s, requested \n"
+msgid "The sender of this mail, %s, requested \n"
 "a Message Disposition Notification (MDN) to be returned to “%s”.\n"
 "Do you want to send this notification?"
 msgstr ""
@@ -3163,9 +3085,7 @@ msgid "Reply to MDN?"
 msgstr "Відповісти на СОП?"
 
 #: ../src/balsa-message.c:2811
-msgid ""
-"The decryption cannot be performed because this message is displayed more "
-"than once.\n"
+msgid "The decryption cannot be performed because this message is displayed more than once.\n"
 "Please close the other instances of this message and try again."
 msgstr ""
 
@@ -3182,46 +3102,36 @@ msgstr ""
 
 #: ../src/balsa-message.c:2847
 #, c-format
-msgid ""
-"The message sent by %s with subject “%s” contains an encrypted part, but its "
-"structure is invalid."
+msgid "The message sent by %s with subject “%s” contains an encrypted part, but its structure is invalid."
 msgstr ""
 
 #: ../src/balsa-message.c:2855
 #, c-format
-msgid ""
-"The message sent by %s with subject “%s” contains a PGP encrypted part, but "
-"this crypto protocol is not available."
+msgid "The message sent by %s with subject “%s” contains a PGP encrypted part, but this crypto protocol is not available."
 msgstr ""
 
 #: ../src/balsa-message.c:2868
 #, c-format
-msgid ""
-"The message sent by %s with subject “%s” contains a S/MIME encrypted part, "
-"but this crypto protocol is not available."
+msgid "The message sent by %s with subject “%s” contains a S/MIME encrypted part, but this crypto protocol is not available."
 msgstr ""
 
 #: ../src/balsa-message.c:2935
 #, c-format
-msgid ""
-"The message sent by %s with subject “%s” contains a signed part, but its "
-"structure is invalid. The signature, if there is any, cannot be checked."
+msgid "The message sent by %s with subject “%s” contains a signed part, but its structure is invalid. The signature, if there is any, cannot be checked."
 msgstr ""
 
 #: ../src/balsa-message.c:2948
 #, c-format
-msgid ""
-"The message sent by %s with subject “%s” contains a %s signed part, but this "
-"crypto protocol is not available."
+msgid "The message sent by %s with subject “%s” contains a %s signed part, but this crypto protocol is not available."
 msgstr ""
 
 #: ../src/balsa-message.c:2951
 msgid "PGP"
-msgstr "PGP"
+msgstr ""
 
 #: ../src/balsa-message.c:2951 ../src/print-gtk.c:199
 msgid "S/MIME"
-msgstr "S/MIME"
+msgstr ""
 
 #: ../src/balsa-message.c:2975
 msgid "Detected a good signature"
@@ -3237,29 +3147,21 @@ msgstr ""
 
 #: ../src/balsa-message.c:2993 ../src/balsa-message.c:3111
 #, c-format
-msgid ""
-"Checking the signature of the message sent by %s with subject “%s” "
-"returned:\n"
+msgid "Checking the signature of the message sent by %s with subject “%s” returned:\n"
 "%s"
 msgstr ""
 
 #: ../src/balsa-message.c:3005
 #, c-format
-msgid ""
-"Checking the signature of the message sent by %s with subject “%s” failed "
-"with an error!"
+msgid "Checking the signature of the message sent by %s with subject “%s” failed with an error!"
 msgstr ""
 
 #: ../src/balsa-message.c:3064
-msgid ""
-"The decryption cannot be performed because this message is displayed more "
-"than once."
+msgid "The decryption cannot be performed because this message is displayed more than once."
 msgstr ""
 
 #: ../src/balsa-message.c:3066
-msgid ""
-"The signature check and removal of the OpenPGP armor cannot be performed "
-"because this message is displayed more than once."
+msgid "The signature check and removal of the OpenPGP armor cannot be performed because this message is displayed more than once."
 msgstr ""
 
 #: ../src/balsa-message.c:3069
@@ -3339,8 +3241,7 @@ msgstr ""
 
 #: ../src/balsa-mime-widget-crypto.c:262
 #, c-format
-msgid ""
-"Import GnuPG key:\n"
+msgid "Import GnuPG key:\n"
 "%s"
 msgstr ""
 
@@ -3386,7 +3287,7 @@ msgstr "Тип доступу: URL\n"
 #: ../src/balsa-mime-widget-message.c:188
 #, c-format
 msgid "URL: %s"
-msgstr "URL: %s"
+msgstr ""
 
 #: ../src/balsa-mime-widget-message.c:215
 #, c-format
@@ -3558,9 +3459,7 @@ msgstr ""
 
 #: ../src/balsa-mime-widget-text.c:1274
 #, c-format
-msgid ""
-"The message sent by %s with subject “%s” contains 8-bit characters, but no "
-"header describing the used codeset (converted to %s)"
+msgid "The message sent by %s with subject “%s” contains 8-bit characters, but no header describing the used codeset (converted to %s)"
 msgstr ""
 
 #: ../src/balsa-mime-widget-vcalendar.c:65
@@ -3593,6 +3492,8 @@ msgid "Attendee:"
 msgid_plural "Attendees:"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/balsa-mime-widget-vcalendar.c:212
 msgid "Description:"
@@ -3714,9 +3615,7 @@ msgstr "Відповідність коли жоден з атрибутів н�
 
 #: ../src/filter-edit-callbacks.c:538
 msgid "You must specify the name of the user header to match on"
-msgstr ""
-"Необхідно вказати назву користувацького заголовка з яким перевіряти "
-"відповідність"
+msgstr "Необхідно вказати назву користувацького заголовка з яким перевіряти відповідність"
 
 #: ../src/filter-edit-callbacks.c:549
 msgid "You must specify at least one field for matching"
@@ -4009,12 +3908,8 @@ msgid "Unable to export filter %s, an error occurred."
 msgstr "Не вдається експортувати фільтр %s, виникла помилка."
 
 #: ../src/filter-export-dialog.c:63
-msgid ""
-"There are opened filter run dialogs, close them before you can modify "
-"filters."
-msgstr ""
-"Відкрито діалогові вікна запуску фільтрів, закрийте їх перед правкою "
-"фільтрів."
+msgid "There are opened filter run dialogs, close them before you can modify filters."
+msgstr "Відкрито діалогові вікна запуску фільтрів, закрийте їх перед правкою фільтрів."
 
 #: ../src/filter-export-dialog.c:75
 msgid "Export Filters"
@@ -4036,18 +3931,14 @@ msgstr ""
 
 #: ../src/filter-run-callbacks.c:306
 #, c-format
-msgid ""
-"The destination mailbox of the filter “%s” is “%s”.\n"
+msgid "The destination mailbox of the filter “%s” is “%s”.\n"
 "You can’t associate it with the same mailbox (that causes recursion)."
 msgstr ""
 
 #: ../src/filter-run-callbacks.c:314
 #, c-format
-msgid ""
-"The filter “%s” is not compatible with the mailbox type of “%s”.\n"
-"This happens for example when you use regular expressions match with IMAP "
-"mailboxes, it is done by a very slow method; if possible, use substring "
-"match instead."
+msgid "The filter “%s” is not compatible with the mailbox type of “%s”.\n"
+"This happens for example when you use regular expressions match with IMAP mailboxes, it is done by a very slow method; if possible, use substring match instead."
 msgstr ""
 
 #: ../src/filter-run-dialog.c:197
@@ -4087,12 +3978,8 @@ msgid "A_pply Now!"
 msgstr ""
 
 #: ../src/filter-run-dialog.c:489
-msgid ""
-"The filters dialog is opened, close it before you can run filters on any "
-"mailbox"
-msgstr ""
-"Відкрити діалогове вікно фільтрів, закрийте його перш ніж зможете запускати "
-"фільтри у будь-яких поштових скриньках"
+msgid "The filters dialog is opened, close it before you can run filters on any mailbox"
+msgstr "Відкрити діалогове вікно фільтрів, закрийте його перш ніж зможете запускати фільтри у будь-яких поштових скриньках"
 
 #: ../src/folder-conf.c:117
 #, c-format
@@ -4167,8 +4054,7 @@ msgstr "Вибір батьківської теки"
 
 #: ../src/folder-conf.c:645
 #, c-format
-msgid ""
-"Renaming Inbox is special!\n"
+msgid "Renaming Inbox is special!\n"
 "You will create a subfolder %s in %s\n"
 "containing the messages from Inbox.\n"
 "Inbox and its subfolders will remain.\n"
@@ -4198,11 +4084,9 @@ msgid "Folder creation failed. Reason: %s"
 msgstr ""
 
 #: ../src/folder-conf.c:782
-msgid ""
-"An IMAP folder that is not a mailbox\n"
+msgid "An IMAP folder that is not a mailbox\n"
 "has no properties that can be changed."
-msgstr ""
-"IMAP тека, що не є поштовою скринькою\n"
+msgstr "IMAP тека, що не є поштовою скринькою\n"
 "не має властивостей, які можна змінити."
 
 #: ../src/folder-conf.c:798
@@ -4267,14 +4151,12 @@ msgid "Permissions:"
 msgstr ""
 
 #: ../src/folder-conf.c:893
-msgid ""
-"\n"
+msgid "\n"
 "detailed permissions are available only for open folders"
 msgstr ""
 
 #: ../src/folder-conf.c:900
-msgid ""
-"\n"
+msgid "\n"
 "the server does not support ACLs"
 msgstr ""
 
@@ -4304,17 +4186,12 @@ msgid "%s of %s (%.1f%%) used"
 msgstr ""
 
 #: ../src/folder-conf.c:1000
-msgid ""
-"This folder is not stored in configuration. I do not yet know how to remove "
-"it from remote server."
-msgstr ""
-"Ця тека не зберігається в конфігурації. Її видалення з віддаленого сервера "
-"поки-що не підтримується."
+msgid "This folder is not stored in configuration. I do not yet know how to remove it from remote server."
+msgstr "Ця тека не зберігається в конфігурації. Її видалення з віддаленого сервера поки-що не підтримується."
 
 #: ../src/folder-conf.c:1009
 #, c-format
-msgid ""
-"This will remove the folder “%s” from the list.\n"
+msgid "This will remove the folder “%s” from the list.\n"
 "You may use “New IMAP Folder” later to add this folder again.\n"
 msgstr ""
 
@@ -4376,19 +4253,15 @@ msgstr "Немає вибраної поштової скриньки."
 
 #: ../src/mailbox-conf.c:438
 #, c-format
-msgid ""
-"Mailbox “%s” is used by Balsa and I cannot remove it.\n"
+msgid "Mailbox “%s” is used by Balsa and I cannot remove it.\n"
 "If you really want to remove it, assign its function\n"
 "to some other mailbox."
 msgstr ""
 
 #: ../src/mailbox-conf.c:448
 #, c-format
-msgid ""
-"This will remove the mailbox “%s” from the list of mailboxes. You may also "
-"delete the disk file or files associated with this mailbox.\n"
-"If you do not remove the file on disk you may “Add Mailbox” to access the "
-"mailbox again.\n"
+msgid "This will remove the mailbox “%s” from the list of mailboxes. You may also delete the disk file or files associated with this mailbox.\n"
+"If you do not remove the file on disk you may “Add Mailbox” to access the mailbox again.\n"
 "What would you like to do?"
 msgstr ""
 
@@ -4402,10 +4275,7 @@ msgstr "Видалити зі списку та _диску"
 
 #: ../src/mailbox-conf.c:469
 #, c-format
-msgid ""
-"This will remove the mailbox “%s” and all its messages from your IMAP "
-"server. If %s has subfolders, it will still appear as a node in the folder "
-"tree.\n"
+msgid "This will remove the mailbox “%s” and all its messages from your IMAP server. If %s has subfolders, it will still appear as a node in the folder tree.\n"
 "You may use “New IMAP subfolder” later to add a mailbox with this name.\n"
 "What would you like to do?"
 msgstr ""
@@ -4416,8 +4286,7 @@ msgstr "В_идалити з сервера"
 
 #: ../src/mailbox-conf.c:489
 #, c-format
-msgid ""
-"This will remove the mailbox “%s” from the list of mailboxes.\n"
+msgid "This will remove the mailbox “%s” from the list of mailboxes.\n"
 "You may use “Add Mailbox” later to access this mailbox again.\n"
 "What would you like to do?"
 msgstr ""
@@ -4438,11 +4307,9 @@ msgstr "%s на %s"
 
 #: ../src/mailbox-conf.c:1017
 #, c-format
-msgid ""
-"Rename of %s to %s failed:\n"
+msgid "Rename of %s to %s failed:\n"
 "%s"
-msgstr ""
-"Не вдається перейменувати %s на %s:\n"
+msgstr "Не вдається перейменувати %s на %s:\n"
 "%s"
 
 #: ../src/mailbox-conf.c:1202
@@ -4521,8 +4388,7 @@ msgid "Always"
 msgstr "Завжди"
 
 #: ../src/mailbox-conf.c:1539
-msgid ""
-"_Decrypt and check\n"
+msgid "_Decrypt and check\n"
 "signatures automatically:"
 msgstr ""
 
@@ -4545,11 +4411,9 @@ msgstr ""
 
 #: ../src/mailbox-node.c:513
 #, c-format
-msgid ""
-"Scanning of %s failed: %s\n"
+msgid "Scanning of %s failed: %s\n"
 "Check network connectivity."
-msgstr ""
-"Помилка сканування %s: %s\n"
+msgstr "Помилка сканування %s: %s\n"
 "Перевірте з'єднання з мережею."
 
 #: ../src/mailbox-node.c:515
@@ -4718,11 +4582,9 @@ msgid "Show version"
 msgstr ""
 
 #: ../src/main-window.c:281
-msgid ""
-"Balsa is sending a mail now.\n"
+msgid "Balsa is sending a mail now.\n"
 "Abort sending?"
-msgstr ""
-"Триває надсилання пошти.\n"
+msgstr "Триває надсилання пошти.\n"
 "Перервати надсилання?"
 
 #: ../src/main-window.c:451
@@ -4751,8 +4613,7 @@ msgstr ""
 
 #: ../src/main-window.c:976
 msgid "translator-credits"
-msgstr ""
-"Launchpad Contributions:\n"
+msgstr "Launchpad Contributions:\n"
 "  Maxim Dziumanenko https://launchpad.net/~mvd"
 
 #: ../src/main-window.c:987
@@ -4783,6 +4644,8 @@ msgid "Removed %d duplicate"
 msgid_plural "Removed %d duplicates"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/main-window.c:1436
 msgid "No duplicates found"
@@ -4790,11 +4653,9 @@ msgstr ""
 
 #: ../src/main-window.c:2939
 #, c-format
-msgid ""
-"Unable to Open Mailbox!\n"
+msgid "Unable to Open Mailbox!\n"
 "%s."
-msgstr ""
-"Не вдається відкрити поштову скриньку!\n"
+msgstr "Не вдається відкрити поштову скриньку!\n"
 "%s."
 
 #: ../src/main-window.c:2974
@@ -4829,6 +4690,7 @@ msgid_plural "You have received %d new messages."
 msgstr[0] "Ви отримали %d повідомлення."
 msgstr[1] "Ви отримали %d повідомлень."
 msgstr[2] "Ви отримали %d повідомлень."
+msgstr[3] ""
 
 #: ../src/main-window.c:3513
 msgid "You have new mail."
@@ -4887,7 +4749,7 @@ msgstr ""
 #: ../src/main-window.c:4229
 #, c-format
 msgid "Balsa: %s"
-msgstr "Balsa: %s"
+msgstr ""
 
 #. xgettext: this is the first part of the message
 #. * "Shown mailbox: %s with %d messages, %d new, %d hidden".
@@ -4902,6 +4764,8 @@ msgid "with %d message"
 msgid_plural "with %d messages"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/main-window.c:4734
 #, c-format
@@ -4909,6 +4773,8 @@ msgid ", %d new"
 msgid_plural ", %d new"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/main-window.c:4741
 #, c-format
@@ -4916,6 +4782,8 @@ msgid ", %d hidden"
 msgid_plural ", %d hidden"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: ../src/main-window.c:4786
 #, c-format
@@ -4958,7 +4826,7 @@ msgstr "Суцільний"
 
 #: ../src/pref-manager.c:228
 msgid "JWZ"
-msgstr "JWZ"
+msgstr ""
 
 #: ../src/pref-manager.c:931
 #, c-format
@@ -5114,15 +4982,11 @@ msgid "Message disposition notification requests"
 msgstr ""
 
 #: ../src/pref-manager.c:2212
-msgid ""
-"When I receive a message whose sender requested a Message Disposition "
-"Notification (MDN), send it if:"
+msgid "When I receive a message whose sender requested a Message Disposition Notification (MDN), send it if:"
 msgstr ""
 
 #: ../src/pref-manager.c:2220
-msgid ""
-"The message header looks clean (the notify-to address is the return path, "
-"and I am in the “To:” or “CC:” list)."
+msgid "The message header looks clean (the notify-to address is the return path, and I am in the “To:” or “CC:” list)."
 msgstr ""
 
 #: ../src/pref-manager.c:2234
@@ -5308,8 +5172,7 @@ msgstr "Вибрані заголовки:"
 #. treatment of messages with 8-bit chars, but without proper MIME encoding
 #: ../src/pref-manager.c:2625
 msgid "National (8-bit) characters in broken messages without codeset header"
-msgstr ""
-"Національні (8-бітні) символи у повідомленнях без заголовка з кодуванням"
+msgstr "Національні (8-бітні) символи у повідомленнях без заголовка з кодуванням"
 
 #: ../src/pref-manager.c:2630
 msgid "display as “?”"
@@ -5404,9 +5267,7 @@ msgid "Folder scanning"
 msgstr ""
 
 #: ../src/pref-manager.c:2859
-msgid ""
-"Choose depth 1 for fast start-up; this defers scanning some folders. To see "
-"more of the tree at start-up, choose a greater depth."
+msgid "Choose depth 1 for fast start-up; this defers scanning some folders. To see more of the tree at start-up, choose a greater depth."
 msgstr ""
 
 #: ../src/pref-manager.c:2866
@@ -5442,9 +5303,7 @@ msgstr ""
 #. * avoid msgconv problems.
 #: ../src/pref-manager.c:2939
 #, c-format
-msgid ""
-"The following setting is global, but may be overridden for the selected "
-"mailbox using Mailbox %s Hide messages:"
+msgid "The following setting is global, but may be overridden for the selected mailbox using Mailbox %s Hide messages:"
 msgstr ""
 
 #: ../src/pref-manager.c:2947
@@ -5540,6 +5399,8 @@ msgid "Cannot print page %d because the document has only %d page."
 msgid_plural "Cannot print page %d because the document has only %d pages."
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. Translate to the default units to use for presenting
 #. * lengths to the user. Translate to default:inch if you
@@ -5614,11 +5475,9 @@ msgstr "Помилка при завантаженні фільтрів: "
 
 #: ../src/save-restore.c:562
 #, c-format
-msgid ""
-"Error during filters loading: %s\n"
+msgid "Error during filters loading: %s\n"
 "Filters may not be correct."
-msgstr ""
-"Помилка при завантаженні фільтрів: %s\n"
+msgstr "Помилка при завантаженні фільтрів: %s\n"
 "Можливо фільтри некоректні."
 
 #: ../src/save-restore.c:683
@@ -5626,22 +5485,15 @@ msgid "The option not to recognize “format=flowed” text has been removed."
 msgstr ""
 
 #: ../src/save-restore.c:961
-msgid ""
-"The option not to send “format=flowed” text is now on the Options menu of "
-"the compose window."
+msgid "The option not to send “format=flowed” text is now on the Options menu of the compose window."
 msgstr ""
 
 #: ../src/save-restore.c:1000
-msgid ""
-"The option to request a MDN is now on the Options menu of the compose window."
-msgstr ""
-"Параметр запитування сповіщення про отримання тепер у меню \"Параметри\" "
-"вікна створення повідомлення."
+msgid "The option to request a MDN is now on the Options menu of the compose window."
+msgstr "Параметр запитування сповіщення про отримання тепер у меню \"Параметри\" вікна створення повідомлення."
 
 #: ../src/save-restore.c:1077
-msgid ""
-"This version of Balsa uses a new user interface; if you have changed Balsa’s "
-"keyboard accelerators, you will need to set them again."
+msgid "This version of Balsa uses a new user interface; if you have changed Balsa’s keyboard accelerators, you will need to set them again."
 msgstr ""
 
 #. Translators: please use the initial letter of each language as
@@ -5821,8 +5673,7 @@ msgstr ""
 
 #: ../src/sendmsg-window.c:521
 #, c-format
-msgid ""
-"The message to “%s” is modified.\n"
+msgid "The message to “%s” is modified.\n"
 "Save message to Draftbox?"
 msgstr ""
 
@@ -5836,11 +5687,7 @@ msgstr "Вибір профілю"
 
 #: ../src/sendmsg-window.c:1402
 #, c-format
-msgid ""
-"Saying yes will not send the file “%s” itself, but just a MIME "
-"message/external-body reference. Note that the recipient must have proper "
-"permissions to see the “real” file.\n"
-"\n"
+msgid "Saying yes will not send the file “%s” itself, but just a MIME message/external-body reference. Note that the recipient must have proper permissions to see the “real” file.\n\n"
 "Do you really want to attach this file as reference?"
 msgstr ""
 
@@ -5854,8 +5701,7 @@ msgstr ""
 
 #: ../src/sendmsg-window.c:1556
 #, c-format
-msgid ""
-"File\n"
+msgid "File\n"
 "%s\n"
 "is not encoded in US-ASCII or UTF-8.\n"
 "Please choose the character set used to encode the file."
@@ -5910,11 +5756,9 @@ msgstr "Долучити файл"
 
 #: ../src/sendmsg-window.c:2115 ../src/sendmsg-window.c:2218
 #: ../src/sendmsg-window.c:6877
-msgid ""
-"Attaching message failed.\n"
+msgid "Attaching message failed.\n"
 "Possible reason: not enough temporary space"
-msgstr ""
-"Помилка при долученні.\n"
+msgstr "Помилка при долученні.\n"
 "Можлива причина: не вистачає простору для тимчасового файлу"
 
 #: ../src/sendmsg-window.c:2437
@@ -6058,8 +5902,7 @@ msgid "not in current directory"
 msgstr ""
 
 #: ../src/sendmsg-window.c:4551
-msgid ""
-"The link that you selected created\n"
+msgid "The link that you selected created\n"
 "a “Blind copy” (BCC) address.\n"
 "Please check that the address\n"
 "is appropriate."
@@ -6104,10 +5947,7 @@ msgstr ""
 
 #: ../src/sendmsg-window.c:5097
 #, c-format
-msgid ""
-"You did not select encryption for this message, although %s public keys are "
-"available for all recipients. In order to protect your privacy, the message "
-"could be %s encrypted."
+msgid "You did not select encryption for this message, although %s public keys are available for all recipients. In order to protect your privacy, the message could be %s encrypted."
 msgstr ""
 
 #: ../src/sendmsg-window.c:5119
@@ -6123,20 +5963,15 @@ msgid "You selected OpenPGP security for this message.\n"
 msgstr ""
 
 #: ../src/sendmsg-window.c:5199
-msgid ""
-"The message text will be sent as plain text and as HTML, but only the plain "
-"part can be signed.\n"
+msgid "The message text will be sent as plain text and as HTML, but only the plain part can be signed.\n"
 msgstr ""
 
 #: ../src/sendmsg-window.c:5204
-msgid ""
-"The message contains attachments, which cannot be signed or encrypted.\n"
+msgid "The message contains attachments, which cannot be signed or encrypted.\n"
 msgstr ""
 
 #: ../src/sendmsg-window.c:5208
-msgid ""
-"You should select MIME mode if the complete message shall be protected. Do "
-"you really want to proceed?"
+msgid "You should select MIME mode if the complete message shall be protected. Do you really want to proceed?"
 msgstr ""
 
 #: ../src/sendmsg-window.c:5233
@@ -6170,8 +6005,7 @@ msgstr ""
 
 #: ../src/sendmsg-window.c:5279
 #, c-format
-msgid ""
-"Send failed: %s\n"
+msgid "Send failed: %s\n"
 "%s"
 msgstr ""
 
@@ -6234,8 +6068,7 @@ msgid "Change _All"
 msgstr ""
 
 #: ../src/spell-check.c:349
-msgid ""
-"Replace all occurrences of the current word with the selected suggestion"
+msgid "Replace all occurrences of the current word with the selected suggestion"
 msgstr ""
 
 #: ../src/spell-check.c:355
@@ -6352,19 +6185,15 @@ msgid "Reply"
 msgstr "Відповісти"
 
 #: ../src/toolbar-factory.c:142
-msgid ""
-"Reply\n"
+msgid "Reply\n"
 "to all"
-msgstr ""
-"Відповісти\n"
+msgstr "Відповісти\n"
 "всім"
 
 #: ../src/toolbar-factory.c:143
-msgid ""
-"Reply\n"
+msgid "Reply\n"
 "to group"
-msgstr ""
-"Відповісти\n"
+msgstr "Відповісти\n"
 "групі"
 
 #: ../src/toolbar-factory.c:144
@@ -6372,39 +6201,31 @@ msgid "Forward"
 msgstr "Переслати"
 
 #: ../src/toolbar-factory.c:147
-msgid ""
-"Next\n"
+msgid "Next\n"
 "unread"
-msgstr ""
-"Наступне\n"
+msgstr "Наступне\n"
 "непрочитане"
 
 #: ../src/toolbar-factory.c:148
-msgid ""
-"Next\n"
+msgid "Next\n"
 "flagged"
-msgstr ""
-"Наступне\n"
+msgstr "Наступне\n"
 "відмічене"
 
 #: ../src/toolbar-factory.c:149
-msgid ""
-"Previous\n"
+msgid "Previous\n"
 "part"
 msgstr ""
 
 #: ../src/toolbar-factory.c:150
-msgid ""
-"Next\n"
+msgid "Next\n"
 "part"
 msgstr ""
 
 #: ../src/toolbar-factory.c:151
-msgid ""
-"Trash /\n"
+msgid "Trash /\n"
 "Delete"
-msgstr ""
-"Видалити/\n"
+msgstr "Видалити/\n"
 "у смітник"
 
 #: ../src/toolbar-factory.c:152 ../ui/sendmsg-window.ui.h:8
@@ -6416,8 +6237,7 @@ msgid "Print"
 msgstr "Друкувати..."
 
 #: ../src/toolbar-factory.c:154
-msgid ""
-"Request\n"
+msgid "Request\n"
 "MDN"
 msgstr ""
 
@@ -6451,11 +6271,9 @@ msgid "Identity"
 msgstr "Профіль"
 
 #: ../src/toolbar-factory.c:164
-msgid ""
-"Toggle\n"
+msgid "Toggle\n"
 "new"
-msgstr ""
-"Перемикнути\n"
+msgstr "Перемикнути\n"
 "новий"
 
 #: ../src/toolbar-factory.c:165
@@ -6463,16 +6281,13 @@ msgid "Mark all"
 msgstr "Позначити всі"
 
 #: ../src/toolbar-factory.c:166
-msgid ""
-"All\n"
+msgid "All\n"
 "headers"
-msgstr ""
-"Всі\n"
+msgstr "Всі\n"
 "заголовки"
 
 #: ../src/toolbar-factory.c:167
-msgid ""
-"Reset\n"
+msgid "Reset\n"
 "Filter"
 msgstr ""
 
@@ -6501,8 +6316,7 @@ msgid "Expunge"
 msgstr ""
 
 #: ../src/toolbar-factory.c:176
-msgid ""
-"Empty\n"
+msgid "Empty\n"
 "Trash"
 msgstr ""
 
@@ -7076,3 +6890,4 @@ msgstr ""
 #: ../ui/source-viewer.ui.h:7
 msgid "_Escape Special Characters"
 msgstr "_Екранувати спеціальні символи"
+

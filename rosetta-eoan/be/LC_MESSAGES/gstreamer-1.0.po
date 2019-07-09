@@ -1,23 +1,21 @@
-# Belarusian translation of gstreamer.
-# This file is put in the public domain.
-# Ales Nyakhaychyk <nab@mail.by>, 2006.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: gstreamer 0.9.7\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/\n"
 "POT-Creation-Date: 2019-04-19 00:15+0100\n"
-"PO-Revision-Date: 2013-04-11 13:37+0000\n"
-"Last-Translator: Alex Nehaichik <mail@l0gin.net>\n"
-"Language-Team: Belarusian <i18n@mova.org>\n"
+"PO-Revision-Date: 2019-07-08 16:47\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Launchpad-Export-Date: 2019-05-11 13:13+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: be\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Launchpad-Export-Date: 2019-05-11 13:14+0000\n"
+"X-Generator: crowdin.com\n"
+"Language: be_BY\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/gstreamer-1.0.po\n"
 
 #: gst/gst.c:250
 msgid "Print the GStreamer version"
@@ -32,8 +30,7 @@ msgid "Print available debug categories and exit"
 msgstr "Друкуе наяўныя катэгорыі адладкі й выходзіць"
 
 #: gst/gst.c:260
-msgid ""
-"Default debug level from 1 (only error) to 9 (anything) or 0 for no output"
+msgid "Default debug level from 1 (only error) to 9 (anything) or 0 for no output"
 msgstr ""
 
 #: gst/gst.c:262
@@ -41,13 +38,8 @@ msgid "LEVEL"
 msgstr "УЗРОВЕНЬ"
 
 #: gst/gst.c:264
-msgid ""
-"Comma-separated list of category_name:level pairs to set specific levels for "
-"the individual categories. Example: GST_AUTOPLUG:5,GST_ELEMENT_*:3"
-msgstr ""
-"Разьмежаваны коскамі сьпіс пар categor_name:level для выстаўленьня "
-"адмысловых узроўняў для асобных катэгорыяў. Напрыклад, "
-"GST_AUTOPLUG:5,GST_ELEMENT_*:3"
+msgid "Comma-separated list of category_name:level pairs to set specific levels for the individual categories. Example: GST_AUTOPLUG:5,GST_ELEMENT_*:3"
+msgstr "Разьмежаваны коскамі сьпіс пар categor_name:level для выстаўленьня адмысловых узроўняў для асобных катэгорыяў. Напрыклад, GST_AUTOPLUG:5,GST_ELEMENT_*:3"
 
 #: gst/gst.c:267
 msgid "LIST"
@@ -58,9 +50,7 @@ msgid "Disable colored debugging output"
 msgstr "Выключае каляровы вывад адладкі"
 
 #: gst/gst.c:273
-msgid ""
-"Changes coloring mode of the debug log. Possible modes: off, on, disable, "
-"auto, unix"
+msgid "Changes coloring mode of the debug log. Possible modes: off, on, disable, auto, unix"
 msgstr ""
 
 #: gst/gst.c:277
@@ -80,9 +70,7 @@ msgid "PATHS"
 msgstr "ШЛЯХІ"
 
 #: gst/gst.c:288
-msgid ""
-"Comma-separated list of plugins to preload in addition to the list stored in "
-"environment variable GST_PLUGIN_PATH"
+msgid "Comma-separated list of plugins to preload in addition to the list stored in environment variable GST_PLUGIN_PATH"
 msgstr ""
 
 #: gst/gst.c:290
@@ -118,8 +106,7 @@ msgid "GStreamer encountered a general core library error."
 msgstr ""
 
 #: gst/gsterror.c:132 gst/gsterror.c:174 gst/gsterror.c:198 gst/gsterror.c:240
-msgid ""
-"GStreamer developers were too lazy to assign an error code to this error."
+msgid "GStreamer developers were too lazy to assign an error code to this error."
 msgstr ""
 
 #: gst/gsterror.c:135
@@ -127,9 +114,7 @@ msgid "Internal GStreamer error: code not implemented."
 msgstr ""
 
 #: gst/gsterror.c:137
-msgid ""
-"GStreamer error: state change failed and some element failed to post a "
-"proper error message with the reason for the failure."
+msgid "GStreamer error: state change failed and some element failed to post a proper error message with the reason for the failure."
 msgstr ""
 
 #: gst/gsterror.c:140
@@ -169,9 +154,7 @@ msgid "GStreamer error: clock problem."
 msgstr ""
 
 #: gst/gsterror.c:158
-msgid ""
-"This application is trying to use GStreamer functionality that has been "
-"disabled."
+msgid "This application is trying to use GStreamer functionality that has been disabled."
 msgstr ""
 
 #: gst/gsterror.c:172
@@ -295,9 +278,7 @@ msgid "The stream is encrypted and decryption is not supported."
 msgstr ""
 
 #: gst/gsterror.c:265
-msgid ""
-"The stream is encrypted and can't be decrypted because no suitable key has "
-"been supplied."
+msgid "The stream is encrypted and can't be decrypted because no suitable key has been supplied."
 msgstr ""
 
 #: gst/gsterror.c:305
@@ -460,9 +441,7 @@ msgid "location"
 msgstr ""
 
 #: gst/gsttaglist.c:177
-msgid ""
-"Origin of media as a URI (location, where the original of the file or stream "
-"is hosted)"
+msgid "Origin of media as a URI (location, where the original of the file or stream is hosted)"
 msgstr ""
 
 #: gst/gsttaglist.c:182
@@ -779,9 +758,7 @@ msgid "geo location name"
 msgstr ""
 
 #: gst/gsttaglist.c:300
-msgid ""
-"human readable descriptive location of where the media has been recorded or "
-"produced"
+msgid "human readable descriptive location of where the media has been recorded or produced"
 msgstr ""
 
 #: gst/gsttaglist.c:303
@@ -789,10 +766,7 @@ msgid "geo location latitude"
 msgstr ""
 
 #: gst/gsttaglist.c:304
-msgid ""
-"geo latitude location of where the media has been recorded or produced in "
-"degrees according to WGS84 (zero at the equator, negative values for "
-"southern latitudes)"
+msgid "geo latitude location of where the media has been recorded or produced in degrees according to WGS84 (zero at the equator, negative values for southern latitudes)"
 msgstr ""
 
 #: gst/gsttaglist.c:308
@@ -800,10 +774,7 @@ msgid "geo location longitude"
 msgstr ""
 
 #: gst/gsttaglist.c:309
-msgid ""
-"geo longitude location of where the media has been recorded or produced in "
-"degrees according to WGS84 (zero at the prime meridian in Greenwich/UK,  "
-"negative values for western longitudes)"
+msgid "geo longitude location of where the media has been recorded or produced in degrees according to WGS84 (zero at the prime meridian in Greenwich/UK,  negative values for western longitudes)"
 msgstr ""
 
 #: gst/gsttaglist.c:313
@@ -811,9 +782,7 @@ msgid "geo location elevation"
 msgstr ""
 
 #: gst/gsttaglist.c:314
-msgid ""
-"geo elevation of where the media has been recorded or produced in meters "
-"according to WGS84 (zero is average sea level)"
+msgid "geo elevation of where the media has been recorded or produced in meters according to WGS84 (zero is average sea level)"
 msgstr ""
 
 #: gst/gsttaglist.c:317
@@ -837,9 +806,7 @@ msgid "geo location sublocation"
 msgstr ""
 
 #: gst/gsttaglist.c:326
-msgid ""
-"a location within a city where the media has been produced or created (e.g. "
-"the neighborhood)"
+msgid "a location within a city where the media has been produced or created (e.g. the neighborhood)"
 msgstr ""
 
 #: gst/gsttaglist.c:329
@@ -855,8 +822,7 @@ msgid "geo location movement speed"
 msgstr ""
 
 #: gst/gsttaglist.c:334
-msgid ""
-"movement speed of the capturing device while performing the capture in m/s"
+msgid "movement speed of the capturing device while performing the capture in m/s"
 msgstr ""
 
 #: gst/gsttaglist.c:337
@@ -864,10 +830,7 @@ msgid "geo location movement direction"
 msgstr ""
 
 #: gst/gsttaglist.c:338
-msgid ""
-"indicates the movement direction of the device performing the capture of a "
-"media. It is represented as degrees in floating point representation, 0 "
-"means the geographic north, and increases clockwise"
+msgid "indicates the movement direction of the device performing the capture of a media. It is represented as degrees in floating point representation, 0 means the geographic north, and increases clockwise"
 msgstr ""
 
 #: gst/gsttaglist.c:343
@@ -875,10 +838,7 @@ msgid "geo location capture direction"
 msgstr ""
 
 #: gst/gsttaglist.c:344
-msgid ""
-"indicates the direction the device is pointing to when capturing  a media. "
-"It is represented as degrees in floating point  representation, 0 means the "
-"geographic north, and increases clockwise"
+msgid "indicates the direction the device is pointing to when capturing  a media. It is represented as degrees in floating point  representation, 0 means the geographic north, and increases clockwise"
 msgstr ""
 
 #. TRANSLATORS: 'show name' = 'TV/radio/podcast show name' here
@@ -896,8 +856,7 @@ msgid "show sortname"
 msgstr ""
 
 #: gst/gsttaglist.c:357
-msgid ""
-"Name of the tv/podcast/series show the media is from, for sorting purposes"
+msgid "Name of the tv/podcast/series show the media is from, for sorting purposes"
 msgstr ""
 
 #: gst/gsttaglist.c:360
@@ -937,9 +896,7 @@ msgid "grouping"
 msgstr ""
 
 #: gst/gsttaglist.c:375
-msgid ""
-"Groups related media that spans multiple tracks, like the different pieces "
-"of a concerto. It is a higher level than a track, but lower than an album"
+msgid "Groups related media that spans multiple tracks, like the different pieces of a concerto. It is a higher level than a track, but lower than an album"
 msgstr ""
 
 #: gst/gsttaglist.c:379
@@ -947,9 +904,7 @@ msgid "user rating"
 msgstr ""
 
 #: gst/gsttaglist.c:380
-msgid ""
-"Rating attributed by a user. The higher the rank, the more the user likes "
-"this media"
+msgid "Rating attributed by a user. The higher the rank, the more the user likes this media"
 msgstr ""
 
 #: gst/gsttaglist.c:383
@@ -1005,8 +960,7 @@ msgid "interpreted-by"
 msgstr ""
 
 #: gst/gsttaglist.c:404
-msgid ""
-"Information about the people behind a remix and similar interpretations"
+msgid "Information about the people behind a remix and similar interpretations"
 msgstr ""
 
 #: gst/gsttaglist.c:408
@@ -1046,11 +1000,9 @@ msgstr ""
 
 #: gst/gstutils.c:2634 tools/gst-launch.c:327 tools/gst-launch.c:697
 #, c-format
-msgid ""
-"Additional debug info:\n"
+msgid "Additional debug info:\n"
 "%s\n"
-msgstr ""
-"Дадатковая адладачная інфармацыя:\n"
+msgstr "Дадатковая адладачная інфармацыя:\n"
 "%s\n"
 
 #: gst/parse/grammar.y:216
@@ -1175,9 +1127,7 @@ msgid "Filter caps"
 msgstr ""
 
 #: plugins/elements/gstcapsfilter.c:129
-msgid ""
-"Restrict the possible allowed capabilities (NULL means ANY). Setting this "
-"property takes a reference to the supplied GstCaps object."
+msgid "Restrict the possible allowed capabilities (NULL means ANY). Setting this property takes a reference to the supplied GstCaps object."
 msgstr ""
 
 #: plugins/elements/gstcapsfilter.c:136
@@ -1336,6 +1286,8 @@ msgid "%d blacklisted file"
 msgid_plural "%d blacklisted files"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: tools/gst-inspect.c:1278
 #, c-format
@@ -1343,6 +1295,8 @@ msgid "%d plugin"
 msgid_plural "%d plugins"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: tools/gst-inspect.c:1281
 #, c-format
@@ -1350,6 +1304,8 @@ msgid "%d blacklist entry"
 msgid_plural "%d blacklist entries"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: tools/gst-inspect.c:1286
 #, c-format
@@ -1357,6 +1313,8 @@ msgid "%d feature"
 msgid_plural "%d features"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: tools/gst-inspect.c:1953
 msgid "Print all elements"
@@ -1367,11 +1325,8 @@ msgid "Print list of blacklisted files"
 msgstr ""
 
 #: tools/gst-inspect.c:1957
-msgid ""
-"Print a machine-parsable list of features the specified plugin or all "
-"plugins provide.\n"
-"                                       Useful in connection with external "
-"automatic plugin installation mechanisms"
+msgid "Print a machine-parsable list of features the specified plugin or all plugins provide.\n"
+"                                       Useful in connection with external automatic plugin installation mechanisms"
 msgstr ""
 
 #: tools/gst-inspect.c:1962
@@ -1379,9 +1334,7 @@ msgid "List the plugin contents"
 msgstr ""
 
 #: tools/gst-inspect.c:1964
-msgid ""
-"A slashes ('/') separated list of types of elements (also known as klass) to "
-"list. (unordered)"
+msgid "A slashes ('/') separated list of types of elements (also known as klass) to list. (unordered)"
 msgstr ""
 
 #: tools/gst-inspect.c:1967
@@ -1389,9 +1342,7 @@ msgid "Check if the specified element or plugin exists"
 msgstr ""
 
 #: tools/gst-inspect.c:1970
-msgid ""
-"When checking if an element or plugin exists, also check that its version is "
-"at least the version specified"
+msgid "When checking if an element or plugin exists, also check that its version is at least the version specified"
 msgstr ""
 
 #: tools/gst-inspect.c:1974
@@ -1399,9 +1350,7 @@ msgid "Print supported URI schemes, with the elements that implement them"
 msgstr ""
 
 #: tools/gst-inspect.c:1979
-msgid ""
-"Disable colors in output. You can also achieve the same by "
-"setting'GST_INSPECT_NO_COLORS' environment variable to any value."
+msgid "Disable colors in output. You can also achieve the same by setting'GST_INSPECT_NO_COLORS' environment variable to any value."
 msgstr ""
 
 #: tools/gst-inspect.c:2135
@@ -1478,8 +1427,7 @@ msgstr ""
 
 #: tools/gst-launch.c:678
 #, c-format
-msgid ""
-"INFO:\n"
+msgid "INFO:\n"
 "%s\n"
 msgstr ""
 
@@ -1557,9 +1505,7 @@ msgid "Output messages"
 msgstr ""
 
 #: tools/gst-launch.c:1001
-msgid ""
-"Do not output status information for the specified property if verbose "
-"output is enabled (can be used multiple times)"
+msgid "Do not output status information for the specified property if verbose output is enabled (can be used multiple times)"
 msgstr ""
 
 #: tools/gst-launch.c:1003
@@ -1667,3 +1613,4 @@ msgstr ""
 #: tools/gst-launch.c:1261
 msgid "Freeing pipeline ...\n"
 msgstr ""
+

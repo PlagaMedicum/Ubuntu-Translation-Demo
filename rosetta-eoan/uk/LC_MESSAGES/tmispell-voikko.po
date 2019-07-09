@@ -1,72 +1,69 @@
-# Ukrainian translation for tmispell-voikko
-# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
-# This file is distributed under the same license as the tmispell-voikko package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: tmispell-voikko\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2009-02-07 18:46+0200\n"
-"PO-Revision-Date: 2018-04-12 21:42+0000\n"
-"Last-Translator: Andrii Prokopenko <Unknown>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:33\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 12:18+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/tmispell-voikko.po\n"
+"Language: uk_UA\n"
 
 #: src/charset.cc:73
 #, c-format
 msgid "Error initializing character set conversion: %s"
-msgstr "Помилка ініціалізації конвертації набору символів: %s"
+msgstr ""
 
 #: src/charset.cc:187
 #, c-format
 msgid "Conversion of '%s' to character set '%s' failed: %s"
-msgstr "Невдала конвертація «%s» в набір символів «%s»: %s"
+msgstr ""
 
 #: src/config_file.cc:150
 msgid "\\ at the end of a string"
-msgstr "\\ наприкінці рядка"
+msgstr ""
 
 #: src/config_file.cc:160
 msgid "Unterminated quoted string"
-msgstr "Незакриті лапки у рядку"
+msgstr ""
 
 #: src/config_file.cc:198
 #, c-format
 msgid "Unable to open configuration file %s"
-msgstr "Неможливо відкрити конфігураційний файл %s"
+msgstr ""
 
 #: src/config_file.cc:228
 #, c-format
 msgid "Parse error in file \"%s\" on line %d, column %d: %s"
-msgstr "Помилка у файлі «%s» у рядку %d, стовпці  %d: %s"
+msgstr ""
 
 #: src/config_file.cc:232
 #, c-format
 msgid "Parse error in file \"%s\" on line %d: %s"
-msgstr "Помилка у файлі «%s» у рядку %d: %s"
+msgstr ""
 
 #: src/config_file.cc:235
 #, c-format
 msgid "Parse error in file \"%s\": %s"
-msgstr "Помилка у файлі «%s»: %s"
+msgstr ""
 
 #: src/config_file.cc:257
 msgid "Incomplete spell checker entry"
-msgstr "Неповний елемент програми перевірки орфографії"
+msgstr ""
 
 #: src/options.cc:82
 #, c-format
-msgid ""
-"Usage: %s [options] [file]...\n"
-"Options: [FMNLVlfsaAtnhgbxBCPmSdpwWTv]\n"
-"\n"
-" -F <file>  Use given file as the configuration file.\n"
-"\n"
+msgid "Usage: %s [options] [file]...\n"
+"Options: [FMNLVlfsaAtnhgbxBCPmSdpwWTv]\n\n"
+" -F <file>  Use given file as the configuration file.\n\n"
 "The following flags are same for ispell:\n"
 " -v[v]      Print version number and exit.\n"
 " -M         One-line mini menu at the bottom of the screen.\n"
@@ -99,104 +96,63 @@ msgid ""
 " -T <fmt>   Assume a given formatter type for all files.\n"
 " -r <cset>  Specify the character set of the input.\n"
 msgstr ""
-"Використання: %s [опції] [файл]...\n"
-"Опції: [FMNLVlfsaAtnhgbxBCPmSdpwWTv]\n"
-"\n"
-" -F <файл>  Використовує вказаний файл в якості конфігураційного.\n"
-"\n"
-"Наступні прапорці такі ж самі як і для ispell:\n"
-" -v[v]      Вивести номер версії та вийти.\n"
-" -M         Однорядкове міні-меню внизу екрану.\n"
-" -N         Без міні-меню внизу екрану.\n"
-" -L <num>   Кількість контекстних рядків.\n"
-" -V         Користуйтесь стилем «cat -v» для символів не 7-bit ANSI\n"
-"            набору символів (кодування).\n"
-" -l         Тільки вивід списку неправильних слів.\n"
-" -f <file>  Вказати файл виводу.\n"
-" -s         Емітування SIGTSTP в кінці кожного рядка.\n"
-" -a         Прочитати команди.\n"
-" -A         Прочитати команди та дозволити команді включити файл.\n"
-" -e[e1234]  Розкрити вкладення.\n"
-" -c         Стиснути вкладення.\n"
-" -D         Вивантажити таблиці вкладень.\n"
-" -t         Введення в форматі TeX.\n"
-" -n         Введення в форматі [nt]roff.\n"
-" -h         Введення в форматі sgml.\n"
-" -b         Створити резервні файли.\n"
-" -x         Не створювати .\n"
-" -B         Заборонити загальнокеруючі слова.\n"
-" -C         Дозволити загальнокеруючі слова.\n"
-" -P         Не генерувати особливі кореневі комбінації.\n"
-" -m        Дозволити кореневі комбінації, яких немає у словнику.\n"
-" -S         Впорядкувати список припущень за вірогідністю коректності.\n"
-" -d <dict>  Вказує альтернативний файл словника.\n"
-" -p <file>  Вказує альтернативний особистий словник.\n"
-" -w <chars> Вказує спеціальні символи, що можуть бути частиною слова.\n"
-" -W <len>   Розглядає коротші слова на коректність.\n"
-" -T <fmt>   Вказує тип форматувача для всіх файлів.\n"
-" -r <cset>  Вказує набір символів вводу.\n"
 
 #: src/options.cc:244
 #, c-format
 msgid "Missing argument for option %s"
-msgstr "Відсутній аргумент для опції %s"
+msgstr ""
 
 #: src/options.cc:424
 #, c-format
 msgid "Unknown option %s"
-msgstr "Невідомий параметр %s"
+msgstr ""
 
 #: src/personal_dictionary.cc:41
 #, c-format
 msgid "Unable to open file %s for reading a dictionary."
-msgstr "Неможу відкрити файл %s для читання словника."
+msgstr ""
 
 #: src/personal_dictionary.cc:57
 #, c-format
 msgid "Unable to open file %s for writing a dictionary."
-msgstr "Неможу відкрити файл %s для запису у словник"
+msgstr ""
 
 #: src/spell.cc:56 src/spell.cc:65
 msgid "Error initialising libvoikko"
-msgstr "Помилка ініціалізації libvoikko"
+msgstr ""
 
 #: src/spell.cc:107
 #, c-format
 msgid "Unable to set encoding to %s"
-msgstr "Неможу задати кодування для %s"
+msgstr ""
 
 #: src/tmispell.cc:89
 #, c-format
 msgid "An Ispell program was not given in the configuration file %s"
-msgstr "Програму lspell не було вказано у конфігураційному файлі %s"
+msgstr ""
 
 #: src/tmispell.cc:245
 #, c-format
 msgid "Unable to write to file %s"
-msgstr "Неможу записати в файл %s"
+msgstr ""
 
 #: src/ui/cursesui.cc:116
 #, c-format
 msgid "File: %s"
-msgstr "Файл: %s"
+msgstr ""
 
 #: src/ui/cursesui.cc:198
-msgid ""
-"[SP] <number> R)epl A)ccept I)nsert L)ookup U)ncap Q)uit e(X)it or ? for help"
+msgid "[SP] <number> R)epl A)ccept I)nsert L)ookup U)ncap Q)uit e(X)it or ? for help"
 msgstr ""
-"[SP] <номер> R)Відповісти A)Прийняти I)Вставити L)Продивитися U)Відкрити "
-"Q)Покинути (X)Вийти або ? для допомоги"
 
 #: src/ui/cursesui.cc:225
-msgid ""
-"Whenever an unrecognized word is found, it is printed on\n"
+msgid "Whenever an unrecognized word is found, it is printed on\n"
 "a line on the screen. If there are suggested corrections\n"
 "they are listed with a number next to each one. You have\n"
 "the option of replacing the word completely, or choosing\n"
 "one of the suggested words. Alternatively, you can ignore\n"
 "this word, ignore all its occurrences or add it in the\n"
-"personal dictionary.\n"
-"\n"
+"personal dictionary.\n\n"
 "Commands are:\n"
 " r       Replace the misspelled word completely.\n"
 " space   Accept the word this time only.\n"
@@ -211,53 +167,33 @@ msgid ""
 " ^Z      Suspend program.\n"
 " ?       Show this help screen.\n"
 msgstr ""
-"Щоразу, як знайдено невідоме слово, воно виводиться у\n"
-"рядку на екрані. За наявності пропонованих виправлень\n"
-"вони перелічуються низкою поряд з кожним з них. У вас є\n"
-"можливість замінити слова повністю, або вибрати\n"
-"одне з запропонованих слів. Крім того, ви можете ігнорувати\n"
-"це слово, ігнорувати всі його входження або додати його у\n"
-"особистий словник.\n"
-"\n"
-"Команди:\n"
-" r       Замінити слово з помилкою повністю.\n"
-" space   Прийняти слова лише в цей раз.\n"
-" a       Прийняти слова для іншої частини цієї сесії.\n"
-" i       Прийняти слово, і додати його в  особистий словник.\n"
-" u       Прийняти і додати малими літерами в особистий словник.\n"
-" 0-9     Замінити з одним з варіантів слів.\n"
-" x       Написати решту цього файлу, ігноруючи орфографічні помилки,\n"
-"         і почати наступний файл.\n"
-" q       Негайний вихід. Запит підтвердження.\n"
-"         Залишити файл без змін.\n"
-" ^Z      Призупинення програми.\n"
-" ?       Показати цю довідку.\n"
 
 #: src/ui/cursesui.cc:290
 msgid "yn"
-msgstr "yn"
+msgstr ""
 
 #: src/ui/cursesui.cc:293
 msgid "aiuqxr"
-msgstr "aiuqxr"
+msgstr ""
 
 #: src/ui/cursesui.cc:362
 msgid "Are you sure you want to throw away your changes? (y/n): "
-msgstr "Ви впевнені, що бажаєте відкинути зміни? (y/n): "
+msgstr ""
 
 #: src/ui/cursesui.cc:376
 msgid "Replace with: "
-msgstr "Замінити на: "
+msgstr ""
 
 #: src/ui/cursesui.cc:384
 msgid "-- Press any key to continue --"
-msgstr "--Натисніть будь-яку клавішу для продовження--"
+msgstr ""
 
 #: src/ui/cursesui.cc:414
 #, c-format
 msgid "Unable to open file %s"
-msgstr "Неможливо відкрити файл %s"
+msgstr ""
 
 #: src/ui/cursesui.cc:422
 msgid "Unable to open temporary file"
-msgstr "Неможливо відкрити тимчасовий файл"
+msgstr ""
+

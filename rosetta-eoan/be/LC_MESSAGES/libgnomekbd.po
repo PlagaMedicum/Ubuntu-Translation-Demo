@@ -1,22 +1,26 @@
-#
-# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2011.
-#
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same licence as the hipo package.
+# David Lodge <dave@cirt.net>, 2007
+# Philip Withnall <philip@tecnocode.co.uk>, 2009, 2010.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2010, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: libgnomekbd.master\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-06 16:21-0600\n"
-"PO-Revision-Date: 2011-09-22 15:58+0000\n"
-"Last-Translator: Ihar Hrachyshka <Unknown>\n"
-"Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
+"PO-Revision-Date: 2019-07-08 16:53\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Launchpad-Export-Date: 2019-05-11 12:19+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: be\n"
+"X-Generator: crowdin.com\n"
+"Language: be_BY\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/libgnomekbd.po\n"
 
 #: libgnomekbd/gkbd-indicator.c:422 libgnomekbd/gkbd-status.c:560
 msgid "XKB initialization error"
@@ -31,6 +35,7 @@ msgid_plural "layouts \"%s\""
 msgstr[0] "раскладка \"%s\""
 msgstr[1] "раскладкі \"%s\""
 msgstr[2] "раскладкі \"%s\""
+msgstr[3] ""
 
 #. Translators: The count is related to the number of options. The %s
 #. * format specifier should not be modified, left "as is".
@@ -41,6 +46,7 @@ msgid_plural "options \"%s\""
 msgstr[0] "опцыя \"%s\""
 msgstr[1] "опцыі \"%s\""
 msgstr[2] "опцыі \"%s\""
+msgstr[3] ""
 
 #: libgnomekbd/gkbd-keyboard-config.c:738
 #, c-format
@@ -71,12 +77,10 @@ msgstr ""
 
 #: libgnomekbd/gkbd-keyboard-drawing.c:2457
 #, c-format
-msgid ""
-"Keyboard layout \"%s\"\n"
+msgid "Keyboard layout \"%s\"\n"
 "Copyright &#169; X.Org Foundation and XKeyboardConfig contributors\n"
 "For licensing see package metadata"
-msgstr ""
-"Клавіятурная раскладка \"%s\"\n"
+msgstr "Клавіятурная раскладка \"%s\"\n"
 "Аўтарскія правы &#169; Фонд X.Org і ўдзельнікі XKeyboardConfig\n"
 "Ліцэнзійныя ўмовы глядзіце ў метаданых пакунка"
 
@@ -109,12 +113,8 @@ msgid "Show layout names instead of group names"
 msgstr "Паказваць назвы раскладак разам з назвамі груп"
 
 #: libgnomekbd/org.gnome.libgnomekbd.desktop.gschema.xml.in:23
-msgid ""
-"Show layout names instead of group names (only for versions of XFree "
-"supporting multiple layouts)"
-msgstr ""
-"Паказваць назвы раскладак замест назваў груп (толькі для версій XFree, якія "
-"падтрымліваюць некалькі раскладак)"
+msgid "Show layout names instead of group names (only for versions of XFree supporting multiple layouts)"
+msgstr "Паказваць назвы раскладак замест назваў груп (толькі для версій XFree, якія падтрымліваюць некалькі раскладак)"
 
 #: libgnomekbd/org.gnome.libgnomekbd.desktop.gschema.xml.in:27
 msgid "Load extra configuration items"
@@ -213,3 +213,4 @@ msgstr "Опцыі клавіятуры"
 #: test/gkbd-indicator-test.c:66
 msgid "Indicator:"
 msgstr "Індыкатар:"
+

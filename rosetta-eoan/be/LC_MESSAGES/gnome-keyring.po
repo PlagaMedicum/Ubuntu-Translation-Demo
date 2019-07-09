@@ -1,23 +1,28 @@
-#
-# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2007.
-# Yuri Matsuk <yuri@matsuk.net>, 2011.
-# Yuras Shumovich <shumovichy@gmail.com>, 2017.
-#
+# English (British) translation.
+# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnome-keyring package.
+# Gareth Owen <gowen72@yahoo.com>, 2004.
+# Philip Withnall <philip@tecnocode.co.uk>, 2009, 2010.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2010, 2011, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-keyring.master\n"
-"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"keyring&keywords=I18N+L10N&component=general\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-02 07:39+0100\n"
-"PO-Revision-Date: 2019-03-02 15:26+0000\n"
-"Last-Translator: Yuras <shumovichy@gmail.com>\n"
-"Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
+"PO-Revision-Date: 2019-07-08 16:49\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 11:12+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: be\n"
+"X-Generator: crowdin.com\n"
+"X-Project-Style: gnome\n"
+"Language: be_BY\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/gnome-keyring.po\n"
 
 #. TRANSLATORS: This is the label for an keyring created without a label
 #: daemon/dbus/gkd-secret-change.c:84 daemon/dbus/gkd-secret-change.c:120
@@ -36,12 +41,8 @@ msgstr "Упішыце стары пароль для вязкі ключоў \"
 
 #: daemon/dbus/gkd-secret-change.c:93
 #, c-format
-msgid ""
-"An application wants to change the password for the “%s” keyring. Enter the "
-"old password for it."
-msgstr ""
-"Праграма хоча змяніць пароль для вязкі ключоў \"%s\". Упішыце стары пароль "
-"да яе."
+msgid "An application wants to change the password for the “%s” keyring. Enter the old password for it."
+msgstr "Праграма хоча змяніць пароль для вязкі ключоў \"%s\". Упішыце стары пароль да яе."
 
 #: daemon/dbus/gkd-secret-change.c:99 daemon/dbus/gkd-secret-change.c:135
 #: daemon/dbus/gkd-secret-change.c:146 pkcs11/wrap-layer/gkm-wrap-prompt.c:1162
@@ -57,26 +58,16 @@ msgstr "Выберыце новы пароль для вязкі ключоў \"
 
 #: daemon/dbus/gkd-secret-change.c:129
 #, c-format
-msgid ""
-"An application wants to change the password for the “%s” keyring. Choose the "
-"new password you want to use for it."
-msgstr ""
-"Праграма хоча змяніць пароль для вязкі ключоў \"%s\". Выберыце для яе новы "
-"пароль."
+msgid "An application wants to change the password for the “%s” keyring. Choose the new password you want to use for it."
+msgstr "Праграма хоча змяніць пароль для вязкі ключоў \"%s\". Выберыце для яе новы пароль."
 
 #: daemon/dbus/gkd-secret-change.c:142 daemon/dbus/gkd-secret-create.c:94
 msgid "Store passwords unencrypted?"
 msgstr "Захоўваць паролі незашыфраванымі?"
 
 #: daemon/dbus/gkd-secret-change.c:144 daemon/dbus/gkd-secret-create.c:96
-msgid ""
-"By choosing to use a blank password, your stored passwords will not be "
-"safely encrypted. They will be accessible by anyone with access to your "
-"files."
-msgstr ""
-"Выбраўшы пусты пароль, вы не забяспечыце шыфраванне захаваных пароляў да "
-"разнастайных сэрвісаў. Доступ да гэтых пароляў зможа займець любы "
-"карыстальнік, які здолее прачытаць вашы файлы."
+msgid "By choosing to use a blank password, your stored passwords will not be safely encrypted. They will be accessible by anyone with access to your files."
+msgstr "Выбраўшы пусты пароль, вы не забяспечыце шыфраванне захаваных пароляў да разнастайных сэрвісаў. Доступ да гэтых пароляў зможа займець любы карыстальнік, які здолее прачытаць вашы файлы."
 
 #: daemon/dbus/gkd-secret-change.c:152
 msgid "The original password was incorrect"
@@ -88,12 +79,8 @@ msgstr "Змяненне пароля да вязкі ключоў"
 
 #: daemon/dbus/gkd-secret-create.c:80
 #, c-format
-msgid ""
-"An application wants to create a new keyring called “%s”. Choose the "
-"password you want to use for it."
-msgstr ""
-"Праграма хоча стварыць новую вязку ключоў з назвай \"%s\". Выберыце для яе "
-"пароль."
+msgid "An application wants to create a new keyring called “%s”. Choose the password you want to use for it."
+msgstr "Праграма хоча стварыць новую вязку ключоў з назвай \"%s\". Выберыце для яе пароль."
 
 #: daemon/dbus/gkd-secret-create.c:84
 msgid "Choose password for new keyring"
@@ -154,8 +141,7 @@ msgstr "Увядзіце пароль, каб разблакіраваць за�
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:684
 #, c-format
 msgid "An application wants access to the private key “%s”, but it is locked"
-msgstr ""
-"Праграма патрабуе доступу да закрытага ключа \"%s\", але ён заблакіраваны"
+msgstr "Праграма патрабуе доступу да закрытага ключа \"%s\", але ён заблакіраваны"
 
 #: daemon/ssh-agent/gkd-ssh-agent-interaction.c:111
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:669
@@ -317,7 +303,7 @@ msgstr "Псеўданім"
 
 #: egg/egg-oid.c:97
 msgid "RSA"
-msgstr "RSA"
+msgstr ""
 
 #: egg/egg-oid.c:98
 msgid "MD2 with RSA"
@@ -333,7 +319,7 @@ msgstr "SHA1 з RSA"
 
 #: egg/egg-oid.c:102
 msgid "DSA"
-msgstr "DSA"
+msgstr ""
 
 #: egg/egg-oid.c:103
 msgid "SHA1 with DSA"
@@ -377,18 +363,12 @@ msgid "Enter password to unlock your login keyring"
 msgstr "Увядзіце пароль для разблакіравання сеансавай вязкі ключоў"
 
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:596
-msgid ""
-"The password you use to log in to your computer no longer matches that of "
-"your login keyring."
-msgstr ""
-"Пароль для ўваходу ў сістэму ўжо не адпавядае паролю да сеансавай вязкі "
-"ключоў."
+msgid "The password you use to log in to your computer no longer matches that of your login keyring."
+msgstr "Пароль для ўваходу ў сістэму ўжо не адпавядае паролю да сеансавай вязкі ключоў."
 
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:598
-msgid ""
-"The login keyring did not get unlocked when you logged into your computer."
-msgstr ""
-"Сеансавая вязка ключоў не была разблакіравана пры ўваходзе ў сістэму."
+msgid "The login keyring did not get unlocked when you logged into your computer."
+msgstr "Сеансавая вязка ключоў не была разблакіравана пры ўваходзе ў сістэму."
 
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:616
 msgid "Unlock Keyring"
@@ -402,8 +382,7 @@ msgstr "Увядзіце пароль, каб разблакіраваць"
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:621
 #, c-format
 msgid "An application wants access to the keyring “%s”, but it is locked"
-msgstr ""
-"Праграма патрабуе доступу да вязкі ключоў \"%s\", але яна заблакіравана"
+msgstr "Праграма патрабуе доступу да вязкі ключоў \"%s\", але яна заблакіравана"
 
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:627
 msgid "Automatically unlock this keyring whenever I’m logged in"
@@ -440,15 +419,13 @@ msgstr "Аўтаматычна разблакіраваць, пакуль я ў 
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:687
 #, c-format
 msgid "An application wants access to the certificate “%s”, but it is locked"
-msgstr ""
-"Праграма патрабуе доступу да сертыфіката \"%s\", але ён заблакіраваны"
+msgstr "Праграма патрабуе доступу да сертыфіката \"%s\", але ён заблакіраваны"
 
 #. TRANSLATORS: The public key is locked
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:690
 #, c-format
 msgid "An application wants access to the public key “%s”, but it is locked"
-msgstr ""
-"Праграма патрабуе доступу да адкрытага ключа \"%s\", але ён заблакіраваны"
+msgstr "Праграма патрабуе доступу да адкрытага ключа \"%s\", але ён заблакіраваны"
 
 #. TRANSLATORS: The object '%s' is locked
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:693
@@ -468,12 +445,8 @@ msgstr "Увядзіце пароль для разблакіравання сх
 #. TRANSLATORS: The storage is locked, and needs unlocking before the application can use it.
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:789
 #, c-format
-msgid ""
-"An application wants access to the certificate/key storage “%s”, but it is "
-"locked"
-msgstr ""
-"Праграма патрабуе доступу да сховішча сертыфікатаў і ключоў \"%s\", але яно "
-"заблакіравана"
+msgid "An application wants access to the certificate/key storage “%s”, but it is locked"
+msgstr "Праграма патрабуе доступу да сховішча сертыфікатаў і ключоў \"%s\", але яно заблакіравана"
 
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:1150
 msgid "New Password Required"
@@ -485,11 +458,8 @@ msgstr "Для бяспечнага сховішча патрэбны новы �
 
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:1153
 #, c-format
-msgid ""
-"In order to prepare “%s” for storage of certificates or keys, a password is "
-"required"
-msgstr ""
-"Каб падрыхтаваць \"%s\" для захавання сертыфікатаў і ключоў, патрэбны пароль"
+msgid "In order to prepare “%s” for storage of certificates or keys, a password is required"
+msgstr "Каб падрыхтаваць \"%s\" для захавання сертыфікатаў і ключоў, патрэбны пароль"
 
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:1268
 #: pkcs11/wrap-layer/gkm-wrap-prompt.c:1299
@@ -525,4 +495,5 @@ msgstr "загады: "
 #. Translators: keep same length as translated message "commands: "
 #: tool/gkr-tool.c:106
 msgid "          "
-msgstr "          "
+msgstr ""
+

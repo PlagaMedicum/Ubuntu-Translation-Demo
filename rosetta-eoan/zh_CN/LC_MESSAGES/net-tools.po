@@ -1,771 +1,695 @@
-# translation of net-tools.po to
-# Chinese (China) translation for net-tools
-# Copyright (c) (c) 2005 Canonical Ltd, and Rosetta Contributors 2005
-# This file is distributed under the same license as the net-tools package.
-# WenChenHua <wchjmsqz@hotmail.com>, 2005.
-# Liu Qishuai <lqs.buaa@gmail.com>, 2006.
-#
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: net-tools\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2007-06-30 12:28+0900\n"
-"PO-Revision-Date: 2010-04-09 06:06+0000\n"
-"Last-Translator: Liu Qishuai <Unknown>\n"
-"Language-Team: Chinese/Simplified <i18n-translation@lists.linux.net.cn>\n"
+"PO-Revision-Date: 2019-07-08 17:38\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 11:31+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/net-tools.po\n"
+"Language: zh_CN\n"
 
 #: ../arp.c:112 ../arp.c:279
 #, c-format
 msgid "arp: need host name\n"
-msgstr "arp：需要主机名\n"
+msgstr ""
 
 #: ../arp.c:215 ../arp.c:230
 #, c-format
 msgid "No ARP entry for %s\n"
-msgstr "没有 %s 的 ARP 记录\n"
+msgstr ""
 
 #: ../arp.c:248
 #, c-format
 msgid "arp: cant get HW-Address for `%s': %s.\n"
-msgstr "arp：不能获得‘%s’的硬件地址：%s\n"
+msgstr ""
 
 #: ../arp.c:252
 #, c-format
 msgid "arp: protocol type mismatch.\n"
-msgstr "arp：协议类型不匹配.\n"
+msgstr ""
 
 #: ../arp.c:261
 #, c-format
 msgid "arp: device `%s' has HW address %s `%s'.\n"
-msgstr "arp：设备‘%s’有硬件地址 %s‘%s’。\n"
+msgstr ""
 
 #: ../arp.c:293
 #, c-format
 msgid "arp: need hardware address\n"
-msgstr "arp：需要硬件地址\n"
+msgstr ""
 
 #: ../arp.c:301
 #, c-format
 msgid "arp: invalid hardware address\n"
-msgstr "arp：不正确的硬件地址\n"
+msgstr ""
 
 #: ../arp.c:398
 #, c-format
 msgid "arp: cannot open etherfile %s !\n"
-msgstr "arp：不能打开 etherfile %s！\n"
+msgstr ""
 
 #: ../arp.c:414
 #, c-format
 msgid "arp: format error on line %u of etherfile %s !\n"
-msgstr "arp：etherfile %2$s的 %1$u 行格式错误!\n"
+msgstr ""
 
 #: ../arp.c:427
 #, c-format
 msgid "arp: cannot set entry on line %u of etherfile %s !\n"
-msgstr "arp: cannot set entry on line %u of etherfile %s !\n"
+msgstr ""
 
 #: ../arp.c:448
 #, c-format
-msgid ""
-"Address                  HWtype  HWaddress           Flags Mask            "
-"Iface\n"
+msgid "Address                  HWtype  HWaddress           Flags Mask            Iface\n"
 msgstr ""
-"地址                     类型    硬件地址            标志  Mask            接口\n"
 
 #: ../arp.c:476
 msgid "<from_interface>"
-msgstr "<来自于接口>"
+msgstr ""
 
 #: ../arp.c:478
 msgid "(incomplete)"
-msgstr "(incomplete)"
+msgstr ""
 
 #: ../arp.c:495
 #, c-format
 msgid "%s (%s) at "
-msgstr "%s (%s) 位于 "
+msgstr ""
 
 #: ../arp.c:501
 #, c-format
 msgid "<incomplete> "
-msgstr "<incomplete> "
+msgstr ""
 
 #: ../arp.c:507
 #, c-format
 msgid "netmask %s "
-msgstr "网络掩码 %s "
+msgstr ""
 
 #: ../arp.c:524
 #, c-format
 msgid "on %s\n"
-msgstr "在 %s\n"
+msgstr ""
 
 #: ../arp.c:605
 #, c-format
 msgid "Entries: %d\tSkipped: %d\tFound: %d\n"
-msgstr "记录: %d\t跳过: %d\t找到: %d\n"
+msgstr ""
 
 #: ../arp.c:609
 #, c-format
 msgid "%s (%s) -- no entry\n"
-msgstr "%s (%s) -- 没有记录\n"
+msgstr ""
 
 #: ../arp.c:611
 #, c-format
 msgid "arp: in %d entries no match found.\n"
-msgstr "arp: 在 %d 条记录中未找到匹配项.\n"
+msgstr ""
 
 #: ../arp.c:626
 #, c-format
-msgid ""
-"Usage:\n"
-"  arp [-vn]  [<HW>] [-i <if>] [-a] [<hostname>]             <-Display ARP "
-"cache\n"
+msgid "Usage:\n"
+"  arp [-vn]  [<HW>] [-i <if>] [-a] [<hostname>]             <-Display ARP cache\n"
 msgstr ""
-"用法：\n"
-"  arp [-vn]  [<HW>] [-i <if>] [-a] [<hostname>]                 <-显示 ARP 缓存\n"
 
 #: ../arp.c:627
 #, c-format
-msgid ""
-"  arp [-v]          [-i <if>] -d  <host> [pub]               <-Delete ARP "
-"entry\n"
-msgstr "  arp [-v]  [-i <if>] -d  <host> [pub]  <- 删除ARP记录\n"
+msgid "  arp [-v]          [-i <if>] -d  <host> [pub]               <-Delete ARP entry\n"
+msgstr ""
 
 #: ../arp.c:628
 #, c-format
-msgid ""
-"  arp [-vnD] [<HW>] [-i <if>] -f  [<filename>]            <-Add entry from "
-"file\n"
-msgstr "  arp [-vnD] [<HW>] [-i <if>] -f  [<filename>]      <- 从文件添加记录\n"
+msgid "  arp [-vnD] [<HW>] [-i <if>] -f  [<filename>]            <-Add entry from file\n"
+msgstr ""
 
 #: ../arp.c:629
 #, c-format
-msgid ""
-"  arp [-v]   [<HW>] [-i <if>] -s  <host> <hwaddr> [temp]            <-Add "
-"entry\n"
-msgstr "  arp [-v]   [<HW>] [-i <if>] -s  <host> <hwaddr> [temp]   <-添加记录\n"
+msgid "  arp [-v]   [<HW>] [-i <if>] -s  <host> <hwaddr> [temp]            <-Add entry\n"
+msgstr ""
 
 #: ../arp.c:630
 #, c-format
-msgid ""
-"  arp [-v]   [<HW>] [-i <if>] -Ds <host> <if> [netmask <nm>] pub          <-"
-"''-\n"
-"\n"
+msgid "  arp [-v]   [<HW>] [-i <if>] -Ds <host> <if> [netmask <nm>] pub          <-''-\n\n"
 msgstr ""
-"  arp [-v]   [<HW>] [-i <if>] -Ds <host> <if> [netmask <nm>] pub          <-"
-"''-\n"
-"\n"
 
 #: ../arp.c:632
 #, c-format
-msgid ""
-"        -a                       display (all) hosts in alternative (BSD) "
-"style\n"
-msgstr "        -a                       以另一种（BSD）风格显示（所有）主机\n"
+msgid "        -a                       display (all) hosts in alternative (BSD) style\n"
+msgstr ""
 
 #: ../arp.c:633
 #, c-format
 msgid "        -s, --set                set a new ARP entry\n"
-msgstr "        -s, --set                设置一个新的 ARP 记录\n"
+msgstr ""
 
 #: ../arp.c:634
 #, c-format
 msgid "        -d, --delete             delete a specified entry\n"
-msgstr "        -d, --delete             删除指定记录\n"
+msgstr ""
 
 #: ../arp.c:635 ../netstat.c:1503 ../route.c:86
 #, c-format
 msgid "        -v, --verbose            be verbose\n"
-msgstr "        -v, --verbose            显示详细信息\n"
+msgstr ""
 
 #: ../arp.c:636 ../netstat.c:1504 ../route.c:87
 #, c-format
 msgid "        -n, --numeric            don't resolve names\n"
-msgstr "        -n, --numeric            不解析名称\n"
+msgstr ""
 
 #: ../arp.c:637
 #, c-format
-msgid ""
-"        -i, --device             specify network interface (e.g. eth0)\n"
-msgstr "        -i, --device             指定网络接口（如 eth0）\n"
+msgid "        -i, --device             specify network interface (e.g. eth0)\n"
+msgstr ""
 
 #: ../arp.c:638
 #, c-format
 msgid "        -D, --use-device         read <hwaddr> from given device\n"
-msgstr "        -D, --use-device         读取所给定设备的硬件地址\n"
+msgstr ""
 
 #: ../arp.c:639
 #, c-format
 msgid "        -A, -p, --protocol       specify protocol family\n"
-msgstr "        -A, -p, --protocol       指定协议族\n"
+msgstr ""
 
 #: ../arp.c:640
 #, c-format
-msgid ""
-"        -f, --file               read new entries from file or from "
-"/etc/ethers\n"
-"\n"
+msgid "        -f, --file               read new entries from file or from /etc/ethers\n\n"
 msgstr ""
-"        -f, --file               从文件或 /etc/ethers 中读取新记录\n"
-"\n"
 
 #: ../arp.c:642 ../rarp.c:182
 #, c-format
 msgid "  <HW>=Use '-H <hw>' to specify hardware address type. Default: %s\n"
-msgstr "  <HW>=使用 '-H <hw>' 指定硬件地址类型。默认：%s\n"
+msgstr ""
 
 #: ../arp.c:643 ../rarp.c:183
 #, c-format
 msgid "  List of possible hardware types (which support ARP):\n"
-msgstr "  所有可能硬件类型列表:\n"
+msgstr ""
 
 #: ../arp.c:677 ../arp.c:762
 #, c-format
 msgid "%s: hardware type not supported!\n"
-msgstr "%s: 硬件类型不支持!\n"
+msgstr ""
 
 #: ../arp.c:681
 #, c-format
 msgid "%s: address family not supported!\n"
-msgstr "%s: 地址族不支持!\n"
+msgstr ""
 
 #: ../arp.c:716
 #, c-format
 msgid "arp: -N not yet supported.\n"
-msgstr "arp: -N 尚未支持。\n"
+msgstr ""
 
 #: ../arp.c:726
 #, c-format
 msgid "arp: %s: unknown address family.\n"
-msgstr "arp: %s: 未知地址族。\n"
+msgstr ""
 
 #: ../arp.c:735
 #, c-format
 msgid "arp: %s: unknown hardware type.\n"
-msgstr "arp: %s: 未知硬件类型。\n"
+msgstr ""
 
 #: ../arp.c:754
 #, c-format
 msgid "arp: %s: kernel only supports 'inet'.\n"
-msgstr "arp: %s: 内核仅支持 'inet'。\n"
+msgstr ""
 
 #: ../arp.c:767
 #, c-format
 msgid "arp: %s: hardware type without ARP support.\n"
-msgstr "arp: %s: 硬件类型无 ARP 支持。\n"
+msgstr ""
 
 #: ../hostname.c:71
 #, c-format
 msgid "Setting nodename to `%s'\n"
-msgstr "设置节点名为 `%s'\n"
+msgstr ""
 
 #: ../hostname.c:76
 #, c-format
 msgid "%s: you must be root to change the node name\n"
-msgstr "%s: 你必须成为 root 才能改变节点名\n"
+msgstr ""
 
 #: ../hostname.c:79 ../hostname.c:99 ../hostname.c:117
 #, c-format
 msgid "%s: name too long\n"
-msgstr "%s: 名称过长\n"
+msgstr ""
 
 #: ../hostname.c:91
 #, c-format
 msgid "Setting hostname to `%s'\n"
-msgstr "正在设置主机名为 `%s'\n"
+msgstr ""
 
 #: ../hostname.c:96
 #, c-format
 msgid "%s: you must be root to change the host name\n"
-msgstr "%s: 您必须成为 root 才能改变主机名\n"
+msgstr ""
 
 #: ../hostname.c:109
 #, c-format
 msgid "Setting domainname to `%s'\n"
-msgstr "正在设置域名为 `%s'\n"
+msgstr ""
 
 #: ../hostname.c:114
 #, c-format
 msgid "%s: you must be root to change the domain name\n"
-msgstr "%s: 您必须成为 root 才能改变域名\n"
+msgstr ""
 
 #: ../hostname.c:131
 #, c-format
 msgid "Resolving `%s' ...\n"
-msgstr "正在解析 `%s' ...\n"
+msgstr ""
 
 #: ../hostname.c:137
 #, c-format
 msgid "Result: h_name=`%s'\n"
-msgstr "结果: h_name=`%s'\n"
+msgstr ""
 
 #: ../hostname.c:142
 #, c-format
 msgid "Result: h_aliases=`%s'\n"
-msgstr "结果: h_aliases=`%s'\n"
+msgstr ""
 
 #: ../hostname.c:147
 #, c-format
 msgid "Result: h_addr_list=`%s'\n"
-msgstr "结果: h_addr_list=`%s'\n"
+msgstr ""
 
 #: ../hostname.c:208
 #, c-format
 msgid "%s: can't open `%s'\n"
-msgstr "%s: 无法打开 `%s'\n"
+msgstr ""
 
 #: ../hostname.c:222
 #, c-format
-msgid ""
-"Usage: hostname [-v] {hostname|-F file}      set hostname (from file)\n"
-msgstr "用法：hostname [-v] {主机名|-F 文件}          设置主机名（从文件）\n"
+msgid "Usage: hostname [-v] {hostname|-F file}      set hostname (from file)\n"
+msgstr ""
 
 #: ../hostname.c:223
 #, c-format
-msgid ""
-"       domainname [-v] {nisdomain|-F file}   set NIS domainname (from file)\n"
-msgstr "       域名 [-v] {NIS域|-F 文件} 设置NIS域名（从文件）\n"
+msgid "       domainname [-v] {nisdomain|-F file}   set NIS domainname (from file)\n"
+msgstr ""
 
 #: ../hostname.c:225
 #, c-format
-msgid ""
-"       nodename [-v] {nodename|-F file}      set DECnet node name (from "
-"file)\n"
-msgstr "       nodename [-v] {节点名|-F 文件}         设置 DECnet 节点名（从文件）\n"
+msgid "       nodename [-v] {nodename|-F file}      set DECnet node name (from file)\n"
+msgstr ""
 
 #: ../hostname.c:227
 #, c-format
 msgid "       hostname [-v] [-d|-f|-s|-a|-i|-y|-n]  display formatted name\n"
-msgstr "       主机名 [-v] [-d|-f|-s|-a|-i|-y|-n] 显示格式化名字\n"
+msgstr ""
 
 #: ../hostname.c:228
 #, c-format
-msgid ""
-"       hostname [-v]                         display hostname\n"
-"\n"
+msgid "       hostname [-v]                         display hostname\n\n"
 msgstr ""
-"       hostname [-v]                         显示主机名\n"
-"\n"
 
 #: ../hostname.c:229
 #, c-format
-msgid ""
-"       hostname -V|--version|-h|--help       print info and exit\n"
-"\n"
+msgid "       hostname -V|--version|-h|--help       print info and exit\n\n"
 msgstr ""
-"       hostname -V|--version|-h|--help       输出信息并退出\n"
-"\n"
 
 #: ../hostname.c:230
 #, c-format
-msgid ""
-"    dnsdomainname=hostname -d, {yp,nis,}domainname=hostname -y\n"
-"\n"
+msgid "    dnsdomainname=hostname -d, {yp,nis,}domainname=hostname -y\n\n"
 msgstr ""
-"    dnsdomainname=hostname -d, {yp,nis,}domainname=hostname -y\n"
-"\n"
 
 #: ../hostname.c:231
 #, c-format
 msgid "    -s, --short           short host name\n"
-msgstr "    -s, --short           短主机名\n"
+msgstr ""
 
 #: ../hostname.c:232
 #, c-format
 msgid "    -a, --alias           alias names\n"
-msgstr "    -a, --alias           别名\n"
+msgstr ""
 
 #: ../hostname.c:233
 #, c-format
 msgid "    -i, --ip-address      addresses for the hostname\n"
-msgstr "    -i, --ip-address      对应主机名的地址\n"
+msgstr ""
 
 #: ../hostname.c:234
 #, c-format
 msgid "    -f, --fqdn, --long    long host name (FQDN)\n"
-msgstr "    -f, --fqdn, --long    长主机名（FQDN）\n"
+msgstr ""
 
 #: ../hostname.c:235
 #, c-format
 msgid "    -d, --domain          DNS domain name\n"
-msgstr "    -d, --domain          DNS 域名\n"
+msgstr ""
 
 #: ../hostname.c:236
 #, c-format
 msgid "    -y, --yp, --nis       NIS/YP domainname\n"
-msgstr "    -y, --yp, --nis       NIS/YP 域名\n"
+msgstr ""
 
 #: ../hostname.c:238
 #, c-format
 msgid "    -n, --node            DECnet node name\n"
-msgstr "    -n, --node            DECnet 节点名\n"
+msgstr ""
 
 #: ../hostname.c:240
 #, c-format
-msgid ""
-"    -F, --file            read hostname or NIS domainname from given file\n"
-"\n"
+msgid "    -F, --file            read hostname or NIS domainname from given file\n\n"
 msgstr ""
-"    -F, --file 从给定文件中读取主机名或者NIS域名\n"
-"\n"
 
 #: ../hostname.c:242
 #, c-format
-msgid ""
-"   This command can read or set the hostname or the NIS domainname. You can\n"
+msgid "   This command can read or set the hostname or the NIS domainname. You can\n"
 "   also read the DNS domain or the FQDN (fully qualified domain name).\n"
 "   Unless you are using bind or NIS for host lookups you can change the\n"
 "   FQDN (Fully Qualified Domain Name) and the DNS domain name (which is\n"
 "   part of the FQDN) in the /etc/hosts file.\n"
 msgstr ""
-"   此命令可以读取或者设置主机名或者NIS域名。\n"
-"   您也能读取 DNS 域或者 FQDN（正式域名）。\n"
-"   除非您使用 bind 或者 NIS 做主机查找，\n"
-"   你能改变在/etc/hosts中的FQDN（正式域名）\n"
-"   和 DNS 域名（FQDN的一部分）。\n"
 
 #: ../hostname.c:338
 #, c-format
 msgid "%s: You can't change the DNS domain name with this command\n"
-msgstr "%s: 您不能使用此命令改变 DNS 域名\n"
+msgstr ""
 
 #: ../hostname.c:339
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "Unless you are using bind or NIS for host lookups you can change the DNS\n"
 msgstr ""
-"\n"
-"您可以改变 DNS，除非你正使用 bind 或 NIS 做主机查找。\n"
 
 #: ../hostname.c:340
 #, c-format
 msgid "domain name (which is part of the FQDN) in the /etc/hosts file.\n"
-msgstr "/etc/hosts文件中的域名(FQDN正式域名的一部分) .\n"
+msgstr ""
 
 #: ../hostname.c:357
 #, c-format
 msgid "gethostname()=`%s'\n"
-msgstr "gethostname()=`%s'\n"
+msgstr ""
 
 #: ../hostname.c:374
 #, c-format
 msgid "getdomainname()=`%s'\n"
-msgstr "getdomainname()=`%s'\n"
+msgstr ""
 
 #: ../hostname.c:389
 #, c-format
 msgid "getnodename()=`%s'\n"
-msgstr "getnodename()=`%s'\n"
+msgstr ""
 
 #: ../ifconfig.c:107
 #, c-format
-msgid ""
-"Iface   MTU Met   RX-OK RX-ERR RX-DRP RX-OVR   TX-OK TX-ERR TX-DRP TX-OVR "
-"Flg\n"
+msgid "Iface   MTU Met   RX-OK RX-ERR RX-DRP RX-OVR   TX-OK TX-ERR TX-DRP TX-OVR Flg\n"
 msgstr ""
-"Iface   MTU Met   RX-OK RX-ERR RX-DRP RX-OVR   TX-OK TX-ERR TX-DRP TX-OVR "
-"Flg\n"
 
 #: ../ifconfig.c:129 ../ifconfig.c:161
 #, c-format
 msgid "%s: ERROR while getting interface flags: %s\n"
-msgstr "%s: 获取接口标志时出错: %s\n"
+msgstr ""
 
 #: ../ifconfig.c:153 ../ifconfig.c:185 ../ifconfig.c:771 ../ifconfig.c:862
 #: ../ifconfig.c:973
 #, c-format
 msgid "No support for INET on this system.\n"
-msgstr "本系统不支持 INET。\n"
+msgstr ""
 
 #: ../ifconfig.c:193
 #, c-format
 msgid "%s: ERROR while testing interface flags: %s\n"
-msgstr "%s: 测试接口标志时出错: %s\n"
+msgstr ""
 
 #: ../ifconfig.c:202
 #, c-format
-msgid ""
-"Usage:\n"
+msgid "Usage:\n"
 "  ifconfig [-a] [-v] [-s] <interface> [[<AF>] <address>]\n"
 msgstr ""
-"用法:\n"
-"  ifconfig [-a] [-v] [-s] <interface> [[<AF>] <address>]\n"
 
 #: ../ifconfig.c:204
 #, c-format
 msgid "  [add <address>[/<prefixlen>]]\n"
-msgstr "  [add <address>[/<prefixlen>]]\n"
+msgstr ""
 
 #: ../ifconfig.c:205
 #, c-format
 msgid "  [del <address>[/<prefixlen>]]\n"
-msgstr "  [del <address>[/<prefixlen>]]\n"
+msgstr ""
 
 #: ../ifconfig.c:206
 #, c-format
 msgid "  [[-]broadcast [<address>]]  [[-]pointopoint [<address>]]\n"
-msgstr "  [[-]broadcast [<address>]]  [[-]pointopoint [<address>]]\n"
+msgstr ""
 
 #: ../ifconfig.c:207
 #, c-format
 msgid "  [netmask <address>]  [dstaddr <address>]  [tunnel <address>]\n"
-msgstr "  [netmask <address>]  [dstaddr <address>]  [tunnel <address>]\n"
+msgstr ""
 
 #: ../ifconfig.c:210
 #, c-format
 msgid "  [outfill <NN>] [keepalive <NN>]\n"
-msgstr "  [outfill <NN>] [keepalive <NN>]\n"
+msgstr ""
 
 #: ../ifconfig.c:212
 #, c-format
 msgid "  [hw <HW> <address>]  [metric <NN>]  [mtu <NN>]\n"
-msgstr "  [hw <HW> <address>]  [metric <NN>]  [mtu <NN>]\n"
+msgstr ""
 
 #: ../ifconfig.c:213
 #, c-format
 msgid "  [[-]trailers]  [[-]arp]  [[-]allmulti]\n"
-msgstr "  [[-]trailers]  [[-]arp]  [[-]allmulti]\n"
+msgstr ""
 
 #: ../ifconfig.c:214
 #, c-format
 msgid "  [multicast]  [[-]promisc]\n"
-msgstr "  [multicast] [[-]promisc]\n"
+msgstr ""
 
 #: ../ifconfig.c:215
 #, c-format
 msgid "  [mem_start <NN>]  [io_addr <NN>]  [irq <NN>]  [media <type>]\n"
-msgstr "  [mem_start <NN>] [io_addr <NN>] [irq <NN>] [media <type>]\n"
+msgstr ""
 
 #: ../ifconfig.c:217
 #, c-format
 msgid "  [txqueuelen <NN>]\n"
-msgstr "  [txqueuelen <NN>]\n"
+msgstr ""
 
 #: ../ifconfig.c:220
 #, c-format
 msgid "  [[-]dynamic]\n"
-msgstr "  [[-]dynamic]\n"
+msgstr ""
 
 #: ../ifconfig.c:222
 #, c-format
-msgid ""
-"  [up|down] ...\n"
-"\n"
+msgid "  [up|down] ...\n\n"
 msgstr ""
-"  [up|down] ...\n"
-"\n"
 
 #: ../ifconfig.c:224
 #, c-format
 msgid "  <HW>=Hardware Type.\n"
-msgstr "  <HW>=硬件类型。\n"
+msgstr ""
 
 #: ../ifconfig.c:225
 #, c-format
 msgid "  List of possible hardware types:\n"
-msgstr "  可能硬件类型列表:\n"
+msgstr ""
 
 #. 1 = ARPable
 #: ../ifconfig.c:227
 #, c-format
 msgid "  <AF>=Address family. Default: %s\n"
-msgstr "  <AF>=地址族。默认：%s\n"
+msgstr ""
 
 #: ../ifconfig.c:228
 #, c-format
 msgid "  List of possible address families:\n"
-msgstr "  可能的地址族列表：\n"
+msgstr ""
 
 #: ../ifconfig.c:303
 #, c-format
 msgid "ifconfig: option `%s' not recognised.\n"
-msgstr "ifconfig: 选项 `%s' 无法识别。\n"
+msgstr ""
 
 #: ../ifconfig.c:305 ../ifconfig.c:962
 #, c-format
 msgid "ifconfig: `--help' gives usage information.\n"
-msgstr "ifconfig: `--help' 给出使用信息。\n"
+msgstr ""
 
 #: ../ifconfig.c:380
 #, c-format
 msgid "Unknown media type.\n"
-msgstr "未知媒体类型。\n"
+msgstr ""
 
 #: ../ifconfig.c:417
 #, c-format
-msgid ""
-"Warning: Interface %s still in promisc mode... maybe other application is "
-"running?\n"
-msgstr "警告：接口 %s 仍然处于混杂模式... 有其它程序正在运行？\n"
+msgid "Warning: Interface %s still in promisc mode... maybe other application is running?\n"
+msgstr ""
 
 #: ../ifconfig.c:429
 #, c-format
 msgid "Warning: Interface %s still in MULTICAST mode.\n"
-msgstr "警告: 接口 %s 仍然处于多播（MULTICAST）模式.\n"
+msgstr ""
 
 #: ../ifconfig.c:441
 #, c-format
 msgid "Warning: Interface %s still in ALLMULTI mode.\n"
-msgstr "警告：接口 %s 仍然处于全双工（ALLMULTI）模式。\n"
+msgstr ""
 
 #: ../ifconfig.c:465
 #, c-format
 msgid "Warning: Interface %s still in DYNAMIC mode.\n"
-msgstr "警告: 接口 %s 仍然处于动态（DYNAMIC）模式.\n"
+msgstr ""
 
 #: ../ifconfig.c:523
 #, c-format
 msgid "Warning: Interface %s still in BROADCAST mode.\n"
-msgstr "警告：接口 %s 仍然处于广播（BROADCAST）模式。\n"
+msgstr ""
 
 #: ../ifconfig.c:652
 #, c-format
 msgid "Warning: Interface %s still in POINTOPOINT mode.\n"
-msgstr "警告：接口 %s 仍然处于点对点（POINTOPOINT）模式。\n"
+msgstr ""
 
 #: ../ifconfig.c:684
 #, c-format
 msgid "hw address type `%s' has no handler to set address. failed.\n"
-msgstr "硬件地址类型 `%s' 无地址设置操作.失败\n"
+msgstr ""
 
 #: ../ifconfig.c:693
 #, c-format
 msgid "%s: invalid %s address.\n"
-msgstr "%s: 不正确的 %s 地址。\n"
+msgstr ""
 
 #: ../ifconfig.c:737 ../ifconfig.c:827 ../ifconfig.c:913
 #, c-format
 msgid "No support for INET6 on this system.\n"
-msgstr "此系统不支持 INET6。\n"
+msgstr ""
 
 #: ../ifconfig.c:780 ../ifconfig.c:871
 #, c-format
 msgid "Interface %s not initialized\n"
-msgstr "接口 %s 未初始化\n"
+msgstr ""
 
 #: ../ifconfig.c:792 ../ifconfig.c:882
 #, c-format
 msgid "Bad address.\n"
-msgstr "错误地址。\n"
+msgstr ""
 
 #: ../ifconfig.c:885
 #, c-format
 msgid "Address deletion not supported on this system.\n"
-msgstr "此系统不支持地址检测。\n"
+msgstr ""
 
 #: ../ifconfig.c:957
 #, c-format
 msgid "ifconfig: Cannot set address for this protocol family.\n"
-msgstr "ifconfig： 无法为此种协议设置地址。\n"
+msgstr ""
 
 #: ../ifconfig.c:983
 #, c-format
 msgid "No support for ECONET on this system.\n"
-msgstr "此系统上不支持 ECONET。\n"
+msgstr ""
 
 #: ../ifconfig.c:991
 #, c-format
 msgid "Don't know how to set addresses for family %d.\n"
-msgstr "不知道如何为协议 %d设置地址。\n"
+msgstr ""
 
 #: ../ifconfig.c:1021
 #, c-format
 msgid "WARNING: at least one error occured. (%d)\n"
-msgstr "警告:发生了至少一个错误.(%d)\n"
+msgstr ""
 
 #: ../netstat.c:434
 #, c-format
-msgid ""
-"(No info could be read for \"-p\": geteuid()=%d but you should be root.)\n"
-msgstr "(对于 \"-p\":geteuid()=%d，非 root 用户无法读取信息)\n"
+msgid "(No info could be read for \"-p\": geteuid()=%d but you should be root.)\n"
+msgstr ""
 
 #: ../netstat.c:438
 #, c-format
-msgid ""
-"(Not all processes could be identified, non-owned process info\n"
+msgid "(Not all processes could be identified, non-owned process info\n"
 " will not be shown, you would have to be root to see it all.)\n"
-msgstr "（并非所有进程都能被检测到，所有非本用户的进程信息将不会显示，如果想看到所有信息，则必须切换到 root 用户）\n"
+msgstr ""
 
 #: ../netstat.c:445 ../netstat.c:1189 ../netstat.c:1266
 msgid "LISTENING"
-msgstr "LISTENING"
+msgstr ""
 
 #: ../netstat.c:446
 msgid "CONN SENT"
-msgstr "CONN SENT"
+msgstr ""
 
 #: ../netstat.c:447 ../netstat.c:1268
 msgid "DISC SENT"
-msgstr "DISC SENT"
+msgstr ""
 
 #: ../netstat.c:448 ../netstat.c:515 ../netstat.c:904 ../netstat.c:1269
 msgid "ESTABLISHED"
-msgstr "ESTABLISHED"
+msgstr ""
 
 #: ../netstat.c:470
 #, c-format
 msgid "Active NET/ROM sockets\n"
-msgstr "活动的 NET/ROM 套接字\n"
+msgstr ""
 
 #: ../netstat.c:471
 #, c-format
-msgid ""
-"User       Dest       Source     Device  State        Vr/Vs    Send-Q  Recv-"
-"Q\n"
-msgstr "用户 目的 源  设备  状态 Vr/Vs 发送队列 接收队列\n"
+msgid "User       Dest       Source     Device  State        Vr/Vs    Send-Q  Recv-Q\n"
+msgstr ""
 
 #: ../netstat.c:481 ../netstat.c:1308
 #, c-format
 msgid "Problem reading data from %s\n"
-msgstr "从%s读取数据时出现问题\n"
+msgstr ""
 
 #: ../netstat.c:516
 msgid "SYN_SENT"
-msgstr "SYN_SENT"
+msgstr ""
 
 #: ../netstat.c:517
 msgid "SYN_RECV"
-msgstr "SYN_RECV"
+msgstr ""
 
 #: ../netstat.c:518
 msgid "FIN_WAIT1"
-msgstr "FIN_WAIT1"
+msgstr ""
 
 #: ../netstat.c:519
 msgid "FIN_WAIT2"
-msgstr "FIN_WAIT2"
+msgstr ""
 
 #: ../netstat.c:520
 msgid "TIME_WAIT"
-msgstr "TIME_WAIT"
+msgstr ""
 
 #: ../netstat.c:521
 msgid "CLOSE"
-msgstr "CLOSE"
+msgstr ""
 
 #: ../netstat.c:522
 msgid "CLOSE_WAIT"
-msgstr "CLOSE_WAIT"
+msgstr ""
 
 #: ../netstat.c:523
 msgid "LAST_ACK"
-msgstr "LAST_ACK"
+msgstr ""
 
 #: ../netstat.c:524
 msgid "LISTEN"
-msgstr "LISTEN"
+msgstr ""
 
 #: ../netstat.c:525
 msgid "CLOSING"
-msgstr "CLOSING"
+msgstr ""
 
 #: ../netstat.c:596
 #, c-format
@@ -776,7 +700,7 @@ msgstr ""
 #: ../netstat.c:1032 ../netstat.c:1037
 #, c-format
 msgid "netstat: unsupported address family %d !\n"
-msgstr "netstat:不支持的地址家族%d!\n"
+msgstr ""
 
 #: ../netstat.c:614 ../netstat.c:619 ../netstat.c:627 ../netstat.c:634
 #, c-format
@@ -786,14 +710,12 @@ msgstr ""
 #: ../netstat.c:677
 #, c-format
 msgid "Active X.25 sockets\n"
-msgstr "活动的 X.25 套接字\n"
+msgstr ""
 
 #. IMHO, Vr/Vs is not very usefull --SF
 #: ../netstat.c:679
 #, c-format
-msgid ""
-"Dest         Source          Device  LCI  State        Vr/Vs  Send-Q  Recv-"
-"Q\n"
+msgid "Dest         Source          Device  LCI  State        Vr/Vs  Send-Q  Recv-Q\n"
 msgstr ""
 
 #: ../netstat.c:759
@@ -804,27 +726,27 @@ msgstr ""
 #: ../netstat.c:800 ../netstat.c:953 ../netstat.c:1075
 #, c-format
 msgid "off (0.00/%ld/%d)"
-msgstr "关闭 (0.00/%ld/%d)"
+msgstr ""
 
 #: ../netstat.c:804
 #, c-format
 msgid "on (%2.2f/%ld/%d)"
-msgstr "打开 (%2.2f/%ld/%d)"
+msgstr ""
 
 #: ../netstat.c:809
 #, c-format
 msgid "keepalive (%2.2f/%ld/%d)"
-msgstr "保持连接 (%2.2f/%ld/%d)"
+msgstr ""
 
 #: ../netstat.c:814
 #, c-format
 msgid "timewait (%2.2f/%ld/%d)"
-msgstr "等待 (%2.2f/%ld/%d)"
+msgstr ""
 
 #: ../netstat.c:819 ../netstat.c:962 ../netstat.c:1085
 #, c-format
 msgid "unkn-%d (%2.2f/%ld/%d)"
-msgstr "未知-%d (%2.2f/%ld/%d)"
+msgstr ""
 
 #: ../netstat.c:894
 #, c-format
@@ -833,12 +755,12 @@ msgstr ""
 
 #: ../netstat.c:912 ../netstat.c:1175 ../netstat.c:1208
 msgid "UNKNOWN"
-msgstr "未知"
+msgstr ""
 
 #: ../netstat.c:958 ../netstat.c:1080
 #, c-format
 msgid "on%d (%2.2f/%ld/%d)"
-msgstr "在%d (%2.2f/%ld/%d)"
+msgstr ""
 
 #: ../netstat.c:1046
 #, c-format
@@ -852,23 +774,23 @@ msgstr ""
 
 #: ../netstat.c:1155
 msgid "STREAM"
-msgstr "流"
+msgstr ""
 
 #: ../netstat.c:1159
 msgid "DGRAM"
-msgstr "数据报"
+msgstr ""
 
 #: ../netstat.c:1163
 msgid "RAW"
-msgstr "原始的"
+msgstr ""
 
 #: ../netstat.c:1167
 msgid "RDM"
-msgstr "RDM"
+msgstr ""
 
 #: ../netstat.c:1171
 msgid "SEQPACKET"
-msgstr "SEQPACKET"
+msgstr ""
 
 #: ../netstat.c:1180
 msgid "FREE"
@@ -876,47 +798,46 @@ msgstr ""
 
 #: ../netstat.c:1196
 msgid "CONNECTING"
-msgstr "正在连接"
+msgstr ""
 
 #: ../netstat.c:1200
 msgid "CONNECTED"
-msgstr "已连接"
+msgstr ""
 
 #: ../netstat.c:1204
 msgid "DISCONNECTING"
-msgstr "正在断开连接"
+msgstr ""
 
 #: ../netstat.c:1235
 #, c-format
 msgid "Active UNIX domain sockets "
-msgstr "活跃的UNIX域套接字 "
+msgstr ""
 
 #: ../netstat.c:1237 ../netstat.c:1756
 #, c-format
 msgid "(servers and established)"
-msgstr "(服务器和已建立连接的)"
+msgstr ""
 
 #: ../netstat.c:1240 ../netstat.c:1759
 #, c-format
 msgid "(only servers)"
-msgstr "(仅服务器)"
+msgstr ""
 
 #: ../netstat.c:1242 ../netstat.c:1761
 #, c-format
 msgid "(w/o servers)"
-msgstr "(w/o 服务器)"
+msgstr ""
 
 #: ../netstat.c:1245
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "Proto RefCnt Flags       Type       State         I-Node"
 msgstr ""
 
 #: ../netstat.c:1247
 #, c-format
 msgid " Path\n"
-msgstr " 路径\n"
+msgstr ""
 
 #: ../netstat.c:1267
 msgid "SABM SENT"
@@ -924,7 +845,7 @@ msgstr ""
 
 #: ../netstat.c:1270
 msgid "RECOVERY"
-msgstr "恢复"
+msgstr ""
 
 #: ../netstat.c:1284
 #, c-format
@@ -939,28 +860,26 @@ msgstr ""
 #: ../netstat.c:1328
 #, c-format
 msgid "problem reading data from %s\n"
-msgstr "从 %s读取数据出错\n"
+msgstr ""
 
 #: ../netstat.c:1379
 #, c-format
-msgid ""
-"Active IPX sockets\n"
-"Proto Recv-Q Send-Q Local Address              Foreign Address            "
-"State"
+msgid "Active IPX sockets\n"
+"Proto Recv-Q Send-Q Local Address              Foreign Address            State"
 msgstr ""
 
 #: ../netstat.c:1381
 #, c-format
 msgid " User"
-msgstr " 用户"
+msgstr ""
 
 #: ../netstat.c:1415
 msgid "ESTAB"
-msgstr "已建立连接的"
+msgstr ""
 
 #: ../netstat.c:1423
 msgid "UNK."
-msgstr "UNK."
+msgstr ""
 
 #: ../netstat.c:1461
 #, c-format
@@ -969,43 +888,32 @@ msgstr ""
 
 #: ../netstat.c:1465
 #, c-format
-msgid ""
-"Iface   MTU Met   RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR "
-"Flg\n"
+msgid "Iface   MTU Met   RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR Flg\n"
 msgstr ""
-"Iface   MTU Met   RX-OK RX-ERR RX-DRP RX-OVR    TX-OK TX-ERR TX-DRP TX-OVR "
-"Flg\n"
 
 #: ../netstat.c:1469
 msgid "missing interface information"
-msgstr "丢失接口信息"
+msgstr ""
 
 #: ../netstat.c:1492
 #, c-format
-msgid ""
-"usage: netstat [-veenNcCF] [<Af>] -r         netstat {-V|--version|-h|--"
-"help}\n"
+msgid "usage: netstat [-veenNcCF] [<Af>] -r         netstat {-V|--version|-h|--help}\n"
 msgstr ""
-"用法： netstat [-veenNcCF] [<Af>] -r         netstat {-V|--version|-h|--help}\n"
 
 #: ../netstat.c:1493
 #, c-format
 msgid "       netstat [-vnNcaeol] [<Socket> ...]\n"
-msgstr "       netstat [-vnNcaeol] [<Socket> ...]\n"
+msgstr ""
 
 #: ../netstat.c:1494
 #, c-format
-msgid ""
-"       netstat { [-veenNac] -i | [-cnNe] -M | -s }\n"
-"\n"
+msgid "       netstat { [-veenNac] -i | [-cnNe] -M | -s }\n\n"
 msgstr ""
-"       netstat { [-veenNac] -i | [-cnNe] -M | -s }\n"
-"\n"
 
 #: ../netstat.c:1496
 #, c-format
 msgid "        -r, --route              display routing table\n"
-msgstr "        -r, --route              显示路由表\n"
+msgstr ""
 
 #: ../netstat.c:1497
 #, c-format
@@ -1014,37 +922,33 @@ msgstr ""
 
 #: ../netstat.c:1498
 #, c-format
-msgid ""
-"        -g, --groups             display multicast group memberships\n"
+msgid "        -g, --groups             display multicast group memberships\n"
 msgstr ""
 
 #: ../netstat.c:1499
 #, c-format
-msgid ""
-"        -s, --statistics         display networking statistics (like SNMP)\n"
+msgid "        -s, --statistics         display networking statistics (like SNMP)\n"
 msgstr ""
 
 #: ../netstat.c:1501
 #, c-format
-msgid ""
-"        -M, --masquerade         display masqueraded connections\n"
-"\n"
+msgid "        -M, --masquerade         display masqueraded connections\n\n"
 msgstr ""
 
 #: ../netstat.c:1505
 #, c-format
 msgid "        --numeric-hosts          don't resolve host names\n"
-msgstr "        --numeric-hosts          不解析主机名\n"
+msgstr ""
 
 #: ../netstat.c:1506
 #, c-format
 msgid "        --numeric-ports          don't resolve port names\n"
-msgstr "        --numeric-ports          忽略端口名称\n"
+msgstr ""
 
 #: ../netstat.c:1507
 #, c-format
 msgid "        --numeric-users          don't resolve user names\n"
-msgstr "        --numeric-users          忽略用户名\n"
+msgstr ""
 
 #: ../netstat.c:1508
 #, c-format
@@ -1054,19 +958,16 @@ msgstr ""
 #: ../netstat.c:1509 ../route.c:88
 #, c-format
 msgid "        -e, --extend             display other/more information\n"
-msgstr "        -e, --extend             显示更多信息\n"
+msgstr ""
 
 #: ../netstat.c:1510
 #, c-format
-msgid ""
-"        -p, --programs           display PID/Program name for sockets\n"
+msgid "        -p, --programs           display PID/Program name for sockets\n"
 msgstr ""
 
 #: ../netstat.c:1511
 #, c-format
-msgid ""
-"        -c, --continuous         continuous listing\n"
-"\n"
+msgid "        -c, --continuous         continuous listing\n\n"
 msgstr ""
 
 #: ../netstat.c:1512
@@ -1076,8 +977,7 @@ msgstr ""
 
 #: ../netstat.c:1513
 #, c-format
-msgid ""
-"        -a, --all, --listening   display all sockets (default: connected)\n"
+msgid "        -a, --all, --listening   display all sockets (default: connected)\n"
 msgstr ""
 
 #: ../netstat.c:1514
@@ -1087,48 +987,38 @@ msgstr ""
 
 #: ../netstat.c:1515 ../route.c:89
 #, c-format
-msgid ""
-"        -F, --fib                display Forwarding Information Base "
-"(default)\n"
+msgid "        -F, --fib                display Forwarding Information Base (default)\n"
 msgstr ""
 
 #: ../netstat.c:1516 ../route.c:90
 #, c-format
-msgid ""
-"        -C, --cache              display routing cache instead of FIB\n"
-"\n"
+msgid "        -C, --cache              display routing cache instead of FIB\n\n"
 msgstr ""
 
 #: ../netstat.c:1518
 #, c-format
-msgid ""
-"  <Socket>={-t|--tcp} {-u|--udp} {-w|--raw} {-x|--unix} --ax25 --ipx --"
-"netrom\n"
+msgid "  <Socket>={-t|--tcp} {-u|--udp} {-w|--raw} {-x|--unix} --ax25 --ipx --netrom\n"
 msgstr ""
-"  <Socket>={-t|--tcp} {-u|--udp} {-w|--raw} {-x|--unix} --ax25 --ipx --"
-"netrom\n"
 
 #: ../netstat.c:1519
 #, c-format
 msgid "  <AF>=Use '-6|-4' or '-A <af>' or '--<af>'; default: %s\n"
-msgstr "  <AF>=Use '-6|-4' or '-A <af>' or '--<af>'；默认： %s\n"
+msgstr ""
 
 #: ../netstat.c:1520 ../route.c:93
 #, c-format
 msgid "  List of possible address families (which support routing):\n"
-msgstr "  列出所有支持的协议：\n"
+msgstr ""
 
 #: ../netstat.c:1753
 #, c-format
 msgid "Active Internet connections "
-msgstr "激活Internet连接 "
+msgstr ""
 
 #: ../netstat.c:1763
 #, c-format
-msgid ""
-"\n"
-"Proto Recv-Q Send-Q Local Address           Foreign Address         State    "
-"  "
+msgid "\n"
+"Proto Recv-Q Send-Q Local Address           Foreign Address         State      "
 msgstr ""
 
 #: ../netstat.c:1765
@@ -1153,37 +1043,37 @@ msgstr ""
 
 #: ../rarp.c:44
 msgid "This kernel does not support RARP.\n"
-msgstr "内核不支持 RARP。\n"
+msgstr ""
 
 #: ../rarp.c:83
 #, c-format
 msgid "no RARP entry for %s.\n"
-msgstr "无 RARP 记录 %s。\n"
+msgstr ""
 
 #: ../rarp.c:96
 #, c-format
 msgid "%s: bad hardware address\n"
-msgstr "%s: 错误的硬件地址\n"
+msgstr ""
 
 #: ../rarp.c:128
 #, c-format
 msgid "rarp: cannot open file %s:%s.\n"
-msgstr "rarp: 无法打开文件 %s:%s.\n"
+msgstr ""
 
 #: ../rarp.c:140
 #, c-format
 msgid "rarp: format error at %s:%u\n"
-msgstr "rarp: 格式错误 %s:%u\n"
+msgstr ""
 
 #: ../rarp.c:144 ../rarp.c:289
 #, c-format
 msgid "rarp: %s: unknown host\n"
-msgstr "rarp: %s:未知主机\n"
+msgstr ""
 
 #: ../rarp.c:147
 #, c-format
 msgid "rarp: cannot set entry from %s:%u\n"
-msgstr "rarp: 无法设置记录 %s:%u\n"
+msgstr ""
 
 #: ../rarp.c:176
 #, c-format
@@ -1192,29 +1082,23 @@ msgstr ""
 
 #: ../rarp.c:177
 #, c-format
-msgid ""
-"       rarp -d <hostname>                    delete entry from cache.\n"
-msgstr "       rarp -d <hostname>                    从缓存中删除记录\n"
+msgid "       rarp -d <hostname>                    delete entry from cache.\n"
+msgstr ""
 
 #: ../rarp.c:178
 #, c-format
 msgid "       rarp [<HW>] -s <hostname> <hwaddr>    add entry to cache.\n"
-msgstr "       rarp [<HW>] -s <hostname> <hwaddr>   向缓存中添加记录\n"
+msgstr ""
 
 #: ../rarp.c:179
 #, c-format
-msgid ""
-"       rarp -f                               add entries from /etc/ethers.\n"
-msgstr "       rarp -f                               从 /etc/ethers中添加记录\n"
+msgid "       rarp -f                               add entries from /etc/ethers.\n"
+msgstr ""
 
 #: ../rarp.c:180
 #, c-format
-msgid ""
-"       rarp -V                               display program version.\n"
-"\n"
+msgid "       rarp -V                               display program version.\n\n"
 msgstr ""
-"       rarp -V                               显示程序版本\n"
-"\n"
 
 #: ../rarp.c:238
 #, c-format
@@ -1224,49 +1108,37 @@ msgstr ""
 #: ../rarp.c:269
 #, c-format
 msgid "rarp: %s: unknown hardware type.\n"
-msgstr "rarp: %s: 未知硬件型号。\n"
+msgstr ""
 
 #: ../route.c:80
 #, c-format
-msgid ""
-"Usage: route [-nNvee] [-FC] [<AF>]           List kernel routing tables\n"
-msgstr "用法： route [-nNvee] [-FC] [<AF>]           显示核心路由表\n"
+msgid "Usage: route [-nNvee] [-FC] [<AF>]           List kernel routing tables\n"
+msgstr ""
 
 #: ../route.c:81
 #, c-format
-msgid ""
-"       route [-v] [-FC] {add|del|flush} ...  Modify routing table for AF.\n"
-"\n"
+msgid "       route [-v] [-FC] {add|del|flush} ...  Modify routing table for AF.\n\n"
 msgstr ""
-"       route [-v] [-FC] {add|del|flush} ...  为AF修改路由表。\n"
-"\n"
 
 #: ../route.c:83
 #, c-format
-msgid ""
-"       route {-h|--help} [<AF>]              Detailed usage syntax for "
-"specified AF.\n"
+msgid "       route {-h|--help} [<AF>]              Detailed usage syntax for specified AF.\n"
 msgstr ""
 
 #: ../route.c:84
 #, c-format
-msgid ""
-"       route {-V|--version}                  Display version/author and "
-"exit.\n"
-"\n"
+msgid "       route {-V|--version}                  Display version/author and exit.\n\n"
 msgstr ""
-"       route {-V|--version}                  显示版本和作者信息并退出。\n"
-"\n"
 
 #: ../route.c:92
 #, c-format
 msgid "  <AF>=Use '-A <af>' or '--<af>'; default: %s\n"
-msgstr "  <AF>=使用 '-A <af>' or '--<af>'; 默认: %s\n"
+msgstr ""
 
 #: ../plipconfig.c:66
 #, c-format
 msgid "Usage: plipconfig [-a] [-i] [-v] interface\n"
-msgstr "用法: plipconfig [-a] [-i] [-v] 接口\n"
+msgstr ""
 
 #: ../plipconfig.c:67
 #, c-format
@@ -1276,7 +1148,7 @@ msgstr ""
 #: ../plipconfig.c:68
 #, c-format
 msgid "       plipconfig -V | --version\n"
-msgstr "       plipconfig -V | --version\n"
+msgstr ""
 
 #: ../plipconfig.c:74
 #, c-format
@@ -1286,13 +1158,12 @@ msgstr ""
 #: ../iptunnel.c:85
 #, c-format
 msgid "Usage: iptunnel { add | change | del | show } [ NAME ]\n"
-msgstr "用法: iptunnel { add | change | del | show } [ NAME ]\n"
+msgstr ""
 
 #: ../iptunnel.c:86
 #, c-format
-msgid ""
-"          [ mode { ipip | gre | sit } ] [ remote ADDR ] [ local ADDR ]\n"
-msgstr "          [ 模式 { ipip | gre | sit } ] [ 远程地址 ] [ 本地地址 ]\n"
+msgid "          [ mode { ipip | gre | sit } ] [ remote ADDR ] [ local ADDR ]\n"
+msgstr ""
 
 #: ../iptunnel.c:87
 #, c-format
@@ -1306,12 +1177,8 @@ msgstr ""
 
 #: ../iptunnel.c:89
 #, c-format
-msgid ""
-"       iptunnel -V | --version\n"
-"\n"
+msgid "       iptunnel -V | --version\n\n"
 msgstr ""
-"       iptunnel -V | --version\n"
-"\n"
 
 #: ../iptunnel.c:90
 #, c-format
@@ -1346,7 +1213,7 @@ msgstr ""
 #: ../iptunnel.c:352
 #, c-format
 msgid "Broadcast tunnel requires a source address.\n"
-msgstr "广播需要一个源地址。\n"
+msgstr ""
 
 #: ../iptunnel.c:367
 #, c-format
@@ -1361,11 +1228,11 @@ msgstr ""
 #: ../iptunnel.c:417
 #, c-format
 msgid "%s: %s/ip  remote %s  local %s "
-msgstr "%s: %s/ip  远端 %s  本地 %s "
+msgstr ""
 
 #: ../iptunnel.c:421
 msgid "unknown"
-msgstr "未知"
+msgstr ""
 
 #: ../iptunnel.c:453
 #, c-format
@@ -1385,7 +1252,7 @@ msgstr ""
 #: ../iptunnel.c:459
 #, c-format
 msgid "  Checksum output packets.\n"
-msgstr "  校验发出的数据包。\n"
+msgstr ""
 
 #: ../iptunnel.c:487
 #, c-format
@@ -1395,7 +1262,7 @@ msgstr ""
 #: ../iptunnel.c:500
 #, c-format
 msgid "Failed to get type of [%s]\n"
-msgstr "获取 [%s]的类型失败\n"
+msgstr ""
 
 #: ../iptunnel.c:516
 #, c-format
@@ -1409,11 +1276,11 @@ msgstr ""
 
 #: ../statistics.c:47
 msgid "ICMP input histogram:"
-msgstr "ICMP接收历史"
+msgstr ""
 
 #: ../statistics.c:48
 msgid "ICMP output histogram:"
-msgstr "ICMP发出历史"
+msgstr ""
 
 #: ../statistics.c:65
 #, c-format
@@ -1423,32 +1290,32 @@ msgstr ""
 #: ../statistics.c:66
 #, c-format
 msgid "Default TTL is %u"
-msgstr "默认的TTL值是%u"
+msgstr ""
 
 #: ../statistics.c:67
 #, c-format
 msgid "%u total packets received"
-msgstr "共计收到%u个数据包"
+msgstr ""
 
 #: ../statistics.c:68
 #, c-format
 msgid "%u with invalid headers"
-msgstr "%u 的头无效"
+msgstr ""
 
 #: ../statistics.c:69
 #, c-format
 msgid "%u with invalid addresses"
-msgstr "%u 的地址无效"
+msgstr ""
 
 #: ../statistics.c:70
 #, c-format
 msgid "%u forwarded"
-msgstr "%u 已转发"
+msgstr ""
 
 #: ../statistics.c:71
 #, c-format
 msgid "%u with unknown protocol"
-msgstr "%u的协议未知"
+msgstr ""
 
 #: ../statistics.c:72
 #, c-format
@@ -1463,18 +1330,18 @@ msgstr ""
 #: ../statistics.c:74
 #, c-format
 msgid "%u requests sent out"
-msgstr "%u请求已发出"
+msgstr ""
 
 #. ?
 #: ../statistics.c:75
 #, c-format
 msgid "%u outgoing packets dropped"
-msgstr "%u 发出的报被抛弃"
+msgstr ""
 
 #: ../statistics.c:76
 #, c-format
 msgid "%u dropped because of missing route"
-msgstr "%u 被抛弃，因为没有路由"
+msgstr ""
 
 #: ../statistics.c:77
 #, c-format
@@ -1525,7 +1392,7 @@ msgstr ""
 #: ../statistics.c:90 ../statistics.c:103
 #, c-format
 msgid "destination unreachable: %u"
-msgstr "目的地址不可达：%u"
+msgstr ""
 
 #: ../statistics.c:91
 #, c-format
@@ -1734,8 +1601,7 @@ msgstr ""
 
 #: ../statistics.c:154
 #, c-format
-msgid ""
-"%u packets dropped from out-of-order queue because of socket buffer overrun"
+msgid "%u packets dropped from out-of-order queue because of socket buffer overrun"
 msgstr ""
 
 #: ../statistics.c:156
@@ -2030,11 +1896,11 @@ msgstr ""
 
 #: ../statistics.c:292
 msgid "enabled"
-msgstr "启用"
+msgstr ""
 
 #: ../statistics.c:292
 msgid "disabled"
-msgstr "禁用"
+msgstr ""
 
 #: ../statistics.c:375
 msgid "error parsing /proc/net/snmp"
@@ -2056,7 +1922,7 @@ msgstr ""
 
 #: ../lib/af.c:153 ../lib/hw.c:161
 msgid "UNSPEC"
-msgstr "未指定"
+msgstr ""
 
 #: ../lib/af.c:155
 msgid "UNIX Domain"
@@ -2068,7 +1934,7 @@ msgstr ""
 
 #: ../lib/af.c:161
 msgid "IPv6"
-msgstr "IPv6"
+msgstr ""
 
 #: ../lib/af.c:164 ../lib/hw.c:182
 msgid "AMPR AX.25"
@@ -2224,7 +2090,7 @@ msgstr ""
 
 #: ../lib/hw.c:160
 msgid "Local Loopback"
-msgstr "本地环回"
+msgstr ""
 
 #: ../lib/hw.c:163
 msgid "Serial Line IP"
@@ -2248,7 +2114,7 @@ msgstr ""
 
 #: ../lib/hw.c:170
 msgid "Ethernet"
-msgstr "以太网"
+msgstr ""
 
 #: ../lib/hw.c:176
 msgid "Fiber Distributed Data Interface"
@@ -2268,7 +2134,7 @@ msgstr ""
 
 #: ../lib/hw.c:197
 msgid "Point-to-Point Protocol"
-msgstr "点对点协议"
+msgstr ""
 
 #: ../lib/hw.c:200
 msgid "(Cisco)-HDLC"
@@ -2292,19 +2158,19 @@ msgstr ""
 
 #: ../lib/hw.c:211
 msgid "IPv6-in-IPv4"
-msgstr "IPv6-in-IPv4"
+msgstr ""
 
 #: ../lib/hw.c:214
 msgid "IrLAP"
-msgstr "IrLAP"
+msgstr ""
 
 #: ../lib/hw.c:217
 msgid "16/4 Mbps Token Ring"
-msgstr "16/4 Mbps 令牌环"
+msgstr ""
 
 #: ../lib/hw.c:219
 msgid "16/4 Mbps Token Ring (New)"
-msgstr "16/4 Mbps 令牌环 (新)"
+msgstr ""
 
 #: ../lib/hw.c:226
 msgid "Generic EUI-64"
@@ -2317,23 +2183,21 @@ msgstr ""
 
 #: ../lib/inet6.c:131
 msgid "[UNKNOWN]"
-msgstr "[未知]"
+msgstr ""
 
 #: ../lib/inet6_gr.c:71
 #, c-format
 msgid "INET6 (IPv6) not configured in this system.\n"
-msgstr "此系统未配置 INET6 (IPv6)。\n"
+msgstr ""
 
 #: ../lib/inet6_gr.c:74
 #, c-format
 msgid "Kernel IPv6 routing table\n"
-msgstr "内核 IPv6 路由表\n"
+msgstr ""
 
 #: ../lib/inet6_gr.c:76
 #, c-format
-msgid ""
-"Destination                                 Next Hop                         "
-"       Flags Metric Ref    Use Iface\n"
+msgid "Destination                                 Next Hop                                Flags Metric Ref    Use Iface\n"
 msgstr ""
 
 #: ../lib/inet6_gr.c:150
@@ -2343,16 +2207,12 @@ msgstr ""
 
 #: ../lib/inet6_gr.c:153
 #, c-format
-msgid ""
-"Neighbour                                   HW Address        Iface    Flags "
-"Ref State\n"
+msgid "Neighbour                                   HW Address        Iface    Flags Ref State\n"
 msgstr ""
 
 #: ../lib/inet6_gr.c:157
 #, c-format
-msgid ""
-"Neighbour                                   HW Address        Iface    Flags "
-"Ref State            Stale(sec) Delete(sec)\n"
+msgid "Neighbour                                   HW Address        Iface    Flags Ref State            Stale(sec) Delete(sec)\n"
 msgstr ""
 
 #: ../lib/inet6_sr.c:46
@@ -2378,84 +2238,66 @@ msgstr ""
 #: ../lib/inet_gr.c:50 ../lib/inet_gr.c:220
 #, c-format
 msgid "INET (IPv4) not configured in this system.\n"
-msgstr "此系统未配置 INET (IPv4)。\n"
+msgstr ""
 
 #: ../lib/inet_gr.c:53
 #, c-format
 msgid "Kernel IP routing table\n"
-msgstr "内核 IP 路由表\n"
+msgstr ""
 
 #: ../lib/inet_gr.c:56
 #, c-format
-msgid ""
-"Destination     Gateway         Genmask         Flags Metric Ref    Use "
-"Iface\n"
-msgstr "目标            网关            子网掩码        标志  跃点   引用  使用 接口\n"
+msgid "Destination     Gateway         Genmask         Flags Metric Ref    Use Iface\n"
+msgstr ""
 
 #: ../lib/inet_gr.c:59
 #, c-format
-msgid ""
-"Destination     Gateway         Genmask         Flags   MSS Window  irtt "
-"Iface\n"
+msgid "Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface\n"
 msgstr ""
 
 #: ../lib/inet_gr.c:62
 #, c-format
-msgid ""
-"Destination     Gateway         Genmask         Flags Metric Ref    Use "
-"Iface    MSS   Window irtt\n"
+msgid "Destination     Gateway         Genmask         Flags Metric Ref    Use Iface    MSS   Window irtt\n"
 msgstr ""
 
 #: ../lib/inet_gr.c:237
 #, c-format
 msgid "Kernel IP routing cache\n"
-msgstr "内核 IP 路由缓存\n"
+msgstr ""
 
 #: ../lib/inet_gr.c:258
 #, c-format
-msgid ""
-"Source          Destination     Gateway         Flags Metric Ref    Use "
-"Iface\n"
+msgid "Source          Destination     Gateway         Flags Metric Ref    Use Iface\n"
 msgstr ""
 
 #: ../lib/inet_gr.c:261
 #, c-format
-msgid ""
-"Source          Destination     Gateway         Flags   MSS Window  irtt "
-"Iface\n"
+msgid "Source          Destination     Gateway         Flags   MSS Window  irtt Iface\n"
 msgstr ""
 
 #: ../lib/inet_gr.c:266
 #, c-format
-msgid ""
-"Source          Destination     Gateway         Flags Metric Ref    Use "
-"Iface    MSS   Window irtt  HH  Arp\n"
+msgid "Source          Destination     Gateway         Flags Metric Ref    Use Iface    MSS   Window irtt  HH  Arp\n"
 msgstr ""
 
 #: ../lib/inet_gr.c:290
 #, c-format
-msgid ""
-"Source          Destination     Gateway         Flags Metric Ref    Use "
-"Iface    MSS   Window irtt  TOS HHRef HHUptod     SpecDst\n"
+msgid "Source          Destination     Gateway         Flags Metric Ref    Use Iface    MSS   Window irtt  TOS HHRef HHUptod     SpecDst\n"
 msgstr ""
 
 #: ../lib/inet_sr.c:51
 #, c-format
-msgid ""
-"Usage: inet_route [-vF] del {-host|-net} Target[/prefix] [gw Gw] [metric M] "
-"[[dev] If]\n"
+msgid "Usage: inet_route [-vF] del {-host|-net} Target[/prefix] [gw Gw] [metric M] [[dev] If]\n"
 msgstr ""
 
 #: ../lib/inet_sr.c:52
 #, c-format
-msgid ""
-"       inet_route [-vF] add {-host|-net} Target[/prefix] [gw Gw] [metric M]\n"
+msgid "       inet_route [-vF] add {-host|-net} Target[/prefix] [gw Gw] [metric M]\n"
 msgstr ""
 
 #: ../lib/inet_sr.c:53
 #, c-format
-msgid ""
-"                              [netmask N] [mss Mss] [window W] [irtt I]\n"
+msgid "                              [netmask N] [mss Mss] [window W] [irtt I]\n"
 msgstr ""
 
 #: ../lib/inet_sr.c:54
@@ -2465,8 +2307,7 @@ msgstr ""
 
 #: ../lib/inet_sr.c:55
 #, c-format
-msgid ""
-"       inet_route [-vF] add {-host|-net} Target[/prefix] [metric M] reject\n"
+msgid "       inet_route [-vF] add {-host|-net} Target[/prefix] [metric M] reject\n"
 msgstr ""
 
 #: ../lib/inet_sr.c:56
@@ -2552,9 +2393,7 @@ msgstr ""
 
 #: ../lib/masq_info.c:204
 #, c-format
-msgid ""
-"prot   expire    initseq delta prevd source               destination        "
-"  ports\n"
+msgid "prot   expire    initseq delta prevd source               destination          ports\n"
 msgstr ""
 
 #: ../lib/netrom_gr.c:48
@@ -2639,11 +2478,11 @@ msgstr ""
 #: ../lib/interface.c:575
 #, c-format
 msgid "%s: error fetching interface information: %s\n"
-msgstr "%s: 获取接口信息时发生错误: %s\n"
+msgstr ""
 
 #: ../lib/interface.c:608
 msgid "     - no statistics available -"
-msgstr "     - 没有可用的统计信息 -"
+msgstr ""
 
 #: ../lib/interface.c:612
 #, c-format
@@ -2653,47 +2492,47 @@ msgstr ""
 #: ../lib/interface.c:688
 #, c-format
 msgid "%-9.9s Link encap:%s  "
-msgstr "%-9.9s 链路封装:%s  "
+msgstr ""
 
 #: ../lib/interface.c:693
 #, c-format
 msgid "HWaddr %s  "
-msgstr "硬件地址 %s  "
+msgstr ""
 
 #: ../lib/interface.c:696
 #, c-format
 msgid "Media:%s"
-msgstr "媒介:%s"
+msgstr ""
 
 #: ../lib/interface.c:698
 #, c-format
 msgid "(auto)"
-msgstr "(自动)"
+msgstr ""
 
 #: ../lib/interface.c:705
 #, c-format
 msgid "          %s addr:%s "
-msgstr "          %s 地址:%s "
+msgstr ""
 
 #: ../lib/interface.c:708
 #, c-format
 msgid " P-t-P:%s "
-msgstr " 点对点:%s "
+msgstr ""
 
 #: ../lib/interface.c:711
 #, c-format
 msgid " Bcast:%s "
-msgstr " 广播:%s "
+msgstr ""
 
 #: ../lib/interface.c:713
 #, c-format
 msgid " Mask:%s\n"
-msgstr " 掩码:%s\n"
+msgstr ""
 
 #: ../lib/interface.c:730
 #, c-format
 msgid "          inet6 addr: %s/%d"
-msgstr "          inet6 地址: %s/%d"
+msgstr ""
 
 #: ../lib/interface.c:732
 #, c-format
@@ -2839,7 +2678,7 @@ msgstr ""
 #: ../lib/interface.c:832
 #, c-format
 msgid " MTU:%d  Metric:%d"
-msgstr " MTU:%d  跃点数:%d"
+msgstr ""
 
 #: ../lib/interface.c:836
 #, c-format
@@ -2849,49 +2688,49 @@ msgstr ""
 #: ../lib/interface.c:850
 #, c-format
 msgid "RX packets:%llu errors:%lu dropped:%lu overruns:%lu frame:%lu\n"
-msgstr "接收数据包:%llu 错误:%lu 丢弃:%lu 过载:%lu 帧数:%lu\n"
+msgstr ""
 
 #: ../lib/interface.c:855
 #, c-format
 msgid "             compressed:%lu\n"
-msgstr "             压缩:%lu\n"
+msgstr ""
 
 #: ../lib/interface.c:895
 #, c-format
 msgid "TX packets:%llu errors:%lu dropped:%lu overruns:%lu carrier:%lu\n"
-msgstr "发送数据包:%llu 错误:%lu 丢弃:%lu 过载:%lu 载波:%lu\n"
+msgstr ""
 
 #: ../lib/interface.c:899
 #, c-format
 msgid "          collisions:%lu "
-msgstr "          碰撞:%lu "
+msgstr ""
 
 #: ../lib/interface.c:901
 #, c-format
 msgid "compressed:%lu "
-msgstr "压缩:%lu "
+msgstr ""
 
 #: ../lib/interface.c:903
 #, c-format
 msgid "txqueuelen:%d "
-msgstr "发送队列长度:%d "
+msgstr ""
 
 #: ../lib/interface.c:905
 #, c-format
 msgid "RX bytes:%llu (%lu.%lu %s)  TX bytes:%llu (%lu.%lu %s)\n"
-msgstr "接收字节:%llu (%lu.%lu %s)  发送字节:%llu (%lu.%lu %s)\n"
+msgstr ""
 
 #: ../lib/interface.c:916
 #, c-format
 msgid "Interrupt:%d "
-msgstr "中断:%d "
+msgstr ""
 
 #. Only print devices using it for
 #. I/O maps
 #: ../lib/interface.c:919
 #, c-format
 msgid "Base address:0x%x "
-msgstr "基本地址:0x%x "
+msgstr ""
 
 #: ../lib/interface.c:921
 #, c-format
@@ -2901,7 +2740,7 @@ msgstr ""
 #: ../lib/interface.c:924
 #, c-format
 msgid "DMA chan:%x "
-msgstr "DMA通道:%x "
+msgstr ""
 
 #: ../lib/sockets.c:63
 #, c-format
@@ -3036,3 +2875,4 @@ msgstr ""
 #, c-format
 msgid " interface %s\n"
 msgstr ""
+

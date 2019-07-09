@@ -1,158 +1,128 @@
-# Ukrainian translation for xdiagnose
-# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
-# This file is distributed under the same license as the xdiagnose package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: xdiagnose\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2017-08-31 10:46+0000\n"
-"PO-Revision-Date: 2013-03-17 17:00+0000\n"
-"Last-Translator: Yuri Chornoivan <yurchor@gmail.com>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:27\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 13:01+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/xdiagnose.po\n"
+"Language: uk_UA\n"
 
 #: ../com.canonical.xdiagnose.policy.in.h:1
 msgid "Authentication is needed to diagnose graphics issues"
-msgstr "Для діагностування проблем з графікою слід пройти розпізнавання"
+msgstr ""
 
 #: ../xdiagnose.desktop.in.h:1
 msgid "xdiagnose"
-msgstr "xdiagnose"
+msgstr ""
 
 #: ../xdiagnose.desktop.in.h:2
 msgid "Diagnose Graphics Issues"
-msgstr "Діагностика вад графічного відтворення"
+msgstr ""
 
 #: ../xdiagnose.desktop.in.h:3
 msgid "X.org Diagnostic and Repair Utility"
-msgstr "Програма для діагностики та відновлення X.org"
+msgstr ""
 
 #: ../bin/xdiagnose:81
 msgid "Troubleshoot failure to start a graphical X11 session"
-msgstr "Засобу діагностики не вдалося запустити графічний сеанс X11"
+msgstr ""
 
 #: ../bin/dpkg-log-summary:130
 msgid "List dates on which updates were performed"
-msgstr "Показати список дат, коли виконувалися оновлення"
+msgstr ""
 
 #: ../bin/dpkg-log-summary:134
 msgid "Only include entries from this date forward (YYYY/MM/DD)"
-msgstr "Включати записи лише після вказної дати (РРРР/ММ/ДД)"
+msgstr ""
 
 #: ../bin/dpkg-log-summary:138
 msgid "Only include entries from this date and earlier (YYYY/MM/DD)"
-msgstr "Включати записи лише до вказної дати (РРРР/ММ/ДД)"
+msgstr ""
 
 #: ../xdiagnose/applet.py:62
 msgid "X Diagnostics Settings"
-msgstr "Параметри діагностики графічного сервера"
+msgstr ""
 
 #: ../xdiagnose/applet.py:74
 msgid "Debug"
-msgstr "Діагностика"
+msgstr ""
 
 #: ../xdiagnose/applet.py:75
 msgid "Extra graphics _debug messages"
-msgstr "Додаткові _діагностичні повідомлення"
+msgstr ""
 
 #: ../xdiagnose/applet.py:76
-msgid ""
-"Makes dmesg logs more verbose with details about 3d, plymouth, and monitor "
-"detection"
+msgid "Makes dmesg logs more verbose with details about 3d, plymouth, and monitor detection"
 msgstr ""
-"Робить журнал dmesg докладнішим щодо прискорення обробки просторової "
-"графіки, plymouth та визначення режиму монітора"
 
 #: ../xdiagnose/applet.py:79
 msgid "Display boot messages"
-msgstr "Показувати повідомлення під час завантаження"
+msgstr ""
 
 #: ../xdiagnose/applet.py:80
-msgid ""
-"Removes splash and quiet from kernel options so you can see kernel details "
-"during boot"
+msgid "Removes splash and quiet from kernel options so you can see kernel details during boot"
 msgstr ""
-"Вилучає параметри splash і quiet зі списку параметрів ядра, щоб можна було "
-"бачити подробиці щодо завантаження"
 
 #: ../xdiagnose/applet.py:83
 msgid "Enable automatic crash bug reporting"
-msgstr "Увімкнути систему автоматичного звітування про вади"
+msgstr ""
 
 #: ../xdiagnose/applet.py:84
 msgid "Turns on the Apport crash detection and bug reporting tool"
 msgstr ""
-"Вмикає інструмент автоматичного виявлення аварій та збирання даних щодо вад "
-"Apport"
 
 #: ../xdiagnose/applet.py:89
 msgid "Workarounds"
-msgstr "Обхідні шляхи"
+msgstr ""
 
 #: ../xdiagnose/applet.py:90
 msgid "Disable bootloader _graphics"
-msgstr "Вимкнути _графічний завантажувач"
+msgstr ""
 
 #: ../xdiagnose/applet.py:91
-msgid ""
-"The grub bootloader has a graphics mode using the VESA framebuffer driver "
-"which can sometimes interfere with later loading of the proper video driver. "
-" Checking this forces grub to use text mode only."
+msgid "The grub bootloader has a graphics mode using the VESA framebuffer driver which can sometimes interfere with later loading of the proper video driver.  Checking this forces grub to use text mode only."
 msgstr ""
-"У програмі для завантаження grub використано графічний режим, який працює за "
-"допомогою буфера кадрів VESA. Іноді це призводити до конфлікту з належним "
-"відеодрайвером, який завантажується пізніше. Позначення цього пункту "
-"примусить grub використовувати лише текстовий режим."
 
 #: ../xdiagnose/applet.py:94
 msgid "Disable _VESA framebuffer driver"
-msgstr "Вимкнути драйвер _буфера кадрів VESA"
+msgstr ""
 
 #: ../xdiagnose/applet.py:95
-msgid ""
-"vesafb is loaded early during boot so the boot logo can display, but can "
-"cause issues when switching to a real graphics driver.  Checking this "
-"prevents vesafb from loading so these issues do not occur."
+msgid "vesafb is loaded early during boot so the boot logo can display, but can cause issues when switching to a real graphics driver.  Checking this prevents vesafb from loading so these issues do not occur."
 msgstr ""
-"Модуль vesafb завантажується на початкових кроках з метою показу логотипу, "
-"але його використання може призвести до проблем під час перемикання на "
-"робочий відеодрайвер. Позначення цього пункту заборонить системі "
-"завантажувати модуль vesafb, отже такі проблеми просто не зможуть виникнути."
 
 #: ../xdiagnose/applet.py:98
 msgid "Disable _PAT memory"
-msgstr "Вимкнути PAT-_пам’ять"
+msgstr ""
 
 #: ../xdiagnose/applet.py:99
-msgid ""
-"This pagetable extension can interfere with the memory management of "
-"proprietary drivers under certain situations and cause lagging or failures "
-"to allocate video memory, so turning it off can prevent those problems."
+msgid "This pagetable extension can interfere with the memory management of proprietary drivers under certain situations and cause lagging or failures to allocate video memory, so turning it off can prevent those problems."
 msgstr ""
-"Цей додаток таблиці сторінок за певних умов може конфліктувати з "
-"інструментами керування пам’яттю закритих драйверів, що спричиняє до "
-"затримок або помилок під час отримання областей у відеопам’яті. Вимикання "
-"додатка може усунути можливі проблеми."
 
 #: ../xdiagnose/applet.py:140
 msgid "View Errors"
-msgstr "Переглянути помилки"
+msgstr ""
 
 #: ../xdiagnose/applet.py:144
 msgid "Report an Xorg Bug"
-msgstr "Сповістити про ваду у Xorg"
+msgstr ""
 
 #: ../xdiagnose/errors_treeview.py:37
 msgid "Xorg Error Messages"
-msgstr "Повідомлення про помилки Xorg"
+msgstr ""
 
 #. create the TreeViewColumn to display the data
 #: ../xdiagnose/errors_treeview.py:53
 msgid "Error Message"
-msgstr "Повідомлення про помилку"
+msgstr ""
+

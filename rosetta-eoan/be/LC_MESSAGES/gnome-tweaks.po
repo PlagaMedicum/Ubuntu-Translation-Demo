@@ -1,24 +1,22 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-tweaks/issues\n"
 "POT-Creation-Date: 2019-03-11 23:42+0000\n"
-"PO-Revision-Date: 2019-03-12 01:36+0000\n"
-"Last-Translator: Jim <Unknown>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2019-07-08 19:25\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
 "X-Launchpad-Export-Date: 2019-05-11 13:43+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"X-Project-Style: gnome\n"
 "Language: be_BY\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/gnome-tweaks.po\n"
 
 #: data/org.gnome.tweaks.appdata.xml.in:9 gtweak/app.py:23 gtweak/utils.py:332
 #: gtweak/utils.py:349
@@ -31,17 +29,11 @@ msgstr "Дабудова прасунутых наладаў GNOME 3"
 
 #: data/org.gnome.tweaks.appdata.xml.in:12
 msgid "GNOME Tweaks allows adjusting advanced GNOME options."
-msgstr ""
-"Дабудова асяроддзя GNOME дазваляе папраўляць прасунутыя магчымасці GNOME."
+msgstr "Дабудова асяроддзя GNOME дазваляе папраўляць прасунутыя магчымасці GNOME."
 
 #: data/org.gnome.tweaks.appdata.xml.in:15
-msgid ""
-"It can install and manage themes and extensions, change power settings, "
-"manage startup applications, and enable desktop icons among other settings."
-msgstr ""
-"Яна дазваляе ўсталёўваць і кіраваць тэмамі і пашырэннямі, змяняць налады "
-"сілкавання, кіраваць стартавымі дастасаванямі і ўключаць значкі на працоўным "
-"стале акрамя іншых установак."
+msgid "It can install and manage themes and extensions, change power settings, manage startup applications, and enable desktop icons among other settings."
+msgstr "Яна дазваляе ўсталёўваць і кіраваць тэмамі і пашырэннямі, змяняць налады сілкавання, кіраваць стартавымі дастасаванямі і ўключаць значкі на працоўным стале акрамя іншых установак."
 
 #: data/org.gnome.tweaks.desktop.in:3 gtweak/tweakview.py:84
 msgid "Tweaks"
@@ -54,10 +46,8 @@ msgstr "org.gnome.tweaks"
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
 #: data/org.gnome.tweaks.desktop.in:14
-msgid ""
-"Settings;Advanced;Preferences;Extensions;Fonts;Theme;XKB;Keyboard;Typing;"
-msgstr ""
-"Устаноўкі;Прасунутыя;Параметры;Пашырэнні;Шрыфты;Тэмы;XKB;Клавіятура;Друк;"
+msgid "Settings;Advanced;Preferences;Extensions;Fonts;Theme;XKB;Keyboard;Typing;"
+msgstr "Устаноўкі;Прасунутыя;Параметры;Пашырэнні;Шрыфты;Тэмы;XKB;Клавіятура;Друк;"
 
 #: data/shell.ui:7
 msgid "_Reset to Defaults"
@@ -124,7 +114,7 @@ msgstr "Памылка запісу наладаў"
 
 #: gtweak/tweaks/tweak_group_appearance.py:94
 msgid "Icons"
-msgstr "Значкі працоўнага стала"
+msgstr "Значкі"
 
 #: gtweak/tweaks/tweak_group_appearance.py:109
 msgid "Cursor"
@@ -291,18 +281,22 @@ msgid "Fonts"
 msgstr "Шрыфты"
 
 #: gtweak/tweaks/tweak_group_font.py:100
+#| msgid "Interface"
 msgid "Interface Text"
 msgstr "Тэкст інтэрфэйсу"
 
 #: gtweak/tweaks/tweak_group_font.py:101
+#| msgid "Document"
 msgid "Document Text"
 msgstr "Тэкст дакументаў"
 
 #: gtweak/tweaks/tweak_group_font.py:102
+#| msgid "Monospace"
 msgid "Monospace Text"
 msgstr "Тэкст фіксаваная шырыні"
 
 #: gtweak/tweaks/tweak_group_font.py:103
+#| msgid "Window Title"
 msgid "Legacy Window Titles"
 msgstr "Састарэлыя загалоўкі акна"
 
@@ -324,12 +318,8 @@ msgid "Over-Amplification"
 msgstr "Пераўзмацненне"
 
 #: gtweak/tweaks/tweak_group_general.py:58
-msgid ""
-"Allows raising the volume above 100%. This can result in a loss of audio "
-"quality; it is better to increase application volume settings, if possible."
-msgstr ""
-"Дазваляе павялічваць гук звыш 100%. У выніку якасць гука можа пагоршыцца; "
-"лепей павялічыць гук у настройках дастасавання, калі гэта магчыма."
+msgid "Allows raising the volume above 100%. This can result in a loss of audio quality; it is better to increase application volume settings, if possible."
+msgstr "Дазваляе павялічваць гук звыш 100%. У выніку якасць гука можа пагоршыцца; лепей павялічыць гук у настройках дастасавання, калі гэта магчыма."
 
 #: gtweak/tweaks/tweak_group_keymouse.py:21
 msgid "Emacs Input"
@@ -406,20 +396,10 @@ msgid "Allows entering additional characters."
 msgstr "Дазваляе ўвод дадатковых сімвалаў."
 
 #: gtweak/tweaks/tweak_group_keymouse.py:126
-msgid ""
-"The compose key allows a wide variety of characters to be entered. To use "
-"it, press the compose key and then a sequence of characters.\n"
-"\n"
-"Many unusual characters can be entered by combining standard ones. For "
-"example, compose key followed by <b>C</b> and <b>o</b> will enter <b>©</b>, "
-"<b>a</b> followed by <b>'</b> will enter <b>á</b>.\n"
-msgstr ""
-"Кампазіцыйная кнопка дазваляе ўводзіць разнастайныя сімвалы. Каб пачаць ёй "
-"карыстацца націсніце кампазіцыйную кнопку і паслядоўнасць сімвалаў.\n"
-"\n"
-"Шмат незвычайных сімвалаў можа быць уведзена праз аб'яднанне стандартных. "
-"Напрыклад націснуўны кампазіцыйную кпонку, а потым <b>C</b> і <b>o</b> "
-"атрымаецца <b>©</b>, <b>a</b> пасля <b>'</b> атрымаецца <b>á</b>.\n"
+msgid "The compose key allows a wide variety of characters to be entered. To use it, press the compose key and then a sequence of characters.\n\n"
+"Many unusual characters can be entered by combining standard ones. For example, compose key followed by <b>C</b> and <b>o</b> will enter <b>©</b>, <b>a</b> followed by <b>'</b> will enter <b>á</b>.\n"
+msgstr "Кампазіцыйная кнопка дазваляе ўводзіць разнастайныя сімвалы. Каб пачаць ёй карыстацца націсніце кампазіцыйную кнопку і паслядоўнасць сімвалаў.\n\n"
+"Шмат незвычайных сімвалаў можа быць уведзена праз аб'яднанне стандартных. Напрыклад націснуўны кампазіцыйную кпонку, а потым <b>C</b> і <b>o</b> атрымаецца <b>©</b>, <b>a</b> пасля <b>'</b> атрымаецца <b>á</b>.\n"
 
 #: gtweak/tweaks/tweak_group_keymouse.py:189
 msgid "Overview Shortcut"
@@ -444,24 +424,16 @@ msgid "Fingers"
 msgstr "Пальцы"
 
 #: gtweak/tweaks/tweak_group_keymouse.py:273
-msgid ""
-"Click the touchpad with two fingers for right-click and three fingers for "
-"middle-click."
-msgstr ""
-"Пстрыкніце па чулай панэлі двума пальцамі каб атрымаць пстрычку правай "
-"кнопкай, ці трыма пальцамі, каб атрымаць пстрычку сярэдняй кнопкай."
+msgid "Click the touchpad with two fingers for right-click and three fingers for middle-click."
+msgstr "Пстрыкніце па чулай панэлі двума пальцамі каб атрымаць пстрычку правай кнопкай, ці трыма пальцамі, каб атрымаць пстрычку сярэдняй кнопкай."
 
 #: gtweak/tweaks/tweak_group_keymouse.py:297
 msgid "Area"
 msgstr "Край"
 
 #: gtweak/tweaks/tweak_group_keymouse.py:299
-msgid ""
-"Click the bottom right of the touchpad for right-click and the bottom middle "
-"for middle-click."
-msgstr ""
-"Пстрыкніце па ніжнім правым краі чулай панэлі каб атрымаць пстрычку правай "
-"кнопкай, ці ў сярэдзіне ніжняга краю каб атрымаць пстрычку сярэдняй кнопкай."
+msgid "Click the bottom right of the touchpad for right-click and the bottom middle for middle-click."
+msgstr "Пстрыкніце па ніжнім правым краі чулай панэлі каб атрымаць пстрычку правай кнопкай, ці ў сярэдзіне ніжняга краю каб атрымаць пстрычку сярэдняй кнопкай."
 
 #: gtweak/tweaks/tweak_group_keymouse.py:325
 msgid "Don’t use mouse click emulation."
@@ -553,8 +525,7 @@ msgstr "Пашырэнні"
 
 #: gtweak/tweaks/tweak_group_startup.py:30
 msgid "Startup applications are automatically started when you log in."
-msgstr ""
-"Запуск пашырэнняў пачынаецца аўтаматычна калі вы ўваходзіце ў сістэму."
+msgstr "Запуск пашырэнняў пачынаецца аўтаматычна калі вы ўваходзіце ў сістэму."
 
 #: gtweak/tweaks/tweak_group_startup.py:31
 #: gtweak/tweaks/tweak_group_startup.py:305
@@ -568,7 +539,7 @@ msgstr "Пошук дастасаванняў…"
 #. Translators: This is the accelerator for opening the AppChooser search-bar
 #: gtweak/tweaks/tweak_group_startup.py:58
 msgid "<primary>f"
-msgstr "<primary>f"
+msgstr ""
 
 #: gtweak/tweaks/tweak_group_startup.py:77
 msgid "running"
@@ -611,6 +582,7 @@ msgid "Right"
 msgstr "Управа"
 
 #: gtweak/tweaks/tweak_group_title_bar.py:108
+#| msgid "Window Title"
 msgid "Window Titlebars"
 msgstr "Стужка загалоўка вакна"
 
@@ -700,24 +672,17 @@ msgid "Windows are focused when they are clicked."
 msgstr "Вокны становяцца актыўнымі пасля націску."
 
 #: gtweak/tweaks/tweak_group_windows.py:62
+#| msgid "Focus Mode"
 msgid "Focus on Hover"
 msgstr "Актывацыя пры навядзенні"
 
 #: gtweak/tweaks/tweak_group_windows.py:64
-msgid ""
-"Window is focused when hovered with the pointer. Windows remain focused when "
-"the desktop is hovered."
-msgstr ""
-"Акно становіцца актыўным, калі курсор перамяшчаецца над ім. Навядзенне "
-"курсора на працоўны стол не знімае актыўнасць вокнаў."
+msgid "Window is focused when hovered with the pointer. Windows remain focused when the desktop is hovered."
+msgstr "Акно становіцца актыўным, калі курсор перамяшчаецца над ім. Навядзенне курсора на працоўны стол не знімае актыўнасць вокнаў."
 
 #: gtweak/tweaks/tweak_group_windows.py:90
-msgid ""
-"Window is focused when hovered with the pointer. Hovering the desktop "
-"removes focus from the previous window."
-msgstr ""
-"Вакно становіцца актыўным, калі курсор перамяшчаецца над імі. Навядзецце "
-"курсора на працоўны стол знімае актыўнасць папярэдняга акна."
+msgid "Window is focused when hovered with the pointer. Hovering the desktop removes focus from the previous window."
+msgstr "Вакно становіцца актыўным, калі курсор перамяшчаецца над імі. Навядзецце курсора на працоўны стол знімае актыўнасць папярэдняга акна."
 
 #: gtweak/tweaks/tweak_group_windows.py:129
 msgid "Window scaling"
@@ -734,6 +699,7 @@ msgid_plural "Settings will be reverted in {0} seconds"
 msgstr[0] "Налады будуць адноўленыя праз {0} секунду"
 msgstr[1] "Налады будуць адноўленыя праз {0} секунды"
 msgstr[2] "Налады будуць адноўленыя праз {0} секунд"
+msgstr[3] ""
 
 #: gtweak/tweaks/tweak_group_windows.py:173
 msgid "Do you want to keep these HiDPI settings?"
@@ -749,7 +715,7 @@ msgstr "Пакінуць налады"
 
 #: gtweak/tweaks/tweak_group_windows.py:197
 msgid "HiDPI"
-msgstr "HiDPI"
+msgstr ""
 
 #: gtweak/tweaks/tweak_group_windows.py:203
 msgid "Windows"
@@ -760,12 +726,8 @@ msgid "Attach Modal Dialogs"
 msgstr "Далучаныя мадальныя дыялогавыя вокны"
 
 #: gtweak/tweaks/tweak_group_windows.py:205
-msgid ""
-"When on, modal dialog windows are attached to their parent windows, and "
-"cannot be moved."
-msgstr ""
-"Калі ўключана, далучэнні мадальных дыялогавых вокнаў будуць далучаны на "
-"бацькоўскага вакна і ня змогуць быць выдалены."
+msgid "When on, modal dialog windows are attached to their parent windows, and cannot be moved."
+msgstr "Калі ўключана, далучэнні мадальных дыялогавых вокнаў будуць далучаны на бацькоўскага вакна і ня змогуць быць выдалены."
 
 #. https://help.gnome.org/users/gnome-help/stable/shell-windows-tiled.html
 #: gtweak/tweaks/tweak_group_windows.py:207
@@ -774,8 +736,7 @@ msgstr "Кафляване па краі"
 
 #: gtweak/tweaks/tweak_group_windows.py:208
 msgid "When on, windows are tiled when dragged to screen edges."
-msgstr ""
-"Калі ўключана, вокны будуць кафлявацца пры набліжэнні да краёў экрана."
+msgstr "Калі ўключана, вокны будуць кафлявацца пры набліжэнні да краёў экрана."
 
 #: gtweak/tweaks/tweak_group_windows.py:209
 msgid "Center New Windows"
@@ -798,12 +759,8 @@ msgid "Dynamic Workspaces"
 msgstr "Дынамічныя працоўныя прасторы"
 
 #: gtweak/tweaks/tweak_group_workspaces.py:38
-msgid ""
-"Workspaces can be created on demand, and are automatically removed when "
-"empty."
-msgstr ""
-"Працоўныя прасторы могуць быць створаныя па патрабаванні і аўтаматычна "
-"выдаленыя калі застануцца пустымі."
+msgid "Workspaces can be created on demand, and are automatically removed when empty."
+msgstr "Працоўныя прасторы могуць быць створаныя па патрабаванні і аўтаматычна выдаленыя калі застануцца пустымі."
 
 #: gtweak/tweaks/tweak_group_workspaces.py:62
 msgid "Static Workspaces"
@@ -873,3 +830,4 @@ msgstr "Вашу сесію трэба перазапусціць каб нал�
 #: gtweak/utils.py:356
 msgid "Restart Session"
 msgstr "Перазапусціць сесію"
+

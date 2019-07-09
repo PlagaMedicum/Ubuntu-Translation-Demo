@@ -1,26 +1,28 @@
-# Ukrainian translation of control-center.
+# English (British)
 # Copyright (C) 1999 Free Software Foundation, Inc.
-# Yuri Syrota <rasta@renome.rovno.ua>, 1999.
-# Maxim Dzumanenko <dziumanenko@gmail.com>, 2002-2009
-# Daniel Korostil <ted.korostiled@gmail.com>, 2012, 2014, 2015.
+# Robert Brady <rwb197@ecs.soton.ac.uk>
+# Gareth Owen <gowen72@yahoo.com>, David Lodge <dave@cirt.net>, 2004.
+# Bruce Cowan <bruce@bcowan.me.uk>, 2009, 2010, 2011, 2012, 2013, 2018.
+# Philip Withnall <philip@tecnocode.co.uk>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"settings-daemon&keywords=I18N+L10N&component=general\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-settings-daemon/issues\n"
 "POT-Creation-Date: 2019-03-14 12:04+0000\n"
-"PO-Revision-Date: 2019-03-07 16:03+0000\n"
-"Last-Translator: Daniel Korostil <Unknown>\n"
-"Language-Team: linux.org.ua\n"
+"PO-Revision-Date: 2019-07-08 17:02\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Launchpad-Export-Date: 2019-05-11 12:36+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
 "X-Project-Style: gnome\n"
-"Language: uk\n"
+"Language: uk_UA\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/gnome-settings-daemon.po\n"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:6
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:6
@@ -47,7 +49,7 @@ msgstr ""
 #: data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in:16
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:6
 msgid "Priority to use for this plugin"
-msgstr "Пріоритет цього плагіну"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:7
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:7
@@ -73,11 +75,8 @@ msgstr "Пріоритет цього плагіну"
 #: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:7
 #: data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in:17
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:7
-msgid ""
-"Priority to use for this plugin in unity-settings-daemon startup queue"
+msgid "Priority to use for this plugin in unity-settings-daemon startup queue"
 msgstr ""
-"Пріоритет використання для цього плагіна в черзі запуску unity-settings-"
-"daemon"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:11
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:11
@@ -104,7 +103,7 @@ msgstr ""
 #: data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in:21
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:11
 msgid "Activation of this plugin"
-msgstr "Увімкнення цього плагіну"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:12
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:12
@@ -130,1392 +129,1102 @@ msgstr "Увімкнення цього плагіну"
 #: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:12
 #: data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in:22
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:12
-msgid ""
-"Whether this plugin would be activated by unity-settings-daemon or not"
+msgid "Whether this plugin would be activated by unity-settings-daemon or not"
 msgstr ""
-"Чи буде цей плагін активований за допомогою функції unity-settings-daemon чи "
-"ні"
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:23
 msgid "Smartcard removal action"
-msgstr "Вилучення смарт-картки"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:24
-msgid ""
-"Set this to one of “none”, “lock-screen”, or “force-logout”. The action will "
-"get performed when the smartcard used for log in is removed."
+msgid "Set this to one of “none”, “lock-screen”, or “force-logout”. The action will get performed when the smartcard used for log in is removed."
 msgstr ""
-"Встановіть значення «none», «lock-screen» або «force-logout». Дія буде "
-"виконана при добуванні смарт-карти, що використовується для входу в систему."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:36
 msgid "Possible values are “on”, “off”, and “custom”."
-msgstr "Можливі значення «on», «off» та «custom»."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:46
 msgid "Keyboard Bell Custom Filename"
-msgstr "Назва файла клавіатурного гудка"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:47
 msgid "File name of the bell sound to be played."
-msgstr "Назва файлу для звуку гудка."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:51
 msgid "Remember NumLock state"
-msgstr "Запам'ятовувати стан NumLock"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:52
-msgid ""
-"When set to true, GNOME will remember the state of the NumLock LED between "
-"sessions."
-msgstr "Якщо задане true, GNOME буде зберігати стан NumLock між сеансами."
+msgid "When set to true, GNOME will remember the state of the NumLock LED between sessions."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:56
 msgid "NumLock state"
-msgstr "Стан NumLock"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:57
 msgid "The remembered state of the NumLock LED."
-msgstr "Запам'ятований стан індикатора NumLock."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:63
-msgid ""
-"Highlights the current location of the pointer when the Control key is "
-"pressed and released."
+msgid "Highlights the current location of the pointer when the Control key is pressed and released."
 msgstr ""
-"Виділяти кольором поточне положення вказівника, коли натиснуто і відпущено "
-"клавішу \"Control\"."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:67
 msgid "Double click time"
-msgstr "Час подвійного клацання"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:68
 msgid "Length of a double click in milliseconds."
-msgstr "Довжина подвійного клацання у мілісекундах."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:72
 msgid "Drag threshold"
-msgstr "Поріг перетягування"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:73
 msgid "Distance before a drag is started."
-msgstr "Відстань перед початком перетягування."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:79
 msgid "Whether the tablet’s orientation is locked, or rotated automatically."
-msgstr "Чи міняти орієнтацію планшета автоматично, чи ні."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:85
 msgid "Device hotplug custom command"
-msgstr "Власна команда пристрою hotplug"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:86
-msgid ""
-"Command to be run when a device is added or removed. An exit value of 1 "
-"means that the device will not be handled further by gnome-settings-daemon."
+msgid "Command to be run when a device is added or removed. An exit value of 1 means that the device will not be handled further by gnome-settings-daemon."
 msgstr ""
-"Команда, яку буде запущено, коли пристрій додано або вилучено. Вихідне "
-"значення 1 означає, що пристрій не буде працювати через gnome-settings-"
-"daemon."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:94
 msgid "Mouse button orientation"
-msgstr "Орієнтація кнопок миші"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:95
 msgid "Swap left and right mouse buttons for left-handed mice."
-msgstr "Міняти місцями ліву і праву кнопки для мишей під ліву руку."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:99
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:161
 msgid "Single Click"
-msgstr "Одинарне клацання"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:100
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:162
-msgid ""
-"Acceleration multiplier for mouse motion. A value of -1 is the system "
-"default."
-msgstr "Множник прискорення миші. Системним початковим значенням є -1."
+msgid "Acceleration multiplier for mouse motion. A value of -1 is the system default."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:104
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:166
 msgid "Motion Threshold"
-msgstr "Поріг руху"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:105
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:167
-msgid ""
-"Distance in pixels the pointer must move before accelerated mouse motion is "
-"activated. A value of -1 is the system default."
+msgid "Distance in pixels the pointer must move before accelerated mouse motion is activated. A value of -1 is the system default."
 msgstr ""
-"Відстань у точках, на яку має пересунутися вказівник, перед тим, як "
-"розпочнеться прискорення руху миші. Системним початковим значенням є -1."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:109
 msgid "Middle button emulation"
-msgstr "Емулятор середньої кнопки"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:110
-msgid ""
-"Enables middle mouse button emulation through simultaneous left and right "
-"button click."
+msgid "Enables middle mouse button emulation through simultaneous left and right button click."
 msgstr ""
-"Вмикає емулятор середньої кнопки миші через одночасне натиснення правої і "
-"лівої кнопки."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:119
 msgid "Key Repeat Interval"
-msgstr "Інтервал повторного натискання клавіш"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:120
 msgid "Delay between repeats in milliseconds."
-msgstr "Затримка між повторами у мілісекундах."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:124
 msgid "Initial Key Repeat Delay"
-msgstr "Початкова затримка повторного натискання клавіші"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:125
 msgid "Initial key repeat delay in milliseconds."
-msgstr "Початкова затримка повторного натискання клавіші у мілісекундах."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:131
 msgid "Disable touchpad while typing"
-msgstr "Вимикати сенсорну панель при наборі на клавіатурі"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:132
-msgid ""
-"Set this to TRUE if you have problems with accidentally hitting the touchpad "
-"while typing."
+msgid "Set this to TRUE if you have problems with accidentally hitting the touchpad while typing."
 msgstr ""
-"Увімкніть, якщо у вас виникають проблеми з випадковим натисканням сенсорної "
-"панелі при наборі тексту на клавіатурі."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:136
 msgid "Enable horizontal scrolling"
-msgstr "Увімкнути горизонтальну прокрутку"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:137
-msgid ""
-"Set this to TRUE to allow horizontal scrolling by the same method selected "
-"with the scroll_method key."
+msgid "Set this to TRUE to allow horizontal scrolling by the same method selected with the scroll_method key."
 msgstr ""
-"Увімкніть, щоб дозволити горизонтальну прокрутку обраним у ключі "
-"scroll_method методом."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:141
 msgid "Select the touchpad scroll method"
-msgstr "Виберіть спосіб прокручування для сенсорного пристрою"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:142
-msgid ""
-"Select the touchpad scroll method. Supported values are: “disabled”, “edge-"
-"scrolling”, “two-finger-scrolling”."
+msgid "Select the touchpad scroll method. Supported values are: “disabled”, “edge-scrolling”, “two-finger-scrolling”."
 msgstr ""
-"Виберіть спосіб прокручування для сенсорної панелі. Підтримувані значення: "
-"“disabled”, “edge-scrolling”, “two-finger-scrolling”."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:146
 msgid "Enable mouse clicks with touchpad"
-msgstr "Увімкнути клацання миші на сенсорному пристрої"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:147
-msgid ""
-"Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
+msgid "Set this to TRUE to be able to send mouse clicks by tapping on the touchpad."
 msgstr ""
-"Відмітьте цей параметр, щоб мати змогу виконувати клацання мишею на "
-"сенсорному пристрої."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:151
 msgid "Enable touchpad"
-msgstr "Увімкнути сенсорну панель"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:152
 msgid "Set this to TRUE to enable all touchpads."
-msgstr "Вкажіть цей параметр, щоб увімкнути усі сенсорні пристрої."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:156
 msgid "Touchpad button orientation"
-msgstr "Розташування кнопок сенсорної панелі"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:157
-msgid ""
-"Swap left and right mouse buttons for left-handed mice with “left”, “right” "
-"for right-handed, “mouse” to follow the mouse setting."
+msgid "Swap left and right mouse buttons for left-handed mice with “left”, “right” for right-handed, “mouse” to follow the mouse setting."
 msgstr ""
-"Міняти місцями ліву і праву кнопки для мишей під ліву руку з «left»,  "
-"«right» — для правої руки, «mouse» — відповідно до налаштувань миші."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:171
 msgid "Natural scrolling"
-msgstr "Природнє прокручування"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:172
+#| msgid "Set this to TRUE to enable all touchpads."
 msgid "Set this to TRUE to enable natural (reverse) scrolling for touchpads."
 msgstr ""
-"Позначте, щоб увімкнути зворотнє (природнє) прокручування для сенсорних "
-"панелей."
 
 #: data/org.gnome.settings-daemon.peripherals.gschema.xml.in:179
 msgid "Mouse wheel emulation button. 0 to disable the feature."
-msgstr "Емулювання кнопки коліщати миші. «0» — відімкнути цю функцію."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:22
 msgid "Wacom stylus absolute mode"
-msgstr "Абсолютний режим стилуса Wacom"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:23
 msgid "Enable this to set the tablet to absolute mode."
-msgstr "Увімкнути це, щоб установити планшет на абсолютний режим."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:27
 msgid "Wacom tablet area"
-msgstr "Ділянка планшета Wacom"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:28
 msgid "Set this to x1, y1 and x2, y2 of the area usable by the tools."
-msgstr "Вкажіть це до 1, y1 і x2, y2 ділянки придатної для інструментів."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:32
 msgid "Wacom tablet aspect ratio"
-msgstr "Відношення планшета Wacom"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:33
-msgid ""
-"Enable this to restrict the Wacom tablet area to match the aspect ratio of "
-"the output."
+msgid "Enable this to restrict the Wacom tablet area to match the aspect ratio of the output."
 msgstr ""
-"Увімкнути це, щоб обмежити ділянку планшета Wacom для збігання відношення."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:37
 msgid "Wacom tablet rotation"
-msgstr "Обертання планшета Wacom"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:38
-msgid ""
-"Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and "
-"“ccw” for 90 degree counterclockwise."
+#| msgid ""
+#| "Set this to 'none', 'cw' for 90 degree clockwise, 'half' for 180 degree, "
+#| "and 'ccw' for 90 degree counterclockwise."
+msgid "Set this to “none”, “cw” for 90 degree clockwise, “half” for 180 degree, and “ccw” for 90 degree counterclockwise."
 msgstr ""
-"Встановіть це значення на «none», «cw» для 90 градусів за годинниковою "
-"стрілкою, «half» для 180 градусів, «ccw» для 90 градусів проти годинникової "
-"стрілки."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:42
 msgid "Wacom touch feature"
-msgstr "Сенсорні можливості Wacom"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:43
 msgid "Enable this to move the cursor when the user touches the tablet."
 msgstr ""
-"Увімкнути це, щоб переміщати курсор, коли користувач доторкається до "
-"планшета."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:59
 msgid "Wacom stylus pressure curve"
-msgstr "Криві натиску стилуса Wacom"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:60
-msgid ""
-"Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
+msgid "Set this to x1, y1 and x2, y2 of the pressure curve applied to the stylus."
 msgstr ""
-"Вкажіть це до 1, y1 і x2, y2 кривих натиску застосованих для стилуса."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:64
 msgid "Wacom stylus button mapping"
-msgstr "Відбиття кнопок стилуса Wacom"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:65
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:82
 msgid "Set this to the logical button mapping."
-msgstr "Вкажіть це для логічного відбиття кнопки."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:69
 msgid "Wacom stylus pressure threshold"
-msgstr "Поріг натиску стилуса Wacom"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:70
-msgid ""
-"Set this to the pressure value at which a stylus click event is generated."
+msgid "Set this to the pressure value at which a stylus click event is generated."
 msgstr ""
-"Вкажіть це до значення тиску, на якому породжено дію натиску стилуса."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:76
 msgid "Wacom eraser pressure curve"
-msgstr "Крива натиску гумки Wacom"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:77
-msgid ""
-"Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
-msgstr "Вкажіть це до 1, y1 і x2, y2 кривих натиску застосованих для гумки."
+msgid "Set this to x1, y1 and x2, y2 of the pressure curve applied to the eraser."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:81
 msgid "Wacom eraser button mapping"
-msgstr "Відповідності кнопок гумки Wacom"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:86
 msgid "Wacom eraser pressure threshold"
-msgstr "Поріг натиску гумки Wacom"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:87
-msgid ""
-"Set this to the pressure value at which an eraser click event is generated."
-msgstr "Вкажіть це до значення тиску, на якому породжено дію натиску гумки."
+msgid "Set this to the pressure value at which an eraser click event is generated."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:93
 msgid "Wacom button action type"
-msgstr "Ти дій кнопок Wacom"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:94
 msgid "The type of action triggered by the button being pressed."
-msgstr "Тип дії, що перемикається натисканням кнопки."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:98
 msgid "Key combination for the custom action"
-msgstr "Комбінація клавіш для власних дій"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:99
-msgid ""
-"The keyboard shortcut generated when the button is pressed for custom "
-"actions."
+msgid "The keyboard shortcut generated when the button is pressed for custom actions."
 msgstr ""
-"Клавіатурне скорочення було породжено, коли клавішу натиснуто для власної "
-"дії."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:103
-#| msgid "Key combinations for an elevator custom action"
 msgid "Key combinations for a touchring or touchstrip custom action"
 msgstr ""
-"Комбінації клавіш для власних дій сенсорного кружка та сенсорної смужки"
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:104
-msgid ""
-"The keyboard shortcuts generated when a touchring or touchstrip is used for "
-"custom actions (up followed by down)."
+msgid "The keyboard shortcuts generated when a touchring or touchstrip is used for custom actions (up followed by down)."
 msgstr ""
-"Скорочення клавіш було породжено, коли touchring або touchstrip "
-"використовувалось власні дії (вверх іде до низу)"
 
 #. Translators: This is the OLED display on an Intuos4 tablet:
 #. http://eu.shop.wacom.eu/images/articles/d9abd9f2d4d88aa0649cda97a8077e2b_8.jpg
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:110
 msgid "Button label for OLED display."
-msgstr "Мітка кнопки для екрана OLED."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:111
 msgid "Label will be rendered to OLED display belonging to the button"
-msgstr "Мітка відтворена на відповідній кнопці екрана OLED"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:119
-msgid ""
-"Enable this to set the tablet to absolute mode for unity-settings-daemon."
+msgid "Enable this to set the tablet to absolute mode for unity-settings-daemon."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:47
 msgid "Wacom tablet PC feature"
-msgstr "Комп'ютерні можливості планшета Wacom"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:48
 msgid "Enable this to only report stylus events when the tip is pressed."
 msgstr ""
-"Увімкнути це, аби повідомити про дії стилуса, коли натиснуто на підказку."
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:52
 msgid "Wacom display mapping"
-msgstr "Відбиття екрана Wacom"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.peripherals.wacom.gschema.xml.in:53
-msgid ""
-"EDID information of monitor to map tablet to. Must be in the format [vendor, "
-"product, serial]. [\"\",\"\",\"\"] disables mapping."
+msgid "EDID information of monitor to map tablet to. Must be in the format [vendor, product, serial]. [\"\",\"\",\"\"] disables mapping."
 msgstr ""
-"Інформація про EDID монітора для відбиття на ньому планшета. Потрібно, щоб "
-"було у форматі  [виробник, товар, серія]. [\"\",\"\",\"\"] вимикає відбиття."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:16
 msgid "The duration a display profile is valid"
-msgstr "Тривалість дійсності профілю екрана"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:17
-msgid ""
-"This is the number of days after which the display color profile is "
-"considered invalid."
+msgid "This is the number of days after which the display color profile is considered invalid."
 msgstr ""
-"Це кількість днів, опісля яких профіль кольору екрана вважається недійсним."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:21
 msgid "The duration a printer profile is valid"
-msgstr "Тривалість дійсності профілю принтера"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:22
-msgid ""
-"This is the number of days after which the printer color profile is "
-"considered invalid."
+msgid "This is the number of days after which the printer color profile is considered invalid."
 msgstr ""
-"Це кількість днів, опісля яких профіль кольору принтера вважається недійсним."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:26
 msgid "If the night light mode is enabled"
-msgstr "Якщо ввімкнено нічний режим освітлення"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:27
-msgid ""
-"Night light mode changes the color temperature of your display when the sun "
-"has gone down or at preset times."
+#| msgid ""
+#| "Night light mode changes the color temperature of your display when the "
+#| "sun has gone down or at present times."
+msgid "Night light mode changes the color temperature of your display when the sun has gone down or at preset times."
 msgstr ""
-"Режим нічного освітлення змінює колірну температуру екрану із заходом сонця "
-"або в заданий час."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:31
 msgid "Temperature of the display when enabled"
-msgstr "Температура екрану, коли увімкнено"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:32
-msgid ""
-"This temperature in Kelvin is used to modify the screen tones when night "
-"light mode is enabled. Higher values are bluer, lower redder."
+msgid "This temperature in Kelvin is used to modify the screen tones when night light mode is enabled. Higher values are bluer, lower redder."
 msgstr ""
-"Ця температура в градусах Кельвіна використовується для зміни тонів екрана, "
-"коли ввімкнено режим нічного освітлення. Вищі значення - блакитніші, нижчі - "
-"червоніші."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:36
 msgid "Use the sunrise and sunset"
-msgstr "Використовувати схід та захід сонця"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:37
-msgid ""
-"Calculate the sunrise and sunset times automatically, from the current "
-"location."
+msgid "Calculate the sunrise and sunset times automatically, from the current location."
 msgstr ""
-"Обчислювати час сходу та заходу сонця автоматично, з поточного розташування."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:41
 msgid "The start time"
-msgstr "Час початку"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:42
-msgid ""
-"When “night-light-schedule-automatic” is disabled, use this start time in "
-"hours from midnight."
+msgid "When “night-light-schedule-automatic” is disabled, use this start time in hours from midnight."
 msgstr ""
-"Коли «night-light-schedule-automatic» вимкнено, використовуйте цей час "
-"початку в годинах від опівночі."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:46
 msgid "The end time"
-msgstr "Час завершення"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:47
-msgid ""
-"When “night-light-schedule-automatic” is disabled, use this end time in "
-"hours from midnight."
+msgid "When “night-light-schedule-automatic” is disabled, use this end time in hours from midnight."
 msgstr ""
-"Коли «night-light-schedule-automatic» вимкнено, використовуйте цей час "
-"завершення в годинах від опівночі."
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:51
 msgid "The last detected position"
-msgstr "Остання виявлена ​​позиція"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.color.gschema.xml.in:52
-msgid ""
-"When location services are available this represents the last detected "
-"location. The default value is an invalid value to ensure it is always "
-"updated at startup."
+msgid "When location services are available this represents the last detected location. The default value is an invalid value to ensure it is always updated at startup."
 msgstr ""
-"Якщо доступні служби визначення місцезнаходження, це є останнім виявленим "
-"місцем розташування. Значення за замовчуванням є недійсним значенням, щоб "
-"гарантувати, щоб воно завжди оновлювалось під час запуску."
 
 #: data/org.gnome.settings-daemon.plugins.gschema.xml.in:6
 msgid "List of plugins that are allowed to be loaded"
-msgstr "Список плагінів, які дозволено завантажувати"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.gschema.xml.in:7
-msgid ""
-"A list of strings representing the plugins that are allowed to be loaded "
-"(default: “all”). This is only evaluated on startup."
+msgid "A list of strings representing the plugins that are allowed to be loaded (default: “all”). This is only evaluated on startup."
 msgstr ""
-"Список рядків, що презентують плагіни, котрі дозволено завантажувати (за "
-"замовчування: «all» (все»)). Це оцінюється лише при запуску."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:16
 msgid "Mount paths to ignore"
-msgstr "Точки монтування, що ігноруються"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:17
 msgid "Specify a list of mount paths to ignore when they run low on space."
 msgstr ""
-"Вкажіть список точок монтування, що ігноруються у попередженні про брак "
-"вільного місця."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:22
 msgid "Free percentage notify threshold"
-msgstr "Поріг у відсотках сповіщення про брак вільного місця"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:23
-msgid ""
-"Percentage free space threshold for initial warning of low disk space. If "
-"the percentage free space drops below this, a warning will be shown."
+msgid "Percentage free space threshold for initial warning of low disk space. If the percentage free space drops below this, a warning will be shown."
 msgstr ""
-"Поріг у відсотках попередження для першого повідомлення про брак вільного "
-"місця. Якщо відсоток вільного місця стає нижче за це значення, показується "
-"попередження."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:28
 msgid "Subsequent free space percentage notify threshold"
-msgstr "Подальший поріг у відсотках для сповіщення про брак вільного місця"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:29
-msgid ""
-"Specify the percentage that the free disk space should reduce by before "
-"issuing a subsequent warning."
+msgid "Specify the percentage that the free disk space should reduce by before issuing a subsequent warning."
 msgstr ""
-"Вкажіть на скільки відсотків має зменшитися вільне місце, перед виведенням "
-"наступного попередження."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:33
 msgid "Free space notify threshold"
-msgstr "Поріг сповіщення про брак вільного місця"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:34
-msgid ""
-"Specify an amount in GB. If the amount of free space is more than this, no "
-"warning will be shown."
+msgid "Specify an amount in GB. If the amount of free space is more than this, no warning will be shown."
 msgstr ""
-"Вкажіть величину у гігабайтах. Якщо вільного простору більше ніж це "
-"значення, попередження про брак вільного місця не показуватиметься."
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:38
 msgid "Minimum notify period for repeated warnings"
-msgstr "Мінімальний період попереджень про брак вільного місця"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.housekeeping.gschema.xml.in:39
-msgid ""
-"Specify a time in minutes. Subsequent warnings for a volume will not appear "
-"more often than this period."
+msgid "Specify a time in minutes. Subsequent warnings for a volume will not appear more often than this period."
 msgstr ""
-"Вкажіть час у хвилинах. Подальші попередження про заповнення тому не "
-"виводитимуться частіше ніж цей період."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:16
 msgid "Custom keybindings"
-msgstr "Власні комбінації клавіш"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:17
 msgid "List of custom keybindings"
-msgstr "Перелік власник комбінацій клавіш"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:21
 msgid "Launch calculator"
-msgstr "Запуск калькулятора"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:22
 msgid "Binding to launch the calculator."
-msgstr "Комбінація клавіш для запуску калькулятора."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:26
 msgid "Launch settings"
-msgstr "Запуск налаштувань"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:27
 msgid "Binding to launch GNOME settings."
-msgstr "Комбінація клавіш для запуску параметрів GNOME."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:31
 msgid "Launch email client"
-msgstr "Запуск клієнта електронної пошти"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:32
 msgid "Binding to launch the email client."
-msgstr "Комбінація клавіш для запуску клієнта електронної пошти."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:36
 msgid "Eject"
-msgstr "Видобути накопичувач"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:37
 msgid "Binding to eject an optical disc."
-msgstr "Комбінація клавіш для видобутку оптичного диска."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:41
 msgid "Launch help browser"
-msgstr "Запуск переглядача довідки"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:42
 msgid "Binding to launch the help browser."
-msgstr "Комбінація клавіш для запуску системи довідки."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:46
 msgid "Home folder"
-msgstr "Домашня тека"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:47
 msgid "Binding to open the Home folder."
-msgstr "Комбінація клавіш для відкриття теки домівки."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:51
 msgid "Launch media player"
-msgstr "Запуск мультимедійного програвача"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:52
 msgid "Binding to launch the media player."
-msgstr "Комбінація клавіш для запуску мультимедійного програвача."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:56
 msgid "Next track"
-msgstr "Наступна доріжка"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:57
 msgid "Binding to skip to next track."
-msgstr "Комбінація клавіш для переходу до наступної доріжки."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:61
 msgid "Pause playback"
-msgstr "Призупинити відтворення"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:62
 msgid "Binding to pause playback."
-msgstr "Комбінація клавіш для призупинення відтворення."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:66
 msgid "Play (or play/pause)"
-msgstr "Програвання (або Програвання/Пауза)"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:67
 msgid "Binding to start playback (or toggle play/pause)."
 msgstr ""
-"Комбінація клавіш для запуску відтворення (чи перемикання відтворення/пауза)"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:71
 msgid "Log out"
-msgstr "Завершення роботи"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:72
 msgid "Binding to log out."
-msgstr "Комбінація клавіш для виходу з системи."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:76
 msgid "Previous track"
-msgstr "Попередня доріжка"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:77
 msgid "Binding to skip to previous track."
-msgstr "Комбінація клавіш для переходу до попередньої доріжки."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:81
 msgid "Lock screen"
-msgstr "Блокування екрану"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:82
 msgid "Binding to lock the screen."
-msgstr "Комбінація клавіш для блокування екрану."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:86
 msgid "Search"
-msgstr "Пошук"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:87
 msgid "Binding to launch the search tool."
-msgstr "Комбінація клавіш для запуску утиліти пошуку."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:91
 msgid "Stop playback"
-msgstr "Зупинити відтворення"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:92
 msgid "Binding to stop playback."
-msgstr "Комбінація клавіш для зупинки відтворення"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:96
 msgid "Video output"
-msgstr "Видеовихід"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:97
 msgid "Binding to switch the video output device."
-msgstr "Комбінація клавіш для перемикання пристроїв виведення відео."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:101
 msgid "Volume down"
-msgstr "Зменшення гучності"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:102
 msgid "Binding to lower the volume."
-msgstr "Комбінація клавіш для зменшення гучності."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:106
 msgid "Volume mute/unmute"
-msgstr "Вимикання/вмикання звуку"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:107
 msgid "Binding to mute/unmute the volume."
-msgstr "Комбінація клавіш для вимикання/вмикання звуку."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:111
 msgid "Volume up"
-msgstr "Збільшення гучності"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:112
 msgid "Binding to raise the volume."
-msgstr "Комбінація клавіш для збільшення гучності."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:116
 msgid "Microphone mute/unmute"
-msgstr "Вимикання/вмикання мікрофону"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:117
 msgid "Binding to mute/unmute the microphone."
-msgstr "Комбінація клавіш для вимикання/вмикання мікрофону."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:116
 msgid "Take a screenshot"
-msgstr "Зробити знімок"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:117
 msgid "Binding to take a screenshot."
-msgstr "Комбінація клавіш для створення знімку екрана."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:121
 msgid "Take a screenshot of a window"
-msgstr "Зробити знімок вікна"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:122
 msgid "Binding to take a screenshot of a window."
-msgstr "Комбінація клавіш для створення знімку вікна."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:126
 msgid "Take a screenshot of an area"
-msgstr "Зробити знімок ділянки"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:127
 msgid "Binding to take a screenshot of an area."
-msgstr "Комбінація клавіш для створення знімку ділянки."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:131
 msgid "Copy a screenshot to clipboard"
-msgstr "Копіювання знімку екрану до буфера"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:132
 msgid "Binding to copy a screenshot to clipboard."
-msgstr "Комбінація клавіш для копіювання знімку екрану в буфер."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:136
 msgid "Copy a screenshot of a window to clipboard"
-msgstr "Копіювання знімка вікна у буфер"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:137
 msgid "Binding to copy a screenshot of a window to clipboard."
-msgstr "Комбінація клавіш для копіювання знімку вікна у буфер."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:141
 msgid "Copy a screenshot of an area to clipboard"
-msgstr "Копіювання знімку ділянки у буфер"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:142
 msgid "Binding to copy a screenshot of an area to clipboard."
-msgstr "Комбінація клавіш для копіювання знімку ділянки у буфер."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:146
 msgid "Record a short video of the screen"
-msgstr "Створення короткого відеозапису екрана"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:147
 msgid "Binding to record a short video of the screen"
-msgstr "Комбінація клавіш для створення короткого відеозапису екрана"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:151
 msgid "Launch terminal"
-msgstr "Запуск терміналу"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:152
 msgid "Binding to launch the terminal."
-msgstr "Комбінація клавіш для запуску терміналу."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:156
 msgid "Launch web browser"
-msgstr "Запуск переглядача Інтернет"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:157
 msgid "Binding to launch the web browser."
-msgstr "Комбінація клавіш для запуску веб-переглядача."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:161
 msgid "Toggle magnifier"
-msgstr "Увімкнення лупи"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:162
 msgid "Binding to show the screen magnifier"
-msgstr "Комбінація клавіш для показу екранної лупи"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:166
 msgid "Toggle screen reader"
-msgstr "Увімкнення зчитувача екрану"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:167
 msgid "Binding to start the screen reader"
-msgstr "Комбінація клавіш для запуску зчитувача екрану"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:171
 msgid "Toggle on-screen keyboard"
-msgstr "Увімкнення екранної клавіатури"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:172
 msgid "Binding to show the on-screen keyboard"
-msgstr "Комбінація клавіш для показу екранної клавіатури"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:176
 msgid "Increase text size"
-msgstr "Збільшення розміру тексту"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:177
 msgid "Binding to increase the text size"
-msgstr "Комбінація клавіш для збільшення розміру тексту"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:181
 msgid "Decrease text size"
-msgstr "Зменшення розміру тексту"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:182
 msgid "Binding to decrease the text size"
-msgstr "Комбінація клавіш для зменшення розміру тексту"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:186
 msgid "Toggle contrast"
-msgstr "Зміна контрасту"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:187
 msgid "Binding to toggle the interface contrast"
-msgstr "Комбінація клавіш для перемикання контрасту інтерфейсу"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:191
 msgid "Magnifier zoom in"
-msgstr "Наближення лупи"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:192
 msgid "Binding for the magnifier to zoom in"
-msgstr "Комбінація клавіш для наближення лупи"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:196
 msgid "Magnifier zoom out"
-msgstr "Віддалення лупи"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:197
 msgid "Binding for the magnifier to zoom out"
-msgstr "Комбінація клавіш для віддалення лупи"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:201
 msgid "Maximum length of screen recordings"
-msgstr "Максимальна тривалість записів екрану"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:202
-msgid ""
-"The maximum length of single screen cast recordings in seconds or 0 for "
-"unlimited"
+msgid "The maximum length of single screen cast recordings in seconds or 0 for unlimited"
 msgstr ""
-"Максимальна тривалість окремого запису екрану в секундах або 0 для "
-"нескінченності"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:209
 msgid "Name"
-msgstr "Назва"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:210
 msgid "Name of the custom binding"
-msgstr "Назва власної комбінації клавіш"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:214
 msgid "Binding"
-msgstr "Комбінація клавіш"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:215
 msgid "Binding for the custom binding"
-msgstr "Комбінація клавіш для власної комбінації клавіш"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:219
 msgid "Command"
-msgstr "Команда"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:220
 msgid "Command to run when the binding is invoked"
-msgstr "Команда для запуску при натисканні комбінації клавіш"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:16
 msgid "The brightness of the screen when idle"
-msgstr "Яскравість екрану у стані простою"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:17
-msgid ""
-"This is the laptop panel screen brightness used when the session is idle."
+msgid "This is the laptop panel screen brightness used when the session is idle."
 msgstr ""
-"Це яскравість екрану ноутбука, що використовується, коли сеанс неактивний."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:21
 msgid "Dim the screen after a period of inactivity"
-msgstr "Зменшувати яскравість після періоду неактивності"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:22
-msgid ""
-"If the screen should be dimmed to save power when the computer is idle."
+msgid "If the screen should be dimmed to save power when the computer is idle."
 msgstr ""
-"Якщо екран повинен бути затемнений з метою енергозбереження, коли комп'ютер "
-"перебуває в режимі очікування"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:26
 msgid "Sleep timeout computer when on AC"
-msgstr "Інтервал часу до переходу у режим сну при живленні від електромережі"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:27
-msgid ""
-"The amount of time in seconds the computer on AC power needs to be inactive "
-"before it goes to sleep. A value of 0 means never."
+msgid "The amount of time in seconds the computer on AC power needs to be inactive before it goes to sleep. A value of 0 means never."
 msgstr ""
-"Кількість часу в секундах, коли комп'ютер, що живиться від електромережі, "
-"повинен бути неактивним щоб перейти в режим сну. Значення 0 означає ніколи."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:31
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:41
 msgid "Whether to hibernate, suspend or do nothing when inactive"
 msgstr ""
-"Дія при неактивності: \"hibernate\"(режим сну), \"suspend\"(призупиняти), "
-"або \"nothing\" нічого не робити"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:32
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:42
-msgid ""
-"The type of sleeping that should be performed when the computer is inactive."
-msgstr "Тип сну, що має бути застосований при неактивності комп'ютера."
+msgid "The type of sleeping that should be performed when the computer is inactive."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:36
 msgid "Sleep timeout computer when on battery"
-msgstr "Інтервал часу до переходу у режим сну при живленні від акумулятора"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:37
-msgid ""
-"The amount of time in seconds the computer on battery power needs to be "
-"inactive before it goes to sleep. A value of 0 means never."
+msgid "The amount of time in seconds the computer on battery power needs to be inactive before it goes to sleep. A value of 0 means never."
 msgstr ""
-"Кількість часу в секундах, коли комп'ютер, що живиться від акумулятора, "
-"повинен бути неактивним щоб перейти в режим сну. Значення 0 означає ніколи."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:47
 msgid "Laptop lid close action on battery"
-msgstr "Дія при закриванні кришки ноутбуку при живленні від акумулятора"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:48
-msgid ""
-"The action to take when the laptop lid is closed and the laptop is on "
-"battery power."
+msgid "The action to take when the laptop lid is closed and the laptop is on battery power."
 msgstr ""
-"Дія, виконувана при закриванні кришки ноутбуку при його живленні від "
-"акумуляторної батареї."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:52
 msgid "Laptop lid close action when on AC"
-msgstr "Дія при закриванні кришки ноутбуку при живленні від електромережі"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:53
-msgid ""
-"The action to take when the laptop lid is closed and the laptop is on AC "
-"power."
+msgid "The action to take when the laptop lid is closed and the laptop is on AC power."
 msgstr ""
-"Дія, виконувана при закриванні кришки ноутбуку при його живленні від "
-"електромережі змінного струму."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:57
-msgid ""
-"Laptop lid, when closed, will suspend even if there is an external monitor "
-"plugged in"
+msgid "Laptop lid, when closed, will suspend even if there is an external monitor plugged in"
 msgstr ""
-"Закриття кришки ноутбуку приведе до призупинення роботи навіть якщо "
-"підключено зовнішній монітор"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:58
-msgid ""
-"With no external monitors plugged in, closing a laptop's lid will suspend "
-"the machine (as set by the lid-close-battery-action and lid-close-ac-action "
-"keys). By default, however, closing the lid when an external monitor is "
-"present will not suspend the machine, so that one can keep working on that "
-"monitor (e.g. for docking stations or media viewers). Set this key to False "
-"to keep the default behavior, or to True to suspend the laptop whenever the "
-"lid is closed and regardless of external monitors."
+msgid "With no external monitors plugged in, closing a laptop's lid will suspend the machine (as set by the lid-close-battery-action and lid-close-ac-action keys). By default, however, closing the lid when an external monitor is present will not suspend the machine, so that one can keep working on that monitor (e.g. for docking stations or media viewers). Set this key to False to keep the default behavior, or to True to suspend the laptop whenever the lid is closed and regardless of external monitors."
 msgstr ""
-"Якщо зовнішні монітори не підключено, закривання кришки ноутбука призупинить "
-"його роботу (як встановлено за допомогою ключів lid-close-battery-action та "
-"lid-close-ac-action). Однак, за умовчанням, закриття кришки за наявності "
-"зовнішнього монітора не призупиняє роботу ноутбука і можна продовжувати "
-"працювати на цьому моніторі (наприклад, для док-станцій або "
-"медіапрогравачів). Встановіть цей ключ в False, щоб зберегти поведінку за "
-"умовчанням, або в True, щоб призупиняти ноутбук, коли кришка закрита, і "
-"незалежно від зовнішніх моніторів."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:68
 msgid "Enable the ALS sensor"
-msgstr "Увімкнути датчик зовнішнього освітлення"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:69
 msgid "If the ambient light sensor functionality is enabled."
-msgstr "Якщо увімкнена функція датчика зовнішнього освітлення."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:73
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:95
 msgid "Power button action"
-msgstr "Дія кнопки живлення"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:74
-msgid ""
-"The action to take when the system power button is pressed. This action is "
-"hard-coded (and the setting ignored) on virtual machines (power off) and "
-"tablets (suspend)."
+msgid "The action to take when the system power button is pressed. This action is hard-coded (and the setting ignored) on virtual machines (power off) and tablets (suspend)."
 msgstr ""
-"Дія, яку потрібно виконати при натискання кнопки живлення. Ця дія жорстко "
-"встановлена (і це налаштування ігнорується) на віртуальних машинах "
-"(вимкнення) та планшетах (призупинення)"
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:79
 msgid "Suspend button action"
-msgstr "Дія кнопки призупинення"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:80
 msgid "The action to take when the system suspend button is pressed."
 msgstr ""
-"Дія, яку потрібно виконати при натисканні кнопки призупинення роботи системи."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:84
 msgid "Hibernate button action"
-msgstr "Дія кнопки гібернації"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:85
 msgid "The action to take when the system hibernate button is pressed."
-msgstr "Дія, яку потрібно виконати при натисканні кнопки гібернації."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:89
 msgid "Sleep button action"
-msgstr "Дія кнопки сну"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:90
-msgid ""
-"The action to take when the system sleep (non-specific type) button is "
-"pressed."
+msgid "The action to take when the system sleep (non-specific type) button is pressed."
 msgstr ""
-"Дія, яку потрібно виконати при натисканні кнопки засипання системи (не "
-"специфічний тип)."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:96
 msgid "The action to take when the system power button is pressed."
-msgstr "Дія, яку потрібно виконати при натисканні кнопки живлення."
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:100
 msgid "Battery critical low action"
-msgstr "Дія при критичному розряді акумулятора"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:101
 msgid "The action to take when the battery is critically low."
 msgstr ""
-"Дія, яку потрібно виконати, коли рівень заряду акумулятора критично низький."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:105
 msgid "Percentage considered low"
-msgstr "Відсоток, що вважається низьким"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:106
-msgid ""
-"The percentage of the battery when it is considered low. Only valid when use-"
-"time-for-policy is false."
+msgid "The percentage of the battery when it is considered low. Only valid when use-time-for-policy is false."
 msgstr ""
-"Відсоток батареї, коли він уважається низьким. Дійсно лише без ключа use-"
-"time-for-policy."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:110
 msgid "Percentage considered critical"
-msgstr "Відсоток, що вважається критичним"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:111
-msgid ""
-"The percentage of the battery when it is considered critical. Only valid "
-"when use-time-for-policy is false."
+msgid "The percentage of the battery when it is considered critical. Only valid when use-time-for-policy is false."
 msgstr ""
-"Відсоток батареї, коли він уважається критичним. Дійсно лише без ключа use-"
-"time-for-policy."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:115
 msgid "Percentage action is taken"
-msgstr "Відсоток, коли виконується дія"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:116
-msgid ""
-"The percentage of the battery when the critical action is performed. Only "
-"valid when use-time-for-policy is false."
+msgid "The percentage of the battery when the critical action is performed. Only valid when use-time-for-policy is false."
 msgstr ""
-"Відсоток батареї, коли здійснюється критична дія. Дійсно лише якщо use-time-"
-"for-policy має значення false."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:120
 msgid "The time remaining when low"
-msgstr "Залишковий час, коли низький заряд"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:121
-msgid ""
-"The time remaining in seconds of the battery when it is considered low. Only "
-"valid when use-time-for-policy is true."
+msgid "The time remaining in seconds of the battery when it is considered low. Only valid when use-time-for-policy is true."
 msgstr ""
-"Час роботи батареї в секундах, що залишився, коли її заряд вважається "
-"низьким. Дійсно лише коли use-time-for-policy має значення true."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:125
 msgid "The time remaining when critical"
-msgstr "Залишковий час, коли критичний заряд"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:126
-msgid ""
-"The time remaining in seconds of the battery when it is considered critical. "
-"Only valid when use-time-for-policy is true."
+msgid "The time remaining in seconds of the battery when it is considered critical. Only valid when use-time-for-policy is true."
 msgstr ""
-"Час роботи батареї в секундах, що залишився, коли її заряд вважається "
-"критичним. Дійсно лише коли use-time-for-policy має значення true."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:130
 msgid "The time remaining when action is taken"
-msgstr "Залишковий час, коли дію вжито"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:131
-msgid ""
-"The time remaining in seconds of the battery when critical action is taken. "
-"Only valid when use-time-for-policy is true."
+msgid "The time remaining in seconds of the battery when critical action is taken. Only valid when use-time-for-policy is true."
 msgstr ""
-"Час роботи батареї в секундах під час настання критичної дії. Дійсно лише "
-"коли use-time-for-policy має значення true."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:135
 msgid "Whether to use time-based notifications"
-msgstr "Чи сповіщати про час"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:136
-msgid ""
-"If time based notifications should be used. If set to false, then the "
-"percentage change is used instead, which may fix a broken ACPI BIOS."
+msgid "If time based notifications should be used. If set to false, then the percentage change is used instead, which may fix a broken ACPI BIOS."
 msgstr ""
-"Чи використовувати сповіщення про час. За значення false, використовуються "
-"відсотки заряду батареї, що може виправити проблему із зіпсованими ACPI BIOS."
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:140
 msgid "If we should show the recalled battery warning for a broken battery"
-msgstr "Чи показувати попередження під час несправностей у батареї"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.power.gschema.xml.in:141
-msgid ""
-"If we should show the recalled battery warning for a broken battery. Set "
-"this to false only if you know your battery is okay."
+msgid "If we should show the recalled battery warning for a broken battery. Set this to false only if you know your battery is okay."
 msgstr ""
-"Чи показувати попередження під час несправності з батареєю. Якщо ви знаєте, "
-"що батарея справна, вкажіть значення false."
 
 #: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:18
 msgid "On which connections the service is enabled"
-msgstr "На яке з'єднання запущено службу"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.sharing.gschema.xml.in:19
-msgid ""
-"The list of NetworkManager connections (each one represented with its UUID) "
-"on which this service is enabled and started."
+msgid "The list of NetworkManager connections (each one represented with its UUID) on which this service is enabled and started."
 msgstr ""
-"Перелік з'єднань NetworkManager (кожне має своє UUID), на яку цю службу "
-"зав'язано та запущено."
 
 #: data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in:6
 msgid "File for default configuration for RandR"
-msgstr "Файл для типових налаштувань для RandR"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in:7
-msgid ""
-"The XRandR plugin will look for a default configuration in the file "
-"specified by this key. This is similar to the ~/.config/monitors.xml that "
-"normally gets stored in users’ home directories. If a user does not have "
-"such a file, or has one that does not match the user’s setup of monitors, "
-"then the file specified by this key will be used instead."
+msgid "The XRandR plugin will look for a default configuration in the file specified by this key. This is similar to the ~/.config/monitors.xml that normally gets stored in users’ home directories. If a user does not have such a file, or has one that does not match the user’s setup of monitors, then the file specified by this key will be used instead."
 msgstr ""
-"Плагін XRandR буде шукати типові налаштування в файлі, що визначається цим "
-"ключем. Він подібний до файлу ~/.config/monitors.xml, що зазвичай "
-"зберігається в домашньому каталозі користувачів. Якщо у користувача немає "
-"такого файла чи файл не відповідає налаштуванню моніторів користувача, "
-"замість нього буде використовуватись файл, визначений цим ключем."
 
 #: data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in:11
 msgid "Whether to turn off specific monitors after boot"
-msgstr "Чи вимкнути вказані монітори після завантаження"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xrandr.gschema.xml.in:12
-msgid ""
-"“clone” will display the same thing on all monitors, “dock” will switch off "
-"the internal monitor, “do-nothing” will use the default Xorg behaviour "
-"(extend the desktop in recent versions). The default, “follow-lid”, will "
-"choose between “do-nothing” and “dock” depending on whether the lid is "
-"(respectively) open or closed."
+msgid "“clone” will display the same thing on all monitors, “dock” will switch off the internal monitor, “do-nothing” will use the default Xorg behaviour (extend the desktop in recent versions). The default, “follow-lid”, will choose between “do-nothing” and “dock” depending on whether the lid is (respectively) open or closed."
 msgstr ""
-"«clone» — показати те сами на всіх моніторах; «dock» — вимкнути внутрішній "
-"монітор; «do-nothing» — використовувати типову поведінку Xorg (в останніх "
-"версіях — розтягнути стільницю). Типове значення «follow-lid» — вибір між "
-"«dock» та «do-nothing» в залежності від того, відповідно відкрита чи закрита "
-"кришка ноутбуку."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:16
 msgid "Antialiasing"
-msgstr "Згладжування"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:17
-msgid ""
-"The type of antialiasing to use when rendering fonts. Possible values are: "
-"“none” for no antialiasing, “grayscale” for standard grayscale antialiasing, "
-"and “rgba” for subpixel antialiasing (LCD screens only)."
+#| msgid ""
+#| "The type of antialiasing to use when rendering fonts. Possible values "
+#| "are: \"none\" for no antialiasing, \"grayscale\" for standard grayscale "
+#| "antialiasing, and \"rgba\" for subpixel antialiasing (LCD screens only)."
+msgid "The type of antialiasing to use when rendering fonts. Possible values are: “none” for no antialiasing, “grayscale” for standard grayscale antialiasing, and “rgba” for subpixel antialiasing (LCD screens only)."
 msgstr ""
-"Тип згладжування, використовувана для відтворення шрифтів. Можливі значення: "
-" «none» — згладжування вимкнено; «grayscale» — стандартне чорно-біле "
-"згладжування; «rgba» — субпіксельне згладжування (тільки для РК-екранів)."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:21
 msgid "Hinting"
-msgstr "Гінтінг"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:22
-msgid ""
-"The type of hinting to use when rendering fonts. Possible values are: “none” "
-"for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s "
-"ClearType, DirectWrite and Adobe’s proprietary font rendering engine. "
-"Ignores native hinting within the font, generates hints algorithmically. "
-"Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” "
-"depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version "
-"of FreeType. They usually try to fit glyphs to both the X and the Y axis "
-"(except for .otf: Y-only). This can lead to distortion and/or inconsistent "
-"rendering depending on the quality of the font, the font format and the "
-"state of FreeType’s font engines."
+msgid "The type of hinting to use when rendering fonts. Possible values are: “none” for no hinting and “slight” for fitting only to the Y-axis like Microsoft’s ClearType, DirectWrite and Adobe’s proprietary font rendering engine. Ignores native hinting within the font, generates hints algorithmically. Used on Ubuntu by default. Recommended. The meaning of “medium” and “full” depends on the font format (.ttf, .otf, .pfa/.pfb) and the installed version of FreeType. They usually try to fit glyphs to both the X and the Y axis (except for .otf: Y-only). This can lead to distortion and/or inconsistent rendering depending on the quality of the font, the font format and the state of FreeType’s font engines."
 msgstr ""
-"Тип використовуваного гінтінга при відтворенні шрифтів. Можливі значення: "
-"«none» — не використовувати гінтінг, «slight» — використовування гінтінга "
-"лише по вісі Y, як в Microsoft ClearType, DirectWrite та в пропрієтарному "
-"механізмі відтворення шрифтів від компанії Adobe. Ігнорує вбудований гінтінг "
-"в шрифті, генерує відтінки алгоритмічно. Використовується в Ubuntu за "
-"замовчуванням. Рекомендований. Значення «medium» та «full» залежать від "
-"формату шрифта (.ttf, .otf, .pfa / .pfb) та встановленої версії FreeType. Як "
-"правило, вони намагаються підігнати гліфи як до вісі X, так і до вісі Y (з "
-"винятком шрифтів .otf: тільки до вісі Y). Це може призвести до спотворення "
-"та/або  и/или непослідовного відтворення в залежносі від якості шрифту, його "
-"формату та стану механізму шрифтів FreeType."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:26
 msgid "RGBA order"
-msgstr "Послідовність RGBA"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:27
-msgid ""
-"The order of subpixel elements on an LCD screen; only used when antialiasing "
-"is set to “rgba”. Possible values are: “rgb” for red on left (most common), "
-"“bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
+msgid "The order of subpixel elements on an LCD screen; only used when antialiasing is set to “rgba”. Possible values are: “rgb” for red on left (most common), “bgr” for blue on left, “vrgb” for red on top, “vbgr” for red on bottom."
 msgstr ""
-"Послідовність субпіксельних елементів на РК-екрані; тільки якщо встановлено "
-"тип згладжування «rgba». Можливі значення: «rgb» для червоного зліва "
-"(найпоширеніший), «bgr» для синього зліва, «vrgb» для червоного зверху, "
-"«vbgr» для червоного знизу."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:31
 msgid "List of explicitly disabled GTK+ modules"
-msgstr "Перелік явно вимкнених модулів GTK+"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:32
-msgid ""
-"A list of strings representing the GTK+ modules that will not be loaded, "
-"even if enabled by default in their configuration."
+msgid "A list of strings representing the GTK+ modules that will not be loaded, even if enabled by default in their configuration."
 msgstr ""
-"Перелік рядків з модулями GTK+, які не буде завантажено, навіть якщо "
-"ввімкнено типово в їх налаштуваннях."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:36
 msgid "List of explicitly enabled GTK+ modules"
-msgstr "Перелік явно ввімкнутих модулів GTK+"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:37
-msgid ""
-"A list of strings representing the GTK+ modules that will be loaded, usually "
-"in addition to conditional and forcibly disabled ones."
+msgid "A list of strings representing the GTK+ modules that will be loaded, usually in addition to conditional and forcibly disabled ones."
 msgstr ""
-"Перелік рядків з модулями GTK+, що будуть завантажені, зазвичай додатково до "
-"умовно або примусово вимкнених модулів."
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:41
 msgid "A dictionary of XSETTINGS to override"
-msgstr "Словник XSETTINGS для перевизначення"
+msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.xsettings.gschema.xml.in:42
-msgid ""
-"This dictionary maps XSETTINGS names to overrides values. The values must be "
-"either strings, signed int32s or (in the case of colors), 4-tuples of uint16 "
-"(red, green, blue, alpha; 65535 is fully opaque)."
+msgid "This dictionary maps XSETTINGS names to overrides values. The values must be either strings, signed int32s or (in the case of colors), 4-tuples of uint16 (red, green, blue, alpha; 65535 is fully opaque)."
 msgstr ""
-"Цей словник відображає назви XSETTINGS для перевизначення значень. Ці "
-"значення мають бути або string, або signed int32s або (у випадку кольорів), "
-"4 кортежі з uint16 (червоний, зелений, синій, альфа, 65535 означає повністю "
-"непрозорий)"
 
 #: plugins/color/gsd-color-calibrate.c:139
 msgid "Color"
-msgstr "Колір"
+msgstr ""
 
 #. TRANSLATORS: button: this is to open GCM
 #: plugins/color/gsd-color-calibrate.c:144
 msgid "Recalibrate now"
-msgstr "Повторно відкалібрувати зараз"
+msgstr ""
 
 #. TRANSLATORS: this is when the device has not been recalibrated in a while
 #: plugins/color/gsd-color-calibrate.c:187
 msgid "Recalibration required"
-msgstr "Потрібно відкалібрувати ще раз"
+msgstr ""
 
 #. TRANSLATORS: this is when the display has not been recalibrated in a while
 #: plugins/color/gsd-color-calibrate.c:199
 #, c-format
 msgid "The display “%s” should be recalibrated soon."
-msgstr "Монітор «%s» має бути відкалібрований ще раз найближчим часом."
+msgstr ""
 
 #. TRANSLATORS: this is when the printer has not been recalibrated in a while
 #: plugins/color/gsd-color-calibrate.c:208
 #, c-format
 msgid "The printer “%s” should be recalibrated soon."
-msgstr "Принтер «%s» має бути повторно відкалібрований найближчим часом"
+msgstr ""
 
 #. TRANSLATORS: this is the application name
 #: plugins/color/gsd-color-calibrate.c:346
 #: plugins/color/gsd-color-calibrate.c:362
 msgid "GNOME Settings Daemon Color Plugin"
-msgstr "Плагін кольорів для служби параметрів GNOME"
+msgstr ""
 
 #. TRANSLATORS: this is a sound description
 #: plugins/color/gsd-color-calibrate.c:348
 msgid "Color calibration device added"
-msgstr "Пристрій для калібрування кольору додано"
+msgstr ""
 
 #. TRANSLATORS: this is a sound description
 #: plugins/color/gsd-color-calibrate.c:364
 msgid "Color calibration device removed"
-msgstr "Пристрій для калібрування кольору вилучено"
+msgstr ""
 
 #. Translators: UTC here means the Coordinated Universal Time.
 #. * %:::z will be replaced by the offset from UTC e.g. UTC+02
 #: plugins/datetime/gsd-datetime-manager.c:88
 msgid "UTC%:::z"
-msgstr "UTC%:::z"
+msgstr ""
 
 #: plugins/datetime/gsd-datetime-manager.c:92
 #, c-format
 msgid "Time Zone Updated to %s (%s)"
-msgstr "Часовий пояс оновлено до %s (%s)"
+msgstr ""
 
 #: plugins/datetime/gsd-datetime-manager.c:108
 msgid "Settings"
-msgstr "Налаштування"
+msgstr ""
 
 #: plugins/datetime/gsd-datetime-manager.c:118
 msgid "Date & Time Settings"
-msgstr "Налаштування дати та часу"
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:575
 msgid "Disk Space"
@@ -1523,72 +1232,64 @@ msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:586
 msgid "Examine"
-msgstr "Перевірити"
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:597
 msgid "Empty Trash"
-msgstr "Спорожнити смітник"
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:605
 msgid "Ignore"
-msgstr "Ігнорувати"
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:636
 #, c-format
 msgid "Low Disk Space on “%s”"
-msgstr "Недостатньо місця на диску «%s»"
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:638
 #, c-format
-msgid ""
-"The volume “%s” has only %s disk space remaining.  You may free up some "
-"space by emptying the trash."
+msgid "The volume “%s” has only %s disk space remaining.  You may free up some space by emptying the trash."
 msgstr ""
-"У томі «%s» залишилось тільки %s вільного місця. Можете трохи вивільнити "
-"місце, спорожнивши смітник."
 
 #: plugins/housekeeping/gsd-disk-space.c:642
 #, c-format
 msgid "The volume “%s” has only %s disk space remaining."
-msgstr "На томі «%s» залишилось лише %s вільного місця."
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:647
 msgid "Low Disk Space"
-msgstr "Недостатньо місця на диску"
+msgstr ""
 
 #: plugins/housekeeping/gsd-disk-space.c:649
 #, c-format
-msgid ""
-"This computer has only %s disk space remaining.  You may free up some space "
-"by emptying the trash."
+msgid "This computer has only %s disk space remaining.  You may free up some space by emptying the trash."
 msgstr ""
-"На цьому комп'ютері залишилось тільки %s вільного місця. Можете трохи "
-"вивільнити місце, спорожнивши смітник."
 
 #: plugins/housekeeping/gsd-disk-space.c:652
 #, c-format
 msgid "This computer has only %s disk space remaining."
-msgstr "На комп'ютері залишилось лише %s вільного місця."
+msgstr ""
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2225
 msgid "Bluetooth disabled"
-msgstr "Bluetooth вимкнено"
+msgstr ""
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2228
 msgid "Bluetooth enabled"
-msgstr "Bluetooth увімкнено"
+msgstr ""
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2232
 msgid "Airplane mode enabled"
-msgstr "Режим в літаку увімкнено"
+msgstr ""
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2235
 msgid "Airplane mode disabled"
-msgstr "Режим в літаку вимкнено"
+msgstr ""
 
 #: plugins/media-keys/gsd-media-keys-manager.c:2263
 msgid "Hardware Airplane Mode"
-msgstr "Апаратний режим у літаку"
+msgstr ""
 
 #. Translators: this is a filename used for screencast
 #. * recording, where "%d" and "%t" date and time, e.g.
@@ -1596,547 +1297,497 @@ msgstr "Апаратний режим у літаку"
 #: plugins/media-keys/gsd-media-keys-manager.c:2323
 #, no-c-format
 msgid "Screencast from %d %t.webm"
-msgstr "Запис екрану від %d %t.webm"
+msgstr ""
 
 #: plugins/media-keys/gsd-screenshot-utils.c:82
 msgid "Unable to capture a screenshot"
-msgstr "Неможливо зробити знімок екрану"
+msgstr ""
 
 #: plugins/media-keys/gsd-screenshot-utils.c:113
 #: plugins/media-keys/gsd-screenshot-utils.c:155
 msgid "Screenshot taken"
-msgstr "Знімок зроблено"
+msgstr ""
 
 #. translators: this is the name of the file that gets made up
 #. * with the screenshot
 #: plugins/media-keys/gsd-screenshot-utils.c:306
 #, c-format
 msgid "Screenshot from %s"
-msgstr "Знімок екрану з %s"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:45
 msgid "Touchpad toggle"
-msgstr "Перемкнути сенсорне керування"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:46
-#| msgid "Toggle touchpad"
 msgid "Touchpad On"
-msgstr "Увімкнути сенсорне керування"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:47
-#| msgid "Turn Off"
 msgid "Touchpad Off"
-msgstr "Вимкнути сенсорне керування"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:53
-#| msgid "Volume mute"
 msgid "Quiet Volume Mute"
-msgstr "Приглушити гучність"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:54
-#| msgid "Volume down"
 msgid "Quiet Volume Down"
-msgstr "Стишити"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:55
-#| msgid "Volume up"
 msgid "Quiet Volume Up"
-msgstr "Сголоснити"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:56
 msgid "Precise Volume Down"
-msgstr "Точне зменшення гучності"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:57
 msgid "Precise Volume Up"
-msgstr "Точне збільшення гучності"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:67
 msgid "Lock Screen"
-msgstr "Заблокувати екран"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:69
 msgid "Help"
-msgstr "Довідка"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:84
 msgid "Rewind"
-msgstr "Сам початок"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:85
 msgid "Forward"
-msgstr "Далі"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:86
 msgid "Repeat"
-msgstr "Повторити"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:87
 msgid "Random Play"
-msgstr "Випадкове відтворення"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:88
 msgid "Orientation Lock"
-msgstr "Блокування орієнтації"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:97
 msgid "Power Off"
-msgstr "Вимкнути живлення"
+msgstr ""
 
 #. the kernel / Xorg names really are like this...
 #. translators: "Sleep" means putting the machine to sleep, either through hibernate or suspend
 #: plugins/media-keys/shortcuts-list.h:100
 msgid "Sleep"
-msgstr "Приспати"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:101
 msgid "Suspend"
-msgstr "Призупинити"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:102
 msgid "Hibernate"
-msgstr "Приспати"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:103
 msgid "Brightness Up"
-msgstr "Збільшити яскравість"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:104
 msgid "Brightness Down"
-msgstr "Зменшити яскравість"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:105
-#| msgid "Keyboard is empty"
 msgid "Keyboard Brightness Up"
-msgstr "Збільшити яскравість клавіатури"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:106
-#| msgid "Keyboard battery low"
 msgid "Keyboard Brightness Down"
-msgstr "Зменшити яскравість клавіатури"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:107
-#| msgid "Keyboard is charged"
 msgid "Keyboard Brightness Toggle"
-msgstr "Перемкнути яскравість клавіатури"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:108
-#| msgid "Battery is low"
 msgid "Battery Status"
-msgstr "Стан батареї"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:109
 #: plugins/media-keys/shortcuts-list.h:110
 #: plugins/media-keys/shortcuts-list.h:111
 msgid "Toggle Airplane Mode"
-msgstr "Перемкнути режим в літаку"
+msgstr ""
 
 #: plugins/media-keys/shortcuts-list.h:112
 msgid "Toggle Bluetooth"
-msgstr "Перемкнути Bluetooth"
+msgstr ""
 
 #: plugins/power/gpm-common.c:100
 msgid "Unknown time"
-msgstr "Невідомий час"
+msgstr ""
 
 #: plugins/power/gpm-common.c:105
 #, c-format
 msgid "%i minute"
 msgid_plural "%i minutes"
-msgstr[0] "%i хвилина"
-msgstr[1] "%i хвилини"
-msgstr[2] "%i хвилин"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: plugins/power/gpm-common.c:115
 #, c-format
 msgid "%i hour"
 msgid_plural "%i hours"
-msgstr[0] "%i година"
-msgstr[1] "%i години"
-msgstr[2] "%i годин"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. TRANSLATOR: "%i %s %i %s" are "%i hours %i minutes"
 #. * Swap order with "%2$s %2$i %1$s %1$i if needed
 #: plugins/power/gpm-common.c:121
 #, c-format
 msgid "%i %s %i %s"
-msgstr "%i %s %i %s"
+msgstr ""
 
 #: plugins/power/gpm-common.c:122
 msgid "hour"
 msgid_plural "hours"
-msgstr[0] "година"
-msgstr[1] "години"
-msgstr[2] "години"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #: plugins/power/gpm-common.c:123
 msgid "minute"
 msgid_plural "minutes"
-msgstr[0] "хвилина"
-msgstr[1] "хвилини"
-msgstr[2] "хвилини"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gpm-common.c:948 plugins/power/gsd-power-manager.c:686
 #: plugins/power/gsd-power-manager.c:783
 msgid "Battery is critically low"
-msgstr "Заряд батареї критично низький"
+msgstr ""
 
 #. TRANSLATORS: this is the notification application name
 #: plugins/power/gsd-power-manager.c:324
 msgid "Power"
-msgstr "Живлення"
+msgstr ""
 
 #. TRANSLATORS: UPS is now discharging
 #: plugins/power/gsd-power-manager.c:356
 msgid "UPS Discharging"
-msgstr "Розряджання UPS"
+msgstr ""
 
 #. TRANSLATORS: tell the user how much time they have got
 #: plugins/power/gsd-power-manager.c:361
 #, c-format
 msgid "%s of UPS backup power remaining"
-msgstr "Залишилось %s з резервного живлення UPS"
+msgstr ""
 
 #: plugins/power/gsd-power-manager.c:364
-#| msgid "%s of UPS backup power remaining"
 msgid "Unknown amount of UPS backup power remaining"
-msgstr "Залишилось невідома кількість заряду у резервному живленні UPS"
+msgstr ""
 
 #. TRANSLATORS: laptop battery low, and we only have one battery
 #: plugins/power/gsd-power-manager.c:439
 msgid "Battery low"
-msgstr "Заряд батареї низький"
+msgstr ""
 
 #. TRANSLATORS: laptop battery low, and we have more than one kind of battery
 #: plugins/power/gsd-power-manager.c:442
 msgid "Laptop battery low"
-msgstr "Низький заряд батареї ноутбука"
+msgstr ""
 
 #. TRANSLATORS: tell the user how much time they have got
 #: plugins/power/gsd-power-manager.c:449
 #, c-format
 msgid "Approximately %s remaining (%.0f%%)"
-msgstr "Залишилось приблизно %s (%.0f%%)"
+msgstr ""
 
 #. TRANSLATORS: UPS is starting to get a little low
 #: plugins/power/gsd-power-manager.c:454
 msgid "UPS low"
-msgstr "Низький заряд UPS"
+msgstr ""
 
 #. TRANSLATORS: tell the user how much time they have got
 #: plugins/power/gsd-power-manager.c:460
 #, c-format
 msgid "Approximately %s of remaining UPS backup power (%.0f%%)"
-msgstr "Приблизно залишилось %s від живлення з UPS (%.0f%%)"
+msgstr ""
 
 #. TRANSLATORS: mouse is getting a little low
 #. TRANSLATORS: the mouse battery is very low
 #: plugins/power/gsd-power-manager.c:465 plugins/power/gsd-power-manager.c:599
 msgid "Mouse battery low"
-msgstr "Низький заряд батареї миші"
+msgstr ""
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:468
 #, c-format
 msgid "Wireless mouse is low in power (%.0f%%)"
-msgstr "Бездротова миша має обмаль заряду (%.0f%%)"
+msgstr ""
 
 #. TRANSLATORS: keyboard is getting a little low
 #. TRANSLATORS: the keyboard battery is very low
 #: plugins/power/gsd-power-manager.c:472 plugins/power/gsd-power-manager.c:607
 msgid "Keyboard battery low"
-msgstr "Низький заряд батареї клавіатури"
+msgstr ""
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:475
 #, c-format
 msgid "Wireless keyboard is low in power (%.0f%%)"
-msgstr "Бездротова клавіатура має обмаль заряду (%.0f%%)"
+msgstr ""
 
 #. TRANSLATORS: PDA is getting a little low
 #. TRANSLATORS: the PDA battery is very low
 #: plugins/power/gsd-power-manager.c:479 plugins/power/gsd-power-manager.c:616
 msgid "PDA battery low"
-msgstr "Низький заряд батареї КПК"
+msgstr ""
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:482
 #, c-format
 msgid "PDA is low in power (%.0f%%)"
-msgstr "КПК має обмаль заряду (%.0f%%)"
+msgstr ""
 
 #. TRANSLATORS: cell phone (mobile) is getting a little low
 #. TRANSLATORS: the cell battery is very low
 #: plugins/power/gsd-power-manager.c:486 plugins/power/gsd-power-manager.c:626
 #: plugins/power/gsd-power-manager.c:635
 msgid "Cell phone battery low"
-msgstr "Низький заряд батареї мобільного телефону"
+msgstr ""
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:489
 #, c-format
 msgid "Cell phone is low in power (%.0f%%)"
-msgstr "Мобільний телефон має обмаль заряду (%.0f%%)"
+msgstr ""
 
 #. TRANSLATORS: media player, e.g. mp3 is getting a little low
 #: plugins/power/gsd-power-manager.c:493
 msgid "Media player battery low"
-msgstr "Низький заряд батареї програвача"
+msgstr ""
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:496
 #, c-format
 msgid "Media player is low in power (%.0f%%)"
-msgstr "Програвач має обмаль заряду (%.0f%%)"
+msgstr ""
 
 #. TRANSLATORS: graphics tablet, e.g. wacom is getting a little low
 #. TRANSLATORS: the cell battery is very low
 #: plugins/power/gsd-power-manager.c:500 plugins/power/gsd-power-manager.c:644
 msgid "Tablet battery low"
-msgstr "Низький заряд батареї планшета"
+msgstr ""
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:503
 #, c-format
 msgid "Tablet is low in power (%.0f%%)"
-msgstr "Планшет має обмаль заряду (%.0f%%)"
+msgstr ""
 
 #. TRANSLATORS: computer, e.g. ipad is getting a little low
 #. TRANSLATORS: the cell battery is very low
 #: plugins/power/gsd-power-manager.c:507 plugins/power/gsd-power-manager.c:653
 msgid "Attached computer battery low"
-msgstr "Низький заряд батареї приєднаного комп'ютера"
+msgstr ""
 
 #. TRANSLATORS: tell user more details
 #: plugins/power/gsd-power-manager.c:510
 #, c-format
 msgid "Attached computer is low in power (%.0f%%)"
-msgstr "Приєднаний комп'ютер має обмаль заряду (%.0f%%)"
+msgstr ""
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gsd-power-manager.c:531
 msgid "Battery is low"
-msgstr "Заряд батареї низький"
+msgstr ""
 
 #. TRANSLATORS: laptop battery critically low, and only have one kind of battery
 #: plugins/power/gsd-power-manager.c:563
 msgid "Battery critically low"
-msgstr "Заряд батареї критично низький"
+msgstr ""
 
 #. TRANSLATORS: laptop battery critically low, and we have more than one type of battery
 #. TRANSLATORS: laptop battery is really, really, low
 #: plugins/power/gsd-power-manager.c:566 plugins/power/gsd-power-manager.c:713
 msgid "Laptop battery critically low"
-msgstr "Заряд батареї ноутбука критично низький"
+msgstr ""
 
 #. TRANSLATORS: give the user a ultimatum
 #: plugins/power/gsd-power-manager.c:575
 #, c-format
 msgid "Computer will hibernate very soon unless it is plugged in."
 msgstr ""
-"Комп'ютер незабаром перейде у режим сну, якщо його не приєднати до "
-"електромережі."
 
 #. TRANSLATORS: give the user a ultimatum
 #: plugins/power/gsd-power-manager.c:579
 #, c-format
 msgid "Computer will shutdown very soon unless it is plugged in."
 msgstr ""
-"Комп'ютер незабаром буде вимкнено, якщо його не приєднати до електромережі."
 
 #. TRANSLATORS: the UPS is very low
 #. TRANSLATORS: UPS is really, really, low
 #: plugins/power/gsd-power-manager.c:587 plugins/power/gsd-power-manager.c:738
 msgid "UPS critically low"
-msgstr "Заряд UPS критично низький"
+msgstr ""
 
 #. TRANSLATORS: give the user a ultimatum
 #: plugins/power/gsd-power-manager.c:593
 #, c-format
-msgid ""
-"Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your "
-"computer to avoid losing data."
+msgid "Approximately %s of remaining UPS power (%.0f%%). Restore AC power to your computer to avoid losing data."
 msgstr ""
-"Приблизно залишилось %s від живлення з UPS (%.0f%%). Відновіть зовнішнє "
-"живлення, щоб уникнути втраті даних."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:602
 #, c-format
-msgid ""
-"Wireless mouse is very low in power (%.0f%%). This device will soon stop "
-"functioning if not charged."
+msgid "Wireless mouse is very low in power (%.0f%%). This device will soon stop functioning if not charged."
 msgstr ""
-"Заряд бездротової миші надто низький (%.0f%%). Цей пристрій скоро перестане "
-"працювати, якщо його не зарядити."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:610
 #, c-format
-msgid ""
-"Wireless keyboard is very low in power (%.0f%%). This device will soon stop "
-"functioning if not charged."
+msgid "Wireless keyboard is very low in power (%.0f%%). This device will soon stop functioning if not charged."
 msgstr ""
-"Заряд бездротової клавіатури надто низький (%.0f%%). Цей пристрій скоро "
-"перестане працювати, якщо його не зарядити."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:619
 #, c-format
-msgid ""
-"PDA is very low in power (%.0f%%). This device will soon stop functioning if "
-"not charged."
+msgid "PDA is very low in power (%.0f%%). This device will soon stop functioning if not charged."
 msgstr ""
-"Заряд КПК надто низький (%.0f%%). Цей пристрій скоро перестане працювати, "
-"якщо його не зарядити."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:629
 #, c-format
-msgid ""
-"Cell phone is very low in power (%.0f%%). This device will soon stop "
-"functioning if not charged."
+msgid "Cell phone is very low in power (%.0f%%). This device will soon stop functioning if not charged."
 msgstr ""
-"Заряд мобільного телефону надто низький (%.0f%%). Цей пристрій скоро "
-"перестане працювати, якщо його не зарядити."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:638
 #, c-format
-msgid ""
-"Media player is very low in power (%.0f%%). This device will soon stop "
-"functioning if not charged."
+msgid "Media player is very low in power (%.0f%%). This device will soon stop functioning if not charged."
 msgstr ""
-"Заряд програвача надто низький (%.0f%%). Цей пристрій скоро перестане "
-"працювати, якщо його не зарядити."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:647
 #, c-format
-msgid ""
-"Tablet is very low in power (%.0f%%). This device will soon stop functioning "
-"if not charged."
+msgid "Tablet is very low in power (%.0f%%). This device will soon stop functioning if not charged."
 msgstr ""
-"Заряд планшета надто низький (%.0f%%). Цей пристрій скоро перестане "
-"працювати, якщо його не зарядити."
 
 #. TRANSLATORS: the device is just going to stop working
 #: plugins/power/gsd-power-manager.c:656
 #, c-format
-msgid ""
-"Attached computer is very low in power (%.0f%%). The device will soon "
-"shutdown if not charged."
+msgid "Attached computer is very low in power (%.0f%%). The device will soon shutdown if not charged."
 msgstr ""
-"Заряд приєднаного комп'ютера надто низький (%.0f%%). Пристрій скоро "
-"перестане працювати, якщо його не зарядити."
 
 #. TRANSLATORS: computer will hibernate
 #: plugins/power/gsd-power-manager.c:721
-msgid ""
-"The battery is below the critical level and this computer is about to "
-"hibernate."
+msgid "The battery is below the critical level and this computer is about to hibernate."
 msgstr ""
-"Рівень заряду батареї нижче за критичний і комп'ютер буде переведено у стан "
-"сну."
 
 #. TRANSLATORS: computer will just shutdown
 #: plugins/power/gsd-power-manager.c:726
-msgid ""
-"The battery is below the critical level and this computer is about to "
-"shutdown."
-msgstr "Рівень заряду батареї нижче за критичний і комп'ютер буде вимкнено."
+msgid "The battery is below the critical level and this computer is about to shutdown."
+msgstr ""
 
 #. TRANSLATORS: computer will hibernate
 #: plugins/power/gsd-power-manager.c:746
-msgid ""
-"UPS is below the critical level and this computer is about to hibernate."
+msgid "UPS is below the critical level and this computer is about to hibernate."
 msgstr ""
-"Заряд UPS нижче за критичний рівень і комп'ютер буде переведено у стан сну."
 
 #. TRANSLATORS: computer will just shutdown
 #: plugins/power/gsd-power-manager.c:751
-msgid ""
-"UPS is below the critical level and this computer is about to shutdown."
-msgstr "Заряд UPS нижче за критичний рівень і комп'ютер буде вимкнено."
+msgid "UPS is below the critical level and this computer is about to shutdown."
+msgstr ""
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gsd-power-manager.c:1264
 msgid "Lid has been opened"
-msgstr "Кришку відкрито"
+msgstr ""
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gsd-power-manager.c:1302
 msgid "Lid has been closed"
-msgstr "Кришку закрито"
+msgstr ""
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gsd-power-manager.c:1898
 msgid "On battery power"
-msgstr "Живлення від батареї"
+msgstr ""
 
 #. TRANSLATORS: this is the sound description
 #: plugins/power/gsd-power-manager.c:1903
 msgid "On AC power"
-msgstr "Живлення від мережі"
+msgstr ""
 
 #: plugins/power/gsd-power-manager.c:2095
 msgid "Automatic logout"
-msgstr "Автоматично виходити"
+msgstr ""
 
 #: plugins/power/gsd-power-manager.c:2095
 msgid "You will soon log out because of inactivity."
-msgstr "Невдовзі сеанс буде завершено через тривалу бездіяльність."
+msgstr ""
 
 #: plugins/power/gsd-power-manager.c:2100
 msgid "Automatic suspend"
-msgstr "Автоматично призупиняти роботу"
+msgstr ""
 
 #: plugins/power/gsd-power-manager.c:2100
 #: plugins/power/gsd-power-manager.c:2105
 msgid "Computer will suspend very soon because of inactivity."
-msgstr "Невдовзі комп'ютер буде призупинено через тривалу бездіяльність."
+msgstr ""
 
 #: plugins/power/gsd-power-manager.c:2105
 msgid "Automatic hibernation"
-msgstr "Автоматично присипати"
+msgstr ""
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the backlight brightness.
 #: plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in:21
 msgid "Modify the laptop brightness"
-msgstr "Змінити яскравість ноутбука"
+msgstr ""
 
 #: plugins/power/org.gnome.settings-daemon.plugins.power.policy.in.in:22
 msgid "Authentication is required to modify the laptop brightness"
-msgstr "Для зміни яскравості ноутбука потрібна автентифікація"
+msgstr ""
 
 #. Translators: We are configuring new printer
 #: plugins/print-notifications/gsd-printer.c:890
 msgid "Configuring new printer"
-msgstr "Налаштування нового принтера"
+msgstr ""
 
 #. Translators: Just wait
 #: plugins/print-notifications/gsd-printer.c:892
 msgid "Please wait…"
-msgstr "Будь ласка, зачекайте..."
+msgstr ""
 
 #. Translators: We have no driver installed for this printer
 #: plugins/print-notifications/gsd-printer.c:919
 msgid "Missing printer driver"
-msgstr "Бракує драйверів до принтера"
+msgstr ""
 
 #. Translators: We have no driver installed for the device
 #: plugins/print-notifications/gsd-printer.c:928
 #, c-format
 msgid "No printer driver for %s."
-msgstr "Бракує драйверів для принтера %s."
+msgstr ""
 
 #. Translators: We have no driver installed for this printer
 #: plugins/print-notifications/gsd-printer.c:933
 msgid "No driver for this printer."
-msgstr "Бракує драйверів для цього принтера."
+msgstr ""
 
 #: plugins/print-notifications/gsd-printer.c:1031
 #: plugins/print-notifications/gsd-print-notifications-manager.c:290
@@ -2145,156 +1796,157 @@ msgstr "Бракує драйверів для цього принтера."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1001
 #: plugins/print-notifications/gsd-print-notifications-manager.c:1044
 msgid "Printers"
-msgstr "Принтери"
+msgstr ""
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:366
 #, c-format
 msgid "Printer “%s” is low on toner."
-msgstr "У принтері «%s» закінчується тонер."
+msgstr ""
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:370
 #, c-format
 msgid "Printer “%s” has no toner left."
-msgstr "У принтері «%s» закінчився тонер."
+msgstr ""
 
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:378
 #, c-format
 msgid "The cover is open on printer “%s”."
-msgstr "У принтері «%s» відкрито кришку."
+msgstr ""
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:382
 #, c-format
 msgid "There is a missing print filter for printer “%s”."
-msgstr "Для принтера «%s» відсутній фільтр друку."
+msgstr ""
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:387
 #, c-format
 msgid "The door is open on printer “%s”."
-msgstr "У принтері «%s» відкрито дверцята."
+msgstr ""
 
 #. Translators: "marker" is one color bin of the printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:391
 #, c-format
 msgid "Printer “%s” is low on a marker supply."
-msgstr "У принтері «%s» закінчується фарба."
+msgstr ""
 
 #. Translators: "marker" is one color bin of the printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:395
 #, c-format
 msgid "Printer “%s” is out of a marker supply."
-msgstr "У принтері «%s» закінчилася фарба."
+msgstr ""
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:399
 #, c-format
 msgid "Printer “%s” is low on paper."
-msgstr "У принтері «%s» закінчується папір."
+msgstr ""
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:403
 #, c-format
 msgid "Printer “%s” is out of paper."
-msgstr "У принтері «%s» закінчився папір."
+msgstr ""
 
 #. Translators: The printer is offline (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:407
 #, c-format
 msgid "Printer “%s” is currently off-line."
-msgstr "Принтер «%s» наразі вимкнено."
+msgstr ""
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:411
 #, c-format
 msgid "There is a problem on printer “%s”."
-msgstr "Проблема з принтером «%s»."
+msgstr ""
 
 #. Translators: The printer has a job to print but the printer needs authentication to continue with the print
 #: plugins/print-notifications/gsd-print-notifications-manager.c:523
 #, c-format
+#| msgid "<b>_Use authentication</b>"
 msgid "%s Requires Authentication"
-msgstr "%s вимагає автентифікації"
+msgstr ""
 
 #. Translators: A printer needs credentials to continue printing a job
 #: plugins/print-notifications/gsd-print-notifications-manager.c:525
 #, c-format
 msgid "Credentials required in order to print"
-msgstr "Для друку необхідні реєстраційні дані"
+msgstr ""
 
 #. Translators: The printer is low on toner (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:591
 msgid "Toner low"
-msgstr "Мало тонера"
+msgstr ""
 
 #. Translators: The printer has no toner left (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:593
 msgid "Toner empty"
-msgstr "Тонера немає"
+msgstr ""
 
 #. Translators: The printer is in the process of connecting to a shared network output device (same as in system-config-printer)
 #. N_("Not connected?"),
 #. Translators: One or more covers on the printer are open (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:597
 msgid "Cover open"
-msgstr "Кришку відчинено"
+msgstr ""
 
 #. Translators: A filter or backend is not installed (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:599
 msgid "Printer configuration error"
-msgstr "Помилка налаштування принтера"
+msgstr ""
 
 #. Translators: One or more doors on the printer are open (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:601
 msgid "Door open"
-msgstr "Дверцята відчинено"
+msgstr ""
 
 #. Translators: "marker" is one color bin of the printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:603
 msgid "Marker supply low"
-msgstr "Мало фарби"
+msgstr ""
 
 #. Translators: "marker" is one color bin of the printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:605
 msgid "Out of a marker supply"
-msgstr "Немає фарби"
+msgstr ""
 
 #. Translators: At least one input tray is low on media (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:607
 msgid "Paper low"
-msgstr "Мало паперу"
+msgstr ""
 
 #. Translators: At least one input tray is empty (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:609
 msgid "Out of paper"
-msgstr "Немає паперу"
+msgstr ""
 
 #. Translators: The printer is offline (same as in system-config-printer)
 #: plugins/print-notifications/gsd-print-notifications-manager.c:611
 msgid "Printer off-line"
-msgstr "Принтер недоступний"
+msgstr ""
 
 #. Translators: The printer has detected an error (same as in system-config-printer)
 #. Translators: This is a title of an error notification for a printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:613
 #: plugins/print-notifications/gsd-print-notifications-manager.c:987
 msgid "Printer error"
-msgstr "Помилка принтера"
+msgstr ""
 
 #. Translators: New printer has been added
 #: plugins/print-notifications/gsd-print-notifications-manager.c:661
 msgid "Printer added"
-msgstr "Принтер додано"
+msgstr ""
 
 #. Translators: A print job has been stopped
 #: plugins/print-notifications/gsd-print-notifications-manager.c:678
 #: plugins/print-notifications/gsd-print-notifications-manager.c:716
 msgctxt "print job state"
 msgid "Printing stopped"
-msgstr "Друк зупинено"
+msgstr ""
 
 #. Translators: "print-job xy" on a printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:680
@@ -2310,77 +1962,75 @@ msgstr "Друк зупинено"
 #, c-format
 msgctxt "print job"
 msgid "“%s” on %s"
-msgstr "«%s» на %s"
+msgstr ""
 
 #. Translators: A print job has been canceled
 #: plugins/print-notifications/gsd-print-notifications-manager.c:684
 #: plugins/print-notifications/gsd-print-notifications-manager.c:724
 msgctxt "print job state"
 msgid "Printing canceled"
-msgstr "Друк скасовано"
+msgstr ""
 
 #. Translators: A print job has been aborted
 #: plugins/print-notifications/gsd-print-notifications-manager.c:690
 #: plugins/print-notifications/gsd-print-notifications-manager.c:732
 msgctxt "print job state"
 msgid "Printing aborted"
-msgstr "Друк перервано"
+msgstr ""
 
 #. Translators: A print job has been completed
 #: plugins/print-notifications/gsd-print-notifications-manager.c:696
 #: plugins/print-notifications/gsd-print-notifications-manager.c:740
 msgctxt "print job state"
 msgid "Printing completed"
-msgstr "Друк завершено"
+msgstr ""
 
 #. Translators: A job is printing
 #: plugins/print-notifications/gsd-print-notifications-manager.c:708
 #: plugins/print-notifications/gsd-print-notifications-manager.c:764
 msgctxt "print job state"
 msgid "Printing"
-msgstr "Триває друк"
+msgstr ""
 
 #. Translators: This is a title of a report notification for a printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:981
 msgid "Printer report"
-msgstr "Звіт принтера"
+msgstr ""
 
 #. Translators: This is a title of a warning notification for a printer
 #: plugins/print-notifications/gsd-print-notifications-manager.c:984
 msgid "Printer warning"
-msgstr "Попередження принтера"
+msgstr ""
 
 #. Translators: "Printer 'MyPrinterName': 'Description of the report/warning/error from a PPD file'."
 #: plugins/print-notifications/gsd-print-notifications-manager.c:994
 #, c-format
 msgid "Printer “%s”: “%s”."
-msgstr "Принтер «%s»: «%s»."
+msgstr ""
 
 #: plugins/smartcard/gsd-smartcard-service.c:224
 msgid "User was not logged in with smartcard."
-msgstr "Користувач не здійснив вхід через смарт-карту."
+msgstr ""
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the LED setting for a Wacom tablet
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:20
 msgid "Modify the lit LED for a Wacom tablet"
-msgstr "Змінити роботу світлодіода в планшеті Wacom"
+msgstr ""
 
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:21
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
 msgstr ""
-"Для зміни роботи світлодіода в планшеті Wacom потрібна автентифікація"
 
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the OLED images for a Wacom tablet
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:35
-#| msgid "Modify the lit LED for a Wacom tablet"
 msgid "Modify the OLED image for a Wacom tablet"
-msgstr "Змінити зображення OLED для планшета Wacom"
+msgstr ""
 
 #: plugins/wacom/org.gnome.settings-daemon.plugins.wacom.policy.in.in:36
-msgid ""
-"Authentication is required to modify the OLED image for a Wacom tablet"
-msgstr "Для зміни OLED-зображения планшета Wacom потрібна автентифікація"
+msgid "Authentication is required to modify the OLED image for a Wacom tablet"
+msgstr ""
+

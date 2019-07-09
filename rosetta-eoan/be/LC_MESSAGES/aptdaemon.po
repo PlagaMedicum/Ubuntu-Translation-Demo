@@ -1,23 +1,21 @@
-# Belarusian translation for aptdaemon
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
-# This file is distributed under the same license as the aptdaemon package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: aptdaemon\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-03-28 18:46+0000\n"
-"PO-Revision-Date: 2012-04-14 16:03+0000\n"
-"Last-Translator: Mikhail_SaTuRn <mikhail_saturn@tut.by>\n"
-"Language-Team: Belarusian <be@li.org>\n"
+"PO-Revision-Date: 2019-07-08 16:56\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Launchpad-Export-Date: 2019-05-11 12:42+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Launchpad-Export-Date: 2019-05-11 12:43+0000\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/aptdaemon.po\n"
+"Language: be_BY\n"
 
 #: ../data/org.debian.apt.policy.in.h:1
 msgid "List keys of trusted vendors"
@@ -65,8 +63,7 @@ msgstr "Абнаўленне інфармацыі аб пакетах"
 
 #: ../data/org.debian.apt.policy.in.h:12
 msgid "To update the software catalog, you need to authenticate."
-msgstr ""
-"Для абнаўлення каталога праграмнага забеспячэння патрабуецца аўтэнтыфікацыя."
+msgstr "Для абнаўлення каталога праграмнага забеспячэння патрабуецца аўтэнтыфікацыя."
 
 #: ../data/org.debian.apt.policy.in.h:13
 msgid "Install or remove packages"
@@ -88,13 +85,11 @@ msgstr "Каб усталяваць ці выдаліць праграму, вы
 #. 
 #: ../data/org.debian.apt.policy.in.h:25
 msgid "Install software from a high-trust whitelisted repository."
-msgstr ""
-"Усталёўка праграмнага забеспячэння са сховішча з высокім узроўнем даверу."
+msgstr "Усталёўка праграмнага забеспячэння са сховішча з высокім узроўнем даверу."
 
 #: ../data/org.debian.apt.policy.in.h:26
 msgid "To install software, you need to authenticate."
-msgstr ""
-"Для таго, каб ўсталёўваць праграмнае забеспячэнне трэба аўнтэнтыфікавацца."
+msgstr "Для таго, каб ўсталёўваць праграмнае забеспячэнне трэба аўнтэнтыфікавацца."
 
 #. This privilege allows to call AddRepository, UpdateCache(Partially)
 #. and InstallPackages in a row and only authenticating once.
@@ -118,11 +113,8 @@ msgstr "Каб усталяваць праграмы з новай крыніц�
 #. The only difference to install-packages-from-new-repo is the wording
 #. of the message. It is required by Ubuntu's Software-Center.
 #: ../data/org.debian.apt.policy.in.h:42
-msgid ""
-"Add a new repository of purchased software and install packages from it"
-msgstr ""
-"Дадаць новае сховішча платнага праграмнага забеспячэння і ўсталяваць пакеты "
-"з яго"
+msgid "Add a new repository of purchased software and install packages from it"
+msgstr "Дадаць новае сховішча платнага праграмнага забеспячэння і ўсталяваць пакеты з яго"
 
 #: ../data/org.debian.apt.policy.in.h:43
 msgid "To install purchased software, you need to authenticate."
@@ -142,20 +134,15 @@ msgstr "Адмяніць задачу іншага карыстальніка"
 
 #: ../data/org.debian.apt.policy.in.h:47
 msgid "To cancel someone else's software changes, you need to authenticate."
-msgstr ""
-"Для скасавання не сваіх змен у праграмным забеспячэнні патрабуецца "
-"аўтэнтыфікацыя."
+msgstr "Для скасавання не сваіх змен у праграмным забеспячэнні патрабуецца аўтэнтыфікацыя."
 
 #: ../data/org.debian.apt.policy.in.h:48
 msgid "Set a proxy for software downloads"
 msgstr "Усталяваць проксі-сервер для загрузак праграм"
 
 #: ../data/org.debian.apt.policy.in.h:49
-msgid ""
-"To use a proxy server for downloading software, you need to authenticate."
-msgstr ""
-"Для карыстання з проксі сервера для загрузкі праграмнага забеспячэння "
-"патрабуецца аўтэнтыфікацыя."
+msgid "To use a proxy server for downloading software, you need to authenticate."
+msgstr "Для карыстання з проксі сервера для загрузкі праграмнага забеспячэння патрабуецца аўтэнтыфікацыя."
 
 #: ../aptdaemon/console.py:215
 msgid "ERROR"
@@ -195,6 +182,7 @@ msgid_plural "The following NEW packages will be installed (%(count)s):"
 msgstr[0] "Наступны НОВЫ пакет будзе ўсталяваны (%(count)s):"
 msgstr[1] "Наступныя НОВЫЯ пакеты будуць усталяваныя (%(count)s):"
 msgstr[2] "Наступныя НОВЫЯ пакеты будуць усталяваныя (%(count)s):"
+msgstr[3] ""
 
 #. TRANSLATORS: %s is the number of packages
 #: ../aptdaemon/console.py:467
@@ -204,6 +192,7 @@ msgid_plural "The following packages will be upgraded (%(count)s):"
 msgstr[0] "Наступны пакет будзе абноўлены (%(count)s):"
 msgstr[1] "Наступныя пакеты будуць абноўленыя (%(count)s):"
 msgstr[2] "Наступныя пакеты будуць абноўленыя (%(count)s):"
+msgstr[3] ""
 
 #. TRANSLATORS: %s is the number of packages
 #: ../aptdaemon/console.py:475
@@ -213,6 +202,7 @@ msgid_plural "The following packages will be REMOVED (%(count)s):"
 msgstr[0] "Наступны пакет будзе выдалены (%(count)s):"
 msgstr[1] "Наступныя пакеты будуць выдаленыя (%(count)s):"
 msgstr[2] "Наступныя пакеты будуць выдаленыя (%(count)s):"
+msgstr[3] ""
 
 #. TRANSLATORS: %s is the number of packages
 #: ../aptdaemon/console.py:484
@@ -222,6 +212,7 @@ msgid_plural "The following packages will be DOWNGRADED (%(count)s):"
 msgstr[0] "Для наступнага пакета будзе праведзены АДКАТ (%(count)s):"
 msgstr[1] "Для наступных пакетаў будзе праведзены АДКАТ (%(count)s):"
 msgstr[2] "Для наступных пакетаў будзе праведзены АДКАТ (%(count)s):"
+msgstr[3] ""
 
 #. TRANSLATORS: %s is the number of packages
 #: ../aptdaemon/console.py:492
@@ -231,6 +222,7 @@ msgid_plural "The following packages will be reinstalled (%(count)s):"
 msgstr[0] "Наступны пакет будзе пераўсталяваны (%(count)s):"
 msgstr[1] "Наступныя пакеты будуць пераўсталяваныя (%(count)s):"
 msgstr[2] "Наступныя пакеты будуць пераўсталяваныя (%(count)s):"
+msgstr[3] ""
 
 #: ../aptdaemon/console.py:499
 #, python-format
@@ -239,6 +231,7 @@ msgid_plural "The following packages have been kept back (%(count)s):"
 msgstr[0] "Наступны пакет быў адноўлены (%(count)s):"
 msgstr[1] "Наступныя пакеты былі адноўленыя (%(count)s):"
 msgstr[2] "Наступныя пакеты былі адноўленыя (%(count)s):"
+msgstr[3] ""
 
 #: ../aptdaemon/console.py:507
 #, python-format
@@ -260,13 +253,9 @@ msgid "Do you want to continue [Y/n]?"
 msgstr "Вы хочаце працягнуць [Y - Так, N - Не]?"
 
 #: ../aptdaemon/console.py:545
-msgid ""
-"To operate on more than one package put the package names in quotation "
-"marks:\n"
+msgid "To operate on more than one package put the package names in quotation marks:\n"
 "aptdcon --install \"foo bar\""
-msgstr ""
-"Для правядзення аперацый над некалькімі пакетамі пастаўце іх імёны ў "
-"двукоссе:\n"
+msgstr "Для правядзення аперацый над некалькімі пакетамі пастаўце іх імёны ў двукоссе:\n"
 "aptdcon --install \"foo bar\""
 
 #: ../aptdaemon/console.py:551
@@ -274,12 +263,8 @@ msgid "Refresh the cache"
 msgstr "Абнавіць кэш"
 
 #: ../aptdaemon/console.py:554
-msgid ""
-"Try to resolve broken dependencies. Potentially dangerous operation since it "
-"could try to remove many packages."
-msgstr ""
-"Паспрабаваць вырашыць сапсаваныя залежнасці. Гэта патэнцыйна небяспечная "
-"аперацыя, паколькі яна можа выдаліць шмат пакетаў."
+msgid "Try to resolve broken dependencies. Potentially dangerous operation since it could try to remove many packages."
+msgstr "Паспрабаваць вырашыць сапсаваныя залежнасці. Гэта патэнцыйна небяспечная аперацыя, паколькі яна можа выдаліць шмат пакетаў."
 
 #: ../aptdaemon/console.py:559
 msgid "Try to finish a previous incompleted installation"
@@ -334,12 +319,8 @@ msgid "Add new repository from the given deb-line"
 msgstr "Дадаць сховішча з пазначанага deb-радка"
 
 #: ../aptdaemon/console.py:608
-msgid ""
-"Specify an alternative sources.list.d file to which repositories should be "
-"added."
-msgstr ""
-"Пазначыць альтэрнатыўны файл sources.list.d, да якога неабходна дадаваць "
-"сховішчы"
+msgid "Specify an alternative sources.list.d file to which repositories should be added."
+msgstr "Пазначыць альтэрнатыўны файл sources.list.d, да якога неабходна дадаваць сховішчы"
 
 #: ../aptdaemon/console.py:612
 msgid "List trusted vendor keys"
@@ -350,12 +331,8 @@ msgid "Remove the trusted key of the given fingerprint"
 msgstr "Выдаліць давераны ключ для дадзенага лічбавага подпісу"
 
 #: ../aptdaemon/console.py:622
-msgid ""
-"Reconfigure installed packages. Optionally the minimum priority of questions "
-"can be specified"
-msgstr ""
-"Паўторная наладка ўсталяваных пакетаў. Дадаткова можа быць паказаны "
-"мінімальны прыярытэт пытанняў"
+msgid "Reconfigure installed packages. Optionally the minimum priority of questions can be specified"
+msgstr "Паўторная наладка ўсталяваных пакетаў. Дадаткова можа быць паказаны мінімальны прыярытэт пытанняў"
 
 #: ../aptdaemon/console.py:627
 msgid "The minimum debconf priority of question to be displayed"
@@ -370,12 +347,8 @@ msgid "Allow packages from unauthenticated sources"
 msgstr "Дазваляць пакеты з недавераных крыніц"
 
 #: ../aptdaemon/console.py:639
-msgid ""
-"Show additional information about the packages. Currently only the version "
-"number"
-msgstr ""
-"Паказаць дадатковую інфармацыю аб пакеце. У дадзены момант толькі нумар "
-"версіі"
+msgid "Show additional information about the packages. Currently only the version number"
+msgstr "Паказаць дадатковую інфармацыю аб пакеце. У дадзены момант толькі нумар версіі"
 
 #: ../aptdaemon/console.py:647 ../aptdaemon/enums.py:532
 msgid "Waiting for authentication"
@@ -563,9 +536,7 @@ msgstr "Не атрымалася ўсталяваць праграмнае за
 
 #: ../aptdaemon/enums.py:382
 msgid "Adding the key to the list of trusted software vendors failed"
-msgstr ""
-"Даданне ключа ў пералік давераных пастаўшчыкоў праграмнага забеспячэння не "
-"ўдалося"
+msgstr "Даданне ключа ў пералік давераных пастаўшчыкоў праграмнага забеспячэння не ўдалося"
 
 #: ../aptdaemon/enums.py:384
 msgid "Refreshing the software list failed"
@@ -624,52 +595,30 @@ msgid "Check your Internet connection."
 msgstr "Праверце інтэрнэт-злучэнне."
 
 #: ../aptdaemon/enums.py:406
-msgid ""
-"Check if you are using third party repositories. If so disable them, since "
-"they are a common source of problems.\n"
+msgid "Check if you are using third party repositories. If so disable them, since they are a common source of problems.\n"
 "Furthermore run the following command in a Terminal: apt-get install -f"
-msgstr ""
-"Калі Вы выкарыстоўваеце іншыя крыніцы праграм, адключыце іх, паколькі яны "
-"з'яўляюцца частай\n"
-"крыніцай праблем. Пасля гэтага выканайце ў тэрмінале наступную каманду: apt-"
-"get install -f"
+msgstr "Калі Вы выкарыстоўваеце іншыя крыніцы праграм, адключыце іх, паколькі яны з'яўляюцца частай\n"
+"крыніцай праблем. Пасля гэтага выканайце ў тэрмінале наступную каманду: apt-get install -f"
 
 #: ../aptdaemon/enums.py:411
 msgid "The selected file may not be a GPG key file or it might be corrupt."
 msgstr "Выбраны файл можа быць пашкоджаны, альбо не з'яўляецца ключом PGP."
 
 #: ../aptdaemon/enums.py:413
-msgid ""
-"The selected key couldn't be removed. Check that you provided a valid "
-"fingerprint."
-msgstr ""
-"Абраны ключ немагчыма выдаліць. Праверце, што Вы падалі дакладны лічбавы "
-"подпіс."
+msgid "The selected key couldn't be removed. Check that you provided a valid fingerprint."
+msgstr "Абраны ключ немагчыма выдаліць. Праверце, што Вы падалі дакладны лічбавы подпіс."
 
 #: ../aptdaemon/enums.py:415
-msgid ""
-"Check if you are currently running another software management tool, e.g. "
-"Synaptic or aptitude. Only one tool is allowed to make changes at a time."
-msgstr ""
-"Праверце, ці не запушчана іншая праграма кіравання праграмамі, напрыклад "
-"Synaptic или aptitude. Толькі адна праграма можа ўносіць змены ў адзін і той "
-"жа час."
+msgid "Check if you are currently running another software management tool, e.g. Synaptic or aptitude. Only one tool is allowed to make changes at a time."
+msgstr "Праверце, ці не запушчана іншая праграма кіравання праграмамі, напрыклад Synaptic или aptitude. Толькі адна праграма можа ўносіць змены ў адзін і той жа час."
 
 #: ../aptdaemon/enums.py:418
-msgid ""
-"This is a serious problem. Try again later. If this problem appears again, "
-"please report an error to the developers."
-msgstr ""
-"Гэта сур'ёзная праблема. Паспрабуйце паўтарыць пазней. Калі праблема "
-"паўстане зноў, калі ласка, адпраўце справаздачу аб памылцы распрацоўнікам."
+msgid "This is a serious problem. Try again later. If this problem appears again, please report an error to the developers."
+msgstr "Гэта сур'ёзная праблема. Паспрабуйце паўтарыць пазней. Калі праблема паўстане зноў, калі ласка, адпраўце справаздачу аб памылцы распрацоўнікам."
 
 #: ../aptdaemon/enums.py:421
-msgid ""
-"Check the spelling of the package name, and that the appropriate repository "
-"is enabled."
-msgstr ""
-"Праверце ці правільна пазначана назва пакета і ці ўключаны адпаведны "
-"рэпазітар."
+msgid "Check the spelling of the package name, and that the appropriate repository is enabled."
+msgstr "Праверце ці правільна пазначана назва пакета і ці ўключаны адпаведны рэпазітар."
 
 #: ../aptdaemon/enums.py:423
 msgid "There isn't any need for an update."
@@ -684,18 +633,12 @@ msgid "There isn't any need for a removal."
 msgstr "Няма неабходнасці выдалення."
 
 #: ../aptdaemon/enums.py:427
-msgid ""
-"You requested to remove a package which is an essential part of your system."
-msgstr ""
-"Вы падалі запыт на выдаленне пакета, які з'яўляецца неад'емнай часткай вашай "
-"сістэмы."
+msgid "You requested to remove a package which is an essential part of your system."
+msgstr "Вы падалі запыт на выдаленне пакета, які з'яўляецца неад'емнай часткай вашай сістэмы."
 
 #: ../aptdaemon/enums.py:430
-msgid ""
-"The connection to the daemon was lost. Most likely the background daemon "
-"crashed."
-msgstr ""
-"Сувязь з дэманам страчана. Хутчэй за ўсё, яго праца нечакана скончылася."
+msgid "The connection to the daemon was lost. Most likely the background daemon crashed."
+msgstr "Сувязь з дэманам страчана. Хутчэй за ўсё, яго праца нечакана скончылася."
 
 #: ../aptdaemon/enums.py:432
 msgid "The installation or removal of a software package failed."
@@ -706,67 +649,33 @@ msgid "The requested feature is not supported."
 msgstr "Магчымасць не падтрымліваецца."
 
 #: ../aptdaemon/enums.py:435
-msgid ""
-"There seems to be a programming error in aptdaemon, the software that allows "
-"you to install/remove software and to perform other package management "
-"related tasks."
-msgstr ""
-"Мяркуючы па ўсім, у aptdaemon, праграмным забеспячэнні, якое дазваляе вам "
-"усталёўваць / выдаляць праграмы і выконваць звязаныя з пакетамі задачы, "
-"прысутнічае праграмная памылка."
+msgid "There seems to be a programming error in aptdaemon, the software that allows you to install/remove software and to perform other package management related tasks."
+msgstr "Мяркуючы па ўсім, у aptdaemon, праграмным забеспячэнні, якое дазваляе вам усталёўваць / выдаляць праграмы і выконваць звязаныя з пакетамі задачы, прысутнічае праграмная памылка."
 
 #: ../aptdaemon/enums.py:439
-msgid ""
-"This error could be caused by required additional software packages which "
-"are missing or not installable. Furthermore there could be a conflict "
-"between software packages which are not allowed to be installed at the same "
-"time."
-msgstr ""
-"Гэтая памылка магла паўстаць з прычыны дадатковых пакетаў, якія немагчыма "
-"ўсталяваць ці якія адсутнічаюць. Да таго ж можа мець месца канфлікт паміж "
-"пакетамі, якія не могуць быць усталяваныя адначасова."
+msgid "This error could be caused by required additional software packages which are missing or not installable. Furthermore there could be a conflict between software packages which are not allowed to be installed at the same time."
+msgstr "Гэтая памылка магла паўстаць з прычыны дадатковых пакетаў, якія немагчыма ўсталяваць ці якія адсутнічаюць. Да таго ж можа мець месца канфлікт паміж пакетамі, якія не могуць быць усталяваныя адначасова."
 
 #: ../aptdaemon/enums.py:445
 msgid "This requires installing packages from unauthenticated sources."
 msgstr "Гэта патрабуе ўстаноўкі пакетаў з неаўтентыфікаваных крыніц."
 
 #: ../aptdaemon/enums.py:447
-msgid ""
-"The installation could have failed because of an error in the corresponding "
-"software package or it was cancelled in an unfriendly way. You have to "
-"repair this before you can install or remove any further software."
-msgstr ""
-"Усталёўка магла прайсці няўдала з-за памылкі ў адпаведным пакеце, альбо была "
-"няправільна спыненая. Вам варта выправіць гэта перш чым усталёўваць ці "
-"выдаляць іншыя праграмы."
+msgid "The installation could have failed because of an error in the corresponding software package or it was cancelled in an unfriendly way. You have to repair this before you can install or remove any further software."
+msgstr "Усталёўка магла прайсці няўдала з-за памылкі ў адпаведным пакеце, альбо была няправільна спыненая. Вам варта выправіць гэта перш чым усталёўваць ці выдаляць іншыя праграмы."
 
 #: ../aptdaemon/enums.py:453
-msgid ""
-"Please copy the file to your local computer and check the file permissions."
-msgstr ""
-"Калі ласка, скапіруйце файл на ваш лакальны кампутар і праверце правы на "
-"файл."
+msgid "Please copy the file to your local computer and check the file permissions."
+msgstr "Калі ласка, скапіруйце файл на ваш лакальны кампутар і праверце правы на файл."
 
 #: ../aptdaemon/enums.py:456
-msgid ""
-"The installation of a package which violates the quality standards isn't "
-"allowed. This could cause serious problems on your computer. Please contact "
-"the person or organisation who provided this package file and include the "
-"details beneath."
-msgstr ""
-"Усталёўка пакета, які не адпавядае стандартам, не дазволена. Гэта можа "
-"прывесці да сур'ёзных памылак на вашым кампутары. Калі ласка, звяжыцеся з "
-"тымі, хто прапанаваў дадзены пакет, зазначыўшы падрабязнасці, змешчаныя "
-"ніжэй."
+msgid "The installation of a package which violates the quality standards isn't allowed. This could cause serious problems on your computer. Please contact the person or organisation who provided this package file and include the details beneath."
+msgstr "Усталёўка пакета, які не адпавядае стандартам, не дазволена. Гэта можа прывесці да сур'ёзных памылак на вашым кампутары. Калі ласка, звяжыцеся з тымі, хто прапанаваў дадзены пакет, зазначыўшы падрабязнасці, змешчаныя ніжэй."
 
 #: ../aptdaemon/enums.py:463
-msgid ""
-"The downloaded license key which is required to run this piece of software "
-"is not valid or could not be installed correctly.\n"
+msgid "The downloaded license key which is required to run this piece of software is not valid or could not be installed correctly.\n"
 "See the details for more information."
-msgstr ""
-"Атрыманы ліцэнзійны ключ, неабходны для выканання гэтага кампанента праграмы "
-"няправільны, або не можа быць усталяваны належным чынам.\n"
+msgstr "Атрыманы ліцэнзійны ключ, неабходны для выканання гэтага кампанента праграмы няправільны, або не можа быць усталяваны належным чынам.\n"
 "Для атрымання дадатковых звестак адчынеце падрабязнасці."
 
 #: ../aptdaemon/enums.py:469
@@ -774,29 +683,18 @@ msgid "All available upgrades have already been installed."
 msgstr "Усе даступныя абнаўленні ўжо ўсталяваныя."
 
 #: ../aptdaemon/enums.py:471
-msgid ""
-"The license key which allows you to use this piece of software could not be "
-"downloaded. Please check your network connection."
-msgstr ""
-"Ліцэнзійны ключ, які дазволіць вам выкарыстоўваць гэты кампанент праграмы, "
-"не можа быць атрыманы. Калі ласка, пераканайцеся ў працаздольнасці сеткавага "
-"злучэння."
+msgid "The license key which allows you to use this piece of software could not be downloaded. Please check your network connection."
+msgstr "Ліцэнзійны ключ, які дазволіць вам выкарыстоўваць гэты кампанент праграмы, не можа быць атрыманы. Калі ласка, пераканайцеся ў працаздольнасці сеткавага злучэння."
 
 #: ../aptdaemon/enums.py:475
 msgid "You don't have the required privileges to perform this action."
 msgstr "У вас няма неабходных правоў для выканання гэтага дзеяння."
 
 #: ../aptdaemon/enums.py:477
-msgid ""
-"You either provided a wrong password or cancelled the authorization.\n"
-"Furthermore there could also be a technical reason for this error if you "
-"haven't seen a password dialog: your desktop environment doesn't provide a "
-"PolicyKit session agent."
-msgstr ""
-"Прадстаўлены няправільны пароль або аўтарызацыя было адмененая.\n"
-"Таксама памылка магла адбыцца па тэхнічных прычынах, калі не з'яўлялася акно "
-"ўводу пароля: акружэнне стальніцы, якое вы выкарыстоўваеце, не аказала "
-"агента сеансу PolicyKit."
+msgid "You either provided a wrong password or cancelled the authorization.\n"
+"Furthermore there could also be a technical reason for this error if you haven't seen a password dialog: your desktop environment doesn't provide a PolicyKit session agent."
+msgstr "Прадстаўлены няправільны пароль або аўтарызацыя было адмененая.\n"
+"Таксама памылка магла адбыцца па тэхнічных прычынах, калі не з'яўлялася акно ўводу пароля: акружэнне стальніцы, якое вы выкарыстоўваеце, не аказала агента сеансу PolicyKit."
 
 #: ../aptdaemon/enums.py:485
 msgid "Failed to download package files"
@@ -1086,7 +984,7 @@ msgstr "Файл"
 #. TRANSLATORS: header of the progress download column
 #: ../aptdaemon/gtk3widgets.py:484
 msgid "%"
-msgstr "%"
+msgstr ""
 
 #: ../aptdaemon/gtk3widgets.py:520
 #, python-format
@@ -1106,11 +1004,8 @@ msgstr "Патрабуецца наяўнасць CD/DVD «%s»"
 #. TRANSLATORS: %s is the name of the CD/DVD drive
 #: ../aptdaemon/gtk3widgets.py:860
 #, python-format
-msgid ""
-"Please insert the above CD/DVD into the drive '%s' to install software "
-"packages from it."
-msgstr ""
-"Устаўце паказаны вышэй CD/DVD у прывад '%s' для ўсталёўкі пакетаў з яго."
+msgid "Please insert the above CD/DVD into the drive '%s' to install software packages from it."
+msgstr "Устаўце паказаны вышэй CD/DVD у прывад '%s' для ўсталёўкі пакетаў з яго."
 
 #: ../aptdaemon/gtk3widgets.py:864 ../aptdaemon/gtk3widgets.py:885
 msgid "C_ontinue"
@@ -1203,17 +1098,12 @@ msgstr "%sБ дыскавай прасторы будзе занята."
 #. TRANSLATORS: %s is a file path
 #: ../aptdaemon/gtk3widgets.py:1066
 #, python-format
-msgid ""
-"Replace your changes in '%s' with a later version of the configuration file?"
+msgid "Replace your changes in '%s' with a later version of the configuration file?"
 msgstr "Замяніць файл «%s» з унесенымі Вамі зменамі больш позняй версіяй?"
 
 #: ../aptdaemon/gtk3widgets.py:1068
-msgid ""
-"If you don't know why the file is there already, it is usually safe to "
-"replace it."
-msgstr ""
-"Калі Вы ня ведаеце, для чаго быў створаны гэты файл, то хутчэй за ўсё яго "
-"можна будзе бяспечна замяніць."
+msgid "If you don't know why the file is there already, it is usually safe to replace it."
+msgstr "Калі Вы ня ведаеце, для чаго быў створаны гэты файл, то хутчэй за ўсё яго можна будзе бяспечна замяніць."
 
 #: ../aptdaemon/gtk3widgets.py:1077
 msgid "_Changes"
@@ -1245,6 +1135,7 @@ msgid_plural "Downloading %(files)s"
 msgstr[0] "Загрузка %(files)s"
 msgstr[1] "Загрузка %(files)s"
 msgstr[2] "Загрузка %(files)s"
+msgstr[3] ""
 
 #. TRANSLATORS: the string is used as a fallback if we cannot
 #. get the URI of a local repository
@@ -1260,6 +1151,7 @@ msgid_plural "Downloading from %s"
 msgstr[0] "Загрузка з %s"
 msgstr[1] "Загрузка з %s"
 msgstr[2] "Загрузка з %s"
+msgstr[3] ""
 
 #. TRANSLATORS: repo is the name of a repository
 #: ../aptdaemon/progress.py:324
@@ -1364,11 +1256,9 @@ msgstr "Несапраўдны ідэнтыфікатар ключа: %s"
 
 #: ../aptdaemon/worker/aptworker.py:610
 #, python-format
-msgid ""
-"Failed to download and install the key %s from %s:\n"
+msgid "Failed to download and install the key %s from %s:\n"
 "%s"
-msgstr ""
-"Не атрымалася загрузіць і ўсталяваць значэнне %s з %s:\n"
+msgstr "Не атрымалася загрузіць і ўсталяваць значэнне %s з %s:\n"
 "%s"
 
 #: ../aptdaemon/worker/aptworker.py:627
@@ -1427,12 +1317,8 @@ msgid "Package %s cannot be removed"
 msgstr "Пакет %s не можа быць выдалены"
 
 #: ../aptdaemon/worker/aptworker.py:1146
-msgid ""
-"The package doesn't provide a valid Installed-Size control field. See Debian "
-"Policy 5.6.20."
-msgstr ""
-"У пакеце не пазначана поле \"занятае месца пасля ўсталёўкі\".  Гл. правілы "
-"Debian Policy 5.6.20."
+msgid "The package doesn't provide a valid Installed-Size control field. See Debian Policy 5.6.20."
+msgstr "У пакеце не пазначана поле \"занятае месца пасля ўсталёўкі\".  Гл. правілы Debian Policy 5.6.20."
 
 #: ../aptdaemon/worker/aptworker.py:1296
 msgid "The license key is empty"
@@ -1454,12 +1340,8 @@ msgstr "Ліцэнзійны ключ ужо існуе: %s"
 
 #: ../aptdaemon/worker/aptworker.py:1330
 #, python-format
-msgid ""
-"The location of the license key is unsecure since it contains symbolic "
-"links. The path %s maps to %s"
-msgstr ""
-"Месцазнаходжанне ліцэнзійнага ключа не з'яўляецца бяспечным, так як змяшчае "
-"сімвалічныя спасылкі. Адрас %s спасылаецца на %s"
+msgid "The location of the license key is unsecure since it contains symbolic links. The path %s maps to %s"
+msgstr "Месцазнаходжанне ліцэнзійнага ключа не з'яўляецца бяспечным, так як змяшчае сімвалічныя спасылкі. Адрас %s спасылаецца на %s"
 
 #: ../aptdaemon/worker/aptworker.py:1338
 #, python-format
@@ -1498,3 +1380,4 @@ msgstr "але %s ужо ўсталяваны"
 #, python-format
 msgid "but %s is to be installed"
 msgstr "але %s будзе ўсталяваны"
+

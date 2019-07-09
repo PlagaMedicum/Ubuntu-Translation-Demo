@@ -1,33 +1,30 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Red Hat, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Translators:
-# Christopher Meng <cickumqt@gmail.com>, 2012
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: sssd-devel@lists.fedorahosted.org\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-08-12 13:03+0000\n"
-"PO-Revision-Date: 2015-11-19 14:17+0000\n"
-"Last-Translator: jhrozek <Unknown>\n"
-"Language-Team: Chinese (China) "
-"(http://www.transifex.com/projects/p/sssd/language/zh_CN/)\n"
+"PO-Revision-Date: 2019-07-08 17:50\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Chinese Simplified\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 12:44+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: zh-CN\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/sssd.po\n"
+"Language: zh_CN\n"
 
 #: src/config/SSSDConfig/__init__.py.in:43
 #: src/config/SSSDConfig/__init__.py.in:44
 msgid "Set the verbosity of the debug logging"
-msgstr "设定调试日志记录等级"
+msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:45
 msgid "Include timestamps in debug logs"
-msgstr "在调试日志中包含时间戳"
+msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:46
 msgid "Include microseconds in timestamps in debug logs"
@@ -35,7 +32,7 @@ msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:47
 msgid "Write debug messages to logfiles"
-msgstr "写入调试信息到日志文件"
+msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:48
 msgid "Watchdog timeout before restarting service"
@@ -43,7 +40,7 @@ msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:49
 msgid "Command to start service"
-msgstr "启动服务命令"
+msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:50
 msgid "Number of times to attempt connection to Data Providers"
@@ -88,9 +85,7 @@ msgid "Printf-compatible format for displaying fully-qualified names"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:62
-msgid ""
-"Directory on the filesystem where SSSD should store Kerberos replay cache "
-"files."
+msgid "Directory on the filesystem where SSSD should store Kerberos replay cache files."
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:63
@@ -106,8 +101,7 @@ msgid "Tune certificate verification"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:66
-msgid ""
-"All spaces in group or user names will be replaced with this character"
+msgid "All spaces in group or user names will be replaced with this character"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:67
@@ -160,8 +154,7 @@ msgid "Override homedir value from the identity provider with this value"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:81
-msgid ""
-"Substitute empty homedir value from the identity provider with this value"
+msgid "Substitute empty homedir value from the identity provider with this value"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:82
@@ -173,14 +166,11 @@ msgid "The list of shells users are allowed to log in with"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:84
-msgid ""
-"The list of shells that will be vetoed, and replaced with the fallback shell"
+msgid "The list of shells that will be vetoed, and replaced with the fallback shell"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:85
-msgid ""
-"If a shell stored in central directory is allowed but not available, use "
-"this fallback"
+msgid "If a shell stored in central directory is allowed but not available, use this fallback"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:86
@@ -204,9 +194,7 @@ msgid "How many failed logins attempts are allowed when offline"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:93
-msgid ""
-"How long (minutes) to deny login after offline_failed_login_attempts has "
-"been reached"
+msgid "How long (minutes) to deny login after offline_failed_login_attempts has been reached"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:94
@@ -222,8 +210,7 @@ msgid "How many seconds to keep identity information cached for PAM requests"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:97
-msgid ""
-"How many days before password expiration a warning should be displayed"
+msgid "How many days before password expiration a warning should be displayed"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:98
@@ -267,9 +254,7 @@ msgid "If true, SSSD will switch back to lower-wins ordering logic"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:110
-msgid ""
-"Maximum number of rules that can be refreshed at once. If this is exceeded, "
-"full refresh is performed."
+msgid "Maximum number of rules that can be refreshed at once. If this is exceeded, full refresh is performed."
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:116
@@ -277,9 +262,7 @@ msgid "Whether to hash host names and addresses in the known_hosts file"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:117
-msgid ""
-"How many seconds to keep a host in the known_hosts file after its host keys "
-"were requested"
+msgid "How many seconds to keep a host in the known_hosts file after its host keys were requested"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:118
@@ -331,9 +314,7 @@ msgid "The method to use when authenticating to a Custodia server"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:137
-msgid ""
-"The name of the headers that will be added into a HTTP request with the "
-"value defined in auth_header_value"
+msgid "The name of the headers that will be added into a HTTP request with the value defined in auth_header_value"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:138
@@ -341,30 +322,23 @@ msgid "The value sssd-secrets would use for auth_header_name"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:139
-msgid ""
-"The list of the headers to forward to the Custodia server together with the "
-"request"
+msgid "The list of the headers to forward to the Custodia server together with the request"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:140
-msgid ""
-"The username to use when authenticating to a Custodia server using basic_auth"
+msgid "The username to use when authenticating to a Custodia server using basic_auth"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:141
-msgid ""
-"The password to use when authenticating to a Custodia server using basic_auth"
+msgid "The password to use when authenticating to a Custodia server using basic_auth"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:142
-msgid ""
-"If true peer's certificate is verified if proxy_url uses https protocol"
+msgid "If true peer's certificate is verified if proxy_url uses https protocol"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:143
-msgid ""
-"If false peer's certificate may contain different hostname than proxy_url "
-"when https protocol is used"
+msgid "If false peer's certificate may contain different hostname than proxy_url when https protocol is used"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:144
@@ -441,7 +415,7 @@ msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:166
 msgid "Store password hashes"
-msgstr "保存密码哈希值"
+msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:167
 msgid "Display users/groups in fully-qualified form"
@@ -462,8 +436,7 @@ msgid "Entry cache timeout length (seconds)"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:170
-msgid ""
-"Restrict or prefer a specific address family when performing DNS lookups"
+msgid "Restrict or prefer a specific address family when performing DNS lookups"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:171
@@ -471,8 +444,7 @@ msgid "How long to keep cached entries after last successful login (days)"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:172
-msgid ""
-"How long to wait for replies from DNS when resolving servers (seconds)"
+msgid "How long to wait for replies from DNS when resolving servers (seconds)"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:173
@@ -555,11 +527,11 @@ msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:202
 msgid "IPA server address"
-msgstr "IPA 服务器地址"
+msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:203
 msgid "Address of backup IPA server"
-msgstr "IPA 备份服务器地址"
+msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:204
 msgid "IPA client hostname"
@@ -574,14 +546,11 @@ msgid "Search base for HBAC related objects"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:209
-msgid ""
-"The amount of time between lookups of the HBAC rules against the IPA server"
+msgid "The amount of time between lookups of the HBAC rules against the IPA server"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:210
-msgid ""
-"The amount of time in seconds between lookups of the SELinux maps against "
-"the IPA server"
+msgid "The amount of time in seconds between lookups of the SELinux maps against the IPA server"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:211
@@ -638,15 +607,11 @@ msgid "Search base for Desktop Profile related objects"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:224
-msgid ""
-"The amount of time in seconds between lookups of the Desktop Profile rules "
-"against the IPA server"
+msgid "The amount of time in seconds between lookups of the Desktop Profile rules against the IPA server"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:225
-msgid ""
-"The amount of time in minutes between lookups of Desktop Profiles rules "
-"against the IPA server when the last request did not find any rule"
+msgid "The amount of time in minutes between lookups of Desktop Profiles rules against the IPA server when the last request did not find any rule"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:228
@@ -683,36 +648,27 @@ msgid "Operation mode for GPO-based access control"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:237
-msgid ""
-"The amount of time between lookups of the GPO policy files against the AD "
-"server"
+msgid "The amount of time between lookups of the GPO policy files against the AD server"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:238
-msgid ""
-"PAM service names that map to the GPO (Deny)InteractiveLogonRight policy "
-"settings"
+msgid "PAM service names that map to the GPO (Deny)InteractiveLogonRight policy settings"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:239
-msgid ""
-"PAM service names that map to the GPO (Deny)RemoteInteractiveLogonRight "
-"policy settings"
+msgid "PAM service names that map to the GPO (Deny)RemoteInteractiveLogonRight policy settings"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:240
-msgid ""
-"PAM service names that map to the GPO (Deny)NetworkLogonRight policy settings"
+msgid "PAM service names that map to the GPO (Deny)NetworkLogonRight policy settings"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:241
-msgid ""
-"PAM service names that map to the GPO (Deny)BatchLogonRight policy settings"
+msgid "PAM service names that map to the GPO (Deny)BatchLogonRight policy settings"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:242
-msgid ""
-"PAM service names that map to the GPO (Deny)ServiceLogonRight policy settings"
+msgid "PAM service names that map to the GPO (Deny)ServiceLogonRight policy settings"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:243
@@ -724,8 +680,7 @@ msgid "PAM service names for which GPO-based access is always denied"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:245
-msgid ""
-"Default logon right (or permit/deny) to use for unmapped PAM service names"
+msgid "Default logon right (or permit/deny) to use for unmapped PAM service names"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:246
@@ -733,8 +688,7 @@ msgid "a particular site to be used by the client"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:247
-msgid ""
-"Maximum age in days before the machine account password should be renewed"
+msgid "Maximum age in days before the machine account password should be renewed"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:248
@@ -744,7 +698,7 @@ msgstr ""
 #: src/config/SSSDConfig/__init__.py.in:251
 #: src/config/SSSDConfig/__init__.py.in:252
 msgid "Kerberos server address"
-msgstr "Kerberos 服务器地址"
+msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:253
 msgid "Kerberos backup server address"
@@ -756,7 +710,7 @@ msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:255
 msgid "Authentication timeout"
-msgstr "验证超时"
+msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:256
 msgid "Whether to create kdcinfo files"
@@ -940,9 +894,7 @@ msgid "The number of members that must be missing to trigger a full deref"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:308
-msgid ""
-"Whether the LDAP library should perform a reverse lookup to canonicalize the "
-"host name during a SASL bind"
+msgid "Whether the LDAP library should perform a reverse lookup to canonicalize the host name during a SASL bind"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:310
@@ -954,8 +906,7 @@ msgid "lastUSN attribute"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:313
-msgid ""
-"How long to retain a connection to the LDAP server before disconnecting"
+msgid "How long to retain a connection to the LDAP server before disconnecting"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:315
@@ -1324,9 +1275,7 @@ msgid "DNS service name for LDAP password change server"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:428
-msgid ""
-"Whether to update the ldap_user_shadow_last_change attribute after a "
-"password change"
+msgid "Whether to update the ldap_user_shadow_last_change attribute after a password change"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:431
@@ -1346,14 +1295,11 @@ msgid "Whether to filter rules by hostname, IP addresses and network"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:435
-msgid ""
-"Hostnames and/or fully qualified domain names of this machine to filter sudo "
-"rules"
+msgid "Hostnames and/or fully qualified domain names of this machine to filter sudo rules"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:436
-msgid ""
-"IPv4 or IPv6 addresses or network of this machine to filter sudo rules"
+msgid "IPv4 or IPv6 addresses or network of this machine to filter sudo rules"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:437
@@ -1361,8 +1307,7 @@ msgid "Whether to include rules that contains netgroup in host attribute"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:438
-msgid ""
-"Whether to include rules that contains regular expression in host attribute"
+msgid "Whether to include rules that contains regular expression in host attribute"
 msgstr ""
 
 #: src/config/SSSDConfig/__init__.py.in:439
@@ -1633,9 +1578,7 @@ msgid "System is offline, password change not possible"
 msgstr ""
 
 #: src/sss_client/pam_sss.c:691
-msgid ""
-"After changing the OTP password, you need to log out and back in order to "
-"acquire a ticket"
+msgid "After changing the OTP password, you need to log out and back in order to acquire a ticket"
 msgstr ""
 
 #: src/sss_client/pam_sss.c:779 src/sss_client/pam_sss.c:792
@@ -1722,7 +1665,7 @@ msgstr ""
 
 #: src/sss_client/ssh/sss_ssh_knownhostsproxy.c:252
 msgid "Invalid port\n"
-msgstr "无效端口\n"
+msgstr ""
 
 #: src/sss_client/ssh/sss_ssh_knownhostsproxy.c:257
 msgid "Host not specified\n"
@@ -1898,9 +1841,7 @@ msgid "NSS request failed (%1$d). Entry might remain in memory cache.\n"
 msgstr ""
 
 #: src/tools/sss_groupdel.c:132
-msgid ""
-"No such group in local domain. Removing groups only allowed in local "
-"domain.\n"
+msgid "No such group in local domain. Removing groups only allowed in local domain.\n"
 msgstr ""
 
 #: src/tools/sss_groupdel.c:137
@@ -1924,9 +1865,7 @@ msgid "Specify group to modify\n"
 msgstr ""
 
 #: src/tools/sss_groupmod.c:130
-msgid ""
-"Cannot find group in local domain, modifying groups is allowed only in local "
-"domain\n"
+msgid "Cannot find group in local domain, modifying groups is allowed only in local domain\n"
 msgstr ""
 
 #: src/tools/sss_groupmod.c:153 src/tools/sss_groupmod.c:182
@@ -1936,9 +1875,7 @@ msgstr ""
 #: src/tools/sss_groupmod.c:161 src/tools/sss_groupmod.c:190
 #: src/tools/sss_usermod.c:214 src/tools/sss_usermod.c:243
 #, c-format
-msgid ""
-"Cannot find group %1$s in local domain, only groups in local domain are "
-"allowed\n"
+msgid "Cannot find group %1$s in local domain, only groups in local domain are allowed\n"
 msgstr ""
 
 #: src/tools/sss_groupmod.c:257
@@ -1974,15 +1911,13 @@ msgstr ""
 
 #: src/tools/sss_groupshow.c:627
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "%1$sIs a member of: "
 msgstr ""
 
 #: src/tools/sss_groupshow.c:634
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "%1$sMember groups: "
 msgstr ""
 
@@ -1995,9 +1930,7 @@ msgid "Specify group to show\n"
 msgstr ""
 
 #: src/tools/sss_groupshow.c:744
-msgid ""
-"No such group in local domain. Printing groups only allowed in local "
-"domain.\n"
+msgid "No such group in local domain. Printing groups only allowed in local domain.\n"
 msgstr ""
 
 #: src/tools/sss_groupshow.c:749
@@ -2061,8 +1994,7 @@ msgid "Cannot remove homedir: %1$s\n"
 msgstr ""
 
 #: src/tools/sss_userdel.c:324
-msgid ""
-"No such user in local domain. Removing users only allowed in local domain.\n"
+msgid "No such user in local domain. Removing users only allowed in local domain.\n"
 msgstr ""
 
 #: src/tools/sss_userdel.c:329
@@ -2098,9 +2030,7 @@ msgid "Delete an attribute/value pair. The format is attrname=value."
 msgstr ""
 
 #: src/tools/sss_usermod.c:59
-msgid ""
-"Set an attribute to a name/value pair. The format is attrname=value. For "
-"multi-valued attributes, the command replaces the values already present"
+msgid "Set an attribute to a name/value pair. The format is attrname=value. For multi-valued attributes, the command replaces the values already present"
 msgstr ""
 
 #: src/tools/sss_usermod.c:117 src/tools/sss_usermod.c:126
@@ -2113,9 +2043,7 @@ msgid "Specify user to modify\n"
 msgstr ""
 
 #: src/tools/sss_usermod.c:180
-msgid ""
-"Cannot find user in local domain, modifying users is allowed only in local "
-"domain\n"
+msgid "Cannot find user in local domain, modifying users is allowed only in local domain\n"
 msgstr ""
 
 #: src/tools/sss_usermod.c:322
@@ -2209,9 +2137,7 @@ msgid "Only invalidate entries from a particular domain"
 msgstr ""
 
 #: src/tools/sss_cache.c:762
-msgid ""
-"Unexpected argument(s) provided, options that invalidate a single object "
-"only accept a single provided argument.\n"
+msgid "Unexpected argument(s) provided, options that invalidate a single object only accept a single provided argument.\n"
 msgstr ""
 
 #: src/tools/sss_cache.c:772
@@ -2220,9 +2146,7 @@ msgstr ""
 
 #: src/tools/sss_cache.c:852
 #, c-format
-msgid ""
-"Could not open domain %1$s. If the domain is a subdomain (trusted domain), "
-"use fully qualified name instead of --domain/-d parameter.\n"
+msgid "Could not open domain %1$s. If the domain is a subdomain (trusted domain), use fully qualified name instead of --domain/-d parameter.\n"
 msgstr ""
 
 #: src/tools/sss_cache.c:856
@@ -2348,15 +2272,12 @@ msgstr ""
 
 #: src/tools/sssctl/sssctl_config.c:67
 #, c-format
-msgid ""
-"File %1$s does not exist. SSSD will use default configuration with files "
-"provider.\n"
+msgid "File %1$s does not exist. SSSD will use default configuration with files provider.\n"
 msgstr ""
 
 #: src/tools/sssctl/sssctl_config.c:81
 #, c-format
-msgid ""
-"File ownership and permissions check failed. Expected root:root and 0600.\n"
+msgid "File ownership and permissions check failed. Expected root:root and 0600.\n"
 msgstr ""
 
 #: src/tools/sssctl/sssctl_config.c:104
@@ -2567,9 +2488,7 @@ msgid "Specify debug level you want to set"
 msgstr ""
 
 #: src/tools/sssctl/sssctl_sifp.c:28
-msgid ""
-"Check that SSSD is running and the InfoPipe responder is enabled. Make sure "
-"'ifp' is listed in the 'services' option in sssd.conf.\n"
+msgid "Check that SSSD is running and the InfoPipe responder is enabled. Make sure 'ifp' is listed in the 'services' option in sssd.conf.\n"
 msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:91
@@ -2644,9 +2563,7 @@ msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:179
 #, c-format
-msgid ""
-" - shell: %s\n"
-"\n"
+msgid " - shell: %s\n\n"
 msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:211
@@ -2663,11 +2580,9 @@ msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:226
 #, c-format
-msgid ""
-"user: %s\n"
+msgid "user: %s\n"
 "action: %s\n"
-"service: %s\n"
-"\n"
+"service: %s\n\n"
 msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:232
@@ -2687,9 +2602,7 @@ msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:249
 #, c-format
-msgid ""
-"testing pam_authenticate\n"
-"\n"
+msgid "testing pam_authenticate\n\n"
 msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:253
@@ -2699,79 +2612,57 @@ msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:257
 #, c-format
-msgid ""
-"pam_authenticate for user [%s]: %s\n"
-"\n"
+msgid "pam_authenticate for user [%s]: %s\n\n"
 msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:260
 #, c-format
-msgid ""
-"testing pam_chauthtok\n"
-"\n"
+msgid "testing pam_chauthtok\n\n"
 msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:262
 #, c-format
-msgid ""
-"pam_chauthtok: %s\n"
-"\n"
+msgid "pam_chauthtok: %s\n\n"
 msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:264
 #, c-format
-msgid ""
-"testing pam_acct_mgmt\n"
-"\n"
+msgid "testing pam_acct_mgmt\n\n"
 msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:266
 #, c-format
-msgid ""
-"pam_acct_mgmt: %s\n"
-"\n"
+msgid "pam_acct_mgmt: %s\n\n"
 msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:268
 #, c-format
-msgid ""
-"testing pam_setcred\n"
-"\n"
+msgid "testing pam_setcred\n\n"
 msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:270
 #, c-format
-msgid ""
-"pam_setcred: [%s]\n"
-"\n"
+msgid "pam_setcred: [%s]\n\n"
 msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:272
 #, c-format
-msgid ""
-"testing pam_open_session\n"
-"\n"
+msgid "testing pam_open_session\n\n"
 msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:274
 #, c-format
-msgid ""
-"pam_open_session: %s\n"
-"\n"
+msgid "pam_open_session: %s\n\n"
 msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:276
 #, c-format
-msgid ""
-"testing pam_close_session\n"
-"\n"
+msgid "testing pam_close_session\n\n"
 msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:278
 #, c-format
-msgid ""
-"pam_close_session: %s\n"
-"\n"
+msgid "pam_close_session: %s\n\n"
 msgstr ""
 
 #: src/tools/sssctl/sssctl_user_checks.c:281
@@ -2804,3 +2695,4 @@ msgstr ""
 #: src/util/util.h:87
 msgid "Informs that the responder has been dbus-activated"
 msgstr ""
+

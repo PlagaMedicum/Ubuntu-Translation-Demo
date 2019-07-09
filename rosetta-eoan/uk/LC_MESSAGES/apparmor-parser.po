@@ -1,21 +1,21 @@
-# Ukrainian translation for apparmor
-# Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
-# This file is distributed under the same license as the apparmor package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: apparmor\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2014-09-13 00:11-0700\n"
-"PO-Revision-Date: 2018-04-01 10:18+0000\n"
-"Last-Translator: Andrii Prokopenko <Unknown>\n"
-"Language-Team: Ukrainian <uk@li.org>\n"
+"PO-Revision-Date: 2019-07-08 17:24\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Ukrainian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 12:20+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/apparmor-parser.po\n"
+"Language: uk_UA\n"
 
 #: ../parser_include.c:113 ../parser_include.c:111
 msgid "Error: Out of memory.\n"
@@ -73,8 +73,7 @@ msgstr "Профіль не існує\n"
 
 #: ../parser_interface.c:96 ../parser_interface.c:99 ../parser_interface.c:76
 msgid "Permission denied; attempted to load a profile while confined?\n"
-msgstr ""
-"Немає доступу. Здійснено спробу завантажити профіль у обмеженому режимі?\n"
+msgstr "Немає доступу. Здійснено спробу завантажити профіль у обмеженому режимі?\n"
 
 #: ../parser_interface.c:99 ../parser_interface.c:102 ../parser_interface.c:79
 #, c-format
@@ -139,8 +138,7 @@ msgstr "Успішне вилучення для \"%s\".\n"
 #: ../parser_interface.c:251 ../parser_interface.c:254
 #, c-format
 msgid "PANIC bad increment buffer %p pos %p ext %p size %d res %p\n"
-msgstr ""
-"PANIC неправильне збільшення буфера %p поз %p розш %p розм %d рес %p\n"
+msgstr "PANIC неправильне збільшення буфера %p поз %p розш %p розм %d рес %p\n"
 
 #: ../parser_interface.c:656 ../parser_interface.c:658
 #: ../parser_interface.c:446
@@ -241,39 +239,27 @@ msgstr "Попередження від %s (%s%sрядок %d): %s"
 #: ../parser_main.c:531
 #, c-format
 msgid "%s: Could not allocate memory for subdomainbase mount point\n"
-msgstr ""
-"%s: Не вдалось виділити пам'ять для точки монтування основи піддомену\n"
+msgstr "%s: Не вдалось виділити пам'ять для точки монтування основи піддомену\n"
 
 #: ../parser_main.c:577 ../parser_main.c:616 ../parser_main.c:479
 #, c-format
-msgid ""
-"Warning: unable to find a suitable fs in %s, is it mounted?\n"
+msgid "Warning: unable to find a suitable fs in %s, is it mounted?\n"
 "Use --subdomainfs to override.\n"
-msgstr ""
-"Попередження: на %s не вдалося знайти відповідної файлової системи, може "
-"його не змонтовано?\n"
+msgstr "Попередження: на %s не вдалося знайти відповідної файлової системи, може його не змонтовано?\n"
 "Використайте параметр --subdomainfs, щоб обійти проблему.\n"
 
 #: ../parser_main.c:597 ../parser_main.c:635 ../parser_main.c:498
 #, c-format
-msgid ""
-"%s: Sorry. You need root privileges to run this program.\n"
-"\n"
-msgstr ""
-"%s: Для вживання цієї програми потрібні привілеї адміністратора.\n"
-"\n"
+msgid "%s: Sorry. You need root privileges to run this program.\n\n"
+msgstr "%s: Для вживання цієї програми потрібні привілеї адміністратора.\n\n"
 
 #: ../parser_main.c:604 ../parser_main.c:642 ../parser_main.c:505
 #, c-format
-msgid ""
-"%s: Warning! You've set this program setuid root.\n"
-"Anybody who can run this program can update your AppArmor profiles.\n"
-"\n"
-msgstr ""
-"%s: Попередження! Ви вказали для цієї програми setuid root.\n"
+msgid "%s: Warning! You've set this program setuid root.\n"
+"Anybody who can run this program can update your AppArmor profiles.\n\n"
+msgstr "%s: Попередження! Ви вказали для цієї програми setuid root.\n"
 "Будь-хто, хто може запускати цю програму, може змінювати\n"
-"ваші профілі AppArmor.\n"
-"\n"
+"ваші профілі AppArmor.\n\n"
 
 #: ../parser_main.c:704 ../parser_main.c:813 ../parser_main.c:836
 #: ../parser_main.c:946 ../parser_main.c:860
@@ -318,12 +304,9 @@ msgid "%s: Errors found in file. Aborting.\n"
 msgstr "%s: В файлі знайдені помилки. Переривається.\n"
 
 #: ../parser_misc.c:426 ../parser_misc.c:597 ../parser_misc.c:339
-msgid ""
-"Uppercase qualifiers \"RWLIMX\" are deprecated, please convert to lowercase\n"
+msgid "Uppercase qualifiers \"RWLIMX\" are deprecated, please convert to lowercase\n"
 "See the apparmor.d(5) manpage for details.\n"
-msgstr ""
-"Класифікатори у верхньому регістрі \"RWLIMX\" не рекомендовано, будь ласка, "
-"переведіть їх у нижній регістр\n"
+msgstr "Класифікатори у верхньому регістрі \"RWLIMX\" не рекомендовано, будь ласка, переведіть їх у нижній регістр\n"
 "Перегляньте сторінку довідки apparmor.d(5), щоб дізнатися більше.\n"
 
 #: ../parser_misc.c:467 ../parser_misc.c:474 ../parser_misc.c:638
@@ -333,36 +316,24 @@ msgstr "Конфлікт дозволів, 'a' та 'w' є взаємовикл�
 
 #: ../parser_misc.c:491 ../parser_misc.c:662 ../parser_misc.c:404
 msgid "Exec qualifier 'i' invalid, conflicting qualifier already specified"
-msgstr ""
-"Класифікатор виконання «i» нечинний, попередньо визначено класифікатор, що "
-"конфліктує з ним"
+msgstr "Класифікатор виконання «i» нечинний, попередньо визначено класифікатор, що конфліктує з ним"
 
 #: ../parser_misc.c:502 ../parser_misc.c:673 ../parser_misc.c:415
 #, c-format
-msgid ""
-"Unconfined exec qualifier (%c%c) allows some dangerous environment variables "
-"to be passed to the unconfined process; 'man 5 apparmor.d' for details.\n"
-msgstr ""
-"Необмежений класифікатор виконання (%c%c) дозволяє передачу деяких критичних "
-"змінних середовища необмеженому процесу; виконайте команду 'man 5 "
-"apparmor.d', щоб дізнатися більше.\n"
+msgid "Unconfined exec qualifier (%c%c) allows some dangerous environment variables to be passed to the unconfined process; 'man 5 apparmor.d' for details.\n"
+msgstr "Необмежений класифікатор виконання (%c%c) дозволяє передачу деяких критичних змінних середовища необмеженому процесу; виконайте команду 'man 5 apparmor.d', щоб дізнатися більше.\n"
 
 #: ../parser_misc.c:510 ../parser_misc.c:551 ../parser_misc.c:681
 #: ../parser_misc.c:722 ../parser_misc.c:423 ../parser_misc.c:464
 #, c-format
 msgid "Exec qualifier '%c' invalid, conflicting qualifier already specified"
-msgstr ""
-"Класифікатор виконання «%c» - нечинний, раніше визначено класифікатор, що з "
-"ним конфліктує"
+msgstr "Класифікатор виконання «%c» - нечинний, раніше визначено класифікатор, що з ним конфліктує"
 
 #: ../parser_misc.c:537 ../parser_misc.c:545 ../parser_misc.c:708
 #: ../parser_misc.c:716 ../parser_misc.c:450 ../parser_misc.c:458
 #, c-format
-msgid ""
-"Exec qualifier '%c%c' invalid, conflicting qualifier already specified"
-msgstr ""
-"Класифікатор виконання «%c%c» - нечинний, раніше визначено класифікатор, що "
-"з ним конфліктує"
+msgid "Exec qualifier '%c%c' invalid, conflicting qualifier already specified"
+msgstr "Класифікатор виконання «%c%c» - нечинний, раніше визначено класифікатор, що з ним конфліктує"
 
 #: ../parser_misc.c:593 ../parser_misc.c:764 ../parser_misc.c:506
 #, c-format
@@ -387,19 +358,15 @@ msgstr "Не вдалося об'єднати записи. Не вистача�
 #: ../parser_merge.c:111 ../parser_merge.c:113 ../parser_merge.c:105
 #, c-format
 msgid "profile %s: has merged rule %s with conflicting x modifiers\n"
-msgstr ""
-"профіль %s: містить об’єднане правило %s з конфліктом x модифікаторів\n"
+msgstr "профіль %s: містить об’єднане правило %s з конфліктом x модифікаторів\n"
 
 #: parser_yacc.y:236 parser_yacc.y:277 parser_yacc.y:320
 msgid "Profile attachment must begin with a '/'."
 msgstr "Долучення до профілю має починатися з «/»."
 
 #: parser_yacc.y:260 parser_yacc.y:302 parser_yacc.y:348
-msgid ""
-"Profile names must begin with a '/', namespace or keyword 'profile' or 'hat'."
-msgstr ""
-"Назви профілів мають починатися з «/», назви простору назв або ключового "
-"слова «profile» чи «hat»."
+msgid "Profile names must begin with a '/', namespace or keyword 'profile' or 'hat'."
+msgstr "Назви профілів мають починатися з «/», назви простору назв або ключового слова «profile» чи «hat»."
 
 #: parser_yacc.y:296 parser_yacc.y:338 parser_yacc.y:384
 #, c-format
@@ -415,10 +382,8 @@ msgid "Profile flag mediate_deleted conflicts with delegate_deleted"
 msgstr "Прапорець профілю mediate_deleted конфліктує з delegate_deleted"
 
 #: parser_yacc.y:424 parser_yacc.y:467 parser_yacc.y:513
-msgid ""
-"Profile flag attach_disconnected conflicts with no_attach_disconnected"
-msgstr ""
-"Прапорець профілю attach_disconnected конфліктує з no_attach_disconnected"
+msgid "Profile flag attach_disconnected conflicts with no_attach_disconnected"
+msgstr "Прапорець профілю attach_disconnected конфліктує з no_attach_disconnected"
 
 #: parser_yacc.y:427 parser_yacc.y:470 parser_yacc.y:516
 msgid "Profile flag chroot_attach conflicts with chroot_no_attach"
@@ -439,25 +404,16 @@ msgstr "Виявлено: `rule' повернула NULL."
 
 #: parser_yacc.y:501 parser_yacc.y:546 parser_yacc.y:552 parser_yacc.y:584
 #: parser_yacc.y:598 parser_yacc.y:630
-msgid ""
-"Invalid mode, in deny rules 'x' must not be preceded by exec qualifier 'i', "
-"'p', or 'u'"
-msgstr ""
-"Нечинний режим, перед «x» має бути вказано класифікатор виконання «i», «p», "
-"або «u»"
+msgid "Invalid mode, in deny rules 'x' must not be preceded by exec qualifier 'i', 'p', or 'u'"
+msgstr "Нечинний режим, перед «x» має бути вказано класифікатор виконання «i», «p», або «u»"
 
 #: parser_yacc.y:524 parser_yacc.y:556 parser_yacc.y:602
-msgid ""
-"Invalid mode, 'x' must be preceded by exec qualifier 'i', 'p', 'c', or 'u'"
-msgstr ""
-"Нечинний режим, перед «x» має бути вказано класифікатор виконання «i», «p», "
-"«c» або «u»"
+msgid "Invalid mode, 'x' must be preceded by exec qualifier 'i', 'p', 'c', or 'u'"
+msgstr "Нечинний режим, перед «x» має бути вказано класифікатор виконання «i», «p», «c» або «u»"
 
 #: parser_yacc.y:549 parser_yacc.y:587 parser_yacc.y:633
 msgid "Invalid mode, 'x' must be preceded by exec qualifier 'i', 'p', or 'u'"
-msgstr ""
-"Нечинний режим, перед «x» має бути вказано класифікатор виконання «i», «p», "
-"або «u»"
+msgstr "Нечинний режим, перед «x» має бути вказано класифікатор виконання «i», «p», або «u»"
 
 #: parser_yacc.y:574 parser_yacc.y:612 parser_yacc.y:614 parser_yacc.y:660
 msgid "Assert: `network_rule' return invalid protocol."
@@ -490,8 +446,7 @@ msgstr "підмножину можна використовувати лише 
 
 #: parser_yacc.y:903 parser_yacc.y:956 parser_yacc.y:1062
 msgid "link and exec perms conflict on a file rule using ->"
-msgstr ""
-"дозволи посилання і виконання конфліктують у правилі файлів за допомогою ->"
+msgstr "дозволи посилання і виконання конфліктують у правилі файлів за допомогою ->"
 
 #: parser_yacc.y:905 parser_yacc.y:958 parser_yacc.y:1064
 msgid "link perms are not allowed on a named profile transition.\n"
@@ -525,38 +480,27 @@ msgstr "Помилка аналізатора AppArmor,%s%s, рядок %d: %s\n
 #: ../parser_regex.c:244
 #, c-format
 msgid "%s: Illegal open {, nesting groupings not allowed\n"
-msgstr ""
-"%s: Неприпустима відкрита дужка {, вузлове групування не дозволяється\n"
+msgstr "%s: Неприпустима відкрита дужка {, вузлове групування не дозволяється\n"
 
 #: ../parser_regex.c:265 ../parser_regex.c:274 ../parser_regex.c:278
 #, c-format
 msgid "%s: Regex grouping error: Invalid number of items between {}\n"
-msgstr ""
-"%s: Помилка групування формального виразу: нечинна кількість пунктів у "
-"дужках {}\n"
+msgstr "%s: Помилка групування формального виразу: нечинна кількість пунктів у дужках {}\n"
 
 #: ../parser_regex.c:271 ../parser_regex.c:280 ../parser_regex.c:284
 #, c-format
-msgid ""
-"%s: Regex grouping error: Invalid close }, no matching open { detected\n"
-msgstr ""
-"%s: Помилка групування формального виразу: нечинна завершальна дужка }, не "
-"знайдено відповідної початкової дужки {\n"
+msgid "%s: Regex grouping error: Invalid close }, no matching open { detected\n"
+msgstr "%s: Помилка групування формального виразу: нечинна завершальна дужка }, не знайдено відповідної початкової дужки {\n"
 
 #: ../parser_regex.c:337 ../parser_regex.c:343 ../parser_regex.c:361
 #, c-format
-msgid ""
-"%s: Regex grouping error: Unclosed grouping or character class, expecting "
-"close }\n"
-msgstr ""
-"%s: Помилка групування формального виразу: не завершено групу або клас "
-"символів, не знайдено завершальної дужки }\n"
+msgid "%s: Regex grouping error: Unclosed grouping or character class, expecting close }\n"
+msgstr "%s: Помилка групування формального виразу: не завершено групу або клас символів, не знайдено завершальної дужки }\n"
 
 #: ../parser_regex.c:351 ../parser_regex.c:357
 #, c-format
 msgid "%s: Internal buffer overflow detected, %d characters exceeded\n"
-msgstr ""
-"%s: Виявлено внутрішнє переповнення буфера, перевищення у %d символів\n"
+msgstr "%s: Виявлено внутрішнє переповнення буфера, перевищення у %d символів\n"
 
 #: ../parser_regex.c:355 ../parser_regex.c:361 ../parser_regex.c:377
 #, c-format
@@ -571,32 +515,26 @@ msgstr "%s: некоректна назва профілю, «%s» — поми�
 #: ../parser_policy.c:202 ../parser_policy.c:402 ../parser_policy.c:375
 #, c-format
 msgid "ERROR merging rules for profile %s, failed to load\n"
-msgstr ""
-"ПОМИЛКА під час об’єднання правил для профілю %s, не вдалося завантажити\n"
+msgstr "ПОМИЛКА під час об’єднання правил для профілю %s, не вдалося завантажити\n"
 
 #: ../parser_policy.c:234
 #, c-format
-msgid ""
-"ERROR profile %s contains policy elements not usable with this kernel:\n"
+msgid "ERROR profile %s contains policy elements not usable with this kernel:\n"
 "\t'*', '?', character ranges, and alternations are not allowed.\n"
 "\t'**' may only be used at the end of a rule.\n"
-msgstr ""
-"ПОМИЛКА! профіль %s містить елементи політики, що не можуть бути використані "
-"з цим ядром системи:\n"
+msgstr "ПОМИЛКА! профіль %s містить елементи політики, що не можуть бути використані з цим ядром системи:\n"
 "\t'*', '?', діапазони символів і варіанти не дозволено.\n"
 "\tможна використовувати лише '**' наприкінці правила.\n"
 
 #: ../parser_policy.c:279 ../parser_policy.c:359 ../parser_policy.c:332
 #, c-format
 msgid "ERROR processing regexs for profile %s, failed to load\n"
-msgstr ""
-"ПОМИЛКА обробки формальних виразів для профілю %s, не вдалося завантажити\n"
+msgstr "ПОМИЛКА обробки формальних виразів для профілю %s, не вдалося завантажити\n"
 
 #: ../parser_policy.c:306 ../parser_policy.c:389 ../parser_policy.c:362
 #, c-format
 msgid "ERROR expanding variables for profile %s, failed to load\n"
-msgstr ""
-"ПОМИЛКА при розширенні змінних для профілю %s; завантаження зазнало невдачі\n"
+msgstr "ПОМИЛКА при розширенні змінних для профілю %s; завантаження зазнало невдачі\n"
 
 #: ../parser_policy.c:390 ../parser_policy.c:382 ../parser_policy.c:355
 #, c-format
@@ -611,28 +549,22 @@ msgstr "ПОМИЛКА у профілі %s, не вдалося заванта�
 #: ../parser_policy.c:675
 #, c-format
 msgid "%s: Errors found during postprocessing.  Aborting.\n"
-msgstr ""
-"%s: У процесі остаточної обробки виявлено помилки. Аварійне завершення.\n"
+msgstr "%s: У процесі остаточної обробки виявлено помилки. Аварійне завершення.\n"
 
 #: ../parser_policy.c:682 ../parser_policy.c:704
 #, c-format
 msgid "%s: Errors found during regex postprocess.  Aborting.\n"
-msgstr ""
-"%s: У процесі остаточної обробки формального виразу виявлено помилки. "
-"Аварійне завершення.\n"
+msgstr "%s: У процесі остаточної обробки формального виразу виявлено помилки. Аварійне завершення.\n"
 
 #: ../parser_policy.c:689
 #, c-format
 msgid "%s: Errors found during postprocess.  Aborting.\n"
-msgstr ""
-"%s: У процесі остаточної обробки виявлено помилки. Аварійне завершення.\n"
+msgstr "%s: У процесі остаточної обробки виявлено помилки. Аварійне завершення.\n"
 
 #: ../parser_policy.c:696
 #, c-format
 msgid "%s: Errors found in combining rules postprocessing. Aborting.\n"
-msgstr ""
-"%s: Під час остаточної обробки складених правил виявлено помилки. Аварійне "
-"завершення.\n"
+msgstr "%s: Під час остаточної обробки складених правил виявлено помилки. Аварійне завершення.\n"
 
 #: parser_lex.l:180 parser_lex.l:186
 #, c-format
@@ -666,8 +598,7 @@ msgstr "Не вдалося оновити каталог кешу: %s\n"
 #: ../parser_misc.c:833
 #, c-format
 msgid "Internal: unexpected DBus mode character '%c' in input"
-msgstr ""
-"Внутрішня помилка: неочікуваний символ режиму DBus «%c» у вхідних даних"
+msgstr "Внутрішня помилка: неочікуваний символ режиму DBus «%c» у вхідних даних"
 
 #: ../parser_misc.c:857
 #, c-format
@@ -714,24 +645,18 @@ msgstr "некоректна умова pivotroot, «%s»"
 
 #: ../parser_regex.c:241 ../parser_regex.c:236
 #, c-format
-msgid ""
-"%s: Regex grouping error: Invalid close ], no matching open [ detected\n"
-msgstr ""
-"%s: помилка групування формального виразу: нечинна завершальна дужка ], не "
-"знайдено відповідної початкової дужки [\n"
+msgid "%s: Regex grouping error: Invalid close ], no matching open [ detected\n"
+msgstr "%s: помилка групування формального виразу: нечинна завершальна дужка ], не знайдено відповідної початкової дужки [\n"
 
 #: ../parser_regex.c:257 ../parser_regex.c:256
 #, c-format
 msgid "%s: Regex grouping error: Exceeded maximum nesting of {}\n"
-msgstr ""
-"%s: помилка групування формального виразу: перевищено максимальний рівень "
-"вкладеності у дужках {}\n"
+msgstr "%s: помилка групування формального виразу: перевищено максимальний рівень вкладеності у дужках {}\n"
 
 #: ../parser_policy.c:366 ../parser_policy.c:339
 #, c-format
 msgid "ERROR processing policydb rules for profile %s, failed to load\n"
-msgstr ""
-"ПОМИЛКА обробки правил policydb для профілю %s, не вдалося завантажити\n"
+msgstr "ПОМИЛКА обробки правил policydb для профілю %s, не вдалося завантажити\n"
 
 #: ../parser_policy.c:396 ../parser_policy.c:369
 #, c-format
@@ -746,8 +671,7 @@ msgstr "%s: не вдалося записати %s\n"
 #: ../parser_main.c:721
 #, c-format
 msgid "Error: Could not read binary profile or cache file %s: %s.\n"
-msgstr ""
-"Помилка: Не вдається прочитати бінарний профіль або файл кешу %s: %s.\n"
+msgstr "Помилка: Не вдається прочитати бінарний профіль або файл кешу %s: %s.\n"
 
 #: ../parser_main.c:811
 #, c-format
@@ -757,8 +681,7 @@ msgstr "Помилка: Не вдалося прочитати файл кешу
 #: ../parser_misc.c:575
 #, c-format
 msgid "Internal: unexpected %s mode character '%c' in input"
-msgstr ""
-"Внутрішня помилка: неочікуваний символ режиму  %s «%c» у вхідних даних"
+msgstr "Внутрішня помилка: неочікуваний символ режиму  %s «%c» у вхідних даних"
 
 #: ../parser_misc.c:599
 #, c-format
@@ -802,5 +725,5 @@ msgstr "правило unix: некоректна група умов %s=()"
 #: ../parser_regex.c:368
 #, c-format
 msgid "%s: Regex error: trailing '\\' escape character\n"
-msgstr ""
-"%s: Помилка регулярного виразу: завершальний екрануючий символ «\\»\n"
+msgstr "%s: Помилка регулярного виразу: завершальний екрануючий символ «\\»\n"
+

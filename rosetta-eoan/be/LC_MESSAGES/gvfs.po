@@ -1,25 +1,26 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: gvfs.master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gvfs/issues\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gvfs&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2019-04-11 10:42+0000\n"
-"PO-Revision-Date: 2019-04-11 12:10+0000\n"
-"Last-Translator: Yuras <shumovichy@gmail.com>\n"
-"Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
+"PO-Revision-Date: 2019-07-08 16:49\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Launchpad-Export-Date: 2019-05-11 12:30+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: be\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Launchpad-Export-Date: 2019-05-11 12:31+0000\n"
+"X-Generator: crowdin.com\n"
+"X-Project-Style: gnome\n"
+"Language: be_BY\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/gvfs.po\n"
 
 #: client/gdaemonfile.c:435 client/gdaemonfile.c:2704
 msgid "Operation not supported, files on different mounts"
-msgstr ""
-"Аперацыя не падтрымліваецца, файлы змяшчаюцца ў розных аддзелах файлавай "
-"сістэмы"
+msgstr "Аперацыя не падтрымліваецца, файлы змяшчаюцца ў розных аддзелах файлавай сістэмы"
 
 #: client/gdaemonfile.c:1006 client/gdaemonfile.c:3052
 #: client/gvfsiconloadable.c:295 daemon/gvfsjobopenforread.c:183
@@ -137,12 +138,8 @@ msgstr "Памылка вызначэння адрасу \"%s\" паслугі \
 #. 
 #: common/gvfsdnssdresolver.c:1109
 #, c-format
-msgid ""
-"Error resolving “%s” service “%s” on domain “%s”. One or more TXT records "
-"are missing. Keys required: “%s”."
-msgstr ""
-"Памылка вызначэння адрасу \"%s\" паслугі \"%s\" на дамене \"%s\". Адсутнічае "
-"адзін ці некалькі TXT-запісаў. Патрэбныя ключы: \"%s\"."
+msgid "Error resolving “%s” service “%s” on domain “%s”. One or more TXT records are missing. Keys required: “%s”."
+msgstr "Памылка вызначэння адрасу \"%s\" паслугі \"%s\" на дамене \"%s\". Адсутнічае адзін ці некалькі TXT-запісаў. Патрэбныя ключы: \"%s\"."
 
 #. Translators:
 #. * - the first %s refers to the service type
@@ -152,9 +149,7 @@ msgstr ""
 #: common/gvfsdnssdresolver.c:1124
 #, c-format
 msgid "Timed out resolving “%s” service “%s” on domain “%s”"
-msgstr ""
-"Тэрмін чакання быў вычарпаны для вызначэння адрасу \"%s\" паслугі \"%s\" на "
-"дамене \"%s\""
+msgstr "Тэрмін чакання быў вычарпаны для вызначэння адрасу \"%s\" паслугі \"%s\" на дамене \"%s\""
 
 #: common/gvfsdnssdresolver.c:1164
 msgid "Error initializing Avahi resolver"
@@ -239,11 +234,11 @@ msgstr "Нечаканы канец струменя"
 #: daemon/gvfsafpserver.c:195 daemon/gvfsafpserver.c:477
 #, c-format
 msgid "The server doesn’t support passwords longer than %d character."
-msgid_plural ""
-"The server doesn’t support passwords longer than %d characters."
+msgid_plural "The server doesn’t support passwords longer than %d characters."
 msgstr[0] "Сервер не падтрымлівае пароляў, даўжэйшых за %d знак."
 msgstr[1] "Сервер не падтрымлівае пароляў, даўжэйшых за %d знакі."
 msgstr[2] "Сервер не падтрымлівае пароляў, даўжэйшых за %d знакаў."
+msgstr[3] ""
 
 #: daemon/gvfsafpserver.c:221 daemon/gvfsafpserver.c:530
 msgid "An invalid username was provided."
@@ -258,8 +253,7 @@ msgstr "Не ўдалося ўвайсці на сервер \"%s\" з гэты�
 #: daemon/gvfsafpserver.c:823 daemon/gvfsafpserver.c:871
 #: daemon/gvfsafpserver.c:987 daemon/gvfsafpserver.c:1662
 #, c-format
-msgid ""
-"Unable to connect to the server “%s”. A communication problem occurred."
+msgid "Unable to connect to the server “%s”. A communication problem occurred."
 msgstr "Не ўдалося злучыцца з серверам \"%s\". Узнікла памылка сувязі."
 
 #: daemon/gvfsafpserver.c:620
@@ -274,21 +268,13 @@ msgstr "Сервер \"%s\" не падтрымлівае ананімны до�
 
 #: daemon/gvfsafpserver.c:726
 #, c-format
-msgid ""
-"Unable to connect to the server “%s”. No suitable authentication mechanism "
-"was found."
-msgstr ""
-"Не ўдалося злучыцца з серверам \"%s\". Не знойдзены прыдатны спосаб "
-"ідэнтыфікацыі."
+msgid "Unable to connect to the server “%s”. No suitable authentication mechanism was found."
+msgstr "Не ўдалося злучыцца з серверам \"%s\". Не знойдзены прыдатны спосаб ідэнтыфікацыі."
 
 #: daemon/gvfsafpserver.c:801
 #, c-format
-msgid ""
-"Unable to connect to the server “%s”. The server doesn’t support AFP version "
-"3.0 or later."
-msgstr ""
-"Не ўдалося злучыцца з серверам \"%s\". Сервер не падтрымлівае AFP версіі 3.0 "
-"ці пазней."
+msgid "Unable to connect to the server “%s”. The server doesn’t support AFP version 3.0 or later."
+msgstr "Не ўдалося злучыцца з серверам \"%s\". Сервер не падтрымлівае AFP версіі 3.0 ці пазней."
 
 #: daemon/gvfsafpserver.c:912
 #, c-format
@@ -417,8 +403,7 @@ msgstr "Каталог не пусты"
 
 #: daemon/gvfsafpvolume.c:667
 msgid "Target object is marked as not deletable (DeleteInhibit)"
-msgstr ""
-"Мэтавы аб'ект пазначаны як аб'ект, які немагчыма выдаліць (DeleteInhibit)"
+msgstr "Мэтавы аб'ект пазначаны як аб'ект, які немагчыма выдаліць (DeleteInhibit)"
 
 #: daemon/gvfsafpvolume.c:671 daemon/gvfsafpvolume.c:1180
 #: daemon/gvfsafpvolume.c:2038 daemon/gvfsbackendgoogle.c:218
@@ -478,19 +463,15 @@ msgstr "Аб'ект з такой назвай ужо існуе"
 
 #: daemon/gvfsafpvolume.c:1176
 msgid "Target object is marked as not renameable (RenameInhibit)"
-msgstr ""
-"Мэтавы аб'ект пазначаны як аб'ект, назву якога немагчыма змяніць "
-"(RenameInhibit)"
+msgstr "Мэтавы аб'ект пазначаны як аб'ект, назву якога немагчыма змяніць (RenameInhibit)"
 
 #: daemon/gvfsafpvolume.c:1343
 msgid "Can’t move directory into one of its descendants"
-msgstr ""
-"Немагчыма перамясціць каталог у адзін з укладзеных у яго падкаталогаў"
+msgstr "Немагчыма перамясціць каталог у адзін з укладзеных у яго падкаталогаў"
 
 #: daemon/gvfsafpvolume.c:1347
 msgid "Can’t move sharepoint into a shared directory"
-msgstr ""
-"Немагчыма перамясціць пункт супольнага рэсурса ў супольнадаступны каталог"
+msgstr "Немагчыма перамясціць пункт супольнага рэсурса ў супольнадаступны каталог"
 
 #: daemon/gvfsafpvolume.c:1351
 msgid "Can’t move a shared directory into the Trash"
@@ -498,9 +479,7 @@ msgstr "Немагчыма перамясціць супольнадаступн
 
 #: daemon/gvfsafpvolume.c:1359
 msgid "Object being moved is marked as not renameable (RenameInhibit)"
-msgstr ""
-"Аб'ект для перамяшчэння пазначаны як аб'ект, назву якога немагчыма змяніць "
-"(RenameInhibit)"
+msgstr "Аб'ект для перамяшчэння пазначаны як аб'ект, назву якога немагчыма змяніць (RenameInhibit)"
 
 #: daemon/gvfsafpvolume.c:1363
 msgid "Object being moved doesn’t exist"
@@ -585,8 +564,7 @@ msgstr "Не ўдалося атрымаць спіс праграм, устал
 
 #: daemon/gvfsbackendafc.c:270
 msgid "Accessing application icons on device failed"
-msgstr ""
-"Не ўдалося атрымаць доступ да значкоў праграм, усталяваных на прыстасаванні"
+msgstr "Не ўдалося атрымаць доступ да значкоў праграм, усталяваных на прыстасаванні"
 
 #: daemon/gvfsbackendafc.c:292
 msgid "Lockdown Error: Invalid Argument"
@@ -618,12 +596,8 @@ msgid "libimobiledevice Error: Invalid Argument"
 msgstr "Памылка libimobiledevice: хібны аргумент"
 
 #: daemon/gvfsbackendafc.c:333
-msgid ""
-"libimobiledevice Error: No device found. Make sure usbmuxd is set up "
-"correctly."
-msgstr ""
-"Памылка libimobiledevice: прыстасаванне не знойдзена. Праверце, каб служба "
-"usbmuxd была правільна наладжана."
+msgid "libimobiledevice Error: No device found. Make sure usbmuxd is set up correctly."
+msgstr "Памылка libimobiledevice: прыстасаванне не знойдзена. Праверце, каб служба usbmuxd была правільна наладжана."
 
 #: daemon/gvfsbackendafc.c:337
 #, c-format
@@ -664,7 +638,7 @@ msgstr "Дакументы на мабільным прыстасаванні Ap
 #: daemon/gvfsbackendafc.c:567
 #, c-format
 msgid "%s (jailbreak)"
-msgstr "%s (jailbreak)"
+msgstr ""
 
 #. translators:
 #. * This is "Documents on foo" where foo is the device name, eg.:
@@ -679,12 +653,8 @@ msgstr "Дакументы на %s"
 #. * shown in the dialog which is defined above.
 #: daemon/gvfsbackendafc.c:648
 #, c-format
-msgid ""
-"The device “%s” is locked. Enter the passcode on the device and click “Try "
-"again”."
-msgstr ""
-"Прыстасаванне \"%s\" заблакіравана. Увядзіце пароль на прыстасаванні і "
-"пстрыкніце \"Паўтарыць спробу\"."
+msgid "The device “%s” is locked. Enter the passcode on the device and click “Try again”."
+msgstr "Прыстасаванне \"%s\" заблакіравана. Увядзіце пароль на прыстасаванні і пстрыкніце \"Паўтарыць спробу\"."
 
 #. translators:
 #. * %s is the device name. 'Try again' is the caption of the button
@@ -692,12 +662,8 @@ msgstr ""
 #. * of the button shown in the device.
 #: daemon/gvfsbackendafc.c:656
 #, c-format
-msgid ""
-"The device “%s” is not trusted yet. Select “Trust” on the device and click "
-"“Try again”."
-msgstr ""
-"Прыстасаванне \"%s\" не з'яўляецца давераным. Выберыце \"Давяраць\" на "
-"прыстасаванні і пстрыкніце \"Паўтарыць спробу\"."
+msgid "The device “%s” is not trusted yet. Select “Trust” on the device and click “Try again”."
+msgstr "Прыстасаванне \"%s\" не з'яўляецца давераным. Выберыце \"Давяраць\" на прыстасаванні і пстрыкніце \"Паўтарыць спробу\"."
 
 #: daemon/gvfsbackendafc.c:1124 daemon/gvfsbackendarchive.c:746
 #: daemon/gvfsbackendcomputer.c:657 daemon/gvfsbackendgoogle.c:2168
@@ -774,7 +740,7 @@ msgstr "%s на %s"
 #: daemon/gvfsbackendafpbrowse.c:450
 #, c-format
 msgid "%s"
-msgstr "%s"
+msgstr ""
 
 #: daemon/gvfsbackendafpbrowse.c:483 daemon/gvfsbackendafp.c:2139
 #: daemon/gvfsbackendarchive.c:628 daemon/gvfsbackendftp.c:723
@@ -949,11 +915,9 @@ msgid "Unmount Anyway"
 msgstr "Усё роўна адмацаваць"
 
 #: daemon/gvfsbackend.c:1000 monitor/udisks2/gvfsudisks2mount.c:751
-msgid ""
-"Volume is busy\n"
+msgid "Volume is busy\n"
 "One or more applications are keeping the volume busy."
-msgstr ""
-"Дыскавы том заняты\n"
+msgstr "Дыскавы том заняты\n"
 "Прынамсі адна праграма ўтрымлівае гэты том."
 
 #: daemon/gvfsbackendcdda.c:290 daemon/gvfsbackendgphoto2.c:1288
@@ -995,6 +959,7 @@ msgid_plural "File system is busy: %d open files"
 msgstr[0] "Файлавая сістэма занятая: %d файл адкрыты"
 msgstr[1] "Файлавая сістэма занятая: %d файлы адкрытыя"
 msgstr[2] "Файлавая сістэма занятая: %d файлаў адкрытыя"
+msgstr[3] ""
 
 #: daemon/gvfsbackendcdda.c:607
 #, c-format
@@ -1158,7 +1123,7 @@ msgstr "Не ўдалося адсочваць файл або каталог."
 #. TODO: Names, etc
 #: daemon/gvfsbackenddnssd.c:794
 msgid "Dns-SD"
-msgstr "Dns-SD"
+msgstr ""
 
 #: daemon/gvfsbackenddnssd.c:795 daemon/gvfsbackendnetwork.c:784
 #: daemon/gvfsbackendnetwork.c:932 daemon/gvfsbackendnetwork.c:933
@@ -1389,24 +1354,16 @@ msgid "Not supported (not same directory)"
 msgstr "Аперацыя не падтрымліваецца (каталогі адрозніваюцца)"
 
 #: daemon/gvfsbackendgphoto2.c:3109
-msgid ""
-"Not supported (the source is a directory, the destination is a directory too)"
-msgstr ""
-"Аперацыя не падтрымліваецца (і крыніца, і мэта з'яўляюцца каталогамі)"
+msgid "Not supported (the source is a directory, the destination is a directory too)"
+msgstr "Аперацыя не падтрымліваецца (і крыніца, і мэта з'яўляюцца каталогамі)"
 
 #: daemon/gvfsbackendgphoto2.c:3117
-msgid ""
-"Not supported (the source is a directory, but the destination is an existing "
-"file)"
-msgstr ""
-"Аперацыя не падтрымліваецца (крыніца з'яўляецца каталогам, а мэтавы файл ужо "
-"існуе)"
+msgid "Not supported (the source is a directory, but the destination is an existing file)"
+msgstr "Аперацыя не падтрымліваецца (крыніца з'яўляецца каталогам, а мэтавы файл ужо існуе)"
 
 #: daemon/gvfsbackendgphoto2.c:3129
-msgid ""
-"Not supported (the source is a file, but the destination is a directory)"
-msgstr ""
-"Аперацыя не падтрымліваецца (крыніца з'яўляецца файлам, а мэта - каталогам)"
+msgid "Not supported (the source is a file, but the destination is a directory)"
+msgstr "Аперацыя не падтрымліваецца (крыніца з'яўляецца файлам, а мэта - каталогам)"
 
 #: daemon/gvfsbackendhttp.c:198
 #, c-format
@@ -1513,11 +1470,8 @@ msgid "Mount point does not exist"
 msgstr "Пункт мацавання не існуе"
 
 #: daemon/gvfsbackendnfs.c:266
-msgid ""
-"Permission denied: Perhaps this host is disallowed or a privileged port is "
-"needed"
-msgstr ""
-"Доступ забаронены: магчыма хост забаронены ці патрабуецца прывілеяваны порт"
+msgid "Permission denied: Perhaps this host is disallowed or a privileged port is needed"
+msgstr "Доступ забаронены: магчыма хост забаронены ці патрабуецца прывілеяваны порт"
 
 #: daemon/gvfsbackendnfs.c:1046 daemon/gvfsbackendnfs.c:1069
 #: daemon/gvfsbackendnfs.c:1117 daemon/gvfsbackendsftp.c:3701
@@ -1610,29 +1564,19 @@ msgstr "Не ўдалося выслаць пароль"
 
 #: daemon/gvfsbackendsftp.c:1278
 #, c-format
-msgid ""
-"Can’t verify the identity of “%s”.\n"
-"This happens when you log in to a computer the first time.\n"
-"\n"
-"The identity sent by the remote computer is “%s”. If you want to be "
-"absolutely sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Не ўдалося праверыць тоеснасць \"%s\".\n"
-"Гэтак здараецца, калі вы ўпершыню ўваходзіце на камп'ютар.\n"
-"\n"
-"Камп'ютар падаў наступную тоеснасць: \"%s\". Калі вы хочаце ўпэўніцца ў "
-"бяспечнасці гэтага дзеяння, звярніцеся да свайго сістэмнага адміністратара."
+msgid "Can’t verify the identity of “%s”.\n"
+"This happens when you log in to a computer the first time.\n\n"
+"The identity sent by the remote computer is “%s”. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Не ўдалося праверыць тоеснасць \"%s\".\n"
+"Гэтак здараецца, калі вы ўпершыню ўваходзіце на камп'ютар.\n\n"
+"Камп'ютар падаў наступную тоеснасць: \"%s\". Калі вы хочаце ўпэўніцца ў бяспечнасці гэтага дзеяння, звярніцеся да свайго сістэмнага адміністратара."
 
 #: daemon/gvfsbackendsftp.c:1305
 #, c-format
-msgid ""
-"The host key for “%s” differs from the key for the IP address “%s”\n"
-"If you want to be absolutely sure it is safe to continue, contact the system "
-"administrator."
-msgstr ""
-"Ключ для хоста \"%s\" адрозніваецца ад ключа IP адраса \"%s\"\n"
-"Калі вы хочаце ўпэўніцца ў бяспечнасці гэтага дзеяння, звярніцеся да свайго "
-"сістэмнага адміністратара."
+msgid "The host key for “%s” differs from the key for the IP address “%s”\n"
+"If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Ключ для хоста \"%s\" адрозніваецца ад ключа IP адраса \"%s\"\n"
+"Калі вы хочаце ўпэўніцца ў бяспечнасці гэтага дзеяння, звярніцеся да свайго сістэмнага адміністратара."
 
 #: daemon/gvfsbackendsftp.c:1396
 #, c-format
@@ -1682,8 +1626,7 @@ msgstr "стварэнне запасных копій пакуль не пад�
 
 #: daemon/gvfsbackendsftp.c:5240
 msgid "Value out of range, sftp only supports 32bit timestamps"
-msgstr ""
-"Значэнне не ў прамежку, sftp падтрымлівае толькі 32 бітавыя часавыя адбіткі"
+msgstr "Значэнне не ў прамежку, sftp падтрымлівае толькі 32 бітавыя часавыя адбіткі"
 
 #: daemon/gvfsbackendsftp.c:5315 daemon/gvfsbackendsmb.c:1724
 msgid "Invalid attribute type (uint64 expected)"
@@ -1802,6 +1745,7 @@ msgid "The certificate has been revoked."
 msgstr "Сертыфікат быў адкліканы."
 
 #: daemon/gvfsdaemonutils.c:259
+#| msgid "The certificate's algorithm is considered insecure."
 msgid "The certificate’s algorithm is considered insecure."
 msgstr "Алгарытм сертыфіката лічыцца небяспечным."
 
@@ -1819,17 +1763,11 @@ msgstr "Не"
 
 #: daemon/gvfsdaemonutils.c:333
 #, c-format
-msgid ""
-"The site’s identity can’t be verified:%s\n"
-"\n"
-"%s\n"
-"\n"
+msgid "The site’s identity can’t be verified:%s\n\n"
+"%s\n\n"
 "Are you really sure you would like to continue?"
-msgstr ""
-"Немагчыма праверыць тоеснасць пляцоўкі: %s\n"
-"\n"
-"%s\n"
-"\n"
+msgstr "Немагчыма праверыць тоеснасць пляцоўкі: %s\n\n"
+"%s\n\n"
 "Ці сапраўды жадаеце працягнуць?"
 
 #: daemon/gvfsftpconnection.c:211
@@ -1842,12 +1780,8 @@ msgid "Invalid reply"
 msgstr "Хібны адказ"
 
 #: daemon/gvfsftpconnection.c:478
-msgid ""
-"Failed to create active FTP connection. Maybe your router does not support "
-"this?"
-msgstr ""
-"Не ўдалося ўсталяваць дзейнае FTP-злучэнне. Магчыма, ваш маршрутызатар не "
-"падтрымлівае гэтай аперацыі?"
+msgid "Failed to create active FTP connection. Maybe your router does not support this?"
+msgstr "Не ўдалося ўсталяваць дзейнае FTP-злучэнне. Магчыма, ваш маршрутызатар не падтрымлівае гэтай аперацыі?"
 
 #: daemon/gvfsftpconnection.c:485
 msgid "Failed to create active FTP connection."
@@ -1871,9 +1805,7 @@ msgstr "Конты не абслугоўваюцца"
 
 #: daemon/gvfsftptask.c:401
 msgid "Cannot open data connection. Maybe your firewall prevents this?"
-msgstr ""
-"Не ўдалося адкрыць злучэнне для даных. Магчыма, гэтую аперацыю забараніў ваш "
-"брандмаўэр?"
+msgstr "Не ўдалося адкрыць злучэнне для даных. Магчыма, гэтую аперацыю забараніў ваш брандмаўэр?"
 
 #: daemon/gvfsftptask.c:405
 msgid "Data connection closed"
@@ -1918,11 +1850,9 @@ msgstr "%s быў адмацаваны\n"
 
 #: daemon/gvfsjobunmount.c:141
 #, c-format
-msgid ""
-"Unmounting %s\n"
+msgid "Unmounting %s\n"
 "Please wait"
-msgstr ""
-"Адмацаванне %s\n"
+msgstr "Адмацаванне %s\n"
 "Пачакайце"
 
 #: daemon/main.c:149 metadata/meta-daemon.c:376
@@ -1954,7 +1884,7 @@ msgstr "Галоўны дэман GVFS"
 #: daemon/main.c:188 metadata/meta-daemon.c:403
 #, c-format
 msgid "%s: %s"
-msgstr "%s: %s"
+msgstr ""
 
 #: daemon/main.c:190 metadata/meta-daemon.c:405
 #, c-format
@@ -2100,38 +2030,30 @@ msgstr "Тэрмін чакання запуску загаду \"%s\" выча�
 
 #: monitor/udisks2/gvfsudisks2utils.c:647
 #, c-format
-msgid ""
-"Unmounting %s\n"
+msgid "Unmounting %s\n"
 "Disconnecting from filesystem."
-msgstr ""
-"Адмацаванне %s\n"
+msgstr "Адмацаванне %s\n"
 "Адлучэнне ад файлавай сістэмы."
 
 #: monitor/udisks2/gvfsudisks2utils.c:649
 #, c-format
-msgid ""
-"Writing data to %s\n"
+msgid "Writing data to %s\n"
 "Device should not be unplugged."
-msgstr ""
-"Запіс даных у %s\n"
+msgstr "Запіс даных у %s\n"
 "Не адлучайце прыстасаванне."
 
 #: monitor/udisks2/gvfsudisks2utils.c:788
 #, c-format
-msgid ""
-"%s unmounted\n"
+msgid "%s unmounted\n"
 "Filesystem has been disconnected."
-msgstr ""
-"%s адмазаваны\n"
+msgstr "%s адмазаваны\n"
 "Файлавая сістэма адлучана."
 
 #: monitor/udisks2/gvfsudisks2utils.c:790
 #, c-format
-msgid ""
-"%s can be safely unplugged\n"
+msgid "%s can be safely unplugged\n"
 "Device can be removed."
-msgstr ""
-"%s можна бяспечна выняты\n"
+msgstr "%s можна бяспечна выняты\n"
 "Прыстасаванне можна ўбраць."
 
 #. Translators: This is used for encrypted volumes.
@@ -2181,21 +2103,17 @@ msgstr "Для доступу да дыскавага тома патрэбна 
 #. Translators: %s is the description of the volume that is being unlocked
 #: monitor/udisks2/gvfsudisks2volume.c:1478
 #, c-format
-msgid ""
-"Enter a passphrase to unlock the volume\n"
+msgid "Enter a passphrase to unlock the volume\n"
 "The volume %s might be a VeraCrypt volume as it contains random data."
-msgstr ""
-"Увядзіце пароль для дыскавага тома.\n"
+msgstr "Увядзіце пароль для дыскавага тома.\n"
 "Том \"%s\" можа быць томам VeraCrypt, бо змяшчае выпадковыя даныя."
 
 #. Translators: %s is the description of the volume that is being unlocked
 #: monitor/udisks2/gvfsudisks2volume.c:1483
 #, c-format
-msgid ""
-"Enter a passphrase to unlock the volume\n"
+msgid "Enter a passphrase to unlock the volume\n"
 "The passphrase is needed to access encrypted data on %s."
-msgstr ""
-"Увядзіце пароль для разблакіравання дыскавага тома.\n"
+msgstr "Увядзіце пароль для разблакіравання дыскавага тома.\n"
 "Для доступу да зашыфраваных даных на \"%s\" патрабуецца парольная фраза."
 
 #. Translators: this is used to describe the drive the encrypted media
@@ -2205,8 +2123,9 @@ msgstr ""
 #: monitor/udisks2/gvfsudisks2volume.c:1663
 #, c-format
 msgid "%s (%s)"
-msgstr "%s (%s)"
+msgstr ""
 
 #: monitor/udisks2/udisks2volumemonitordaemon.c:39
 msgid "GVfs UDisks2 Volume Monitor"
 msgstr "Назіральнік за дыскавымі тамамі GVfs UDisks2"
+

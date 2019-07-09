@@ -1,21 +1,21 @@
-# Vital Khilko <dojlid@mova.org>, 2002, 2003.
-# Alexander Nyakhaychyk <nyakhaychyk@gmail.com>, 2003, 2004, 2009.
-# Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2011, 2012, 2013.
-# Yuras Shumovich <shumovichy@gmail.com>, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: gdm.master\n"
-"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gdm/issues\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gdm&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2018-10-11 07:20-0400\n"
-"PO-Revision-Date: 2019-04-16 19:48+0000\n"
-"Last-Translator: Yuras <shumovichy@gmail.com>\n"
-"Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
+"PO-Revision-Date: 2019-07-08 16:57\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 12:54+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
-"Language: be\n"
+"X-Generator: crowdin.com\n"
+"Language: be_BY\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/gdm.po\n"
 
 #: chooser/gdm-host-chooser-dialog.c:140
 msgid "_Refresh"
@@ -62,12 +62,8 @@ msgid "Could not identify the current seat."
 msgstr "Не ўдалося апазнаць бягучае працоўнае месца."
 
 #: common/gdm-common.c:521 libgdm/gdm-user-switching.c:228
-msgid ""
-"The system is unable to determine whether to switch to an existing login "
-"screen or start up a new login screen."
-msgstr ""
-"Сістэма не здолела вызначыць, ці трэба пераключыцца на наяўны экран уваходу "
-"або запусціць новы."
+msgid "The system is unable to determine whether to switch to an existing login screen or start up a new login screen."
+msgstr "Сістэма не здолела вызначыць, ці трэба пераключыцца на наяўны экран уваходу або запусціць новы."
 
 #: common/gdm-common.c:529 libgdm/gdm-user-switching.c:236
 msgid "The system is unable to start up a new login screen."
@@ -79,16 +75,8 @@ msgid "could not find user “%s” on system"
 msgstr "не ўдалося адшукаць карыстальніка \"%s\" ў сістэме"
 
 #: daemon/gdm-legacy-display.c:236
-msgid ""
-"Could not start the X server (your graphical environment) due to an internal "
-"error. Please contact your system administrator or check your syslog to "
-"diagnose. In the meantime this display will be disabled.  Please restart GDM "
-"when the problem is corrected."
-msgstr ""
-"Не ўдалося запусціць X сервер (ваша графічнае асяроддзе) праз унутраную "
-"памылку. Калі ласка, звяжыцеся са сваім сістэмным адміністратарам або "
-"праверце syslog для дыягностыкі. Гэты манітор пакуль будзе выключаны. "
-"Перазапусціце GDM калі праблема будзе выпраўлена."
+msgid "Could not start the X server (your graphical environment) due to an internal error. Please contact your system administrator or check your syslog to diagnose. In the meantime this display will be disabled.  Please restart GDM when the problem is corrected."
+msgstr "Не ўдалося запусціць X сервер (ваша графічнае асяроддзе) праз унутраную памылку. Калі ласка, звяжыцеся са сваім сістэмным адміністратарам або праверце syslog для дыягностыкі. Гэты манітор пакуль будзе выключаны. Перазапусціце GDM калі праблема будзе выпраўлена."
 
 #: daemon/gdm-manager.c:744
 msgid "No display available"
@@ -117,9 +105,7 @@ msgstr "Не ўдалося адкрыць прыватны канал каму�
 #: daemon/gdm-server.c:383
 #, c-format
 msgid "Server was to be spawned by user %s but that user doesn’t exist"
-msgstr ""
-"Сервер мусіў запусціцца ад імя карыстальніка %s, але такога карыстальніка не "
-"існуе"
+msgstr "Сервер мусіў запусціцца ад імя карыстальніка %s, але такога карыстальніка не існуе"
 
 #: daemon/gdm-server.c:394 daemon/gdm-server.c:414
 #, c-format
@@ -227,8 +213,7 @@ msgstr "Стартар сеанса X кіраўніка экрана GNOME"
 #: daemon/main.c:125 daemon/main.c:138
 #, c-format
 msgid "Cannot write PID file %s: possibly out of disk space: %s"
-msgstr ""
-"Не ўдалося запісаць PID-файл %s: магчыма, не хапае дыскавай прасторы: %s"
+msgstr "Не ўдалося запісаць PID-файл %s: магчыма, не хапае дыскавай прасторы: %s"
 
 #: daemon/main.c:182
 #, c-format
@@ -243,14 +228,11 @@ msgstr "Не ўдалося стварыць LogDir %s: %s"
 #: daemon/main.c:223
 #, c-format
 msgid "Can’t find the GDM user “%s”. Aborting!"
-msgstr ""
-"Не ўдалося адшукаць карыстальніка GDM \"%s\". Аварыйнае заканчэнне працы."
+msgstr "Не ўдалося адшукаць карыстальніка GDM \"%s\". Аварыйнае заканчэнне працы."
 
 #: daemon/main.c:229
 msgid "The GDM user should not be root. Aborting!"
-msgstr ""
-"Карыстальнік GDM не можа быць root-карыстальнікам. Аварыйнае заканчэнне "
-"працы."
+msgstr "Карыстальнік GDM не можа быць root-карыстальнікам. Аварыйнае заканчэнне працы."
 
 #: daemon/main.c:235
 #, c-format
@@ -293,71 +275,53 @@ msgid "Whether or not to allow fingerprint readers for login"
 msgstr "Ці трэба дазваляць уваход з дапамогай чытальніка адбіткаў пальцаў"
 
 #: data/org.gnome.login-screen.gschema.xml:9
-msgid ""
-"The login screen can optionally allow users who have enrolled their "
-"fingerprints to log in using those prints."
-msgstr ""
-"Экран уваходу таксама можа дазволіць карыстальнікам, якія пакінулі адбіткі "
-"сваіх пальцаў, уваходзіць у сеанс з іх дапамогай."
+msgid "The login screen can optionally allow users who have enrolled their fingerprints to log in using those prints."
+msgstr "Экран уваходу таксама можа дазволіць карыстальнікам, якія пакінулі адбіткі сваіх пальцаў, уваходзіць у сеанс з іх дапамогай."
 
 #: data/org.gnome.login-screen.gschema.xml:16
 msgid "Whether or not to allow smartcard readers for login"
 msgstr "Ці трэба дазваляць уваход з дапамогай чытальніка смарт-карт"
 
 #: data/org.gnome.login-screen.gschema.xml:19
-msgid ""
-"The login screen can optionally allow users who have smartcards to log in "
-"using those smartcards."
-msgstr ""
-"Экран уваходу таксама можа дазволіць карыстальнікам, якія маюць смарт-карты, "
-"уваходзіць у сеанс з іх дапамогай."
+msgid "The login screen can optionally allow users who have smartcards to log in using those smartcards."
+msgstr "Экран уваходу таксама можа дазволіць карыстальнікам, якія маюць смарт-карты, уваходзіць у сеанс з іх дапамогай."
 
 #: data/org.gnome.login-screen.gschema.xml:26
 msgid "Whether or not to allow passwords for login"
 msgstr "Ці трэба дазваляць уваход з дапамогай пароляў"
 
 #: data/org.gnome.login-screen.gschema.xml:29
-msgid ""
-"The login screen can be configured to disallow password authentication, "
-"forcing the user to use smartcard or fingerprint authentication."
-msgstr ""
-"Экран уваходу можа быць настроены такім чынам, што ідэнтыфікацыя з дапамогай "
-"пароля будзе забаронена. Такім чынам можна змусіць карыстальніка да "
-"выкарыстання для гэтай мэты смарт-карт ці адбіткаў пальцаў."
+msgid "The login screen can be configured to disallow password authentication, forcing the user to use smartcard or fingerprint authentication."
+msgstr "Экран уваходу можа быць настроены такім чынам, што ідэнтыфікацыя з дапамогай пароля будзе забаронена. Такім чынам можна змусіць карыстальніка да выкарыстання для гэтай мэты смарт-карт ці адбіткаў пальцаў."
 
 #: data/org.gnome.login-screen.gschema.xml:36
 #: data/org.gnome.login-screen.gschema.xml:46
 msgid "Path to small image at top of user list"
-msgstr ""
-"Сцежка файла з невялікай выявай для змяшчэння над спісам карыстальнікаў"
+msgstr "Сцежка файла з невялікай выявай для змяшчэння над спісам карыстальнікаў"
 
 #: data/org.gnome.login-screen.gschema.xml:39
-msgid ""
-"The login screen can optionally show a small image to provide site "
-"administrators and distributions a way to display branding."
-msgstr ""
-"Экран уваходу таксама можа паказваць невялікую выяву, што можа прыдацца "
-"сістэмным адміністратарам і дыстрыбутывам у справе брэндынгу."
+#| msgid ""
+#| "The login screen can optionally show a small image at the top of its user "
+#| "list to provide site administrators and distributions a way to provide "
+#| "branding."
+msgid "The login screen can optionally show a small image to provide site administrators and distributions a way to display branding."
+msgstr "Экран уваходу таксама можа паказваць невялікую выяву, што можа прыдацца сістэмным адміністратарам і дыстрыбутывам у справе брэндынгу."
 
 #: data/org.gnome.login-screen.gschema.xml:49
-msgid ""
-"The fallback login screen can optionally show a small image to provide site "
-"administrators and distributions a way to display branding."
-msgstr ""
-"Запасны экран уваходу таксама можа паказваць невялікую выяву, што можа "
-"прыдацца сістэмным адміністратарам і дыстрыбутывам у справе брэндынгу."
+#| msgid ""
+#| "The fallback login screen can optionally show a small image at the top of "
+#| "its user list to provide site administrators and distributions a way to "
+#| "provide branding."
+msgid "The fallback login screen can optionally show a small image to provide site administrators and distributions a way to display branding."
+msgstr "Запасны экран уваходу таксама можа паказваць невялікую выяву, што можа прыдацца сістэмным адміністратарам і дыстрыбутывам у справе брэндынгу."
 
 #: data/org.gnome.login-screen.gschema.xml:56
 msgid "Avoid showing user list"
 msgstr "Не паказваць спіса карыстальнікаў"
 
 #: data/org.gnome.login-screen.gschema.xml:59
-msgid ""
-"The login screen normally shows a list of available users to log in as. This "
-"setting can be toggled to disable showing the user list."
-msgstr ""
-"Звычайна экран уваходу паказвае спіс наяўных карыстальнікаў. З дапамогай "
-"гэтай настройкі можна выключыць паказ гэтага спіса."
+msgid "The login screen normally shows a list of available users to log in as. This setting can be toggled to disable showing the user list."
+msgstr "Звычайна экран уваходу паказвае спіс наяўных карыстальнікаў. З дапамогай гэтай настройкі можна выключыць паказ гэтага спіса."
 
 #: data/org.gnome.login-screen.gschema.xml:66
 msgid "Enable showing the banner message"
@@ -380,22 +344,16 @@ msgid "Disable showing the restart buttons"
 msgstr "Схаваць кнопкі перазапуску камп'ютара"
 
 #: data/org.gnome.login-screen.gschema.xml:87
-msgid ""
-"Set to true to disable showing the restart buttons in the login window."
-msgstr ""
-"Калі ўключана, не паказваць кнопкі перазапуску камп'ютара ў акне ўваходу."
+msgid "Set to true to disable showing the restart buttons in the login window."
+msgstr "Калі ўключана, не паказваць кнопкі перазапуску камп'ютара ў акне ўваходу."
 
 #: data/org.gnome.login-screen.gschema.xml:93
 msgid "Number of allowed authentication failures"
 msgstr "Колькасць дазволеных няўдалых спроб ідэнтыфікацыі"
 
 #: data/org.gnome.login-screen.gschema.xml:96
-msgid ""
-"The number of times a user is allowed to attempt authentication, before "
-"giving up and going back to user selection."
-msgstr ""
-"Колькасць няўдалых спроб ідэнтыфікацыі, дазволеных карыстальніку, да "
-"вяртання на экран выбару карыстальніка."
+msgid "The number of times a user is allowed to attempt authentication, before giving up and going back to user selection."
+msgstr "Колькасць няўдалых спроб ідэнтыфікацыі, дазволеных карыстальніку, да вяртання на экран выбару карыстальніка."
 
 #: libgdm/gdm-user-switching.c:59
 msgid "Unable to create transient display: "
@@ -439,3 +397,4 @@ msgstr "Зроблены экранны здымак"
 #: utils/gdm-screenshot.c:279
 msgid "Take a picture of the screen"
 msgstr "Зрабіць экранны здымак"
+

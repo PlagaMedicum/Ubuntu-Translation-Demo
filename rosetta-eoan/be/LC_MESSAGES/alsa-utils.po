@@ -1,21 +1,21 @@
-# Belarusian translation for alsa-utils
-# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
-# This file is distributed under the same license as the alsa-utils package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: alsa-utils\n"
+"Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-02-20 15:38+0000\n"
-"PO-Revision-Date: 2009-08-17 19:29+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Belarusian <be@li.org>\n"
+"PO-Revision-Date: 2019-07-08 16:57\n"
+"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2019-05-11 10:30+0000\n"
-"X-Generator: Launchpad (build 18962)\n"
+"X-Launchpad-Export-Date: 2019-05-11 10:31+0000\n"
+"X-Generator: crowdin.com\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
+"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Language: be\n"
+"X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/alsa-utils.po\n"
+"Language: be_BY\n"
 
 #: alsamixer/card_select.c:126 alsamixer/device_name.c:126
 msgid "Sound Card"
@@ -38,8 +38,7 @@ msgid "Usage: alsamixer [options]"
 msgstr ""
 
 #: alsamixer/cli.c:41
-msgid ""
-"Useful options:\n"
+msgid "Useful options:\n"
 "  -h, --help              this help\n"
 "  -c, --card=NUMBER       sound card number or id\n"
 "  -D, --device=NAME       mixer device name\n"
@@ -47,8 +46,7 @@ msgid ""
 msgstr ""
 
 #: alsamixer/cli.c:46
-msgid ""
-"Debugging options:\n"
+msgid "Debugging options:\n"
 "  -g, --no-color          toggle using of colors\n"
 "  -a, --abstraction=NAME  mixer abstraction level: none/basic"
 msgstr ""
@@ -363,11 +361,11 @@ msgstr "неапрацаваныя даньні"
 
 #: aplay/aplay.c:179
 msgid "VOC"
-msgstr "VOC"
+msgstr ""
 
 #: aplay/aplay.c:181
 msgid "WAVE"
-msgstr "WAVE"
+msgstr ""
 
 #: aplay/aplay.c:182
 msgid "Sparc Audio"
@@ -375,9 +373,7 @@ msgstr ""
 
 #: aplay/aplay.c:203
 #, c-format
-msgid ""
-"Usage: %s [OPTION]... [FILE]...\n"
-"\n"
+msgid "Usage: %s [OPTION]... [FILE]...\n\n"
 "-h, --help              help\n"
 "    --version           print current version\n"
 "-l, --list-devices      list all soundcards and digital audio devices\n"
@@ -399,8 +395,7 @@ msgid ""
 "-A, --avail-min=#       min available space for wakeup is # microseconds\n"
 "-R, --start-delay=#     delay for automatic PCM start is # microseconds \n"
 "                        (relative to buffer size if <= 0)\n"
-"-T, --stop-delay=#      delay for automatic PCM stop is # microseconds from "
-"xrun\n"
+"-T, --stop-delay=#      delay for automatic PCM stop is # microseconds from xrun\n"
 "-v, --verbose           show PCM structure and setup (accumulative)\n"
 "-V, --vumeter=TYPE      enable VU meter (TYPE: mono or stereo)\n"
 "-I, --separate-channels one file for each channel\n"
@@ -411,13 +406,10 @@ msgid ""
 "    --disable-format    disable automatic format conversions\n"
 "    --disable-softvol   disable software volume control (softvol)\n"
 "    --test-position     test ring buffer position\n"
-"    --test-coef=#       test coefficient for ring buffer position (default "
-"8)\n"
-"                        expression for validation is: coef * (buffer_size / "
-"2)\n"
+"    --test-coef=#       test coefficient for ring buffer position (default 8)\n"
+"                        expression for validation is: coef * (buffer_size / 2)\n"
 "    --test-nowait       do not wait for ring buffer - eats whole CPU\n"
-"    --max-file-time=#   start another output file when the old file has "
-"recorded\n"
+"    --max-file-time=#   start another output file when the old file has recorded\n"
 "                        for this many seconds\n"
 "    --process-id-file   write the process ID here\n"
 "    --use-strftime      apply the strftime facility to the output file name\n"
@@ -432,8 +424,7 @@ msgstr ""
 
 #: aplay/aplay.c:254
 #, c-format
-msgid ""
-"\n"
+msgid "\n"
 "Some of these may not be available on selected hardware\n"
 msgstr ""
 
@@ -630,8 +621,7 @@ msgstr ""
 
 #: aplay/aplay.c:1042
 #, c-format
-msgid ""
-"unknown length of extensible 'fmt ' chunk (read %u, should be %u at least)"
+msgid "unknown length of extensible 'fmt ' chunk (read %u, should be %u at least)"
 msgstr ""
 
 #: aplay/aplay.c:1047
@@ -660,8 +650,7 @@ msgstr ""
 
 #: aplay/aplay.c:1106
 #, c-format
-msgid ""
-" can't play WAVE-files with sample %d bits in %d bytes wide (%d channels)"
+msgid " can't play WAVE-files with sample %d bits in %d bytes wide (%d channels)"
 msgstr ""
 
 #: aplay/aplay.c:1129
@@ -753,7 +742,7 @@ msgstr ""
 
 #: aplay/aplay.c:1529
 #, c-format
-msgid "\rPAUSE command ignored (no hw support)\n"
+msgid "\\rPAUSE command ignored (no hw support)\n"
 msgstr ""
 
 #: aplay/aplay.c:1537
@@ -768,8 +757,7 @@ msgstr ""
 
 #: aplay/aplay.c:1564
 #, c-format
-msgid ""
-"\r=== PAUSE ===                                                            "
+msgid "\\r=== PAUSE ===                                                            "
 msgstr ""
 
 #: aplay/aplay.c:1606
@@ -867,9 +855,7 @@ msgstr ""
 
 #: aplay/aplay.c:1925
 #, c-format
-msgid ""
-"Suspicious buffer position (%li total): avail = %li, delay = %li, buffer = "
-"%li\n"
+msgid "Suspicious buffer position (%li total): avail = %li, delay = %li, buffer = %li\n"
 msgstr ""
 
 #: aplay/aplay.c:2053
@@ -1271,7 +1257,7 @@ msgstr ""
 
 #: speaker-test/speaker-test.c:125
 msgid "LFE"
-msgstr "LFE"
+msgstr ""
 
 #: speaker-test/speaker-test.c:126
 msgid "Side Left"
@@ -1510,8 +1496,7 @@ msgstr ""
 
 #: speaker-test/speaker-test.c:926
 #, c-format
-msgid ""
-"Usage: speaker-test [OPTION]... \n"
+msgid "Usage: speaker-test [OPTION]... \n"
 "-h,--help\thelp\n"
 "-D,--device\tplayback device\n"
 "-r,--rate\tstream rate in Hz\n"
@@ -1528,8 +1513,7 @@ msgid ""
 "-W,--wavdir\tSpecify the directory containing WAV files\n"
 "-m,--chmap\tSpecify the channel map to override\n"
 "-X,--force-frequency\tforce frequencies outside the 30-8000hz range\n"
-"-S,--scale\tScale of generated test tones in percent (default=80)\n"
-"\n"
+"-S,--scale\tScale of generated test tones in percent (default=80)\n\n"
 msgstr ""
 
 #: speaker-test/speaker-test.c:1058
@@ -1601,3 +1585,4 @@ msgstr ""
 #, c-format
 msgid "Time per period = %lf\n"
 msgstr ""
+
