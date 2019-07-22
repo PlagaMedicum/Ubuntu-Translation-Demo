@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-translations-demo\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2018-06-18 23:10-0400\n"
-"PO-Revision-Date: 2019-07-08 16:55\n"
+"PO-Revision-Date: 2019-07-12 17:31\n"
 "Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
 "Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
@@ -23,29 +23,29 @@ msgstr ""
 #: libacl/perm_copy_file.c:235
 #, c-format
 msgid "setting permissions for %s"
-msgstr "усталяваньне правоў для %s"
+msgstr "прызначэнне правоў доступу для %s"
 
 #: libacl/perm_copy_fd.c:186 libacl/perm_copy_file.c:199
 #: libacl/perm_copy_file.c:224
 #, c-format
 msgid "preserving permissions for %s"
-msgstr ""
+msgstr "захаванне правоў доступу для %s"
 
 #: libacl/acl_error.c:33
 msgid "Multiple entries of same type"
-msgstr ""
+msgstr "Шмат запісаў аднаго тыпу"
 
 #: libacl/acl_error.c:35
 msgid "Duplicate entries"
-msgstr ""
+msgstr "Запісы, якія паўтараюцца"
 
 #: libacl/acl_error.c:37
 msgid "Missing or wrong entry"
-msgstr ""
+msgstr "Прапушчаны або няправільны запіс"
 
 #: libacl/acl_error.c:39
 msgid "Invalid entry type"
-msgstr ""
+msgstr "Памылковы тып запісу"
 
 #: tools/chacl.c:46
 #, c-format
@@ -95,77 +95,77 @@ msgstr "\t%s -r шлях...\t[не сумяшчальны з IRIX]\n"
 #: tools/chacl.c:146
 #, c-format
 msgid "%s: error removing access acl on \"%s\": %s\n"
-msgstr "%s: памылка выдалення спіса доступу на \"%s\": %s\n"
+msgstr "%s: памылка выдалення доступу acl на \"%s\": %s\n"
 
 #: tools/chacl.c:153
 #, c-format
 msgid "%s: error removing default acl on \"%s\": %s\n"
-msgstr "%s: памылка выдалення прадвызначанага спіса доступу для \"%s\": %s\n"
+msgstr "%s: памылка выдалення acl па змаўчанні на \"%s\": %s\n"
 
 #: tools/chacl.c:172 tools/chacl.c:191
 #, c-format
 msgid "%s: access ACL '%s': %s at entry %d\n"
-msgstr "%s: спіс доступу \"%s\": %s ля запіса %d\n"
+msgstr "%s: доступ ACL '%s': %s у запісе %d\n"
 
 #: tools/chacl.c:259
 #, c-format
 msgid "%s: cannot get access ACL on '%s': %s\n"
-msgstr "%s: немагчыма атрымаць спіс доступу для \"%s\": %s\n"
+msgstr "%s: немагчыма атрымаць доступ да ACL на \"%s\": %s\n"
 
 #: tools/chacl.c:265
 #, c-format
 msgid "%s: cannot get default ACL on '%s': %s\n"
-msgstr "%s: немагчыма атрымаць прадвызначаны спіс доступу для \"%s\": %s\n"
+msgstr "%s: немагчыма атрымаць ACL па змаўчанні на \"%s\": %s\n"
 
 #: tools/chacl.c:271
 #, c-format
 msgid "%s: cannot get access ACL text on '%s': %s\n"
-msgstr "%s: немагыма атрымаць тэкст спіса доступу для \"%s\": %s\n"
+msgstr "%s: немагчыма атрымаць доступ да тэксту ACL на \"%s\": %s\n"
 
 #: tools/chacl.c:278
 #, c-format
 msgid "%s: cannot get default ACL text on '%s': %s\n"
-msgstr "%s: немагчыма атрымаць прадвызначаны тэкст спіса доступу для \"%s\": %s\n"
+msgstr "%s: немагчыма атрымаць тэкст ACL па змаўчанні на \"%s\": %s\n"
 
 #: tools/chacl.c:304
 #, c-format
 msgid "%s: cannot set access acl on \"%s\": %s\n"
-msgstr "%s: немагчыма ўсталяваць спіс доступу для \"%s\": %s\n"
+msgstr "%s: немагчыма ўстанавіць доступ да acl на \"%s\": %s\n"
 
 #: tools/chacl.c:310
 #, c-format
 msgid "%s: cannot set default acl on \"%s\": %s\n"
-msgstr "%s: немагчыма ўсталяваць прадвызначаны спіс доступу для \"%s\": %s\n"
+msgstr "%s: немагчыма ўстанавіць acl па змаўчанні на \"%s\": %s\n"
 
 #: tools/chacl.c:328
 #, c-format
 msgid "%s: opendir failed: %s\n"
-msgstr "%s: збой функцыі opendir: %s\n"
+msgstr "%s: памылка opendir: %s\n"
 
 #: tools/chacl.c:342
 #, c-format
 msgid "%s: malloc failed: %s\n"
-msgstr "%s: збой функцыі malloc: %s\n"
+msgstr "%s: памылка malloc: %s\n"
 
 #: tools/getfacl.c:497
 #, c-format
 msgid "%s: Removing leading '/' from absolute path names\n"
-msgstr ""
+msgstr "%s: Выдаліць у пачатку '/' з абсалютных назваў шляхаў\n"
 
 #: tools/getfacl.c:568
 #, c-format
 msgid "%s %s -- get file access control lists\n"
-msgstr ""
+msgstr "%s %s -- атрымлівае файлавыя спісы кантролю доступу\n"
 
 #: tools/getfacl.c:570 tools/getfacl.c:750
 #, c-format
 msgid "Usage: %s [-%s] file ...\n"
-msgstr ""
+msgstr "Выкарыстанне: %s [-%s] файла ...\n"
 
 #: tools/getfacl.c:576
 #, c-format
 msgid "  -d, --default           display the default access control list\n"
-msgstr ""
+msgstr "  -d, --default           адлюстроўвае спісы кантролю доступу па змаўчанні\n"
 
 #: tools/getfacl.c:580
 #, c-format
@@ -181,13 +181,25 @@ msgid "  -a,  --access           display the file access control list only\n"
 "  -t, --tabular           use tabular output format\n"
 "  -n, --numeric           print numeric user/group identifiers\n"
 "  -p, --absolute-names    don't strip leading '/' in pathnames\n"
-msgstr ""
+msgstr "  -a,  --access           адлюстраваць толькі спіс кантролю доступу да файла\n"
+"  -d, --default           адлюстраваць толькі спіс кантролю доступу па змаўчанні\n"
+"  -c, --omit-header       не адлюстроўваць загаловак з каментарыямі\n"
+"  -e, --all-effective     надрукаваць усе дзеючыя правы\n"
+"  -E, --no-effective      надрукаваць правы, якія не дзейнічаюць\n"
+"  -s, --skip-base         прапускаць файлы, якія маюць толькі базавыя запіс\n"
+"  -R, --recursive         рэкурсія ў падкаталогах\n"
+"  -L, --logical            лагічны праход, прытрымлівацца сімвалічных спасылак\n"
+"  -P, --physical          фізічны праход, не прытрымлівацца сімвалічных спасылак\n"
+"  -t, --tabular           выкарыстоўваць фармат вываду з табуляцыяй\n"
+"  -n, --numeric           друкаваць лічбавыя ідэнтыфікатары карыстальніка/групы\n"
+"  -p, --absolute-names    не прыбіраць '/' у пачатку шляху каталогаў\n"
 
 #: tools/getfacl.c:595 tools/setfacl.c:299
 #, c-format
 msgid "  -v, --version           print version and exit\n"
 "  -h, --help              this help text\n"
-msgstr ""
+msgstr "  -v, --version           надрукаваць версію і выйсці\n"
+"  -h, --help              тэкст даведкі\n"
 
 #: tools/getfacl.c:737 tools/setfacl.c:316
 #, c-format
@@ -207,22 +219,22 @@ msgstr "%s: %s: кепска складзены спіс доступу \"%s\": 
 #: tools/do_set.c:437
 #, c-format
 msgid "%s: %s: Malformed default ACL `%s': %s at entry %d\n"
-msgstr "%s: %s: кепска складзены прадвызначаны спіс доступу \"%s\": %s побач з пунктам %d\n"
+msgstr "%s: %s: няправільны ACL па змаўчанні `%s': %s у запісе %d\n"
 
 #: tools/do_set.c:508
 #, c-format
 msgid "%s: %s: Only directories can have default ACLs\n"
-msgstr "%s: %s: толькі тэчкі могуць мець прадвызначаныя спісы доступу\n"
+msgstr "%s: %s: толькі каталогі могуць мець ACL па змаўчанні\n"
 
 #: tools/setfacl.c:147
 #, c-format
 msgid "%s: %s: No filename found in line %d, aborting\n"
-msgstr "%s: %s: адсутнічае назва файла ў радку %d; дзянне спынена\n"
+msgstr "%s: %s: не знойдзена назва файла ў радку %d; аперацыя скасаваная\n"
 
 #: tools/setfacl.c:152
 #, c-format
 msgid "%s: No filename found in line %d of standard input, aborting\n"
-msgstr "%s: адсутнічае назва файла ў радку %d стандартнага ўводу; дзянне спынена\n"
+msgstr "%s: не знойдзена назва файла ў радку %d стандартнага ўводу; аперацыя скасаваная\n"
 
 #: tools/setfacl.c:173
 #, c-format
@@ -237,12 +249,12 @@ msgstr "%s: %s: немагчыма змяніць уладальніка/гру�
 #: tools/setfacl.c:224
 #, c-format
 msgid "%s: %s: Cannot change mode: %s\n"
-msgstr ""
+msgstr "%s: %s: немагчыма змяніць рэжым: %s\n"
 
 #: tools/setfacl.c:266
 #, c-format
 msgid "%s %s -- set file access control lists\n"
-msgstr "%s %s -- задае спісы доступу да файлаў\n"
+msgstr "%s %s -- устанаўлівае файлавыя спісы кантролю доступу\n"
 
 #: tools/setfacl.c:268 tools/setfacl.c:653
 #, c-format
@@ -257,20 +269,28 @@ msgid "  -m, --modify=acl        modify the current ACL(s) of file(s)\n"
 "  -X, --remove-file=file  read ACL entries to remove from file\n"
 "  -b, --remove-all        remove all extended ACL entries\n"
 "  -k, --remove-default    remove the default ACL\n"
-msgstr ""
+msgstr "  -m, --modify=acl        змяніць бягучы ACL файла/файлаў\n"
+"  -M, --modify-file=file  прачытаць запісы ACL, каб змяніць іх у файле\n"
+"  -x, --remove=acl        выдаліць запісы з ACL файла/файлаў\n"
+"  -X, --remove-file=file  прачытаць запісы ACL, каб выдаліць іх з файла\n"
+"  -b, --remove-all        выдаліць усе пашыраныя запісы ACL\n"
+"  -k, --remove-default    выдаліць ACL па змаўчанні\n"
 
 #: tools/setfacl.c:280
 #, c-format
 msgid "      --set=acl           set the ACL of file(s), replacing the current ACL\n"
 "      --set-file=file     read ACL entries to set from file\n"
 "      --mask              do recalculate the effective rights mask\n"
-msgstr ""
+msgstr "      --set=acl           устанавіць  ACL файла/файлаў, шляхам замены бягучага ACL\n"
+"      --set-file=file     прачытаць запісы ACL, каб устанавіць іх з файла\n"
+"      --mask              паўторна зрабіць падлік маскі эфектыўных правоў\n"
 
 #: tools/setfacl.c:286
 #, c-format
 msgid "  -n, --no-mask           don't recalculate the effective rights mask\n"
 "  -d, --default           operations apply to the default ACL\n"
-msgstr ""
+msgstr "  -n, --no-mask          не рабіць паўторны падлік маскі эфектыўных правоў\n"
+"  -d, --default           дзеянні ўжываюцца да ACL па змаўчанні\n"
 
 #: tools/setfacl.c:291
 #, c-format
@@ -279,17 +299,21 @@ msgid "  -R, --recursive         recurse into subdirectories\n"
 "  -P, --physical          physical walk, do not follow symbolic links\n"
 "      --restore=file      restore ACLs (inverse of `getfacl -R')\n"
 "      --test              test mode (ACLs are not modified)\n"
-msgstr ""
+msgstr "  -R, --recursive         рэкурсіўна ў падкаталогу\n"
+"  -L, --logical          лагічны праход, прытрымлівацца сімвалічных спасылак\n"
+"  -P, --physical          фізічны праход, не прытрымлівацца сімвалічных спасылак\n"
+"      --restore=file      аднавіць ACL (зваротнае дзеянне каманды `getfacl -R')\n"
+"      --test              тэставы рэжым (ACL не будзе зменены)\n"
 
 #: tools/setfacl.c:452
 #, c-format
 msgid "%s: Option -%c incomplete\n"
-msgstr ""
+msgstr "%s: Параметр -%c не завершаны\n"
 
 #: tools/setfacl.c:457
 #, c-format
 msgid "%s: Option -%c: %s near character %d\n"
-msgstr ""
+msgstr "%s: Параметр -%c: %s каля сімвала %d\n"
 
 #: tools/setfacl.c:533
 #, c-format
