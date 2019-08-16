@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-translations\n"
 "Report-Msgid-Bugs-To: sebastian.heinlein@web.de\n"
 "POT-Creation-Date: 2019-04-08 21:22+0000\n"
-"PO-Revision-Date: 2019-08-16 16:56\n"
+"PO-Revision-Date: 2019-08-16 17:17\n"
 "Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
 "Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
@@ -249,9 +249,9 @@ msgstr "%s будзе спампавана."
 msgid "The update has already been downloaded."
 msgid_plural "The updates have already been downloaded."
 msgstr[0] "Абнаўленне ўжо спампавана."
-msgstr[1] "Абнаўленні ўжо сцягнутыя."
-msgstr[2] "Абнаўленні ўжо сцягнутыя."
-msgstr[3] "Абнаўленні ўжо спампаваныя."
+msgstr[1] "Абнаўленні ўжо спампаваны."
+msgstr[2] "Абнаўленні ўжо спампаваны."
+msgstr[3] "Абнаўленні ўжо спампаваны."
 
 #: ../UpdateManager/UpdatesAvailable.py:754
 msgid "There are no updates to install."
@@ -287,19 +287,19 @@ msgstr "Абнаўленню неабходна ў агульнай склада
 #. specific ways to resolve lack of free space
 #: ../UpdateManager/UpdatesAvailable.py:834
 msgid "Remove temporary packages of former installations using 'sudo apt clean'."
-msgstr "Выдаліць часовыя пакеты папярэдняга ўсталявання скарыстаўшыся камандай 'sudo apt clean'."
+msgstr "Выдаліць часовыя пакеты папярэдніх ўсталёвак з дапамогай 'sudo apt clean'."
 
 #: ../UpdateManager/UpdatesAvailable.py:836
 msgid "You can remove old kernels using 'sudo apt autoremove', and you could also set COMPRESS=xz in /etc/initramfs-tools/initramfs.conf to reduce the size of your initramfs."
-msgstr "Вы можаце выдаліць старыя ядры скарыстаўшыся камандай 'sudo apt autoremove', а таксама задаць COMPRESS=xz у /etc/initramfs-tools/initramfs.conf для павелічэння памеру вашага initramfs."
+msgstr "Вы можаце выдаліць старыя ядры, скарыстаўшыся камандай 'sudo apt autoremove', а таксама задаць COMPRESS=xz у /etc/initramfs-tools/initramfs.conf для павелічэння памеру initramfs."
 
 #: ../UpdateManager/UpdatesAvailable.py:841
 msgid "Empty your trash and remove temporary packages of former installations using 'sudo apt clean'."
-msgstr "Ачысціце сметніцу і выдаліце часовыя пакеты папярэдняга ўсталявання скарыстаўшыся камандай 'sudo apt clean'."
+msgstr "Ачысціце сметніцу і выдаліце часовыя пакеты папярэдніх ўсталёвак, скарыстаўшыся камандай 'sudo apt clean'."
 
 #: ../UpdateManager/UpdatesAvailable.py:844
 msgid "Reboot to clean up files in /tmp."
-msgstr "Перазапусціце прыладу для ачысткі файлаў каталога /tmp."
+msgstr "Перазагрузіце прыладу для ачысткі файлаў у /tmp."
 
 #: ../UpdateManager/UpdatesAvailable.py:886
 msgid "Connecting..."
@@ -307,7 +307,7 @@ msgstr "Злучэнне..."
 
 #: ../UpdateManager/UpdatesAvailable.py:902
 msgid "You may not be able to check for updates or download new updates."
-msgstr "У вас няма праў правяраць абнаўленні або пампаваць іх."
+msgstr "У вас няма праў правяраць наяўнасць абнаўленняў або спампоўваць іх."
 
 #: ../UpdateManager/UpdatesAvailable.py:1054
 msgid "Security updates"
@@ -323,7 +323,7 @@ msgstr "Абнаўленні"
 
 #: ../UpdateManager/UpdatesAvailable.py:1064
 msgid "Unused kernel updates to be removed"
-msgstr "Не выкарыстаныя абнаўленні ядра будуць выдалены"
+msgstr "Невыкарыстаныя абнаўленні ядра будуць выдалены"
 
 #: ../UpdateManager/UnitySupport.py:70
 msgid "Install All Available Updates"
@@ -336,7 +336,7 @@ msgstr "Гэта абнаўленне пастаўляецца крыніцай,
 #: ../UpdateManager/Core/MyCache.py:424 ../UpdateManager/Core/MyCache.py:459
 msgid "Failed to download the list of changes. \n"
 "Please check your Internet connection."
-msgstr "Памылка запампавання спісу змен. \n"
+msgstr "Не ўдалося спампаваць спіс змен. \n"
 "Калі ласка, праверце ваша злучэнне з інтэрнэтам."
 
 #: ../UpdateManager/Core/MyCache.py:431
@@ -353,9 +353,9 @@ msgstr "Змены ў версіі %s :\n"
 msgid "The changelog does not contain any relevant changes.\n\n"
 "Please use http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
 "until the changes become available or try again later."
-msgstr "Спіс змен не змяшчае істотных змен.\n\n"
+msgstr "Спіс змен не ўтрымлівае дарэчных звестак аб зменах.\n\n"
 "Калі ласка, выкарыстоўвайце http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
-"пакуль змены не будуць вам даступныя або паспрабуйце яшчэ раз пазней."
+"пакуль змены не стануць даступны або паспрабуйце яшчэ раз пазней."
 
 #: ../UpdateManager/Core/MyCache.py:452
 #, python-format
@@ -364,7 +364,7 @@ msgid "The list of changes is not available yet.\n\n"
 "until the changes become available or try again later."
 msgstr "Спіс змен пакуль недаступны.\n\n"
 "Калі ласка, выкарыстоўвайце http://launchpad.net/ubuntu/+source/%s/%s/+changelog\n"
-"пакуль змены не будуць вам даступныя або паспрабуйце яшчэ раз пазней."
+"пакуль змены не стануць даступны або паспрабуйце яшчэ раз пазней."
 
 #. Translators: the %s is a distro name, like 'Ubuntu' and 'base' as in
 #. the core components and packages.
@@ -378,16 +378,16 @@ msgstr "Грунт %s"
 #, python-format
 msgid "%(size).0f kB"
 msgid_plural "%(size).0f kB"
-msgstr[0] "%(size).0f Кб"
-msgstr[1] "%(size).0f Кб"
-msgstr[2] "%(size).0f Кб"
-msgstr[3] "%(size).0f Кб"
+msgstr[0] "%(size).0f КБ"
+msgstr[1] "%(size).0f КБ"
+msgstr[2] "%(size).0f КБ"
+msgstr[3] "%(size).0f КБ"
 
 #. TRANSLATORS: download size of updates, e.g. "2.3 MB"
 #: ../UpdateManager/Core/utils.py:487
 #, python-format
 msgid "%.1f MB"
-msgstr "%.1f Мб"
+msgstr "%.1f МБ"
 
 #: ../data/gtkbuilder/UpdateManager.ui.h:1
 msgid "updates"
