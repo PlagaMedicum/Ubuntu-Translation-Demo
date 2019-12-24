@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: ubuntu-translations\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-software/issues\n"
 "POT-Creation-Date: 2018-03-01 15:54+0000\n"
-"PO-Revision-Date: 2019-12-24 19:25\n"
+"PO-Revision-Date: 2019-12-24 19:49\n"
 "Last-Translator: Bruce Cowan <bruce@bcowan.eu>\n"
 "Language-Team: Belarusian\n"
 "Language: be_BY\n"
@@ -167,12 +167,12 @@ msgstr "Водгукі з кармай, меншай за гэтую кольк�
 #: data/org.gnome.software.gschema.xml:82
 #| msgid "A list of official sources that should not be considered 3rd party"
 msgid "A list of official repositories that should not be considered 3rd party"
-msgstr "Спіс афіцыйных рэпазіторыяў, якія не павінны лічыцца староннімі"
+msgstr "Спіс афіцыйных сховішчаў, якія не павінны лічыцца староннімі"
 
 #: data/org.gnome.software.gschema.xml:86
 #| msgid "A list of official sources that should be considered free software"
 msgid "A list of official repositories that should be considered free software"
-msgstr "Спіс афіцыйных рэпазіторыяў, якія павінны лічыцца бясплатным праграмным забеспячэннем"
+msgstr "Спіс афіцыйных сховішчаў, якія павінны лічыцца бясплатным праграмным забеспячэннем"
 
 #: data/org.gnome.software.gschema.xml:90
 msgid "The licence URL to use when an application should be considered free software"
@@ -189,7 +189,7 @@ msgstr "Паказваць інтэрфейс кіравання папкай"
 #: data/org.gnome.software.gschema.xml:102
 #| msgid "Allow access to the Software Sources dialog"
 msgid "Allow access to the Software Repositories dialog"
-msgstr "Дазволіць доступ да дыялогавага акна Рэпазіторыі праграмнага забеспячэння"
+msgstr "Дазволіць доступ да дыялогавага акна \"Сховішчы праграмнага забеспячэння\""
 
 #: data/org.gnome.software.gschema.xml:106
 msgid "Offer upgrades for pre-releases"
@@ -202,7 +202,7 @@ msgstr "Паказваць элементы інтэрфейсу, якія ін�
 #: data/org.gnome.software.gschema.xml:114
 #| msgid "Show the prompt to install nonfree software sources"
 msgid "Show the prompt to install nonfree software repositories"
-msgstr "Паказваць прапанову па ўсталяванню платнага праграмнага забеспячэння з рэпазіторыяў"
+msgstr "Паказваць прапанову па ўсталяванню платнага праграмнага забеспячэння са сховішчаў"
 
 #: data/org.gnome.software.gschema.xml:118
 msgid "Show the installed size for apps in the list of installed applications"
@@ -227,7 +227,7 @@ msgstr ""
 
 #: data/org.gnome.software.gschema.xml:135
 msgid "Enable GNOME Shell extensions repository"
-msgstr "Уключыць рэпазіторый пашырэнняў абалонкі GNOME"
+msgstr "Уключыць сховішча пашырэнняў абалонкі GNOME"
 
 #: src/gnome-software-local-file.desktop.in:3
 msgid "Software Install"
@@ -281,7 +281,7 @@ msgstr "Пошук"
 #: src/gnome-software.ui:350 src/gs-repos-dialog.ui:6 src/gs-repos-dialog.ui:20
 #| msgid "Software Sources"
 msgid "Software Repositories"
-msgstr "Рэпазіторыі праграмнага забеспячэння"
+msgstr "Сховішчы праграмнага забеспячэння"
 
 #. button in the info bar
 #: src/gnome-software.ui:361
@@ -655,7 +655,7 @@ msgstr "Усталяваць старонняе праграмнае забес�
 #: src/gs-common.c:215
 #| msgid "Enable Third-Party Software Source?"
 msgid "Enable Third-Party Software Repository?"
-msgstr "Уключыць рэпазіторый старонняга праграмнага забеспячэння?"
+msgstr "Уключыць сховішча старонняга праграмнага забеспячэння?"
 
 #. TRANSLATORS: the replacements are as follows:
 #. * 1. Application name, e.g. "Firefox"
@@ -677,7 +677,7 @@ msgstr "Праграма %s забяспечана “%s”."
 #: src/gs-common.c:252
 #| msgid "This software source must be enabled to continue installation."
 msgid "This software repository must be enabled to continue installation."
-msgstr "Каб працягнуць усталяванне, неабходна ўключыць гэты рэпазіторый праграмнага забеспячэння."
+msgstr "Каб працягнуць усталяванне, неабходна ўключыць гэтае сховішча праграмнага забеспячэння."
 
 #. TRANSLATORS: Laws are geographical, urgh...
 #: src/gs-common.c:262
@@ -2344,12 +2344,12 @@ msgstr ""
 #: src/gs-repos-dialog.c:753 src/gs-repos-dialog.c:792
 #, c-format
 msgid "These repositories supplement the default software provided by %s."
-msgstr ""
+msgstr "Гэтыя сховішчы дапаўняюць перадвызначанае праграмнае забеспячэнне, якое пастаўляецца %s."
 
 #. TRANSLATORS: info bar title in the software repositories dialog
 #: src/gs-repos-dialog.c:771
 msgid "Third Party Repositories"
-msgstr ""
+msgstr "Староннія сховішчы"
 
 #: src/gs-repos-dialog.ui:82
 #| msgid "Additional Sources"
