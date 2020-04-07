@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ubuntu-translations-demo\n"
+"Project-Id-Version: ubuntu-translations\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-06-17 18:51+0200\n"
-"PO-Revision-Date: 2019-07-14 08:35\n"
-"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"PO-Revision-Date: 2020-01-31 00:21\n"
+"Last-Translator: Andi Chandler <Unknown>\n"
 "Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 10:30+0000\n"
-"X-Generator: crowdin.com\n"
+"X-Generator: Launchpad (build 18962)\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
-"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Project: ubuntu-translations\n"
 "X-Crowdin-Language: be\n"
 "X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/adduser.po\n"
 "Language: be_BY\n"
@@ -33,7 +33,7 @@ msgstr "У гэтым рэжыме можна азначыць толькі ад
 
 #: ../adduser:197
 msgid "The --group, --ingroup, and --gid options are mutually exclusive.\n"
-msgstr "Параметры --group, --ingroup, і --gid узаемна выключальныя.\n"
+msgstr "Параметры --group, --ingroup і --gid узаемна выключальныя.\n"
 
 #: ../adduser:202
 msgid "The home dir must be an absolute path.\n"
@@ -275,7 +275,7 @@ msgstr "Увага: хатні каталог `%s' не належыць кар�
 #: ../adduser:665
 #, perl-format
 msgid "Creating home directory `%s' ...\n"
-msgstr "Стварэньне хатняй дырэкторыі `%s' ...\n"
+msgstr "Стварэнне хатняга каталогу `%s' ...\n"
 
 #: ../adduser:667
 #, perl-format
@@ -362,17 +362,17 @@ msgstr "Спынена: %s\n"
 #: ../adduser:960
 #, perl-format
 msgid "Removing directory `%s' ...\n"
-msgstr "Выдаленьне дырэкторыі `%s' ...\n"
+msgstr "Выдаленне каталогу `%s' ...\n"
 
 #: ../adduser:964 ../deluser:358
 #, perl-format
 msgid "Removing user `%s' ...\n"
-msgstr "Выдаленьне карыстальніка `%s' ...\n"
+msgstr "Выдаленне карыстальніка `%s' ...\n"
 
 #: ../adduser:968 ../deluser:403
 #, perl-format
 msgid "Removing group `%s' ...\n"
-msgstr "Выдаленьне групы `%s' ...\n"
+msgstr "Выдаленне групы `%s' ...\n"
 
 #. Translators: the variable %s is INT, QUIT, or HUP.
 #. Please do not insert a space character between SIG and %s.
@@ -478,37 +478,38 @@ msgstr "Увядзіце імя карыстальніка, якога трэб�
 msgid "In order to use the --remove-home, --remove-all-files, and --backup features,\n"
 "you need to install the `perl' package. To accomplish that, run\n"
 "apt-get install perl.\n"
-msgstr ""
+msgstr "Для таго, каб выкарыстоўваць функцыі --remove-home, --remove-all-files\n"
+"і --backup, неабходна ўсталяваць пакет 'perl'. Каб выканаць гэта, запусціце apt-get install perl.\n"
 
 #: ../deluser:219
 #, perl-format
 msgid "The user `%s' is not a system user. Exiting.\n"
-msgstr ""
+msgstr "Карыстальнік `%s' не з'яўляецца сістэмным. Выхад.\n"
 
 #: ../deluser:223
 #, perl-format
 msgid "The user `%s' does not exist, but --system was given. Exiting.\n"
-msgstr ""
+msgstr "Карыстальнік `%s' не існуе, але скарыстаны --system. Выхад.\n"
 
 #: ../deluser:234
 msgid "WARNING: You are just about to delete the root account (uid 0)\n"
-msgstr ""
+msgstr "УВАГА: Вы збіраецеся выдаліць каранёвы ўліковы запіс (uid 0)\n"
 
 #: ../deluser:235
 msgid "Usually this is never required as it may render the whole system unusable\n"
-msgstr ""
+msgstr "Звычайна гэта ніколі не патрабуецца, бо можа прывесьці ўсю сістэму ў непрацоўны стан\n"
 
 #: ../deluser:236
 msgid "If you really want this, call deluser with parameter --force\n"
-msgstr ""
+msgstr "Калі вы ўпэўненыя, выклічце deluser з параметрам --force\n"
 
 #: ../deluser:237
 msgid "Stopping now without having performed any action\n"
-msgstr ""
+msgstr "Зараз спыніцеся без выканання якіх-небудзь дзеянняў\n"
 
 #: ../deluser:248
 msgid "Looking for files to backup/remove ...\n"
-msgstr ""
+msgstr "Пошук файлаў для рэзервовага капіявання/выдалення...\n"
 
 #: ../deluser:251
 #, perl-format
@@ -523,7 +524,7 @@ msgstr ""
 #: ../deluser:270
 #, perl-format
 msgid "Not backing up/removing `%s', it is a mount point.\n"
-msgstr ""
+msgstr "`%s' не капіруецца/выдаляецца, гэта пункт мантажавання.\n"
 
 #: ../deluser:277
 #, perl-format
@@ -533,20 +534,20 @@ msgstr ""
 #: ../deluser:309
 #, perl-format
 msgid "Cannot handle special file %s\n"
-msgstr ""
+msgstr "Немагчыма апрацаваць спецыяльны файл %s\n"
 
 #: ../deluser:317
 #, perl-format
 msgid "Backing up files to be removed to %s ...\n"
-msgstr ""
+msgstr "Рэзервовае капіяванне файлаў, якія павінны быць выдалены, у %s...\n"
 
 #: ../deluser:343
 msgid "Removing files ...\n"
-msgstr "Выдаленьне файлаў ...\n"
+msgstr "Выдаленне файлаў ...\n"
 
 #: ../deluser:355
 msgid "Removing crontab ...\n"
-msgstr ""
+msgstr "Выдаленне crontab ...\n"
 
 #: ../deluser:361
 #, perl-format
@@ -561,7 +562,7 @@ msgstr ""
 #: ../deluser:388
 #, perl-format
 msgid "The group `%s' is not a system group. Exiting.\n"
-msgstr ""
+msgstr "Група `%s' не з\\'яўляецца сістэмнай. Выхад.\n"
 
 #: ../deluser:392
 #, perl-format
@@ -571,11 +572,11 @@ msgstr "Група `%s' не пустая!\n"
 #: ../deluser:398
 #, perl-format
 msgid "`%s' still has `%s' as their primary group!\n"
-msgstr ""
+msgstr "`%s' па-ранейшаму мае `%s' сваёй асноўнай групай!\n"
 
 #: ../deluser:422
 msgid "You may not remove the user from their primary group.\n"
-msgstr ""
+msgstr "Вы не можаце выдаліць карыстальніка з яго асноўнай групы.\n"
 
 #: ../deluser:436
 #, perl-format
@@ -585,7 +586,7 @@ msgstr "Карыстальнік`%s' не з'яўляецца ўдзельнік
 #: ../deluser:439
 #, perl-format
 msgid "Removing user `%s' from group `%s' ...\n"
-msgstr "выдаленьне карыстальніка `%s' з групы `%s' ...\n"
+msgstr "Выдаленне карыстальніка `%s' з групы `%s' ...\n"
 
 #: ../deluser:458
 #, perl-format
@@ -594,7 +595,7 @@ msgstr ""
 
 #: ../deluser:459
 msgid "Removes users and groups from the system.\n"
-msgstr ""
+msgstr "Выдаляе карыстальнікаў і групы з сістэмы.\n"
 
 #: ../deluser:461
 msgid "Copyright (C) 2000 Roland Bauerschmidt <roland@copyleft.de>\n\n"
@@ -634,22 +635,22 @@ msgstr ""
 #: ../AdduserCommon.pm:64 ../AdduserCommon.pm:70
 #, perl-format
 msgid "%s: %s"
-msgstr ""
+msgstr "%s: %s"
 
 #: ../AdduserCommon.pm:82
 #, perl-format
 msgid "`%s' does not exist. Using defaults.\n"
-msgstr ""
+msgstr "`%s' не існуе. Выкарыстоўваецца перадвызначанае значэнне.\n"
 
 #: ../AdduserCommon.pm:92
 #, perl-format
 msgid "Couldn't parse `%s', line %d.\n"
-msgstr ""
+msgstr "Не ўдалося разабраць `%s', радок %d.\n"
 
 #: ../AdduserCommon.pm:97
 #, perl-format
 msgid "Unknown variable `%s' at `%s', line %d.\n"
-msgstr ""
+msgstr "Невядомая зменная `%s' у `%s', радок %d.\n"
 
 #: ../AdduserCommon.pm:175
 #, perl-format
@@ -659,11 +660,11 @@ msgstr "Немагчыма знайсці праграму з назвай `%s' 
 #: ../adduser:376
 #, perl-format
 msgid "The user `%s' already exists, but is not a system user. Exiting.\n"
-msgstr ""
+msgstr "Карыстальнік `%s' ужо існуе, але не з\\'яўляецца карыстальнікам сістэмы. Выхад.\n"
 
 #: ../adduser:714
 msgid "Setting up encryption ...\n"
-msgstr ""
+msgstr "Наладка шыфравання ...\n"
 
 #: ../adduser:931
 #, perl-format
@@ -702,5 +703,6 @@ msgstr ""
 msgid "In order to use the --remove-home, --remove-all-files, and --backup features,\n"
 "you need to install the `perl-modules' package. To accomplish that, run\n"
 "apt-get install perl-modules.\n"
-msgstr ""
+msgstr "Для таго, каб выкарыстоўваць функцыі --remove-home, --remove-all-files\n"
+"і --backup, неабходна ўсталяваць пакет 'perl-modules'. Каб выканаць гэта, запусціце apt-get install perl.\n"
 

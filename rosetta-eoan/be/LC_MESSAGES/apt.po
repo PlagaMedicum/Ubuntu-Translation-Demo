@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ubuntu-translations-demo\n"
+"Project-Id-Version: ubuntu-translations\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 09:33+0000\n"
-"PO-Revision-Date: 2019-07-08 16:56\n"
+"PO-Revision-Date: 2019-10-11 12:48\n"
 "Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
 "Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Launchpad-Export-Date: 2019-05-11 10:31+0000\n"
 "X-Generator: crowdin.com\n"
 "Language: be_BY\n"
-"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Project: ubuntu-translations\n"
 "X-Crowdin-Language: be\n"
 "X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/apt.po\n"
 
@@ -21,28 +21,28 @@ msgstr ""
 #: apt-private/acqprogress.cc:77
 #, c-format
 msgid "Hit:%lu %s"
-msgstr ""
+msgstr "Hit:%lu %s"
 
 #. TRANSLATOR: Very short word to be displayed for files processed in 'apt-get update'
 #. Potentially replaced later by "Hit:", "Ign:" or "Err:" if something (bad) happens
 #: apt-private/acqprogress.cc:99
 #, c-format
 msgid "Get:%lu %s"
-msgstr ""
+msgstr "Get:%lu %s"
 
 #. TRANSLATOR: Very short word to be displayed for files in 'apt-get update'
 #. which failed to download, but the error is ignored (compare "Err:")
 #: apt-private/acqprogress.cc:130
 #, c-format
 msgid "Ign:%lu %s"
-msgstr ""
+msgstr "Ign:%lu %s"
 
 #. TRANSLATOR: Very short word to be displayed for files in 'apt-get update'
 #. which failed to download and the error is critical (compare "Ign:")
 #: apt-private/acqprogress.cc:139
 #, c-format
 msgid "Err:%lu %s"
-msgstr ""
+msgstr "Err:%lu %s"
 
 #: apt-private/acqprogress.cc:178
 #, c-format
@@ -82,7 +82,7 @@ msgstr "Немагчыма мінімізаваць набор абнаўлен�
 
 #: apt-private/private-cachefile.cc:107
 msgid " Done"
-msgstr " Выканана"
+msgstr " Гатова"
 
 #: apt-private/private-cachefile.cc:111 apt-private/private-install.cc:685
 msgid "You might want to run 'apt --fix-broken install' to correct these."
@@ -199,7 +199,7 @@ msgstr ""
 #: apt-private/private-show.cc:464 cmdline/apt-mark.cc:56
 #: cmdline/apt-mark.cc:102 cmdline/apt-mark.cc:298
 msgid "No packages found"
-msgstr "Не знойдзена аніводнага пакета"
+msgstr "Ніводны пакет не знойдзены"
 
 #: apt-private/private-download.cc:59
 msgid "WARNING: The following packages cannot be authenticated!"
@@ -356,7 +356,7 @@ msgstr ""
 
 #: apt-private/private-install.cc:332
 msgid "Some files failed to download"
-msgstr "Некаторыя файлы не атрымалася загрузіць"
+msgstr "Некаторыя файлы не ўдалося спампаваць"
 
 #: apt-private/private-install.cc:333 apt-private/private-source.cc:494
 msgid "Download complete and in download only mode"
@@ -479,12 +479,12 @@ msgstr "%s пазначаны як усталяваны ўручную.\n"
 #: apt-private/private-install.cc:1046
 #, c-format
 msgid "Selected version '%s' (%s) for '%s'\n"
-msgstr "Абраная версія '%s' (%s) для '%s'\n"
+msgstr "Выбрана версія '%s' (%s) для '%s'\n"
 
 #: apt-private/private-install.cc:1055
 #, c-format
 msgid "Selected version '%s' (%s) for '%s' because of '%s'\n"
-msgstr "Абраная версія '%s' (%s) для '%s' праз '%s'\n"
+msgstr "Выбрана версія '%s' (%s) для '%s' праз '%s'\n"
 
 #: apt-private/private-list.cc:120
 msgid "Listing"
@@ -571,7 +571,7 @@ msgstr "але ён не ўсталяваны"
 
 #: apt-private/private-output.cc:437
 msgid " or"
-msgstr " ці"
+msgstr " або"
 
 #: apt-private/private-output.cc:451 apt-private/private-output.cc:461
 msgid "The following packages have unmet dependencies:"
@@ -643,7 +643,7 @@ msgstr "не ўстаноўлена да канца або выдалена %lu 
 #. YESEXPR/NOEXPR defined in your l10n.
 #: apt-private/private-output.cc:696
 msgid "[Y/n]"
-msgstr ""
+msgstr "[Т/н]"
 
 #. TRANSLATOR: Yes/No question help-text: defaulting to N[o]
 #. e.g. "Should this file be removed? [y/N] "
@@ -651,7 +651,7 @@ msgstr ""
 #. YESEXPR/NOEXPR defined in your l10n.
 #: apt-private/private-output.cc:702
 msgid "[y/N]"
-msgstr ""
+msgstr "[т/Н]"
 
 #. TRANSLATOR: "Yes" answer printed for a yes/no question if --assume-yes is set
 #: apt-private/private-output.cc:713
@@ -728,7 +728,7 @@ msgstr "(няма)"
 #. Show the priority tables
 #: apt-private/private-show.cc:557
 msgid "  Version table:"
-msgstr "  Табліца версіяў:"
+msgstr "  Табліца версій:"
 
 #: apt-private/private-source.cc:117
 #, c-format
@@ -928,7 +928,7 @@ msgstr "  Змешаных віртуальных пакетаў: "
 
 #: cmdline/apt-cache.cc:241
 msgid "  Missing: "
-msgstr "  Не дастае: "
+msgstr "  Адсутнічаюць: "
 
 #: cmdline/apt-cache.cc:243
 msgid "Total distinct versions: "
@@ -1107,7 +1107,7 @@ msgstr ""
 
 #: cmdline/apt-get.cc:409
 msgid "Remove packages"
-msgstr ""
+msgstr "Выдаліць пакеты"
 
 #: cmdline/apt-get.cc:410
 msgid "Remove packages and config files"
@@ -1163,7 +1163,7 @@ msgstr ""
 
 #: cmdline/apt-helper.cc:78 cmdline/apt-helper.cc:82
 msgid "Download Failed"
-msgstr ""
+msgstr "Не ўдалося спампаваць"
 
 #: cmdline/apt-helper.cc:103 cmdline/apt-helper.cc:106
 #, c-format
@@ -1196,7 +1196,7 @@ msgstr ""
 
 #: cmdline/apt-helper.cc:257
 msgid "wait for system to be online"
-msgstr ""
+msgstr "пачакаць, калі сістэма будзе ў сетцы"
 
 #: cmdline/apt-helper.cc:258
 msgid "drop privileges before running given command"
@@ -1329,7 +1329,7 @@ msgstr ""
 #. package stuff
 #: cmdline/apt.cc:65
 msgid "install packages"
-msgstr ""
+msgstr "усталяваць пакеты"
 
 #: cmdline/apt.cc:66
 msgid "reinstall packages"
@@ -1337,7 +1337,7 @@ msgstr ""
 
 #: cmdline/apt.cc:67
 msgid "remove packages"
-msgstr ""
+msgstr "выдаліць пакеты"
 
 #. system wide stuff
 #: cmdline/apt.cc:74
@@ -1560,7 +1560,7 @@ msgstr ""
 #. Login must be before getpeername otherwise dante won't work.
 #: methods/ftp.cc:174
 msgid "Logging in"
-msgstr ""
+msgstr "Ідзе ўваход"
 
 #: methods/ftp.cc:183
 msgid "Unable to determine the peer name"
@@ -1621,7 +1621,7 @@ msgstr ""
 
 #: methods/ftp.cc:489 methods/rsh.cc:264
 msgid "Write error"
-msgstr ""
+msgstr "Памылка запісу"
 
 #: methods/ftp.cc:741 methods/ftp.cc:747 methods/ftp.cc:782
 msgid "Could not create a socket"

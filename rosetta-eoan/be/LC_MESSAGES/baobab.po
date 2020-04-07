@@ -6,10 +6,10 @@
 # Bruce Cowan <bruce@bcowan.me.uk>, 2009, 2010, 2011, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: ubuntu-translations-demo\n"
+"Project-Id-Version: ubuntu-translations\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=baobab\n"
 "POT-Creation-Date: 2019-03-19 11:04+0000\n"
-"PO-Revision-Date: 2019-07-08 16:54\n"
+"PO-Revision-Date: 2019-10-13 17:07\n"
 "Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
 "Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
@@ -20,14 +20,14 @@ msgstr ""
 "X-Generator: crowdin.com\n"
 "X-Project-Style: gnome\n"
 "Language: be_BY\n"
-"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Project: ubuntu-translations\n"
 "X-Crowdin-Language: be\n"
 "X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/baobab.po\n"
 
 #: data/org.gnome.baobab.appdata.xml.in:6 data/org.gnome.baobab.desktop.in:3
 #: src/baobab-main-window.ui:120
 msgid "Disk Usage Analyzer"
-msgstr "Аналіз дыскавай прасторы"
+msgstr "Аналізатар выкарыстання дыска"
 
 #: data/org.gnome.baobab.appdata.xml.in:7 data/org.gnome.baobab.desktop.in:4
 msgid "Check folder sizes and available disk space"
@@ -49,7 +49,7 @@ msgstr "сховішча;дыск;прастора;ачыстка;"
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: data/org.gnome.baobab.desktop.in:10
 msgid "org.gnome.baobab"
-msgstr ""
+msgstr "org.gnome.baobab"
 
 #: data/org.gnome.baobab.gschema.xml:9
 msgid "Excluded partitions URIs"
@@ -94,12 +94,12 @@ msgid_plural "%d items"
 msgstr[0] "%d элемент"
 msgstr[1] "%d элементы"
 msgstr[2] "%d элементаў"
-msgstr[3] ""
+msgstr[3] "%d элементы"
 
 #. Translators: when the last modified time is unknown
 #: src/baobab-cellrenderers.vala:101 src/baobab-location-list.vala:79
 msgid "Unknown"
-msgstr "Невядома"
+msgstr "Невядомы"
 
 #. Translators: when the last modified time is today
 #: src/baobab-cellrenderers.vala:110
@@ -114,7 +114,7 @@ msgid_plural "%lu days"
 msgstr[0] "%lu дзень"
 msgstr[1] "%lu дні"
 msgstr[2] "%lu дзён"
-msgstr[3] ""
+msgstr[3] "%lu дні"
 
 #. Translators: when the last modified time is "months" months ago
 #: src/baobab-cellrenderers.vala:118
@@ -124,7 +124,7 @@ msgid_plural "%lu months"
 msgstr[0] "%lu месяц"
 msgstr[1] "%lu месяцы"
 msgstr[2] "%lu месяцаў"
-msgstr[3] ""
+msgstr[3] "%lu месяцы"
 
 #. Translators: when the last modified time is "years" years ago
 #: src/baobab-cellrenderers.vala:122
@@ -134,7 +134,7 @@ msgid_plural "%lu years"
 msgstr[0] "%lu год"
 msgstr[1] "%lu гады"
 msgstr[2] "%lu гадоў"
-msgstr[3] ""
+msgstr[3] "%lu гады"
 
 #: src/baobab-location-list.ui:17
 msgid "This Computer"
@@ -152,22 +152,22 @@ msgstr "%s усяго"
 #: src/baobab-location-list.vala:70
 #, c-format
 msgid "%s Available"
-msgstr "%s вольна"
+msgstr "%s даступна"
 
 #. useful for some remote mounts where we don't know the
 #. size but do have a usage figure
 #: src/baobab-location-list.vala:84
 #, c-format
 msgid "%s Used"
-msgstr "%s выкарыстана"
+msgstr "%s выкарыстоўваецца"
 
 #: src/baobab-location-list.vala:86
 msgid "Unmounted"
-msgstr "Адмацаваны"
+msgstr "Адключана"
 
 #: src/baobab-location.vala:73
 msgid "Home folder"
-msgstr "Дамашняя папка"
+msgstr "Хатняя папка"
 
 #: src/baobab-location.vala:113
 msgid "Computer"
@@ -183,7 +183,7 @@ msgstr ""
 
 #: src/baobab-main-window.ui:17
 msgid "_Help"
-msgstr "_Дапамога"
+msgstr "_Даведка"
 
 #: src/baobab-main-window.ui:21
 msgid "_About Disk Usage Analyzer"
@@ -199,7 +199,7 @@ msgstr "_Скапіраваць сцежку ў буфер абмену"
 
 #: src/baobab-main-window.ui:52 src/menus.ui:15
 msgid "Mo_ve to Trash"
-msgstr "Пера_мясціць у сметніцу"
+msgstr "Перамясціць у _сметніцу"
 
 #: src/baobab-main-window.ui:184
 msgid "Close"
@@ -231,7 +231,7 @@ msgstr "Іерархічная карта"
 
 #: src/baobab-window.vala:215
 msgid "Select Folder"
-msgstr "Выбар папкі"
+msgstr "Выбраць папку"
 
 #: src/baobab-window.vala:217
 msgid "_Cancel"
@@ -255,11 +255,11 @@ msgstr "Не ўдалося паказаць даведку"
 
 #: src/baobab-window.vala:310
 msgid "Baobab"
-msgstr ""
+msgstr "Baobab"
 
 #: src/baobab-window.vala:313
 msgid "A graphical tool to analyze disk usage."
-msgstr "Графічная прылада для даследавання выкарыстання дыскавай прасторы."
+msgstr "Графічны інструмент для аналізавання выкарыстання дыска."
 
 #: src/baobab-window.vala:318
 msgid "translator-credits"
@@ -314,7 +314,7 @@ msgstr ""
 #: src/baobab-window.vala:618 src/baobab-window.vala:624
 #, c-format
 msgid "“%s” is not a valid folder"
-msgstr "\"%s\" не з'яўляецца папкай"
+msgstr "«%s» — не правільная папка"
 
 #: src/baobab-window.vala:619 src/baobab-window.vala:625
 msgid "Could not analyze disk usage."
@@ -323,7 +323,7 @@ msgstr "Не ўдалося даследаваць выкарыстанне ды
 #: src/help-overlay.ui:13
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Агульныя"
 
 #: src/help-overlay.ui:18
 msgctxt "shortcut window"
@@ -353,11 +353,11 @@ msgstr ""
 #: src/help-overlay.ui:52
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Выйсці"
 
 #: src/menus.ui:21
 msgid "Go to _parent folder"
-msgstr "_Перайсці ў бацькоўскую папку"
+msgstr "_Перайсці да бацькоўскай папкі"
 
 #: src/menus.ui:27
 msgid "Zoom _in"
@@ -365,5 +365,5 @@ msgstr "Па_вялічыць"
 
 #: src/menus.ui:31
 msgid "Zoom _out"
-msgstr "З_меншыць"
+msgstr "Па_меншыць"
 

@@ -1,19 +1,18 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ubuntu-translations-demo\n"
+"Project-Id-Version: ubuntu-translations\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-software/issues\n"
-"POT-Creation-Date: 2019-04-25 18:55+0000\n"
-"PO-Revision-Date: 2019-08-02 15:03\n"
+"POT-Creation-Date: 2018-03-01 15:54+0000\n"
+"PO-Revision-Date: 2019-12-06 19:47\n"
 "Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
 "Language-Team: Russian\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
-"X-Launchpad-Export-Date: 2019-05-11 13:28+0000\n"
 "X-Generator: crowdin.com\n"
-"Language: ru_RU\n"
-"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Project: ubuntu-translations\n"
 "X-Crowdin-Language: ru\n"
 "X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/gnome-software.po\n"
 
@@ -53,2248 +52,16 @@ msgstr ""
 msgid "The update details"
 msgstr ""
 
-#: data/appdata/org.gnome.Software.appdata.xml.in:51
-#: data/appdata/org.gnome.Software.appdata.xml.in:72
-#: data/appdata/org.gnome.Software.appdata.xml.in:136
-#: data/appdata/org.gnome.Software.appdata.xml.in:151
-#: data/appdata/org.gnome.Software.appdata.xml.in:306
-#: data/appdata/org.gnome.Software.appdata.xml.in:326
-msgid "This is a stable release with the following changes:"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:55
-msgid "Fix various thread safety related crashes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:56
-msgid "Fix row unrevealing to not leave behind 2 pixels on the updates page"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:57
-msgid "Make the refresh button to actually refresh packagekit cache"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:58
-msgid "Fix various issues that could lead to cache refresh getting stuck"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:59
-msgid "Show updates available notifications even when automatic updates are disabled"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:60
-msgid "Fix counting apps in the updates applied notification"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:61
-msgid "Improve packagekit update loading code, hopefully making it more robust"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:62
-msgid "Fix an issue that could lead to the packagekit plugin activating on rpm-ostree based systems"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:63
-msgid "Switch flatpak updates to use a single transaction, which lets us share more code (and bugs) with the command line flatpak utility"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:64
-msgid "Fix various issues with transitioning from the \"Download\" state to \"Restart &amp; Update\""
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:65
-msgid "Don't error out from update downloads if the ODRS server is unavailable"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:66
-msgid "Fix old updates accumulating in the OS Updates item"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:67
-msgid "Various flatpakref installation fixes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:68
-msgid "Fix opening the details page when clicking on \"Show Details\" in GNOME Shell"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:69
-msgid "Fix opening shell extensions details from GNOME Tweaks"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:70
-msgid "Various fixes for initial loading state"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:67
-#: data/appdata/org.gnome.Software.appdata.xml.in:86
-#: data/appdata/org.gnome.Software.appdata.xml.in:118
-#: data/appdata/org.gnome.Software.appdata.xml.in:131
-#: data/appdata/org.gnome.Software.appdata.xml.in:146
-#: data/appdata/org.gnome.Software.appdata.xml.in:171
-#: data/appdata/org.gnome.Software.appdata.xml.in:190
-#: data/appdata/org.gnome.Software.appdata.xml.in:214
-#: data/appdata/org.gnome.Software.appdata.xml.in:237
-#: data/appdata/org.gnome.Software.appdata.xml.in:256
-#: data/appdata/org.gnome.Software.appdata.xml.in:281
-#: data/appdata/org.gnome.Software.appdata.xml.in:301
-#: data/appdata/org.gnome.Software.appdata.xml.in:321
-#: data/appdata/org.gnome.Software.appdata.xml.in:337
-#: data/appdata/org.gnome.Software.appdata.xml.in:360
-#: data/appdata/org.gnome.Software.appdata.xml.in:378
-#: data/appdata/org.gnome.Software.appdata.xml.in:398
-#: data/appdata/org.gnome.Software.appdata.xml.in:426
-#: data/appdata/org.gnome.Software.appdata.xml.in:457
-#: data/appdata/org.gnome.Software.appdata.xml.in:476
-#: data/appdata/org.gnome.Software.appdata.xml.in:501
-#: data/appdata/org.gnome.Software.appdata.xml.in:516
-#: data/appdata/org.gnome.Software.appdata.xml.in:536
-#: data/appdata/org.gnome.Software.appdata.xml.in:560
-#: data/appdata/org.gnome.Software.appdata.xml.in:587
-#: data/appdata/org.gnome.Software.appdata.xml.in:614
-#: data/appdata/org.gnome.Software.appdata.xml.in:630
-#: data/appdata/org.gnome.Software.appdata.xml.in:643
-msgid "This release also updates translations."
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:77
-msgid "This is a quick followup release to 3.30.4, making it build with appstream-glib 0.7.14."
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:88
-msgid "Add a separate \"Download\" step for packagekit offline updates, so that \"Restart &amp; Update\" is instant"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:89
-msgid "Fix a version comparison issue that led to package updates sometimes showing as downgrades in the OS Updates section (this needs latest appstream-glib)"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:90
-msgid "Show the refresh button when the updates page is in the failed state"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:91
-msgid "Notify about offline updates only after they are fully downloaded"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:102
-msgid "Fix a memory corruption issue on 32-bit arches that made gnome-software very crashy"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:103
-msgid "Fix an issue with stuck back button on the details page after closing and reopening gnome-software"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:104
-msgid "Make distro upgrades to Fedora N+2 release show up correctly"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:315
-msgid "Various flatpak plugin fixes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:106
-msgid "Allow opening CAB files that include more than one update"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:107
-msgid "Fix critical warnings when quickly switching between category pages"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:108
-msgid "Small memory leak fixes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:55
-msgid "Localize the polkit policy file"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:56
-msgid "Display ongoing app-installation at top of the list"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:57
-msgid "Update apps in display order"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:58
-msgid "Fix autoupdates triggering in a feedback loop"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:59
-msgid "Tweak the prefs dialog layout"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:60
-msgid "Various fixes to the flatpak plugin, making its state keeping more robust"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:61
-msgid "Fix flatpak errors to show up instead of a generic \"Aborted\" error"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:62
-msgid "Avoid triggering reboots for online updatable apps (flatpak)"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:63
-msgid "Make rpm-ostree updates work again"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:64
-msgid "Fix an issue that caused duplicate lines in 'OS Updates' on rpm-ostree based systems"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:65
-msgid "Compiler warning fixes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:76
-msgid "Fix an issue that caused duplicate lines in 'OS Updates'"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:77
-msgid "Filter the application restart notification to actual desktop apps"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:78
-msgid "Fix an issue that caused automatic updates to fail during download phase"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:79
-msgid "Avoid showing duplicates in the featured apps when an app is available as both flatpak and a package"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:80
-msgid "Fix an issue that caused gnome-software to use 100% of CPU when doing automatic updates"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:81
-msgid "Lower IO priority for gnome-software so that other apps stay responsive during flatpak installs"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:82
-msgid "Various fixes and wording changes to automatic updates notifications"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:83
-msgid "Only show \"Examine Disk\" button when baobab is available"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:84
-msgid "Leak and correctness fixes in the snap plugin"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:91
-msgid "This is the first stable release for GNOME 3.30."
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:98
-#: data/appdata/org.gnome.Software.appdata.xml.in:123
-#: data/appdata/org.gnome.Software.appdata.xml.in:219
-#: data/appdata/org.gnome.Software.appdata.xml.in:242
-#: data/appdata/org.gnome.Software.appdata.xml.in:261
-#: data/appdata/org.gnome.Software.appdata.xml.in:286
-msgid "This is an unstable release in the 3.27 development series, with the following improvements:"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:103
-msgid "Do not go 'back' to a previous application details panel"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:104
-msgid "Don't crash if when getting the fwupd locked status"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:105
-msgid "Download updates automatically when required"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:106
-msgid "Fix dark theme support"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:107
-msgid "Hide screenshot and support widgets when no screenshots"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:108
-msgid "Ignore non-interactive generic errors"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:109
-msgid "Implement distro upgrade downloading when using rpm-ostree"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:110
-msgid "Only update the update check timestamp when it succeeds"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:111
-msgid "Open the WiFi panel when clicking the Network Settings button"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:112
-msgid "Rotate featured apps on the overview page"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:113
-msgid "Simplify the updates panel"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:114
-msgid "Use FlatpakTransaction to install, remove and update"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:115
-msgid "Use new display name for the Snap publisher"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:116
-msgid "Use the full name for the ESRB ratings descripion"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:128
-msgid "Show a better notification when a local file or URI is not supported"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:129
-msgid "snap: Use ODRS for reviews"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:140
-msgid "Add a warning when enabling the LVFS remote"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:141
-msgid "Show a notification when failing to open an url or a local file"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:142
-msgid "Fix multiple flatpak refreshes with new libflatpak"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:143
-msgid "Build fixes for FreeBSD"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:144
-msgid "Icon loading fixes for snap"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:155
-msgid "Fix a regression with opening results from gnome-shell search"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:156
-msgid "Show \"Source: \" tag in gnome-shell search when we have multiple matches"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:157
-msgid "Improve unknown license tag color scheme on details page"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:158
-msgid "Don't show installed icon on app tiles while still installing"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:159
-msgid "Fix empty items appearing under OS Updates"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:160
-msgid "Fix a regression that caused duplicate results in codec search"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:161
-msgid "Fix an issue with passing username/password to packagekit proxy"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:162
-msgid "Avoid crashing during first run with no network access"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:163
-msgid "A number of rpm-ostree fixes, making it possible to trigger offline updates"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:164
-msgid "Stop searching multiple times on search page"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:165
-msgid "Update Fedora third party repositories \"Find out more...\" link"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:166
-msgid "Fix an issue with in-app notifications failing with invalid markup errors"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:167
-msgid "Improve purchase failure handling for the snap store"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:168
-msgid "Fix a possible crash in snap plugin when adding screenshots"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:169
-msgid "Various other crash and correctness fixes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:176
-msgid "This is the first stable release for GNOME 3.28, with the following improvements:"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:181
-msgid "Fix the build on NixOS"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:182
-msgid "Fix purchasing not working after authentication"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:183
-msgid "Revert a commit that led to flatpak updates failing without any feedback"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:184
-msgid "Make front page featured tile corners round to match other tiles"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:185
-msgid "Fix in-app notification close button alignment"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:186
-msgid "Several fixes to make error notifications more useful"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:187
-msgid "snap: Fix invalid metadata after cancelled refine"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:188
-msgid "snap: Launch command line snaps with 'snap run'"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:195
-msgid "This is an unstable release in the 3.27 development series, marking the end of the development cycle. Next release will be 3.28.0!"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:200
-msgid "Removal of global plugin cache, simplifying gnome-software internals"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:201
-msgid "Software Repositories dialog got another batch of improvements and UI changes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:202
-msgid "GNOME Shell Extensions repository and fwupd repositories are now shown in the Software Repositories dialog"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:203
-msgid "Shell extensions handling through PackageKit was improved, fixing a long standing bug where we were unable to remove shell extension packages"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:204
-msgid "Category page rewrite that landed earlier this cycle went through UI review and got a number of fixes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:205
-msgid "Package version comparison in the updates dialog was fixed and should no longer incorrectly show updates as downgrades"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:206
-msgid "Distro upgrade notifications are now rate limited to once per week"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:207
-msgid "Install buttons in codec install view that got lost in the 3.22 cycle are now back"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:208
-msgid "Various paper cuts with distro upgrades were fixed"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:209
-msgid "Various fixes to installing apps from yum repos that have enabled=0 enabled_metadata=1"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:210
-msgid "Various other correctness and warning fixes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:211
-msgid "Distros: Minimum supported fwupd version is now 1.0.3"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:212
-msgid "Distros: We've released PackageKit 1.1.9 that has string changes to match gnome-software 3.28"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:224
-msgid "The Software Sources dialog was renamed to Software Repositories and rewritten"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:225
-msgid "Fedora Workstation third party repository handling was rewritten and should be more robust"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:226
-msgid "Improved handling of metered network connections, making sure we cancel any downloads when changing to a metered connection"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:227
-msgid "Limit the number of parallel operations depending on the installed CPU"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:228
-msgid "Improved handling of pending installs when there's no network connection"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:229
-msgid "Unused ostree and rpm plugins were dropped"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:230
-msgid "Switch from GtkSpell to gspell"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:231
-msgid "Improve alignment on the updates page"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:232
-msgid "Do not show missing screenshot error for fonts that have screenshots"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:233
-msgid "Fix various issues on Ubuntu when purchasing apps"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:234
-msgid "Fix an issue that led to duplicate categories appearing on the overview page"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:235
-msgid "Various memory leak and correctness fixes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:247
-msgid "Add missing locking to gs_plugin_cache_remove(), fixing a possible crash"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:248
-msgid "Fix various memory leaks spotted by valgrind"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:249
-msgid "Fix a possible crash triggered by the fwupd plugin"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:250
-msgid "Do not emit critical warnings when reviewing OS Updates"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:251
-msgid "fwupd: Use the custom user-agent when downloading firmware"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:252
-msgid "overview page: Fix a crash when we have no featured apps"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:253
-msgid "packagekit: Implement repository enabling"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:254
-msgid "Fix hover CSS for \"unknown\" and \"nonfree\" license buttons"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:266
-msgid "Fix crashes in the repos plugin due to missing locking"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:267
-msgid "Add translated strings for the new OARS v1.1 additions"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:268
-msgid "Work around Firefox deleting rpm/deb files downloaded to /tmp when closing"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:269
-msgid "Log errors to console when starting from command line"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:270
-msgid "Do not enable distro-upgrades when updates are disabled"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:271
-msgid "Do not require the user to keep clicking 'More reviews' after each click"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:272
-msgid "Fix a critical when updating (flatpak) packages live"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:273
-msgid "fwupd: Do not crash when trying to list a locked device"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:274
-msgid "fwupd: Prepend the vendor name to the device name if not included"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:275
-msgid "Improve SPDX ID parsing when working out if it is 'free'"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:276
-msgid "packagekit: Do not crash when getting an invalid ID from PackageKit"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:277
-msgid "packagekit: Support apt:// URLs"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:278
-msgid "Various fixes to the snap plugin"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:279
-msgid "Do not crash when closing the source dialog while it is loading"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:291
-msgid "Redesigned category view"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:292
-msgid "Better notifications for completed distro upgrades"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:293
-msgid "Number of test suite fixes to pave way for continous integration tests"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:294
-msgid "Improved support for running on low res displays"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:295
-msgid "Various fixes to internal state handling"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:296
-msgid "Allow linking to specified proprietary licenses"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:297
-msgid "Don't use versioned subdirectories under ~/.cache/gnome-software"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:298
-msgid "Only show in-app notifications for interactive user actions"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:299
-msgid "Various fixes for flatpak, fwupd, and snap support"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:310
-msgid "Various fixes to cancellable handling, making it more robust to cancel install/remove operations"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:311
-msgid "Fix a common crash in Fedora distro upgrades plugin"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:312
-msgid "Fix showing N+2 Fedora upgrades"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:313
-msgid "Fix flatpak updates inadvertently triggering a reboot"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:314
-msgid "Revert plugin GType registering changes that broke app \"adopting\""
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:316
-msgid "Various snap plugin fixes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:317
-msgid "Bump fwupd required dep to 0.9.7 and support building with new 1.0.0 API"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:318
-msgid "Avoid erroring out for operations that return more than 500 results (distro upgrades, getting gnome-shell extensions list)"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:319
-msgid "Fix a few memory leaks"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:330
-msgid "Fix memory leak in \"external appstream\" plugin"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:331
-msgid "Don't translate an icon name in the Punjabi translation"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:332
-msgid "Fix critical warning in the fwupd plugin if the update URI isn't set"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:333
-msgid "Fix Addon categories not showing"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:334
-msgid "Fix crash in PackageKit plugin if reporting progress with no current application"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:335
-msgid "Revert a change in the snapd plugin which can cause operations to fail or hang in some situations"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:342
-msgid "This is the first stable release for GNOME 3.26, with the following improvements:"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:347
-msgid "Use the new fwupd API in 0.9.7 to avoid when a reboot is required"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:348
-msgid "Pass the complete proxy settings to PackageKit"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:350
-#: data/appdata/org.gnome.Software.appdata.xml.in:372
-#: data/appdata/org.gnome.Software.appdata.xml.in:390
-#: data/appdata/org.gnome.Software.appdata.xml.in:413
-#: data/appdata/org.gnome.Software.appdata.xml.in:443
-#: data/appdata/org.gnome.Software.appdata.xml.in:469
-#: data/appdata/org.gnome.Software.appdata.xml.in:489
-#: data/appdata/org.gnome.Software.appdata.xml.in:530
-#: data/appdata/org.gnome.Software.appdata.xml.in:550
-#: data/appdata/org.gnome.Software.appdata.xml.in:576
-#: data/appdata/org.gnome.Software.appdata.xml.in:605
-#: data/appdata/org.gnome.Software.appdata.xml.in:664
-#: data/appdata/org.gnome.Software.appdata.xml.in:686
-#: data/appdata/org.gnome.Software.appdata.xml.in:706
-#: data/appdata/org.gnome.Software.appdata.xml.in:736
-#: data/appdata/org.gnome.Software.appdata.xml.in:768
-#: data/appdata/org.gnome.Software.appdata.xml.in:809
-#: data/appdata/org.gnome.Software.appdata.xml.in:857
-#: data/appdata/org.gnome.Software.appdata.xml.in:880
-#: data/appdata/org.gnome.Software.appdata.xml.in:906
-msgid "The following bugs are also fixed:"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:352
-msgid "Do not crash when emitting an uncommon error message"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:353
-msgid "Do not show a critical warning with new versions of fwupd"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:354
-msgid "Do not show an error for a remote-less flatpakref application"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:355
-msgid "Don't refine PackageKit packages after we've been cancelled"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:356
-msgid "Fix a possible crash on 32 bit systems"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:357
-msgid "Fix GNOME Shell search results for snap applications"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:358
-msgid "Properly disable shell-extensions when not running GNOME Shell"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:365
-#: data/appdata/org.gnome.Software.appdata.xml.in:383
-#: data/appdata/org.gnome.Software.appdata.xml.in:403
-#: data/appdata/org.gnome.Software.appdata.xml.in:431
-#: data/appdata/org.gnome.Software.appdata.xml.in:462
-#: data/appdata/org.gnome.Software.appdata.xml.in:481
-msgid "This is an unstable release in the 3.25 development series, with the following improvements:"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:370
-#: data/appdata/org.gnome.Software.appdata.xml.in:388
-msgid "Add a simple donation button on the details page"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:374
-msgid "Allow plugins to say that installation cannot be cancelled"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:375
-msgid "Fix displaying the info bar for the Shell Extensions category"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:376
-msgid "Use first featured snap as the featured app"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:392
-msgid "Do not crash if the child schema is invalid"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:393
-msgid "Don't log a warning when clicking the the 'more results' search entry"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:394
-msgid "Fixed subcategory names localization"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:395
-msgid "Ensure flatpak remote names are valid"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:396
-msgid "Fix critical warning with new versions of the fwupd daemon"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:408
-msgid "Add new rpm-ostree integration for Fedora Atomic Workstation"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:409
-msgid "Install the Flatpak runtime as part of the application install phase"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:410
-msgid "Split OS updates up into multiple sections and show the target version"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:411
-msgid "Support compatibility IDs when getting reviews from the ODRS"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:415
-msgid "Cancel plugin jobs if they take too much time"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:416
-msgid "Correctly find already installed flatpak runtimes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:417
-msgid "Do not show an error for a flatpakref when broken remotes exist"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:418
-msgid "Don't show the screenshot section for runtimes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:419
-msgid "Fix authentication prompt not showing when using snapd"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:420
-msgid "Make license buttons buttons actually look clickable"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:421
-msgid "Make the review moderator panel easier to use"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:422
-msgid "Only show snaps as sandboxed if snapd supports confinement"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:423
-msgid "Respect the per-user or per-system install preferences"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:424
-msgid "Return the correct installed state for user/system flatpak remotes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:436
-msgid "Add a banner designer utility"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:437
-msgid "Add the initial support to support purchasable apps"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:438
-msgid "Automatically install flatpak icon themes and GTK themes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:439
-msgid "Restyle the updates panel to have a separate sections"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:440
-msgid "Show a notification in the updates page when the OS is end of life"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:441
-msgid "Show recently updated applications on the overview page"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:445
-msgid "Add snap self tests and provide more data to the details panel"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:446
-msgid "Allow compiling with newer versions of meson"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:447
-msgid "Do not crash when sending progress reports while refreshing"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:448
-msgid "Don't trigger systemd for every single offline update"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:449
-msgid "Ensure all related flatpak applications get installed"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:450
-msgid "Ensure we use the gnome-desktop support if enabled"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:451
-msgid "Fix searching for codecs on Ubuntu"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:452
-msgid "Show a better status messages when downloading metadata"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:453
-msgid "Show a pulsing progressbar if plugins do not report progress"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:454
-msgid "Show the PackageKit interactive dialog when required"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:455
-msgid "Support updating metadata from multiple fwupd remotes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:467
-msgid "Allow AppStream to be downloaded out-of-band per-user"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:471
-msgid "Do not initialize plugins in every instance"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:472
-msgid "Fix the 'Show Details' context menu item in GNOME Shell"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:473
-msgid "Use headerbar in toolbar-mode in Unity"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:474
-msgid "Do not allow plugins to set the origin title in the UI"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:486
-msgid "Truncate the search results if there are a large number"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:487
-msgid "Use the complete source as a search keyword"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:491
-msgid "Fall back to a stock icon for hardware drivers"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:492
-msgid "Fix a crash when removing an addon"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:493
-msgid "Fix a critical warning in the shell search provider"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:494
-msgid "Fix popular-overrides to show the correct applications"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:495
-msgid "Fix various failures to read from snapd"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:496
-msgid "Make offline updates work when online updates are available"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:497
-msgid "Never include the size of the runtime in the installed size"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:498
-msgid "Respect the install preference when for flatpakref files"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:499
-msgid "Use the developer name in preference to the project group"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:506
-msgid "This is an unstable release in the 3.23 development series, with the following bug fixes:"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:511
-msgid "Allow installing broken flatpakref files"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:512
-msgid "Do not reload the updates list when updates are in progress"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:513
-msgid "Reset the headerbar title when switching to the details page"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:514
-msgid "Unconditionally show things that are in progress in the Installed page"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:521
-#: data/appdata/org.gnome.Software.appdata.xml.in:541
-#: data/appdata/org.gnome.Software.appdata.xml.in:565
-#: data/appdata/org.gnome.Software.appdata.xml.in:592
-msgid "This is an unstable release in the 3.23 development series, with the following improvements:"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:526
-msgid "Add support for RuntimeRepo in flatpakref files"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:527
-msgid "Allow the user to restart the currently running gnome-software instance"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:528
-msgid "Never show components without AppData files"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:532
-msgid "Initialize progress to zero right before and after processing an action"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:533
-msgid "Animate the removal of live updates"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:534
-msgid "Add YaST as a default folder in gnome-shell overview"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:546
-msgid "Handle apt and snap URLs"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:547
-msgid "Show the updates panel with sections"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:548
-msgid "Sort the apps in the installed panel by kind"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:552
-msgid "Add a more detailed error message when AC power is required"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:553
-msgid "Do not hardcode the gnome-software application name"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:554
-msgid "Ensure firmware is downloaded when not cached"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:555
-msgid "Fix a rather large memory leak when loading Steam data"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:556
-msgid "Fix launching Flatpak apps after updating"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:557
-msgid "Install needed Flatpak runtimes when updating an app"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:558
-msgid "Only show the scary firmware warning for removable devices"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:570
-msgid "Add an --install and --interaction CLI options"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:571
-msgid "Add the installed size of the apps in the installed view"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:572
-msgid "Always set a description for each notification"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:573
-msgid "Show an in-app notification when installed plugins are changed"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:574
-msgid "Use a set of stars to show the different star ratings"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:578
-msgid "Add a missing error check to fix a common crash on LiveDVD media"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:579
-msgid "Add thread locking in GsApp to fix some common crashes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:580
-msgid "Allow upgrading to Fedora EOL releases"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:581
-msgid "Don't allow review actions when offline"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:582
-msgid "Ensure we actually schedule firmware updates for download"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:583
-msgid "Fix the getting of PackageKit and flatpak update details"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:584
-msgid "Hide some notifications when the new app is launched or the window is closed"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:585
-msgid "Hide the screenshot placeholder for input methods and langpacks"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:597
-msgid "Add a setting for downloading updates on metered connections"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:598
-msgid "Add content rating interface for games"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:599
-msgid "Add support for pending updates that are applied on demand"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:600
-msgid "Add support for the flatpak DefaultBranch feature"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:601
-msgid "Allow showing an application review without a display name"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:602
-msgid "Convert the modal failure dialogs to in-app notifications"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:603
-#: data/appdata/org.gnome.Software.appdata.xml.in:641
-msgid "Switch to using the ODRS server hosted by GNOME"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:607
-msgid "Always get the newest screenshot for GNOME Shell extensions"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:608
-msgid "Avoid redownloading the same screenshots for different images"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:609
-msgid "Don't download updates when low on power"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:610
-msgid "Fix the growth in memory usage for every search request"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:611
-msgid "Never show a 'back' button when showing search results"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:612
-msgid "Show the search bar when the user does ctrl+f"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:619
-#: data/appdata/org.gnome.Software.appdata.xml.in:635
-#: data/appdata/org.gnome.Software.appdata.xml.in:918
-#: data/appdata/org.gnome.Software.appdata.xml.in:929
-#: data/appdata/org.gnome.Software.appdata.xml.in:939
-msgid "This stable release fixes the following bugs:"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:621
-msgid "Large number of fixes and improvements for flatpak support"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:622
-msgid "Improved handling for flatpak repos with multiple branches"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:623
-msgid "Initial support for installing flatpakrepo files"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:624
-msgid "Fix a crash when searching for codecs"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:625
-msgid "Fix a crash when de-duplicating applications"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:626
-msgid "Speed improvements for loading appstream data"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:627
-msgid "Refactor snapd handling code using snapd-glib"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:628
-msgid "Show the search bar when the user does Ctrl+f"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:637
-msgid "Fix several issues with flatpak bundles"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:638
-msgid "Fix installing local packages"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:639
-msgid "Fix a crash when failing to get an installed flatpak ref"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:640
-msgid "Speed up loading the details and overview pages"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:648
-msgid "This is the first stable release for GNOME 3.22 and updates several translations."
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:656
-#: data/appdata/org.gnome.Software.appdata.xml.in:678
-#: data/appdata/org.gnome.Software.appdata.xml.in:699
-#: data/appdata/org.gnome.Software.appdata.xml.in:719
-#: data/appdata/org.gnome.Software.appdata.xml.in:756
-#: data/appdata/org.gnome.Software.appdata.xml.in:783
-msgid "This is an unstable release in the 3.21 development series, with the following improvements:"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:661
-msgid "Add a new section name in the Addons category for drivers"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:662
-msgid "Add a plugin to match a hardware modalias"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:666
-msgid "Do not hide the origin when installing or removing an app"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:667
-msgid "Do not show the screenshot fallback image for firmware or drivers"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:668
-msgid "Fix launching app's details from the installed notification"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:669
-msgid "Fix showing the source line in the installed panel"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:670
-msgid "Unbreak the GNOME Shell search provider"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:671
-msgid "Use the same padding as a GtkStackSwitcher"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:673
-#: data/appdata/org.gnome.Software.appdata.xml.in:694
-#: data/appdata/org.gnome.Software.appdata.xml.in:714
-#: data/appdata/org.gnome.Software.appdata.xml.in:751
-#: data/appdata/org.gnome.Software.appdata.xml.in:778
-#: data/appdata/org.gnome.Software.appdata.xml.in:840
-#: data/appdata/org.gnome.Software.appdata.xml.in:864
-#: data/appdata/org.gnome.Software.appdata.xml.in:887
-#: data/appdata/org.gnome.Software.appdata.xml.in:913
-#: data/appdata/org.gnome.Software.appdata.xml.in:924
-#: data/appdata/org.gnome.Software.appdata.xml.in:934
-#: data/appdata/org.gnome.Software.appdata.xml.in:950
-#: data/appdata/org.gnome.Software.appdata.xml.in:966
-#: data/appdata/org.gnome.Software.appdata.xml.in:979
-#: data/appdata/org.gnome.Software.appdata.xml.in:989
-#: data/appdata/org.gnome.Software.appdata.xml.in:1013
-#: data/appdata/org.gnome.Software.appdata.xml.in:1030
-#: data/appdata/org.gnome.Software.appdata.xml.in:1045
-#: data/appdata/org.gnome.Software.appdata.xml.in:1059
-#: data/appdata/org.gnome.Software.appdata.xml.in:1069
-#: data/appdata/org.gnome.Software.appdata.xml.in:1092
-msgid "This release also updates translations for many languages."
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:683
-msgid "Add functionality to enable non-free sources"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:684
-msgid "Show the device bootloader screenshot when required"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:688
-msgid "Always return consistent results by allowing plugins to share a cache"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:689
-msgid "Ensure the search text is showing when going back to search results"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:690
-msgid "Only enable the firmware 'Install' button when the device is in the right mode"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:691
-msgid "Remove an app from the installed view when it's uninstalled"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:692
-msgid "Show percentage progress when installing firmware"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:704
-msgid "Limit the ODRS moderation queue to a specific language"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:708
-msgid "Correctly load .flatpakrepo files"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:709
-msgid "Don't get the download size for installed flatpak packages"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:710
-msgid "Fix showing the progress bar when installing apps"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:711
-msgid "Never try to modify the application name"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:712
-msgid "Only notify about upgrades once per month"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:724
-msgid "Add a cancel button and progress information to the details page"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:725
-msgid "Add a dialog to confirm upgrade removals"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:726
-msgid "Add support for authenticating in plugins"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:727
-msgid "Add support for snaps"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:728
-msgid "Enable gtk-doc generation for documentation"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:729
-msgid "Show a new-style category list on the overview page"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:730
-msgid "Show origin information when applications are available from multiple sources"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:731
-msgid "Show sandboxing information for selected applications"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:732
-msgid "Show the star ratings in more places"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:733
-msgid "Support installing .flatpakrepo files"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:734
-msgid "Support launching applicatins using a appstream:// URL"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:738
-msgid "Allow plugins to be enabled and disabled at runtime"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:739
-msgid "Always show the 'MyLanguage' kudo when in en_US locale"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:740
-msgid "Correctly trigger systemd offline updates when only processing OS updates"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:741
-msgid "Disable app folders feature when run outside GNOME"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:742
-msgid "Do not show buttons on the search results"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:743
-msgid "Do not use deprecated CSS properties"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:744
-msgid "Do not use deprecated fwupd API"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:745
-msgid "Ensure reviews are shown in the correct order"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:746
-msgid "Fix a crash when double clicking files"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:747
-msgid "Fix several UX issues when upgrading"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:748
-msgid "Show the 'More Reviews' button in the details panel"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:749
-msgid "Try really hard to have two rows of important categories"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:761
-msgid "Add a --details-pkg option to the gnome-software binary"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:762
-msgid "Add support for flatpak packages"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:763
-msgid "Add a plugin to auto-add some license information"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:764
-msgid "Add depends, requires and conflicts at initialize time"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:765
-msgid "Add support for application key colors"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:766
-msgid "Export a set of headers to allow external plugins to be built"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:770
-msgid "Do not crash if plugins are badly behaved"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:771
-msgid "Do not directly load pixbufs in the AppStream plugin"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:772
-msgid "Do not unconditionally invalidate the updates list on hardware hotplug"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:773
-msgid "Find the best AppSteam component when matching any prefixes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:774
-msgid "Fix crash due to network change before app activation"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:775
-msgid "Fix launching various KDE4 applications"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:776
-msgid "Support getting cached content from /var/cache and /usr/share"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:788
-msgid "Add an initial loading panel when there is no metadata"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:789
-msgid "Add an outline ostree plugin that just adds remotes as sources"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:790
-msgid "Add an unreviewable application quirk"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:791
-msgid "Add initial Steam support"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:792
-msgid "Add support for app shortcut addition/removal"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:793
-msgid "Add support for GNOME Shell extensions"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:794
-msgid "Allow free-but-unspecified SPDX tokens"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:795
-msgid "Allow widgets to use custom CSS in a generic way"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:796
-msgid "Do the PackageKit refresh as a background transaction"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:797
-msgid "Hide \"Software Sources\" menu when its action is disabled"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:798
-msgid "Make the distro upgrades dialog match the new mockup"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:799
-msgid "Split the 'size' property into size-installed and size-download"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:800
-msgid "Use a link instead of a button for history"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:801
-msgid "Use AppStream files for the popular, featured and extra category data"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:802
-msgid "Use dpkg-deb info to create a GsApp when double clicking on a .deb file"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:803
-msgid "Use FwupdClient from fwupd 0.7.0"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:804
-msgid "Use GdkPixbuf to parse icns files"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:805
-msgid "Use gsettings to enable/disable the 'sources' action"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:806
-msgid "Use the Fedora themed image for the upgrade banner"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:807
-msgid "When there are no trusted sources mark everything as non-3rd-party"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:811
-msgid "Actually show the error dialog for an invalid file"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:812
-msgid "Allow all functions called by g_module_symbol() to fail"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:813
-msgid "Allow popular and featured apps to match any prefix"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:814
-msgid "Do not maintain a cache of applications in the plugin loader"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:815
-msgid "Do not make the ODRS plugin depend on xdg-app"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:816
-msgid "Do not re-request the distro-upgrade when switching pages"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:817
-msgid "Do not show ratings and reviews for some component kinds"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:818
-msgid "Do not show the distro-upgrade notification if the window is open"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:819
-msgid "Do not use the header bar on Unity"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:820
-msgid "Fix a crash when double clicking package files"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:821
-msgid "Fix live installing firmware"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:822
-msgid "Get the correct icon size when installing xdg-app bundles on HiDPI"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:823
-msgid "Hide the kudo details panel for non desktop components"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:824
-msgid "Load screenshots directly if their URLs point to local files"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:825
-msgid "Lower the limits for review text"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:826
-msgid "Make all the plugins more threadsafe"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:827
-msgid "Make the provenance plugin non-specific to Fedora"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:828
-msgid "Move header bar button creation into individual pages"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:829
-msgid "Move the Install &amp; Restart button below the upgrade banner"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:830
-msgid "Never show star ratings on the category app tiles"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:831
-msgid "Only show one modal dialog at a time"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:832
-msgid "Only show the session manager restart if there were any non-live updates"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:833
-msgid "Properly support multi-line .deb descriptions"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:834
-msgid "Show a 'Install All' button when all the updates can be installed live"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:835
-msgid "Show a modal dialog when downloading the distro-upgrade failed"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:836
-msgid "Show the upgrades banner even if there are no updates to show"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:837
-msgid "Use a cache file to respect the fedora-distro-upgrades cache-age"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:838
-msgid "Use GFile instead of a filename when converting apps"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:845
-#: data/appdata/org.gnome.Software.appdata.xml.in:869
-#: data/appdata/org.gnome.Software.appdata.xml.in:892
-msgid "This is an unstable release in the 3.19 development series, with the following improvements:"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:850
-msgid "Add an 'All' subcategory in the category shell"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:851
-msgid "Add ratings and review functionality for Ubuntu"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:852
-msgid "Install the xdg-app runtime as required automatically"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:853
-msgid "Show a confirmation dialog before reporting a review"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:854
-msgid "Show a guide label for the different star values"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:855
-msgid "Support installing local xdg-app bundles"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:859
-msgid "Correctly identify local packages with sources"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:860
-msgid "Do not add multiple search results for the same app"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:861
-msgid "Do not show xdg-app runtimes in the installed panel"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:862
-msgid "Escape markup before showing modal dialogs"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:874
-msgid "Add end-user application review functionality"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:875
-msgid "Add support for upgrading the OS from one release to another"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:876
-msgid "Add support for xdg-app and Limba bundles"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:877
-msgid "Add tags to applications, and explain them in the details page"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:878
-msgid "Update the list of featured applications on the front page"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:882
-msgid "Add a missing tag to the software center metadata file"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:883
-msgid "PackageKit support is now optional"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:884
-msgid "Temporarily remove the remove button in the sources dialog"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:885
-msgid "Use versioned user cache directories to pick up new screenshots"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:897
-msgid "Add a link to Wikipedia to explain proprietary and public domain software"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:898
-msgid "Allow administrators to override the default popular applications"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:899
-msgid "Improve the interface for device firmware updates and some can be done live"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:900
-#: data/appdata/org.gnome.Software.appdata.xml.in:945
-msgid "Make sure Characters and Disks show up in Utilities"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:901
-msgid "Show 3rd party applications in the search results"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:902
-msgid "Show a nicer installation dialog when installing local files"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:903
-msgid "Speed up the application first-start and also speed up switching pages"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:904
-msgid "Try to show if an application is free software"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:908
-msgid "Do not crash on refresh if the fwupd daemon is not available"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:909
-#: data/appdata/org.gnome.Software.appdata.xml.in:922
-msgid "Fix installing web applications"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:910
-msgid "Rework several windows to fit better on small screens"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:911
-#: data/appdata/org.gnome.Software.appdata.xml.in:920
-msgid "Use the correct user agent string when downloading firmware"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:921
-msgid "Fix a crash in the limba plugin"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:931
-msgid "Fix a regression that could lead to never finding any updates"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:932
-msgid "Fix an issue with getting package details for apps without AppData"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:941
-msgid "Do not force the cache refresh and delete otherwise valid packages"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:942
-msgid "Fix several potential crashes when navigating and when installing"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:943
-msgid "Get the new application icon for local packages after installation"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:944
-msgid "Improve cold start time by only parsing AppStream data once"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:946
-msgid "Only download the fwupd metadata signature once per day"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:947
-msgid "Show an empty space for no category results"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:948
-msgid "Show applications without AppData in the installed panel"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:955
-msgid "This is the first stable release for the GNOME 3.18 desktop!"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:960
-#: data/appdata/org.gnome.Software.appdata.xml.in:971
-#: data/appdata/org.gnome.Software.appdata.xml.in:994
-#: data/appdata/org.gnome.Software.appdata.xml.in:1018
-msgid "This is an unstable release in the 3.17 development series, with the following improvements:"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:962
-msgid "Fix getting firmware updates by parsing the metadata correctly"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:963
-msgid "Make the application menu path correct in RTL locales"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:964
-msgid "Don't keep the application running forever when run as a search provider"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:973
-msgid "Better theming for the category sidebar"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:974
-msgid "Use standard size icon in the about dialog"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:975
-msgid "Support mouse back button for going back in dialogs"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:976
-msgid "Fix incorrect alignment on the front page in RTL languages"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:977
-msgid "Misc other minor bugs fixed"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:984
-msgid "This is an unstable release with the following bugs fixed:"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:986
-msgid "Use CSS to style the error message details"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:987
-msgid "Correctly align labels in the Add to Folder dialog"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:996
-msgid "Add basic support for Limba bundles"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:997
-msgid "Automatically download new firmware metadata from LVFS"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:998
-msgid "Hide updates UI on managed systems"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:999
-msgid "Show a new notification when security updates remain unapplied"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1000
-msgid "Show installation progress when installing applications"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1001
-msgid "Use some new applications to the picked category"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1003
-#: data/appdata/org.gnome.Software.appdata.xml.in:1022
-msgid "Bugs fixed in this release:"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1005
-msgid "Do not show applications that are not available when searching by category"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1006
-msgid "Don't crash when launching an app that has no desktop ID"
-msgstr ""
-
 #: data/appdata/org.gnome.Software.appdata.xml.in:1007
-msgid "Don't show applications without AppData in the category view"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1008
-msgid "Fix a possible race and crash when loading icons"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1009
-msgid "Fix locking in the AppStream code to fix several crashes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1010
-msgid "Use better error messages on offline update failure"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1011
-msgid "Withdraw the notification when prepared update gets invalidated"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1020
-msgid "Make fwupd dependency automagic"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1024
-msgid "Fix a regression from the previous unstable release that made it impossible to install updates"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1025
-#: data/appdata/org.gnome.Software.appdata.xml.in:1133
-msgid "Fix a crash in the screenshot loader"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1026
-msgid "Fix a crash in the sources dialog"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1027
-msgid "Fix a crash when installing rpms that lack description"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1028
-msgid "Wrap long descriptions in the update dialog"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1035
-msgid "This is the first unstable release in the 3.17 development series, with a number of new features:"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1037
-msgid "Support getting firmware updates through the fwupd daemon"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1038
-msgid "Use a smaller number of tiles on the front page on small monitors"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1039
-msgid "Rework internal modulesets, making it easier to edit the list of featured apps"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1040
-msgid "Revert back to using a hand-picked list of featured apps"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1041
-msgid "Several improvements to the sources dialog"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1042
-msgid "Show better human readable names when searching for font scripts"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1043
-msgid "Show a spinner while loading the data for the update history dialog"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1050
-#: data/appdata/org.gnome.Software.appdata.xml.in:1064
-#: data/appdata/org.gnome.Software.appdata.xml.in:1130
-#: data/appdata/org.gnome.Software.appdata.xml.in:1146
-msgid "This release fixes the following bugs:"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1052
-msgid "Remove redundant OK button from the updates installed notification"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1053
-msgid "Display a better human readable title for printer drivers"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1054
-msgid "Show a better UI for offline update failure dialog"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1055
-msgid "Set default actions for the update done notifications"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1056
-msgid "Allow searching for packages via the API without appdata"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1057
-msgid "Fix showing webapps with non-local icons"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1066
-msgid "Correctly save HiDPI images to HiDPI directories"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1067
-msgid "Scroll the contents of the error message dialog"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1074
-msgid "This stable release marks the release of GNOME 3.16!"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1079
-#: data/appdata/org.gnome.Software.appdata.xml.in:1097
-#: data/appdata/org.gnome.Software.appdata.xml.in:1112
-#: data/appdata/org.gnome.Software.appdata.xml.in:1126
-#: data/appdata/org.gnome.Software.appdata.xml.in:1142
-msgid "This unstable release adds the following features:"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1081
-msgid "React to theme changes"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1082
-msgid "Rebase the HighContrast theme"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1084
-#: data/appdata/org.gnome.Software.appdata.xml.in:1101
-#: data/appdata/org.gnome.Software.appdata.xml.in:1118
-msgid "This release fixes the following bug:"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1086
-msgid "Fix HiDPI scale factor calculation"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1087
-msgid "Align section headings in all views"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1088
-msgid "Fix 'installed' overlays when using the HighContrast theme"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1089
-msgid "Fall back to showing the top level category when no sub category exists"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1090
-msgid "Fix a crash when using the pending applications feature"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1099
-msgid "Enable kinetic scrolling in updates dialog"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1103
-msgid "Always ensure that the back entry focus widget is valid"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1104
-msgid "Don't show small screenshots on HiDPI hardware"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1105
-msgid "Fix a crash when starting GNOME Software for the first time"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1106
-msgid "Only show compatible projects when getting the featured list"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1114
-msgid "Add a new panel for displaying session service results"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1115
-msgid "Add a new version of the Modify interface"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1116
-msgid "Require AppData for all available packages"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1120
-msgid "Use the new mockups for the 3rd party source install dialogs"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1128
-msgid "Fix searching with very small search terms"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1132
-msgid "Do case-insensitive searching of suitable keywords"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1134
-msgid "Fix a crash when clicking the back button"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1135
-msgid "Fix searching for keyworks with special chars"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1136
-msgid "Show an error message when we fail to load details about a local file"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1144
-msgid "Show a blurred low-resolution screenshot while loading the HiDPI one"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1148
-msgid "Do not show a random white line above the star rating widget"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1149
-msgid "Do not show empty app boxes if no popular results are available"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1150
-msgid "Do not try to download local web-app icons"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1151
-msgid "Use blue stars for the user-ratings rather than gold"
-msgstr ""
-
-#: data/appdata/org.gnome.Software.appdata.xml.in:1175
 msgid "The GNOME Project"
 msgstr ""
 
-#: data/org.gnome.Software.desktop:3
-msgid "Ubuntu Software"
+#: data/org.gnome.software.external-appstream.policy.in:11
+msgid "Install an appstream file into a system location"
 msgstr ""
 
-#: data/org.gnome.Software.desktop:4 src/org.gnome.Software.desktop.in:4
-msgid "Add, remove or update software on this computer"
-msgstr ""
-
-#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
-#: data/org.gnome.Software.desktop:6
-msgid "ubuntusoftware"
-msgstr ""
-
-#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: data/org.gnome.Software.desktop:12 src/org.gnome.Software.desktop.in:12
-msgid "Updates;Upgrade;Sources;Repositories;Preferences;Install;Uninstall;Program;Software;App;Store;"
+#: data/org.gnome.software.external-appstream.policy.in:12
+msgid "Installing an appstream file into a system location"
 msgstr ""
 
 #: data/org.gnome.software.gschema.xml:5
@@ -2306,160 +73,159 @@ msgid "This is a list of compatible projects we should show such as GNOME, KDE a
 msgstr ""
 
 #: data/org.gnome.software.gschema.xml:10
+#| msgid "Whether to manage updates in GNOME Software"
 msgid "Whether to manage updates and upgrades in GNOME Software"
 msgstr ""
 
 #: data/org.gnome.software.gschema.xml:11
+#| msgid ""
+#| "If disabled, GNOME Software will hide the updates panel and not perform "
+#| "any automatic updates actions."
 msgid "If disabled, GNOME Software will hide the updates panel, not perform any automatic updates actions or prompt for upgrades."
 msgstr ""
 
 #: data/org.gnome.software.gschema.xml:15
-msgid "Automatically download and install updates"
+msgid "Whether to automatically download updates"
 msgstr ""
 
 #: data/org.gnome.software.gschema.xml:16
-msgid "If enabled, GNOME Software automatically downloads software updates in the background, also installing ones that do not require a reboot."
+msgid "If enabled, GNOME Software automatically downloads updates in the background and prompts the user to install them when ready."
 msgstr ""
 
 #: data/org.gnome.software.gschema.xml:20
-msgid "Notify the user about software updated in the background"
-msgstr ""
-
-#: data/org.gnome.software.gschema.xml:21
-msgid "If enabled, GNOME Software notifies the user about updates that happened whilst the user was idle."
-msgstr ""
-
-#: data/org.gnome.software.gschema.xml:25
 msgid "Whether to automatically refresh when on a metered connection"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:26
+#: data/org.gnome.software.gschema.xml:21
 msgid "If enabled, GNOME Software automatically refreshes in the background even when using a metered connection (eventually downloading some metadata, checking for updates, etc., which may incur in costs for the user)."
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:30
+#: data/org.gnome.software.gschema.xml:25
 msgid "Whether it’s the very first run of GNOME Software"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:34
+#: data/org.gnome.software.gschema.xml:29
 msgid "Show star ratings next to applications"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:38
+#: data/org.gnome.software.gschema.xml:33
 msgid "Filter applications based on the default branch set for the remote"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:42
+#: data/org.gnome.software.gschema.xml:37
 msgid "Non-free applications show a warning dialog before install"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:43
+#: data/org.gnome.software.gschema.xml:38
 msgid "When non-free applications are installed a warning dialog can be shown. This controls if that dialog is suppressed."
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:47
+#: data/org.gnome.software.gschema.xml:42
 msgid "A list of popular applications"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:48
+#: data/org.gnome.software.gschema.xml:43
 msgid "A list of applications to use, overriding the system defined ones."
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:52
+#: data/org.gnome.software.gschema.xml:47
 msgid "The last update check timestamp"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:56
+#: data/org.gnome.software.gschema.xml:51
 msgid "The last upgrade notification timestamp"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:60
+#: data/org.gnome.software.gschema.xml:55
 msgid "The timestamp of the first security update, cleared after update"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:64
+#: data/org.gnome.software.gschema.xml:59
 msgid "The last update timestamp"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:68
+#: data/org.gnome.software.gschema.xml:63
 msgid "The age in seconds to verify the upstream screenshot is still valid"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:69
+#: data/org.gnome.software.gschema.xml:64
 msgid "Choosing a larger value will mean less round-trips to the remote server but updates to the screenshots may take longer to show to the user. A value of 0 means to never check the server if the image already exists in the cache."
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:78
+#: data/org.gnome.software.gschema.xml:73
 msgid "The server to use for application reviews"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:82
+#: data/org.gnome.software.gschema.xml:77
 msgid "The minimum karma score for reviews"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:83
+#: data/org.gnome.software.gschema.xml:78
 msgid "Reviews with karma less than this number will not be shown."
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:87
+#: data/org.gnome.software.gschema.xml:82
+#| msgid "A list of official sources that should not be considered 3rd party"
 msgid "A list of official repositories that should not be considered 3rd party"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:91
+#: data/org.gnome.software.gschema.xml:86
+#| msgid "A list of official sources that should be considered free software"
 msgid "A list of official repositories that should be considered free software"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:95
+#: data/org.gnome.software.gschema.xml:90
 msgid "The licence URL to use when an application should be considered free software"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:99
+#: data/org.gnome.software.gschema.xml:94
 msgid "Install bundled applications for all users on the system where possible"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:103
+#: data/org.gnome.software.gschema.xml:98
 msgid "Show the folder management UI"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:107
+#: data/org.gnome.software.gschema.xml:102
 #| msgid "Allow access to the Software Sources dialog"
 msgid "Allow access to the Software Repositories dialog"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:111
+#: data/org.gnome.software.gschema.xml:106
 msgid "Offer upgrades for pre-releases"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:115
+#: data/org.gnome.software.gschema.xml:110
 msgid "Show some UI elements informing the user that an app is non-free"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:119
+#: data/org.gnome.software.gschema.xml:114
+#| msgid "Show the prompt to install nonfree software sources"
 msgid "Show the prompt to install nonfree software repositories"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:123
+#: data/org.gnome.software.gschema.xml:118
 msgid "Show the installed size for apps in the list of installed applications"
 msgstr ""
 
 #. Translators: Replace the link with a version in your language, e.g. 'https://de.wikipedia.org/wiki/Proprietäre_Software'. Remember to include ''.
-#: data/org.gnome.software.gschema.xml:127
+#: data/org.gnome.software.gschema.xml:122
 msgid "'https://en.wikipedia.org/wiki/Proprietary_software'"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:128
+#: data/org.gnome.software.gschema.xml:123
 msgid "The URI that explains nonfree and proprietary software"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:132
+#: data/org.gnome.software.gschema.xml:127
 msgid "A list of URLs pointing to appstream files that will be downloaded into an app-info folder"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:136
+#: data/org.gnome.software.gschema.xml:131
 msgid "Install the AppStream files to a system-wide location for all users"
 msgstr ""
 
-#: data/org.gnome.software.gschema.xml:140
+#: data/org.gnome.software.gschema.xml:135
 msgid "Enable GNOME Shell extensions repository"
 msgstr ""
 
@@ -2484,66 +250,67 @@ msgstr ""
 msgid "Select None"
 msgstr ""
 
-#: src/gnome-software.ui:36 src/org.gnome.Software.desktop.in:3
+#: src/gnome-software.ui:24 src/org.gnome.Software.desktop.in:3
 msgid "Software"
 msgstr ""
 
-#: src/gnome-software.ui:55 src/gs-update-dialog.ui:21
+#: src/gnome-software.ui:43 src/gs-update-dialog.ui:21
 msgid "Go back"
 msgstr ""
 
 #. Translators: A label for a button to show all available software.
-#: src/gnome-software.ui:89
+#: src/gnome-software.ui:77
 msgid "_All"
 msgstr ""
 
 #. Translators: A label for a button to show only software which is already installed.
-#: src/gnome-software.ui:116
+#: src/gnome-software.ui:104
 msgid "_Installed"
 msgstr ""
 
 #. Translators: A label for a button to show only updates which are available to install.
-#: src/gnome-software.ui:167
+#: src/gnome-software.ui:155
 msgid "_Updates"
 msgstr ""
 
-#: src/gnome-software.ui:263
+#: src/gnome-software.ui:251
 msgid "Search"
 msgstr ""
 
 #. button in the info bar
-#: src/gnome-software.ui:381 src/gs-repos-dialog.ui:6 src/gs-repos-dialog.ui:20
+#: src/gnome-software.ui:350 src/gs-repos-dialog.ui:6 src/gs-repos-dialog.ui:20
+#| msgid "Software Sources"
 msgid "Software Repositories"
 msgstr ""
 
 #. button in the info bar
-#: src/gnome-software.ui:392
+#: src/gnome-software.ui:361
 msgid "Examine Disk"
 msgstr ""
 
 #. button in the info bar
 #. TRANSLATORS: this is a link to the
 #. * control-center network panel
-#: src/gnome-software.ui:403 src/gs-updates-page.c:931
+#: src/gnome-software.ui:372 src/gs-updates-page.c:1423
 msgid "Network Settings"
 msgstr ""
 
 #. button in the info bar
-#: src/gnome-software.ui:414
+#: src/gnome-software.ui:383
 msgid "Restart Now"
 msgstr ""
 
 #. button in the info bar
-#: src/gnome-software.ui:425
+#: src/gnome-software.ui:394
 msgid "More Information"
 msgstr ""
 
-#: src/gs-app-addon-row.c:96 src/gs-app-row.c:424
+#: src/gs-app-addon-row.c:96 src/gs-app-row.c:429
 msgid "Pending"
 msgstr ""
 
 #: src/gs-app-addon-row.c:102 src/gs-app-row.ui:209 src/gs-app-tile.ui:51
-#: src/gs-feature-tile.c:87
+#: src/gs-feature-tile.c:88
 msgid "Installed"
 msgstr ""
 
@@ -2551,7 +318,7 @@ msgstr ""
 #. * shows the status of an application being installed
 #. TRANSLATORS: this is a button in the software repositories dialog
 #. that shows the status of a repo being installed
-#: src/gs-app-addon-row.c:106 src/gs-app-row.c:215 src/gs-details-page.c:488
+#: src/gs-app-addon-row.c:106 src/gs-app-row.c:217 src/gs-details-page.c:463
 #: src/gs-third-party-repo-row.c:113
 msgid "Installing"
 msgstr ""
@@ -2560,7 +327,7 @@ msgstr ""
 #. * shows the status of an application being erased
 #. TRANSLATORS: this is a button in the software repositories dialog
 #. that shows the status of a repo being removed
-#: src/gs-app-addon-row.c:110 src/gs-app-row.c:221 src/gs-repo-row.c:140
+#: src/gs-app-addon-row.c:110 src/gs-app-row.c:223 src/gs-repo-row.c:140
 #: src/gs-third-party-repo-row.c:120
 msgid "Removing"
 msgstr ""
@@ -2571,7 +338,7 @@ msgstr ""
 
 #: src/gs-app-folder-dialog.c:320 src/gs-app-folder-dialog.ui:16
 #: src/gs-details-page.ui:329 src/gs-editor.c:623 src/gs-editor.c:655
-#: src/gs-installed-page.c:609 src/gs-removal-dialog.ui:33
+#: src/gs-installed-page.c:610 src/gs-removal-dialog.ui:33
 #: src/gs-review-dialog.ui:23 src/gs-upgrade-banner.ui:131
 msgid "_Cancel"
 msgstr ""
@@ -2585,123 +352,107 @@ msgid "Add to Application Folder"
 msgstr ""
 
 #. TRANSLATORS: this is a command line option
-#: src/gs-application.c:123
+#: src/gs-application.c:124
 msgid "Start up mode: either ‘updates’, ‘updated’, ‘installed’ or ‘overview’"
 msgstr ""
 
-#: src/gs-application.c:123
+#: src/gs-application.c:124
 msgid "MODE"
 msgstr ""
 
-#: src/gs-application.c:125
+#: src/gs-application.c:126
 msgid "Search for applications"
 msgstr ""
 
-#: src/gs-application.c:125
+#: src/gs-application.c:126
 msgid "SEARCH"
 msgstr ""
 
-#: src/gs-application.c:127
+#: src/gs-application.c:128
 msgid "Show application details (using application ID)"
 msgstr ""
 
-#: src/gs-application.c:127 src/gs-application.c:131
+#: src/gs-application.c:128 src/gs-application.c:132
 msgid "ID"
 msgstr ""
 
-#: src/gs-application.c:129
+#: src/gs-application.c:130
 msgid "Show application details (using package name)"
 msgstr ""
 
-#: src/gs-application.c:129
+#: src/gs-application.c:130
 msgid "PKGNAME"
 msgstr ""
 
-#: src/gs-application.c:131
+#: src/gs-application.c:132
 msgid "Install the application (using application ID)"
 msgstr ""
 
-#: src/gs-application.c:133
+#: src/gs-application.c:134
 msgid "Open a local package file"
 msgstr ""
 
-#: src/gs-application.c:133
+#: src/gs-application.c:134
 msgid "FILENAME"
 msgstr ""
 
-#: src/gs-application.c:135
+#: src/gs-application.c:136
 msgid "The kind of interaction expected for this action: either ‘none’, ‘notify’, or ‘full’"
 msgstr ""
 
-#: src/gs-application.c:138
+#: src/gs-application.c:139
 msgid "Show verbose debugging information"
 msgstr ""
 
-#: src/gs-application.c:140
-msgid "Installs any pending updates in the background"
+#: src/gs-application.c:141
+msgid "Show profiling information for the service"
 msgstr ""
 
-#: src/gs-application.c:142
-msgid "Show update preferences"
-msgstr ""
-
-#: src/gs-application.c:144
+#: src/gs-application.c:143
 msgid "Quit the running instance"
 msgstr ""
 
-#: src/gs-application.c:146
+#: src/gs-application.c:145
 msgid "Prefer local file sources to AppStream"
 msgstr ""
 
-#: src/gs-application.c:148
+#: src/gs-application.c:147
 msgid "Show version number"
 msgstr ""
 
-#: src/gs-application.c:346
+#: src/gs-application.c:344
 msgid "translator-credits"
 msgstr ""
 
 #. TRANSLATORS: this is the title of the about window, e.g.
 #. * 'About Software' or 'About Application Installer' where the %s is
 #. * the application name chosen by the distro
-#: src/gs-application.c:353
+#: src/gs-application.c:351
 #, c-format
 msgid "About %s"
 msgstr ""
 
 #. TRANSLATORS: well, we seem to think so, anyway
-#: src/gs-application.c:357
+#: src/gs-application.c:355
 msgid "A nice way to manage the software on your system."
-msgstr ""
-
-#: src/gs-application.c:934
-msgid "Software Sources"
-msgstr ""
-
-#: src/gs-application.c:936
-msgid "Software & Updates"
-msgstr ""
-
-#: src/gs-application.c:965
-msgid "_Update Preferences"
 msgstr ""
 
 #. TRANSLATORS: this is a button next to the search results that
 #. * allows the application to be easily installed
-#: src/gs-app-row.c:170
+#: src/gs-app-row.c:172
 msgid "Visit website"
 msgstr ""
 
 #. TRANSLATORS: this is a button next to the search results that
 #. * allows the application to be easily installed.
 #. * The ellipsis indicates that further steps are required
-#: src/gs-app-row.c:175
+#: src/gs-app-row.c:177
 msgid "Install…"
 msgstr ""
 
 #. TRANSLATORS: this is a button next to the search results that
 #. * allows to cancel a queued install of the application
-#: src/gs-app-row.c:182 src/gs-updates-section.c:439
+#: src/gs-app-row.c:184
 msgid "Cancel"
 msgstr ""
 
@@ -2709,13 +460,13 @@ msgstr ""
 #. * allows the application to be easily installed
 #. TRANSLATORS: button text
 #. TRANSLATORS: update the fw
-#: src/gs-app-row.c:189 src/gs-common.c:285 src/gs-page.c:596
+#: src/gs-app-row.c:191 src/gs-common.c:279 src/gs-page.c:566
 msgid "Install"
 msgstr ""
 
 #. TRANSLATORS: this is a button in the updates panel
 #. * that allows the app to be easily updated live
-#: src/gs-app-row.c:196
+#: src/gs-app-row.c:198
 msgid "Update"
 msgstr ""
 
@@ -2723,19 +474,19 @@ msgstr ""
 #. * allows the application to be easily removed
 #. TRANSLATORS: this is button text to remove the application
 #. TRANSLATORS: this is button text to remove the repo
-#: src/gs-app-row.c:200 src/gs-app-row.c:209 src/gs-page.c:754
-#: src/gs-repos-dialog.c:336
+#: src/gs-app-row.c:202 src/gs-app-row.c:211 src/gs-page.c:723
+#: src/gs-repos-dialog.c:270
 msgid "Remove"
 msgstr ""
 
 #. TRANSLATORS: during the update the device
 #. * will restart into a special update-only mode
-#: src/gs-app-row.c:326
+#: src/gs-app-row.c:329
 msgid "Device cannot be used during update."
 msgstr ""
 
 #. TRANSLATORS: this refers to where the app came from
-#: src/gs-app-row.c:336 src/gs-details-page.ui:1098
+#: src/gs-app-row.c:339 src/gs-details-page.ui:988
 msgid "Source"
 msgstr ""
 
@@ -2809,7 +560,7 @@ msgstr ""
 
 #. TRANSLATORS: This is a heading on the categories page. %s gets
 #. replaced by the category name, e.g. 'Graphics & Photography'
-#: src/gs-category-page.c:504
+#: src/gs-category-page.c:501
 #, c-format
 #| msgid "Featured"
 msgid "Featured %s"
@@ -2817,6 +568,7 @@ msgstr ""
 
 #. Translators: A label for a button to sort apps by their rating.
 #: src/gs-category-page.ui:24
+#| msgid "Updated"
 msgid "Top Rated"
 msgstr ""
 
@@ -2827,7 +579,7 @@ msgstr ""
 
 #. TRANSLATORS: A label for a button to show the settings for
 #. the selected shell extension.
-#: src/gs-category-page.ui:137 src/gs-details-page.c:372
+#: src/gs-category-page.ui:137 src/gs-details-page.c:360
 msgid "Extension Settings"
 msgstr ""
 
@@ -2854,63 +606,62 @@ msgid "Subcategories sorting menu"
 msgstr ""
 
 #. TRANSLATORS: the user isn't reading the question
-#: lib/gs-cmd.c:194
+#: lib/gs-cmd.c:206
 #, c-format
 msgid "Please enter a number from 1 to %u: "
 msgstr ""
 
 #. TRANSLATORS: asking the user to choose an app from a list
-#: lib/gs-cmd.c:257
+#: lib/gs-cmd.c:269
 msgid "Choose an application:"
 msgstr ""
 
 #. TRANSLATORS: this is the summary of a notification that OS updates
 #. * have been successfully installed
-#: src/gs-common.c:137
+#: src/gs-common.c:136
 msgid "OS updates are now installed"
 msgstr ""
 
 #. TRANSLATORS: this is the body of a notification that OS updates
 #. * have been successfully installed
-#: src/gs-common.c:140
+#: src/gs-common.c:139
 msgid "Recently installed updates are available to review"
 msgstr ""
 
 #. TRANSLATORS: this is the summary of a notification that an application
 #. * has been successfully installed
-#. TRANSLATORS: this is the summary of a notification that a component
-#. * has been successfully installed
-#: src/gs-common.c:145 src/gs-common.c:153
+#: src/gs-common.c:143
 #, c-format
 msgid "%s is now installed"
 msgstr ""
 
 #. TRANSLATORS: this is the body of a notification that an application
 #. * has been successfully installed
-#: src/gs-common.c:148
+#: src/gs-common.c:146
 msgid "Application is ready to be used."
 msgstr ""
 
 #. TRANSLATORS: this is button that opens the newly installed application
-#: src/gs-common.c:161
+#: src/gs-common.c:152
 msgid "Launch"
 msgstr ""
 
 #. TRANSLATORS: window title
-#: src/gs-common.c:219
+#: src/gs-common.c:211
 msgid "Install Third-Party Software?"
 msgstr ""
 
 #. TRANSLATORS: window title
-#: src/gs-common.c:223 src/gs-repos-dialog.c:247
+#: src/gs-common.c:215
+#| msgid "Enable Third-Party Software Source?"
 msgid "Enable Third-Party Software Repository?"
 msgstr ""
 
 #. TRANSLATORS: the replacements are as follows:
 #. * 1. Application name, e.g. "Firefox"
 #. * 2. Software repository name, e.g. fedora-optional
-#. 
-#: src/gs-common.c:239
+#.
+#: src/gs-common.c:233
 #, c-format
 msgid "%s is not <a href=\"https://en.wikipedia.org/wiki/Free_and_open-source_software\">free and open source software</a>, and is provided by “%s”."
 msgstr ""
@@ -2918,44 +669,45 @@ msgstr ""
 #. TRANSLATORS: the replacements are as follows:
 #. * 1. Application name, e.g. "Firefox"
 #. * 2. Software repository name, e.g. fedora-optional
-#: src/gs-common.c:249
+#: src/gs-common.c:243
 #, c-format
 msgid "%s is provided by “%s”."
 msgstr ""
 
-#: src/gs-common.c:258
+#: src/gs-common.c:252
+#| msgid "This software source must be enabled to continue installation."
 msgid "This software repository must be enabled to continue installation."
 msgstr ""
 
 #. TRANSLATORS: Laws are geographical, urgh...
-#: src/gs-common.c:268
+#: src/gs-common.c:262
 #, c-format
 msgid "It may be illegal to install or use %s in some countries."
 msgstr ""
 
 #. TRANSLATORS: Laws are geographical, urgh...
-#: src/gs-common.c:274
+#: src/gs-common.c:268
 msgid "It may be illegal to install or use this codec in some countries."
 msgstr ""
 
 #. TRANSLATORS: this is button text to not ask about non-free content again
-#: src/gs-common.c:281
+#: src/gs-common.c:275
 msgid "Don’t Warn Again"
 msgstr ""
 
 #. TRANSLATORS: button text
-#: src/gs-common.c:290
+#: src/gs-common.c:284
 msgid "Enable and Install"
 msgstr ""
 
 #. TRANSLATORS: these are show_detailed_error messages from the
 #. * package manager no mortal is supposed to understand,
 #. * but google might know what they mean
-#: src/gs-common.c:435
+#: src/gs-common.c:429
 msgid "Detailed errors from the package manager follow:"
 msgstr ""
 
-#: src/gs-common.c:454 src/gs-details-page.ui:620
+#: src/gs-common.c:448 src/gs-details-page.ui:595
 msgid "Details"
 msgstr ""
 
@@ -3201,6 +953,7 @@ msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:219
+#| msgid "Players are encouraged to purchase specific real-world items"
 msgid "Users are encouraged to purchase specific real-world items"
 msgstr ""
 
@@ -3232,6 +985,7 @@ msgstr ""
 #. v1.1
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:237
+#| msgid "Players are encouraged to purchase specific real-world items"
 msgid "Users are encouraged to donate real money"
 msgstr ""
 
@@ -3242,37 +996,42 @@ msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:243
+#| msgid "No way to chat with other players"
 msgid "No way to chat with other users"
 msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:246
+#| msgid "Player-to-player game interactions without chat functionality"
 msgid "User-to-user game interactions without chat functionality"
 msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:249
+#| msgid "Uncontrolled chat functionality between players"
 msgid "Moderated chat functionality between users"
 msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:252
+#| msgid "Uncontrolled chat functionality between players"
 msgid "Uncontrolled chat functionality between users"
 msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:255
+#| msgid "No way to talk with other players"
 msgid "No way to talk with other users"
 msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:258
+#| msgid "Uncontrolled audio or video chat functionality between players"
 msgid "Uncontrolled audio or video chat functionality between users"
 msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:261
-#| msgid "Sharing social network usernames or email addresses"
 msgid "No sharing of social network usernames or email addresses"
 msgstr ""
 
@@ -3316,11 +1075,13 @@ msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:287
+#| msgid "No references to alcohol"
 msgid "No references to homosexuality"
 msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:290
+#| msgid "No references to alcohol"
 msgid "Indirect references to homosexuality"
 msgstr ""
 
@@ -3336,16 +1097,19 @@ msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:299
+#| msgid "No references to alcohol"
 msgid "No references to prostitution"
 msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:302
+#| msgid "Provocative references or depictions"
 msgid "Indirect references to prostitution"
 msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:305
+#| msgid "Provocative references or depictions"
 msgid "Direct references of prostitution"
 msgstr ""
 
@@ -3356,16 +1120,19 @@ msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:311
+#| msgid "No references to alcohol"
 msgid "No references to adultery"
 msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:314
+#| msgid "No references to alcohol"
 msgid "Indirect references to adultery"
 msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:317
+#| msgid "No references to alcohol"
 msgid "Direct references of adultery"
 msgstr ""
 
@@ -3376,6 +1143,7 @@ msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:323
+#| msgid "No sexual violence"
 msgid "No sexualized characters"
 msgstr ""
 
@@ -3391,6 +1159,7 @@ msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:332
+#| msgid "No references to alcohol"
 msgid "No references to desecration"
 msgstr ""
 
@@ -3431,6 +1200,7 @@ msgstr ""
 
 #. TRANSLATORS: content rating description
 #: src/gs-content-rating.c:356
+#| msgid "No references to alcohol"
 msgid "No references to slavery"
 msgstr ""
 
@@ -3520,7 +1290,7 @@ msgstr ""
 #. * can be live-installed
 #. TRANSLATORS: this is a button in the software repositories
 #. dialog for installing a repo
-#: src/gs-details-page.c:297 src/gs-details-page.c:325
+#: src/gs-details-page.c:285 src/gs-details-page.c:313
 #: src/gs-details-page.ui:206 src/gs-third-party-repo-row.c:97
 #: src/gs-upgrade-banner.ui:146
 msgid "_Install"
@@ -3528,7 +1298,7 @@ msgstr ""
 
 #. TRANSLATORS: button text in the header when an application
 #. * can be live-updated
-#: src/gs-details-page.c:330
+#: src/gs-details-page.c:318
 msgid "_Update"
 msgstr ""
 
@@ -3539,107 +1309,96 @@ msgstr ""
 #. TRANSLATORS: this is a button in the software repositories
 #. dialog for installing a repo.
 #. The ellipsis indicates that further steps are required
-#: src/gs-details-page.c:343 src/gs-third-party-repo-row.c:89
+#: src/gs-details-page.c:331 src/gs-third-party-repo-row.c:89
 msgid "_Install…"
 msgstr ""
 
 #. TRANSLATORS: A label for a button to execute the selected
 #. application.
-#: src/gs-details-page.c:377
+#: src/gs-details-page.c:365
 msgid "_Launch"
 msgstr ""
 
 #. TRANSLATORS: button text in the header when an application can be erased
-#: src/gs-details-page.c:402 src/gs-details-page.ui:241
+#: src/gs-details-page.c:390 src/gs-details-page.ui:241
 msgid "_Remove"
 msgstr ""
 
-#: src/gs-details-page.c:483
+#: src/gs-details-page.c:458
 msgid "Removing…"
 msgstr ""
 
 #. TRANSLATORS: This is a label on top of the app's progress
 #. * bar to inform the user that the app should be installed soon
-#: src/gs-details-page.c:502
+#: src/gs-details-page.c:477
 msgid "Pending installation…"
 msgstr ""
 
 #. TRANSLATORS: This is a label on top of the app's progress
 #. * bar to inform the user that the app should be updated soon
-#: src/gs-details-page.c:509
+#: src/gs-details-page.c:484
+#| msgid "Setting up updates…"
 msgid "Pending update…"
 msgstr ""
 
 #. TRANSLATORS: this is the warning box
-#: src/gs-details-page.c:830
+#: src/gs-details-page.c:798
 msgid "This application can only be used when there is an active internet connection."
 msgstr ""
 
 #. TRANSLATORS: this is where the version is not known
-#: src/gs-details-page.c:1009
+#: src/gs-details-page.c:963
 msgctxt "version"
 msgid "Unknown"
 msgstr ""
 
 #. TRANSLATORS: this is where the updated date is not known
-#: src/gs-details-page.c:1023
+#: src/gs-details-page.c:976
 msgctxt "updated"
 msgid "Never"
 msgstr ""
 
 #. TRANSLATORS: this is where we don't know the origin of the
 #. * application
-#: src/gs-details-page.c:1071
+#: src/gs-details-page.c:1024
 msgctxt "origin"
 msgid "Unknown"
 msgstr ""
 
 #. TRANSLATORS: we need a remote server to process
-#: src/gs-details-page.c:1478
+#: src/gs-details-page.c:1421
 msgid "You need internet access to write a review"
 msgstr ""
 
-#: src/gs-details-page.c:1608
+#: src/gs-details-page.c:1555
 #, c-format
 msgid "Unable to find “%s”"
 msgstr ""
 
-#. TRANSLATORS: This message is shown when opening
-#. * gnome-software with a path to an unhandled app, e.g.
-#. * /no/such/file
-#: src/gs-details-page.c:1725 src/gs-details-page.c:1754
-#, c-format
-msgid "Don't know how to handle ‘%s’"
-msgstr ""
-
-#: src/gs-details-page.c:2113
-msgid "Switch"
-msgstr ""
-
 #. TRANSLATORS: see the wikipedia page
-#: src/gs-details-page.c:2434
+#: src/gs-details-page.c:2158
 msgid "Public domain"
 msgstr ""
 
 #. TRANSLATORS: Replace the link with a version in your language,
 #. * e.g. https://de.wikipedia.org/wiki/Gemeinfreiheit
-#: src/gs-details-page.c:2437
+#: src/gs-details-page.c:2161
 msgid "https://en.wikipedia.org/wiki/Public_domain"
 msgstr ""
 
 #. TRANSLATORS: Replace the link with a version in your language,
 #. * e.g. https://www.gnu.org/philosophy/free-sw.de
-#: src/gs-details-page.c:2444
+#: src/gs-details-page.c:2168
 msgid "https://www.gnu.org/philosophy/free-sw"
 msgstr ""
 
 #. TRANSLATORS: see GNU page
-#: src/gs-details-page.c:2454 src/gs-details-page.ui:1531
+#: src/gs-details-page.c:2178 src/gs-details-page.ui:1383
 msgid "Free Software"
 msgstr ""
 
 #. TRANSLATORS: for the free software popover
-#: src/gs-details-page.c:2511
+#: src/gs-details-page.c:2235
 msgid "Users are bound by the following license:"
 msgid_plural "Users are bound by the following licenses:"
 msgstr[0] ""
@@ -3647,7 +1406,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/gs-details-page.c:2538 src/gs-details-page.ui:1640
+#: src/gs-details-page.c:2262 src/gs-details-page.ui:1492
 msgid "More information"
 msgstr ""
 
@@ -3665,183 +1424,184 @@ msgstr ""
 msgid "Re_move shortcut"
 msgstr ""
 
-#: src/gs-details-page.ui:373
-msgid "_Permissions"
-msgstr ""
-
-#: src/gs-details-page.ui:481
+#: src/gs-details-page.ui:456
 msgid "No screenshot provided"
 msgstr ""
 
-#: src/gs-details-page.ui:517
+#: src/gs-details-page.ui:492
+#| msgid "Software Source Included"
 msgid "Software Repository Included"
 msgstr ""
 
-#: src/gs-details-page.ui:518
+#: src/gs-details-page.ui:493
+#| msgid ""
+#| "This application includes a software source which provides updates, as "
+#| "well as access to other software."
 msgid "This application includes a software repository which provides updates, as well as access to other software."
 msgstr ""
 
-#: src/gs-details-page.ui:531
+#: src/gs-details-page.ui:506
+#| msgid "No Software Source Included"
 msgid "No Software Repository Included"
 msgstr ""
 
-#: src/gs-details-page.ui:532
+#: src/gs-details-page.ui:507
+#| msgid ""
+#| "This application does not include a software source. It will not be "
+#| "updated with new versions."
 msgid "This application does not include a software repository. It will not be updated with new versions."
 msgstr ""
 
-#: src/gs-details-page.ui:546
+#: src/gs-details-page.ui:521
 msgid "This software is already provided by your distribution and should not be replaced."
 msgstr ""
 
 #. Translators: a repository file used for installing software has been discovered.
-#: src/gs-details-page.ui:559
+#: src/gs-details-page.ui:534
+#| msgid "Software Source Identified"
 msgid "Software Repository Identified"
 msgstr ""
 
-#: src/gs-details-page.ui:560
+#: src/gs-details-page.ui:535
+#| msgid ""
+#| "Adding this software source will give you access to additional software "
+#| "and upgrades."
 msgid "Adding this software repository will give you access to additional software and upgrades."
 msgstr ""
 
-#: src/gs-details-page.ui:561
+#: src/gs-details-page.ui:536
+#| msgid "Only use software sources that you trust."
 msgid "Only use software repositories that you trust."
 msgstr ""
 
-#: src/gs-details-page.ui:577
+#: src/gs-details-page.ui:552
 msgid "_Website"
 msgstr ""
 
-#: src/gs-details-page.ui:592
+#: src/gs-details-page.ui:567
 msgid "_Donate"
 msgstr ""
 
-#: src/gs-details-page.ui:654
-msgid "This application is unconfined. It can access all personal files and system resources."
-msgstr ""
-
-#: src/gs-details-page.ui:766
+#: src/gs-details-page.ui:701
 msgid "Localized in your Language"
 msgstr ""
 
-#: src/gs-details-page.ui:778
+#: src/gs-details-page.ui:713
 msgid "Documentation"
 msgstr ""
 
-#: src/gs-details-page.ui:790
+#: src/gs-details-page.ui:725
 msgid "Release Activity"
 msgstr ""
 
-#: src/gs-details-page.ui:802
+#: src/gs-details-page.ui:737
 msgid "System Integration"
 msgstr ""
 
-#: src/gs-details-page.ui:814
+#: src/gs-details-page.ui:749
 msgid "Sandboxed"
 msgstr ""
 
-#: src/gs-details-page.ui:839
-msgid "Channel"
-msgstr ""
-
-#: src/gs-details-page.ui:884
+#: src/gs-details-page.ui:774
 msgid "Version"
 msgstr ""
 
-#: src/gs-details-page.ui:921
+#: src/gs-details-page.ui:811
 msgid "Age Rating"
 msgstr ""
 
-#: src/gs-details-page.ui:959
+#: src/gs-details-page.ui:849
 msgid "Updated"
 msgstr ""
 
-#: src/gs-details-page.ui:994
+#: src/gs-details-page.ui:884
 msgid "Category"
 msgstr ""
 
-#: src/gs-details-page.ui:1032
+#: src/gs-details-page.ui:922
 msgid "Installed Size"
 msgstr ""
 
-#: src/gs-details-page.ui:1065
+#: src/gs-details-page.ui:955
 msgid "Download Size"
 msgstr ""
 
-#: src/gs-details-page.ui:1131
+#: src/gs-details-page.ui:1021
 msgid "Developer"
 msgstr ""
 
-#: src/gs-details-page.ui:1180
+#: src/gs-details-page.ui:1055
 msgid "License"
 msgstr ""
 
 #. This refers to the license of the application
-#: src/gs-details-page.ui:1200
+#: src/gs-details-page.ui:1075
 msgid "Free"
 msgstr ""
 
 #. This refers to the license of the application
-#: src/gs-details-page.ui:1217
+#: src/gs-details-page.ui:1092
 msgid "Proprietary"
 msgstr ""
 
 #. This refers to the license of the application
 #. TRANSLATORS: this is when a user doesn't specify a name
-#: src/gs-details-page.ui:1234 src/gs-review-row.c:71
+#: src/gs-details-page.ui:1109 src/gs-review-row.c:71
 msgid "Unknown"
 msgstr ""
 
 #. TRANSLATORS: This is the header dividing the normal
 #. * applications and the addons
 #. TRANSLATORS: this is the menu spec main category for Add-ons
-#: src/gs-details-page.ui:1288 src/gs-installed-page.c:489
+#: src/gs-details-page.ui:1163 src/gs-installed-page.c:490
 #: plugins/core/gs-desktop-common.c:331
 msgid "Add-ons"
 msgstr ""
 
-#: src/gs-details-page.ui:1301
+#: src/gs-details-page.ui:1176
 msgid "Selected add-ons will be installed with the application."
 msgstr ""
 
 #. Translators: Header of the section with other users' opinions about the app.
-#: src/gs-details-page.ui:1344
+#: src/gs-details-page.ui:1219
 msgid "Reviews"
 msgstr ""
 
 #. Translators: Button opening a dialog where the users can write and publish their opinions about the apps.
-#: src/gs-details-page.ui:1360
+#: src/gs-details-page.ui:1235
 msgid "_Write a Review"
 msgstr ""
 
 #. Translators: Button to return more application-submitted reviews.
-#: src/gs-details-page.ui:1382
+#: src/gs-details-page.ui:1257
 msgid "_Show More"
 msgstr ""
 
-#: src/gs-details-page.ui:1548
+#: src/gs-details-page.ui:1400
 msgid "This means that the software can be freely run, copied, distributed, studied and modified."
 msgstr ""
 
-#: src/gs-details-page.ui:1607
+#: src/gs-details-page.ui:1459
 msgid "Proprietary Software"
 msgstr ""
 
-#: src/gs-details-page.ui:1624
+#: src/gs-details-page.ui:1476
 msgid "This means that the software is owned by an individual or a company. There are often restrictions on its use and its source code cannot usually be accessed."
 msgstr ""
 
-#: src/gs-details-page.ui:1669
+#: src/gs-details-page.ui:1521
 msgid "Unknown Software License"
 msgstr ""
 
-#: src/gs-details-page.ui:1686
+#: src/gs-details-page.ui:1538
 msgid "The license terms of this software are unknown."
 msgstr ""
 
-#: src/gs-details-page.ui:1713
+#: src/gs-details-page.ui:1565
 msgid "The application was rated this way because it features:"
 msgstr ""
 
-#: src/gs-details-page.ui:1739
+#: src/gs-details-page.ui:1591
 msgid "No details were available for this rating."
 msgstr ""
 
@@ -3938,7 +1698,6 @@ msgstr ""
 
 #. This check button controls whether the application’s banner appears in the “Featured” category
 #: src/gs-editor.ui:397
-#| msgid "Featured"
 msgid "Category Featured"
 msgstr ""
 
@@ -4073,7 +1832,7 @@ msgstr ""
 
 #. TRANSLATORS: this is when we know about an application or
 #. * addon, but it can't be listed for some reason
-#: src/gs-extras-page.c:394 lib/gs-plugin-loader.c:1447
+#: src/gs-extras-page.c:394 lib/gs-plugin-loader.c:1466
 #, c-format
 msgid "No addon codecs are available for the %s format."
 msgstr ""
@@ -4128,11 +1887,11 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/gs-extras-page.c:536 src/gs-extras-page.c:592 src/gs-extras-page.c:631
+#: src/gs-extras-page.c:539 src/gs-extras-page.c:595 src/gs-extras-page.c:634
 msgid "Failed to find any search results"
 msgstr ""
 
-#: src/gs-extras-page.c:822
+#: src/gs-extras-page.c:828
 #, c-format
 msgid "%s file format"
 msgstr ""
@@ -4202,15 +1961,15 @@ msgstr ""
 
 #. TRANSLATORS: This is the header dividing the normal
 #. * applications and the system ones
-#: src/gs-installed-page.c:485
+#: src/gs-installed-page.c:486
 msgid "System Applications"
 msgstr ""
 
-#: src/gs-installed-page.c:617
+#: src/gs-installed-page.c:618
 msgid "Click on items to select them"
 msgstr ""
 
-#: src/gs-installed-page.c:819
+#: src/gs-installed-page.c:820
 msgid "Select"
 msgstr ""
 
@@ -4248,11 +2007,16 @@ msgstr ""
 msgid "Starting up…"
 msgstr ""
 
-#: src/gs-menus.ui:8
+#: src/gs-menus.ui:7
+#| msgid "_Software Sources"
+msgid "_Software Repositories"
+msgstr ""
+
+#: src/gs-menus.ui:14
 msgid "_About"
 msgstr ""
 
-#: src/gs-menus.ui:12
+#: src/gs-menus.ui:18
 msgid "_Quit"
 msgstr ""
 
@@ -4265,41 +2029,41 @@ msgid "There are no reviews to moderate"
 msgstr ""
 
 #. add button
-#: src/gs-overview-page.c:334
+#: src/gs-overview-page.c:330
 msgid "More…"
 msgstr ""
 
 #. TRANSLATORS: this is a heading for audio applications which
 #. * have been featured ('recommended') by the distribution
-#: src/gs-overview-page.c:612
+#: src/gs-overview-page.c:496
 msgid "Recommended Audio & Video Applications"
 msgstr ""
 
 #. TRANSLATORS: this is a heading for games which have been
 #. * featured ('recommended') by the distribution
-#: src/gs-overview-page.c:617
+#: src/gs-overview-page.c:501
 msgid "Recommended Games"
 msgstr ""
 
 #. TRANSLATORS: this is a heading for graphics applications
 #. * which have been featured ('recommended') by the distribution
-#: src/gs-overview-page.c:622
+#: src/gs-overview-page.c:506
 msgid "Recommended Graphics Applications"
 msgstr ""
 
 #. TRANSLATORS: this is a heading for office applications which
 #. * have been featured ('recommended') by the distribution
-#: src/gs-overview-page.c:627
+#: src/gs-overview-page.c:511
 msgid "Recommended Productivity Applications"
 msgstr ""
 
 #. TRANSLATORS: this is the third party repositories info bar.
-#: src/gs-overview-page.c:999 src/gs-repos-dialog.c:838
+#: src/gs-overview-page.c:890 src/gs-repos-dialog.c:774
 msgid "Access additional software from selected third party sources."
 msgstr ""
 
 #. TRANSLATORS: this is the third party repositories info bar.
-#: src/gs-overview-page.c:1003 src/gs-repos-dialog.c:842
+#: src/gs-overview-page.c:894 src/gs-repos-dialog.c:778
 #| msgid ""
 #| "Proprietary software has restrictions on use and access to source code."
 msgid "Some of this software is proprietary and therefore has restrictions on use, sharing, and access to source code."
@@ -4307,13 +2071,12 @@ msgstr ""
 
 #. TRANSLATORS: this is the clickable
 #. * link on the third party repositories info bar
-#: src/gs-overview-page.c:1008 src/gs-repos-dialog.c:847
+#: src/gs-overview-page.c:901 src/gs-repos-dialog.c:785
 msgid "Find out more…"
 msgstr ""
 
 #. TRANSLATORS: button to turn on third party software repositories
-#. TRANSLATORS: button to accept the agreement
-#: src/gs-overview-page.c:1016 src/gs-repos-dialog.c:252
+#: src/gs-overview-page.c:910
 msgid "Enable"
 msgstr ""
 
@@ -4322,125 +2085,99 @@ msgid "Overview page"
 msgstr ""
 
 #: src/gs-overview-page.ui:49
+#| msgid "Enable Third-Party Software Source?"
 msgid "Enable Third Party Software Repositories?"
 msgstr ""
 
 #: src/gs-overview-page.ui:117
-msgid "Featured Applications"
+msgid "Featured Application"
 msgstr ""
 
-#: src/gs-overview-page.ui:166
+#: src/gs-overview-page.ui:150
 msgid "Categories"
 msgstr ""
 
 #. Translators: This is a heading for software which has been featured ('picked') by the distribution.
-#: src/gs-overview-page.ui:326
+#: src/gs-overview-page.ui:310
 msgid "Editor’s Picks"
 msgstr ""
 
 #. Translators: This is a heading for software which has been recently released upstream.
-#: src/gs-overview-page.ui:364
+#: src/gs-overview-page.ui:348
 msgid "Recent Releases"
 msgstr ""
 
-#: src/gs-overview-page.ui:451
+#: src/gs-overview-page.ui:435
 msgid "No Application Data Found"
 msgstr ""
 
 #. TRANSLATORS: this is a prompt message, and '%s' is an
 #. * application summary, e.g. 'GNOME Clocks'
-#: src/gs-page.c:496
+#: src/gs-page.c:466
 #, c-format
 msgid "Are you sure you want to purchase %s?"
 msgstr ""
 
 #. TRANSLATORS: longer dialog text
-#: src/gs-page.c:500
+#: src/gs-page.c:470
 #, c-format
 msgid "%s will be installed, and you will be charged %s."
 msgstr ""
 
 #. TRANSLATORS: this is button text to purchase the application
-#: src/gs-page.c:513
+#: src/gs-page.c:483
 msgid "Purchase"
 msgstr ""
 
 #. TRANSLATORS: this is a prompt message, and
 #. * '%s' is an application summary, e.g. 'GNOME Clocks'
-#: src/gs-page.c:587
+#: src/gs-page.c:557
 #, c-format
 msgid "Prepare %s"
 msgstr ""
 
 #. TRANSLATORS: this is a prompt message, and '%s' is an
 #. * source name, e.g. 'GNOME Nightly'
-#: src/gs-page.c:723
+#: src/gs-page.c:692
 #, c-format
 msgid "Are you sure you want to remove the %s source?"
 msgstr ""
 
 #. TRANSLATORS: longer dialog text
-#: src/gs-page.c:727
+#: src/gs-page.c:696
 #, c-format
 msgid "All applications from %s will be removed, and you will have to re-install the source to use them again."
 msgstr ""
 
 #. TRANSLATORS: this is a prompt message, and '%s' is an
 #. * application summary, e.g. 'GNOME Clocks'
-#: src/gs-page.c:735
+#: src/gs-page.c:704
 #, c-format
 msgid "Are you sure you want to remove %s?"
 msgstr ""
 
 #. TRANSLATORS: longer dialog text
-#: src/gs-page.c:738
+#: src/gs-page.c:707
 #, c-format
 msgid "%s will be removed, and you will have to install it to use it again."
 msgstr ""
 
-#: src/gs-permission-dialog.ui:51
-msgid "Permissions"
-msgstr ""
-
-#: src/gs-permission-dialog.ui:55
-msgid "Close"
-msgstr ""
-
-#: lib/gs-plugin-loader.c:1450
+#: lib/gs-plugin-loader.c:1469
 #, c-format
 msgid "Information about %s, as well as options for how to get a codec that can play this format can be found on the website."
 msgstr ""
 
 #. TRANSLATORS: this refers to an app (by name) that is installed
-#: src/gs-popular-tile.c:69 src/gs-summary-tile.c:75
+#: src/gs-popular-tile.c:70 src/gs-summary-tile.c:75
 #, c-format
 msgid "%s (Installed)"
 msgstr ""
 
 #. TRANSLATORS: this refers to where the app came from
-#: src/gs-popular-tile.c:205 src/gs-shell-search-provider.c:295
+#: src/gs-popular-tile.c:205
 #, c-format
+#| msgid "Source"
 msgid "Source: %s"
-msgstr ""
-
-#: src/gs-prefs-dialog.ui:6 src/gs-prefs-dialog.ui:19
-msgid "Update Preferences"
-msgstr ""
-
-#: src/gs-prefs-dialog.ui:48
-msgid "Automatic Updates"
-msgstr ""
-
-#: src/gs-prefs-dialog.ui:76
-msgid "Automatic updates are disabled when on mobile or metered connections."
-msgstr ""
-
-#: src/gs-prefs-dialog.ui:95
-msgid "Automatic Update Notifications"
-msgstr ""
-
-#: src/gs-prefs-dialog.ui:110
-msgid "Show notifications when updates have been automatically installed."
 msgstr ""
 
 #: lib/gs-price.c:111
@@ -4497,7 +2234,7 @@ msgstr ""
 
 #. TRANSLATORS: This is a text displayed during a distro upgrade. %s
 #. will be replaced by the name and version of distro, e.g. 'Fedora 23'.
-#: src/gs-removal-dialog.c:127
+#: src/gs-removal-dialog.c:128
 #, c-format
 msgid "Some of the currently installed software is not compatible with %s. If you continue, the following will be automatically removed during the upgrade:"
 msgstr ""
@@ -4571,53 +2308,58 @@ msgstr[3] ""
 
 #. TRANSLATORS: this is a prompt message, and '%s' is a
 #. * repository name, e.g. 'GNOME Nightly'
-#: src/gs-repos-dialog.c:312
+#: src/gs-repos-dialog.c:246
 #, c-format
+#| msgid "“%s”"
 msgid "Remove “%s”?"
 msgstr ""
 
 #. TRANSLATORS: this is a prompt message, and '%s' is a
 #. * repository name, e.g. 'GNOME Nightly'
-#: src/gs-repos-dialog.c:317
+#: src/gs-repos-dialog.c:251
 #, c-format
+#| msgid "Unable to find “%s”"
 msgid "Disable “%s”?"
 msgstr ""
 
 #. TRANSLATORS: longer dialog text
-#: src/gs-repos-dialog.c:321
+#: src/gs-repos-dialog.c:255
 msgid "Software that has been installed from this repository will no longer receive updates, including security fixes."
 msgstr ""
 
 #. TRANSLATORS: this is button text to remove the repo
-#: src/gs-repos-dialog.c:339
+#: src/gs-repos-dialog.c:273
+#| msgid "Enable"
 msgid "Disable"
 msgstr ""
 
 #. TRANSLATORS: this is the fallback text we use if we can't
 #. figure out the name of the operating system
-#: src/gs-repos-dialog.c:748
+#: src/gs-repos-dialog.c:683
 msgid "the operating system"
 msgstr ""
 
 #. TRANSLATORS: This is the description text displayed in the Software Repositories dialog.
 #. %s gets replaced by the name of the actual distro, e.g. Fedora.
-#: src/gs-repos-dialog.c:817 src/gs-repos-dialog.c:853
+#: src/gs-repos-dialog.c:753 src/gs-repos-dialog.c:792
 #, c-format
 msgid "These repositories supplement the default software provided by %s."
 msgstr ""
 
 #. TRANSLATORS: info bar title in the software repositories dialog
-#: src/gs-repos-dialog.c:835
+#: src/gs-repos-dialog.c:771
 msgid "Third Party Repositories"
 msgstr ""
 
 #: src/gs-repos-dialog.ui:82
+#| msgid "Additional Sources"
 msgid "No Additional Repositories"
 msgstr ""
 
 #. TRANSLATORS: this is a button in the software repositories
 #. dialog for enabling a repo
 #: src/gs-repo-row.c:110
+#| msgid "Enable"
 msgid "_Enable"
 msgstr ""
 
@@ -4625,6 +2367,7 @@ msgstr ""
 #. for removing a repo. The ellipsis indicates that further
 #. steps are required
 #: src/gs-repo-row.c:119
+#| msgid "Remove…"
 msgid "_Remove…"
 msgstr ""
 
@@ -4638,18 +2381,21 @@ msgstr ""
 #. TRANSLATORS: this is a button in the software repositories dialog
 #. that shows the status of a repo being enabled
 #: src/gs-repo-row.c:132
+#| msgid "Enable"
 msgid "Enabling"
 msgstr ""
 
 #. TRANSLATORS: this is a button in the software repositories dialog
 #. that shows the status of a repo being disabled
 #: src/gs-repo-row.c:144
+#| msgid "Installing"
 msgid "Disabling"
 msgstr ""
 
 #. TRANSLATORS: this is a label in the software repositories
 #. dialog that indicates that a repo is enabled.
 #: src/gs-repo-row.c:158
+#| msgid "Enable"
 msgid "Enabled"
 msgstr ""
 
@@ -4862,21 +2608,6 @@ msgstr ""
 msgid "No Application Found"
 msgstr ""
 
-#: src/gs-shell.c:705
-#, c-format
-msgid "Sign out from %s"
-msgstr ""
-
-#: src/gs-shell.c:708
-#, c-format
-msgid "Signed in into %s as %s"
-msgstr ""
-
-#: src/gs-shell.c:712
-#, c-format
-msgid "Sign in to %s…"
-msgstr ""
-
 #. TRANSLATORS: this is part of the in-app notification,
 #. * where the %s is the truncated hostname, e.g.
 #. * 'alt.fedoraproject.org'
@@ -4885,113 +2616,78 @@ msgstr ""
 #. TRANSLATORS: this is part of the in-app notification,
 #. * where the %s is a multi-word localised app name
 #. * e.g. 'Getting things GNOME!"
-#: src/gs-shell.c:952 src/gs-shell.c:957 src/gs-shell.c:972 src/gs-shell.c:976
+#: src/gs-shell.c:834 src/gs-shell.c:839 src/gs-shell.c:854 src/gs-shell.c:858
 #, c-format
 msgid "“%s”"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the source (e.g. "alt.fedoraproject.org")
-#: src/gs-shell.c:1028
+#: src/gs-shell.c:886
 #, c-format
 msgid "Unable to download firmware updates from %s"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the source (e.g. "alt.fedoraproject.org")
-#: src/gs-shell.c:1034
+#: src/gs-shell.c:892
 #, c-format
 msgid "Unable to download updates from %s"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1041
+#: src/gs-shell.c:899
 msgid "Unable to download updates"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1046
+#: src/gs-shell.c:904
 msgid "Unable to download updates: internet access was required but wasn’t available"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the source (e.g. "alt.fedoraproject.org")
-#: src/gs-shell.c:1055
+#: src/gs-shell.c:913
 #, c-format
 msgid "Unable to download updates from %s: not enough disk space"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1060
+#: src/gs-shell.c:918
 msgid "Unable to download updates: not enough disk space"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1068
+#: src/gs-shell.c:926
 msgid "Unable to download updates: authentication was required"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1073
+#: src/gs-shell.c:931
 msgid "Unable to download updates: authentication was invalid"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1078
+#: src/gs-shell.c:936
 msgid "Unable to download updates: you do not have permission to install software"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1088
+#: src/gs-shell.c:943
 msgid "Unable to get list of updates"
-msgstr ""
-
-#. TRANSLATORS: failure text for the in-app notification,
-#. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1127
-#, c-format
-msgid "Unable to purchase %s: authentication was required"
-msgstr ""
-
-#. TRANSLATORS: failure text for the in-app notification,
-#. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1134
-#, c-format
-msgid "Unable to purchase %s: authentication was invalid"
-msgstr ""
-
-#. TRANSLATORS: failure text for the in-app notification,
-#. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1141
-#, c-format
-msgid "Unable to purchase %s: no payment method setup"
-msgstr ""
-
-#. TRANSLATORS: failure text for the in-app notification,
-#. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1148
-#, c-format
-msgid "Unable to purchase %s: payment was declined"
-msgstr ""
-
-#. TRANSLATORS: failure text for the in-app notification,
-#. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1155
-#, c-format
-msgid "Unable to purchase %s"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the first %s is the application name (e.g. "GIMP") and
 #. * the second %s is the origin, e.g. "Fedora Project [fedoraproject.org]"
-#: src/gs-shell.c:1191
+#: src/gs-shell.c:989
 #, c-format
 msgid "Unable to install %s as download failed from %s"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1197
+#: src/gs-shell.c:995
 #, c-format
 msgid "Unable to install %s as download failed"
 msgstr ""
@@ -5000,51 +2696,51 @@ msgstr ""
 #. * where the first %s is the application name (e.g. "GIMP")
 #. * and the second %s is the name of the runtime, e.g.
 #. * "GNOME SDK [flatpak.gnome.org]"
-#: src/gs-shell.c:1209
+#: src/gs-shell.c:1007
 #, c-format
 msgid "Unable to install %s as runtime %s not available"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1215
+#: src/gs-shell.c:1013
 #, c-format
 msgid "Unable to install %s as not supported"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1222
+#: src/gs-shell.c:1020
 msgid "Unable to install: internet access was required but wasn’t available"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1228
+#: src/gs-shell.c:1026
 msgid "Unable to install: the application has an invalid format"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1233
+#: src/gs-shell.c:1031
 #, c-format
 msgid "Unable to install %s: not enough disk space"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1241
+#: src/gs-shell.c:1039
 #, c-format
 msgid "Unable to install %s: authentication was required"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1248
+#: src/gs-shell.c:1046
 #, c-format
 msgid "Unable to install %s: authentication was invalid"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1255
+#: src/gs-shell.c:1053
 #, c-format
 msgid "Unable to install %s: you do not have permission to install software"
 msgstr ""
@@ -5052,34 +2748,34 @@ msgstr ""
 #. TRANSLATORS: failure text for the in-app notification,
 #. * the %s is the name of the authentication service,
 #. * e.g. "Ubuntu One"
-#: src/gs-shell.c:1268
+#: src/gs-shell.c:1066
 #, c-format
 msgid "Your %s account has been suspended."
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1272
+#: src/gs-shell.c:1070
 msgid "It is not possible to install software until this has been resolved."
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the clickable link (e.g.
 #. * "http://example.com/what-did-i-do-wrong/")
-#: src/gs-shell.c:1283
+#: src/gs-shell.c:1081
 #, c-format
 msgid "For more information, visit %s."
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "Dell XPS 13")
-#: src/gs-shell.c:1292
+#: src/gs-shell.c:1090
 #, c-format
 msgid "Unable to install %s: AC power is required"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1301
+#: src/gs-shell.c:1099
 #, c-format
 msgid "Unable to install %s"
 msgstr ""
@@ -5088,61 +2784,61 @@ msgstr ""
 #. * where the first %s is the app name (e.g. "GIMP") and
 #. * the second %s is the origin, e.g. "Fedora" or
 #. * "Fedora Project [fedoraproject.org]"
-#: src/gs-shell.c:1347
+#: src/gs-shell.c:1145
 #, c-format
 msgid "Unable to update %s from %s"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1353
+#: src/gs-shell.c:1151
 #, c-format
 msgid "Unable to update %s as download failed"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1359
+#: src/gs-shell.c:1157
 msgid "Unable to update: internet access was required but wasn’t available"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1367
+#: src/gs-shell.c:1165
 #, c-format
 msgid "Unable to update %s: not enough disk space"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1376
+#: src/gs-shell.c:1174
 #, c-format
 msgid "Unable to update %s: authentication was required"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1383
+#: src/gs-shell.c:1181
 #, c-format
 msgid "Unable to update %s: authentication was invalid"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1390
+#: src/gs-shell.c:1188
 #, c-format
 msgid "Unable to update %s: you do not have permission to update software"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "Dell XPS 13")
-#: src/gs-shell.c:1398
+#: src/gs-shell.c:1196
 #, c-format
 msgid "Unable to update %s: AC power is required"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1407
+#: src/gs-shell.c:1205
 #, c-format
 msgid "Unable to update %s"
 msgstr ""
@@ -5150,96 +2846,96 @@ msgstr ""
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the first %s is the distro name (e.g. "Fedora 25") and
 #. * the second %s is the origin, e.g. "Fedora Project [fedoraproject.org]"
-#: src/gs-shell.c:1452
+#: src/gs-shell.c:1250
 #, c-format
 msgid "Unable to upgrade to %s from %s"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the app name (e.g. "GIMP")
-#: src/gs-shell.c:1457
+#: src/gs-shell.c:1255
 #, c-format
 msgid "Unable to upgrade to %s as download failed"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1464
+#: src/gs-shell.c:1262
 msgid "Unable to upgrade: internet access was required but wasn’t available"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the distro name (e.g. "Fedora 25")
-#: src/gs-shell.c:1472
+#: src/gs-shell.c:1270
 #, c-format
 msgid "Unable to upgrade to %s: not enough disk space"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the distro name (e.g. "Fedora 25")
-#: src/gs-shell.c:1481
+#: src/gs-shell.c:1279
 #, c-format
 msgid "Unable to upgrade to %s: authentication was required"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the distro name (e.g. "Fedora 25")
-#: src/gs-shell.c:1488
+#: src/gs-shell.c:1286
 #, c-format
 msgid "Unable to upgrade to %s: authentication was invalid"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the distro name (e.g. "Fedora 25")
-#: src/gs-shell.c:1495
+#: src/gs-shell.c:1293
 #, c-format
 msgid "Unable to upgrade to %s: you do not have permission to upgrade"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the distro name (e.g. "Fedora 25")
-#: src/gs-shell.c:1502
+#: src/gs-shell.c:1300
 #, c-format
 msgid "Unable to upgrade to %s: AC power is required"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the distro name (e.g. "Fedora 25")
-#: src/gs-shell.c:1511
+#: src/gs-shell.c:1309
 #, c-format
 msgid "Unable to upgrade to %s"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1553
+#: src/gs-shell.c:1351
 #, c-format
 msgid "Unable to remove %s: authentication was required"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1559
+#: src/gs-shell.c:1357
 #, c-format
 msgid "Unable to remove %s: authentication was invalid"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1565
+#: src/gs-shell.c:1363
 #, c-format
 msgid "Unable to remove %s: you do not have permission to remove software"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1572
+#: src/gs-shell.c:1370
 #, c-format
 msgid "Unable to remove %s: AC power is required"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1584
+#: src/gs-shell.c:1379
 #, c-format
 msgid "Unable to remove %s"
 msgstr ""
@@ -5248,65 +2944,48 @@ msgstr ""
 #. * where the first %s is the application name (e.g. "GIMP")
 #. * and the second %s is the name of the runtime, e.g.
 #. * "GNOME SDK [flatpak.gnome.org]"
-#: src/gs-shell.c:1630
+#: src/gs-shell.c:1425
 #, c-format
 msgid "Unable to launch %s: %s is not installed"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1637 src/gs-shell.c:1691 src/gs-shell.c:1735
-#: src/gs-shell.c:1786
+#: src/gs-shell.c:1432 src/gs-shell.c:1480 src/gs-shell.c:1528
 msgid "Not enough disk space — free up some space and try again"
 msgstr ""
 
 #. TRANSLATORS: we failed to get a proper error code
-#: src/gs-shell.c:1648 src/gs-shell.c:1702 src/gs-shell.c:1746
-#: src/gs-shell.c:1816
+#: src/gs-shell.c:1440 src/gs-shell.c:1488 src/gs-shell.c:1555
 msgid "Sorry, something went wrong"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1683
-msgid "Failed to install file: not supported"
-msgstr ""
-
-#. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1687
+#: src/gs-shell.c:1475
 msgid "Failed to install file: authentication failed"
-msgstr ""
-
-#. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1727
-msgid "Failed to install: not supported"
-msgstr ""
-
-#. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1731
-msgid "Failed to install: authentication failed"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * the %s is the origin, e.g. "Fedora" or
 #. * "Fedora Project [fedoraproject.org]"
-#: src/gs-shell.c:1780
+#: src/gs-shell.c:1522
 #, c-format
 msgid "Unable to contact %s"
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification,
 #. * where the %s is the application name (e.g. "GIMP")
-#: src/gs-shell.c:1795
+#: src/gs-shell.c:1537
 #, c-format
 msgid "%s needs to be restarted to use new plugins."
 msgstr ""
 
 #. TRANSLATORS: failure text for the in-app notification
-#: src/gs-shell.c:1800
+#: src/gs-shell.c:1542
 msgid "This application needs to be restarted to use new plugins."
 msgstr ""
 
 #. TRANSLATORS: need to be connected to the AC power
-#: src/gs-shell.c:1807
+#: src/gs-shell.c:1549
 msgid "AC power is required"
 msgstr ""
 
@@ -5329,50 +3008,45 @@ msgstr ""
 
 #. TRANSLATORS: this is where the packager did not write
 #. * a description for the update
-#: src/gs-update-dialog.c:113
+#: src/gs-update-dialog.c:130
 msgid "No update description available."
-msgstr ""
-
-#. TRANSLATORS: this is displayed while the changelog is being downloaded
-#: src/gs-update-dialog.c:154
-msgid "Downloading change information…"
 msgstr ""
 
 #. TRANSLATORS: this is the subtitle of the installed updates dialog window.
 #. %s will be replaced by the date when the updates were installed.
 #. The date format is defined by the locale's preferred date representation
 #. ("%x" in strftime.)
-#: src/gs-update-dialog.c:259
+#: src/gs-update-dialog.c:225
 #, c-format
 msgid "Installed on %s"
 msgstr ""
 
 #. TRANSLATORS: this is the title of the installed updates dialog window
-#: src/gs-update-dialog.c:279
+#: src/gs-update-dialog.c:245
 msgid "Installed Updates"
 msgstr ""
 
 #. TRANSLATORS: This is the header for package additions during
 #. * a system update
-#: src/gs-update-dialog.c:484
+#: src/gs-update-dialog.c:445
 msgid "Additions"
 msgstr ""
 
 #. TRANSLATORS: This is the header for package removals during
 #. * a system update
-#: src/gs-update-dialog.c:488
+#: src/gs-update-dialog.c:449
 msgid "Removals"
 msgstr ""
 
 #. TRANSLATORS: This is the header for package updates during
 #. * a system update
-#: src/gs-update-dialog.c:492
+#: src/gs-update-dialog.c:453
 msgid "Updates"
 msgstr ""
 
 #. TRANSLATORS: This is the header for package downgrades during
 #. * a system update
-#: src/gs-update-dialog.c:496
+#: src/gs-update-dialog.c:457
 msgid "Downgrades"
 msgstr ""
 
@@ -5380,139 +3054,87 @@ msgstr ""
 msgid "No updates have been installed on this system."
 msgstr ""
 
-#: src/gs-update-monitor.c:113
+#: src/gs-update-monitor.c:93
 msgid "Security Updates Pending"
 msgstr ""
 
-#: src/gs-update-monitor.c:114
+#: src/gs-update-monitor.c:94
 msgid "It is recommended that you install important updates now"
 msgstr ""
 
-#: src/gs-update-monitor.c:117
+#: src/gs-update-monitor.c:97
 msgid "Restart & Install"
 msgstr ""
 
-#: src/gs-update-monitor.c:121
+#: src/gs-update-monitor.c:101
 msgid "Software Updates Available"
 msgstr ""
 
-#: src/gs-update-monitor.c:122
+#: src/gs-update-monitor.c:102
 msgid "Important OS and application updates are ready to be installed"
 msgstr ""
 
 #. TRANSLATORS: button text
-#: src/gs-update-monitor.c:125 src/gs-updates-section.c:307
+#: src/gs-update-monitor.c:105 src/gs-updates-page.c:741
 msgid "Not Now"
 msgstr ""
 
-#: src/gs-update-monitor.c:126
+#: src/gs-update-monitor.c:106
 msgid "View"
 msgstr ""
 
-#. TRANSLATORS: apps were auto-updated and restart is required
-#: src/gs-update-monitor.c:224
-#, c-format
-msgid "%u Application Updated — Restart Required"
-msgid_plural "%u Applications Updated — Restart Required"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#. TRANSLATORS: apps were auto-updated
-#: src/gs-update-monitor.c:230
-#, c-format
-msgid "%u Application Updated"
-msgid_plural "%u Applications Updated"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#. TRANSLATORS: %1 is an application name, e.g. Firefox
-#: src/gs-update-monitor.c:241
-#, c-format
-msgid "%s has been updated."
-msgstr ""
-
-#. TRANSLATORS: the app needs restarting
-#: src/gs-update-monitor.c:244
-msgid "Please restart the application."
-msgstr ""
-
-#. TRANSLATORS: %1 and %2 are both application names, e.g. Firefox
-#: src/gs-update-monitor.c:252
-#, c-format
-msgid "%s and %s have been updated."
-msgstr ""
-
-#. TRANSLATORS: at least one application needs restarting
-#: src/gs-update-monitor.c:258 src/gs-update-monitor.c:277
-#, c-format
-msgid "%u application requires a restart."
-msgid_plural "%u applications require a restart."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-
-#. TRANSLATORS: %1, %2 and %3 are all application names, e.g. Firefox
-#: src/gs-update-monitor.c:270
-#, c-format
-msgid "Includes %s, %s and %s."
-msgstr ""
-
 #. TRANSLATORS: this is when the current OS version goes end-of-life
-#: src/gs-update-monitor.c:486 src/gs-updates-page.ui:46
+#: src/gs-update-monitor.c:260 src/gs-updates-page.ui:46
 msgid "Operating System Updates Unavailable"
 msgstr ""
 
 #. TRANSLATORS: this is the message dialog for the distro EOL notice
-#: src/gs-update-monitor.c:488
+#: src/gs-update-monitor.c:262
 msgid "Upgrade to continue receiving security updates."
 msgstr ""
 
 #. TRANSLATORS: this is a distro upgrade, the replacement would be the
 #. * distro name, e.g. 'Fedora'
-#: src/gs-update-monitor.c:542
+#: src/gs-update-monitor.c:316
 #, c-format
 msgid "A new version of %s is available to install"
 msgstr ""
 
 #. TRANSLATORS: this is a distro upgrade
-#: src/gs-update-monitor.c:546
+#: src/gs-update-monitor.c:320
 msgid "Software Upgrade Available"
 msgstr ""
 
 #. TRANSLATORS: title when we offline updates have failed
-#: src/gs-update-monitor.c:857
+#: src/gs-update-monitor.c:633
 msgid "Software Updates Failed"
 msgstr ""
 
 #. TRANSLATORS: message when we offline updates have failed
-#: src/gs-update-monitor.c:859
+#: src/gs-update-monitor.c:635
 msgid "An important OS update failed to be installed."
 msgstr ""
 
-#: src/gs-update-monitor.c:860
+#: src/gs-update-monitor.c:636
 msgid "Show Details"
 msgstr ""
 
 #. TRANSLATORS: Notification title when we've done a distro upgrade
-#: src/gs-update-monitor.c:883
+#: src/gs-update-monitor.c:659
 msgid "System Upgrade Complete"
 msgstr ""
 
 #. TRANSLATORS: This is the notification body when we've done a
 #. * distro upgrade. First %s is the distro name and the 2nd %s
 #. * is the version, e.g. "Welcome to Fedora 28!"
-#: src/gs-update-monitor.c:888
+#: src/gs-update-monitor.c:664
 #, c-format
+#| msgid "Welcome to Software"
 msgid "Welcome to %s %s!"
 msgstr ""
 
 #. TRANSLATORS: title when we've done offline updates
-#: src/gs-update-monitor.c:894
+#: src/gs-update-monitor.c:670
 msgid "Software Update Installed"
 msgid_plural "Software Updates Installed"
 msgstr[0] ""
@@ -5521,7 +3143,7 @@ msgstr[2] ""
 msgstr[3] ""
 
 #. TRANSLATORS: message when we've done offline updates
-#: src/gs-update-monitor.c:898
+#: src/gs-update-monitor.c:674
 msgid "An important OS update has been installed."
 msgid_plural "Important OS updates have been installed."
 msgstr[0] ""
@@ -5534,181 +3156,248 @@ msgstr[3] ""
 #. * users can't express their opinions here. In some languages
 #. * "Review (evaluate) something" is a different translation than
 #. * "Review (browse) something."
-#: src/gs-update-monitor.c:909
+#: src/gs-update-monitor.c:685
 msgctxt "updates"
 msgid "Review"
 msgstr ""
 
 #. TRANSLATORS: this is when the offline update failed
-#: src/gs-update-monitor.c:957
+#: src/gs-update-monitor.c:734
 msgid "Failed To Update"
 msgstr ""
 
 #. TRANSLATORS: the user must have updated manually after
 #. * the updates were prepared
-#: src/gs-update-monitor.c:963
+#: src/gs-update-monitor.c:740
 msgid "The system was already up to date."
 msgstr ""
 
 #. TRANSLATORS: the user aborted the update manually
-#: src/gs-update-monitor.c:968
+#: src/gs-update-monitor.c:745
 msgid "The update was cancelled."
 msgstr ""
 
 #. TRANSLATORS: the package manager needed to download
 #. * something with no network available
-#: src/gs-update-monitor.c:974
+#: src/gs-update-monitor.c:751
 msgid "Internet access was required but wasn’t available. Please make sure that you have internet access and try again."
 msgstr ""
 
 #. TRANSLATORS: if the package is not signed correctly
-#: src/gs-update-monitor.c:980
+#: src/gs-update-monitor.c:757
 msgid "There were security issues with the update. Please consult your software provider for more details."
 msgstr ""
 
 #. TRANSLATORS: we ran out of disk space
-#: src/gs-update-monitor.c:986
+#: src/gs-update-monitor.c:763
 msgid "There wasn’t enough disk space. Please free up some space and try again."
 msgstr ""
 
 #. TRANSLATORS: We didn't handle the error type
-#: src/gs-update-monitor.c:991
+#: src/gs-update-monitor.c:768
 msgid "We’re sorry: the update failed to install. Please wait for another update and try again. If the problem persists, contact your software provider."
 msgstr ""
 
 #. TRANSLATORS: Time in 24h format
-#: src/gs-updates-page.c:241
+#: src/gs-updates-page.c:298
 msgid "%R"
 msgstr ""
 
 #. TRANSLATORS: Time in 12h format
-#: src/gs-updates-page.c:244
+#: src/gs-updates-page.c:301
 msgid "%l:%M %p"
 msgstr ""
 
 #. TRANSLATORS: This is the word "Yesterday" followed by a
 #. time string in 24h format. i.e. "Yesterday, 14:30"
-#: src/gs-updates-page.c:250
+#: src/gs-updates-page.c:307
 msgid "Yesterday, %R"
 msgstr ""
 
 #. TRANSLATORS: This is the word "Yesterday" followed by a
 #. time string in 12h format. i.e. "Yesterday, 2:30 PM"
-#: src/gs-updates-page.c:254
+#: src/gs-updates-page.c:311
 msgid "Yesterday, %l:%M %p"
 msgstr ""
 
-#: src/gs-updates-page.c:257
+#: src/gs-updates-page.c:314
 msgid "Two days ago"
 msgstr ""
 
-#: src/gs-updates-page.c:259
+#: src/gs-updates-page.c:316
 msgid "Three days ago"
 msgstr ""
 
-#: src/gs-updates-page.c:261
+#: src/gs-updates-page.c:318
 msgid "Four days ago"
 msgstr ""
 
-#: src/gs-updates-page.c:263
+#: src/gs-updates-page.c:320
 msgid "Five days ago"
 msgstr ""
 
-#: src/gs-updates-page.c:265
+#: src/gs-updates-page.c:322
 msgid "Six days ago"
 msgstr ""
 
-#: src/gs-updates-page.c:267
+#: src/gs-updates-page.c:324
 msgid "One week ago"
 msgstr ""
 
-#: src/gs-updates-page.c:269
+#: src/gs-updates-page.c:326
 msgid "Two weeks ago"
 msgstr ""
 
 #. TRANSLATORS: This is the date string with: day number, month name, year.
 #. i.e. "25 May 2012"
-#: src/gs-updates-page.c:273
+#: src/gs-updates-page.c:330
 msgid "%e %B %Y"
 msgstr ""
 
+#. TRANSLATORS: the updates are being downloaded
+#: src/gs-updates-page.c:343
+msgid "Downloading new updates…"
+msgstr ""
+
 #. TRANSLATORS: the update panel is doing *something* vague
-#: src/gs-updates-page.c:290
+#: src/gs-updates-page.c:347
 msgid "Looking for new updates…"
 msgstr ""
 
 #. TRANSLATORS: the updates panel is starting up
-#: src/gs-updates-page.c:359
+#: src/gs-updates-page.c:388
 msgid "Setting up updates…"
 msgstr ""
 
 #. TRANSLATORS: the updates panel is starting up
-#: src/gs-updates-page.c:360 src/gs-updates-page.c:367
+#: src/gs-updates-page.c:389 src/gs-updates-page.c:396
 msgid "(This could take a while)"
 msgstr ""
 
 #. TRANSLATORS: This is the time when we last checked for updates
-#: src/gs-updates-page.c:466
+#: src/gs-updates-page.c:501
 #, c-format
 msgid "Last checked: %s"
 msgstr ""
 
+#. TRANSLATORS: we've just live-updated some apps
+#: src/gs-updates-page.c:737
+msgid "Updates have been installed"
+msgstr ""
+
+#. TRANSLATORS: the new apps will not be run until we restart
+#: src/gs-updates-page.c:739
+msgid "A restart is required for them to take effect."
+msgstr ""
+
+#. TRANSLATORS: button text
+#: src/gs-updates-page.c:743
+msgid "Restart"
+msgstr ""
+
+#. TRANSLATORS: This is the header for system firmware that
+#. * requires a reboot to apply
+#: src/gs-updates-page.c:813
+msgid "Integrated Firmware"
+msgstr ""
+
+#. TRANSLATORS: This is the button for upgrading all
+#. * system firmware
+#. TRANSLATORS: This is the button for upgrading all
+#. * offline updates
+#: src/gs-updates-page.c:816 src/gs-updates-page.c:826
+msgid "Restart & Update"
+msgstr ""
+
+#. TRANSLATORS: This is the header for offline OS and offline
+#. * app updates that require a reboot to apply
+#: src/gs-updates-page.c:823
+msgid "Requires Restart"
+msgstr ""
+
+#. TRANSLATORS: This is the header for online runtime and
+#. * app updates, typically flatpaks or snaps
+#: src/gs-updates-page.c:833
+msgid "Application Updates"
+msgstr ""
+
+#. TRANSLATORS: This is the button for upgrading all
+#. * online-updatable applications
+#: src/gs-updates-page.c:836
+msgid "Update All"
+msgstr ""
+
+#. TRANSLATORS: This is the header for device firmware that can
+#. * be installed online
+#: src/gs-updates-page.c:843
+msgid "Device Firmware"
+msgstr ""
+
+#. TRANSLATORS: this is an offline update
+#: src/gs-updates-page.c:1032
+msgid "_Restart & Update"
+msgstr ""
+
+#. TRANSLATORS: all updates will be installed
+#: src/gs-updates-page.c:1036
+msgid "U_pdate All"
+msgstr ""
+
 #. TRANSLATORS:  the first %s is the distro name, e.g. 'Fedora'
 #. * and the second %s is the distro version, e.g. '25'
-#: src/gs-updates-page.c:636
+#: src/gs-updates-page.c:1120
 #, c-format
 msgid "%s %s is no longer supported."
 msgstr ""
 
 #. TRANSLATORS: OS refers to operating system, e.g. Fedora
-#: src/gs-updates-page.c:641
+#: src/gs-updates-page.c:1125
 msgid "Your OS is no longer supported."
 msgstr ""
 
 #. TRANSLATORS: EOL distros do not get important updates
-#: src/gs-updates-page.c:646
+#: src/gs-updates-page.c:1130
 msgid "This means that it does not receive security updates."
 msgstr ""
 
 #. TRANSLATORS: upgrade refers to a major update, e.g. Fedora 25 to 26
-#: src/gs-updates-page.c:650
+#: src/gs-updates-page.c:1134
 msgid "It is recommended that you upgrade to a more recent version."
 msgstr ""
 
 #. TRANSLATORS: this is to explain that downloading updates may cost money
-#: src/gs-updates-page.c:899
+#: src/gs-updates-page.c:1391
 msgid "Charges may apply"
 msgstr ""
 
 #. TRANSLATORS: we need network
 #. * to do the updates check
-#: src/gs-updates-page.c:903
+#: src/gs-updates-page.c:1395
 msgid "Checking for updates while using mobile broadband could cause you to incur charges."
 msgstr ""
 
 #. TRANSLATORS: this is a link to the
 #. * control-center network panel
-#: src/gs-updates-page.c:907
+#: src/gs-updates-page.c:1399
 msgid "Check Anyway"
 msgstr ""
 
 #. TRANSLATORS: can't do updates check
-#: src/gs-updates-page.c:923
+#: src/gs-updates-page.c:1415
 msgid "No Network"
 msgstr ""
 
 #. TRANSLATORS: we need network
 #. * to do the updates check
-#: src/gs-updates-page.c:927
+#: src/gs-updates-page.c:1419
 msgid "Internet access is required to check for updates."
 msgstr ""
 
-#. This label indicates that the update check is in progress
-#: src/gs-updates-page.c:1351
-msgid "Checking…"
+#: src/gs-updates-page.c:1824
+msgid "Restart & _Install"
 msgstr ""
 
-#: src/gs-updates-page.c:1360
+#: src/gs-updates-page.c:1842
 msgid "Check for updates"
 msgstr ""
 
@@ -5738,61 +3427,6 @@ msgstr ""
 
 #: src/gs-updates-page.ui:393
 msgid "Updates are automatically managed"
-msgstr ""
-
-#. TRANSLATORS: This is the button for upgrading all
-#. * offline updates
-#: src/gs-updates-section.c:257
-msgid "Restart & Update"
-msgstr ""
-
-#. TRANSLATORS: This is the button for upgrading all
-#. * online-updatable applications
-#: src/gs-updates-section.c:263
-msgid "Update All"
-msgstr ""
-
-#. TRANSLATORS: we've just live-updated some apps
-#: src/gs-updates-section.c:303
-msgid "Updates have been installed"
-msgstr ""
-
-#. TRANSLATORS: the new apps will not be run until we restart
-#: src/gs-updates-section.c:305
-msgid "A restart is required for them to take effect."
-msgstr ""
-
-#. TRANSLATORS: button text
-#: src/gs-updates-section.c:309
-msgid "Restart"
-msgstr ""
-
-#. TRANSLATORS: This is the header for system firmware that
-#. * requires a reboot to apply
-#: src/gs-updates-section.c:389
-msgid "Integrated Firmware"
-msgstr ""
-
-#. TRANSLATORS: This is the header for offline OS and offline
-#. * app updates that require a reboot to apply
-#: src/gs-updates-section.c:393
-msgid "Requires Restart"
-msgstr ""
-
-#. TRANSLATORS: This is the header for online runtime and
-#. * app updates, typically flatpaks or snaps
-#: src/gs-updates-section.c:397
-msgid "Application Updates"
-msgstr ""
-
-#. TRANSLATORS: This is the header for device firmware that can
-#. * be installed online
-#: src/gs-updates-section.c:401
-msgid "Device Firmware"
-msgstr ""
-
-#: src/gs-upgrade-banner.ui:116
-msgid "_Download"
 msgstr ""
 
 #. TRANSLATORS: This is the text displayed when a distro
@@ -5832,10 +3466,23 @@ msgstr ""
 msgid "It is recommended that you back up your data and files before upgrading."
 msgstr ""
 
+#: src/gs-upgrade-banner.ui:116
+msgid "_Download"
+msgstr ""
+
+#: src/org.gnome.Software.desktop.in:4
+msgid "Add, remove or update software on this computer"
+msgstr ""
+
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: src/org.gnome.Software.desktop.in:6
 #: src/org.gnome.Software.Editor.desktop.in:6
 msgid "org.gnome.Software"
+msgstr ""
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: src/org.gnome.Software.desktop.in:12
+msgid "Updates;Upgrade;Sources;Repositories;Preferences;Install;Uninstall;Program;Software;App;Store;"
 msgstr ""
 
 #: src/org.gnome.Software.Editor.desktop.in:4
@@ -6239,13 +3886,13 @@ msgstr ""
 
 #. TRANSLATORS: this is a group of updates that are not
 #. * packages and are not shown in the main list
-#: plugins/core/gs-plugin-generic-updates.c:73
+#: plugins/core/gs-plugin-generic-updates.c:65
 msgid "OS Updates"
 msgstr ""
 
 #. TRANSLATORS: this is a longer description of the
 #. * "OS Updates" string
-#: plugins/core/gs-plugin-generic-updates.c:78
+#: plugins/core/gs-plugin-generic-updates.c:70
 msgid "Includes performance, stability and security improvements."
 msgstr ""
 
@@ -6302,7 +3949,7 @@ msgid "Downloading upgrade information…"
 msgstr ""
 
 #. TRANSLATORS: this is a title for Fedora distro upgrades
-#: plugins/fedora-pkgdb-collections/gs-plugin-fedora-pkgdb-collections.c:306
+#: plugins/fedora-pkgdb-collections/gs-plugin-fedora-pkgdb-collections.c:311
 msgid "Upgrade your Fedora system to the latest features and improvements."
 msgstr ""
 
@@ -6315,19 +3962,29 @@ msgid "Flatpak is a framework for desktop applications on Linux"
 msgstr ""
 
 #. TRANSLATORS: status text when downloading new metadata
-#: plugins/flatpak/gs-flatpak.c:571
+#: plugins/flatpak/gs-flatpak.c:607
 #, c-format
 msgid "Getting flatpak metadata for %s…"
 msgstr ""
 
+#. TRANSLATORS: status text when downloading the RuntimeRepo
+#: plugins/flatpak/gs-flatpak.c:2795
+msgid "Getting runtime source…"
+msgstr ""
+
 #. TRANSLATORS: status text when downloading
-#: plugins/fwupd/gs-plugin-fwupd.c:672
+#: plugins/fwupd/gs-plugin-fwupd.c:695
 msgid "Downloading firmware update signature…"
 msgstr ""
 
 #. TRANSLATORS: status text when downloading
-#: plugins/fwupd/gs-plugin-fwupd.c:713
+#: plugins/fwupd/gs-plugin-fwupd.c:736
 msgid "Downloading firmware update metadata…"
+msgstr ""
+
+#. TRANSLATORS: status text when downloading
+#: plugins/fwupd/gs-plugin-fwupd.c:826
+msgid "Downloading firmware update…"
 msgstr ""
 
 #: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:6
@@ -6336,6 +3993,14 @@ msgstr ""
 
 #: plugins/fwupd/org.gnome.Software.Plugin.Fwupd.metainfo.xml.in:7
 msgid "Provides support for firmware upgrades"
+msgstr ""
+
+#: plugins/limba/org.gnome.Software.Plugin.Limba.metainfo.xml.in:6
+msgid "Limba Support"
+msgstr ""
+
+#: plugins/limba/org.gnome.Software.Plugin.Limba.metainfo.xml.in:7
+msgid "Limba provides developers a way to easily create software bundles"
 msgstr ""
 
 #. TRANSLATORS: status text when downloading
@@ -6351,232 +4016,21 @@ msgstr ""
 msgid "ODRS is a service providing user reviews of applications"
 msgstr ""
 
-#: plugins/shell-extensions/gs-plugin-shell-extensions.c:392
+#: plugins/shell-extensions/gs-plugin-shell-extensions.c:398
 #| msgctxt "Menu of Add-ons"
 #| msgid "Shell Extensions"
 msgid "GNOME Shell Extensions Repository"
 msgstr ""
 
 #. TRANSLATORS: status text when downloading
-#: plugins/shell-extensions/gs-plugin-shell-extensions.c:704
+#: plugins/shell-extensions/gs-plugin-shell-extensions.c:715
 msgid "Downloading shell extension metadata…"
 msgstr ""
 
 #. TRANSLATORS: default snap store name
-#: plugins/snap/gs-plugin-snap.c:238
+#: plugins/snap/gs-plugin-snap.c:211
+#| msgid "Snappy Support"
 msgid "Snap Store"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1196
-msgid "Add user accounts and change passwords"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1198 plugins/snap/gs-plugin-snap.c:1270
-msgid "Play and record sound"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1200
-msgid "Detect network devices using mDNS/DNS-SD (Bonjour/zeroconf)"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1202
-msgid "Access bluetooth hardware directly"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1204
-msgid "Use bluetooth devices"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1206
-msgid "Use your camera"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1208
-msgid "Print documents"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1210
-msgid "Use any connected joystick"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1212
-msgid "Allow connecting to the Docker service"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1214
-msgid "Configure network firewall"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1216
-msgid "Setup and use privileged FUSE filesystems"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1218
-msgid "Update firmware on this device"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1220
-msgid "Access hardware information"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1222
-msgid "Provide entropy to hardware random number generator"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1224
-msgid "Use hardware-generated random numbers"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1226
-msgid "Access files in your home folder"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1228
-msgid "Access libvirt service"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1230
-msgid "Change system language and region settings"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1232
-msgid "Change location settings and providers"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1234
-msgid "Access your location"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1236
-msgid "Read system and application logs"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1238
-msgid "Access LXD service"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1242
-msgid "Use and configure modems"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1244
-msgid "Read system mount information and disk quotas"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1246
-msgid "Control music and video players"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1248
-msgid "Change low-level network settings"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1250
-msgid "Access the NetworkManager service to read and change network settings"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1252
-msgid "Read access to network settings"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1254
-msgid "Change network settings"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1256
-msgid "Read network settings"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1258
-msgid "Access the ofono service to read and change network settings for mobile telephony"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1260
-msgid "Control Open vSwitch hardware"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1262
-msgid "Read from CD/DVD"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1264
-msgid "Read, add, change, or remove saved passwords"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1266
-msgid "Access pppd and ppp devices for configuring Point-to-Point Protocol connections"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1268
-msgid "Pause or end any process on the system"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1272
-msgid "Access USB hardware directly"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1274
-msgid "Read/write files on removable storage devices"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1276
-msgid "Prevent screen sleep/lock"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1278
-msgid "Access serial port hardware"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1280
-msgid "Restart or power off the device"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1282
-msgid "Install, remove and configure software"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1284
-msgid "Access Storage Framework service"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1286
-msgid "Read process and system information"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1288
-msgid "Monitor and control any running program"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1290
-msgid "Change the date and time"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1292
-msgid "Change time server settings"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1294
-msgid "Change the time zone"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1296
-msgid "Access the UDisks2 service for configuring disks and removable media"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1298
-msgid "Read/change shared calendar events in Ubuntu Unity 8"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1300
-msgid "Read/change shared contacts in Ubuntu Unity 8"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1302
-msgid "Access energy usage data"
-msgstr ""
-
-#: plugins/snap/gs-plugin-snap.c:1315
-msgid "Read/write access to U2F devices exposed"
 msgstr ""
 
 #: plugins/snap/org.gnome.Software.Plugin.Snap.metainfo.xml.in:6
@@ -6599,4 +4053,504 @@ msgstr ""
 #: plugins/steam/org.gnome.Software.Plugin.Steam.metainfo.xml.in:7
 msgid "The ultimate entertainment platform from Valve"
 msgstr ""
+
+#~ msgid "The list of extra sources that have been previously enabled"
+#~ msgstr "The list of extra sources that have been previously enabled"
+
+#~ msgid ""
+#~ "The list of sources that have been previously enabled when installing "
+#~ "third-party applications."
+#~ msgstr ""
+#~ "The list of sources that have been previously enabled when installing "
+#~ "third-party applications."
+
+#~ msgid "Show non-free software in search results"
+#~ msgstr "Show non-free software in search results"
+
+#~ msgid "A list of non-free sources that can be optionally enabled"
+#~ msgstr "A list of non-free sources that can be optionally enabled"
+
+#~ msgid "Player-to-player preset interactions without chat functionality"
+#~ msgstr "Player-to-player preset interactions without chat functionality"
+
+#~ msgid ""
+#~ "Provides access to additional software, including web browsers and games."
+#~ msgstr ""
+#~ "Provides access to additional software, including web browsers and games."
+
+#~ msgid "Enable Proprietary Software Sources?"
+#~ msgstr "Enable Proprietary Software Source?"
+
+#~ msgid "No applications or addons installed; other software might still be"
+#~ msgstr "No applications or addons installed; other software might still be"
+
+#~ msgid "Typically has restrictions on use and access to source code."
+#~ msgstr "Typically has restrictions on use and access to source code."
+
+#~ msgid "Proprietary Software Sources"
+#~ msgstr "Proprietary Software Sources"
+
+#~ msgid "Remove Source"
+#~ msgstr "Remove Source"
+
+#~ msgid ""
+#~ "Software sources can be downloaded from the internet. They give you "
+#~ "access to additional software that is not provided by %s."
+#~ msgstr ""
+#~ "Software sources can be downloaded from the internet. They give you "
+#~ "access to additional software that is not provided by %s."
+
+#~ msgid ""
+#~ "Removing a source will also remove any software you have installed from "
+#~ "it."
+#~ msgstr ""
+#~ "Removing a source will also remove any software you have installed from "
+#~ "it."
+
+#~ msgid "No software installed from this source"
+#~ msgstr "No software installed from this source"
+
+#~ msgid "Installed from this Source"
+#~ msgstr "Installed from this Source"
+
+#~ msgid "Source Details"
+#~ msgstr "Source Details"
+
+#~ msgid "Last Checked"
+#~ msgstr "Last Checked"
+
+#~ msgid "Added"
+#~ msgstr "Added"
+
+#~ msgid "Website"
+#~ msgstr "website"
+
+#~ msgid "About Software"
+#~ msgstr "About Software"
+
+#~ msgid "Total"
+#~ msgstr "Total"
+
+#~ msgid "Could not find '%s'"
+#~ msgstr "Could not find '%s'"
+
+#~ msgid "_Install All"
+#~ msgstr "_Install All"
+
+#~ msgid "Other Updates"
+#~ msgstr "Other Updates"
+
+#~ msgid "Installation of %s failed."
+#~ msgstr "Installation of %s failed."
+
+#~ msgid "Removal of %s failed."
+#~ msgstr "Removal of %s failed."
+
+#~ msgid "Please make sure that you have internet access and try again."
+#~ msgstr "Please make sure that you have internet access and try again."
+
+#~ msgid "Please free up some space and try again."
+#~ msgstr "Please free up some space and try again."
+
+#~ msgid "If the problem persists, contact your software provider."
+#~ msgstr "If the problem persists, contact your software provider."
+
+#~ msgctxt "content rating violence-cartoon"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating violence-fantasy"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating violence-realistic"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating violence-bloodshed"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating violence-sexual"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating drugs-alcohol"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating drugs-narcotics"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating sex-nudity"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating sex-themes"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating language-profanity"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating language-humor"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating language-discrimination"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating money-advertising"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating money-gambling"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating money-purchasing"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating social-chat"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating social-audio"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating social-contacts"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating social-info"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "content rating social-location"
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgctxt "Menu of AudioVideo"
+#~ msgid "All"
+#~ msgstr "All"
+
+#~ msgctxt "Menu of AudioVideo"
+#~ msgid "Featured"
+#~ msgstr "Featured"
+
+#~ msgctxt "Menu of Development"
+#~ msgid "All"
+#~ msgstr "All"
+
+#~ msgctxt "Menu of Development"
+#~ msgid "Featured"
+#~ msgstr "Featured"
+
+#~ msgctxt "Menu of Education"
+#~ msgid "All"
+#~ msgstr "All"
+
+#~ msgctxt "Menu of Education"
+#~ msgid "Featured"
+#~ msgstr "Featured"
+
+#~ msgctxt "Menu of Graphics"
+#~ msgid "All"
+#~ msgstr "All"
+
+#~ msgctxt "Menu of Graphics"
+#~ msgid "Featured"
+#~ msgstr "Featured"
+
+#~ msgctxt "Menu of Office"
+#~ msgid "All"
+#~ msgstr "All"
+
+#~ msgctxt "Menu of Office"
+#~ msgid "Featured"
+#~ msgstr "Featured"
+
+#~ msgctxt "Menu of Science"
+#~ msgid "All"
+#~ msgstr "All"
+
+#~ msgctxt "Menu of Science"
+#~ msgid "Featured"
+#~ msgstr "Featured"
+
+#~ msgctxt "Menu of Science"
+#~ msgid "Astronomy"
+#~ msgstr "Astronomy"
+
+#~ msgctxt "Menu of Science"
+#~ msgid "Chemistry"
+#~ msgstr "Chemistry"
+
+#~ msgctxt "Menu of Science"
+#~ msgid "Math"
+#~ msgstr "Mathematics"
+
+#~ msgctxt "Menu of Communication"
+#~ msgid "All"
+#~ msgstr "All"
+
+#~ msgctxt "Menu of Communication"
+#~ msgid "Featured"
+#~ msgstr "Featured"
+
+#~ msgctxt "Menu of Utility"
+#~ msgid "All"
+#~ msgstr "All"
+
+#~ msgctxt "Menu of Utility"
+#~ msgid "Featured"
+#~ msgstr "Featured"
+
+#~ msgid "Science"
+#~ msgstr "Science"
+
+#~ msgid "Software sources give you access to additional software."
+#~ msgstr "Software sources give you access to additional software."
+
+#~ msgid "Picks"
+#~ msgstr "Picks"
+
+#~ msgid "_History"
+#~ msgstr "_History"
+
+#~ msgid "Done"
+#~ msgstr "Done"
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Audio"
+#~ msgstr "Audio"
+
+#~ msgid "Databases"
+#~ msgstr "Databases"
+
+#~ msgid "Disc Burning"
+#~ msgstr "Disc Burning"
+
+#~ msgid "Ham Radio"
+#~ msgstr "Ham Radio"
+
+#~ msgid "MIDI"
+#~ msgstr "MIDI"
+
+#~ msgid "Mixer"
+#~ msgstr "Mixer"
+
+#~ msgid "Music"
+#~ msgstr "Music"
+
+#~ msgid "Recorders"
+#~ msgstr "Recorders"
+
+#~ msgid "Sequencers"
+#~ msgstr "Sequencers"
+
+#~ msgid "Tuners"
+#~ msgstr "Tuners"
+
+#~ msgid "Building"
+#~ msgstr "Building"
+
+#~ msgid "Profiling"
+#~ msgstr "Profiling"
+
+#~ msgid "Revision Control"
+#~ msgstr "Revision Control"
+
+#~ msgid "Translation"
+#~ msgstr "Translation"
+
+#~ msgid "Biology"
+#~ msgstr "Biology"
+
+#~ msgid "Computer Science"
+#~ msgstr "Computer Science"
+
+#~ msgid "Construction"
+#~ msgstr "Construction"
+
+#~ msgid "Data Visualization"
+#~ msgstr "Data Visualisation"
+
+#~ msgid "Economy"
+#~ msgstr "Economy"
+
+#~ msgid "Electricity"
+#~ msgstr "Electricity"
+
+#~ msgid "Electronics"
+#~ msgstr "Electronics"
+
+#~ msgid "Engineering"
+#~ msgstr "Engineering"
+
+#~ msgid "Geology"
+#~ msgstr "Geology"
+
+#~ msgid "Geoscience"
+#~ msgstr "Geoscience"
+
+#~ msgid "Humanities"
+#~ msgstr "Humanities"
+
+#~ msgid "Image Processing"
+#~ msgstr "Image Processing"
+
+#~ msgid "Literature"
+#~ msgstr "Literature"
+
+#~ msgid "Maps"
+#~ msgstr "Maps"
+
+#~ msgid "Medical"
+#~ msgstr "Medical"
+
+#~ msgid "Numerical Analysis"
+#~ msgstr "Numerical Analysis"
+
+#~ msgid "Parallel Computing"
+#~ msgstr "Parallel Computing"
+
+#~ msgid "Physics"
+#~ msgstr "Physics"
+
+#~ msgid "Spirituality"
+#~ msgstr "Spirituality"
+
+#~ msgid "Shooter"
+#~ msgstr "Shooter"
+
+#~ msgid "Simulation"
+#~ msgstr "Simulation"
+
+#~ msgid "Graphics"
+#~ msgstr "Graphics"
+
+#~ msgid "2D Graphics"
+#~ msgstr "2D Graphics"
+
+#~ msgid "OCR"
+#~ msgstr "OCR"
+
+#~ msgid "Raster Graphics"
+#~ msgstr "Raster Graphics"
+
+#~ msgid "Internet"
+#~ msgstr "Internet"
+
+#~ msgid "Dialup"
+#~ msgstr "Dialup"
+
+#~ msgid "Email"
+#~ msgstr "E-mail"
+
+#~ msgid "Feed"
+#~ msgstr "Feed"
+
+#~ msgid "File Transfer"
+#~ msgstr "File Transfer"
+
+#~ msgid "Instant Messaging"
+#~ msgstr "Instant Messaging"
+
+#~ msgid "IRC Clients"
+#~ msgstr "IRC Clients"
+
+#~ msgid "Monitor"
+#~ msgstr "Monitor"
+
+#~ msgid "P2P"
+#~ msgstr "P2P"
+
+#~ msgid "Remote Access"
+#~ msgstr "Remote Access"
+
+#~ msgid "Telephony"
+#~ msgstr "Telephony"
+
+#~ msgid "Office"
+#~ msgstr "Office"
+
+#~ msgid "Chart"
+#~ msgstr "Chart"
+
+#~ msgid "Contact Management"
+#~ msgstr "Contact Management"
+
+#~ msgid "Dictionary"
+#~ msgstr "Dictionary"
+
+#~ msgid "Flow Chart"
+#~ msgstr "Flow Chart"
+
+#~ msgid "PDA"
+#~ msgstr "PDA"
+
+#~ msgid "Spreadsheet"
+#~ msgstr "Spreadsheet"
+
+#~ msgid "Settings"
+#~ msgstr "Settings"
+
+#~ msgid "Accessibility"
+#~ msgstr "Accessibility"
+
+#~ msgid "Package Manager"
+#~ msgstr "Package Manager"
+
+#~ msgid "Printing"
+#~ msgstr "Printing"
+
+#~ msgid "Security"
+#~ msgstr "Security"
+
+#~ msgid "System"
+#~ msgstr "System"
+
+#~ msgid "Emulator"
+#~ msgstr "Emulator"
+
+#~ msgid "File Manager"
+#~ msgstr "File Manager"
+
+#~ msgid "Filesystem"
+#~ msgstr "File System"
+
+#~ msgid "File Tools"
+#~ msgstr "File Tools"
+
+#~ msgid "Terminal Emulator"
+#~ msgstr "Terminal Emulator"
+
+#~ msgid "Archiving"
+#~ msgstr "Archiving"
+
+#~ msgid "Calculator"
+#~ msgstr "Calculator"
+
+#~ msgid "Clock"
+#~ msgstr "Clock"
+
+#~ msgid "Compression"
+#~ msgstr "Compression"
+
+#~ msgid "Telephony Tools"
+#~ msgstr "Telephony Tools"
+
+#~ msgid "Video"
+#~ msgstr "Video"
+
+#~ msgid "TV"
+#~ msgstr "TV"
 

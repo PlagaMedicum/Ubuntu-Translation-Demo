@@ -1,41 +1,41 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: ubuntu-translations-demo\n"
+"Project-Id-Version: ubuntu-translations\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2019-02-20 15:38+0000\n"
-"PO-Revision-Date: 2019-07-08 16:57\n"
-"Last-Translator: Andriy Poznakhovskyy (Andriy_Crowdin)\n"
+"PO-Revision-Date: 2020-01-31 00:21\n"
+"Last-Translator: Andi Chandler <Unknown>\n"
 "Language-Team: Belarusian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2019-05-11 10:31+0000\n"
-"X-Generator: crowdin.com\n"
+"X-Generator: Launchpad (build 18962)\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || n%10>=5 && n%10<=9 || n%100>=11 && n%100<=14 ? 2 : 3);\n"
-"X-Crowdin-Project: ubuntu-translations-demo\n"
+"X-Crowdin-Project: ubuntu-translations\n"
 "X-Crowdin-Language: be\n"
 "X-Crowdin-File: /master/rosetta-eoan/en_GB/LC_MESSAGES/alsa-utils.po\n"
 "Language: be_BY\n"
 
 #: alsamixer/card_select.c:126 alsamixer/device_name.c:126
 msgid "Sound Card"
-msgstr ""
+msgstr "Гукавая карта"
 
 #: alsamixer/card_select.c:181
 msgid "(default)"
-msgstr ""
+msgstr "(перадвызначана)"
 
 #: alsamixer/card_select.c:191
 msgid "cannot enumerate sound cards"
-msgstr ""
+msgstr "немагчыма пералічыць гукавыя карты"
 
 #: alsamixer/card_select.c:215
 msgid "enter device name..."
-msgstr ""
+msgstr "увядзіце назву прылады..."
 
 #: alsamixer/cli.c:40
 msgid "Usage: alsamixer [options]"
-msgstr ""
+msgstr "Выкарыстанне: alsamixer [options]"
 
 #: alsamixer/cli.c:41
 msgid "Useful options:\n"
@@ -43,333 +43,339 @@ msgid "Useful options:\n"
 "  -c, --card=NUMBER       sound card number or id\n"
 "  -D, --device=NAME       mixer device name\n"
 "  -V, --view=MODE         starting view mode: playback/capture/all"
-msgstr ""
+msgstr "Карысныя параметры:\n"
+"  -h, --help              гэта даведка\n"
+"  -c, --card=NUMBER       нумар або id гукавой карты\n"
+"  -D, --device=NAME       назва прылады мікшара\n"
+"  -V, --view=MODE         рэжым пачатковага выгляду: прайграванне/захоп/усе"
 
 #: alsamixer/cli.c:46
 msgid "Debugging options:\n"
 "  -g, --no-color          toggle using of colors\n"
 "  -a, --abstraction=NAME  mixer abstraction level: none/basic"
-msgstr ""
+msgstr "Адладачныя параметры:\n"
+"  -g, --no-color          пераключэнне колераў\n"
+"  -a, --abstraction=NAME  узровень абстракцыі мікшара: ніякі/базавы"
 
 #: alsamixer/cli.c:77
 #, c-format
 msgid "invalid card index: %s\n"
-msgstr ""
+msgstr "несапраўдны індэкс карты: %s\n"
 
 #: alsamixer/cli.c:103
 #, c-format
 msgid "unknown abstraction level: %s\n"
-msgstr ""
+msgstr "невядомы ўзровень абстракцыі: %s\n"
 
 #: alsamixer/cli.c:108
 #, c-format
 msgid "unknown option: %c\n"
-msgstr ""
+msgstr "невядомы параметр: %c\n"
 
 #: alsamixer/cli.c:110
 msgid "try `alsamixer --help' for more information\n"
-msgstr ""
+msgstr "паспрабуйце `alsamixer --help 'для атрымання дадатковай інфармацыі\n"
 
 #: alsamixer/device_name.c:177
 msgid "Device name:"
-msgstr ""
+msgstr "Назва прылады:"
 
 #: alsamixer/die.c:37
 #, c-format
 msgid "%s: %s\n"
-msgstr ""
+msgstr "%s: %s\n"
 
 #: alsamixer/mixer_display.c:98
 msgid "Card:"
-msgstr ""
+msgstr "Карта:"
 
 #: alsamixer/mixer_display.c:99
 msgid "Chip:"
-msgstr ""
+msgstr "Чып:"
 
 #: alsamixer/mixer_display.c:100
 msgid "View:"
-msgstr ""
+msgstr "Выгляд:"
 
 #: alsamixer/mixer_display.c:101
 msgid "Item:"
-msgstr ""
+msgstr "Элемент:"
 
 #: alsamixer/mixer_display.c:104
 msgid "F1:  Help"
-msgstr ""
+msgstr "F1: Даведка"
 
 #: alsamixer/mixer_display.c:105
 msgid "F2:  System information"
-msgstr ""
+msgstr "F2: Інфармацыя аб сістэме"
 
 #: alsamixer/mixer_display.c:106
 msgid "F6:  Select sound card"
-msgstr ""
+msgstr "F6: Выбар гукавой карты"
 
 #: alsamixer/mixer_display.c:107
 msgid "Esc: Exit"
-msgstr ""
+msgstr "Esc: Выхад"
 
 #: alsamixer/mixer_display.c:174
 msgid "(unplugged)"
-msgstr ""
+msgstr "(адлучана)"
 
 #: alsamixer/mixer_display.c:192
 msgid "Playback"
-msgstr ""
+msgstr "Прайграванне"
 
 #: alsamixer/mixer_display.c:193
 msgid "Capture"
-msgstr ""
+msgstr "Захоп"
 
 #: alsamixer/mixer_display.c:194
 msgid "All"
-msgstr ""
+msgstr "Усе"
 
 #: alsamixer/mixer_display.c:234
 msgid "mute"
-msgstr ""
+msgstr "адключыць гук"
 
 #: alsamixer/mixer_display.c:275 alsamixer/mixer_display.c:285
 msgid "dB gain:"
-msgstr ""
+msgstr "Узмацненне дБ:"
 
 #: alsamixer/mixer_display.c:285
 #, c-format
 msgid " [%s %s, %s]"
-msgstr ""
+msgstr " [%s %s, %s]"
 
 #: alsamixer/mixer_display.c:294 alsamixer/mixer_display.c:300
 #: alsamixer/mixer_display.c:306 alsamixer/mixer_display.c:312
 msgid "Off"
-msgstr ""
+msgstr "Выкл."
 
 #: alsamixer/mixer_display.c:300 alsamixer/mixer_display.c:312
 msgid "On"
-msgstr ""
+msgstr "Укл."
 
 #: alsamixer/mixer_display.c:363
 msgid "The sound device was unplugged."
-msgstr ""
+msgstr "Прылада была адлучана."
 
 #: alsamixer/mixer_display.c:364
 msgid "Press F6 to select another sound card."
-msgstr ""
+msgstr "Націсніце F6 для выбару іншай гукавой карты."
 
 #: alsamixer/mixer_display.c:379
 msgid "This sound device does not have any playback controls."
-msgstr ""
+msgstr "Гэтая гукавая прылада не мае ніякіх элементаў кіравання прайграваннем."
 
 #: alsamixer/mixer_display.c:381
 msgid "This sound device does not have any capture controls."
-msgstr ""
+msgstr "Гэтая гукавая прылада не мае ніякіх элементаў кіравання захопам."
 
 #: alsamixer/mixer_display.c:383
 msgid "This sound device does not have any controls."
-msgstr ""
+msgstr "Гэтая гукавая прылада не мае ніякіх элементаў кіравання."
 
 #. TRANSLATORS: playback on; one character
 #: alsamixer/mixer_display.c:516 alsamixer/mixer_display.c:521
 msgid "O"
-msgstr ""
+msgstr "O"
 
 #. TRANSLATORS: playback muted; one character
 #: alsamixer/mixer_display.c:518 alsamixer/mixer_display.c:522
 msgid "M"
-msgstr ""
+msgstr "M"
 
 #. TRANSLATORS: "left"; no more than two characters
 #: alsamixer/mixer_display.c:536
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #. TRANSLATORS: "right"; no more than two characters
 #: alsamixer/mixer_display.c:540
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #. TRANSLATORS: no more than eight characters
 #: alsamixer/mixer_display.c:542
 msgid "CAPTURE"
-msgstr ""
+msgstr "ЗАХОП"
 
 #: alsamixer/mixer_display.c:592
 msgid "Front"
-msgstr ""
+msgstr "Перад"
 
 #: alsamixer/mixer_display.c:595
 msgid "Rear"
-msgstr ""
+msgstr "Тыл"
 
 #: alsamixer/mixer_display.c:598 speaker-test/speaker-test.c:124
 msgid "Center"
-msgstr ""
+msgstr "Цэнтр"
 
 #: alsamixer/mixer_display.c:601
 msgid "Woofer"
-msgstr ""
+msgstr "НЧ-дынамік"
 
 #: alsamixer/mixer_display.c:604
 msgid "Side"
-msgstr ""
+msgstr "Бок"
 
 #: alsamixer/mixer_widget.c:91 alsamixer/mixer_widget.c:96
 msgid "cannot open mixer"
-msgstr ""
+msgstr "немагчыма адкрыць мікшар"
 
 #: alsamixer/mixer_widget.c:102 alsamixer/mixer_widget.c:179
 msgid "cannot load mixer controls"
-msgstr ""
+msgstr "немагчыма загрузіць панель кіравання мікшарам"
 
 #: alsamixer/mixer_widget.c:169
 #, c-format
 msgid "Cannot open mixer device '%s'."
-msgstr ""
+msgstr "Немагчыма адкрыць прыладу мікшара '%s'."
 
 #: alsamixer/mixer_widget.c:190
 msgid "Esc     Exit"
-msgstr ""
+msgstr "Esc     Выхад"
 
 #: alsamixer/mixer_widget.c:191
 msgid "F1 ? H  Help"
-msgstr ""
+msgstr "F1 ? H  Даведка"
 
 #: alsamixer/mixer_widget.c:192
 msgid "F2 /    System information"
-msgstr ""
+msgstr "F2 /    Інфармацыя аб сістэме"
 
 #: alsamixer/mixer_widget.c:193
 msgid "F3      Show playback controls"
-msgstr ""
+msgstr "F3      Паказаць элементы кіравання прайграваннем"
 
 #: alsamixer/mixer_widget.c:194
 msgid "F4      Show capture controls"
-msgstr ""
+msgstr "F4      Паказаць элементы кіравання захопам"
 
 #: alsamixer/mixer_widget.c:195
 msgid "F5      Show all controls"
-msgstr ""
+msgstr "F5      Паказаць усе элементы кіравання"
 
 #: alsamixer/mixer_widget.c:196
 msgid "Tab     Toggle view mode (F3/F4/F5)"
-msgstr ""
+msgstr "Tab     Пераключэнне рэжыму выгляду (F3/F4/F5)"
 
 #: alsamixer/mixer_widget.c:197
 msgid "F6 S    Select sound card"
-msgstr ""
+msgstr "F6 S    Выбар гукавой карты"
 
 #: alsamixer/mixer_widget.c:198
 msgid "L       Redraw screen"
-msgstr ""
+msgstr "L       Перамаляваць экран"
 
 #: alsamixer/mixer_widget.c:200
 msgid "Left    Move to the previous control"
-msgstr ""
+msgstr "Left    Перайсці на папярэдні элемент кіравання"
 
 #: alsamixer/mixer_widget.c:201
 msgid "Right   Move to the next control"
-msgstr ""
+msgstr "Управа   Перамясціцца да наступнага элементу кіравання"
 
 #: alsamixer/mixer_widget.c:203
 msgid "Up/Down    Change volume"
-msgstr ""
+msgstr "Up/Down    Змяненне гучнасці"
 
 #: alsamixer/mixer_widget.c:204
 msgid "+ -        Change volume"
-msgstr ""
+msgstr "+ -        Змяненне гучнасці"
 
 #: alsamixer/mixer_widget.c:205
 msgid "Page Up/Dn Change volume in big steps"
-msgstr ""
+msgstr "Page Up/Dn Змяніць гучнасць з вялізным крокам"
 
 #: alsamixer/mixer_widget.c:206
 msgid "End        Set volume to 0%"
-msgstr ""
+msgstr "End        Задаць узровень гучнасці 0%"
 
 #: alsamixer/mixer_widget.c:207
 msgid "0-9        Set volume to 0%-90%"
-msgstr ""
+msgstr "0-9        Задаць узровень гучнасці 0%-90%"
 
 #: alsamixer/mixer_widget.c:208
 msgid "Q W E      Increase left/both/right volumes"
-msgstr ""
+msgstr "Q W E      Павялічыць левую/абедзве/правую гучнасць"
 
 #. TRANSLATORS: or Y instead of Z
 #: alsamixer/mixer_widget.c:210
 msgid "Z X C      Decrease left/both/right volumes"
-msgstr ""
+msgstr "Z X C      Паменшыць левую/абедзве/правую гучнасць"
 
 #: alsamixer/mixer_widget.c:211
 msgid "B          Balance left and right volumes"
-msgstr ""
+msgstr "B          Баланс гучнасці левага і правага канала"
 
 #: alsamixer/mixer_widget.c:213
 msgid "M          Toggle mute"
-msgstr ""
+msgstr "M          Адключэнне гуку"
 
 #. TRANSLATORS: or , .
 #: alsamixer/mixer_widget.c:215
 msgid "< >        Toggle left/right mute"
-msgstr ""
+msgstr "< >        Адключэнне гуку левага/правага канала"
 
 #: alsamixer/mixer_widget.c:217
 msgid "Space      Toggle capture"
-msgstr ""
+msgstr "Space      Пераключэнне на захоп"
 
 #. TRANSLATORS: or Insert Delete
 #: alsamixer/mixer_widget.c:219
 msgid "; '        Toggle left/right capture"
-msgstr ""
+msgstr "; '        Пераключэнне захопу левага/правага канала"
 
 #: alsamixer/mixer_widget.c:221
 msgid "Authors:"
-msgstr ""
+msgstr "Аўтары:"
 
 #: alsamixer/mixer_widget.c:222
 msgid "  Tim Janik"
-msgstr ""
+msgstr "  Tim Janik"
 
 #: alsamixer/mixer_widget.c:223
 msgid "  Jaroslav Kysela <perex@perex.cz>"
-msgstr ""
+msgstr "  Jaroslav Kysela <perex@perex.cz>"
 
 #: alsamixer/mixer_widget.c:224
 msgid "  Clemens Ladisch <clemens@ladisch.de>"
-msgstr ""
+msgstr "  Clemens Ladisch <clemens@ladisch.de>"
 
 #: alsamixer/mixer_widget.c:226
 msgid "Help"
-msgstr ""
+msgstr "Даведка"
 
 #: alsamixer/proc_files.c:103
 msgid "Select File"
-msgstr ""
+msgstr "Выбраць файл"
 
 #: alsamixer/textbox.c:52 alsamixer/textbox.c:66
 msgid "Error"
-msgstr ""
+msgstr "Памылка"
 
 #: alsamixer/textbox.c:80
 #, c-format
 msgid "Cannot open file \"%s\"."
-msgstr ""
+msgstr "Немагчыма адкрыць файл \"%s\"."
 
 #: aplay/aplay.c:178
 msgid "raw data"
-msgstr "неапрацаваныя даньні"
+msgstr "неапрацаваныя даныя"
 
 #: aplay/aplay.c:179
 msgid "VOC"
-msgstr ""
+msgstr "VOC"
 
 #: aplay/aplay.c:181
 msgid "WAVE"
-msgstr ""
+msgstr "WAVE"
 
 #: aplay/aplay.c:182
 msgid "Sparc Audio"
-msgstr ""
+msgstr "Sparc Аўдыя"
 
 #: aplay/aplay.c:203
 #, c-format
@@ -465,12 +471,12 @@ msgstr "картка %i: %s [%s], прылада %i: %s [%s]\n"
 #: aplay/aplay.c:310
 #, c-format
 msgid "  Subdevices: %i/%i\n"
-msgstr ""
+msgstr "  Падпрылады: %i/%i\n"
 
 #: aplay/aplay.c:317
 #, c-format
 msgid "  Subdevice #%i: %s\n"
-msgstr ""
+msgstr "  Падпрылада: %i/%s\n"
 
 #: aplay/aplay.c:398
 #, c-format
@@ -509,7 +515,7 @@ msgstr ""
 #: aplay/aplay.c:642
 #, c-format
 msgid "bad speed value %i"
-msgstr "кепскае значэньне для хуткасьці %i"
+msgstr "дрэннае значэнне хуткасці %i"
 
 #: aplay/aplay.c:648
 msgid "duration and samples arguments cannot be used together"
@@ -670,7 +676,7 @@ msgstr ""
 
 #: aplay/aplay.c:1212 aplay/aplay.c:2296 aplay/aplay.c:2303 aplay/aplay.c:2834
 msgid "read error"
-msgstr "памылка чытаньня"
+msgstr "памылка чытання"
 
 #: aplay/aplay.c:1242
 msgid "Channel numbers don't match between hw_params and channel map"
@@ -871,7 +877,7 @@ msgstr ""
 #: aplay/aplay.c:2145
 #, c-format
 msgid "read error: %s"
-msgstr "памылка чытаньня: %s"
+msgstr "памылка чытання: %s"
 
 #: aplay/aplay.c:2189
 #, c-format
@@ -941,7 +947,7 @@ msgstr "Запіс"
 #: aplay/aplay.c:2742
 #, c-format
 msgid "Rate %d Hz, "
-msgstr ""
+msgstr "Частата %d Гц, "
 
 #: aplay/aplay.c:2744
 #, c-format
@@ -976,7 +982,7 @@ msgstr "Аўтарскія правы (C) 1999-2000 Takashi Iwai\n"
 #: seq/aconnect/aconnect.c:51
 #, c-format
 msgid "Usage:\n"
-msgstr "Выкарыстаньне:\n"
+msgstr "Выкарыстанне:\n"
 
 #: seq/aconnect/aconnect.c:52
 #, c-format
@@ -1059,7 +1065,7 @@ msgstr ""
 #: seq/aconnect/aconnect.c:171
 #, c-format
 msgid "client %d: '%s' [type=%s"
-msgstr ""
+msgstr "кліент %d: '%s' [тып=%s"
 
 #: seq/aconnect/aconnect.c:175
 msgid "user"
@@ -1177,7 +1183,7 @@ msgstr ""
 #: seq/aseqnet/aseqnet.c:213
 #, c-format
 msgid "closing files..\n"
-msgstr ""
+msgstr "закрыццё файлаў..\n"
 
 #: seq/aseqnet/aseqnet.c:272
 #, c-format
