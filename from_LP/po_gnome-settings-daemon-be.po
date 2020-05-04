@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gnome-settings-daemon.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-settings-"
 "daemon/issues\n"
-"POT-Creation-Date: 2020-04-11 18:25+0000\n"
-"PO-Revision-Date: 2020-04-11 21:22+0000\n"
+"POT-Creation-Date: 2019-10-14 10:14+0000\n"
+"PO-Revision-Date: 2019-10-14 11:32+0000\n"
 "Last-Translator: Yuras <shumovichy@gmail.com>\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -17,8 +17,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Launchpad-Export-Date: 2020-04-16 17:32+0000\n"
-"X-Generator: Launchpad (build 2e26c9bbd21cdca248baaea29aeffb920afcc32a)\n"
+"X-Launchpad-Export-Date: 2020-05-03 16:39+0000\n"
+"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
 "X-Project-Style: gnome\n"
 "Language: be\n"
 "10<=4 && (n%100<10 || n%100>=20) ? 1: 2);\n"
@@ -723,8 +723,8 @@ msgstr "Настройкі запуску"
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:12
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:215
-msgid "Binding to launch GNOME Settings."
-msgstr ""
+msgid "Binding to launch GNOME settings."
+msgstr "Скарот для запуску настроек GNOME."
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:16
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:219
@@ -1099,14 +1099,6 @@ msgstr "Уласныя клавіятурныя скароты"
 msgid "List of custom keybindings"
 msgstr "Спіс уласных клавіятурных скаротаў"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:302
-msgid "Size of volume step"
-msgstr ""
-
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:303
-msgid "Size of the volume step for each volume change"
-msgstr ""
-
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:309
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:625
 msgid "Quiet volume down"
@@ -1335,8 +1327,8 @@ msgstr ""
 msgid "Static binding to launch the calculator."
 msgstr ""
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:547
-msgid "Static binding to launch GNOME Settings."
+#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:541
+msgid "Static binding to launch GNOME settings."
 msgstr ""
 
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:552
@@ -1530,7 +1522,6 @@ msgstr "Прывязка ўласнага скароту"
 msgid "Command"
 msgstr "Загад"
 
-#: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:790
 #: data/org.gnome.settings-daemon.plugins.media-keys.gschema.xml.in:790
 msgid "Command to run when the binding is invoked"
 msgstr "Загад для скароту"
@@ -2094,8 +2085,8 @@ msgstr "Невядомы час"
 msgid "%i minute"
 msgid_plural "%i minutes"
 msgstr[0] "%i хвіліна"
-msgstr[1] ""
-msgstr[2] ""
+msgstr[1] "%i хвіліны"
+msgstr[2] "%i хвілін"
 
 #: plugins/power/gpm-common.c:106
 #, c-format
@@ -2716,57 +2707,6 @@ msgstr "Прынтар \"%s\": \"%s\"."
 msgid "User was not logged in with smartcard."
 msgstr "Карыстальнік не ўвайшоў з дапамогай смарт-карты."
 
-#: plugins/usb-protection/gsd-usb-protection-manager.c:386
-msgid "USB Protection"
-msgstr ""
-
-#: plugins/usb-protection/gsd-usb-protection-manager.c:513
-msgid "New USB device"
-msgstr ""
-
-#: plugins/usb-protection/gsd-usb-protection-manager.c:514
-msgid ""
-"New device has been detected while the session was not locked. If you did "
-"not plug anything, check your system for any suspicious device."
-msgstr ""
-
-#: plugins/usb-protection/gsd-usb-protection-manager.c:593
-msgid "New keyboard detected"
-msgstr ""
-
-#: plugins/usb-protection/gsd-usb-protection-manager.c:594
-msgid ""
-"Either your keyboard has been reconnected or a new one has been plugged in. "
-"If you did not do it, check your system for any suspicious device."
-msgstr ""
-
-#: plugins/usb-protection/gsd-usb-protection-manager.c:600
-msgid "Reconnect USB device"
-msgstr ""
-
-#: plugins/usb-protection/gsd-usb-protection-manager.c:601
-msgid ""
-"New device has been detected while you were away. Please disconnect and "
-"reconnect the device to start using it."
-msgstr ""
-
-#: plugins/usb-protection/gsd-usb-protection-manager.c:607
-#: plugins/usb-protection/gsd-usb-protection-manager.c:631
-msgid "USB device blocked"
-msgstr ""
-
-#: plugins/usb-protection/gsd-usb-protection-manager.c:608
-msgid ""
-"New device has been detected while you were away. It has been blocked "
-"because the USB protection is active."
-msgstr ""
-
-#: plugins/usb-protection/gsd-usb-protection-manager.c:632
-msgid ""
-"The new inserted device has been blocked because the USB protection is "
-"active."
-msgstr ""
-
 #. SECURITY:
 #. - A normal active user on the local machine does not need permission
 #. to change the LED setting for a Wacom tablet
@@ -2846,5 +2786,96 @@ msgstr ""
 msgid "Wrong PIN code"
 msgstr ""
 
-#~ msgid "Binding to launch GNOME settings."
-#~ msgstr "Скарот для запуску настроек GNOME."
+#~ msgid ""
+#~ "Highlights the current location of the pointer when the Control key is "
+#~ "pressed and released."
+#~ msgstr ""
+#~ "Падсвятляе бягучае месцазнаходжанне паказальніка, калі націснута і вызвалена "
+#~ "клавіша Control."
+
+#~ msgid "Touchpad toggle"
+#~ msgstr "Пераключальнік чулай панэлі"
+
+#~ msgid "Touchpad On"
+#~ msgstr "Чулая панэль уключана"
+
+#~ msgid "Touchpad Off"
+#~ msgstr "Чулая панэль выключана"
+
+#~ msgid "Quiet Volume Mute"
+#~ msgstr "Абязгучванне дынамікаў"
+
+#~ msgid "Quiet Volume Down"
+#~ msgstr "Памяншэнне гучнасці"
+
+#~ msgid "Quiet Volume Up"
+#~ msgstr "Павелічэнне гучнасці"
+
+#~ msgid "Lock Screen"
+#~ msgstr "Блакіраванне экрана"
+
+#~ msgid "Rewind"
+#~ msgstr "Пракрутка назад"
+
+#~ msgid "Forward"
+#~ msgstr "Пракрутка наперад"
+
+#~ msgid "Repeat"
+#~ msgstr "Паўтор"
+
+#~ msgid "Random Play"
+#~ msgstr "Выпадковае прайграванне"
+
+#~ msgid "Power Off"
+#~ msgstr "Выключэнне камп'ютара"
+
+#~ msgid "Sleep"
+#~ msgstr "Сон"
+
+#~ msgid "Suspend"
+#~ msgstr "Супынак"
+
+#~ msgid "Hibernate"
+#~ msgstr "Гібернацыя"
+
+#~ msgid "Brightness Up"
+#~ msgstr "Павелічэнне яркасці"
+
+#~ msgid "Brightness Down"
+#~ msgstr "Памяншэнне яркасці"
+
+#~ msgid "Keyboard Brightness Up"
+#~ msgstr "Павелічэнне яркасці клавіятуры"
+
+#~ msgid "Keyboard Brightness Down"
+#~ msgstr "Памяншэнне яркасці клавіятуры"
+
+#~ msgid "Keyboard Brightness Toggle"
+#~ msgstr "Пераключэнне падсветкі клавіятуры"
+
+#~ msgid "Battery Status"
+#~ msgstr "Стан батарэі"
+
+#~ msgid "Orientation Lock"
+#~ msgstr "Блакіраванне арыентацыі"
+
+#~ msgid "Help"
+#~ msgstr "Дапамога"
+
+#~ msgid "Toggle Airplane Mode"
+#~ msgstr "Пераключыць рэжым самалёта"
+
+#~ msgid "Toggle Bluetooth"
+#~ msgstr "Пераключыць Bluetooth"
+
+#~ msgid "NumLock state"
+#~ msgstr "Стан NumLock"
+
+#~ msgid "The remembered state of the NumLock LED."
+#~ msgstr "Запомнены стан індыкатара NumLock."
+
+#~ msgid "Precise Volume Down"
+#~ msgstr "Асцярожнае памяншэнне гучнасці"
+
+#~ msgid "Precise Volume Up"
+#~ msgstr "Асцярожнае павелічэнне гучнасці"

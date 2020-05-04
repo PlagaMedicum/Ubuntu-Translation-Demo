@@ -1,22 +1,21 @@
-# Belarusian translation for gfxboot-theme-ubuntu
-# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
-# This file is distributed under the same license as the gfxboot-theme-ubuntu package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+# Belarusian translation for gfxboot
+# Copyright (c) 2018 Rosetta Contributors and Canonical Ltd 2018
+# This file is distributed under the same license as the gfxboot package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gfxboot-theme-ubuntu\n"
+"Project-Id-Version: gfxboot\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-04-16 01:46+0000\n"
-"PO-Revision-Date: 2017-03-22 10:46+0000\n"
-"Last-Translator: Alexander Vlasov <Unknown>\n"
+"POT-Creation-Date: 2018-10-02 08:39+0000\n"
+"PO-Revision-Date: 2018-10-02 08:33+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Belarusian <be@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-04-11 19:52+0000\n"
-"X-Generator: Launchpad (build 2e26c9bbd21cdca248baaea29aeffb920afcc32a)\n"
-"Language: be\n"
+"X-Launchpad-Export-Date: 2020-05-03 17:01+0000\n"
+"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
 
 #. ok button label
 #. txt_ok
@@ -37,6 +36,26 @@ msgstr "Перазагрузіць"
 #. txt_continue
 msgid "Continue"
 msgstr "Працягнуць"
+
+#. txt_install
+msgid "Installation"
+msgstr ""
+
+#. txt_safe_linux
+msgid "Linux--Safe Settings"
+msgstr ""
+
+#. txt_boot_harddisk
+msgid "Boot from Hard Disk"
+msgstr ""
+
+#. txt_rescue
+msgid "Rescue System"
+msgstr ""
+
+#. txt_memtest
+msgid "Memory Test"
+msgstr ""
 
 #. txt_bootoptions
 msgid "Boot Options"
@@ -59,15 +78,42 @@ msgstr ""
 msgid "Help"
 msgstr "Даведка"
 
+#. window title for kernel loading (see txt_load_kernel)
+#. txt_load_kernel_title
+msgid "Starting..."
+msgstr "Запуск..."
+
+#. Keep the three newlines!
+#. txt_load_kernel
+msgid ""
+"Loading Linux Kernel\n"
+"\n"
+"\n"
+msgstr ""
+"Загрузка ядра Linux\n"
+"\n"
+"\n"
+
+#. Keep the three newlines!
+#. txt_load_memtest
+msgid ""
+"Loading memtest86\n"
+"\n"
+"\n"
+msgstr ""
+"Загрузка memtest86\n"
+"\n"
+"\n"
+
 #. info box title
 #. txt_info_title
-msgid "Boot loader"
-msgstr "Загрузчык"
+msgid "Boot Loader"
+msgstr ""
 
 #. error box title
 #. txt_error_title
-msgid "I/O error"
-msgstr "Памылка ўводу/вываду"
+msgid "I/O Error"
+msgstr ""
 
 #. boot disk change dialog title
 #. txt_change_disk_title
@@ -88,45 +134,22 @@ msgstr ""
 "Гэта загрузачны дыск %u.\n"
 "Устаўце дыск %u."
 
+#. <product> is e.g. SuSE Linux X.Y or Enterprise Server Z
 #. txt_insert_disk3
 #, c-format
 msgid ""
-"This is not a suitable boot disk.\n"
-"Please insert boot disk %u."
+"This is not a <product> boot disk.\n"
+"Insert boot disk %u."
 msgstr ""
-"Гэта непрыдатны загрузачны дыск.\n"
-"Калі ласка, устаўце дыск %u."
 
 #. password dialog title
 #. txt_password_title
 msgid "Password"
 msgstr "Пароль"
 
-#. Keep the newlines and spaces after ':'!
-#. txt_password
-msgid ""
-"Enter your password:   \n"
-"\n"
-"\n"
+#. txt_dud_ready
+msgid "Get your driver update floppy ready."
 msgstr ""
-"Увядзіце ваш пароль:   \n"
-"\n"
-"\n"
-
-#. dvd warning title
-#. txt_dvd_warning_title
-msgid "DVD Error"
-msgstr "Памылка DVD"
-
-#. txt_dvd_warning2
-msgid ""
-"This is a two-sided DVD. You have booted from the second side.\n"
-"\n"
-"Turn the DVD over then continue."
-msgstr ""
-"Гэта двухбаковы DVD. Вы загрузіліся з другога боку.\n"
-"\n"
-"Перавярніце DVD и працягвайце."
 
 #. power off dialog title
 #. txt_power_off_title
@@ -137,9 +160,71 @@ msgstr "Выключыць"
 msgid "Halt the system now?"
 msgstr "Выключыць сістэму?"
 
+#. menu entry for hard disk installation
+#. txt_harddisk
+msgid "Hard Disk"
+msgstr ""
+
+#. dialog title for hard disk installation
+#. txt_harddisk_title
+msgid "Hard Disk Installation"
+msgstr "Усталёўка з жорсткага дыска"
+
+#. txt_hd_diskdevice
+msgid "Disk Device (Scans All Disks If Empty)\n"
+msgstr ""
+
+#. txt_directory
+msgid "Directory\n"
+msgstr "Тэчка\n"
+
+#. dialog title for ftp installation
+#. txt_ftp_title
+msgid "FTP Installation"
+msgstr "Усталёўка з FTP"
+
+#. txt_server
+msgid "Server\n"
+msgstr "Паслужнік\n"
+
 #. txt_password
 msgid "Password\n"
 msgstr "Пароль\n"
+
+#. label for ftp user input
+#. txt_user1
+msgid "User (Anonymous Login If Empty)\n"
+msgstr ""
+
+#. dialog title for nfs installation
+#. txt_nfs_title
+msgid "NFS Installation"
+msgstr "Усталёўка праз NFS"
+
+#. label for smb user input
+#. txt_user2
+msgid "User (Uses \"guest\" If Empty)\n"
+msgstr ""
+
+#. dialog title for smb installation
+#. txt_smb_title
+msgid "SMB (Windows Share) Installation"
+msgstr "Усталёўка з SMB (агульнага рэсурса Windows)"
+
+#. dialog title for http installation
+#. txt_http_title
+msgid "HTTP Installation"
+msgstr "Усталёўка з HTTP"
+
+#. 'driver' as in '(hardware) driver update'
+#. txt_driver_update
+msgid "Driver"
+msgstr ""
+
+#. as in Windows Authentication Domain
+#. txt_domain
+msgid "Domain\n"
+msgstr "Дамен\n"
 
 #. button label for other/more options
 #. txt_other_options
@@ -151,442 +236,207 @@ msgstr "Іншыя опцыі"
 msgid "Language"
 msgstr "Мова"
 
-#. label for keymap selection
-#. txt_keymap
-msgid "Keymap"
-msgstr "Клавіятура"
-
-#. label for installation mode selection
-#. txt_modes
-msgid "Modes"
-msgstr "Рэжымы"
-
-#. label for modes menu
-#. txt_mode_normal
-msgid "Normal"
-msgstr "Звычайны"
-
-#. label for d-i mode menu
-#. txt_expert_mode
-msgid "Expert mode"
-msgstr "Рэжым для экспертаў"
-
-#. title for accessibility menu
-#. txt_access
-msgid "Accessibility"
-msgstr "Дадатковыя магчымасці"
-
-#. label for accessibility menu
-#. txt_access_none
-msgid "None"
-msgstr "Няма"
-
-#. label for accessibility menu
-#. txt_access_v1
-msgid "High Contrast"
-msgstr "Высокі кантраст"
-
-#. label for accessibility menu
-#. txt_access_v2
-msgid "Magnifier"
-msgstr "Лупа"
-
-#. label for accessibility menu
-#. txt_access_v3
-msgid "Screen Reader"
-msgstr "Экранны чытач"
-
-#. label for accessibility menu
-#. txt_access_brltty
-msgid "Braille Terminal"
-msgstr "Тэрмінал Брайля"
-
-#. label for accessibility menu
-#. txt_access_m1
-msgid "Keyboard Modifiers"
-msgstr "Мадыфікатары клавіятуры"
-
-#. label for accessibility menu
-#. txt_access_m2
-msgid "On-Screen Keyboard"
-msgstr "Экранная клавіятура"
-
-#. label for accessibility menu
-#. txt_access_m3
-msgid "Motor Difficulties - switch devices"
-msgstr "Абсталяванне пры праблемах з маторыкай"
-
-#. label for accessibility menu
-#. txt_access_all
-msgid "Everything"
-msgstr "Усё разам"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_ubuntu
-msgid "^Try Ubuntu without installing"
-msgstr "^Паспрабаваць Ubuntu без усталёўкі"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_kubuntu
-msgid "^Try Kubuntu without installing"
-msgstr "^Паспрабаваць Kubuntu без усталёўкі"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_edubuntu
-msgid "^Try Edubuntu without installing"
-msgstr "^Паспрабаваць Edubuntu без усталёўкі"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_xubuntu
-msgid "^Try Xubuntu without installing"
-msgstr "^Паспрабаваць Xubuntu без усталёўкі"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_ubuntu_mid
-msgid "^Try Ubuntu MID without installing"
-msgstr "^Паспрабаваць Ubuntu MID без усталёўкі"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_ubuntu_netbook
-msgid "^Try Ubuntu Netbook without installing"
-msgstr "^Паспрабаваць Ubuntu Netbook без усталёўкі"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_kubuntu_netbook
-msgid "^Try Kubuntu Netbook without installing"
-msgstr "^Паспрабаваць Kubuntu Netbook без усталёўкі"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_lubuntu
-msgid "^Try Lubuntu without installing"
-msgstr "^Паспрабаваць Lubuntu без усталёўкі"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_ubuntu_gnome
-msgid "^Try Ubuntu GNOME without installing"
-msgstr "^Паспрабаваць Ubuntu GNOME без усталёўкі"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_ubuntu_mate
-msgid "^Try Ubuntu MATE without installing"
-msgstr "^Паспрабаваць Ubuntu MATE без усталёўкі"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_start_kubuntu
-msgid "^Start Kubuntu"
-msgstr "^Запусціць Kubuntu"
-
-#. Installation mode.
-#. txt_menuitem_driverupdates
-msgid "Use driver update disc"
-msgstr "Выкарыстаць кружэлку з абнаўленнямі драйвераў"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text_ubuntu
-msgid "^Install Ubuntu in text mode"
-msgstr "^Усталяваць Ubuntu ў тэкставым рэжыме"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text_kubuntu
-msgid "^Install Kubuntu in text mode"
-msgstr "^Усталяваць Kubuntu ў тэкставым рэжыме"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text_edubuntu
-msgid "^Install Edubuntu in text mode"
-msgstr "^Усталяваць Edubuntu ў тэкставым рэжыме"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_text_xubuntu
-msgid "^Install Xubuntu in text mode"
-msgstr "^Усталяваць Xubuntu ў тэкставым рэжыме"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_ubuntu
-msgid "^Install Ubuntu"
-msgstr "^Усталяваць Ubuntu"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_kubuntu
-msgid "^Install Kubuntu"
-msgstr "^Усталяваць Kubuntu"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_edubuntu
-msgid "^Install Edubuntu"
-msgstr "^Усталяваць Edubuntu"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_xubuntu
-msgid "^Install Xubuntu"
-msgstr "^Усталяваць Xubuntu"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_ubuntu_server
-msgid "^Install Ubuntu Server"
-msgstr "^Усталяваць Ubuntu Server"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_ubuntu_gnome
-msgid "^Install Ubuntu GNOME"
-msgstr "^Усталяваць Ubuntu GNOME"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_ubuntu_mate
-msgid "^Install Ubuntu MATE"
-msgstr "^Усталяваць Ubuntu MATE"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_enlist_ubuntu_maas
-msgid "^Multiple server install with MAAS"
-msgstr "^Устаноўка некалькіх сервяроў з дапамогай MAAS"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_ubuntustudio
-msgid "^Install Ubuntu Studio"
-msgstr "^Усталяваць Ubuntu Studio"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_ubuntu_mid
-msgid "^Install Ubuntu MID"
-msgstr "^Усталяваць Ubuntu MID"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_ubuntu_netbook
-msgid "^Install Ubuntu Netbook"
-msgstr "^Усталяваць Ubuntu Netbook"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_kubuntu_netbook
-msgid "^Install Kubuntu Netbook"
-msgstr "^Усталяваць Kubuntu Netbook"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_lubuntu
-msgid "^Install Lubuntu"
-msgstr "^Усталяваць Lubuntu"
-
-#. Installation mode.
-#. txt_menuitem_workstation
-msgid "Install a workstation"
-msgstr "Усталяваць працоўную станцыю"
-
-#. Installation mode.
-#. txt_menuitem_server
-msgid "Install a server"
-msgstr "Усталяваць сервер"
-
-#. Installation mode.
-#. txt_menuitem_oem
-msgid "OEM install (for manufacturers)"
-msgstr "OEM усталёўка (для вытворцаў)"
-
-#. Installation mode.
-#. txt_menuitem_lamp
-msgid "Install a LAMP server"
-msgstr "Усталяваць сервер LAMP"
-
-#. Installation mode.
-#. txt_menuitem_ltsp
-msgid "Install an LTSP server"
-msgstr "Усталяваць сервер LTSP"
-
-#. Installation mode.
-#. txt_menuitem_ltsp_mythbuntu
-msgid "Install a Diskless Image Server"
-msgstr "Усталяваць бяздыскавы сервер"
-
-#. Installation mode.
-#. txt_menuitem_cli
-msgid "Install a command-line system"
-msgstr "Усталяваць сістэму без графічнага інтэрфейсу"
-
-#. Installation mode.
-#. txt_menuitem_minimal
-msgid "Install a minimal system"
-msgstr "Усталяваць сістэму ў мінімальнай камплектацыі"
-
-#. Installation mode.
-#. txt_menuitem_minimalvm
-msgid "Install a minimal virtual machine"
-msgstr "Усталяваць мінімальную віртуальную машыну"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_check
-msgid "^Check disc for defects"
-msgstr "^Праверыць дыск на дэфекты"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_rescue
-msgid "^Rescue a broken system"
-msgstr "^Аднавіць сістэму"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_memtest
-msgid "Test ^memory"
-msgstr "Тэст ^памяці"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_hd
-msgid "^Boot from first hard disk"
-msgstr "^Загрузіцца з першага цвёрдага дыска"
-
-#. Boot option.
-#. txt_option_free
-msgid "Free software only"
-msgstr "Толькі свабоднае праграмнае забеспячэнне"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_dell_factory_recovery
-msgid "^Dell Automatic Reinstall"
-msgstr "^Аўтаматычная пераўсталёўка Dell"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_install_mythbuntu
-msgid "^Install Mythbuntu"
-msgstr "^Усталяваць Mythbuntu"
-
-#. Boot menu item; a ^ prefix indicates a unique accelerator key.
-#. txt_menuitem_live_mythbuntu
-msgid "^Try Mythbuntu without installing"
-msgstr "^Паспрабаваць Mythbuntu без усталёўкі"
-
-#. txt_menuitem_live_ubuntukylin
-msgid "^Try Ubuntu Kylin without installing"
-msgstr "^Паспрабаваць Ubuntu Kylin без усталёўкі"
-
-#. txt_menuitem_live_ubuntukylin_netbook
-msgid "^Try Ubuntu Kylin Netbook without installing"
-msgstr "^Паспрабаваць Ubuntu Kylin Netbook без усталёўкі"
-
-#. txt_menuitem_install_text_ubuntukylin
-msgid "^Install Ubuntu Kylin in text mode"
-msgstr "^Усталяваць Ubuntu Kylin у тэкставым рэжыме"
-
-#. txt_menuitem_install_ubuntukylin
-msgid "^Install Ubuntu Kylin"
-msgstr "^Усталяваць Ubuntu Kylin"
-
-#. txt_menuitem_install_ubuntukylin_netbook
-msgid "^Install Ubuntu Kylin Netbook"
-msgstr "^Усталяваць Ubuntu Kylin Netbook"
-
-#. txt_menuitem_start_ubuntukylin
-msgid "^Start Ubuntu Kylin"
-msgstr "^Запусціць Ubuntu Kylin"
-
-#. txt_menuitem_live_ubuntustudio
-msgid "^Try Ubuntu Studio without installing"
-msgstr "^Паспрабаваць Ubuntu Studio без усталёўкі"
-
-#. txt_install_ubuntu_safegraphics
-msgid "^Install Ubuntu (safe graphics)"
+#. txt_yes
+msgid "Yes"
 msgstr ""
 
-#. txt_install_edubuntu_safegraphics
-msgid "^Install Edubuntu (safe graphics)"
+#. txt_no
+msgid "No"
 msgstr ""
 
-#. txt_install_kubuntu_safegraphics
-msgid "^Install Kubuntu (safe graphics)"
+#. menu item for selecting a file
+#. txt_file
+msgid "File"
 msgstr ""
 
-#. txt_install_xubuntu_safegraphics
-msgid "^Install Xubuntu (safe graphics)"
+#. input label: share as in "Windows share" (SMB)
+#. txt_share
+msgid "Share\n"
 msgstr ""
 
-#. txt_install_ubuntu_mid_safegraphics
-msgid "^Install Ubuntu MID (safe graphics)"
+#. txt_zenAuto
+msgid "Automatic Mode"
 msgstr ""
 
-#. txt_install_ubuntu_netbook_safegraphics
-msgid "^Install Ubuntu Netbook (safe graphics)"
+#. txt_zenManual
+msgid "Manual Mode"
 msgstr ""
 
-#. txt_install_kubuntu_netbook_safegraphics
-msgid "^Install Kubuntu Netbook (safe graphics)"
+#. txt_zenConfig
+msgid "Configure Parameters on ZEN Partition"
 msgstr ""
 
-#. txt_install_lubuntu_safegraphics
-msgid "^Install Lubuntu (safe graphics)"
+#. txt_zenInstall
+msgid "Install or Update ZEN Partition"
 msgstr ""
 
-#. txt_install_ubuntu_gnome_safegraphics
-msgid "^Install Ubuntu GNOME (safe graphics)"
+#. txt_zenLilo
+msgid "Reinstall ZEN Partition Boot Loader"
 msgstr ""
 
-#. txt_install_ubuntu_mate_safegraphics
-msgid "^Install Ubuntu MATE (safe graphics)"
+#. txt_zenDisable
+msgid "Disable ZEN Partition"
 msgstr ""
 
-#. txt_install_mythbuntu_safegraphics
-msgid "^Install Mythbuntu (safe graphics)"
+#. txt_zenEnable
+msgid "Enable ZEN Partition"
 msgstr ""
 
-#. txt_install_ubuntu_kylin_safegraphics
-msgid "^Install Ubuntu Kylin (safe graphics)"
+#. video mode menu item
+#. txt_text_mode
+msgid "Text Mode"
 msgstr ""
 
-#. txt_install_ubuntu_kylin_netbook_safegraphics
-msgid "^Install Ubuntu Kylin Netbook (safe graphics)"
+#. menu item, like 'memory test'
+#. txt_firmware
+msgid "Firmware Test"
 msgstr ""
 
-#. txt_install_ubuntu_studio_safegraphics
-msgid "^Install Ubuntu Studio (safe graphics)"
+#. txt_dud_file_msg
+#, wrap
+msgid ""
+"To load driver updates directly from CD-ROM,\n"
+"enter the driver update file names (separated\n"
+"by commas ',') here:\n"
 msgstr ""
 
-#. txt_try_ubuntu_safegraphics
-msgid "^Try Ubuntu without installing (safe graphics)"
+#. install source menu title
+#. ** please keep it really short (comparable to the english text) **
+#. txt_install_source
+msgid "Source"
 msgstr ""
 
-#. txt_try_edubuntu_safegraphics
-msgid "^Try Edubuntu without installing (safe graphics)"
+#. video mode/display size menu title
+#. ** please keep it really short (comparable to the english text) **
+#. txt_video_mode
+msgid "Video Mode"
 msgstr ""
 
-#. txt_try_kubuntu_safegraphics
-msgid "^Try Kubuntu without installing (safe graphics)"
+#. driver update dialog title
+#. -> txt_dud_file_msg
+#. txt_driver_update2
+msgid "Driver Update"
 msgstr ""
 
-#. txt_try_xubuntu_safegraphics
-msgid "^Try Xubuntu without installing (safe graphics)"
+#. menu label for selecting (cpu) architecture
+#. like i386, x86-64, ppc
+#. ** please keep it really short (comparable to the english text) **
+#. txt_arch
+msgid "Arch"
 msgstr ""
 
-#. txt_try_ubuntu_mid_safegraphics
-msgid "^Try Ubuntu MID without installing (safe graphics)"
+#. menu label for selecting some (linux) kernel variant
+#. ** please keep it really short (comparable to the english text) **
+#. txt_kernel
+msgid "Kernel"
 msgstr ""
 
-#. txt_try_ubuntu_netbook_safegraphics
-msgid "^Try Ubuntu Netbook without installing (safe graphics)"
+#. menu item for kernel variant (cf. txt_kernel)
+#. txt_kernel_default
+msgid "Default"
 msgstr ""
 
-#. txt_try_kubuntu_netbook_safegraphics
-msgid "^Try Kubuntu Netbook without installing (safe graphics)"
+#. menu item for kernel variant (cf. txt_kernel)
+#. -> like in txt_safe_linux
+#. txt_kernel_safe
+msgid "Safe Settings"
 msgstr ""
 
-#. txt_try_lubuntu_safegraphics
-msgid "^Try Lubuntu without installing (safe graphics)"
+#. menu item for kernel variant (cf. txt_kernel)
+#. -> similar to txt_noacpi_install
+#. txt_kernel_noacpi
+msgid "No ACPI"
 msgstr ""
 
-#. txt_try_ubuntu_gnome_safegraphics
-msgid "^Try Ubuntu GNOME without installing (safe graphics)"
+#. menu item for kernel variant (cf. txt_kernel)
+#. -> similar to txt_nolapic_install
+#. txt_kernel_nolapic
+msgid "No Local APIC"
 msgstr ""
 
-#. txt_try_ubuntu_mate_safegraphics
-msgid "^Try Ubuntu MATE without installing (safe graphics)"
+#. main menu: start in system repair mode
+#. txt_repain_system
+msgid "Repair Installed System"
 msgstr ""
 
-#. txt_try_mythbuntu_safegraphics
-msgid "^Try Mythbuntu without installing (safe graphics)"
+#. menu item
+#. txt_mediacheck
+msgid "Check Installation Media"
 msgstr ""
 
-#. txt_try_ubuntu_kylin_safegraphics
-msgid "^Try Ubuntu Kylin without installing (safe graphics)"
+#. menu item for keyboard layout (please keep it short)
+#. txt_keyboard
+msgid "Keyboard"
 msgstr ""
 
-#. txt_try_ubuntu_kylin_netbook_safegraphics
-msgid "^Try Ubuntu Kylin Netbook without installing (safe graphics)"
+#. menu title
+#. txt_dud_download
+msgid "Download Driver Update"
 msgstr ""
 
-#. txt_try_ubuntu_studio_safegraphics
-msgid "^Try Ubuntu Studio without installing (safe graphics)"
+#. input label
+#. txt_dud_enter_url
+msgid "Enter Driver Update URL\n"
+msgstr ""
+
+#. menu item
+#. txt_http_proxy
+msgid "HTTP Proxy"
+msgstr ""
+
+#. menu item
+#. txt_network_config
+msgid "Network Config"
+msgstr ""
+
+#. menu item
+#. txt_no_network
+msgid "No Network"
+msgstr ""
+
+#. short menu item for manual network config (NOT some kind of manual)
+#. txt_manual_network
+msgid "Manual"
+msgstr ""
+
+#. dialog title for manual network config
+#. txt_manual_network_title
+msgid "Manual Network Config"
+msgstr ""
+
+#. label for ip address
+#. txt_host_ip
+msgid "Host IP\n"
+msgstr ""
+
+#. label for gateway ip
+#. txt_gateway_ip
+msgid "Gateway\n"
+msgstr ""
+
+#. label for dns domain name (like 'opensuse.org')
+#. txt_domain_name
+msgid "Domain Name\n"
+msgstr ""
+
+#. label for nameserver list
+#. txt_nameservers
+msgid "Nameservers (separated by ',')\n"
+msgstr ""
+
+#. label for netmask; 'Host IP' refers to label txt_host_ip above
+#. txt_netmask
+msgid ""
+"Netmask\n"
+"(or use '/N' notation with Host IP)\n"
+msgstr ""
+
+#. label for Live CD installation
+#. txt_live_kde
+msgid "openSUSE Live (KDE)"
+msgstr ""
+
+#. label for Live CD installation
+#. txt_live_gnome
+msgid "openSUSE Live (GNOME)"
 msgstr ""
