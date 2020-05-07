@@ -72,7 +72,7 @@ foreach ($path as $k) {
                                 $text.="msgctxt ".$block["msgctxt"]."\n";
                             }
                             $text.="msgid ".$block["msgid"]."\n";
-                            $text.="mmsgid_plural ".$block['plural']['msgid_plural']."\n";
+                            $text.="msgid_plural ".$block['plural']['msgid_plural']."\n";
                             foreach ($block['plural']['msgstr'] as $key8 => $value8) {
                                 $text.="msgstr[".$key8."] ".$value8."\n";
                             }
