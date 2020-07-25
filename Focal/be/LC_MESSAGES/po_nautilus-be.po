@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: nautilus.master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/nautilus/issues\n"
 "POT-Creation-Date: 2020-05-04 08:42+0000\n"
-"PO-Revision-Date: 2020-05-04 10:30+0000\n"
+"PO-Revision-Date: 2020-07-25 23:10+0300\n"
 "Last-Translator: Jim <Unknown>\n"
 "Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Launchpad-Export-Date: 2020-05-05 21:37+0000\n"
-"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
+"X-Generator: Poedit 2.3\n"
 "Language: be\n"
 
 #: data/nautilus-autorun-software.desktop.in:3
@@ -32,7 +32,7 @@ msgstr "application-x-executable"
 #. “Files” is the generic application name and the suffix is
 #. * an arbitrary and deliberately unlocalized string only shown
 #. * in development builds.
-#. 
+#.
 #: data/org.gnome.Nautilus.appdata.xml.in.in:5
 #: data/org.gnome.Nautilus.desktop.in.in:3 src/nautilus-mime-actions.c:105
 #: src/nautilus-properties-window.c:4663 src/nautilus-window.c:3005
@@ -307,9 +307,9 @@ msgid ""
 msgstr ""
 "Гэты параметр уплывае на хуткасць паказу мініяцюр файлаў. Калі ключ мае "
 "значэнне \"always\", аглядальнік будзе заўсёды паказваць мініяцюры, нават "
-"калі папка месціцца на аддаленым серверы. Калі ключ мае значэнне \"local-"
-"only\", мініяцюры паказваюцца толькі для мясцовых файлавых сістэм. Калі ж ён "
-"мае значэнне \"never\", тады мініяцюры ніколі не паказваюцца, а замест іх "
+"калі папка месціцца на аддаленым серверы. Калі ключ мае значэнне \"local-only"
+"\", мініяцюры паказваюцца толькі для мясцовых файлавых сістэм. Калі ж ён мае "
+"значэнне \"never\", тады мініяцюры ніколі не паказваюцца, а замест іх "
 "ужываецца звычайны значок. Нягледзячы на назву ключа, гэты параметр уплывае "
 "на ўсе тыпы файлаў з магчымасцю папярэдняга агляду."
 
@@ -336,9 +336,9 @@ msgid ""
 "The default sort-order for items in the icon view. Possible values are "
 "“name”, “size”, “type”, “mtime”, “atime” and “starred”."
 msgstr ""
-"Прадвызначаны парадак сартавання ў рэжыме значкоў. Магчымыя значэнні: "
-"\"name\" (паводле назвы), \"size\" (паводле памеру), \"type\" (паводле "
-"тыпаў) і \"mtime\" (паводле часу мадыфікацыі)."
+"Прадвызначаны парадак сартавання ў рэжыме значкоў. Магчымыя значэнні: \"name"
+"\" (паводле назвы), \"size\" (паводле памеру), \"type\" (паводле тыпаў) і "
+"\"mtime\" (паводле часу мадыфікацыі)."
 
 #: data/org.gnome.nautilus.gschema.xml:174
 msgid "Reverse sort order in new windows"
@@ -377,8 +377,8 @@ msgstr "Ці трэба паказваць схаваныя файлы"
 
 #: data/org.gnome.nautilus.gschema.xml:191
 msgid ""
-"This key is deprecated and ignored. The “show-hidden” key from "
-"“org.gtk.Settings.FileChooser” is now used instead."
+"This key is deprecated and ignored. The “show-hidden” key from “org.gtk."
+"Settings.FileChooser” is now used instead."
 msgstr ""
 "Гэты ключ састарэлы і таму ігнаруецца. Цяпер замест яго выкарыстоўваецца "
 "настройка \"show-hidden\" з \"org.gtk.Settings.FileChooser\"."
@@ -390,8 +390,7 @@ msgstr "Які аглядальнік ужываць пры пошуку"
 #: data/org.gnome.nautilus.gschema.xml:196
 msgid ""
 "When searching Nautilus will switch to the type of view in this setting."
-msgstr ""
-"У рэжыме пошуку Наўтілус будзе ужываць аглядальнік настаўленага віду."
+msgstr "У рэжыме пошуку Наўтілус будзе ужываць аглядальнік настаўленага віду."
 
 #: data/org.gnome.nautilus.gschema.xml:200
 msgid ""
@@ -458,10 +457,10 @@ msgid ""
 "“type”, “date_modified”, “owner”, “group”, “permissions”, and “mime_type”."
 msgstr ""
 "Спіс подпісаў пад значком ў рэжыме значкоў. Сапраўдная колькасць подпісаў "
-"залежыць ад узроўню маштабавання. Вось некаторыя з магчымых значэнняў: "
-"\"size\" (памер), \"type\" (тып), \"date_modified\" (дата апошняй "
-"мадыфікацыі), \"owner\" (уласнік), \"group\" (група), \"permissions\" "
-"(дазволы) і \"mime_type\" (MIME-тып)."
+"залежыць ад узроўню маштабавання. Вось некаторыя з магчымых значэнняў: \"size"
+"\" (памер), \"type\" (тып), \"date_modified\" (дата апошняй мадыфікацыі), "
+"\"owner\" (уласнік), \"group\" (група), \"permissions\" (дазволы) і "
+"\"mime_type\" (MIME-тып)."
 
 #: data/org.gnome.nautilus.gschema.xml:231
 msgid "Default icon view zoom level"
@@ -489,8 +488,8 @@ msgid ""
 msgstr ""
 "Тэкставае значэнне, якое вызначае, як трэба замяняць часткі надта доўгіх "
 "назваў файлаў на шматкроп'і, у залежнасці ад узроўню маштабавання. Кожны "
-"элемент спіса мусіць мець наступную форму: \"Узровень маштабавання:Цэлы "
-"лік\". Для кожнага з узроўняў маштабавання, калі цэлы лік большы за 0, назва "
+"элемент спіса мусіць мець наступную форму: \"Узровень маштабавання:Цэлы лік"
+"\". Для кожнага з узроўняў маштабавання, калі цэлы лік большы за 0, назва "
 "файла не зойме месца больш за вызначаную колькасць радкоў. Калі ж гэты лік "
 "роўны 0 ці меншы, для гэтага ўзроўню маштабавання не будзе ўжыта ніякіх "
 "абмежаванняў. Таксама прымаецца прадвызначаны элемент у форме \"Цэлы лік\", "
@@ -717,6 +716,7 @@ msgid "%0.2f frame per second"
 msgid_plural "%0.2f frames per second"
 msgstr[0] ""
 msgstr[1] ""
+msgstr[2] ""
 
 #: extensions/audio-video-properties/totem-properties-main.c:116
 #: extensions/audio-video-properties/totem-properties-view.c:275
@@ -825,12 +825,12 @@ msgstr "Кодэкі:"
 
 #: extensions/audio-video-properties/resources/ui/properties.ui:385
 msgid "Frame rate:"
-msgstr ""
+msgstr "Частата кадраў:"
 
 #: extensions/audio-video-properties/resources/ui/properties.ui:405
 #: extensions/audio-video-properties/resources/ui/properties.ui:572
 msgid "Bit rate:"
-msgstr ""
+msgstr "Хуткасць перадачы ў бітах:"
 
 #: extensions/audio-video-properties/resources/ui/properties.ui:536
 msgid "Sample rate:"
@@ -1403,8 +1403,7 @@ msgstr "Скасаваць"
 
 #: src/nautilus-error-reporting.c:85
 #, c-format
-msgid ""
-"You do not have the permissions necessary to view the contents of “%s”."
+msgid "You do not have the permissions necessary to view the contents of “%s”."
 msgstr "Вы не маеце дазволу на прагляд змесціва \"%s\"."
 
 #: src/nautilus-error-reporting.c:92
@@ -1423,8 +1422,7 @@ msgstr "Не ўдалося паказаць гэтае месца."
 
 #: src/nautilus-error-reporting.c:142
 #, c-format
-msgid ""
-"You do not have the permissions necessary to change the group of “%s”."
+msgid "You do not have the permissions necessary to change the group of “%s”."
 msgstr "Вы не маеце дазволу на змяненне групы для \"%s\"."
 
 #. fall through
@@ -1716,7 +1714,7 @@ msgstr "Невядома"
 
 #. Fallback, use for both unknown attributes and attributes
 #. * for which we have no more appropriate default.
-#. 
+#.
 #: src/nautilus-file.c:7426 src/nautilus-properties-window.c:1292
 msgid "unknown"
 msgstr "невядома"
@@ -1772,7 +1770,7 @@ msgstr "Двайковы файл"
 
 #: src/nautilus-file.c:7536
 msgid "Folder"
-msgstr "Тэчка"
+msgstr "Папка"
 
 #: src/nautilus-file.c:7575
 msgid "Link"
@@ -1781,7 +1779,7 @@ msgstr "Спасылка"
 #. Note to localizers: convert file type string for file
 #. * (e.g. "folder", "plain text") to file type for symbolic link
 #. * to that kind of file (e.g. "link to folder").
-#. 
+#.
 #. appended to new link file
 #: src/nautilus-file.c:7581 src/nautilus-file-operations.c:456
 #, c-format
@@ -1922,7 +1920,7 @@ msgstr "%s: іншая спасылка"
 #. Localizers: Feel free to leave out the "st" suffix
 #. * if there's no way to do that nicely for a
 #. * particular language.
-#. 
+#.
 #: src/nautilus-file-operations.c:484
 #, c-format
 msgid "%'dst link to %s"
@@ -1949,7 +1947,7 @@ msgstr "%2$s: %1$'d-ая спасылка"
 #. Localizers:
 #. * Feel free to leave out the st, nd, rd and th suffix or
 #. * make some or all of them match.
-#. 
+#.
 #. localizers: tag used to detect the first copy of a file
 #: src/nautilus-file-operations.c:557
 msgid " (copy)"
@@ -2009,7 +2007,7 @@ msgstr "%s (%d-ая копія)%s"
 #. localizers: if in your language there's no difference between 1st, 2nd, 3rd and nth
 #. * plurals, you can leave the st, nd, rd suffixes out and just make all the translated
 #. * strings look like "%s (copy %'d)%s".
-#. 
+#.
 #. localizers: appended to x1st file copy
 #: src/nautilus-file-operations.c:607
 #, c-format
@@ -2089,8 +2087,7 @@ msgid_plural ""
 "Are you sure you want to permanently delete the %'d selected items?"
 msgstr[0] "Ці вы насамрэч хочаце незваротна выдаліць %'d вылучаны элемент?"
 msgstr[1] "Ці вы насамрэч хочаце незваротна выдаліць %'d вылучаныя элементы?"
-msgstr[2] ""
-"Ці вы насамрэч хочаце незваротна выдаліць %'d вылучаных элементаў?"
+msgstr[2] "Ці вы насамрэч хочаце незваротна выдаліць %'d вылучаных элементаў?"
 
 #: src/nautilus-file-operations.c:1692
 #, c-format
@@ -2134,7 +2131,7 @@ msgstr "%'d / %'d"
 #. * So the whole thing will be something like "1 / 5 -- 2 hours left (4 files/sec)"
 #. *
 #. * The singular/plural form will be used depending on the remaining time (i.e. the %s argument).
-#. 
+#.
 #: src/nautilus-file-operations.c:1767 src/nautilus-file-operations.c:2157
 #, c-format
 msgid "%'d / %'d — %s left"
@@ -2359,7 +2356,7 @@ msgstr "Памылка падчас капіравання ў \"%s\"."
 
 #: src/nautilus-file-operations.c:3586
 msgid "You do not have permissions to access the destination folder."
-msgstr "Вы не маеце дазволу на доступ да мэтавай тэчкі."
+msgstr "Вы не маеце дазволу на доступ да мэтавай папцы."
 
 #: src/nautilus-file-operations.c:3590
 msgid "There was an error getting information about the destination."
@@ -2367,7 +2364,7 @@ msgstr "Узнікла памылка збору звестак пра месц�
 
 #: src/nautilus-file-operations.c:3644
 msgid "The destination is not a folder."
-msgstr "Месца прызначэння не з'яўляецца тэчкай."
+msgstr "Месца прызначэння не з'яўляецца папкай."
 
 #: src/nautilus-file-operations.c:3691
 msgid ""
@@ -2380,8 +2377,7 @@ msgstr ""
 #: src/nautilus-file-operations.c:3695
 #, c-format
 msgid "%s more space is required to copy to the destination."
-msgstr ""
-"Для капіравання ў месца прызначэння патрэбна яшчэ %s вольнай прасторы."
+msgstr "Для капіравання ў месца прызначэння патрэбна яшчэ %s вольнай прасторы."
 
 #: src/nautilus-file-operations.c:3735
 msgid "The destination is read-only."
@@ -2469,7 +2465,7 @@ msgstr[2] "Створаны дублікаты %'d файлаў у \"%s\""
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB".
 #. To translators: %s will expand to a size like "2 bytes" or
 #. * "3 MB", so something like "4 kb / 4 MB"
-#. 
+#.
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", so something like "4 kb / 4 MB"
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB".
 #: src/nautilus-file-operations.c:3986 src/nautilus-file-operations.c:4046
@@ -2483,7 +2479,7 @@ msgstr "%s / %s"
 #. * "2 minutes". So the whole thing will be something like "2 kb / 4 MB -- 2 hours left (4kb/sec)"
 #. *
 #. * The singular/plural form will be used depending on the remaining time (i.e. the %s argument).
-#. 
+#.
 #. To translators: %s will expand to a size like "2 bytes" or
 #. * "3 MB", %s to a time duration like "2 minutes". So the whole
 #. * thing will be something like
@@ -2491,12 +2487,12 @@ msgstr "%s / %s"
 #. *
 #. * The singular/plural form will be used depending on the
 #. * remaining time (i.e. the %s argument).
-#. 
+#.
 #. To translators: %s will expand to a size like "2 bytes" or "3 MB", %s to a time duration like
 #. * "2 minutes". So the whole thing will be something like "2 kb / 4 MB -- 2 hours left (4kb/sec)"
 #. *
 #. * The singular/plural form will be used depending on the remaining time (i.e. the %s argument).
-#. 
+#.
 #: src/nautilus-file-operations.c:4030 src/nautilus-file-operations.c:8128
 #: src/nautilus-file-operations.c:8570
 #, c-format
@@ -2510,7 +2506,7 @@ msgstr[2] "%s з %s — засталося: %s (%s/с)"
 #. * So the whole thing will be something like "1 / 5 -- 2 hours left (4kb/sec)"
 #. *
 #. * The singular/plural form will be used depending on the remaining time (i.e. the %s argument).
-#. 
+#.
 #: src/nautilus-file-operations.c:4064 src/nautilus-file-operations.c:8600
 #, c-format
 msgid "%'d / %'d — %s left (%s/sec)"
@@ -2562,7 +2558,7 @@ msgstr "Памылка падчас перамяшчэння \"%s\"."
 
 #: src/nautilus-file-operations.c:4901
 msgid "Could not remove the source folder."
-msgstr "Не ўдалося выдаліць арыгінальную тэчку."
+msgstr "Не ўдалося выдаліць арыгінальную папку."
 
 #: src/nautilus-file-operations.c:5104
 msgid "There was an error getting information about the source."
@@ -2571,7 +2567,7 @@ msgstr ""
 #. the run_warning() frees all strings passed in automatically
 #: src/nautilus-file-operations.c:5205 src/nautilus-file-operations.c:6034
 msgid "You cannot move a folder into itself."
-msgstr "Немагчыма перамясціць тэчку саму ў сябе."
+msgstr "Немагчыма перамясціць папку саму ў сябе."
 
 #: src/nautilus-file-operations.c:5206 src/nautilus-file-operations.c:6035
 msgid "You cannot copy a folder into itself."
@@ -2579,7 +2575,7 @@ msgstr "Немагчыма скапіраваць папку саму ў сяб�
 
 #: src/nautilus-file-operations.c:5207 src/nautilus-file-operations.c:6036
 msgid "The destination folder is inside the source folder."
-msgstr "Тэчка прызначэння знаходзіцца ўнутры арыгінальнай тэчкі."
+msgstr "Папка прызначэння знаходзіцца ўнутры арыгінальнай папцы."
 
 #. the run_warning() frees all strings passed in automatically
 #: src/nautilus-file-operations.c:5247
@@ -2673,7 +2669,7 @@ msgstr "Настаўленне дазволаў"
 #. localizers: the initial name of a new folder
 #: src/nautilus-file-operations.c:7408
 msgid "Untitled Folder"
-msgstr "Новая тэчка"
+msgstr "Новая папка"
 
 #. localizers: the initial name of a new empty document
 #: src/nautilus-file-operations.c:7423
@@ -2839,18 +2835,18 @@ msgstr "Напрыклад: "
 
 #: src/nautilus-files-view.c:2784
 msgid "Could not paste files"
-msgstr ""
+msgstr "Немагчыма  ўставіць файлы"
 
 #: src/nautilus-files-view.c:2785
 msgid "Permissions do not allow pasting files in this directory"
-msgstr ""
+msgstr "Недастаткова дазволу каб уставіць файлы ў гэтую папку"
 
 #: src/nautilus-files-view.c:2948
 msgid ""
 "Nautilus 3.6 deprecated this directory and tried migrating this "
 "configuration to ~/.local/share/nautilus"
 msgstr ""
-"Наўтылус 3.6 больш не выкарыстоўвае гэтую тэчку і паспрабаваў перанесці "
+"Наўтылус 3.6 больш не выкарыстоўвае гэтую папку і паспрабаваў перанесці "
 "канфігурацыю ў ~/.local/share/nautilus"
 
 #: src/nautilus-files-view.c:3445 src/nautilus-files-view.c:3492
@@ -2903,7 +2899,7 @@ msgstr[2] "%'d іншых элементаў вылучаны"
 #. This is marked for translation in case a localiser
 #. * needs to use something other than parentheses. The
 #. * the message in parentheses is the size of the selected items.
-#. 
+#.
 #: src/nautilus-files-view.c:3521
 #, c-format
 msgid "(%s)"
@@ -2915,7 +2911,7 @@ msgstr "(%s)"
 #. * and the number of items in those folders and the
 #. * message about the number of other items and the
 #. * total size of those items.
-#. 
+#.
 #: src/nautilus-files-view.c:3554
 #, c-format
 msgid "%s %s, %s %s"
@@ -2963,9 +2959,9 @@ msgstr "Не ўдалося запусціць \"%s\""
 #, c-format
 msgid "New Folder with Selection (%'d Item)"
 msgid_plural "New Folder with Selection (%'d Items)"
-msgstr[0] "Новая тэчка з вылучаным (%d элемент)"
-msgstr[1] "Новая тэчка з вылучаным (%d элементы)"
-msgstr[2] "Новая тэчка з вылучаным (%d элементаў)"
+msgstr[0] "Новая папка з вылучаным (%d элемент)"
+msgstr[1] "Новая папка з вылучаным (%d элементы)"
+msgstr[2] "Новая папка з вылучаным (%d элементаў)"
 
 #: src/nautilus-files-view.c:7969
 #, c-format
@@ -3031,7 +3027,7 @@ msgstr "Прагляд змесціва"
 
 #: src/nautilus-files-view.c:9902
 msgid "View of the current folder"
-msgstr "Прагляд гэтай тэчкі"
+msgstr "Прагляд гэтай папкі"
 
 #: src/nautilus-files-view-dnd.c:61 src/nautilus-files-view-dnd.c:95
 #: src/nautilus-files-view-dnd.c:157
@@ -3053,7 +3049,7 @@ msgstr "Вынятка.txt"
 
 #. Translator: This is the filename used for when you dnd raw
 #. * data to a directory, if the source didn't supply a name.
-#. 
+#.
 #: src/nautilus-files-view-dnd.c:340
 msgid "dropped data"
 msgstr "вынятка"
@@ -3313,11 +3309,11 @@ msgstr "Стварыць новую папку \"%s\""
 
 #: src/nautilus-file-undo-operations.c:816
 msgid "_Undo Create Folder"
-msgstr "_Адрабіць стварэнне тэчкі"
+msgstr "_Адрабіць стварэнне папкі"
 
 #: src/nautilus-file-undo-operations.c:817
 msgid "_Redo Create Folder"
-msgstr "_Паўтарыць стварэнне тэчкі"
+msgstr "_Паўтарыць стварэнне папкі"
 
 #: src/nautilus-file-undo-operations.c:821
 #, c-format
@@ -3644,7 +3640,7 @@ msgstr "Усё"
 
 #: src/nautilus-mime-actions.c:111 src/nautilus-properties-window.c:4665
 msgid "Folders"
-msgstr "Тэчкі"
+msgstr "Папкі"
 
 #: src/nautilus-mime-actions.c:115
 msgid "Documents"
@@ -3899,8 +3895,7 @@ msgstr ""
 
 #: src/nautilus-operations-ui-manager.c:146
 msgid "Please rename the symbolic link or press the skip button."
-msgstr ""
-"Пераназавіце сімвальную спасылку або націсніце кнопку \"Прапусціць\"."
+msgstr "Пераназавіце сімвальную спасылку або націсніце кнопку \"Прапусціць\"."
 
 #: src/nautilus-operations-ui-manager.c:150
 #, c-format
@@ -3977,7 +3972,7 @@ msgstr "Арыгінальная папка"
 #. * "Contents:" title to line up with the first line of the
 #. * 2-line value. Maybe there's a better way to do this, but I
 #. * couldn't think of one.
-#. 
+#.
 #: src/nautilus-operations-ui-manager.c:276
 #: src/nautilus-operations-ui-manager.c:308
 #: src/nautilus-properties-window.c:2351
@@ -4054,7 +4049,7 @@ msgstr "Каранёвая папка адміністратара"
 #. Translators: this is referred to captions under icons.
 #. Translators: this is referred to the permissions
 #. * the user has in a directory.
-#. 
+#.
 #: src/nautilus-preferences-window.c:153 src/nautilus-properties-window.c:4144
 #: src/nautilus-properties-window.c:4174
 msgid "None"
@@ -4090,7 +4085,7 @@ msgstr ""
 msgid ""
 "To open non-local files copy them to a local folder and then drop them again."
 msgstr ""
-"Каб адчыніць аддалены файл, скапіюйце яго ў мясцовую тэчку і паўтарыце "
+"Каб адчыніць аддалены файл, зрабіце яго копію ў мясцовую папку і паўтарыце "
 "перацягванне."
 
 #: src/nautilus-program-choosing.c:434
@@ -4098,7 +4093,7 @@ msgid ""
 "To open non-local files copy them to a local folder and then drop them "
 "again. The local files you dropped have already been opened."
 msgstr ""
-"Каб адчыніць аддалены файл, скапіюйце яго ў мясцовую тэчку і паўтарыце "
+"Каб адчыніць аддалены файл, зрабіце яго копію ў мясцовую папку і паўтарыце "
 "перацягванне. Мясцовыя файлы, якія вы перацягнулі сюды, ужо адчыненыя."
 
 #: src/nautilus-program-choosing.c:468
@@ -4280,7 +4275,7 @@ msgstr "Адкрыць у праграме Дыскі"
 
 #. translators: this gets concatenated to "no read",
 #. * "no access", etc. (see following strings)
-#. 
+#.
 #: src/nautilus-properties-window.c:4046 src/nautilus-properties-window.c:4061
 #: src/nautilus-properties-window.c:4078
 msgid "no "
@@ -4332,7 +4327,7 @@ msgstr "Доступ:"
 
 #: src/nautilus-properties-window.c:4219
 msgid "Folder access:"
-msgstr "Доступ да тэчкі:"
+msgstr "Доступ да папкі:"
 
 #: src/nautilus-properties-window.c:4223
 msgid "File access:"
@@ -4479,8 +4474,8 @@ msgstr ""
 
 #: src/nautilus-special-location-bar.c:57
 msgid ""
-"<a href=\"help:gnome-help/files-templates\" title=\"GNOME help for "
-"templates\">Learn more…</a>"
+"<a href=\"help:gnome-help/files-templates\" title=\"GNOME help for templates"
+"\">Learn more…</a>"
 msgstr ""
 "<a href=\"help:gnome-help/files-templates\" title=\"Дапамога GNOME па "
 "шаблонах\">Learn more…</a>"
@@ -4667,8 +4662,9 @@ msgstr "Доступ і кіраванне файламі"
 #. Translators should localize the following string
 #. * which will be displayed at the bottom of the about
 #. * box to give credit to the translator(s).
-#. 
+#.
 #: src/nautilus-window.c:3021
+#, fuzzy
 msgid "translator-credits"
 msgstr ""
 "Віталь Хілько <vk@altlinux.ru>, 2002, 2003, 2005\n"
@@ -4743,7 +4739,7 @@ msgstr "Вы не маеце дазволу на доступ да запатр�
 #. * the code that guesses web addresses when there's no initial "/".
 #. * But this case is also hit for legitimate web addresses when
 #. * the proxy is set up wrong.
-#. 
+#.
 #: src/nautilus-window-slot.c:1744
 msgid ""
 "Unable to find the requested location. Please check the spelling or the "
@@ -4754,7 +4750,7 @@ msgstr ""
 
 #. This case can be hit when server application is not installed
 #. * or is inactive in the system user is trying to connect to.
-#. 
+#.
 #: src/nautilus-window-slot.c:1753
 msgid ""
 "The server has refused the connection. Typically this means that the "
@@ -4788,7 +4784,7 @@ msgstr "Новае акно"
 #: src/resources/gtk/help-overlay.ui:24
 msgctxt "shortcut window"
 msgid "Close window or tab"
-msgstr "Закрыць акно ці картку"
+msgstr "Закрыць акно ці ўкладку"
 
 #: src/resources/gtk/help-overlay.ui:31
 msgctxt "shortcut window"
@@ -4823,7 +4819,7 @@ msgstr "Адкрыць"
 #: src/resources/gtk/help-overlay.ui:72
 msgctxt "shortcut window"
 msgid "Open in new tab"
-msgstr "Адкрыць у новай картцы"
+msgstr "Адкрыць у новай укладцы"
 
 #: src/resources/gtk/help-overlay.ui:79
 msgctxt "shortcut window"
@@ -4848,42 +4844,42 @@ msgstr "Адкрыць у прадвызначанай праграме"
 #: src/resources/gtk/help-overlay.ui:109
 msgctxt "shortcut window"
 msgid "Tabs"
-msgstr "Карткі"
+msgstr "Укладкі"
 
 #: src/resources/gtk/help-overlay.ui:113
 msgctxt "shortcut window"
 msgid "New tab"
-msgstr "Новая картка"
+msgstr "Новая ўкладка"
 
 #: src/resources/gtk/help-overlay.ui:120
 msgctxt "shortcut window"
 msgid "Go to previous tab"
-msgstr "Да папярэдняй карткі"
+msgstr "Да папярэдняй укладкі"
 
 #: src/resources/gtk/help-overlay.ui:127
 msgctxt "shortcut window"
 msgid "Go to next tab"
-msgstr "Да наступнай карткі"
+msgstr "Да наступнай укладкі"
 
 #: src/resources/gtk/help-overlay.ui:134
 msgctxt "shortcut window"
 msgid "Open tab"
-msgstr "Адкрыць картку"
+msgstr "Адкрыць укладку"
 
 #: src/resources/gtk/help-overlay.ui:141
 msgctxt "shortcut window"
 msgid "Move tab left"
-msgstr "Пасунуць картку ўлева"
+msgstr "Пасунуць укладку ўлева"
 
 #: src/resources/gtk/help-overlay.ui:148
 msgctxt "shortcut window"
 msgid "Move tab right"
-msgstr "Пасунуць картку ўправа"
+msgstr "Пасунуць укладку ўправа"
 
 #: src/resources/gtk/help-overlay.ui:155
 msgctxt "shortcut window"
 msgid "Restore tab"
-msgstr "Аднавіць картку"
+msgstr "Аднавіць укладку"
 
 #: src/resources/gtk/help-overlay.ui:164
 msgctxt "shortcut window"
@@ -5159,7 +5155,7 @@ msgstr "Архівы меншага памеру, але павінна быць
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:5
 msgid "New _Folder"
-msgstr "Новая _тэчка"
+msgstr "Новая _папка"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:10
 #: src/resources/ui/nautilus-pathbar-context-menu.ui:11
@@ -5193,7 +5189,7 @@ msgstr "_Сцэнарыі"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:58
 msgid "_Open Scripts Folder"
-msgstr "Ад_крыць тэчку сцэнараў"
+msgstr "Ад_крыць папку сцэнарыяў"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:66
 msgid "_Open Item Location"
@@ -5243,7 +5239,7 @@ msgstr "С_капіраваць"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:138
 msgid "_Paste Into Folder"
-msgstr "Уста_віць у тэчку"
+msgstr "Уста_віць у папку"
 
 #: src/resources/ui/nautilus-files-view-context-menus.ui:145
 msgid "Move to…"
@@ -5624,7 +5620,7 @@ msgstr "Тут з'явяцца абраныя файлы"
 
 #: src/resources/ui/nautilus-toolbar.ui:49
 msgid "New Tab"
-msgstr ""
+msgstr "Новая ўкладка"
 
 #: src/resources/ui/nautilus-toolbar.ui:120
 msgid "Edit"
@@ -5632,16 +5628,16 @@ msgstr "Рэдагаванне"
 
 #: src/resources/ui/nautilus-toolbar.ui:133
 msgid "Cut"
-msgstr ""
+msgstr "Выразаць"
 
 #. Translators: This is a verb
 #: src/resources/ui/nautilus-toolbar.ui:157
 msgid "Copy"
-msgstr ""
+msgstr "Капіраваць"
 
 #: src/resources/ui/nautilus-toolbar.ui:180
 msgid "Paste"
-msgstr ""
+msgstr "Уставіць"
 
 #: src/resources/ui/nautilus-toolbar.ui:224
 msgid "Select All"
@@ -5843,7 +5839,7 @@ msgstr "На гэтым камп'ютары"
 #. Translators: respectively, free and total space of the drive. The plural form
 #. * should be based on the free space available.
 #. * i.e. 1 GB / 24 GB available.
-#. 
+#.
 #: src/gtk/nautilusgtkplacesviewrow.c:136
 #, c-format
 msgid "%s / %s available"
