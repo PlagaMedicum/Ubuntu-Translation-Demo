@@ -1,0 +1,972 @@
+# Ukrainian translation for man-db
+# Copyright (c) 2013 Rosetta Contributors and Canonical Ltd 2013
+# This file is distributed under the same license as the man-db package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: man-db\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-08-26 15:48+0100\n"
+"PO-Revision-Date: 2015-12-06 06:54+0000\n"
+"Last-Translator: Myk <Stuartlittle1970@gmail.com>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Launchpad-Export-Date: 2019-09-14 11:37+0000\n"
+"X-Generator: Launchpad (build 19048)\n"
+
+#: lib/security.c:79
+#, c-format
+msgid "can't set effective uid"
+msgstr "не вдалося встановити ефективний uid"
+
+#: lib/security.c:118
+#, c-format
+msgid "the setuid man user \"%s\" does not exist"
+msgstr "setuid man користувач \"%s\" не існує"
+
+#: lib/xregcomp.c:47
+#, c-format
+msgid "fatal: regex `%s': %s"
+msgstr "невиправна помилка: regex `%s': %s"
+
+#: libdb/db_delete.c:105
+#, c-format
+msgid "multi key %s does not exist"
+msgstr "багатомірний ключ %s не існує"
+
+#: libdb/db_lookup.c:75
+#, c-format
+msgid "can't lock index cache %s"
+msgstr "не вдалося заблокувати індексний кеш %s"
+
+#: libdb/db_lookup.c:82
+#, c-format
+msgid "index cache %s corrupt"
+msgstr "індексний кеш %s пошкоджено"
+
+#: libdb/db_lookup.c:88
+#, c-format
+msgid "cannot replace key %s"
+msgstr "не вдалося замінити ключ %s"
+
+#: libdb/db_lookup.c:183 libdb/db_lookup.c:194
+#, c-format
+msgid "only %d field in content"
+msgid_plural "only %d fields in content"
+msgstr[0] "у вмісті лише %d поле"
+msgstr[1] "у вмісті лише %d поля"
+msgstr[2] "у вмісті лише %d полів"
+
+#: libdb/db_lookup.c:358
+#, c-format
+msgid "bad fetch on multi key %s"
+msgstr "неправильна вибірка по багатомірному ключу %s"
+
+#: libdb/db_lookup.c:443 src/whatis.c:737
+#, c-format
+msgid "Database %s corrupted; rebuild with mandb --create"
+msgstr "Базу даних %s пошкоджено; перезбірка командою mandb --create"
+
+#: libdb/db_ver.c:53
+#, c-format
+msgid "warning: %s has no version identifier\n"
+msgstr "попередження: %s не має ідентифікатора версії\n"
+
+#: libdb/db_ver.c:57
+#, c-format
+msgid "warning: %s is version %s, expecting %s\n"
+msgstr "попередження: %s має версію %s, а очікується %s\n"
+
+#: libdb/db_ver.c:79
+#, c-format
+msgid "fatal: unable to insert version identifier into %s"
+msgstr "невиправна помилка: не вдалося вставити ідентифікатор версії у %s"
+
+#: src/accessdb.c:59
+msgid "[MAN DATABASE]"
+msgstr "[БАЗА ДАНИХ MAN]"
+
+#: src/accessdb.c:60
+#, c-format
+msgid "The man database defaults to %s%s."
+msgstr "Типово базу даних man розміщено у %s%s."
+
+#: src/accessdb.c:63 src/catman.c:100 src/globbing_test.c:58
+#: src/lexgrog_test.c:73 src/man.c:268 src/manconv_main.c:96 src/mandb.c:114
+#: src/manpath.c:65 src/whatis.c:126 src/zsoelim_main.c:68
+msgid "emit debugging messages"
+msgstr "показувати повідомлення налагодження"
+
+#: src/accessdb.c:137
+#, c-format
+msgid "can't open %s for reading"
+msgstr "не вдалося відкрити %s на читання"
+
+#: src/catman.c:97
+msgid "[SECTION...]"
+msgstr "[СЕКЦІЯ...]"
+
+#: src/catman.c:101 src/man.c:289 src/whatis.c:136
+msgid "PATH"
+msgstr "ШЛЯХ"
+
+#: src/catman.c:101 src/man.c:289 src/whatis.c:136
+msgid "set search path for manual pages to PATH"
+msgstr "встановити шлях пошуку довідкових сторінок у значення ШЛЯХ"
+
+#: src/catman.c:102 src/man.c:267 src/mandb.c:122 src/manpath.c:67
+#: src/whatis.c:138
+msgid "FILE"
+msgstr "ФАЙЛ"
+
+#: src/catman.c:102 src/man.c:267 src/mandb.c:122 src/manpath.c:67
+#: src/whatis.c:138
+msgid "use this user configuration file"
+msgstr "використовувати вказаний файл користувацьких налаштувань"
+
+#: src/catman.c:195
+#, c-format
+msgid "man command failed with exit status %d"
+msgstr "команда man закінчилася невдало (код виходу %d)"
+
+#: src/catman.c:235
+#, c-format
+msgid "cannot read database %s"
+msgstr "не вдалося прочитати базу даних %s"
+
+#: src/catman.c:278
+#, c-format
+msgid "NULL content for key: %s"
+msgstr "вміст ключа рівний NULL: %s"
+
+#: src/catman.c:294
+#, c-format
+msgid ""
+"\n"
+"Updating cat files for section %s of man hierarchy %s\n"
+msgstr ""
+"\n"
+"Оновлення cat файлів у розділі %s man ієрархії %s\n"
+
+#: src/catman.c:348
+#, c-format
+msgid "cannot write within %s"
+msgstr "не вдалося записати у %s"
+
+#: src/catman.c:425
+#, c-format
+msgid "unable to update %s"
+msgstr "не вдалося оновити %s"
+
+#: src/check_mandirs.c:100
+#, c-format
+msgid "warning: %s/man%s/%s.%s*: competing extensions"
+msgstr "попередження: %s/man%s/%s.%s*: конкуруючі розширення"
+
+#: src/check_mandirs.c:126 src/check_mandirs.c:626
+#, c-format
+msgid "can't update index cache %s"
+msgstr "не вдалося оновити індексний кеш %s"
+
+#: src/check_mandirs.c:254
+#, c-format
+msgid "warning: %s: bad symlink or ROFF `.so' request"
+msgstr ""
+"попередження: %s: неправильне символічне посилання або запит ROFF `.so'"
+
+#: src/check_mandirs.c:310
+#, c-format
+msgid "warning: %s: ignoring empty file"
+msgstr "попередження: %s: ігнорується порожній файл"
+
+#: src/check_mandirs.c:314 src/straycats.c:276
+#, c-format
+msgid "warning: %s: whatis parse for %s(%s) failed"
+msgstr "попередження: %s: whatis аналіз %s(%s) не вдався"
+
+#: src/check_mandirs.c:341 src/check_mandirs.c:511 src/mandb.c:877
+#: src/straycats.c:84 src/straycats.c:303 src/ult_src.c:81
+#, c-format
+msgid "can't search directory %s"
+msgstr "не вдалося знайти каталог %s"
+
+#: src/check_mandirs.c:390 src/man.c:1689
+#, c-format
+msgid "can't chown %s"
+msgstr "не вдалося виконати функцію chown %s"
+
+#: src/check_mandirs.c:412 src/check_mandirs.c:435
+#, c-format
+msgid "warning: cannot create catdir %s"
+msgstr "попередження: не вдалося створити cat каталог %s"
+
+#: src/check_mandirs.c:467 src/man.c:1701 src/mandb.c:232
+#, c-format
+msgid "can't chmod %s"
+msgstr "не вдалося виконати функцію chmod %s"
+
+#: src/check_mandirs.c:516
+#, c-format
+msgid "can't change to directory %s"
+msgstr "не вдалося змінити каталог на %s"
+
+#: src/check_mandirs.c:566
+#, c-format
+msgid "can't create index cache %s"
+msgstr "не вдалося створити індексний кеш %s"
+
+#: src/check_mandirs.c:591
+#, c-format
+msgid "Updating index cache for path `%s/%s'. Wait..."
+msgstr "Оновлення індексного кешу для шляху `%s/%s'. Чекайте..."
+
+#: src/check_mandirs.c:653 src/check_mandirs.c:714
+msgid "done.\n"
+msgstr "завершено.\n"
+
+#: src/check_mandirs.c:977
+#, c-format
+msgid "Purging old database entries in %s...\n"
+msgstr "Вилучення старих записів бази даних у %s...\n"
+
+#: src/descriptions_store.c:51
+#, c-format
+msgid "warning: failed to store entry for %s(%s)"
+msgstr "попередження: не вдалося зберегти запис для %s(%s)"
+
+#: src/filenames.c:48 src/straycats.c:124 src/straycats.c:153
+#, c-format
+msgid "warning: %s: ignoring bogus filename"
+msgstr "попередження: %s: ігнорується фальшиве ім’я файлу"
+
+#: src/globbing_test.c:55
+msgid "PATH SECTION NAME"
+msgstr "ШЛЯХ СЕКЦІЯ ІМ’Я"
+
+#: src/globbing_test.c:59 src/man.c:292
+msgid "EXTENSION"
+msgstr "РОЗШИРЕННЯ"
+
+#: src/globbing_test.c:59 src/man.c:293
+msgid "limit search to extension type EXTENSION"
+msgstr "шукати лише з заданим РОЗШИРЕННЯМ"
+
+#: src/globbing_test.c:60 src/man.c:294
+msgid "look for pages case-insensitively (default)"
+msgstr "не враховувати регістр при пошуку (типово)"
+
+#: src/globbing_test.c:61 src/man.c:295
+msgid "look for pages case-sensitively"
+msgstr "враховувати регістр при пошуку"
+
+#: src/globbing_test.c:62
+msgid "interpret page name as a regex"
+msgstr "вважати ім’я сторінки регулярним виразом"
+
+#: src/globbing_test.c:63
+msgid "the page name contains wildcards"
+msgstr "ім’я сторінки містить групові символи"
+
+#: src/lexgrog.l:701
+#, c-format
+msgid "warning: whatis for %s exceeds %d byte, truncating."
+msgid_plural "warning: whatis for %s exceeds %d bytes, truncating."
+msgstr[0] ""
+"попередження: результат whatis для %s перевищив %d байт, обрізається."
+msgstr[1] ""
+"попередження: результат whatis для %s перевищив %d байти, обрізається."
+msgstr[2] ""
+"попередження: результат whatis для %s перевищив %d байтів, обрізається."
+
+#: src/lexgrog.l:854 src/man.c:2270 src/man.c:2354 src/man.c:2452
+#: src/manconv_main.c:168 src/straycats.c:218 src/ult_src.c:321
+#: src/ult_src.c:335 src/zsoelim.l:519
+#, c-format
+msgid "can't open %s"
+msgstr "неможливо відкрити %s"
+
+#: src/lexgrog_test.c:69 src/zsoelim_main.c:65
+msgid "FILE..."
+msgstr "ФАЙЛ..."
+
+#: src/lexgrog_test.c:70
+msgid "The defaults are --man and --whatis."
+msgstr "Типово використовуються --man та --whatis."
+
+#: src/lexgrog_test.c:74
+msgid "parse as man page"
+msgstr "аналізувати як man-сторінку"
+
+#: src/lexgrog_test.c:75
+msgid "parse as cat page"
+msgstr "аналізувати як cat-сторінку"
+
+#: src/lexgrog_test.c:76
+msgid "show whatis information"
+msgstr "показати інформацію whatis"
+
+#: src/lexgrog_test.c:77
+msgid "show guessed series of preprocessing filters"
+msgstr "показати серію припущень фільтрів попередньої обробки"
+
+#: src/lexgrog_test.c:78 src/man.c:284 src/man.c:309
+msgid "ENCODING"
+msgstr "КОДУВАННЯ"
+
+#: src/lexgrog_test.c:78 src/man.c:309
+msgid "use selected output encoding"
+msgstr "використовувати обране кодування вихідних даних"
+
+#: src/lexgrog_test.c:122 src/man.c:540 src/man.c:549
+#, c-format
+msgid "%s: incompatible options"
+msgstr "%s: несумісні параметри"
+
+#: src/man.c:160
+#, c-format
+msgid "command exited with status %d: %s"
+msgstr "команда закінчилася з кодом %d: %s"
+
+#: src/man.c:251
+msgid "[SECTION] PAGE..."
+msgstr "[СЕКЦІЯ] СТОРІНКА..."
+
+#: src/man.c:269
+msgid "reset all options to their default values"
+msgstr "скинути усі параметри на типові значення"
+
+#: src/man.c:270
+msgid "WARNINGS"
+msgstr "ПОПЕРЕДЖЕННЯ"
+
+#: src/man.c:271
+msgid "enable warnings from groff"
+msgstr "увімкнути попередження від groff"
+
+#: src/man.c:273
+msgid "Main modes of operation:"
+msgstr "Основні режими роботи:"
+
+#: src/man.c:274
+msgid "equivalent to whatis"
+msgstr "еквівалентно whatis"
+
+#: src/man.c:275
+msgid "equivalent to apropos"
+msgstr "еквівалентно apropos"
+
+#: src/man.c:276
+msgid "search for text in all pages"
+msgstr "шукати текст по усіх довідкових сторінках"
+
+#: src/man.c:277
+msgid "print physical location of man page(s)"
+msgstr "показувати фізичне розміщення man сторінки"
+
+#: src/man.c:280
+msgid "print physical location of cat file(s)"
+msgstr "показувати фізичне розміщення cat файлу(ів)"
+
+#: src/man.c:282
+msgid "interpret PAGE argument(s) as local filename(s)"
+msgstr "сприймати аргумент(и) СТОРІНКА як ім’я файлу(ів)"
+
+#: src/man.c:283
+msgid "used by catman to reformat out of date cat pages"
+msgstr "використовується catman для переформатування застарілих cat сторінок"
+
+#: src/man.c:284
+msgid "output source page encoded in ENCODING"
+msgstr "вивести вихідну сторінку у КОДУВАННІ"
+
+#: src/man.c:286
+msgid "Finding manual pages:"
+msgstr "Пошук довідкових сторінок:"
+
+#: src/man.c:287 src/whatis.c:137
+msgid "LOCALE"
+msgstr "ЛОКАЛЬ"
+
+#: src/man.c:287
+msgid "define the locale for this particular man search"
+msgstr "задати локаль для пошуку"
+
+#: src/man.c:288 src/manpath.c:68 src/whatis.c:135
+msgid "SYSTEM"
+msgstr "СИСТЕМА"
+
+#: src/man.c:288 src/manpath.c:68 src/whatis.c:135
+msgid "use manual pages from other systems"
+msgstr "використовувати довідкові сторінки від інших систем"
+
+#: src/man.c:290 src/whatis.c:133
+msgid "LIST"
+msgstr "СПИСОК"
+
+#: src/man.c:290
+msgid "use colon separated section list"
+msgstr "використовувати список секцій, вказаних через двокрапку"
+
+#: src/man.c:296
+msgid "show all pages matching regex"
+msgstr "показати усі сторінки, що задовольняють регулярний вираз"
+
+#: src/man.c:297
+msgid "show all pages matching wildcard"
+msgstr "показати усі сторінки, що задовольняють групові символи"
+
+#: src/man.c:298
+msgid "make --regex and --wildcard match page names only, not descriptions"
+msgstr "шукати збіг --regex та --wildcard лише у іменах сторінок, без описів"
+
+#: src/man.c:300
+msgid "find all matching manual pages"
+msgstr "пошук усіх підходящих довідкових сторінок"
+
+#: src/man.c:301
+msgid "force a cache consistency check"
+msgstr "виконати перевірку цілісності кешу"
+
+#: src/man.c:303
+msgid "don't try subpages, e.g. 'man foo bar' => 'man foo-bar'"
+msgstr "не чипати підсторінки, наприклад, 'man foo bar' => 'man foo-bar'"
+
+#: src/man.c:305
+msgid "Controlling formatted output:"
+msgstr "Керування форматуванням виводу:"
+
+#: src/man.c:306
+msgid "PAGER"
+msgstr "ПЕЙДЖЕР"
+
+#: src/man.c:306
+msgid "use program PAGER to display output"
+msgstr "використовувати програму ПЕЙДЖЕР для виводу на екран"
+
+#: src/man.c:307 src/man.c:316
+msgid "STRING"
+msgstr "РЯДОК"
+
+#: src/man.c:307
+msgid "provide the `less' pager with a prompt"
+msgstr "використовувати пейджер `less' з підказкою"
+
+#: src/man.c:308
+msgid "display ASCII translation of certain latin1 chars"
+msgstr "показати трансляцію ASCII певних символів latin1"
+
+#: src/man.c:311
+msgid "turn off hyphenation"
+msgstr "вимкнути перенесення слів"
+
+#: src/man.c:314
+msgid "turn off justification"
+msgstr "вимкнути вирівнювання"
+
+#: src/man.c:316
+msgid ""
+"STRING indicates which preprocessors to run:\n"
+"e - [n]eqn, p - pic, t - tbl,\n"
+"g - grap, r - refer, v - vgrind"
+msgstr ""
+"РЯДОК визначає процесори що запускаються:\n"
+"e - [n]eqn, p - pic, t - tbl,\n"
+"g - grap, r - refer, v - vgrind"
+
+#: src/man.c:320
+#, c-format
+msgid "use %s to format pages"
+msgstr "використовувати %s для форматування сторінок"
+
+#: src/man.c:321
+msgid "DEVICE"
+msgstr "ПРИСТРІЙ"
+
+#: src/man.c:322
+#, c-format
+msgid "use %s with selected device"
+msgstr "використовувати %s на обраному пристрої"
+
+#: src/man.c:323
+msgid "BROWSER"
+msgstr "ПЕРЕГЛЯДАЧ"
+
+#: src/man.c:324
+#, c-format
+msgid "use %s or BROWSER to display HTML output"
+msgstr "використовувати %s на обраному пристрої"
+
+#: src/man.c:325
+msgid "RESOLUTION"
+msgstr "RESOLUTION"
+
+#: src/man.c:327
+msgid ""
+"use groff and display through gxditview (X11):\n"
+"-X = -TX75, -X100 = -TX100, -X100-12 = -TX100-12"
+msgstr ""
+"використовувати groff та показувати за допомогою gxditview (X11):\n"
+"-X = -TX75, -X100 = -TX100, -X100-12 = -TX100-12"
+
+#: src/man.c:329
+msgid "use groff and force it to produce ditroff"
+msgstr "використовувати groff та примусити його генерувати ditroff"
+
+#: src/man.c:599 src/man.c:735
+#, c-format
+msgid "No manual entry for %s\n"
+msgstr "Немає довідкової сторінки для %s\n"
+
+#: src/man.c:601
+#, c-format
+msgid "(Alternatively, what manual page do you want from section %s?)\n"
+msgstr "(Або ж, яка саме з довідкових сторінок розділу %s вам потрібна?)\n"
+
+#: src/man.c:605
+msgid "What manual page do you want?\n"
+msgstr "Яка довідкова сторінка вам потрібна?\n"
+
+#: src/man.c:732
+#, c-format
+msgid "No manual entry for %s in section %s\n"
+msgstr "Немає довідкової сторінки для %s у розділі %s\n"
+
+#: src/man.c:741
+#, c-format
+msgid "See '%s' for help when manual pages are not available.\n"
+msgstr "Дивіться '%s' у довідці, якщо недоступні довідкові сторінки.\n"
+
+#: src/man.c:1349
+#, c-format
+msgid "ignoring unknown preprocessor `%c'"
+msgstr "ігнорування невідомого препроцесора `%c'"
+
+#: src/man.c:1712 src/mandb.c:223
+#, c-format
+msgid "can't rename %s to %s"
+msgstr "не вдалося змінити назву %s на %s"
+
+#: src/man.c:1729
+#, c-format
+msgid "can't set times on %s"
+msgstr "не вдалося встановити час доступу для %s"
+
+#: src/man.c:1738 src/man.c:1775
+#, c-format
+msgid "can't unlink %s"
+msgstr "не вдалося виконати функцію unlink %s"
+
+#: src/man.c:1805
+#, c-format
+msgid "can't create temporary cat for %s"
+msgstr "не вдалося створити тимчасовий cat файл %s"
+
+#: src/man.c:1915
+#, c-format
+msgid "can't create temporary directory"
+msgstr "не вдалося створити тимчасовий каталог"
+
+#: src/man.c:1926
+#, c-format
+msgid "can't open temporary file %s"
+msgstr "не вдалося відкрити тимчасовий файл %s"
+
+#: src/man.c:1956 src/man.c:1985
+#, c-format
+msgid "can't remove directory %s"
+msgstr "не вдалося вилучити каталог %s"
+
+#: src/man.c:2114
+#, c-format
+msgid "--Man-- next: %s [ view (return) | skip (Ctrl-D) | quit (Ctrl-C) ]\n"
+msgstr ""
+"--Man-- наст: %s [ перегл (ввід) | пропуск (Ctrl-D) | вихід (Ctrl-C) ]\n"
+
+#: src/man.c:2397
+#, c-format
+msgid ""
+"\n"
+"cannot write to %s in catman mode"
+msgstr ""
+"\n"
+"не вдалося записати у %s у режимі catman"
+
+#: src/man.c:2477
+#, c-format
+msgid "Can't convert %s to cat name"
+msgstr "Не вдалося перетворити %s у cat ім’я"
+
+#: src/man.c:3206
+#, c-format
+msgid "%s: relying on whatis refs is deprecated\n"
+msgstr "%s: покладатися на посилання whatis настійно не рекомендується\n"
+
+#: src/man.c:3349 src/man.c:4200
+#, c-format
+msgid "mandb command failed with exit status %d"
+msgstr "команда mandb закінчилася невдало (код виходу %d)"
+
+#: src/man.c:3551
+#, c-format
+msgid "internal error: candidate type %d out of range"
+msgstr "внутрішня помилка: тип кандидата %d поза діапазоном"
+
+#: src/man.c:4141
+msgid " Manual page "
+msgstr " Довідкова сторінка "
+
+#: src/manconv.c:232 src/manconv.c:253 src/manconv.c:348
+#, c-format
+msgid "can't write to standard output"
+msgstr "не вдалося записати у стандартний вихідний потік"
+
+#: src/manconv.c:279
+msgid "iconv: incomplete character at end of buffer"
+msgstr "iconv: неповний символ у кінці буферу"
+
+#: src/manconv_main.c:90
+msgid "-f CODE[:...] -t CODE [FILENAME]"
+msgstr "-f КОДУВАННЯ[:...] -t КОДУВАННЯ [ІМ’Я-ФАЙЛУ]"
+
+#: src/manconv_main.c:93
+msgid "CODE[:...]"
+msgstr "КОДУВАННЯ[:...]"
+
+#: src/manconv_main.c:94
+msgid "possible encodings of original text"
+msgstr "можливі кодування оригінального тексту"
+
+#: src/manconv_main.c:95
+msgid "CODE"
+msgstr "КОДУВАННЯ"
+
+#: src/manconv_main.c:95
+msgid "encoding for output"
+msgstr "кодування виводу"
+
+#: src/manconv_main.c:97 src/manpath.c:66
+msgid "produce fewer warnings"
+msgstr "виводити деякі попередження"
+
+#: src/manconv_main.c:132 src/manconv_main.c:141
+#, c-format
+msgid "must specify an input encoding"
+msgstr "повинно бути вказано кодування вхідних даних"
+
+#: src/manconv_main.c:136
+#, c-format
+msgid "must specify an output encoding"
+msgstr "повинно бути вказано кодування вихідних даних"
+
+#: src/mandb.c:111
+msgid "[MANPATH]"
+msgstr "[MANPATH]"
+
+#: src/mandb.c:115
+msgid "work quietly, except for 'bogus' warning"
+msgstr "не виводити повідомлення, за виключенням 'фіктивних' попереджень"
+
+#: src/mandb.c:116
+msgid "don't look for or add stray cats to the dbs"
+msgstr "не шукати або додавати побічні cat у dbs"
+
+#: src/mandb.c:117
+msgid "don't purge obsolete entries from the dbs"
+msgstr "не вичищати застарілі записи з dbs"
+
+#: src/mandb.c:118
+msgid "produce user databases only"
+msgstr "створити лише користувацькі бази даних"
+
+#: src/mandb.c:119
+msgid "create dbs from scratch, rather than updating"
+msgstr "створити dbs з нуля, а не оновлювати"
+
+#: src/mandb.c:120
+msgid "check manual pages for correctness"
+msgstr "перевірити довідкові сторінки на правильність"
+
+#: src/mandb.c:121
+msgid "FILENAME"
+msgstr "НАЗВА ФАЙЛУ"
+
+#: src/mandb.c:121
+msgid "update just the entry for this filename"
+msgstr "оновити запис лише для цього файлу"
+
+#: src/mandb.c:216
+#, c-format
+msgid "can't remove %s"
+msgstr "не вдалося вилучити %s"
+
+#: src/mandb.c:280
+#, c-format
+msgid "can't write to %s"
+msgstr "не вдалося записати у %s"
+
+#: src/mandb.c:285
+#, c-format
+msgid "can't read from %s"
+msgstr "не вдалося прочитати з %s"
+
+#: src/mandb.c:457
+#, c-format
+msgid "Processing manual pages under %s...\n"
+msgstr "Обробка довідкових сторінок у %s...\n"
+
+#: src/mandb.c:666 src/mandb.c:692
+#, c-format
+msgid "Removing obsolete cat directory %s...\n"
+msgstr "Вилучається застарілий каталог cat %s...\n"
+
+#: src/mandb.c:842
+#, c-format
+msgid "warning: no MANDB_MAP directives in %s, using your manpath"
+msgstr ""
+"попередження: немає директиви MANDB_MAP у %s, використовується ваш manpath"
+
+#: src/mandb.c:914
+#, c-format
+msgid "%d man subdirectory contained newer manual pages.\n"
+msgid_plural "%d man subdirectories contained newer manual pages.\n"
+msgstr[0] "У %d man-підкаталозі містяться новіші довідкові сторінки.\n"
+msgstr[1] "У %d man-підкаталогах містяться новіші довідкові сторінки.\n"
+msgstr[2] "У %d man-підкаталогах містяться новіші довідкові сторінки.\n"
+
+#: src/mandb.c:919
+#, c-format
+msgid "%d manual page was added.\n"
+msgid_plural "%d manual pages were added.\n"
+msgstr[0] "Додана %d довідкова сторінка.\n"
+msgstr[1] "Додано %d довідкові сторінки.\n"
+msgstr[2] "Додано %d довідкових сторінок.\n"
+
+#: src/mandb.c:923
+#, c-format
+msgid "%d stray cat was added.\n"
+msgid_plural "%d stray cats were added.\n"
+msgstr[0] "Додана %d побічна cat-сторінка.\n"
+msgstr[1] "Додано %d побічні cat-сторінки.\n"
+msgstr[2] "Додано %d побічних cat-сторінок.\n"
+
+#: src/mandb.c:928
+#, c-format
+msgid "%d old database entry was purged.\n"
+msgid_plural "%d old database entries were purged.\n"
+msgstr[0] "Вичищений %d старий запис бази даних.\n"
+msgstr[1] "Вичищено %d старі записи бази даних.\n"
+msgstr[2] "Вичищено %d старих записів бази даних.\n"
+
+#: src/mandb.c:946
+#, c-format
+msgid "No databases created."
+msgstr "Баз даних не створено."
+
+#: src/manp.c:349
+#, c-format
+msgid "can't make sense of the manpath configuration file %s"
+msgstr "немає правильного manpath файлу налаштувань %s"
+
+#: src/manp.c:355
+#, c-format
+msgid "warning: %s"
+msgstr "попередження: %s"
+
+#: src/manp.c:361
+#, c-format
+msgid "warning: %s isn't a directory"
+msgstr "попередження: %s не є каталогом"
+
+#: src/manp.c:692
+#, c-format
+msgid "warning: $PATH not set"
+msgstr "попередження: змінну середовища $PATH не встановлено"
+
+#: src/manp.c:699
+#, c-format
+msgid "warning: empty $PATH"
+msgstr "попередження: змінна середовища $PATH порожня"
+
+#: src/manp.c:727
+#, c-format
+msgid "warning: $MANPATH set, prepending %s"
+msgstr ""
+"попередження: знайдено змінну середовища $MANPATH, додається до початку %s"
+
+#: src/manp.c:738
+#, c-format
+msgid "warning: $MANPATH set, appending %s"
+msgstr ""
+"попередження: знайдено змінну середовища $MANPATH, додається у кінець %s"
+
+#: src/manp.c:750
+#, c-format
+msgid "warning: $MANPATH set, inserting %s"
+msgstr "попередження: знайдено змінну середовища $MANPATH, вставляється у %s"
+
+#: src/manp.c:764
+#, c-format
+msgid "warning: $MANPATH set, ignoring %s"
+msgstr "пропередження: знайдено змінну середовища $MANPATH, ігнорується %s"
+
+#: src/manp.c:826
+#, c-format
+msgid "can't parse directory list `%s'"
+msgstr "не вдалося розібрати список каталогів `%s'"
+
+#: src/manp.c:881
+#, c-format
+msgid "can't open the manpath configuration file %s"
+msgstr "не вдалося відкрити manpath файл налаштувань %s"
+
+#: src/manp.c:920
+#, c-format
+msgid "warning: mandatory directory %s doesn't exist"
+msgstr "попередження: обов’язкового каталогу %s не існує"
+
+#: src/manp.c:1176
+#, c-format
+msgid "can't determine current directory"
+msgstr "не вдалося визначити поточний каталог"
+
+#: src/manp.c:1385
+#, c-format
+msgid "warning: %s does not begin with %s"
+msgstr "попередження: %s не починається з %s"
+
+#: src/manpath.c:63
+msgid "show relative catpaths"
+msgstr "показати відносні catpath"
+
+#: src/manpath.c:64
+msgid "show the entire global manpath"
+msgstr "показати увесь глобальний manpath"
+
+#: src/manpath.c:126
+#, c-format
+msgid "warning: no global manpaths set in config file %s"
+msgstr ""
+"попередження: не встановлено глобальні manpath у файлі налаштувань %s"
+
+#: src/straycats.c:246 src/ult_src.c:125
+#, c-format
+msgid "warning: %s is a dangling symlink"
+msgstr "попередження: %s посилається на об’єкт якого не існує"
+
+#: src/straycats.c:249 src/ult_src.c:128 src/ult_src.c:262
+#, c-format
+msgid "can't resolve %s"
+msgstr "не вдалося визначити %s"
+
+#: src/straycats.c:308
+#, c-format
+msgid "Checking for stray cats under %s...\n"
+msgstr "Перевірка побічних cat у %s...\n"
+
+#: src/straycats.c:348
+#, c-format
+msgid "warning: can't update index cache %s"
+msgstr "попередження: не вдалося оновити індексний кеш %s"
+
+#: src/ult_src.c:300
+#, c-format
+msgid "%s is self referencing"
+msgstr "%s посилається на себе"
+
+#: src/whatis.c:122
+msgid "KEYWORD..."
+msgstr "КЛЮЧ"
+
+#: src/whatis.c:123
+msgid "The --regex option is enabled by default."
+msgstr "Параметр --regex увімкнено типово."
+
+#: src/whatis.c:127
+msgid "print verbose warning messages"
+msgstr "виводити детальні попереджуючі повідомлення"
+
+#: src/whatis.c:128
+msgid "interpret each keyword as a regex"
+msgstr "вважати кожен ключ регулярним виразом"
+
+#: src/whatis.c:129
+msgid "search each keyword for exact match"
+msgstr "шукати точний збіг кожного ключа"
+
+#: src/whatis.c:130
+msgid "the keyword(s) contain wildcards"
+msgstr "ключ(і) містять групові символи"
+
+#: src/whatis.c:131
+msgid "require all keywords to match"
+msgstr "вимагається збіг усіх ключів"
+
+#: src/whatis.c:132
+msgid "do not trim output to terminal width"
+msgstr "не обрізати вивід по ширині терміналу"
+
+#: src/whatis.c:133
+msgid "search only these sections (colon-separated)"
+msgstr "шукати лише у цих секціях (розділюються двокрапками)"
+
+#: src/whatis.c:137
+msgid "define the locale for this search"
+msgstr "задати локаль для цього пошуку"
+
+#: src/whatis.c:234
+#, c-format
+msgid "%s what?\n"
+msgstr "%s що?\n"
+
+#: src/whatis.c:410 src/whatis.c:428
+#, c-format
+msgid "warning: %s contains a pointer loop"
+msgstr "попередження: %s містить циклічний вказівник"
+
+#: src/whatis.c:422 src/whatis.c:430
+msgid "(unknown subject)"
+msgstr "(невідомий об’єкт)"
+
+#: src/whatis.c:861
+#, c-format
+msgid "%s: nothing appropriate.\n"
+msgstr "%s: нічого підходящого не знайдено.\n"
+
+#: src/zsoelim.l:178
+#, c-format
+msgid "%s:%d: .so requests nested too deeply or are recursive"
+msgstr "%s:%d: .so запит надто глибокої вкладеності або це рекурсія"
+
+#: src/zsoelim.l:193
+#, c-format
+msgid "%s:%d: warning: failed .so request"
+msgstr "%s:%d: попередження: .so запит закінчився невдало"
+
+#: src/zsoelim.l:215
+#, c-format
+msgid "%s:%d: warning: newline in .so request, ignoring"
+msgstr "%s:%d: попередження: новий рядок у .so запиті, ігнорується"
+
+#: src/zsoelim.l:275
+#, c-format
+msgid "%s:%d: warning: malformed .lf request, ignoring"
+msgstr "%s:%d: попередження: неправильно сформований .lf запит, ігнорується"
+
+#: src/zsoelim.l:285
+#, c-format
+msgid "%s:%d: warning: newline in .lf request, ignoring"
+msgstr "%s:%d: попередження: новий рядок у .lf запиті, ігнорується"
+
+#: src/zsoelim.l:325
+#, c-format
+msgid "%s:%d: unterminated quote in roff request"
+msgstr "%s:%d: незакрита лапка у roff запиті"
+
+#: src/zsoelim_main.c:69
+msgid "compatibility switch (ignored)"
+msgstr "для сумісності (ігнорується)"

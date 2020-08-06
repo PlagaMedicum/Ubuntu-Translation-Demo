@@ -1,0 +1,184 @@
+# English (United Kingdom) translation for apt
+# Copyright (c) 2018 Rosetta Contributors and Canonical Ltd 2018
+# This file is distributed under the same license as the apt package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: apt\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2019-05-28 21:34+0000\n"
+"PO-Revision-Date: 2018-10-02 08:34+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: English (United Kingdom) <en_GB@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-09-14 10:32+0000\n"
+"X-Generator: Launchpad (build 19048)\n"
+
+#: apt-inst/contrib/arfile.cc:75
+msgid "Invalid archive signature"
+msgstr "Invalid archive signature"
+
+#: apt-inst/contrib/arfile.cc:83
+msgid "Error reading archive member header"
+msgstr "Error reading archive member header"
+
+#: apt-inst/contrib/arfile.cc:95
+#, c-format
+msgid "Invalid archive member header %s"
+msgstr "Invalid archive member header %s"
+
+#: apt-inst/contrib/arfile.cc:107
+msgid "Invalid archive member header"
+msgstr "Invalid archive member header"
+
+#: apt-inst/contrib/arfile.cc:136
+msgid "Archive is too short"
+msgstr "Archive is too short"
+
+#: apt-inst/contrib/arfile.cc:140
+msgid "Failed to read the archive headers"
+msgstr "Failed to read the archive headers"
+
+#: apt-inst/contrib/extracttar.cc:109
+#, c-format
+msgid "Cannot find a configured compressor for '%s'"
+msgstr "Cannot find a configured compressor for '%s'"
+
+#: apt-inst/contrib/extracttar.cc:141 apt-inst/contrib/extracttar.cc:171
+msgid "Corrupted archive"
+msgstr "Corrupted archive"
+
+#: apt-inst/contrib/extracttar.cc:156
+msgid "Tar checksum failed, archive corrupted"
+msgstr "Tar checksum failed, archive corrupted"
+
+#: apt-inst/contrib/extracttar.cc:261
+#, c-format
+msgid "Unknown TAR header type %u, member %s"
+msgstr "Unknown TAR header type %u, member %s"
+
+#: apt-inst/deb/debfile.cc:46 apt-inst/deb/debfile.cc:55
+#: apt-inst/deb/debfile.cc:66
+#, c-format
+msgid "This is not a valid DEB archive, missing '%s' member"
+msgstr "This is not a valid DEB archive, missing '%s' member"
+
+#: apt-inst/deb/debfile.cc:135
+#, c-format
+msgid "Internal error, could not locate member %s"
+msgstr "Internal error, could not locate member %s"
+
+#: apt-inst/deb/debfile.cc:230
+msgid "Unparsable control file"
+msgstr "Unparsable control file"
+
+#: apt-inst/dirstream.cc:41 apt-inst/dirstream.cc:48 apt-inst/dirstream.cc:53
+#, c-format
+msgid "Failed to write file %s"
+msgstr "Failed to write file %s"
+
+#: apt-inst/dirstream.cc:103
+#, c-format
+msgid "Failed to close file %s"
+msgstr "Failed to close file %s"
+
+#: apt-inst/extract.cc:99 apt-inst/extract.cc:170
+#, c-format
+msgid "The path %s is too long"
+msgstr "The path %s is too long"
+
+#: apt-inst/extract.cc:130
+#, c-format
+msgid "Unpacking %s more than once"
+msgstr "Unpacking %s more than once"
+
+#: apt-inst/extract.cc:140
+#, c-format
+msgid "The directory %s is diverted"
+msgstr "The directory %s is diverted"
+
+#: apt-inst/extract.cc:150
+#, c-format
+msgid "The package is trying to write to the diversion target %s/%s"
+msgstr "The package is trying to write to the diversion target %s/%s"
+
+#: apt-inst/extract.cc:160 apt-inst/extract.cc:304
+msgid "The diversion path is too long"
+msgstr "The diversion path is too long"
+
+#: apt-inst/extract.cc:184 apt-inst/extract.cc:197 apt-inst/extract.cc:214
+#, c-format
+msgid "Failed to stat %s"
+msgstr "Failed to stat %s"
+
+#: apt-inst/extract.cc:192
+#, c-format
+msgid "Failed to rename %s to %s"
+msgstr "Failed to rename %s to %s"
+
+#: apt-inst/extract.cc:247
+#, c-format
+msgid "The directory %s is being replaced by a non-directory"
+msgstr "The directory %s is being replaced by a non-directory"
+
+#: apt-inst/extract.cc:287
+msgid "Failed to locate node in its hash bucket"
+msgstr "Failed to locate node in its hash bucket"
+
+#: apt-inst/extract.cc:291
+msgid "The path is too long"
+msgstr "The path is too long"
+
+#: apt-inst/extract.cc:419
+#, c-format
+msgid "Overwrite package match with no version for %s"
+msgstr "Overwrite package match with no version for %s"
+
+#: apt-inst/extract.cc:436
+#, c-format
+msgid "File %s/%s overwrites the one in the package %s"
+msgstr "File %s/%s overwrites the one in the package %s"
+
+#: apt-inst/extract.cc:469
+#, c-format
+msgid "Unable to read %s"
+msgstr "Unable to read %s"
+
+#: apt-inst/extract.cc:496
+#, c-format
+msgid "Unable to stat %s"
+msgstr "Unable to stat %s"
+
+#: apt-inst/filelist.cc:379
+msgid "DropNode called on still linked node"
+msgstr "DropNode called on a node that is still linked"
+
+#: apt-inst/filelist.cc:411
+msgid "Failed to locate the hash element!"
+msgstr "Failed to locate the hash element!"
+
+#: apt-inst/filelist.cc:458
+msgid "Failed to allocate diversion"
+msgstr "Failed to allocate diversion"
+
+#: apt-inst/filelist.cc:463
+msgid "Internal error in AddDiversion"
+msgstr "Internal error in AddDiversion"
+
+#: apt-inst/filelist.cc:476
+#, c-format
+msgid "Trying to overwrite a diversion, %s -> %s and %s/%s"
+msgstr "Trying to overwrite a diversion, %s -> %s and %s/%s"
+
+#: apt-inst/filelist.cc:505
+#, c-format
+msgid "Double add of diversion %s -> %s"
+msgstr "Double add of diversion %s -> %s"
+
+#: apt-inst/filelist.cc:548
+#, c-format
+msgid "Duplicate conf file %s/%s"
+msgstr "Duplicate conf file %s/%s"

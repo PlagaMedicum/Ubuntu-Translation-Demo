@@ -1,0 +1,227 @@
+# translation of gnulib-2.0.0.3462.e9796.ru.po to Russian
+# Copyright (C) 2005, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnulib package.
+#
+# Sergey Poznyakoff <gray@gnu.org>, 2003,2004,2005.
+# Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnulib 4.0.0.2567\n"
+"Report-Msgid-Bugs-To: bug-gnulib@gnu.org\n"
+"POT-Creation-Date: 2020-01-19 14:19+0100\n"
+"PO-Revision-Date: 2020-04-02 19:33+0000\n"
+"Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
+"Language-Team: Russian <gnu@d07.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2020-07-09 20:16+0000\n"
+"X-Generator: Launchpad (build 4809fcb62f445aaa3ae919f7f6c3cc7d156ea57a)\n"
+"Language: ru\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+
+#: lib/argmatch.c:132
+#, c-format
+msgid "invalid argument %s for %s"
+msgstr "неверный аргумент %s для %s"
+
+#: lib/argmatch.c:133
+#, c-format
+msgid "ambiguous argument %s for %s"
+msgstr "неоднозначный аргумент %s для %s"
+
+#: lib/argmatch.c:152 lib/argmatch.h:223
+msgid "Valid arguments are:"
+msgstr "Верные аргументы:"
+
+#: lib/bitset/stats.c:177
+#, c-format
+msgid "%u bitset_allocs, %u freed (%.2f%%).\n"
+msgstr "%u bitset_allocs, %u освобождено (%.2f%%).\n"
+
+#: lib/bitset/stats.c:180
+#, c-format
+msgid "%u bitset_sets, %u cached (%.2f%%)\n"
+msgstr "%u bitset_sets, %u кэшировано (%.2f%%)\n"
+
+#: lib/bitset/stats.c:183
+#, c-format
+msgid "%u bitset_resets, %u cached (%.2f%%)\n"
+msgstr "%u bitset_resets, %u кэшировано (%.2f%%)\n"
+
+#: lib/bitset/stats.c:186
+#, c-format
+msgid "%u bitset_tests, %u cached (%.2f%%)\n"
+msgstr "%u bitset_tests, %u кэшировано (%.2f%%)\n"
+
+#: lib/bitset/stats.c:190
+#, c-format
+msgid "%u bitset_lists\n"
+msgstr "%u bitset_lists\n"
+
+#: lib/bitset/stats.c:192
+msgid "count log histogram\n"
+msgstr "количественная логарифмическая гистограмма\n"
+
+#: lib/bitset/stats.c:195
+msgid "size log histogram\n"
+msgstr "размерная логарифмическая гистограмма\n"
+
+#: lib/bitset/stats.c:198
+msgid "density histogram\n"
+msgstr "гистограмма плотности\n"
+
+#: lib/bitset/stats.c:210
+#, c-format
+msgid ""
+"Bitset statistics:\n"
+"\n"
+msgstr ""
+"Статистика bitset:\n"
+"\n"
+
+#: lib/bitset/stats.c:213
+#, c-format
+msgid "Accumulated runs = %u\n"
+msgstr "Накопленных запусков = %u\n"
+
+#: lib/bitset/stats.c:255 lib/bitset/stats.c:260
+msgid "cannot read stats file"
+msgstr "невозможно прочитать файл stats"
+
+#: lib/bitset/stats.c:257
+#, c-format
+msgid "bad stats file size\n"
+msgstr "некорректный размер файла stats\n"
+
+#: lib/bitset/stats.c:281 lib/bitset/stats.c:283
+msgid "cannot write stats file"
+msgstr "невозможно записать файл stats"
+
+#: lib/bitset/stats.c:286
+msgid "cannot open stats file for writing"
+msgstr "невозможно открыть файл stats для записи"
+
+#: lib/closeout.c:122
+msgid "write error"
+msgstr "ошибка записи"
+
+#: lib/error.c:195
+msgid "Unknown system error"
+msgstr "Неизвестная системная ошибка"
+
+#: lib/getopt.c:278
+#, c-format
+msgid "%s: option '%s%s' is ambiguous\n"
+msgstr "%s: двусмысленный параметр «%s%s»\n"
+
+#: lib/getopt.c:284
+#, c-format
+msgid "%s: option '%s%s' is ambiguous; possibilities:"
+msgstr "%s: двусмысленный параметр «%s%s»; возможные варианты:"
+
+#: lib/getopt.c:319
+#, c-format
+msgid "%s: unrecognized option '%s%s'\n"
+msgstr "%s: нераспознанный параметр «%s%s»\n"
+
+#: lib/getopt.c:345
+#, c-format
+msgid "%s: option '%s%s' doesn't allow an argument\n"
+msgstr "%s: для параметра «%s%s» нельзя использовать аргумент\n"
+
+#: lib/getopt.c:360
+#, c-format
+msgid "%s: option '%s%s' requires an argument\n"
+msgstr "%s: для параметра «%s%s» требуется аргумент\n"
+
+#: lib/getopt.c:621
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr "%s: неправильный параметр -- «%c»\n"
+
+#: lib/getopt.c:636 lib/getopt.c:682
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr "%s: для параметра требуется аргумент -- «%c»\n"
+
+#: lib/obstack.c:338 lib/obstack.c:340 lib/xalloc-die.c:34
+msgid "memory exhausted"
+msgstr "закончилась память"
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  For example, a French Unicode local should translate
+#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), respectively.
+#. 
+#. If the catalog has no translation, we will try to
+#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
+#. current locale is not Unicode, locale_quoting_style
+#. will quote 'like this', and clocale_quoting_style will
+#. quote "like this".  You should always include translations
+#. for "`" and "'" even if U+2018 and U+2019 are appropriate
+#. for your locale.
+#. 
+#. If you don't know what to put here, please see
+#. <https://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
+#. and use glyphs suitable for your language.
+#: lib/quotearg.c:355
+msgid "`"
+msgstr "«"
+
+#: lib/quotearg.c:356
+msgid "'"
+msgstr "»"
+
+#: lib/spawn-pipe.c:141 lib/spawn-pipe.c:144 lib/spawn-pipe.c:265
+#: lib/spawn-pipe.c:268
+#, c-format
+msgid "cannot create pipe"
+msgstr "не удалось создать канал"
+
+#: lib/spawn-pipe.c:235 lib/spawn-pipe.c:349 lib/wait-process.c:290
+#: lib/wait-process.c:364
+#, c-format
+msgid "%s subprocess failed"
+msgstr "подпроцесс %s завершился с ошибкой"
+
+#: lib/timevar.c:316
+msgid "Execution times (seconds)"
+msgstr "Время выполнения (секунд)"
+
+#: lib/timevar.c:318
+msgid "CPU user"
+msgstr "пользовательское время на ЦП"
+
+#: lib/timevar.c:318
+msgid "CPU system"
+msgstr "системное время на ЦП"
+
+#: lib/timevar.c:318
+msgid "wall clock"
+msgstr "настенные часы"
+
+#: lib/w32spawn.h:49
+#, c-format
+msgid "_open_osfhandle failed"
+msgstr "_open_osfhandle завершилась неудачно"
+
+#: lib/w32spawn.h:90
+#, c-format
+msgid "cannot restore fd %d: dup2 failed"
+msgstr "не удалось восстановить fd %d: dup2 завершилась неудачно"
+
+#: lib/wait-process.c:231 lib/wait-process.c:263 lib/wait-process.c:325
+#, c-format
+msgid "%s subprocess"
+msgstr "подпроцесс %s"
+
+#: lib/wait-process.c:282 lib/wait-process.c:354
+#, c-format
+msgid "%s subprocess got fatal signal %d"
+msgstr "подпроцесс %s получил сигнал завершения %d"

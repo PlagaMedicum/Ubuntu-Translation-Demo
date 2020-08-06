@@ -1,0 +1,941 @@
+# Ukrainian translation of ibus-anthy.
+# Copyright (C) 2008 Peng Huang <shawn.p.huang@gmail.com>
+# Copyright (C) 2009-2016 Takao Fujiwara <takao.fujiwara1@gmail.com>
+# This file is distributed under the same license as the ibus-anthy package.
+#
+# Translators:
+# Yuri Chornoivan <yurchor@ukr.net>, 2015.
+# Yuri Chornoivan <yurchor@ukr.net>, 2015. #zanata
+# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: ibus-anthy master\n"
+"Report-Msgid-Bugs-To: https://github.com/ibus/ibus-anthy/issues\n"
+"POT-Creation-Date: 2017-03-17 13:10+0900\n"
+"PO-Revision-Date: 2018-02-03 11:48+0000\n"
+"Last-Translator: Andrii Prokopenko <Unknown>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2020-07-09 19:04+0000\n"
+"X-Generator: Launchpad (build 4809fcb62f445aaa3ae919f7f6c3cc7d156ea57a)\n"
+"Language: uk\n"
+
+#: ../data/ibus-anthy.appdata.xml.in.h:1
+msgid "Japanese input method"
+msgstr "Спосіб введення японської"
+
+#: ../data/ibus-anthy.appdata.xml.in.h:2
+msgid "The Anthy input method is designed for entering Japanese text."
+msgstr ""
+"Спосіб введення Anthy розроблено для введення текстів японськими ієрогліфами."
+
+#: ../data/ibus-anthy.appdata.xml.in.h:3
+msgid ""
+"Input methods are typing systems allowing users to input complex languages. "
+"They are necessary because these contain too many characters to simply be "
+"laid out on a traditional keyboard."
+msgstr ""
+"Способи введення — це системи набирання тексту, за допомогою яких "
+"користувачі можуть вводити тексти складними системами писемності. Вони "
+"потрібні для мов, де запис здійснюється за допомогою великої кількості "
+"символів, які просто не могли б уміститися на клавіатурі."
+
+#: ../engine/python2/default.xml.in.in.h:1
+#: ../engine/python3/default.xml.in.in.h:1
+msgid "Anthy Input Method"
+msgstr "Спосіб введення Anthy"
+
+#: ../engine/python2/engine.py:207 ../engine/python3/engine.py:208
+msgid ""
+"Could not enable Anthy.\n"
+"The end of the content of the file .anthy/last-record2_default.utf8 in your "
+"home directory is not '\\n'. I.e. not correct text format.\n"
+"Please fix the file or remove it by manual and restart IBus."
+msgstr ""
+"Не вдалося увімкнути Anthy.\n"
+"Дані у файлі .anthy/last-record2_default.utf8 вашого домашнього каталогу не "
+"завершуються на «\\n». Тобто текст файла є некоректним.\n"
+"Будь ласка, виправте файл або вилучіть його вручну і перезапустіть IBus."
+
+#: ../engine/python2/engine.py:255 ../engine/python3/engine.py:256
+#: ../setup/python2/main.py:416 ../setup/python3/main.py:421
+msgid "Preferences - Anthy"
+msgstr "Параметри – Anthy"
+
+#: ../engine/python2/engine.py:257 ../engine/python3/engine.py:258
+msgid "Configure Anthy"
+msgstr "Налаштувати Anthy"
+
+#. Translators: Specify the order of %s with your translation.
+#. It will be "Input Mode (A)" for example.
+#: ../engine/python2/engine.py:294 ../engine/python2/engine.py:382
+#: ../engine/python2/engine.py:449 ../engine/python2/engine.py:525
+#: ../engine/python2/engine.py:856 ../engine/python2/engine.py:884
+#: ../engine/python2/engine.py:908 ../engine/python2/engine.py:934
+#: ../engine/python2/engine.py:996 ../engine/python3/engine.py:295
+#: ../engine/python3/engine.py:383 ../engine/python3/engine.py:450
+#: ../engine/python3/engine.py:526 ../engine/python3/engine.py:851
+#: ../engine/python3/engine.py:879 ../engine/python3/engine.py:903
+#: ../engine/python3/engine.py:929 ../engine/python3/engine.py:991
+#, python-format
+msgid "%(description)s (%(symbol)s)"
+msgstr "%(description)s (%(symbol)s)"
+
+#: ../engine/python2/engine.py:295 ../engine/python2/engine.py:857
+#: ../engine/python3/engine.py:296 ../engine/python3/engine.py:852
+#: ../setup/python2/main.py:401 ../setup/python3/main.py:406
+msgid "Input mode"
+msgstr "Режим введення"
+
+#: ../engine/python2/engine.py:301 ../engine/python3/engine.py:302
+msgid "Switch input mode"
+msgstr "Перемкнути режим введення"
+
+#: ../engine/python2/engine.py:311 ../engine/python3/engine.py:312
+#: ../setup/python2/setup.ui.h:1 ../setup/python3/setup.ui.h:1
+msgid "Hiragana"
+msgstr "Хірагана"
+
+#: ../engine/python2/engine.py:320 ../engine/python3/engine.py:321
+#: ../setup/python2/setup.ui.h:2 ../setup/python3/setup.ui.h:2
+msgid "Katakana"
+msgstr "Катакана"
+
+#: ../engine/python2/engine.py:329 ../engine/python3/engine.py:330
+#: ../setup/python2/setup.ui.h:3 ../setup/python3/setup.ui.h:3
+msgid "Halfwidth Katakana"
+msgstr "Катакана, символи половинної ширини"
+
+#: ../engine/python2/engine.py:338 ../engine/python3/engine.py:339
+#: ../setup/python2/setup.ui.h:4 ../setup/python3/setup.ui.h:4
+msgid "Latin"
+msgstr "Латиниця"
+
+#: ../engine/python2/engine.py:347 ../engine/python3/engine.py:348
+#: ../setup/python2/setup.ui.h:5 ../setup/python3/setup.ui.h:5
+msgid "Wide Latin"
+msgstr "Розширена латиниця"
+
+#: ../engine/python2/engine.py:383 ../engine/python2/engine.py:885
+#: ../engine/python2/engine.py:909 ../engine/python3/engine.py:384
+#: ../engine/python3/engine.py:880 ../engine/python3/engine.py:904
+#: ../setup/python2/main.py:404 ../setup/python3/main.py:409
+msgid "Typing method"
+msgstr "Метод друкування"
+
+#: ../engine/python2/engine.py:389 ../engine/python3/engine.py:390
+msgid "Switch typing method"
+msgstr "Перемкнути метод друкування"
+
+#: ../engine/python2/engine.py:399 ../engine/python3/engine.py:400
+#: ../setup/python2/setup.ui.h:12 ../setup/python3/setup.ui.h:12
+msgid "Romaji"
+msgstr "Ромадзі"
+
+#: ../engine/python2/engine.py:408 ../engine/python3/engine.py:409
+#: ../setup/python2/setup.ui.h:13 ../setup/python3/setup.ui.h:13
+msgid "Kana"
+msgstr "Кана"
+
+#: ../engine/python2/engine.py:417 ../engine/python3/engine.py:418
+#: ../setup/python2/setup.ui.h:14 ../setup/python3/setup.ui.h:14
+msgid "Thumb shift"
+msgstr "Додаткові Shift"
+
+#: ../engine/python2/engine.py:450 ../engine/python2/engine.py:935
+#: ../engine/python3/engine.py:451 ../engine/python3/engine.py:930
+#: ../setup/python2/main.py:407 ../setup/python3/main.py:412
+msgid "Segment mode"
+msgstr "Режим сегментів"
+
+#: ../engine/python2/engine.py:456 ../engine/python3/engine.py:457
+msgid "Switch conversion mode"
+msgstr "Перемкнути режим перетворення"
+
+#: ../engine/python2/engine.py:466 ../engine/python3/engine.py:467
+#: ../setup/python2/setup.ui.h:15 ../setup/python3/setup.ui.h:15
+msgid "Multiple segment"
+msgstr "Кратний сегмент"
+
+#: ../engine/python2/engine.py:475 ../engine/python3/engine.py:476
+#: ../setup/python2/setup.ui.h:16 ../setup/python3/setup.ui.h:16
+msgid "Single segment"
+msgstr "Одинарний сегмент"
+
+#: ../engine/python2/engine.py:484 ../engine/python3/engine.py:485
+#: ../setup/python2/setup.ui.h:17 ../setup/python3/setup.ui.h:17
+msgid "Immediate conversion (multiple segment)"
+msgstr "Негайне перетворення (кратний сегмент)"
+
+#: ../engine/python2/engine.py:493 ../engine/python3/engine.py:494
+#: ../setup/python2/setup.ui.h:18 ../setup/python3/setup.ui.h:18
+msgid "Immediate conversion (single segment)"
+msgstr "Негайне перетворення (одинарний сегмент)"
+
+#: ../engine/python2/engine.py:526 ../engine/python2/engine.py:997
+#: ../engine/python3/engine.py:527 ../engine/python3/engine.py:992
+#: ../setup/python2/main.py:410 ../setup/python3/main.py:415
+msgid "Dictionary mode"
+msgstr "Режим словника"
+
+#: ../engine/python2/engine.py:532 ../engine/python3/engine.py:533
+msgid "Switch dictionary"
+msgstr "Перемкнути словник"
+
+#: ../engine/python2/engine.py:615 ../engine/python3/engine.py:615
+#: ../setup/python2/main.py:413 ../setup/python3/main.py:418
+msgid "Dictionary - Anthy"
+msgstr "Словник – Anthy"
+
+#. Translators: "Dic" means 'dictionary', One kanji may be good.
+#: ../engine/python2/engine.py:621 ../engine/python3/engine.py:620
+msgid "Dic"
+msgstr "СЛОВ"
+
+#: ../engine/python2/engine.py:628 ../engine/python3/engine.py:627
+msgid "Configure dictionaries"
+msgstr "Налаштувати словники"
+
+#: ../engine/python2/engine.py:638 ../engine/python3/engine.py:637
+msgid "Edit dictionaries"
+msgstr "Редагувати словники"
+
+#: ../engine/python2/engine.py:640 ../engine/python3/engine.py:639
+msgid "Launch the dictionary tool"
+msgstr "Запустити засіб роботи зі словниками"
+
+#: ../engine/python2/engine.py:647 ../engine/python3/engine.py:646
+msgid "Add words"
+msgstr "Додати слова"
+
+#: ../engine/python2/engine.py:649 ../engine/python3/engine.py:648
+msgid "Add words to the dictionary"
+msgstr "Додавати слова до словника"
+
+#: ../setup/python2/anthyprefs.py.in:1105 ../setup/python2/setup.ui.h:36
+#: ../setup/python3/anthyprefs.py.in:1098 ../setup/python3/setup.ui.h:36
+msgid "General"
+msgstr "Загальне"
+
+#: ../setup/python2/anthyprefs.py.in:1116
+#: ../setup/python3/anthyprefs.py.in:1109
+msgid "Zip Code Conversion"
+msgstr "Перетворення кодів індексів"
+
+#: ../setup/python2/anthyprefs.py.in:1127
+#: ../setup/python3/anthyprefs.py.in:1120
+msgid "Symbol"
+msgstr "Символ"
+
+#: ../setup/python2/anthyprefs.py.in:1138
+#: ../setup/python3/anthyprefs.py.in:1131
+msgid "Old Character Style"
+msgstr "Старий стиль символів"
+
+#: ../setup/python2/anthyprefs.py.in:1148
+#: ../setup/python3/anthyprefs.py.in:1141
+msgid "Era"
+msgstr "Ера"
+
+#: ../setup/python2/anthyprefs.py.in:1158
+#: ../setup/python3/anthyprefs.py.in:1151
+msgid "Emoji"
+msgstr "Емодзі"
+
+#: ../setup/python2/ibus-setup-anthy.desktop.in.in.h:1
+#: ../setup/python3/ibus-setup-anthy.desktop.in.in.h:1
+msgid "IBus Anthy Setup"
+msgstr "Налаштування Anthy IBus"
+
+#: ../setup/python2/ibus-setup-anthy.desktop.in.in.h:2
+#: ../setup/python3/ibus-setup-anthy.desktop.in.in.h:2
+msgid "Set up IBus Anthy engine"
+msgstr "Налаштування рушія Anthy IBus"
+
+#. self.__run_message_dialog needs self.__builder.
+#: ../setup/python2/main.py:133 ../setup/python3/main.py:136
+msgid "ibus is not running."
+msgstr "ibus не запущено."
+
+#: ../setup/python2/main.py:188 ../setup/python3/main.py:191
+msgid "Menu label"
+msgstr "Мітка меню"
+
+#: ../setup/python2/main.py:207 ../setup/python3/main.py:210
+msgid "Command"
+msgstr "Команда"
+
+#: ../setup/python2/main.py:211 ../setup/python3/main.py:214
+msgid "Shortcut"
+msgstr "Скорочення"
+
+#: ../setup/python2/main.py:256 ../setup/python3/main.py:259
+msgid "Description"
+msgstr "Опис"
+
+#. Translators: "Embd" is an abbreviation of "embedded".
+#: ../setup/python2/main.py:264 ../setup/python3/main.py:267
+msgid "Embd"
+msgstr "Вбуд"
+
+#. Translators: "Sgl" is an abbreviation of "single".
+#: ../setup/python2/main.py:272 ../setup/python3/main.py:275
+msgid "Sgl"
+msgstr "Одн"
+
+#: ../setup/python2/main.py:447 ../setup/python2/main.py:483
+#: ../setup/python3/main.py:452 ../setup/python3/main.py:488
+msgid "Input Chars"
+msgstr "Введених символів"
+
+#: ../setup/python2/main.py:449 ../setup/python2/main.py:485
+#: ../setup/python3/main.py:454 ../setup/python3/main.py:490
+msgid "Output Chars"
+msgstr "Виведених символів"
+
+#: ../setup/python2/main.py:531 ../setup/python3/main.py:536
+msgid "Input"
+msgstr "Введення"
+
+#: ../setup/python2/main.py:533 ../setup/python3/main.py:538
+msgid "Single"
+msgstr "Одинарний"
+
+#: ../setup/python2/main.py:535 ../setup/python3/main.py:540
+msgid "Left"
+msgstr "Ліворуч"
+
+#: ../setup/python2/main.py:537 ../setup/python3/main.py:542
+msgid "Right"
+msgstr "Праворуч"
+
+#: ../setup/python2/main.py:619 ../setup/python3/main.py:624
+msgid "Customize Romaji Key Table"
+msgstr "Налаштувати таблицю клавіш ромадзі"
+
+#: ../setup/python2/main.py:620 ../setup/python2/setup.ui.h:54
+#: ../setup/python3/main.py:625 ../setup/python3/setup.ui.h:54
+msgid "_Romaji Key Table:"
+msgstr "Таблиця клавіш _ромадзі:"
+
+#: ../setup/python2/main.py:621 ../setup/python2/main.py:627
+#: ../setup/python3/main.py:626 ../setup/python3/main.py:632
+msgid "_Output Chars"
+msgstr "Символи в_иведення"
+
+#: ../setup/python2/main.py:622 ../setup/python2/main.py:1122
+#: ../setup/python2/main.py:1270 ../setup/python2/setup.ui.h:27
+#: ../setup/python3/main.py:627 ../setup/python3/main.py:1116
+#: ../setup/python3/main.py:1264 ../setup/python3/setup.ui.h:27
+msgid "Default"
+msgstr "Типовий"
+
+#: ../setup/python2/main.py:625 ../setup/python3/main.py:630
+msgid "Customize Kana Key Table"
+msgstr "Налаштувати таблицю клавіш кани"
+
+#: ../setup/python2/main.py:626 ../setup/python2/setup.ui.h:56
+#: ../setup/python3/main.py:631 ../setup/python3/setup.ui.h:56
+msgid "_Kana Key Table:"
+msgstr "Таблиця клавіш _кани:"
+
+#: ../setup/python2/main.py:628 ../setup/python3/main.py:633
+msgid "Japanese Keyboard Layout"
+msgstr "Японська розкладка клавіатури"
+
+#: ../setup/python2/main.py:629 ../setup/python3/main.py:634
+msgid "U.S. Keyboard Layout"
+msgstr "Американська розкладка клавіатури"
+
+#: ../setup/python2/main.py:632 ../setup/python3/main.py:637
+msgid "Customize Thumb Shift Key Table"
+msgstr "Налаштовування розкладки клавіш із додатковими Shift"
+
+#: ../setup/python2/main.py:633 ../setup/python3/main.py:638
+msgid "_Thumb Shift Key Table:"
+msgstr "_Розкладка з додатковими Shift:"
+
+#: ../setup/python2/main.py:634 ../setup/python3/main.py:639
+msgid "Single _Output Chars"
+msgstr "Одинарні символи в_иведення"
+
+#: ../setup/python2/main.py:635 ../setup/python3/main.py:640
+msgid "Base"
+msgstr "Основа"
+
+#: ../setup/python2/main.py:636 ../setup/python3/main.py:641
+msgid "NICOLA-J key extension"
+msgstr "Розширення клавіш NICOLA-J"
+
+#: ../setup/python2/main.py:637 ../setup/python3/main.py:642
+msgid "NICOLA-A key extension"
+msgstr "Розширення клавіш NICOLA-A"
+
+#: ../setup/python2/main.py:638 ../setup/python3/main.py:643
+msgid "NICOLA-F key extension"
+msgstr "Розширення клавіш NICOLA-F"
+
+#: ../setup/python2/main.py:639 ../setup/python3/main.py:644
+msgid "FMV KB231-J key extension"
+msgstr "Розширення клавіш FMV KB231-J"
+
+#: ../setup/python2/main.py:640 ../setup/python3/main.py:645
+msgid "FMV KB231-A key extension"
+msgstr "Розширення клавіш FMV KB231-A"
+
+#: ../setup/python2/main.py:641 ../setup/python3/main.py:646
+msgid "FMV KB231-F key extension"
+msgstr "Розширення клавіш FMV KB231-F"
+
+#: ../setup/python2/main.py:642 ../setup/python3/main.py:647
+msgid "FMV KB611-J key extension"
+msgstr "Розширення клавіш FMV KB611-J"
+
+#: ../setup/python2/main.py:643 ../setup/python3/main.py:648
+msgid "FMV KB611-A key extension"
+msgstr "Розширення клавіш FMV KB611-A"
+
+#: ../setup/python2/main.py:644 ../setup/python3/main.py:649
+msgid "FMV KB611-F key extension"
+msgstr "Розширення клавіш FMV KB611-F"
+
+#: ../setup/python2/main.py:788 ../setup/python3/main.py:793
+msgid "Your choosed file has already been added: "
+msgstr "Вибраний вами файл вже додано: "
+
+#: ../setup/python2/main.py:792 ../setup/python3/main.py:797
+msgid "The file you have chosen does not exist: "
+msgstr "Вибраного вами файла не існує: "
+
+#: ../setup/python2/main.py:796 ../setup/python3/main.py:801
+msgid "Your choosed file is a directory: "
+msgstr "Вибраний вами файл є каталогом: "
+
+#: ../setup/python2/main.py:800 ../setup/python3/main.py:805
+msgid "You cannot add dictionaries in the anthy private directory: "
+msgstr "Не можна додавати словник до приватного каталогу anthy: "
+
+#: ../setup/python2/main.py:807 ../setup/python3/main.py:812
+msgid "Your file path is not good: "
+msgstr "Шлях до файла є помилковим: "
+
+#: ../setup/python2/main.py:986 ../setup/python3/main.py:989
+msgid "The engine xml file does not exist: "
+msgstr "Файла xml рушія не існує: "
+
+#: ../setup/python2/main.py:1102 ../setup/python3/main.py:1096
+msgid ""
+"Anthy keyboard layout is changed. Please restart ibus to reload the layout."
+msgstr ""
+"Змінено розкладку клавіатури Anthy. Будь ласка, перезапустіть ibus, щоб "
+"перезавантажити розкладку."
+
+#: ../setup/python2/main.py:1231 ../setup/python3/main.py:1225
+msgid "Confirmation"
+msgstr "Підтвердження"
+
+#: ../setup/python2/main.py:1233 ../setup/python3/main.py:1227
+msgid "You are about to close the setup dialog, is that OK?"
+msgstr ""
+"Ви наказали системі закрити це діалогове вікно налаштовування. Це саме те, "
+"що ви хотіли?"
+
+#: ../setup/python2/main.py:1248 ../setup/python3/main.py:1242
+msgid "Notice!"
+msgstr "Зауваження!"
+
+#: ../setup/python2/main.py:1250 ../setup/python3/main.py:1244
+msgid ""
+"You are about to close the setup dialog without saving your changes, is that "
+"OK?"
+msgstr ""
+"Ви наказали системі закрити це діалогове вікно налаштовування без збереження "
+"внесених вами змін. Це саме те, що ви хотіли?"
+
+#: ../setup/python2/main.py:1371 ../setup/python3/main.py:1365
+msgid "Please specify Input Chars"
+msgstr "Будь ласка, вкажіть символи введення"
+
+#: ../setup/python2/main.py:1374 ../setup/python3/main.py:1368
+msgid "Please specify Output Chars"
+msgstr "Будь ласка, вкажіть символи виведення"
+
+#: ../setup/python2/main.py:1377 ../setup/python3/main.py:1371
+msgid "Please specify Left Thumb Shift Chars"
+msgstr "Будь ласка, вкажіть символи лівої додаткової клавіші Shift"
+
+#: ../setup/python2/main.py:1380 ../setup/python3/main.py:1374
+msgid "Please specify Right Thumb Shift Chars"
+msgstr "Будь ласка, вкажіть символи правої додаткової клавіші Shift"
+
+#: ../setup/python2/main.py:1393 ../setup/python2/main.py:1437
+#: ../setup/python3/main.py:1387 ../setup/python3/main.py:1431
+msgid "Your custom key is not assigned in any sections. Maybe a bug."
+msgstr ""
+"Вашу нетипову клавішу не призначено до жодного розділу. Можливо, це вада у "
+"програмі."
+
+#: ../setup/python2/main.py:1503 ../setup/python2/main.py:1590
+#: ../setup/python3/main.py:1497 ../setup/python3/main.py:1584
+msgid "Your file does not exist: "
+msgstr "Вашого файла не існує: "
+
+#: ../setup/python2/main.py:1513 ../setup/python3/main.py:1507
+msgid "Open Dictionary File"
+msgstr "Відкрити файл словника"
+
+#: ../setup/python2/main.py:1516 ../setup/python2/main.py:1522
+#: ../setup/python2/setup.ui.h:90 ../setup/python3/main.py:1510
+#: ../setup/python3/main.py:1516 ../setup/python3/setup.ui.h:90
+msgid "_Cancel"
+msgstr "_Скасувати"
+
+#: ../setup/python2/main.py:1517 ../setup/python3/main.py:1511
+msgid "_Open"
+msgstr "_Відкрити"
+
+#: ../setup/python2/main.py:1520 ../setup/python3/main.py:1514
+msgid "Edit Dictionary File"
+msgstr "Змінити файл словника"
+
+#: ../setup/python2/main.py:1523 ../setup/python2/main.py:1618
+#: ../setup/python2/setup.ui.h:91 ../setup/python3/main.py:1517
+#: ../setup/python3/main.py:1612 ../setup/python3/setup.ui.h:91
+msgid "_OK"
+msgstr "_Гаразд"
+
+#: ../setup/python2/main.py:1534 ../setup/python3/main.py:1528
+msgid "Your choosed file is not correct."
+msgstr "Вибраний вами файл є некоректним."
+
+#: ../setup/python2/main.py:1563 ../setup/python3/main.py:1557
+msgid "You cannot delete the system dictionary."
+msgstr "Не можна вилучати загальносистемний словник."
+
+#: ../setup/python2/main.py:1586 ../setup/python3/main.py:1580
+msgid "Your file is not good."
+msgstr "У вашому файлі помилки."
+
+#: ../setup/python2/main.py:1616 ../setup/python3/main.py:1610
+msgid "View Dictionary File"
+msgstr "Переглянути файл словника"
+
+#: ../setup/python2/main.py:1787 ../setup/python3/main.py:1781
+msgid "Please press a key (or a key combination)"
+msgstr "Будь ласка, натисніть клавішу (або комбінацію клавіш)"
+
+#: ../setup/python2/main.py:1788 ../setup/python3/main.py:1782
+msgid "The dialog will be closed when the key is released"
+msgstr "Діалогове вікно буде закрито після відпускання клавіші"
+
+#: ../setup/python2/main.py:1808 ../setup/python2/main.py:1829
+#: ../setup/python3/main.py:1802 ../setup/python3/main.py:1823
+msgid "Invalid keysym"
+msgstr "Некоректний символ клавіші"
+
+#: ../setup/python2/main.py:1809 ../setup/python2/main.py:1830
+#: ../setup/python3/main.py:1803 ../setup/python3/main.py:1824
+msgid "This keysym is not valid"
+msgstr "Цей символ клавіші є некоректним"
+
+#: ../setup/python2/setup.ui.h:6 ../setup/python3/setup.ui.h:6
+msgid "NICOLA-J"
+msgstr "NICOLA-J"
+
+#: ../setup/python2/setup.ui.h:7 ../setup/python3/setup.ui.h:7
+msgid "NICOLA-A"
+msgstr "NICOLA-A"
+
+#: ../setup/python2/setup.ui.h:8 ../setup/python3/setup.ui.h:8
+msgid "NICOLA-F"
+msgstr "NICOLA-F"
+
+#: ../setup/python2/setup.ui.h:9 ../setup/python3/setup.ui.h:9
+msgid "None"
+msgstr "Немає"
+
+#: ../setup/python2/setup.ui.h:10 ../setup/python3/setup.ui.h:10
+msgid "FMV KB231 key extension"
+msgstr "Розширення клавіш FMV KB231"
+
+#: ../setup/python2/setup.ui.h:11 ../setup/python3/setup.ui.h:11
+msgid "FMV KB611 key extension"
+msgstr "Розширення клавіш FMV KB611"
+
+#: ../setup/python2/setup.ui.h:19 ../setup/python3/setup.ui.h:19
+msgid "Keep numpad codes"
+msgstr "Зберігати коди цифрової панелі"
+
+#: ../setup/python2/setup.ui.h:20 ../setup/python3/setup.ui.h:20
+msgid "Convert characters"
+msgstr "Перетворити символи"
+
+#: ../setup/python2/setup.ui.h:21 ../setup/python3/setup.ui.h:21
+msgid "Do nothing"
+msgstr "Нічого не робити"
+
+#: ../setup/python2/setup.ui.h:22 ../setup/python3/setup.ui.h:22
+msgid "Automatically convert"
+msgstr "Автоматично перетворювати"
+
+#: ../setup/python2/setup.ui.h:23 ../setup/python3/setup.ui.h:23
+msgid "Automatically commit"
+msgstr "Надсилати автоматично"
+
+#: ../setup/python2/setup.ui.h:24 ../setup/python3/setup.ui.h:24
+msgid "Clear"
+msgstr "Спорожнити"
+
+#: ../setup/python2/setup.ui.h:25 ../setup/python3/setup.ui.h:25
+msgid "Commit"
+msgstr "Надіслати"
+
+#: ../setup/python2/setup.ui.h:26 ../setup/python3/setup.ui.h:26
+msgid "Hold"
+msgstr "Призупинити"
+
+#: ../setup/python2/setup.ui.h:28 ../setup/python3/setup.ui.h:28
+msgid "ATOK"
+msgstr "ATOK"
+
+#: ../setup/python2/setup.ui.h:29 ../setup/python3/setup.ui.h:29
+msgid "Wnn"
+msgstr "Wnn"
+
+#: ../setup/python2/setup.ui.h:30 ../setup/python3/setup.ui.h:30
+msgid "Setup - IBus-Anthy"
+msgstr "Налаштування – IBus-Anthy"
+
+#: ../setup/python2/setup.ui.h:31 ../setup/python3/setup.ui.h:31
+msgid "_Input Mode:"
+msgstr "_Режим введення:"
+
+#: ../setup/python2/setup.ui.h:32 ../setup/python3/setup.ui.h:32
+msgid "_Typing Method:"
+msgstr "Метод _введення:"
+
+#: ../setup/python2/setup.ui.h:33 ../setup/python3/setup.ui.h:33
+msgid "Conversion _Mode:"
+msgstr "_Режим перетворення:"
+
+#: ../setup/python2/setup.ui.h:34 ../setup/python3/setup.ui.h:34
+msgid "<b>Initial Setting</b>"
+msgstr "<b>Початкове налаштування</b>"
+
+#: ../setup/python2/setup.ui.h:35 ../setup/python3/setup.ui.h:35
+msgid "<b>Menu Visibility on Status Icon</b>"
+msgstr "<b>Видимість меню піктограми стану</b>"
+
+#: ../setup/python2/setup.ui.h:37 ../setup/python3/setup.ui.h:37
+msgid "_Period Style:"
+msgstr "Стиль _крапки:"
+
+#: ../setup/python2/setup.ui.h:38 ../setup/python3/setup.ui.h:38
+msgid "Symbo_l Style:"
+msgstr "С_тиль символів:"
+
+#: ../setup/python2/setup.ui.h:39 ../setup/python3/setup.ui.h:39
+msgid "Numpad _Key Type:"
+msgstr "Тип _клавіш цифрової панелі:"
+
+#: ../setup/python2/setup.ui.h:40 ../setup/python3/setup.ui.h:40
+msgid "_Behavior on Period:"
+msgstr "О_бробка крапки:"
+
+#: ../setup/python2/setup.ui.h:41 ../setup/python3/setup.ui.h:41
+msgid "Behavior on _Focus Out:"
+msgstr "Поведінка при в_траті фокуса:"
+
+#: ../setup/python2/setup.ui.h:42 ../setup/python3/setup.ui.h:42
+msgid "<b>Behavior</b>"
+msgstr "<b>Поведінка</b>"
+
+#: ../setup/python2/setup.ui.h:43 ../setup/python3/setup.ui.h:43
+msgid "Candidate _Window Page Size:"
+msgstr "Розмір сторінки вікна в_аріантів:"
+
+#: ../setup/python2/setup.ui.h:44 ../setup/python3/setup.ui.h:44
+msgid "Convert _symbols with the one column width"
+msgstr "Перетворювати си_мволи з шириною у один стовпчик"
+
+#: ../setup/python2/setup.ui.h:45 ../setup/python3/setup.ui.h:45
+msgid "Convert _numbers with the one column width"
+msgstr "Перетворювати чис_ла з шириною у один стовпчик"
+
+#: ../setup/python2/setup.ui.h:46 ../setup/python3/setup.ui.h:46
+msgid "Con_vert spaces with the one column width"
+msgstr "Пере_творювати пробіли з шириною у один стовпчик"
+
+#: ../setup/python2/setup.ui.h:47 ../setup/python3/setup.ui.h:47
+msgid ""
+"Swi_tch “Hiragana” and “Latin” with Shift key and Hiragana–Katakana key in "
+"preedit"
+msgstr ""
+"П_еремикатися між хіраганою і латинською за допомогою клавіші Shift, а "
+"клавішу хірагани-катакани використовувати у попередньому редагуванні"
+
+#: ../setup/python2/setup.ui.h:48 ../setup/python3/setup.ui.h:48
+msgid "<b>Other</b>"
+msgstr "<b>Інше</b>"
+
+#: ../setup/python2/setup.ui.h:49 ../setup/python3/setup.ui.h:49
+msgid "Conversion"
+msgstr "Перетворення"
+
+#: ../setup/python2/setup.ui.h:50 ../setup/python3/setup.ui.h:50
+msgid "_Shortcut Type:"
+msgstr "Тип с_корочення:"
+
+#: ../setup/python2/setup.ui.h:51 ../setup/python3/setup.ui.h:51
+msgid "De_fault"
+msgstr "Ти_повий"
+
+#: ../setup/python2/setup.ui.h:52 ../setup/python3/setup.ui.h:52
+msgid "_Edit"
+msgstr "З_міни"
+
+#: ../setup/python2/setup.ui.h:53 ../setup/python3/setup.ui.h:53
+msgid "Key Binding"
+msgstr "Прив’язка клавіш"
+
+#: ../setup/python2/setup.ui.h:55 ../setup/python3/setup.ui.h:55
+msgid "<b>Romaji</b>"
+msgstr "<b>Ромадзі</b>"
+
+#: ../setup/python2/setup.ui.h:57 ../setup/python3/setup.ui.h:57
+msgid "<b>Kana</b>"
+msgstr "<b>Кана</b>"
+
+#: ../setup/python2/setup.ui.h:58 ../setup/python3/setup.ui.h:58
+msgid "Keyboad _layout:"
+msgstr "_Розкладка клавіатури:"
+
+#: ../setup/python2/setup.ui.h:59 ../setup/python3/setup.ui.h:59
+msgid "<b>Keyboard layout</b>"
+msgstr "<b>Розкладка клавіатури</b>"
+
+#: ../setup/python2/setup.ui.h:60 ../setup/python3/setup.ui.h:60
+msgid "Typing Method"
+msgstr "Метод введення"
+
+#: ../setup/python2/setup.ui.h:61 ../setup/python3/setup.ui.h:61
+msgid "_Left Thumb Shift Key:"
+msgstr "_Ліва додаткова клавіша Shift:"
+
+#: ../setup/python2/setup.ui.h:62 ../setup/python3/setup.ui.h:62
+msgid "Right _Thumb Shift Key:"
+msgstr "Права _додаткова клавіша Shift:"
+
+#: ../setup/python2/setup.ui.h:63 ../setup/python3/setup.ui.h:63
+msgid "Adjust _input method layout to system keyboard layout"
+msgstr ""
+"Коригувати с_посіб введення за загальносистемною розкладкою клавіатури"
+
+#: ../setup/python2/setup.ui.h:64 ../setup/python3/setup.ui.h:64
+msgid "Adjust IM layout to XKB layout"
+msgstr "Коригувати розкладку IM за розкладкою XKB"
+
+#: ../setup/python2/setup.ui.h:65 ../setup/python3/setup.ui.h:65
+msgid "Input _Method Layout:"
+msgstr "Ро_зкладка способу введення:"
+
+#: ../setup/python2/setup.ui.h:66 ../setup/python3/setup.ui.h:66
+msgid "Restart IBus when you change the keyboard layout"
+msgstr "Перезапуск IBus після зміни розкладки клавіатури"
+
+#: ../setup/python2/setup.ui.h:67 ../setup/python3/setup.ui.h:67
+msgid "Restart IBus when you change XKB"
+msgstr "Перезапуск IBus після зміни XKB"
+
+#: ../setup/python2/setup.ui.h:68 ../setup/python3/setup.ui.h:68
+msgid "_Additional Key Arrangement:"
+msgstr "_Додаткове упорядковування клавіш:"
+
+#: ../setup/python2/setup.ui.h:69 ../setup/python3/setup.ui.h:69
+msgid ""
+"'&#xFF5E;', '&#x300E;', '&#xA2;', '&#xA3;' and so on can be output with "
+"Thumb Shift key"
+msgstr ""
+"«&#xFF5E;», «&#x300E;», «&#xA2;», «&#xA3;» тощо можна виводити за допомогою "
+"клавіші додаткового Shift"
+
+#: ../setup/python2/setup.ui.h:70 ../setup/python3/setup.ui.h:70
+msgid ""
+"You do not have to reconfigure the system keyboard layout for \"Additional "
+"Key Arrangement\" since this option changes input method layout only in case "
+"input method is turned on."
+msgstr ""
+"Вам не потрібно змінювати налаштування розкладки клавіатури системи для "
+"«Додаткового упорядковування клавіш», оскільки за допомогою цього пункту "
+"можна змінити розкладку способу введення, коли увімкнено відповідний спосіб "
+"введення."
+
+#: ../setup/python2/setup.ui.h:71 ../setup/python3/setup.ui.h:71
+msgid ""
+"You do not have to reconfigure XKB since this option changes IM layout only "
+"with IM on."
+msgstr ""
+"Вам не потрібно змінювати налаштування XKB, оскільки за допомогою цього "
+"пункту розкладка способу введення змінюється, лише коли увімкнено спосіб "
+"введення."
+
+#: ../setup/python2/setup.ui.h:72 ../setup/python3/setup.ui.h:72
+msgid "_Enable semi-voiced sound mark with Shift key"
+msgstr "_Увімкнути додавання позначки напівнаголосу клавішею Shift"
+
+#: ../setup/python2/setup.ui.h:73 ../setup/python3/setup.ui.h:73
+msgid "Seion + Shift can output Handakuon"
+msgstr "Сейон + Shift може виводити хандаквон"
+
+#: ../setup/python2/setup.ui.h:74 ../setup/python3/setup.ui.h:74
+msgid "Thumb _Shift Key Table:"
+msgstr "Розкладка з _додатковими Shift:"
+
+#: ../setup/python2/setup.ui.h:75 ../setup/python3/setup.ui.h:75
+msgid "<b>Thumb Shift Layout</b>"
+msgstr "<b>Розкладка з додатковими Shift</b>"
+
+#: ../setup/python2/setup.ui.h:76 ../setup/python3/setup.ui.h:76
+msgid "Thumb Shift"
+msgstr "Додатковий Shift"
+
+#: ../setup/python2/setup.ui.h:77 ../setup/python3/setup.ui.h:77
+msgid "_Edit Dictionary Command:"
+msgstr "З_мінити команду словника:"
+
+#: ../setup/python2/setup.ui.h:78 ../setup/python3/setup.ui.h:78
+msgid "_Add Word Command:"
+msgstr "_Додати команду слова:"
+
+#: ../setup/python2/setup.ui.h:79 ../setup/python3/setup.ui.h:79
+msgid "<b>Default Dictionary Configuration</b>"
+msgstr "<b>Налаштування типового словника</b>"
+
+#: ../setup/python2/setup.ui.h:80 ../setup/python3/setup.ui.h:80
+msgid "_View"
+msgstr "П_ерегляд"
+
+#: ../setup/python2/setup.ui.h:81 ../setup/python3/setup.ui.h:81
+msgid "_Add"
+msgstr "_Додати"
+
+#: ../setup/python2/setup.ui.h:82 ../setup/python3/setup.ui.h:82
+msgid "_Delete"
+msgstr "В_илучити"
+
+#: ../setup/python2/setup.ui.h:83 ../setup/python3/setup.ui.h:83
+msgid "_Up"
+msgstr "В_гору"
+
+#: ../setup/python2/setup.ui.h:84 ../setup/python3/setup.ui.h:84
+msgid "You can change the order on language bar"
+msgstr "Ви можете змінити порядок на панелі мов"
+
+#: ../setup/python2/setup.ui.h:85 ../setup/python3/setup.ui.h:85
+msgid "_Down"
+msgstr "В_низ"
+
+#: ../setup/python2/setup.ui.h:86 ../setup/python3/setup.ui.h:86
+msgid "<b>Extended Dictionaries</b>"
+msgstr "<b>Розширені словники</b>"
+
+#: ../setup/python2/setup.ui.h:87 ../setup/python3/setup.ui.h:87
+msgid "Dictionary"
+msgstr "Словник"
+
+#: ../setup/python2/setup.ui.h:88 ../setup/python3/setup.ui.h:88
+msgid "About"
+msgstr "Про програму"
+
+#: ../setup/python2/setup.ui.h:89 ../setup/python3/setup.ui.h:89
+msgid "_Apply"
+msgstr "_Застосувати"
+
+#: ../setup/python2/setup.ui.h:92 ../setup/python3/setup.ui.h:92
+msgid "Edit Shortcut"
+msgstr "Редагувати скорочення"
+
+#: ../setup/python2/setup.ui.h:93 ../setup/python3/setup.ui.h:93
+msgid "Key Code:"
+msgstr "Код клавіші:"
+
+#: ../setup/python2/setup.ui.h:94 ../setup/python3/setup.ui.h:94
+msgid "Modifier:"
+msgstr "Модифікатор:"
+
+#: ../setup/python2/setup.ui.h:95 ../setup/python3/setup.ui.h:95
+msgid "A_lternate"
+msgstr "A_lt"
+
+#: ../setup/python2/setup.ui.h:96 ../setup/python3/setup.ui.h:96
+msgid "Co_ntrol"
+msgstr "C_trl"
+
+#: ../setup/python2/setup.ui.h:97 ../setup/python3/setup.ui.h:97
+msgid "_Shift"
+msgstr "_Shift"
+
+#: ../setup/python2/setup.ui.h:98 ../setup/python3/setup.ui.h:98
+msgid "_Refresh"
+msgstr "_Оновити"
+
+#: ../setup/python2/setup.ui.h:99 ../setup/python3/setup.ui.h:99
+msgid "_Input Characters"
+msgstr "Символи _введення"
+
+#: ../setup/python2/setup.ui.h:100 ../setup/python3/setup.ui.h:100
+msgid "_Output Characters"
+msgstr "Символи в_иведення"
+
+#: ../setup/python2/setup.ui.h:101 ../setup/python3/setup.ui.h:101
+msgid "_Left Thumb Shift"
+msgstr "_Лівий додатковий Shift"
+
+#: ../setup/python2/setup.ui.h:102 ../setup/python3/setup.ui.h:102
+msgid "_Right Thumb Shift"
+msgstr "_Правий додатковий Shift"
+
+#: ../setup/python2/setup.ui.h:103 ../setup/python3/setup.ui.h:103
+msgid "_Remove"
+msgstr "Ви_лучити"
+
+#: ../setup/python2/setup.ui.h:104 ../setup/python3/setup.ui.h:104
+msgid "_Close"
+msgstr "_Закрити"
+
+#: ../setup/python2/setup.ui.h:105 ../setup/python3/setup.ui.h:105
+msgid "_Short Label:"
+msgstr "_Коротка мітка:"
+
+#: ../setup/python2/setup.ui.h:106 ../setup/python3/setup.ui.h:106
+msgid "_Description:"
+msgstr "_Опис:"
+
+#: ../setup/python2/setup.ui.h:107 ../setup/python3/setup.ui.h:107
+msgid "_Use your dictionary alone with switching dictionaries"
+msgstr "В_икористовувати лише ваш словник при перемиканні словників"
+
+#: ../setup/python2/setup.ui.h:108 ../setup/python3/setup.ui.h:108
+msgid "_Embed your dictionary in the system dictionary"
+msgstr "В_будувати ваш словник до загальносистемного словника"
+
+#: ../setup/python2/setup.ui.h:109 ../setup/python3/setup.ui.h:109
+msgid "Enable the _reverse conversion"
+msgstr "Увімкнути зво_ротне перетворення"
+
+#: ../setup/python2/setup.ui.h:110 ../setup/python3/setup.ui.h:110
+msgid "The Anthy engine for the IBus input platform"
+msgstr "Рушій Anthy для платформи введення IBus"
+
+#: ../setup/python2/setup.ui.h:111 ../setup/python3/setup.ui.h:111
+msgid "translator_credits"
+msgstr ""
+"Переклад українською:<br />\n"
+"<a href=\"mailto:yurchor@ukr.net\">Юрій Чорноіван</a>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Andrii Prokopenko https://launchpad.net/~anprok\n"
+"  Sergiy Gavrylov https://launchpad.net/~gavro\n"
+"  yurchor https://launchpad.net/~yurchor-deactivatedaccount"

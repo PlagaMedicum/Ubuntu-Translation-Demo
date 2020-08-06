@@ -1,0 +1,4437 @@
+# English (United Kingdom) translation for binutils
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the binutils package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: binutils\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2020-01-18 14:04+0000\n"
+"PO-Revision-Date: 2020-01-29 12:38+0000\n"
+"Last-Translator: Andi Chandler <Unknown>\n"
+"Language-Team: English (United Kingdom) <en_GB@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2020-07-09 16:56+0000\n"
+"X-Generator: Launchpad (build 4809fcb62f445aaa3ae919f7f6c3cc7d156ea57a)\n"
+
+#: aarch64-reloc-property.cc:173 arm-reloc-property.cc:303
+#, c-format
+msgid "invalid reloc %u"
+msgstr "invalid reloc %u"
+
+#: aarch64-reloc-property.cc:186 arm-reloc-property.cc:316
+msgid "reloc "
+msgstr "reloc "
+
+#: aarch64-reloc-property.cc:186 arm-reloc-property.cc:316
+msgid "unimplemented reloc "
+msgstr "unimplemented reloc "
+
+#: aarch64-reloc-property.cc:189 arm-reloc-property.cc:319
+msgid "dynamic reloc "
+msgstr "dynamic reloc "
+
+#: aarch64-reloc-property.h:228
+#, c-format
+msgid "Invalid/unrecognized reloc reloc %d."
+msgstr "Invalid/unrecognised reloc reloc %d."
+
+#: aarch64.cc:511 arm.cc:7391 mips.cc:6685
+#, c-format
+msgid "undefined or discarded local symbol %u from  object %s in GOT"
+msgstr "undefined or discarded local symbol %u from  object %s in GOT"
+
+#: aarch64.cc:532 arm.cc:7413 mips.cc:6704
+#, c-format
+msgid "undefined or discarded symbol %s in GOT"
+msgstr "undefined or discarded symbol %s in GOT"
+
+#: aarch64.cc:1931 arm.cc:6543 object.cc:900
+#, c-format
+msgid "invalid symbol table name index: %u"
+msgstr "invalid symbol table name index: %u"
+
+#: aarch64.cc:1939 arm.cc:6551 object.cc:906
+#, c-format
+msgid "symbol table name section has wrong type: %u"
+msgstr "symbol table name section has wrong type: %u"
+
+#: aarch64.cc:3831 arm.cc:10905 mips.cc:9608 powerpc.cc:2873 target.cc:94
+#, c-format
+msgid "%s: unsupported ELF file type %d"
+msgstr "%s: unsupported ELF file type %d"
+
+#: aarch64.cc:4013 arm.cc:12181
+#, c-format
+msgid "cannot handle branch to local %u in a merged section %s"
+msgstr "cannot handle branch to local %u in a merged section %s"
+
+#: aarch64.cc:4378 arm.cc:7593 i386.cc:193 s390.cc:216 sparc.cc:1366
+#: tilegx.cc:182 x86_64.cc:314
+msgid "** PLT"
+msgstr "** PLT"
+
+#: aarch64.cc:5553
+#, c-format
+msgid ""
+"Stub is too far away, try a smaller value for '--stub-group-size'. The "
+"current value is 0x%lx."
+msgstr ""
+"Stub is too far away, try a smaller value for '--stub-group-size'. The "
+"current value is 0x%lx."
+
+#: aarch64.cc:6015 arm.cc:8477 i386.cc:1772 mips.cc:12461 powerpc.cc:7319
+#: s390.cc:2180 s390.cc:2628 sparc.cc:2134 tilegx.cc:3137 tilegx.cc:3589
+#: x86_64.cc:3441 x86_64.cc:3893
+#, c-format
+msgid "%s: unsupported reloc %u against local symbol"
+msgstr "%s: unsupported reloc %u against local symbol"
+
+#: aarch64.cc:6056 powerpc.cc:7424 s390.cc:2254 sparc.cc:2230
+msgid "requires unsupported dynamic reloc; recompile with -fPIC"
+msgstr "requires unsupported dynamic reloc; recompile with -fPIC"
+
+#: aarch64.cc:6078
+#, c-format
+msgid "%s: unsupported TLS reloc %s for IFUNC symbol"
+msgstr "%s: unsupported TLS reloc %s for IFUNC symbol"
+
+#: aarch64.cc:6122 aarch64.cc:6186 aarch64.cc:6496
+#, c-format
+msgid "%s: unsupported reloc %u in pos independent link."
+msgstr "%s: unsupported reloc %u in pos independent link."
+
+#: aarch64.cc:6287
+#, c-format
+msgid "%s: unsupported TLSLE reloc %u in shared code."
+msgstr "%s: unsupported TLSLE reloc %u in shared code."
+
+#: aarch64.cc:6372 arm.cc:8885 i386.cc:2127 mips.cc:12474 powerpc.cc:8200
+#: s390.cc:3059 s390.cc:3076 sparc.cc:2572 tilegx.cc:3605 tilegx.cc:4144
+#: x86_64.cc:3909 x86_64.cc:4428
+#, c-format
+msgid "%s: unsupported reloc %u against global symbol %s"
+msgstr "%s: unsupported reloc %u against global symbol %s"
+
+#: aarch64.cc:6722
+#, c-format
+msgid "%s: unsupported TLSLE reloc type %u in shared objects."
+msgstr "%s: unsupported TLSLE reloc type %u in shared objects."
+
+#: aarch64.cc:6767
+#, c-format
+msgid "%s: unsupported reloc type in global scan"
+msgstr "%s: unsupported reloc type in global scan"
+
+#: aarch64.cc:6907 powerpc.cc:9267 s390.cc:4009 sparc.cc:3164 tilegx.cc:4211
+#: x86_64.cc:4493
+#, c-format
+msgid "%s: unsupported REL reloc section"
+msgstr "%s: unsupported REL reloc section"
+
+#: aarch64.cc:7070 arm.cc:9615
+#, c-format
+msgid "cannot relocate %s in object file"
+msgstr "cannot relocate %s in object file"
+
+#: aarch64.cc:7343 i386.cc:2987 i386.cc:3753 mips.cc:10076 powerpc.cc:11548
+#: s390.cc:3460 sparc.cc:3695 tilegx.cc:4726 x86_64.cc:4975
+#, c-format
+msgid "unexpected reloc %u in object file"
+msgstr "unexpected reloc %u in object file"
+
+#: aarch64.cc:7349
+#, c-format
+msgid "unsupported reloc %s"
+msgstr "unsupported reloc %s"
+
+#: aarch64.cc:7361 arm.cc:10095 arm.cc:10713
+#, c-format
+msgid "relocation overflow in %s"
+msgstr "relocation overflow in %s"
+
+#: aarch64.cc:7369 arm.cc:10103 arm.cc:10718
+#, c-format
+msgid "unexpected opcode while processing relocation %s"
+msgstr "unexpected opcode while processing relocation %s"
+
+#: aarch64.cc:7465
+#, c-format
+msgid "unsupported gd_to_ie relaxation on %u"
+msgstr "unsupported gd_to_ie relaxation on %u"
+
+#: aarch64.cc:7637
+#, c-format
+msgid "%s: unsupported reloc %u in non-static TLSLE mode."
+msgstr "%s: unsupported reloc %u in non-static TLSLE mode."
+
+#: aarch64.cc:7722
+#, c-format
+msgid "%s: unsupported TLS reloc %u."
+msgstr "%s: unsupported TLS reloc %u."
+
+#. Ideally we should give up gd_to_le relaxation and do gd access.
+#. However the gd_to_le relaxation decision has been made early
+#. in the scan stage, where we did not allocate any GOT entry for
+#. this symbol. Therefore we have to exit and report error now.
+#. Ideally we should give up gd_to_le relaxation and do gd access.
+#. However the gd_to_le relaxation decision has been made early
+#. in the scan stage, where we did not allocate a GOT entry for
+#. this symbol. Therefore we have to exit and report an error now.
+#: aarch64.cc:7779 aarch64.cc:7879
+#, c-format
+msgid ""
+"unexpected reloc insn sequence while relaxing tls gd to le for reloc %u."
+msgstr ""
+"unexpected reloc insn sequence while relaxing tls gd to le for reloc %u."
+
+#: aarch64.cc:7954
+#, c-format
+msgid "TLS variable referred by reloc %u is too far from TP."
+msgstr "TLS variable referred by reloc %u is too far from TP."
+
+#: aarch64.cc:8024
+#, c-format
+msgid ""
+"TLS variable referred by reloc %u is too far from TP. We Can't do gd_to_le "
+"relaxation.\n"
+msgstr ""
+"TLS variable referred by reloc %u is too far from TP. We Can't do gd_to_le "
+"relaxation.\n"
+
+#: aarch64.cc:8048
+#, c-format
+msgid "unsupported tlsdesc gd_to_le optimization on reloc %u"
+msgstr "unsupported tlsdesc gd_to_le optimisation on reloc %u"
+
+#: aarch64.cc:8120
+#, c-format
+msgid "Don't support tlsdesc gd_to_ie optimization on reloc %u"
+msgstr "Don't support tlsdesc gd_to_ie optimisation on reloc %u"
+
+#: aarch64.cc:8455
+#, c-format
+msgid "Erratum 835769 found and fixed at \"%s\", section %d, offset 0x%08x."
+msgstr "Erratum 835769 found and fixed at \"%s\", section %d, offset 0x%08x."
+
+#: archive.cc:134
+#, c-format
+msgid "script or expression reference to %s"
+msgstr "script or expression reference to %s"
+
+#: archive.cc:239
+#, c-format
+msgid "%s: no archive symbol table (run ranlib)"
+msgstr "%s: no archive symbol table (run ranlib)"
+
+#: archive.cc:331
+#, c-format
+msgid "%s: bad archive symbol table names"
+msgstr "%s: bad archive symbol table names"
+
+#: archive.cc:363
+#, c-format
+msgid "%s: malformed archive header at %zu"
+msgstr "%s: malformed archive header at %zu"
+
+#: archive.cc:383
+#, c-format
+msgid "%s: malformed archive header size at %zu"
+msgstr "%s: malformed archive header size at %zu"
+
+#: archive.cc:394
+#, c-format
+msgid "%s: malformed archive header name at %zu"
+msgstr "%s: malformed archive header name at %zu"
+
+#: archive.cc:430
+#, c-format
+msgid "%s: bad extended name index at %zu"
+msgstr "%s: bad extended name index at %zu"
+
+#: archive.cc:440
+#, c-format
+msgid "%s: bad extended name entry at header %zu"
+msgstr "%s: bad extended name entry at header %zu"
+
+#: archive.cc:537
+#, c-format
+msgid "%s: short archive header at %zu"
+msgstr "%s: short archive header at %zu"
+
+#: archive.cc:727
+#, c-format
+msgid "%s: plugin failed to claim member %s at %zu"
+msgstr "%s: plugin failed to claim member %s at %zu"
+
+#: archive.cc:731
+#, c-format
+msgid "%s: member %s at %zu is not an ELF object"
+msgstr "%s: member %s at %zu is not an ELF object"
+
+#: archive.cc:1093
+#, c-format
+msgid "%s: archive libraries: %u\n"
+msgstr "%s: archive libraries: %u\n"
+
+#: archive.cc:1095
+#, c-format
+msgid "%s: total archive members: %u\n"
+msgstr "%s: total archive members: %u\n"
+
+#: archive.cc:1097
+#, c-format
+msgid "%s: loaded archive members: %u\n"
+msgstr "%s: loaded archive members: %u\n"
+
+#: archive.cc:1327
+#, c-format
+msgid "%s: lib groups: %u\n"
+msgstr "%s: lib groups: %u\n"
+
+#: archive.cc:1329
+#, c-format
+msgid "%s: total lib groups members: %u\n"
+msgstr "%s: total lib groups members: %u\n"
+
+#: archive.cc:1331
+#, c-format
+msgid "%s: loaded lib groups members: %u\n"
+msgstr "%s: loaded lib groups members: %u\n"
+
+#: arm-reloc-property.cc:322
+msgid "private reloc "
+msgstr "private reloc "
+
+#: arm-reloc-property.cc:325
+msgid "obsolete reloc "
+msgstr "obsolete reloc "
+
+#: arm.cc:1077
+msgid "** ARM cantunwind"
+msgstr "** ARM cantunwind"
+
+#: arm.cc:2554
+msgid "Cannot use both --target1-abs and --target1-rel."
+msgstr "Cannot use both --target1-abs and --target1-rel."
+
+#: arm.cc:4148
+#, c-format
+msgid "%s: Thumb BLX instruction targets thumb function '%s'."
+msgstr "%s: Thumb BLX instruction targets thumb function '%s'."
+
+#: arm.cc:4294
+msgid "conditional branch to PLT in THUMB-2 not supported yet."
+msgstr "conditional branch to PLT in THUMB-2 not supported yet."
+
+#: arm.cc:5432
+msgid "PREL31 overflow in EXIDX_CANTUNWIND entry"
+msgstr "PREL31 overflow in EXIDX_CANTUNWIND entry"
+
+#. Something is wrong with this section.  Better not touch it.
+#: arm.cc:5678
+#, c-format
+msgid "uneven .ARM.exidx section size in %s section %u"
+msgstr "uneven .ARM.exidx section size in %s section %u"
+
+#: arm.cc:6004
+msgid "Found non-EXIDX input sections in EXIDX output section"
+msgstr "Found non-EXIDX input sections in EXIDX output section"
+
+#: arm.cc:6058 arm.cc:6062
+#, c-format
+msgid ""
+"unwinding may not work because EXIDX input section %u of %s is not in EXIDX "
+"output section"
+msgstr ""
+"unwinding may not work because EXIDX input section %u of %s is not in EXIDX "
+"output section"
+
+#: arm.cc:6875
+#, c-format
+msgid "EXIDX section %s(%u) links to invalid section %u in %s"
+msgstr "EXIDX section %s(%u) links to invalid section %u in %s"
+
+#: arm.cc:6884
+#, c-format
+msgid ""
+"EXIDX sections %s(%u) and %s(%u) both link to text section%s(%u) in %s"
+msgstr ""
+"EXIDX sections %s(%u) and %s(%u) both link to text section%s(%u) in %s"
+
+#: arm.cc:6898
+#, c-format
+msgid "EXIDX section %s(%u) links to non-allocated section %s(%u)  in %s"
+msgstr "EXIDX section %s(%u) links to non-allocated section %s(%u)  in %s"
+
+#. I would like to make this an error but currently ld just ignores
+#. this.
+#: arm.cc:6908
+#, c-format
+msgid "EXIDX section %s(%u) links to non-executable section %s(%u) in %s"
+msgstr "EXIDX section %s(%u) links to non-executable section %s(%u) in %s"
+
+#: arm.cc:6992
+#, c-format
+msgid "SHF_LINK_ORDER not set in EXIDX section %s of %s"
+msgstr "SHF_LINK_ORDER not set in EXIDX section %s of %s"
+
+#: arm.cc:7025
+#, c-format
+msgid "relocation section %u has invalid info %u"
+msgstr "relocation section %u has invalid info %u"
+
+#: arm.cc:7031
+#, c-format
+msgid "section %u has multiple relocation sections %u and %u"
+msgstr "section %u has multiple relocation sections %u and %u"
+
+#: arm.cc:7983
+msgid "PLT offset too large, try linking with --long-plt"
+msgstr "PLT offset too large, try linking with --long-plt"
+
+#: arm.cc:8522
+#, c-format
+msgid "requires unsupported dynamic reloc %s; recompile with -fPIC"
+msgstr "requires unsupported dynamic reloc %s; recompile with -fPIC"
+
+#: arm.cc:8547 i386.cc:1786 s390.cc:2271 sparc.cc:2247 tilegx.cc:3223
+#: x86_64.cc:3551
+#, c-format
+msgid "%s: unsupported TLS reloc %u for IFUNC symbol"
+msgstr "%s: unsupported TLS reloc %u for IFUNC symbol"
+
+#: arm.cc:8643 i386.cc:1862 powerpc.cc:7727 s390.cc:2364 x86_64.cc:3649
+#, c-format
+msgid "section symbol %u has bad shndx %u"
+msgstr "section symbol %u has bad shndx %u"
+
+#. These are relocations which should only be seen by the
+#. dynamic linker, and should never be seen here.
+#: arm.cc:8752 arm.cc:9233 i386.cc:1950 i386.cc:2436 mips.cc:11258 s390.cc:2463
+#: s390.cc:2897 sparc.cc:2553 sparc.cc:3033 tilegx.cc:3584 tilegx.cc:4139
+#: x86_64.cc:3765 x86_64.cc:4301
+#, c-format
+msgid "%s: unexpected reloc %u in object file"
+msgstr "%s: unexpected reloc %u in object file"
+
+#: arm.cc:8784 i386.cc:1984 mips.cc:10707 s390.cc:2507 sparc.cc:2452
+#: tilegx.cc:3488 x86_64.cc:3797
+#, c-format
+msgid "local symbol %u has bad shndx %u"
+msgstr "local symbol %u has bad shndx %u"
+
+#: arm.cc:9389 i386.cc:2644
+#, c-format
+msgid "%s: unsupported RELA reloc section"
+msgstr "%s: unsupported RELA reloc section"
+
+#: arm.cc:9479
+msgid ""
+"unable to provide V4BX reloc interworking fix up; the target profile does "
+"not support BX instruction"
+msgstr ""
+"unable to provide V4BX reloc interworking fix up; the target profile does "
+"not support BX instruction"
+
+#: arm.cc:10247 i386.cc:3019 i386.cc:3101 i386.cc:3166 i386.cc:3202
+#: i386.cc:3274 mips.cc:12296 powerpc.cc:11662 s390.cc:3466 s390.cc:3537
+#: s390.cc:3574 s390.cc:3596 s390.cc:3621 sparc.cc:3701 sparc.cc:3892
+#: sparc.cc:3953 sparc.cc:4060 tilegx.cc:4732 x86_64.cc:4996 x86_64.cc:5122
+#: x86_64.cc:5194 x86_64.cc:5228
+#, c-format
+msgid "unsupported reloc %u"
+msgstr "unsupported reloc %u"
+
+#: arm.cc:10328
+#, c-format
+msgid "%s: unexpected %s in object file"
+msgstr "%s: unexpected %s in object file"
+
+#: arm.cc:10698
+#, c-format
+msgid "cannot handle %s in a relocatable link"
+msgstr "cannot handle %s in a relocatable link"
+
+#: arm.cc:10800
+#, c-format
+msgid "Source object %s has EABI version %d but output has EABI version %d."
+msgstr "Source object %s has EABI version %d but output has EABI version %d."
+
+#: arm.cc:11121
+#, c-format
+msgid "%s: unknown CPU architecture"
+msgstr "%s: unknown CPU architecture"
+
+#: arm.cc:11158
+#, c-format
+msgid "%s: conflicting CPU architectures %d/%d"
+msgstr "%s: conflicting CPU architectures %d/%d"
+
+#: arm.cc:11297 arm.cc:11683
+#, c-format
+msgid "%s has both the current and legacy Tag_MPextension_use attributes"
+msgstr "%s has both the current and legacy Tag_MPextension_use attributes"
+
+#: arm.cc:11333
+#, c-format
+msgid "%s uses VFP register arguments, output does not"
+msgstr "%s uses VFP register arguments, output does not"
+
+#: arm.cc:11479
+#, c-format
+msgid "conflicting architecture profiles %c/%c"
+msgstr "conflicting architecture profiles %c/%c"
+
+#. It's sometimes ok to mix different configs, so this is only
+#. a warning.
+#: arm.cc:11537
+#, c-format
+msgid "%s: conflicting platform configuration"
+msgstr "%s: conflicting platform configuration"
+
+#: arm.cc:11546
+#, c-format
+msgid "%s: conflicting use of R9"
+msgstr "%s: conflicting use of R9"
+
+#: arm.cc:11559
+#, c-format
+msgid "%s: SB relative addressing conflicts with use of R9"
+msgstr "%s: SB relative addressing conflicts with use of R9"
+
+#: arm.cc:11574
+#, c-format
+msgid ""
+"%s uses %u-byte wchar_t yet the output is to use %u-byte wchar_t; use of "
+"wchar_t values across objects may fail"
+msgstr ""
+"%s uses %u-byte wchar_t yet the output is to use %u-byte wchar_t; use of "
+"wchar_t values across objects may fail"
+
+#: arm.cc:11600
+#, c-format
+msgid ""
+"%s uses %s enums yet the output is to use %s enums; use of enum values "
+"across objects may fail"
+msgstr ""
+"%s uses %s enums yet the output is to use %s enums; use of enum values "
+"across objects may fail"
+
+#: arm.cc:11616
+#, c-format
+msgid "%s uses iWMMXt register arguments, output does not"
+msgstr "%s uses iWMMXt register arguments, output does not"
+
+#: arm.cc:11637
+#, c-format
+msgid "fp16 format mismatch between %s and output"
+msgstr "fp16 format mismatch between %s and output"
+
+#: arm.cc:11729 arm.cc:11822
+#, c-format
+msgid "%s: unknown mandatory EABI object attribute %d"
+msgstr "%s: unknown mandatory EABI object attribute %d"
+
+#: arm.cc:11733 arm.cc:11827
+#, c-format
+msgid "%s: unknown EABI object attribute %d"
+msgstr "%s: unknown EABI object attribute %d"
+
+#. We cannot handle this now.
+#: arm.cc:12422
+#, c-format
+msgid "multiple SHT_ARM_EXIDX sections %s and %s in a non-relocatable link"
+msgstr "multiple SHT_ARM_EXIDX sections %s and %s in a non-relocatable link"
+
+#: attributes.cc:410
+#, c-format
+msgid "%s: must be processed by '%s' toolchain"
+msgstr "%s: must be processed by '%s' toolchain"
+
+#: attributes.cc:418
+#, c-format
+msgid "%s: object tag '%d, %s' is incompatible with tag '%d, %s'"
+msgstr "%s: object tag '%d, %s' is incompatible with tag '%d, %s'"
+
+#: attributes.h:393
+msgid "** attributes"
+msgstr "** attributes"
+
+#: binary.cc:135
+#, c-format
+msgid "cannot open %s: %s:"
+msgstr "cannot open %s: %s:"
+
+#: common.cc:351 output.cc:2515 output.cc:2614
+#, c-format
+msgid "out of patch space in section %s; relink with --incremental-full"
+msgstr "out of patch space in section %s; relink with --incremental-full"
+
+#: compressed_output.cc:320
+msgid "not compressing section data: zlib error"
+msgstr "not compressing section data: zlib error"
+
+#: copy-relocs.cc:125
+#, c-format
+msgid ""
+"%s: cannot make copy relocation for protected symbol '%s', defined in %s"
+msgstr ""
+"%s: cannot make copy relocation for protected symbol '%s', defined in %s"
+
+#: cref.cc:388
+#, c-format
+msgid "cannot open symbol count file %s: %s"
+msgstr "cannot open symbol count file %s: %s"
+
+#: cref.cc:402
+#, c-format
+msgid ""
+"\n"
+"Cross Reference Table\n"
+"\n"
+msgstr ""
+"\n"
+"Cross Reference Table\n"
+"\n"
+
+#: cref.cc:403
+msgid "Symbol"
+msgstr "Symbol"
+
+#: cref.cc:405
+msgid "File"
+msgstr "File"
+
+#: descriptors.cc:132
+#, c-format
+msgid "file %s was removed during the link"
+msgstr "file %s was removed during the link"
+
+#: descriptors.cc:188
+msgid "out of file descriptors and couldn't close any"
+msgstr "out of file descriptors and couldn't close any"
+
+#: descriptors.cc:209 descriptors.cc:248 descriptors.cc:283
+#, c-format
+msgid "while closing %s: %s"
+msgstr "while closing %s: %s"
+
+#: dirsearch.cc:73
+#, c-format
+msgid "%s: can not read directory: %s"
+msgstr "%s: cannot read directory: %s"
+
+#: dwarf_reader.cc:454
+#, c-format
+msgid ""
+"%s: DWARF info may be corrupt; offsets in a range list entry are in "
+"different sections"
+msgstr ""
+"%s: DWARF info may be corrupt; offsets in a range list entry are in "
+"different sections"
+
+#: dwarf_reader.cc:1527
+#, c-format
+msgid "%s: corrupt debug info in %s"
+msgstr "%s: corrupt debug info in %s"
+
+#: dynobj.cc:176
+#, c-format
+msgid "unexpected duplicate type %u section: %u, %u"
+msgstr "unexpected duplicate type %u section: %u, %u"
+
+#: dynobj.cc:231
+#, c-format
+msgid "unexpected link in section %u header: %u != %u"
+msgstr "unexpected link in section %u header: %u != %u"
+
+#: dynobj.cc:267
+#, c-format
+msgid "DYNAMIC section %u link out of range: %u"
+msgstr "DYNAMIC section %u link out of range: %u"
+
+#: dynobj.cc:275
+#, c-format
+msgid "DYNAMIC section %u link %u is not a strtab"
+msgstr "DYNAMIC section %u link %u is not a strtab"
+
+#: dynobj.cc:304
+#, c-format
+msgid "DT_SONAME value out of range: %lld >= %lld"
+msgstr "DT_SONAME value out of range: %lld >= %lld"
+
+#: dynobj.cc:316
+#, c-format
+msgid "DT_NEEDED value out of range: %lld >= %lld"
+msgstr "DT_NEEDED value out of range: %lld >= %lld"
+
+#: dynobj.cc:329
+msgid "missing DT_NULL in dynamic segment"
+msgstr "missing DT_NULL in dynamic segment"
+
+#: dynobj.cc:404
+#, c-format
+msgid "invalid dynamic symbol table name index: %u"
+msgstr "invalid dynamic symbol table name index: %u"
+
+#: dynobj.cc:411
+#, c-format
+msgid "dynamic symbol table name section has wrong type: %u"
+msgstr "dynamic symbol table name section has wrong type: %u"
+
+#: dynobj.cc:498 object.cc:737 object.cc:1611
+#, c-format
+msgid "bad section name offset for section %u: %lu"
+msgstr "bad section name offset for section %u: %lu"
+
+#: dynobj.cc:528
+#, c-format
+msgid "duplicate definition for version %u"
+msgstr "duplicate definition for version %u"
+
+#: dynobj.cc:557
+#, c-format
+msgid "unexpected verdef version %u"
+msgstr "unexpected verdef version %u"
+
+#: dynobj.cc:573
+#, c-format
+msgid "verdef vd_cnt field too small: %u"
+msgstr "verdef vd_cnt field too small: %u"
+
+#: dynobj.cc:581
+#, c-format
+msgid "verdef vd_aux field out of range: %u"
+msgstr "verdef vd_aux field out of range: %u"
+
+#: dynobj.cc:592
+#, c-format
+msgid "verdaux vda_name field out of range: %u"
+msgstr "verdaux vda_name field out of range: %u"
+
+#: dynobj.cc:602
+#, c-format
+msgid "verdef vd_next field out of range: %u"
+msgstr "verdef vd_next field out of range: %u"
+
+#: dynobj.cc:636
+#, c-format
+msgid "unexpected verneed version %u"
+msgstr "unexpected verneed version %u"
+
+#: dynobj.cc:645
+#, c-format
+msgid "verneed vn_aux field out of range: %u"
+msgstr "verneed vn_aux field out of range: %u"
+
+#: dynobj.cc:659
+#, c-format
+msgid "vernaux vna_name field out of range: %u"
+msgstr "vernaux vna_name field out of range: %u"
+
+#: dynobj.cc:670
+#, c-format
+msgid "verneed vna_next field out of range: %u"
+msgstr "verneed vna_next field out of range: %u"
+
+#: dynobj.cc:681
+#, c-format
+msgid "verneed vn_next field out of range: %u"
+msgstr "verneed vn_next field out of range: %u"
+
+#: dynobj.cc:730
+msgid "size of dynamic symbols is not multiple of symbol size"
+msgstr "size of dynamic symbols is not multiple of symbol size"
+
+#: dynobj.cc:1576
+#, c-format
+msgid "symbol %s has undefined version %s"
+msgstr "symbol %s has undefined version %s"
+
+#: ehframe.cc:382
+msgid "overflow in PLT unwind data; unwinding through PLT may fail"
+msgstr "overflow in PLT unwind data; unwinding through PLT may fail"
+
+#: ehframe.h:78
+msgid "** eh_frame_hdr"
+msgstr "** eh_frame_hdr"
+
+#: ehframe.h:450
+msgid "** eh_frame"
+msgstr "** eh_frame"
+
+#: errors.cc:81 errors.cc:92
+#, c-format
+msgid "%s: fatal error: "
+msgstr "%s: fatal error: "
+
+#: errors.cc:103 errors.cc:139
+#, c-format
+msgid "%s: error: "
+msgstr "%s: error: "
+
+#: errors.cc:115 errors.cc:155
+#, c-format
+msgid "%s: warning: "
+msgstr "%s: warning: "
+
+#: errors.cc:179
+msgid "warning"
+msgstr "warning"
+
+#: errors.cc:184
+msgid "error"
+msgstr "error"
+
+#: errors.cc:190
+#, c-format
+msgid "%s: %s: undefined reference to '%s'\n"
+msgstr "%s: %s: undefined reference to '%s'\n"
+
+#: errors.cc:194
+#, c-format
+msgid "%s: %s: undefined reference to '%s', version '%s'\n"
+msgstr "%s: %s: undefined reference to '%s', version '%s'\n"
+
+#: errors.cc:198
+#, c-format
+msgid ""
+"%s: the vtable symbol may be undefined because the class is missing its key "
+"function"
+msgstr ""
+"%s: the vtable symbol may be undefined because the class is missing its key "
+"function"
+
+#: errors.cc:202
+#, c-format
+msgid "%s: the symbol should have been defined by a plugin"
+msgstr "%s: the symbol should have been defined by a plugin"
+
+#: errors.cc:211
+#, c-format
+msgid "%s: "
+msgstr "%s: "
+
+#: expression.cc:230
+#, c-format
+msgid "undefined symbol '%s' referenced in expression"
+msgstr "undefined symbol '%s' referenced in expression"
+
+#: expression.cc:274
+msgid "invalid reference to dot symbol outside of SECTIONS clause"
+msgstr "invalid reference to dot symbol outside of SECTIONS clause"
+
+#. Handle unary operators.  We use a preprocessor macro as a hack to
+#. capture the C operator.
+#: expression.cc:354
+msgid "unary "
+msgstr "unary "
+
+#. Handle binary operators.  We use a preprocessor macro as a hack to
+#. capture the C operator.  KEEP_LEFT means that if the left operand
+#. is section relative and the right operand is not, the result uses
+#. the same section as the left operand.  KEEP_RIGHT is the same with
+#. left and right swapped.  IS_DIV means that we need to give an error
+#. if the right operand is zero.  WARN means that we should warn if
+#. used on section relative values in a relocatable link.  We always
+#. warn if used on values in different sections in a relocatable link.
+#: expression.cc:513
+msgid "binary "
+msgstr "binary "
+
+#: expression.cc:517
+msgid " by zero"
+msgstr " by zero"
+
+#: expression.cc:723
+msgid "max applied to section relative value"
+msgstr "max applied to section relative value"
+
+#: expression.cc:774
+msgid "min applied to section relative value"
+msgstr "min applied to section relative value"
+
+#: expression.cc:915
+msgid "aligning to section relative value"
+msgstr "aligning to section relative value"
+
+#: expression.cc:1083
+#, c-format
+msgid "unknown constant %s"
+msgstr "unknown constant %s"
+
+#: fileread.cc:141
+#, c-format
+msgid "munmap failed: %s"
+msgstr "munmap failed: %s"
+
+#: fileread.cc:209
+#, c-format
+msgid "%s: fstat failed: %s"
+msgstr "%s: fstat failed: %s"
+
+#: fileread.cc:252
+#, c-format
+msgid "could not reopen file %s"
+msgstr "could not reopen file %s"
+
+#: fileread.cc:405
+#, c-format
+msgid "%s: pread failed: %s"
+msgstr "%s: pread failed: %s"
+
+#: fileread.cc:419
+#, c-format
+msgid "%s: file too short: read only %lld of %lld bytes at %lld"
+msgstr "%s: file too short: read only %lld of %lld bytes at %lld"
+
+#: fileread.cc:542
+#, c-format
+msgid ""
+"%s: attempt to map %lld bytes at offset %lld exceeds size of file; the file "
+"may be corrupt"
+msgstr ""
+"%s: attempt to map %lld bytes at offset %lld exceeds size of file; the file "
+"may be corrupt"
+
+#: fileread.cc:682
+#, c-format
+msgid "%s: lseek failed: %s"
+msgstr "%s: lseek failed: %s"
+
+#: fileread.cc:688
+#, c-format
+msgid "%s: readv failed: %s"
+msgstr "%s: readv failed: %s"
+
+#: fileread.cc:691
+#, c-format
+msgid "%s: file too short: read only %zd of %zd bytes at %lld"
+msgstr "%s: file too short: read only %zd of %zd bytes at %lld"
+
+#: fileread.cc:858
+#, c-format
+msgid "%s: total bytes mapped for read: %llu\n"
+msgstr "%s: total bytes mapped for read: %llu\n"
+
+#: fileread.cc:860
+#, c-format
+msgid "%s: maximum bytes mapped for read at one time: %llu\n"
+msgstr "%s: maximum bytes mapped for read at one time: %llu\n"
+
+#: fileread.cc:953
+#, c-format
+msgid "%s: stat failed: %s"
+msgstr "%s: stat failed: %s"
+
+#: fileread.cc:1050
+#, c-format
+msgid "cannot find %s%s"
+msgstr "cannot find %s%s"
+
+#: fileread.cc:1075
+#, c-format
+msgid "cannot find %s"
+msgstr "cannot find %s"
+
+#: fileread.cc:1114
+#, c-format
+msgid "cannot open %s: %s"
+msgstr "cannot open %s: %s"
+
+#: gdb-index.cc:378
+#, c-format
+msgid "%s: --gdb-index currently supports only C and C++ languages"
+msgstr "%s: --gdb-index currently supports only C and C++ languages"
+
+#. The top level DIE should be one of the above.
+#: gdb-index.cc:392
+#, c-format
+msgid "%s: top level DIE is not DW_TAG_compile_unit or DW_TAG_type_unit"
+msgstr "%s: top level DIE is not DW_TAG_compile_unit or DW_TAG_type_unit"
+
+#: gdb-index.cc:845
+#, c-format
+msgid ""
+"%s: DWARF info may be corrupt; low_pc and high_pc are in different sections"
+msgstr ""
+"%s: DWARF info may be corrupt; low_pc and high_pc are in different sections"
+
+#: gdb-index.cc:971
+#, c-format
+msgid "%s: DWARF CUs: %u\n"
+msgstr "%s: DWARF CUs: %u\n"
+
+#: gdb-index.cc:973
+#, c-format
+msgid "%s: DWARF CUs without pubnames/pubtypes: %u\n"
+msgstr "%s: DWARF CUs without pubnames/pubtypes: %u\n"
+
+#: gdb-index.cc:975
+#, c-format
+msgid "%s: DWARF TUs: %u\n"
+msgstr "%s: DWARF TUs: %u\n"
+
+#: gdb-index.cc:977
+#, c-format
+msgid "%s: DWARF TUs without pubnames/pubtypes: %u\n"
+msgstr "%s: DWARF TUs without pubnames/pubtypes: %u\n"
+
+#: gdb-index.h:149
+msgid "** gdb_index"
+msgstr "** gdb_index"
+
+#: gold-threads.cc:103
+#, c-format
+msgid "pthead_mutexattr_init failed: %s"
+msgstr "pthead_mutexattr_init failed: %s"
+
+#: gold-threads.cc:107
+#, c-format
+msgid "pthread_mutexattr_settype failed: %s"
+msgstr "pthread_mutexattr_settype failed: %s"
+
+#: gold-threads.cc:112
+#, c-format
+msgid "pthread_mutex_init failed: %s"
+msgstr "pthread_mutex_init failed: %s"
+
+#: gold-threads.cc:116
+#, c-format
+msgid "pthread_mutexattr_destroy failed: %s"
+msgstr "pthread_mutexattr_destroy failed: %s"
+
+#: gold-threads.cc:123
+#, c-format
+msgid "pthread_mutex_destroy failed: %s"
+msgstr "pthread_mutex_destroy failed: %s"
+
+#: gold-threads.cc:131 gold-threads.cc:396
+#, c-format
+msgid "pthread_mutex_lock failed: %s"
+msgstr "pthread_mutex_lock failed: %s"
+
+#: gold-threads.cc:139 gold-threads.cc:410
+#, c-format
+msgid "pthread_mutex_unlock failed: %s"
+msgstr "pthread_mutex_unlock failed: %s"
+
+#: gold-threads.cc:220
+#, c-format
+msgid "pthread_cond_init failed: %s"
+msgstr "pthread_cond_init failed: %s"
+
+#: gold-threads.cc:227
+#, c-format
+msgid "pthread_cond_destroy failed: %s"
+msgstr "pthread_cond_destroy failed: %s"
+
+#: gold-threads.cc:236
+#, c-format
+msgid "pthread_cond_wait failed: %s"
+msgstr "pthread_cond_wait failed: %s"
+
+#: gold-threads.cc:244
+#, c-format
+msgid "pthread_cond_signal failed: %s"
+msgstr "pthread_cond_signal failed: %s"
+
+#: gold-threads.cc:252
+#, c-format
+msgid "pthread_cond_broadcast failed: %s"
+msgstr "pthread_cond_broadcast failed: %s"
+
+#: gold-threads.cc:403
+#, c-format
+msgid "pthread_once failed: %s"
+msgstr "pthread_once failed: %s"
+
+#: gold.cc:100
+#, c-format
+msgid "%s: internal error in %s, at %s:%d\n"
+msgstr "%s: internal error in %s, at %s:%d\n"
+
+#: gold.cc:190
+msgid "no input files"
+msgstr "no input files"
+
+#: gold.cc:220
+msgid "linking with --incremental-full"
+msgstr "linking with --incremental-full"
+
+#: gold.cc:222
+msgid "restart link with --incremental-full"
+msgstr "restart link with --incremental-full"
+
+#: gold.cc:284
+msgid "cannot mix -r with --gc-sections or --icf"
+msgstr "cannot mix -r with --gc-sections or --icf"
+
+#: gold.cc:614
+#, c-format
+msgid "cannot mix -static with dynamic object %s"
+msgstr "cannot mix -static with dynamic object %s"
+
+#: gold.cc:618
+#, c-format
+msgid "cannot mix -r with dynamic object %s"
+msgstr "cannot mix -r with dynamic object %s"
+
+#: gold.cc:622
+#, c-format
+msgid "cannot use non-ELF output format with dynamic object %s"
+msgstr "cannot use non-ELF output format with dynamic object %s"
+
+#: gold.cc:640
+#, c-format
+msgid "cannot mix split-stack '%s' and non-split-stack '%s' when using -r"
+msgstr "cannot mix split-stack '%s' and non-split-stack '%s' when using -r"
+
+#. FIXME: This needs to specify the location somehow.
+#: i386.cc:639 i386.cc:2800 sparc.cc:324 sparc.cc:3296 x86_64.cc:1073
+#: x86_64.cc:4689
+msgid "missing expected TLS relocation"
+msgstr "missing expected TLS relocation"
+
+#: i386.cc:2404
+#, c-format
+msgid ""
+"%s: relocation R_386_GOTOFF against undefined symbol %s cannot be used when "
+"making a shared object"
+msgstr ""
+"%s: relocation R_386_GOTOFF against undefined symbol %s cannot be used when "
+"making a shared object"
+
+#: i386.cc:2408
+#, c-format
+msgid ""
+"%s: relocation R_386_GOTOFF against external symbol %s cannot be used when "
+"making a shared object"
+msgstr ""
+"%s: relocation R_386_GOTOFF against external symbol %s cannot be used when "
+"making a shared object"
+
+#: i386.cc:2412
+#, c-format
+msgid ""
+"%s: relocation R_386_GOTOFF against preemptible symbol %s cannot be used "
+"when making a shared object"
+msgstr ""
+"%s: relocation R_386_GOTOFF against preemptible symbol %s cannot be used "
+"when making a shared object"
+
+#: i386.cc:2904
+#, c-format
+msgid ""
+"unexpected reloc %u against global symbol %s without base register in object "
+"file when generating a position-independent output file"
+msgstr ""
+"unexpected reloc %u against global symbol %s without base register in object "
+"file when generating a position-independent output file"
+
+#: i386.cc:2908
+#, c-format
+msgid ""
+"unexpected reloc %u against local symbol without base register in object "
+"file when generating a position-independent output file"
+msgstr ""
+"unexpected reloc %u against local symbol without base register in object "
+"file when generating a position-independent output file"
+
+#: i386.cc:3174
+msgid "both SUN and GNU model TLS relocations"
+msgstr "both SUN and GNU model TLS relocations"
+
+#: i386.cc:3767 mips.cc:10080
+#, c-format
+msgid "unsupported reloc %u in object file"
+msgstr "unsupported reloc %u in object file"
+
+#: i386.cc:4036 powerpc.cc:9221 s390.cc:4877 x86_64.cc:6080
+#, c-format
+msgid "failed to match split-stack sequence at section %u offset %0zx"
+msgstr "failed to match split-stack sequence at section %u offset %0zx"
+
+#: icf.cc:1025
+#, c-format
+msgid ""
+"could not parse eh_frame section %s(%s); ICF might not preserve exception "
+"handling behavior"
+msgstr ""
+"could not parse eh_frame section %s(%s); ICF might not preserve exception "
+"handling behavior"
+
+#: icf.cc:1056
+#, c-format
+msgid "%s: ICF Converged after %u iteration(s)"
+msgstr "%s: ICF Converged after %u iteration(s)"
+
+#: icf.cc:1059
+#, c-format
+msgid "%s: ICF stopped after %u iteration(s)"
+msgstr "%s: ICF stopped after %u iteration(s)"
+
+#: icf.cc:1073
+#, c-format
+msgid "Could not find symbol %s to unfold\n"
+msgstr "Could not find symbol %s to unfold\n"
+
+#: incremental.cc:79
+msgid "** incremental_inputs"
+msgstr "** incremental_inputs"
+
+#: incremental.cc:144
+#, c-format
+msgid "the link might take longer: cannot perform incremental link: %s"
+msgstr "the link might take longer: cannot perform incremental link: %s"
+
+#: incremental.cc:415
+msgid "no incremental data from previous build"
+msgstr "no incremental data from previous build"
+
+#: incremental.cc:421
+msgid "different version of incremental build data"
+msgstr "different version of incremental build data"
+
+#: incremental.cc:433
+msgid "command line changed"
+msgstr "command line changed"
+
+#: incremental.cc:460
+#, c-format
+msgid "%s: script file changed"
+msgstr "%s: script file changed"
+
+#: incremental.cc:863
+#, c-format
+msgid "unsupported ELF machine number %d"
+msgstr "unsupported ELF machine number %d"
+
+#: incremental.cc:871 object.cc:3395
+#, c-format
+msgid "%s: incompatible target"
+msgstr "%s: incompatible target"
+
+#: incremental.cc:893
+msgid "output is not an ELF file."
+msgstr "output is not an ELF file."
+
+#: incremental.cc:916
+msgid "unsupported file: 32-bit, big-endian"
+msgstr "unsupported file: 32-bit, big-endian"
+
+#: incremental.cc:925
+msgid "unsupported file: 32-bit, little-endian"
+msgstr "unsupported file: 32-bit, little-endian"
+
+#: incremental.cc:937
+msgid "unsupported file: 64-bit, big-endian"
+msgstr "unsupported file: 64-bit, big-endian"
+
+#: incremental.cc:946
+msgid "unsupported file: 64-bit, little-endian"
+msgstr "unsupported file: 64-bit, little-endian"
+
+#: incremental.cc:2083
+msgid "COMDAT group has no signature"
+msgstr "COMDAT group has no signature"
+
+#: incremental.cc:2089
+#, c-format
+msgid "COMDAT group %s included twice in incremental link"
+msgstr "COMDAT group %s included twice in incremental link"
+
+#: int_encoding.cc:50 int_encoding.cc:83
+msgid "Unusually large LEB128 decoded, debug information may be corrupted"
+msgstr "Unusually large LEB128 decoded, debug information may be corrupted"
+
+#: layout.cc:228
+#, c-format
+msgid "%s: total free lists: %u\n"
+msgstr "%s: total free lists: %u\n"
+
+#: layout.cc:230
+#, c-format
+msgid "%s: total free list nodes: %u\n"
+msgstr "%s: total free list nodes: %u\n"
+
+#: layout.cc:232
+#, c-format
+msgid "%s: calls to Free_list::remove: %u\n"
+msgstr "%s: calls to Free_list::remove: %u\n"
+
+#: layout.cc:234 layout.cc:238
+#, c-format
+msgid "%s: nodes visited: %u\n"
+msgstr "%s: nodes visited: %u\n"
+
+#: layout.cc:236
+#, c-format
+msgid "%s: calls to Free_list::allocate: %u\n"
+msgstr "%s: calls to Free_list::allocate: %u\n"
+
+#: layout.cc:974
+#, c-format
+msgid ""
+"Unable to create output section '%s' because it is not allowed by the "
+"SECTIONS clause of the linker script"
+msgstr ""
+"Unable to create output section '%s' because it is not allowed by the "
+"SECTIONS clause of the linker script"
+
+#: layout.cc:2115
+msgid ""
+"multiple '.interp' sections in input files may cause confusing PT_INTERP "
+"segment"
+msgstr ""
+"multiple '.interp' sections in input files may cause confusing PT_INTERP "
+"segment"
+
+#: layout.cc:2179
+#, c-format
+msgid "%s: missing .note.GNU-stack section implies executable stack"
+msgstr "%s: missing .note.GNU-stack section implies executable stack"
+
+#: layout.cc:2190
+#, c-format
+msgid "%s: requires executable stack"
+msgstr "%s: requires executable stack"
+
+#: layout.cc:2219
+#, c-format
+msgid "%s: in .note.gnu.property section, pr_datasz must be 4 or 8"
+msgstr "%s: in .note.gnu.property section, pr_datasz must be 4 or 8"
+
+#: layout.cc:2352
+#, c-format
+msgid "%s: unknown program property type %d in .note.gnu.property section"
+msgstr "%s: unknown program property type %d in .note.gnu.property section"
+
+#: layout.cc:2922
+#, c-format
+msgid "unable to open --section-ordering-file file %s: %s"
+msgstr "unable to open --section-ordering-file file %s: %s"
+
+#: layout.cc:3364
+msgid ""
+"one or more inputs require executable stack, but -z noexecstack was given"
+msgstr ""
+"one or more inputs require executable stack, but -z noexecstack was given"
+
+#: layout.cc:3437
+#, c-format
+msgid "--build-id=uuid failed: could not open /dev/urandom: %s"
+msgstr "--build-id=uuid failed: could not open /dev/urandom: %s"
+
+#: layout.cc:3444
+#, c-format
+msgid "/dev/urandom: read failed: %s"
+msgstr "/dev/urandom: read failed: %s"
+
+#: layout.cc:3446
+#, c-format
+msgid "/dev/urandom: expected %zu bytes, got %zd bytes"
+msgstr "/dev/urandom: expected %zu bytes, got %zd bytes"
+
+#: layout.cc:3458
+msgid "--build-id=uuid failed: could not load rpcrt4.dll"
+msgstr "--build-id=uuid failed: could not load rpcrt4.dll"
+
+#: layout.cc:3464
+msgid "--build-id=uuid failed: could not find UuidCreate"
+msgstr "--build-id=uuid failed: could not find UuidCreate"
+
+#: layout.cc:3466
+msgid "__build_id=uuid failed: call UuidCreate() failed"
+msgstr "__build_id=uuid failed: call UuidCreate() failed"
+
+#: layout.cc:3488
+#, c-format
+msgid "--build-id argument '%s' not a valid hex number"
+msgstr "--build-id argument '%s' not a valid hex number"
+
+#: layout.cc:3494
+#, c-format
+msgid "unrecognized --build-id argument '%s'"
+msgstr "unrecognised --build-id argument '%s'"
+
+#: layout.cc:4067
+#, c-format
+msgid "load segment overlap [0x%llx -> 0x%llx] and [0x%llx -> 0x%llx]"
+msgstr "load segment overlap [0x%llx -> 0x%llx] and [0x%llx -> 0x%llx]"
+
+#: layout.cc:4228 output.cc:4594
+#, c-format
+msgid "out of patch space for section %s; relink with --incremental-full"
+msgstr "out of patch space for section %s; relink with --incremental-full"
+
+#: layout.cc:4237 output.cc:4602
+#, c-format
+msgid "%s: section changed size; relink with --incremental-full"
+msgstr "%s: section changed size; relink with --incremental-full"
+
+#: layout.cc:4492
+msgid "out of patch space for symbol table; relink with --incremental-full"
+msgstr "out of patch space for symbol table; relink with --incremental-full"
+
+#: layout.cc:4563
+msgid ""
+"out of patch space for section header table; relink with --incremental-full"
+msgstr ""
+"out of patch space for section header table; relink with --incremental-full"
+
+#: layout.cc:5309
+msgid "read-only segment has dynamic relocations"
+msgstr "read-only segment has dynamic relocations"
+
+#: layout.cc:5312
+msgid "shared library text segment is not shareable"
+msgstr "shared library text segment is not shareable"
+
+#: mapfile.cc:70
+#, c-format
+msgid "cannot open map file %s: %s"
+msgstr "cannot open map file %s: %s"
+
+#: mapfile.cc:84
+#, c-format
+msgid "cannot close map file: %s"
+msgstr "cannot close map file: %s"
+
+#: mapfile.cc:116
+#, c-format
+msgid ""
+"Archive member included because of file (symbol)\n"
+"\n"
+msgstr ""
+"Archive member included because of file (symbol)\n"
+"\n"
+
+#: mapfile.cc:159
+#, c-format
+msgid ""
+"\n"
+"Allocating common symbols\n"
+msgstr ""
+"\n"
+"Allocating common symbols\n"
+
+#: mapfile.cc:161
+#, c-format
+msgid ""
+"Common symbol       size              file\n"
+"\n"
+msgstr ""
+"Common symbol       size              file\n"
+"\n"
+
+#: mapfile.cc:195
+#, c-format
+msgid ""
+"\n"
+"Memory map\n"
+"\n"
+msgstr ""
+"\n"
+"Memory map\n"
+"\n"
+
+#: mapfile.cc:372
+#, c-format
+msgid ""
+"\n"
+"Discarded input sections\n"
+"\n"
+msgstr ""
+"\n"
+"Discarded input sections\n"
+"\n"
+
+#: merge.cc:426
+#, c-format
+msgid "%s: %s merged constants size: %lu; input: %zu; output: %zu\n"
+msgstr "%s: %s merged constants size: %lu; input: %zu; output: %zu\n"
+
+#: merge.cc:455
+msgid "mergeable string section length not multiple of character size"
+msgstr "mergeable string section length not multiple of character size"
+
+#: merge.cc:464
+#, c-format
+msgid "%s: last entry in mergeable string section '%s' not null terminated"
+msgstr "%s: last entry in mergeable string section '%s' not null terminated"
+
+#: merge.cc:528
+#, c-format
+msgid ""
+"%s: section %s contains incorrectly aligned strings; the alignment of those "
+"strings won't be preserved"
+msgstr ""
+"%s: section %s contains incorrectly aligned strings; the alignment of those "
+"strings won't be preserved"
+
+#: merge.cc:655
+#, c-format
+msgid "%s: %s input bytes: %zu\n"
+msgstr "%s: %s input bytes: %zu\n"
+
+#: merge.cc:657
+#, c-format
+msgid "%s: %s input strings: %zu\n"
+msgstr "%s: %s input strings: %zu\n"
+
+#: merge.h:306
+msgid "** merge constants"
+msgstr "** merge constants"
+
+#: merge.h:435
+msgid "** merge strings"
+msgstr "** merge strings"
+
+#: mips.cc:2391
+msgid ".LA25.stubs"
+msgstr ".LA25.stubs"
+
+#: mips.cc:2554
+msgid ".plt"
+msgstr ".plt"
+
+#: mips.cc:2750
+msgid ".MIPS.stubs"
+msgstr ".MIPS.stubs"
+
+#: mips.cc:2814
+msgid ".reginfo"
+msgstr ".reginfo"
+
+#: mips.cc:2874
+msgid ".MIPS.abiflags"
+msgstr ".MIPS.abiflags"
+
+#: mips.cc:4632
+msgid "JALX to a non-word-aligned address"
+msgstr "JALX to a non-word-aligned address"
+
+#: mips.cc:4686
+msgid ""
+"Unsupported jump between ISA modes; consider recompiling with interlinking "
+"enabled."
+msgstr ""
+"Unsupported jump between ISA modes; consider recompiling with interlinking "
+"enabled."
+
+#: mips.cc:5486
+msgid ""
+"small-data section exceeds 64KB; lower small-data size limit (see option -G)"
+msgstr ""
+"small-data section exceeds 64KB; lower small-data size limit (see option -G)"
+
+#: mips.cc:6907
+#, c-format
+msgid "%s: .MIPS.abiflags section has unsupported version %u"
+msgstr "%s: .MIPS.abiflags section has unsupported version %u"
+
+#: mips.cc:6970
+#, c-format
+msgid "%s: Warning: bad `%s' option size %u smaller than its header"
+msgstr "%s: Warning: bad `%s' option size %u smaller than its header"
+
+#: mips.cc:7050
+#, c-format
+msgid "no relocation found in mips16 stub section '%s'"
+msgstr "no relocation found in mips16 stub section '%s'"
+
+#: mips.cc:7552 mips.cc:7715
+#, c-format
+msgid ".got.plt offset of %ld from .plt beyond the range of ADDIUPC"
+msgstr ".got.plt offset of %ld from .plt beyond the range of ADDIUPC"
+
+#: mips.cc:8263
+#, c-format
+msgid ""
+"Warning: bad `%s' option size %u smaller than its header in output section"
+msgstr ""
+"Warning: bad `%s' option size %u smaller than its header in output section"
+
+#: mips.cc:9103
+#, c-format
+msgid "%s: Unknown architecture %s"
+msgstr "%s: Unknown architecture %s"
+
+#: mips.cc:9204
+#, c-format
+msgid "%s: Inconsistent ISA between e_flags and .MIPS.abiflags"
+msgstr "%s: Inconsistent ISA between e_flags and .MIPS.abiflags"
+
+#: mips.cc:9208
+#, c-format
+msgid "%s: Inconsistent FP ABI between .gnu.attributes and .MIPS.abiflags"
+msgstr "%s: Inconsistent FP ABI between .gnu.attributes and .MIPS.abiflags"
+
+#: mips.cc:9211
+#, c-format
+msgid "%s: Inconsistent ASEs between e_flags and .MIPS.abiflags"
+msgstr "%s: Inconsistent ASEs between e_flags and .MIPS.abiflags"
+
+#: mips.cc:9217
+#, c-format
+msgid "%s: Inconsistent ISA extensions between e_flags and .MIPS.abiflags"
+msgstr "%s: Inconsistent ISA extensions between e_flags and .MIPS.abiflags"
+
+#: mips.cc:9220
+#, c-format
+msgid "%s: Unexpected flag in the flags2 field of .MIPS.abiflags (0x%x)"
+msgstr "%s: Unexpected flag in the flags2 field of .MIPS.abiflags (0x%x)"
+
+#: mips.cc:9242
+msgid "-mips32r2 -mfp64 (12 callee-saved)"
+msgstr "-mips32r2 -mfp64 (12 callee-saved)"
+
+#: mips.cc:9283
+#, c-format
+msgid "%s: FP ABI %s is incompatible with %s"
+msgstr "%s: FP ABI %s is incompatible with %s"
+
+#: mips.cc:9418
+#, c-format
+msgid "%s: linking abicalls files with non-abicalls files"
+msgstr "%s: linking abicalls files with non-abicalls files"
+
+#: mips.cc:9431
+#, c-format
+msgid "%s: linking 32-bit code with 64-bit code"
+msgstr "%s: linking 32-bit code with 64-bit code"
+
+#. The ISAs aren't compatible.
+#: mips.cc:9457 mips.cc:9509 mips.cc:9523
+#, c-format
+msgid "%s: linking %s module with previous %s modules"
+msgstr "%s: linking %s module with previous %s modules"
+
+#: mips.cc:9473
+#, c-format
+msgid "%s: ABI mismatch: linking %s module with previous %s modules"
+msgstr "%s: ABI mismatch: linking %s module with previous %s modules"
+
+#: mips.cc:9495
+#, c-format
+msgid "%s: ASE mismatch: linking %s module with previous %s modules"
+msgstr "%s: ASE mismatch: linking %s module with previous %s modules"
+
+#: mips.cc:9536
+#, c-format
+msgid "%s: uses different e_flags (0x%x) fields than previous modules (0x%x)"
+msgstr ""
+"%s: uses different e_flags (0x%x) fields than previous modules (0x%x)"
+
+#: mips.cc:9944
+#, c-format
+msgid "Unknown dynamic tag 0x%x"
+msgstr "Unknown dynamic tag 0x%x"
+
+#: mips.cc:10385 mips.cc:12322
+#, c-format
+msgid "relocation overflow: %u against local symbol %u in %s"
+msgstr "relocation overflow: %u against local symbol %u in %s"
+
+#: mips.cc:10391 mips.cc:12338
+msgid "unexpected opcode while processing relocation"
+msgstr "unexpected opcode while processing relocation"
+
+#: mips.cc:10539
+#, c-format
+msgid "CALL16 reloc at 0x%lx not against global symbol "
+msgstr "CALL16 reloc at 0x%lx not against global symbol "
+
+#: mips.cc:10791 mips.cc:11296
+#, c-format
+msgid ""
+"%s: relocation %u against `%s' can not be used when making a shared object; "
+"recompile with -fPIC"
+msgstr ""
+"%s: relocation %u against `%s' cannot be used when making a shared object; "
+"recompile with -fPIC"
+
+#: mips.cc:11107
+#, c-format
+msgid "non-dynamic relocations refer to dynamic symbol %s"
+msgstr "non-dynamic relocations refer to dynamic symbol %s"
+
+#: mips.cc:11584
+msgid ""
+"relocations against _gp_disp are permitted only with R_MIPS_HI16 and "
+"R_MIPS_LO16 relocations."
+msgstr ""
+"relocations against _gp_disp are permitted only with R_MIPS_HI16 and "
+"R_MIPS_LO16 relocations."
+
+#: mips.cc:11719
+msgid "MIPS16 and microMIPS functions cannot call each other"
+msgstr "MIPS16 and microMIPS functions cannot call each other"
+
+#: mips.cc:12327
+#, c-format
+msgid "relocation overflow: %u against '%s' defined in %s"
+msgstr "relocation overflow: %u against '%s' defined in %s"
+
+#: mips.cc:12333
+#, c-format
+msgid "relocation overflow: %u against '%s'"
+msgstr "relocation overflow: %u against '%s'"
+
+#: mips.cc:12342
+msgid "unaligned PC-relative relocation"
+msgstr "unaligned PC-relative relocation"
+
+#: nacl.cc:43 object.cc:174 object.cc:3443 output.cc:5236
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: object.cc:101
+msgid "missing SHT_SYMTAB_SHNDX section"
+msgstr "missing SHT_SYMTAB_SHNDX section"
+
+#: object.cc:145
+#, c-format
+msgid "symbol %u out of range for SHT_SYMTAB_SHNDX section"
+msgstr "symbol %u out of range for SHT_SYMTAB_SHNDX section"
+
+#: object.cc:152
+#, c-format
+msgid "extended index for symbol %u out of range: %u"
+msgstr "extended index for symbol %u out of range: %u"
+
+#: object.cc:207
+#, c-format
+msgid "section name section has wrong type: %u"
+msgstr "section name section has wrong type: %u"
+
+#: object.cc:996
+#, c-format
+msgid "section group %u info %u out of range"
+msgstr "section group %u info %u out of range"
+
+#: object.cc:1015
+#, c-format
+msgid "symbol %u name offset %u out of range"
+msgstr "symbol %u name offset %u out of range"
+
+#: object.cc:1033
+#, c-format
+msgid "symbol %u invalid section index %u"
+msgstr "symbol %u invalid section index %u"
+
+#: object.cc:1085
+#, c-format
+msgid "section %u in section group %u out of range"
+msgstr "section %u in section group %u out of range"
+
+#: object.cc:1093
+#, c-format
+msgid "invalid section group %u refers to earlier section %u"
+msgstr "invalid section group %u refers to earlier section %u"
+
+#: object.cc:1318
+#, c-format
+msgid "%s: corrupt .note.gnu.property section (note too short)"
+msgstr "%s: corrupt .note.gnu.property section (note too short)"
+
+#: object.cc:1331
+#, c-format
+msgid "%s: corrupt .note.gnu.property section (name is not 'GNU')"
+msgstr "%s: corrupt .note.gnu.property section (name is not 'GNU')"
+
+#: object.cc:1339
+#, c-format
+msgid "%s: unsupported note type %d in .note.gnu.property section"
+msgstr "%s: unsupported note type %d in .note.gnu.property section"
+
+#: object.cc:1350 object.cc:1362 object.cc:1371
+#, c-format
+msgid "%s: corrupt .note.gnu.property section"
+msgstr "%s: corrupt .note.gnu.property section"
+
+#: object.cc:1535 reloc.cc:290 reloc.cc:925
+#, c-format
+msgid "relocation section %u has bad info %u"
+msgstr "relocation section %u has bad info %u"
+
+#: object.cc:1787
+#, c-format
+msgid "%s: removing unused section from '%s' in file '%s'"
+msgstr "%s: removing unused section from '%s' in file '%s'"
+
+#: object.cc:1813
+#, c-format
+msgid "%s: ICF folding section '%s' in file '%s' into '%s' in file '%s'"
+msgstr "%s: ICF folding section '%s' in file '%s' into '%s' in file '%s'"
+
+#: object.cc:2128
+msgid "size of symbols is not multiple of symbol size"
+msgstr "size of symbols is not multiple of symbol size"
+
+#: object.cc:2136 symtab.cc:1217
+#, c-format
+msgid "%s: plugin needed to handle lto object"
+msgstr "%s: plugin needed to handle lto object"
+
+#: object.cc:2369
+#, c-format
+msgid "local symbol %u section name out of range: %u >= %u"
+msgstr "local symbol %u section name out of range: %u >= %u"
+
+#: object.cc:2463
+#, c-format
+msgid "unknown section index %u for local symbol %u"
+msgstr "unknown section index %u for local symbol %u"
+
+#: object.cc:2473
+#, c-format
+msgid "local symbol %u section index %u out of range"
+msgstr "local symbol %u section index %u out of range"
+
+#: object.cc:3148 reloc.cc:833
+#, c-format
+msgid "could not decompress section %s"
+msgstr "could not decompress section %s"
+
+#: object.cc:3274
+#, c-format
+msgid "%s is not supported but is required for %s in %s"
+msgstr "%s is not supported but is required for %s in %s"
+
+#: object.cc:3351
+msgid "function "
+msgstr "function "
+
+#: object.cc:3385
+#, c-format
+msgid "%s: unsupported ELF machine number %d"
+msgstr "%s: unsupported ELF machine number %d"
+
+#: object.cc:3459 plugin.cc:2279
+#, c-format
+msgid "%s: not configured to support 32-bit big-endian object"
+msgstr "%s: not configured to support 32-bit big-endian object"
+
+#: object.cc:3475 plugin.cc:2288
+#, c-format
+msgid "%s: not configured to support 32-bit little-endian object"
+msgstr "%s: not configured to support 32-bit little-endian object"
+
+#: object.cc:3494 plugin.cc:2300
+#, c-format
+msgid "%s: not configured to support 64-bit big-endian object"
+msgstr "%s: not configured to support 64-bit big-endian object"
+
+#: object.cc:3510 plugin.cc:2309
+#, c-format
+msgid "%s: not configured to support 64-bit little-endian object"
+msgstr "%s: not configured to support 64-bit little-endian object"
+
+#: options.cc:151
+msgid "default"
+msgstr "default"
+
+#: options.cc:158
+#, c-format
+msgid ""
+"Usage: %s [options] file...\n"
+"Options:\n"
+msgstr ""
+"Usage: %s [options] file...\n"
+"Options:\n"
+
+#. config.guess and libtool.m4 look in ld --help output for the
+#. string "supported targets".
+#: options.cc:166
+#, c-format
+msgid "%s: supported targets:"
+msgstr "%s: supported targets:"
+
+#: options.cc:175
+#, c-format
+msgid "%s: supported emulations:"
+msgstr "%s: supported emulations:"
+
+#: options.cc:187
+#, c-format
+msgid "Report bugs to %s\n"
+msgstr "Report bugs to %s\n"
+
+#: options.cc:204 options.cc:214 options.cc:224
+#, c-format
+msgid "%s: invalid option value (expected an integer): %s"
+msgstr "%s: invalid option value (expected an integer): %s"
+
+#: options.cc:234 options.cc:245
+#, c-format
+msgid "%s: invalid option value (expected a floating point number): %s"
+msgstr "%s: invalid option value (expected a floating point number): %s"
+
+#: options.cc:254
+#, c-format
+msgid "%s: must take a non-empty argument"
+msgstr "%s: must take a non-empty argument"
+
+#: options.cc:295
+#, c-format
+msgid "%s: must take one of the following arguments: %s"
+msgstr "%s: must take one of the following arguments: %s"
+
+#: options.cc:326
+#, c-format
+msgid "  Supported targets:\n"
+msgstr "  Supported targets:\n"
+
+#: options.cc:334
+#, c-format
+msgid "  Supported emulations:\n"
+msgstr "  Supported emulations:\n"
+
+#: options.cc:496
+msgid "invalid argument to --section-start; must be SECTION=ADDRESS"
+msgstr "invalid argument to --section-start; must be SECTION=ADDRESS"
+
+#: options.cc:509
+msgid "--section-start address missing"
+msgstr "--section-start address missing"
+
+#: options.cc:518
+#, c-format
+msgid "--section-start argument %s is not a valid hex number"
+msgstr "--section-start argument %s is not a valid hex number"
+
+#: options.cc:555
+#, c-format
+msgid "unable to parse script file %s"
+msgstr "unable to parse script file %s"
+
+#: options.cc:563
+#, c-format
+msgid "unable to parse version script file %s"
+msgstr "unable to parse version script file %s"
+
+#: options.cc:571
+#, c-format
+msgid "unable to parse dynamic-list script file %s"
+msgstr "unable to parse dynamic-list script file %s"
+
+#: options.cc:683
+#, c-format
+msgid ""
+"format '%s' not supported; treating as elf (supported formats: elf, binary)"
+msgstr ""
+"format '%s' not supported; treating as elf (supported formats: elf, binary)"
+
+#: options.cc:754
+msgid "unbalanced --push-state/--pop-state"
+msgstr "unbalanced --push-state/--pop-state"
+
+#: options.cc:772
+#, c-format
+msgid "%s: use the --help option for usage information\n"
+msgstr "%s: use the --help option for usage information\n"
+
+#: options.cc:781
+#, c-format
+msgid "%s: %s: %s\n"
+msgstr "%s: %s: %s\n"
+
+#: options.cc:885
+msgid "unexpected argument"
+msgstr "unexpected argument"
+
+#: options.cc:898 options.cc:959
+msgid "missing argument"
+msgstr "missing argument"
+
+#: options.cc:970
+msgid "unknown -z option"
+msgstr "unknown -z option"
+
+#: options.cc:1211
+#, c-format
+msgid "ignoring --threads: %s was compiled without thread support"
+msgstr "ignoring --threads: %s was compiled without thread support"
+
+#: options.cc:1218
+#, c-format
+msgid "ignoring --thread-count: %s was compiled without thread support"
+msgstr "ignoring --thread-count: %s was compiled without thread support"
+
+#: options.cc:1225
+#, c-format
+msgid "cannot use --plugin: %s was compiled without plugin support"
+msgstr "cannot use --plugin: %s was compiled without plugin support"
+
+#: options.cc:1279
+#, c-format
+msgid "unable to open -retain-symbols-file file %s: %s"
+msgstr "unable to open -retain-symbols-file file %s: %s"
+
+#: options.cc:1309
+msgid "-shared and -static are incompatible"
+msgstr "-shared and -static are incompatible"
+
+#: options.cc:1311
+msgid "-shared and -pie are incompatible"
+msgstr "-shared and -pie are incompatible"
+
+#: options.cc:1313
+msgid "-pie and -static are incompatible"
+msgstr "-pie and -static are incompatible"
+
+#: options.cc:1316
+msgid "-shared and -r are incompatible"
+msgstr "-shared and -r are incompatible"
+
+#: options.cc:1318
+msgid "-pie and -r are incompatible"
+msgstr "-pie and -r are incompatible"
+
+#: options.cc:1323
+msgid "-F/--filter may not used without -shared"
+msgstr "-F/--filter may not used without -shared"
+
+#: options.cc:1325
+msgid "-f/--auxiliary may not be used without -shared"
+msgstr "-f/--auxiliary may not be used without -shared"
+
+#: options.cc:1330
+msgid "-retain-symbols-file does not yet work with -r"
+msgstr "-retain-symbols-file does not yet work with -r"
+
+#: options.cc:1336
+msgid "binary output format not compatible with -shared or -pie or -r"
+msgstr "binary output format not compatible with -shared or -pie or -r"
+
+#: options.cc:1342
+#, c-format
+msgid "--hash-bucket-empty-fraction value %g out of range [0.0, 1.0)"
+msgstr "--hash-bucket-empty-fraction value %g out of range [0.0, 1.0)"
+
+#: options.cc:1347
+msgid ""
+"Options --incremental-changed, --incremental-unchanged, --incremental-"
+"unknown require the use of --incremental"
+msgstr ""
+"Options --incremental-changed, --incremental-unchanged, --incremental-"
+"unknown require the use of --incremental"
+
+#: options.cc:1357
+msgid "incremental linking is not compatible with -r"
+msgstr "incremental linking is not compatible with -r"
+
+#: options.cc:1359
+msgid "incremental linking is not compatible with --emit-relocs"
+msgstr "incremental linking is not compatible with --emit-relocs"
+
+#: options.cc:1362
+msgid "incremental linking is not compatible with --plugin"
+msgstr "incremental linking is not compatible with --plugin"
+
+#: options.cc:1364
+msgid "incremental linking is not compatible with -z relro"
+msgstr "incremental linking is not compatible with -z relro"
+
+#: options.cc:1366
+msgid "incremental linking is not compatible with -pie"
+msgstr "incremental linking is not compatible with -pie"
+
+#: options.cc:1369
+msgid "ignoring --gc-sections for an incremental link"
+msgstr "ignoring --gc-sections for an incremental link"
+
+#: options.cc:1374
+msgid "ignoring --icf for an incremental link"
+msgstr "ignoring --icf for an incremental link"
+
+#: options.cc:1379
+msgid "ignoring --compress-debug-sections for an incremental link"
+msgstr "ignoring --compress-debug-sections for an incremental link"
+
+#: options.cc:1459
+msgid "May not nest groups"
+msgstr "May not nest groups"
+
+#: options.cc:1461
+msgid "may not nest groups in libraries"
+msgstr "may not nest groups in libraries"
+
+#: options.cc:1473
+msgid "Group end without group start"
+msgstr "Group end without group start"
+
+#: options.cc:1483
+msgid "may not nest libraries"
+msgstr "may not nest libraries"
+
+#: options.cc:1485
+msgid "may not nest libraries in groups"
+msgstr "may not nest libraries in groups"
+
+#: options.cc:1497
+msgid "lib end without lib start"
+msgstr "lib end without lib start"
+
+#. I guess it's neither a long option nor a short option.
+#: options.cc:1562
+msgid "unknown option"
+msgstr "unknown option"
+
+#: options.cc:1589
+#, c-format
+msgid "%s: missing group end\n"
+msgstr "%s: missing group end\n"
+
+#: options.cc:1595
+#, c-format
+msgid "%s: missing lib end\n"
+msgstr "%s: missing lib end\n"
+
+#: options.h:669
+msgid "Report usage information"
+msgstr "Report usage information"
+
+#: options.h:671
+msgid "Report version information"
+msgstr "Report version information"
+
+#: options.h:673
+msgid "Report version and target information"
+msgstr "Report version and target information"
+
+#: options.h:684 options.h:768
+msgid "Not supported"
+msgstr "Not supported"
+
+#: options.h:685 options.h:769
+msgid "Do not copy DT_NEEDED tags from shared libraries"
+msgstr "Do not copy DT_NEEDED tags from shared libraries"
+
+#: options.h:689 options.h:1475
+msgid "Allow multiple definitions of symbols"
+msgstr "Allow multiple definitions of symbols"
+
+#: options.h:690
+msgid "Do not allow multiple definitions"
+msgstr "Do not allow multiple definitions"
+
+#: options.h:693
+msgid "Allow unresolved references in shared libraries"
+msgstr "Allow unresolved references in shared libraries"
+
+#: options.h:694
+msgid "Do not allow unresolved references in shared libraries"
+msgstr "Do not allow unresolved references in shared libraries"
+
+#: options.h:697
+msgid "Apply link-time values for dynamic relocations"
+msgstr "Apply link-time values for dynamic relocations"
+
+#: options.h:698
+msgid "(aarch64 only) Do not apply link-time values for dynamic relocations"
+msgstr "(aarch64 only) Do not apply link-time values for dynamic relocations"
+
+#: options.h:702
+msgid "Use DT_NEEDED only for shared libraries that are used"
+msgstr "Use DT_NEEDED only for shared libraries that are used"
+
+#: options.h:703
+msgid "Use DT_NEEDED for all shared libraries"
+msgstr "Use DT_NEEDED for all shared libraries"
+
+#: options.h:706 options.h:910 options.h:1366 options.h:1380
+msgid "Ignored"
+msgstr "Ignored"
+
+#: options.h:706
+msgid "[ignored]"
+msgstr "[ignored]"
+
+#: options.h:716
+msgid "Set input format"
+msgstr "Set input format"
+
+#: options.h:719
+msgid "Output BE8 format image"
+msgstr "Output BE8 format image"
+
+#: options.h:722
+msgid "Generate build ID note"
+msgstr "Generate build ID note"
+
+#: options.h:723 options.h:798
+msgid "[=STYLE]"
+msgstr "[=STYLE]"
+
+#: options.h:727
+msgid "Chunk size for '--build-id=tree'"
+msgstr "Chunk size for '--build-id=tree'"
+
+#: options.h:727 options.h:732 options.h:1250 options.h:1259 options.h:1451
+#: options.h:1473 options.h:1506
+msgid "SIZE"
+msgstr "SIZE"
+
+#: options.h:731
+msgid ""
+"Minimum output file size for '--build-id=tree' to work differently than '--"
+"build-id=sha1'"
+msgstr ""
+"Minimum output file size for '--build-id=tree' to work differently than '--"
+"build-id=sha1'"
+
+#: options.h:735
+msgid "-l searches for shared libraries"
+msgstr "-l searches for shared libraries"
+
+#: options.h:737
+msgid "-l does not search for shared libraries"
+msgstr "-l does not search for shared libraries"
+
+#: options.h:740
+msgid "alias for -Bdynamic"
+msgstr "alias for -Bdynamic"
+
+#: options.h:742
+msgid "alias for -Bstatic"
+msgstr "alias for -Bstatic"
+
+#: options.h:745
+msgid "Use group name lookup rules for shared library"
+msgstr "Use group name lookup rules for shared library"
+
+#: options.h:748
+msgid "Generate shared library (alias for -G/-shared)"
+msgstr "Generate shared library (alias for -G/-shared)"
+
+#: options.h:751
+msgid "Bind defined symbols locally"
+msgstr "Bind defined symbols locally"
+
+#: options.h:754
+msgid "Bind defined function symbols locally"
+msgstr "Bind defined function symbols locally"
+
+#: options.h:759
+msgid "Check segment addresses for overlaps"
+msgstr "Check segment addresses for overlaps"
+
+#: options.h:760
+msgid "Do not check segment addresses for overlaps"
+msgstr "Do not check segment addresses for overlaps"
+
+#: options.h:763
+msgid "Compress .debug_* sections in the output file"
+msgstr "Compress .debug_* sections in the output file"
+
+#: options.h:772
+msgid "Output cross reference table"
+msgstr "Output cross reference table"
+
+#: options.h:773
+msgid "Do not output cross reference table"
+msgstr "Do not output cross reference table"
+
+#: options.h:776
+msgid "Use DT_INIT_ARRAY for all constructors"
+msgstr "Use DT_INIT_ARRAY for all constructors"
+
+#: options.h:777
+msgid "Handle constructors as directed by compiler"
+msgstr "Handle constructors as directed by compiler"
+
+#: options.h:782
+msgid "Define common symbols"
+msgstr "Define common symbols"
+
+#: options.h:783
+msgid "Do not define common symbols in relocatable output"
+msgstr "Do not define common symbols in relocatable output"
+
+#: options.h:785 options.h:787
+msgid "Alias for -d"
+msgstr "Alias for -d"
+
+#: options.h:790
+msgid "Turn on debugging"
+msgstr "Turn on debugging"
+
+#: options.h:791
+msgid "[all,files,script,task][,...]"
+msgstr "[all,files,script,task][,...]"
+
+#: options.h:794
+msgid "Define a symbol"
+msgstr "Define a symbol"
+
+#: options.h:794
+msgid "SYMBOL=EXPRESSION"
+msgstr "SYMBOL=EXPRESSION"
+
+#: options.h:797
+msgid "Demangle C++ symbols in log messages"
+msgstr "Demangle C++ symbols in log messages"
+
+#: options.h:800
+msgid "Do not demangle C++ symbols in log messages"
+msgstr "Do not demangle C++ symbols in log messages"
+
+#: options.h:808
+msgid "Look for violations of the C++ One Definition Rule"
+msgstr "Look for violations of the C++ One Definition Rule"
+
+#: options.h:809
+msgid "Do not look for violations of the C++ One Definition Rule"
+msgstr "Do not look for violations of the C++ One Definition Rule"
+
+#: options.h:812
+msgid "Add data symbols to dynamic symbols"
+msgstr "Add data symbols to dynamic symbols"
+
+#: options.h:815
+msgid "Add C++ operator new/delete to dynamic symbols"
+msgstr "Add C++ operator new/delete to dynamic symbols"
+
+#: options.h:818
+msgid "Add C++ typeinfo to dynamic symbols"
+msgstr "Add C++ typeinfo to dynamic symbols"
+
+#: options.h:821
+msgid "Read a list of dynamic symbols"
+msgstr "Read a list of dynamic symbols"
+
+#: options.h:805 options.h:821 options.h:973 options.h:1002 options.h:1079
+#: options.h:1185 options.h:1325 options.h:1357
+msgid "FILE"
+msgstr "FILE"
+
+#: options.h:826
+msgid "(PowerPC only) Label linker stubs with a symbol"
+msgstr "(PowerPC only) Label linker stubs with a symbol"
+
+#: options.h:827
+msgid "(PowerPC only) Do not label linker stubs with a symbol"
+msgstr "(PowerPC only) Do not label linker stubs with a symbol"
+
+#: options.h:830
+msgid "Set program start address"
+msgstr "Set program start address"
+
+#: options.h:830 options.h:1328 options.h:1330 options.h:1332 options.h:1335
+#: options.h:1337
+msgid "ADDRESS"
+msgstr "ADDRESS"
+
+#: options.h:833
+msgid "Create exception frame header"
+msgstr "Create exception frame header"
+
+#: options.h:834
+msgid "Do not create exception frame header"
+msgstr "Do not create exception frame header"
+
+#: options.h:838
+msgid "Enable use of DT_RUNPATH"
+msgstr "Enable use of DT_RUNPATH"
+
+#: options.h:839
+msgid "Disable use of DT_RUNPATH"
+msgstr "Disable use of DT_RUNPATH"
+
+#: options.h:842
+msgid "(ARM only) Do not warn about objects with incompatible enum sizes"
+msgstr "(ARM only) Do not warn about objects with incompatible enum sizes"
+
+#: options.h:846
+msgid "Exclude libraries from automatic export"
+msgstr "Exclude libraries from automatic export"
+
+#: options.h:850
+msgid "Export all dynamic symbols"
+msgstr "Export all dynamic symbols"
+
+#: options.h:851
+msgid "Do not export all dynamic symbols"
+msgstr "Do not export all dynamic symbols"
+
+#: options.h:854
+msgid "Export SYMBOL to dynamic symbol table"
+msgstr "Export SYMBOL to dynamic symbol table"
+
+#: options.h:854 options.h:876 options.h:994 options.h:1011 options.h:1342
+#: options.h:1411 options.h:1425
+msgid "SYMBOL"
+msgstr "SYMBOL"
+
+#: options.h:857
+msgid "Link big-endian objects."
+msgstr "Link big-endian objects."
+
+#: options.h:859
+msgid "Link little-endian objects."
+msgstr "Link little-endian objects."
+
+#: options.h:864
+msgid "Auxiliary filter for shared object symbol table"
+msgstr "Auxiliary filter for shared object symbol table"
+
+#: options.h:865 options.h:869
+msgid "SHLIB"
+msgstr "SHLIB"
+
+#: options.h:868
+msgid "Filter for shared object symbol table"
+msgstr "Filter for shared object symbol table"
+
+#: options.h:872
+msgid "Treat warnings as errors"
+msgstr "Treat warnings as errors"
+
+#: options.h:873
+msgid "Do not treat warnings as errors"
+msgstr "Do not treat warnings as errors"
+
+#: options.h:876
+msgid "Call SYMBOL at unload-time"
+msgstr "Call SYMBOL at unload-time"
+
+#: options.h:879
+msgid "(ARM only) Fix binaries for ARM1176 erratum"
+msgstr "(ARM only) Fix binaries for ARM1176 erratum"
+
+#: options.h:880
+msgid "(ARM only) Do not fix binaries for ARM1176 erratum"
+msgstr "(ARM only) Do not fix binaries for ARM1176 erratum"
+
+#: options.h:883
+msgid "(ARM only) Fix binaries for Cortex-A8 erratum"
+msgstr "(ARM only) Fix binaries for Cortex-A8 erratum"
+
+#: options.h:884
+msgid "(ARM only) Do not fix binaries for Cortex-A8 erratum"
+msgstr "(ARM only) Do not fix binaries for Cortex-A8 erratum"
+
+#: options.h:887
+msgid "(AArch64 only) Fix Cortex-A53 erratum 843419"
+msgstr "(AArch64 only) Fix Cortex-A53 erratum 843419"
+
+#: options.h:888
+msgid "(AArch64 only) Do not fix Cortex-A53 erratum 843419"
+msgstr "(AArch64 only) Do not fix Cortex-A53 erratum 843419"
+
+#: options.h:891
+msgid "(AArch64 only) Fix Cortex-A53 erratum 835769"
+msgstr "(AArch64 only) Fix Cortex-A53 erratum 835769"
+
+#: options.h:892
+msgid "(AArch64 only) Do not fix Cortex-A53 erratum 835769"
+msgstr "(AArch64 only) Do not fix Cortex-A53 erratum 835769"
+
+#: options.h:895
+msgid "(ARM only) Rewrite BX rn as MOV pc, rn for ARMv4"
+msgstr "(ARM only) Rewrite BX rn as MOV pc, rn for ARMv4"
+
+#: options.h:899
+msgid "(ARM only) Rewrite BX rn branch to ARMv4 interworking veneer"
+msgstr "(ARM only) Rewrite BX rn branch to ARMv4 interworking veneer"
+
+#: options.h:904
+msgid "Ignored for GCC linker option compatibility"
+msgstr "Ignored for GCC linker option compatibility"
+
+#: options.h:905
+msgid "[gold,bfd]"
+msgstr "[gold,bfd]"
+
+#: options.h:913
+msgid "Remove unused sections"
+msgstr "Remove unused sections"
+
+#: options.h:914
+msgid "Don't remove unused sections"
+msgstr "Don't remove unused sections"
+
+#: options.h:917
+msgid "Generate .gdb_index section"
+msgstr "Generate .gdb_index section"
+
+#: options.h:918
+msgid "Do not generate .gdb_index section"
+msgstr "Do not generate .gdb_index section"
+
+#: options.h:921
+msgid "Enable STB_GNU_UNIQUE symbol binding"
+msgstr "Enable STB_GNU_UNIQUE symbol binding"
+
+#: options.h:922
+msgid "Disable STB_GNU_UNIQUE symbol binding"
+msgstr "Disable STB_GNU_UNIQUE symbol binding"
+
+#: options.h:925
+msgid "Generate shared library"
+msgstr "Generate shared library"
+
+#: options.h:930
+msgid "Set shared library name"
+msgstr "Set shared library name"
+
+#: options.h:930 options.h:1160 options.h:1224
+msgid "FILENAME"
+msgstr "FILENAME"
+
+#: options.h:933
+msgid "Min fraction of empty buckets in dynamic hash"
+msgstr "Min fraction of empty buckets in dynamic hash"
+
+#: options.h:934
+msgid "FRACTION"
+msgstr "FRACTION"
+
+#: options.h:937
+msgid "Dynamic hash style"
+msgstr "Dynamic hash style"
+
+#: options.h:937
+msgid "[sysv,gnu,both]"
+msgstr "[sysv,gnu,both]"
+
+#: options.h:943
+msgid "Alias for -r"
+msgstr "Alias for -r"
+
+#: options.h:946
+msgid ""
+"Identical Code Folding. '--icf=safe' Folds ctors, dtors and functions whose "
+"pointers are definitely not taken"
+msgstr ""
+"Identical Code Folding. '--icf=safe' Folds ctors, dtors and functions whose "
+"pointers are definitely not taken"
+
+#: options.h:953
+msgid "Number of iterations of ICF (default 3)"
+msgstr "Number of iterations of ICF (default 3)"
+
+#: options.h:953 options.h:1244 options.h:1301 options.h:1303 options.h:1305
+#: options.h:1307
+msgid "COUNT"
+msgstr "COUNT"
+
+#: options.h:956
+msgid ""
+"Do an incremental link if possible; otherwise, do a full link and prepare "
+"output for incremental linking"
+msgstr ""
+"Do an incremental link if possible; otherwise, do a full link and prepare "
+"output for incremental linking"
+
+#: options.h:961
+msgid "Do a full link (default)"
+msgstr "Do a full link (default)"
+
+#: options.h:964
+msgid "Do a full link and prepare output for incremental linking"
+msgstr "Do a full link and prepare output for incremental linking"
+
+#: options.h:968
+msgid "Do an incremental link; exit if not possible"
+msgstr "Do an incremental link; exit if not possible"
+
+#: options.h:971
+msgid "Set base file for incremental linking (default is output file)"
+msgstr "Set base file for incremental linking (default is output file)"
+
+#: options.h:976
+msgid "Assume files changed"
+msgstr "Assume files changed"
+
+#: options.h:979
+msgid "Assume files didn't change"
+msgstr "Assume files didn't change"
+
+#: options.h:982
+msgid "Use timestamps to check files (default)"
+msgstr "Use timestamps to check files (default)"
+
+#: options.h:985
+msgid "Assume startup files unchanged (files preceding this option)"
+msgstr "Assume startup files unchanged (files preceding this option)"
+
+#: options.h:989
+msgid "Amount of extra space to allocate for patches (default 10)"
+msgstr "Amount of extra space to allocate for patches (default 10)"
+
+#: options.h:991
+msgid "PERCENT"
+msgstr "PERCENT"
+
+#: options.h:994
+msgid "Call SYMBOL at load-time"
+msgstr "Call SYMBOL at load-time"
+
+#: options.h:997
+msgid "Set dynamic linker path"
+msgstr "Set dynamic linker path"
+
+#: options.h:997
+msgid "PROGRAM"
+msgstr "PROGRAM"
+
+#: options.h:1002
+msgid "Read only symbol values from FILE"
+msgstr "Read only symbol values from FILE"
+
+#: options.h:1007
+msgid "Keep files mapped across passes"
+msgstr "Keep files mapped across passes"
+
+#: options.h:1008
+msgid "Release mapped files after each pass"
+msgstr "Release mapped files after each pass"
+
+#: options.h:1011
+msgid "Do not fold this symbol during ICF"
+msgstr "Do not fold this symbol during ICF"
+
+#: options.h:1016
+msgid "Search for library LIBNAME"
+msgstr "Search for library LIBNAME"
+
+#: options.h:1016
+msgid "LIBNAME"
+msgstr "LIBNAME"
+
+#: options.h:1019
+msgid "Generate unwind information for PLT"
+msgstr "Generate unwind information for PLT"
+
+#: options.h:1020
+msgid "Do not generate unwind information for PLT"
+msgstr "Do not generate unwind information for PLT"
+
+#: options.h:1023
+msgid "Add directory to search path"
+msgstr "Add directory to search path"
+
+#: options.h:1023 options.h:1199 options.h:1202 options.h:1206 options.h:1275
+msgid "DIR"
+msgstr "DIR"
+
+#: options.h:1026
+msgid "(ARM only) Generate long PLT entries"
+msgstr "(ARM only) Generate long PLT entries"
+
+#: options.h:1027
+msgid "(ARM only) Do not generate long PLT entries"
+msgstr "(ARM only) Do not generate long PLT entries"
+
+#: options.h:1032
+msgid "Set GNU linker emulation; obsolete"
+msgstr "Set GNU linker emulation; obsolete"
+
+#: options.h:1032
+msgid "EMULATION"
+msgstr "EMULATION"
+
+#: options.h:1036
+msgid "Map whole files to memory"
+msgstr "Map whole files to memory"
+
+#: options.h:1037
+msgid "Map relevant file parts to memory"
+msgstr "Map relevant file parts to memory"
+
+#: options.h:1040
+msgid "(ARM only) Merge exidx entries in debuginfo"
+msgstr "(ARM only) Merge exidx entries in debuginfo"
+
+#: options.h:1041
+msgid "(ARM only) Do not merge exidx entries in debuginfo"
+msgstr "(ARM only) Do not merge exidx entries in debuginfo"
+
+#: options.h:1044
+msgid "Map the output file for writing"
+msgstr "Map the output file for writing"
+
+#: options.h:1045
+msgid "Do not map the output file for writing"
+msgstr "Do not map the output file for writing"
+
+#: options.h:1048
+msgid "Write map file on standard output"
+msgstr "Write map file on standard output"
+
+#: options.h:1050
+msgid "Write map file"
+msgstr "Write map file"
+
+#: options.h:1051
+msgid "MAPFILENAME"
+msgstr "MAPFILENAME"
+
+#: options.h:1056
+msgid "Do not page align data"
+msgstr "Do not page align data"
+
+#: options.h:1058
+msgid "Do not page align data, do not make text readonly"
+msgstr "Do not page align data, do not make text readonly"
+
+#: options.h:1059
+msgid "Page align data, make text readonly"
+msgstr "Page align data, make text readonly"
+
+#: options.h:1062
+msgid ""
+"Use less memory and more disk I/O (included only for compatibility with GNU "
+"ld)"
+msgstr ""
+"Use less memory and more disk I/O (included only for compatibility with GNU "
+"ld)"
+
+#: options.h:1066 options.h:1453
+msgid "Report undefined symbols (even with --shared)"
+msgstr "Report undefined symbols (even with --shared)"
+
+#: options.h:1070
+msgid "Create an output file even if errors occur"
+msgstr "Create an output file even if errors occur"
+
+#: options.h:1073
+msgid "Only search directories specified on the command line"
+msgstr "Only search directories specified on the command line"
+
+#: options.h:1079
+msgid "Set output file name"
+msgstr "Set output file name"
+
+#: options.h:1082
+msgid "Set output format"
+msgstr "Set output format"
+
+#: options.h:1082
+msgid "[binary]"
+msgstr "[binary]"
+
+#: options.h:1085
+msgid "Optimize output file size"
+msgstr "Optimise output file size"
+
+#: options.h:1085
+msgid "LEVEL"
+msgstr "LEVEL"
+
+#: options.h:1088
+msgid "Orphan section handling"
+msgstr "Orphan section handling"
+
+#: options.h:1088
+msgid "[place,discard,warn,error]"
+msgstr "[place,discard,warn,error]"
+
+#: options.h:1094
+msgid "Ignored for ARM compatibility"
+msgstr "Ignored for ARM compatibility"
+
+#: options.h:1097 options.h:1100
+msgid "Create a position independent executable"
+msgstr "Create a position independent executable"
+
+#: options.h:1098 options.h:1101
+msgid "Do not create a position independent executable"
+msgstr "Do not create a position independent executable"
+
+#: options.h:1105
+msgid "Force PIC sequences for ARM/Thumb interworking veneers"
+msgstr "Force PIC sequences for ARM/Thumb interworking veneers"
+
+#: options.h:1109
+msgid "(ARM only) Ignore for backward compatibility"
+msgstr "(ARM only) Ignore for backward compatibility"
+
+#: options.h:1112
+msgid "(PowerPC only) Align PLT call stubs to fit cache lines"
+msgstr "(PowerPC only) Align PLT call stubs to fit cache lines"
+
+#: options.h:1113
+msgid "[=P2ALIGN]"
+msgstr "[=P2ALIGN]"
+
+#: options.h:1116
+msgid "(PowerPC64 only) Optimize calls to ELFv2 localentry:0 functions"
+msgstr "(PowerPC64 only) Optimize calls to ELFv2 localentry:0 functions"
+
+#: options.h:1117
+msgid "(PowerPC64 only) Don't optimize ELFv2 calls"
+msgstr "(PowerPC64 only) Don't optimise ELFv2 calls"
+
+#: options.h:1120
+msgid "(PowerPC64 only) PLT call stubs should load r11"
+msgstr "(PowerPC64 only) PLT call stubs should load r11"
+
+#: options.h:1121
+msgid "(PowerPC64 only) PLT call stubs should not load r11"
+msgstr "(PowerPC64 only) PLT call stubs should not load r11"
+
+#: options.h:1124
+msgid "(PowerPC64 only) PLT call stubs with load-load barrier"
+msgstr "(PowerPC64 only) PLT call stubs with load-load barrier"
+
+#: options.h:1125
+msgid "(PowerPC64 only) PLT call stubs without barrier"
+msgstr "(PowerPC64 only) PLT call stubs without barrier"
+
+#: options.h:1129
+msgid "Load a plugin library"
+msgstr "Load a plug-in library"
+
+#: options.h:1129 options.h:1134
+msgid "PLUGIN"
+msgstr "PLUG-IN"
+
+#: options.h:1131
+msgid "Pass an option to the plugin"
+msgstr "Pass an option to the plug-in"
+
+#: options.h:1131 options.h:1137
+msgid "OPTION"
+msgstr "OPTION"
+
+#: options.h:1134
+msgid "Load a plugin library (not supported)"
+msgstr "Load a plugin library (not supported)"
+
+#: options.h:1136
+msgid "Pass an option to the plugin (not supported)"
+msgstr "Pass an option to the plugin (not supported)"
+
+#: options.h:1141
+msgid "Use posix_fallocate to reserve space in the output file"
+msgstr "Use posix_fallocate to reserve space in the output file"
+
+#: options.h:1142
+msgid "Use fallocate or ftruncate to reserve space"
+msgstr "Use fallocate or ftruncate to reserve space"
+
+#: options.h:1145
+msgid "Preread archive symbols when multi-threaded"
+msgstr "Preread archive symbols when multi-threaded"
+
+#: options.h:1148
+msgid "List removed unused sections on stderr"
+msgstr "List removed unused sections on stderr"
+
+#: options.h:1149
+msgid "Do not list removed unused sections"
+msgstr "Do not list removed unused sections"
+
+#: options.h:1152
+msgid "List folded identical sections on stderr"
+msgstr "List folded identical sections on stderr"
+
+#: options.h:1153
+msgid "Do not list folded identical sections"
+msgstr "Do not list folded identical sections"
+
+#: options.h:1156
+msgid "Print default output format"
+msgstr "Print default output format"
+
+#: options.h:1159
+msgid "Print symbols defined and used for each input"
+msgstr "Print symbols defined and used for each input"
+
+#: options.h:1163
+msgid "Save the state of flags related to input files"
+msgstr "Save the state of flags related to input files"
+
+#: options.h:1165
+msgid "Restore the state of flags related to input files"
+msgstr "Restore the state of flags related to input files"
+
+#: options.h:1170
+msgid "Generate relocations in output"
+msgstr "Generate relocations in output"
+
+#: options.h:1173
+msgid "Ignored for SVR4 compatibility"
+msgstr "Ignored for SVR4 compatibility"
+
+#: options.h:1178
+msgid "Generate relocatable output"
+msgstr "Generate relocatable output"
+
+#: options.h:1181
+msgid "Relax branches on certain targets"
+msgstr "Relax branches on certain targets"
+
+#: options.h:1182
+msgid "Do not relax branches"
+msgstr "Do not relax branches"
+
+#: options.h:1185
+msgid "keep only symbols listed in this file"
+msgstr "keep only symbols listed in this file"
+
+#: options.h:1188
+msgid "Put read-only non-executable sections in their own segment"
+msgstr "Put read-only non-executable sections in their own segment"
+
+#: options.h:1192
+msgid "Set offset between executable and read-only segments"
+msgstr "Set offset between executable and read-only segments"
+
+#: options.h:1193
+msgid "OFFSET"
+msgstr "OFFSET"
+
+#: options.h:1199 options.h:1202
+msgid "Add DIR to runtime search path"
+msgstr "Add DIR to runtime search path"
+
+#: options.h:1205
+msgid "Add DIR to link time shared library search path"
+msgstr "Add DIR to link time shared library search path"
+
+#: options.h:1211
+msgid "Strip all symbols"
+msgstr "Strip all symbols"
+
+#: options.h:1213
+msgid "Strip debugging information"
+msgstr "Strip debugging information"
+
+#: options.h:1215
+msgid "Emit only debug line number information"
+msgstr "Emit only debug line number information"
+
+#: options.h:1217
+msgid "Strip debug symbols that are unused by gdb (at least versions <= 7.4)"
+msgstr ""
+"Strip debug symbols that are unused by gdb (at least versions <= 7.4)"
+
+#: options.h:1220
+msgid "Strip LTO intermediate code sections"
+msgstr "Strip LTO intermediate code sections"
+
+#: options.h:1223
+msgid "Layout sections in the order specified"
+msgstr "Layout sections in the order specified"
+
+#: options.h:1227
+msgid "Set address of section"
+msgstr "Set address of section"
+
+#: options.h:1227
+msgid "SECTION=ADDRESS"
+msgstr "SECTION=ADDRESS"
+
+#: options.h:1230
+msgid "(PowerPC only) Use new-style PLT"
+msgstr "(PowerPC only) Use new-style PLT"
+
+#: options.h:1233
+msgid "Sort common symbols by alignment"
+msgstr "Sort common symbols by alignment"
+
+#: options.h:1234
+msgid "[={ascending,descending}]"
+msgstr "[={ascending,descending}]"
+
+#: options.h:1237
+msgid ""
+"Sort sections by name.  '--no-text-reorder' will override '--sort-"
+"section=name' for .text"
+msgstr ""
+"Sort sections by name.  '--no-text-reorder' will override '--sort-"
+"section=name' for .text"
+
+#: options.h:1239
+msgid "[none,name]"
+msgstr "[none,name]"
+
+#: options.h:1243
+msgid "Dynamic tag slots to reserve (default 5)"
+msgstr "Dynamic tag slots to reserve (default 5)"
+
+#: options.h:1247
+msgid ""
+"(ARM, PowerPC only) The maximum distance from instructions in a group of "
+"sections to their stubs. Negative values mean stubs are always after the "
+"group. 1 means use default size"
+msgstr ""
+"(ARM, PowerPC only) The maximum distance from instructions in a group of "
+"sections to their stubs. Negative values mean stubs are always after the "
+"group. 1 means use default size"
+
+#: options.h:1253
+msgid ""
+"(PowerPC only) Allow a group of stubs to serve multiple output sections"
+msgstr ""
+"(PowerPC only) Allow a group of stubs to serve multiple output sections"
+
+#: options.h:1255
+msgid "(PowerPC only) Each output section has its own stubs"
+msgstr "(PowerPC only) Each output section has its own stubs"
+
+#: options.h:1258
+msgid "Stack size when -fsplit-stack function calls non-split"
+msgstr "Stack size when -fsplit-stack function calls non-split"
+
+#: options.h:1264
+msgid "Do not link against shared libraries"
+msgstr "Do not link against shared libraries"
+
+#: options.h:1267
+msgid "Start a library"
+msgstr "Start a library"
+
+#: options.h:1269
+msgid "End a library "
+msgstr "End a library "
+
+#: options.h:1272
+msgid "Print resource usage statistics"
+msgstr "Print resource usage statistics"
+
+#: options.h:1275
+msgid "Set target system root directory"
+msgstr "Set target system root directory"
+
+#: options.h:1280
+msgid "Print the name of each input file"
+msgstr "Print the name of each input file"
+
+#: options.h:1283
+msgid "(ARM only) Force R_ARM_TARGET1 type to R_ARM_ABS32"
+msgstr "(ARM only) Force R_ARM_TARGET1 type to R_ARM_ABS32"
+
+#: options.h:1286
+msgid "(ARM only) Force R_ARM_TARGET1 type to R_ARM_REL32"
+msgstr "(ARM only) Force R_ARM_TARGET1 type to R_ARM_REL32"
+
+#: options.h:1289
+msgid "(ARM only) Set R_ARM_TARGET2 relocation type"
+msgstr "(ARM only) Set R_ARM_TARGET2 relocation type"
+
+#: options.h:1290
+msgid "[rel, abs, got-rel"
+msgstr "[rel, abs, got-rel"
+
+#: options.h:1294
+msgid "Enable text section reordering for GCC section names"
+msgstr "Enable text section reordering for GCC section names"
+
+#: options.h:1295
+msgid "Disable text section reordering for GCC section names"
+msgstr "Disable text section reordering for GCC section names"
+
+#: options.h:1298
+msgid "Run the linker multi-threaded"
+msgstr "Run the linker multi-threaded"
+
+#: options.h:1299
+msgid "Do not run the linker multi-threaded"
+msgstr "Do not run the linker multi-threaded"
+
+#: options.h:1301
+msgid "Number of threads to use"
+msgstr "Number of threads to use"
+
+#: options.h:1303
+msgid "Number of threads to use in initial pass"
+msgstr "Number of threads to use in initial pass"
+
+#: options.h:1305
+msgid "Number of threads to use in middle pass"
+msgstr "Number of threads to use in middle pass"
+
+#: options.h:1307
+msgid "Number of threads to use in final pass"
+msgstr "Number of threads to use in final pass"
+
+#: options.h:1310
+msgid "(PowerPC/64 only) Optimize GD/LD/IE code to IE/LE"
+msgstr "(PowerPC/64 only) Optimize GD/LD/IE code to IE/LE"
+
+#: options.h:1311
+msgid "(PowerPC/64 only) Don'''t try to optimize TLS accesses"
+msgstr "(PowerPC/64 only) Don'''t try to optimise TLS accesses"
+
+#: options.h:1313
+msgid "(PowerPC/64 only) Use a special __tls_get_addr call"
+msgstr "(PowerPC/64 only) Use a special __tls_get_addr call"
+
+#: options.h:1314
+msgid "(PowerPC/64 only) Don't use a special __tls_get_addr call"
+msgstr "(PowerPC/64 only) Don't use a special __tls_get_addr call"
+
+#: options.h:1317
+msgid "(PowerPC64 only) Optimize TOC code sequences"
+msgstr "(PowerPC64 only) Optimize TOC code sequences"
+
+#: options.h:1318
+msgid "(PowerPC64 only) Don't optimize TOC code sequences"
+msgstr "(PowerPC64 only) Don't optimize TOC code sequences"
+
+#: options.h:1321
+msgid "(PowerPC64 only) Sort TOC and GOT sections"
+msgstr "(PowerPC64 only) Sort TOC and GOT sections"
+
+#: options.h:1322
+msgid "(PowerPC64 only) Don't sort TOC and GOT sections"
+msgstr "(PowerPC64 only) Don't sort TOC and GOT sections"
+
+#: options.h:1325
+msgid "Read linker script"
+msgstr "Read linker script"
+
+#: options.h:1328
+msgid "Set the address of the bss segment"
+msgstr "Set the address of the bss segment"
+
+#: options.h:1330
+msgid "Set the address of the data segment"
+msgstr "Set the address of the data segment"
+
+#: options.h:1332 options.h:1334
+msgid "Set the address of the text segment"
+msgstr "Set the address of the text segment"
+
+#: options.h:1337
+msgid "Set the address of the rodata segment"
+msgstr "Set the address of the rodata segment"
+
+#: options.h:1342
+msgid "Create undefined reference to SYMBOL"
+msgstr "Create undefined reference to SYMBOL"
+
+#: options.h:1345
+msgid "How to handle unresolved symbols"
+msgstr "How to handle unresolved symbols"
+
+#: options.h:1354
+msgid "Alias for --debug=files"
+msgstr "Alias for --debug=files"
+
+#: options.h:1357
+msgid "Read version script"
+msgstr "Read version script"
+
+#: options.h:1362
+msgid "Warn about duplicate common symbols"
+msgstr "Warn about duplicate common symbols"
+
+#: options.h:1363
+msgid "Do not warn about duplicate common symbols"
+msgstr "Do not warn about duplicate common symbols"
+
+#: options.h:1369
+msgid "Warn when discarding version information"
+msgstr "Warn when discarding version information"
+
+#: options.h:1370
+msgid "Do not warn when discarding version information"
+msgstr "Do not warn when discarding version information"
+
+#: options.h:1373
+msgid "Warn if the stack is executable"
+msgstr "Warn if the stack is executable"
+
+#: options.h:1374
+msgid "Do not warn if the stack is executable"
+msgstr "Do not warn if the stack is executable"
+
+#: options.h:1377
+msgid "Don't warn about mismatched input files"
+msgstr "Don't warn about mismatched input files"
+
+#: options.h:1383
+msgid "Warn when skipping an incompatible library"
+msgstr "Warn when skipping an incompatible library"
+
+#: options.h:1384
+msgid "Don't warn when skipping an incompatible library"
+msgstr "Don't warn when skipping an incompatible library"
+
+#: options.h:1387
+msgid "Warn if text segment is not shareable"
+msgstr "Warn if text segment is not shareable"
+
+#: options.h:1388
+msgid "Do not warn if text segment is not shareable"
+msgstr "Do not warn if text segment is not shareable"
+
+#: options.h:1391
+msgid "Report unresolved symbols as warnings"
+msgstr "Report unresolved symbols as warnings"
+
+#: options.h:1395
+msgid "Report unresolved symbols as errors"
+msgstr "Report unresolved symbols as errors"
+
+#: options.h:1399
+msgid "(ARM only) Do not warn about objects with incompatible wchar_t sizes"
+msgstr "(ARM only) Do not warn about objects with incompatible wchar_t sizes"
+
+#: options.h:1403
+msgid "Convert unresolved symbols to weak references"
+msgstr "Convert unresolved symbols to weak references"
+
+#: options.h:1407
+msgid "Include all archive contents"
+msgstr "Include all archive contents"
+
+#: options.h:1408
+msgid "Include only needed archive contents"
+msgstr "Include only needed archive contents"
+
+#: options.h:1411
+msgid "Use wrapper functions for SYMBOL"
+msgstr "Use wrapper functions for SYMBOL"
+
+#: options.h:1416
+msgid "Delete all local symbols"
+msgstr "Delete all local symbols"
+
+#: options.h:1418
+msgid "Delete all temporary local symbols"
+msgstr "Delete all temporary local symbols"
+
+#: options.h:1420
+msgid "Keep all local symbols"
+msgstr "Keep all local symbols"
+
+#: options.h:1425
+msgid "Trace references to symbol"
+msgstr "Trace references to symbol"
+
+#: options.h:1428
+msgid "Allow unused version in script"
+msgstr "Allow unused version in script"
+
+#: options.h:1429
+msgid "Do not allow unused version in script"
+msgstr "Do not allow unused version in script"
+
+#: options.h:1432
+msgid "Default search path for Solaris compatibility"
+msgstr "Default search path for Solaris compatibility"
+
+#: options.h:1433
+msgid "PATH"
+msgstr "PATH"
+
+#: options.h:1438
+msgid "Start a library search group"
+msgstr "Start a library search group"
+
+#: options.h:1440
+msgid "End a library search group"
+msgstr "End a library search group"
+
+#: options.h:1445
+msgid "(x86-64 only) Generate a BND PLT for Intel MPX"
+msgstr "(x86-64 only) Generate a BND PLT for Intel MPX"
+
+#: options.h:1446
+msgid "Generate a regular PLT"
+msgstr "Generate a regular PLT"
+
+#: options.h:1448
+msgid "Sort dynamic relocs"
+msgstr "Sort dynamic relocs"
+
+#: options.h:1449
+msgid "Do not sort dynamic relocs"
+msgstr "Do not sort dynamic relocs"
+
+#: options.h:1451
+msgid "Set common page size to SIZE"
+msgstr "Set common page size to SIZE"
+
+#: options.h:1456
+msgid "Mark output as requiring executable stack"
+msgstr "Mark output as requiring executable stack"
+
+#: options.h:1458
+msgid "Make symbols in DSO available for subsequently loaded objects"
+msgstr "Make symbols in DSO available for subsequently loaded objects"
+
+#: options.h:1461
+msgid "Mark DSO to be initialized first at runtime"
+msgstr "Mark DSO to be initialised first at runtime"
+
+#: options.h:1464
+msgid "Mark object to interpose all DSOs but executable"
+msgstr "Mark object to interpose all DSOs but executable"
+
+#: options.h:1467
+msgid "Mark object for lazy runtime binding"
+msgstr "Mark object for lazy runtime binding"
+
+#: options.h:1470
+msgid "Mark object requiring immediate process"
+msgstr "Mark object requiring immediate process"
+
+#: options.h:1473
+msgid "Set maximum page size to SIZE"
+msgstr "Set maximum page size to SIZE"
+
+#: options.h:1481
+msgid "Do not create copy relocs"
+msgstr "Do not create copy relocs"
+
+#: options.h:1483
+msgid "Mark object not to use default search paths"
+msgstr "Mark object not to use default search paths"
+
+#: options.h:1486
+msgid "Mark DSO non-deletable at runtime"
+msgstr "Mark DSO non-deletable at runtime"
+
+#: options.h:1489
+msgid "Mark DSO not available to dlopen"
+msgstr "Mark DSO not available to dlopen"
+
+#: options.h:1492
+msgid "Mark DSO not available to dldump"
+msgstr "Mark DSO not available to dldump"
+
+#: options.h:1495
+msgid "Mark output as not requiring executable stack"
+msgstr "Mark output as not requiring executable stack"
+
+#: options.h:1497
+msgid "Mark object for immediate function binding"
+msgstr "Mark object for immediate function binding"
+
+#: options.h:1500
+msgid ""
+"Mark DSO to indicate that needs immediate $ORIGIN processing at runtime"
+msgstr ""
+"Mark DSO to indicate that needs immediate $ORIGIN processing at runtime"
+
+#: options.h:1503
+msgid "Where possible mark variables read-only after relocation"
+msgstr "Where possible mark variables read-only after relocation"
+
+#: options.h:1504
+msgid "Don't mark variables read-only after relocation"
+msgstr "Don't mark variables read-only after relocation"
+
+#: options.h:1506
+msgid "Set PT_GNU_STACK segment p_memsz to SIZE"
+msgstr "Set PT_GNU_STACK segment p_memsz to SIZE"
+
+#: options.h:1513
+msgid "Do not permit relocations in read-only segments"
+msgstr "Do not permit relocations in read-only segments"
+
+#: options.h:1514 options.h:1516
+msgid "Permit relocations in read-only segments"
+msgstr "Permit relocations in read-only segments"
+
+#: options.h:1519
+msgid "Move .text.unlikely sections to a separate segment."
+msgstr "Move .text.unlikely sections to a separate segment."
+
+#: options.h:1520
+msgid "Do not move .text.unlikely sections to a separate segment."
+msgstr "Do not move .text.unlikely sections to a separate segment."
+
+#: options.h:1523
+msgid ""
+"Keep .text.hot, .text.startup, .text.exit and .text.unlikely as separate "
+"sections in the final binary."
+msgstr ""
+"Keep .text.hot, .text.startup, .text.exit and .text.unlikely as separate "
+"sections in the final binary."
+
+#: options.h:1525
+msgid "Merge all .text.* prefix sections."
+msgstr "Merge all .text.* prefix sections."
+
+#: output.cc:1344
+msgid "section group retained but group element discarded"
+msgstr "section group retained but group element discarded"
+
+#: output.cc:1779 output.cc:1811
+msgid "out of patch space (GOT); relink with --incremental-full"
+msgstr "out of patch space (GOT); relink with --incremental-full"
+
+#: output.cc:2460
+#, c-format
+msgid "invalid alignment %lu for section \"%s\""
+msgstr "invalid alignment %lu for section \"%s\""
+
+#: output.cc:4622
+msgid ""
+"script places BSS section in the middle of a LOAD segment; space will be "
+"allocated in the file"
+msgstr ""
+"script places BSS section in the middle of a LOAD segment; space will be "
+"allocated in the file"
+
+#: output.cc:4644
+#, c-format
+msgid "dot moves backward in linker script from 0x%llx to 0x%llx"
+msgstr "dot moves backward in linker script from 0x%llx to 0x%llx"
+
+#: output.cc:4647
+#, c-format
+msgid "address of section '%s' moves backward from 0x%llx to 0x%llx"
+msgstr "address of section '%s' moves backward from 0x%llx to 0x%llx"
+
+#: output.cc:5016
+#, c-format
+msgid "%s: incremental base and output file name are the same"
+msgstr "%s: incremental base and output file name are the same"
+
+#: output.cc:5023
+#, c-format
+msgid "%s: stat: %s"
+msgstr "%s: stat: %s"
+
+#: output.cc:5028
+#, c-format
+msgid "%s: incremental base file is empty"
+msgstr "%s: incremental base file is empty"
+
+#: output.cc:5040 output.cc:5138
+#, c-format
+msgid "%s: open: %s"
+msgstr "%s: open: %s"
+
+#: output.cc:5057
+#, c-format
+msgid "%s: read failed: %s"
+msgstr "%s: read failed: %s"
+
+#: output.cc:5062
+#, c-format
+msgid "%s: file too short: read only %lld of %lld bytes"
+msgstr "%s: file too short: read only %lld of %lld bytes"
+
+#: output.cc:5162
+#, c-format
+msgid "%s: mremap: %s"
+msgstr "%s: mremap: %s"
+
+#: output.cc:5181
+#, c-format
+msgid "%s: mmap: %s"
+msgstr "%s: mmap: %s"
+
+#: output.cc:5273
+#, c-format
+msgid "%s: mmap: failed to allocate %lu bytes for output file: %s"
+msgstr "%s: mmap: failed to allocate %lu bytes for output file: %s"
+
+#: output.cc:5291
+#, c-format
+msgid "%s: munmap: %s"
+msgstr "%s: munmap: %s"
+
+#: output.cc:5311
+#, c-format
+msgid "%s: write: unexpected 0 return-value"
+msgstr "%s: write: unexpected 0 return-value"
+
+#: output.cc:5313
+#, c-format
+msgid "%s: write: %s"
+msgstr "%s: write: %s"
+
+#: output.cc:5328
+#, c-format
+msgid "%s: close: %s"
+msgstr "%s: close: %s"
+
+#: output.h:625
+msgid "** section headers"
+msgstr "** section headers"
+
+#: output.h:675
+msgid "** segment headers"
+msgstr "** segment headers"
+
+#: output.h:722
+msgid "** file header"
+msgstr "** file header"
+
+#: output.h:936
+msgid "** fill"
+msgstr "** fill"
+
+#: output.h:1102
+msgid "** string table"
+msgstr "** string table"
+
+#: output.h:1659
+msgid "** dynamic relocs"
+msgstr "** dynamic relocs"
+
+#: output.h:1660 output.h:2371
+msgid "** relocs"
+msgstr "** relocs"
+
+#: output.h:2396
+msgid "** group"
+msgstr "** group"
+
+#: output.h:2597
+msgid "** GOT"
+msgstr "** GOT"
+
+#: output.h:2804
+msgid "** dynamic"
+msgstr "** dynamic"
+
+#: output.h:2948
+msgid "** symtab xindex"
+msgstr "** symtab xindex"
+
+#: parameters.cc:221
+msgid "input file does not match -EB/EL option"
+msgstr "input file does not match -EB/EL option"
+
+#: parameters.cc:231
+msgid "-Trodata-segment is meaningless without --rosegment"
+msgstr "-Trodata-segment is meaningless without --rosegment"
+
+#: parameters.cc:338 target-select.cc:198
+#, c-format
+msgid "unrecognized output format %s"
+msgstr "unrecognised output format %s"
+
+#: parameters.cc:351
+#, c-format
+msgid "unrecognized emulation %s"
+msgstr "unrecognised emulation %s"
+
+#: parameters.cc:374
+msgid "no supported target for -EB/-EL option"
+msgstr "no supported target for -EB/-EL option"
+
+#: plugin.cc:202
+#, c-format
+msgid "%s: could not load plugin library: %s"
+msgstr "%s: could not load plugin library: %s"
+
+#: plugin.cc:211
+#, c-format
+msgid "%s: could not find onload entry point"
+msgstr "%s: could not find onload entry point"
+
+#: plugin.cc:540
+#, c-format
+msgid "%s: recording to %s"
+msgstr "%s: recording to %s"
+
+#: plugin.cc:585
+#, c-format
+msgid "%s: can't open (%s)"
+msgstr "%s: can't open (%s)"
+
+#: plugin.cc:591
+#, c-format
+msgid "%s: can't create (%s)"
+msgstr "%s: can't create (%s)"
+
+#: plugin.cc:600
+#, c-format
+msgid "%s: write error while making copy of file (%s)"
+msgstr "%s: write error while making copy of file (%s)"
+
+#: plugin.cc:1182
+msgid "input files added by plug-ins in --incremental mode not supported yet"
+msgstr ""
+"input files added by plug-ins in --incremental mode not supported yet"
+
+#: powerpc.cc:1238
+msgid "missing expected __tls_get_addr call"
+msgstr "missing expected __tls_get_addr call"
+
+#: powerpc.cc:2223 powerpc.cc:2560
+#, c-format
+msgid "%s: ABI version %d is not compatible with ABI version %d output"
+msgstr "%s: ABI version %d is not compatible with ABI version %d output"
+
+#: powerpc.cc:2257 powerpc.cc:2619
+#, c-format
+msgid "%s: .opd invalid in abiv%d"
+msgstr "%s: .opd invalid in abiv%d"
+
+#: powerpc.cc:2335
+#, c-format
+msgid "%s: unexpected reloc type %u in .opd section"
+msgstr "%s: unexpected reloc type %u in .opd section"
+
+#: powerpc.cc:2346
+#, c-format
+msgid "%s: .opd is not a regular array of opd entries"
+msgstr "%s: .opd is not a regular array of opd entries"
+
+#: powerpc.cc:2488
+#, c-format
+msgid "%s: local symbol %d has invalid st_other for ABI version 1"
+msgstr "%s: local symbol %d has invalid st_other for ABI version 1"
+
+#: powerpc.cc:3230
+#, c-format
+msgid "%s:%s exceeds group size"
+msgstr "%s:%s exceeds group size"
+
+#: powerpc.cc:3573
+#, c-format
+msgid "%s:%s: branch in non-executable section, no long branch stub for you"
+msgstr "%s:%s: branch in non-executable section, no long branch stub for you"
+
+#: powerpc.cc:3691
+#, c-format
+msgid "%s: stub group size is too large; retrying with %#x"
+msgstr "%s: stub group size is too large; retrying with %#x"
+
+#: powerpc.cc:5492
+msgid "** glink"
+msgstr "** glink"
+
+#: powerpc.cc:6093 powerpc.cc:6633
+#, c-format
+msgid "linkage table error against `%s'"
+msgstr "linkage table error against `%s'"
+
+#: powerpc.cc:6096
+#, c-format
+msgid "linkage table error against `%s:[local %u]'"
+msgstr "linkage table error against `%s:[local %u]'"
+
+#: powerpc.cc:6762
+msgid "** save/restore"
+msgstr "** save/restore"
+
+#: powerpc.cc:7516
+#, c-format
+msgid "%s: unsupported reloc %u for IFUNC symbol"
+msgstr "%s: unsupported reloc %u for IFUNC symbol"
+
+#: powerpc.cc:7781 powerpc.cc:8503
+#, c-format
+msgid "tocsave symbol %u has bad shndx %u"
+msgstr "tocsave symbol %u has bad shndx %u"
+
+#: powerpc.cc:8054 powerpc.cc:8817
+#, c-format
+msgid "%s: toc optimization is not supported for %#08x instruction"
+msgstr "%s: toc optimisation is not supported for %#08x instruction"
+
+#: powerpc.cc:8120 powerpc.cc:8879
+#, c-format
+msgid "%s: unsupported -mbss-plt code"
+msgstr "%s: unsupported -mbss-plt code"
+
+#: powerpc.cc:9187
+#, c-format
+msgid "split-stack stack size overflow at section %u offset %0zx"
+msgstr "split-stack stack size overflow at section %u offset %0zx"
+
+#: powerpc.cc:9258
+msgid ""
+"--plt-localentry is especially dangerous without ld.so support to detect ABI "
+"violations"
+msgstr ""
+"--plt-localentry is especially dangerous without ld.so support to detect ABI "
+"violations"
+
+#: powerpc.cc:9558 powerpc.cc:9564
+#, c-format
+msgid "%s uses hard float, %s uses soft float"
+msgstr "%s uses hard float, %s uses soft float"
+
+#: powerpc.cc:9570 powerpc.cc:9577
+#, c-format
+msgid ""
+"%s uses double-precision hard float, %s uses single-precision hard float"
+msgstr ""
+"%s uses double-precision hard float, %s uses single-precision hard float"
+
+#: powerpc.cc:9597 powerpc.cc:9603
+#, c-format
+msgid "%s uses 64-bit long double, %s uses 128-bit long double"
+msgstr "%s uses 64-bit long double, %s uses 128-bit long double"
+
+#: powerpc.cc:9609 powerpc.cc:9615
+#, c-format
+msgid "%s uses IBM long double, %s uses IEEE long double"
+msgstr "%s uses IBM long double, %s uses IEEE long double"
+
+#: powerpc.cc:9669 powerpc.cc:9675
+#, c-format
+msgid "%s uses AltiVec vector ABI, %s uses SPE vector ABI"
+msgstr "%s uses AltiVec vector ABI, %s uses SPE vector ABI"
+
+#: powerpc.cc:9704 powerpc.cc:9711
+#, c-format
+msgid "%s uses r3/r4 for small structure returns, %s uses memory"
+msgstr "%s uses r3/r4 for small structure returns, %s uses memory"
+
+#: powerpc.cc:9989
+msgid "__tls_get_addr call lacks marker reloc"
+msgstr "__tls_get_addr call lacks marker reloc"
+
+#: powerpc.cc:10255
+msgid "call lacks nop, can't restore toc; recompile with -fPIC"
+msgstr "call lacks nop, can't restore toc; recompile with -fPIC"
+
+#: powerpc.cc:11693 s390.cc:3474
+msgid "relocation overflow"
+msgstr "relocation overflow"
+
+#: powerpc.cc:11695
+msgid "try relinking with a smaller --stub-group-size"
+msgstr "try relinking with a smaller --stub-group-size"
+
+#: readsyms.cc:285
+#, c-format
+msgid "%s: file is empty"
+msgstr "%s: file is empty"
+
+#. Here we have to handle any other input file types we need.
+#: readsyms.cc:920
+#, c-format
+msgid "%s: not an object or archive"
+msgstr "%s: not an object or archive"
+
+#: reduced_debug_output.cc:187
+msgid ""
+"Debug abbreviations extend beyond .debug_abbrev section; failed to reduce "
+"debug abbreviations"
+msgstr ""
+"Debug abbreviations extend beyond .debug_abbrev section; failed to reduce "
+"debug abbreviations"
+
+#: reduced_debug_output.cc:273
+msgid ""
+"Extremely large compile unit in debug info; failed to reduce debug info"
+msgstr ""
+"Extremely large compile unit in debug info; failed to reduce debug info"
+
+#: reduced_debug_output.cc:281
+msgid ""
+"Debug info extends beyond .debug_info section;failed to reduce debug info"
+msgstr ""
+"Debug info extends beyond .debug_info section;failed to reduce debug info"
+
+#: reduced_debug_output.cc:301 reduced_debug_output.cc:343
+msgid "Invalid DIE in debug info; failed to reduce debug info"
+msgstr "Invalid DIE in debug info; failed to reduce debug info"
+
+#: reduced_debug_output.cc:324
+msgid ""
+"Debug info extends beyond .debug_info section; failed to reduce debug info"
+msgstr ""
+"Debug info extends beyond .debug_info section; failed to reduce debug info"
+
+#: reloc.cc:317 reloc.cc:945
+#, c-format
+msgid "relocation section %u uses unexpected symbol table %u"
+msgstr "relocation section %u uses unexpected symbol table %u"
+
+#: reloc.cc:335 reloc.cc:962
+#, c-format
+msgid "unexpected entsize for reloc section %u: %lu != %u"
+msgstr "unexpected entsize for reloc section %u: %lu != %u"
+
+#: reloc.cc:344 reloc.cc:971
+#, c-format
+msgid "reloc section %u size %lu uneven"
+msgstr "reloc section %u size %lu uneven"
+
+#: reloc.cc:1371
+#, c-format
+msgid "could not convert call to '%s' to '%s'"
+msgstr "could not convert call to '%s' to '%s'"
+
+#: reloc.cc:1537
+#, c-format
+msgid "reloc section size %zu is not a multiple of reloc size %d\n"
+msgstr "reloc section size %zu is not a multiple of reloc size %d\n"
+
+#. We should only see externally visible symbols in the symbol
+#. table.
+#: resolve.cc:194
+msgid "invalid STB_LOCAL symbol in external symbols"
+msgstr "invalid STB_LOCAL symbol in external symbols"
+
+#. Any target which wants to handle STB_LOOS, etc., needs to
+#. define a resolve method.
+#: resolve.cc:201
+#, c-format
+msgid "unsupported symbol binding %d"
+msgstr "unsupported symbol binding %d"
+
+#: resolve.cc:288
+#, c-format
+msgid "STT_COMMON symbol '%s' in %s is not in a common section"
+msgstr "STT_COMMON symbol '%s' in %s is not in a common section"
+
+#: resolve.cc:443
+#, c-format
+msgid "common of '%s' overriding smaller common"
+msgstr "common of '%s' overriding smaller common"
+
+#: resolve.cc:448
+#, c-format
+msgid "common of '%s' overidden by larger common"
+msgstr "common of '%s' over-ridden by larger common"
+
+#: resolve.cc:453
+#, c-format
+msgid "multiple common of '%s'"
+msgstr "multiple common of '%s'"
+
+#: resolve.cc:492
+#, c-format
+msgid "symbol '%s' used as both __thread and non-__thread"
+msgstr "symbol '%s' used as both __thread and non-__thread"
+
+#: resolve.cc:535
+#, c-format
+msgid "multiple definition of '%s'"
+msgstr "multiple definition of '%s'"
+
+#: resolve.cc:574
+#, c-format
+msgid "definition of '%s' overriding common"
+msgstr "definition of '%s' overriding common"
+
+#: resolve.cc:609
+#, c-format
+msgid "definition of '%s' overriding dynamic common definition"
+msgstr "definition of '%s' overriding dynamic common definition"
+
+#: resolve.cc:785
+#, c-format
+msgid "common '%s' overridden by previous definition"
+msgstr "common '%s' overridden by previous definition"
+
+#: resolve.cc:920
+msgid "COPY reloc"
+msgstr "COPY reloc"
+
+#: resolve.cc:924 resolve.cc:947
+msgid "command line"
+msgstr "command line"
+
+#: resolve.cc:927
+msgid "linker script"
+msgstr "linker script"
+
+#: resolve.cc:931
+msgid "linker defined"
+msgstr "linker defined"
+
+#: s390.cc:1002
+#, c-format
+msgid "R_390_PC32DBL target misaligned at %llx"
+msgstr "R_390_PC32DBL target misaligned at %llx"
+
+#: s390.cc:1094 tilegx.cc:2088 x86_64.cc:1779
+msgid "out of patch space (PLT); relink with --incremental-full"
+msgstr "out of patch space (PLT); relink with --incremental-full"
+
+#: s390.cc:3672 s390.cc:3728 x86_64.cc:5316
+#, c-format
+msgid "unsupported reloc type %u"
+msgstr "unsupported reloc type %u"
+
+#: s390.cc:3801
+msgid "unsupported op for GD to IE"
+msgstr "unsupported op for GD to IE"
+
+#: s390.cc:3850
+msgid "unsupported op for GD to LE"
+msgstr "unsupported op for GD to LE"
+
+#: s390.cc:3896
+msgid "unsupported op for LD to LE"
+msgstr "unsupported op for LD to LE"
+
+#: s390.cc:3984
+msgid "unsupported op for IE to LE"
+msgstr "unsupported op for IE to LE"
+
+#: s390.cc:4262
+msgid "S/390 code fill of odd length requested"
+msgstr "S/390 code fill of odd length requested"
+
+#. Should not happen.
+#: s390.cc:4309
+msgid "instruction with PC32DBL not wholly within section"
+msgstr "instruction with PC32DBL not wholly within section"
+
+#: script-sections.cc:103
+#, c-format
+msgid "address 0x%llx is not within region %s"
+msgstr "address 0x%llx is not within region %s"
+
+#: script-sections.cc:107
+#, c-format
+msgid "address 0x%llx moves dot backwards in region %s"
+msgstr "address 0x%llx moves dot backwards in region %s"
+
+#: script-sections.cc:121
+#, c-format
+msgid "section %s overflows end of region %s"
+msgstr "section %s overflows end of region %s"
+
+#: script-sections.cc:696
+msgid "Attempt to set a memory region for a non-output section"
+msgstr "Attempt to set a memory region for a non-output section"
+
+#: script-sections.cc:1002 script-sections.cc:3786
+msgid "dot may not move backward"
+msgstr "dot may not move backward"
+
+#: script-sections.cc:1069
+msgid "** expression"
+msgstr "** expression"
+
+#: script-sections.cc:1254
+msgid "fill value is not absolute"
+msgstr "fill value is not absolute"
+
+#: script-sections.cc:2506
+#, c-format
+msgid "alignment of section %s is not absolute"
+msgstr "alignment of section %s is not absolute"
+
+#: script-sections.cc:2523
+#, c-format
+msgid "subalign of section %s is not absolute"
+msgstr "subalign of section %s is not absolute"
+
+#: script-sections.cc:2636
+#, c-format
+msgid "fill of section %s is not absolute"
+msgstr "fill of section %s is not absolute"
+
+#: script-sections.cc:2749
+msgid "SPECIAL constraints are not implemented"
+msgstr "SPECIAL constraints are not implemented"
+
+#: script-sections.cc:2791
+msgid "mismatched definition for constrained sections"
+msgstr "mismatched definition for constrained sections"
+
+#: script-sections.cc:3267
+#, c-format
+msgid "region '%.*s' already defined"
+msgstr "region '%.*s' already defined"
+
+#: script-sections.cc:3494
+msgid "DATA_SEGMENT_ALIGN may only appear once in a linker script"
+msgstr "DATA_SEGMENT_ALIGN may only appear once in a linker script"
+
+#: script-sections.cc:3509
+msgid "DATA_SEGMENT_RELRO_END may only appear once in a linker script"
+msgstr "DATA_SEGMENT_RELRO_END may only appear once in a linker script"
+
+#: script-sections.cc:3514
+msgid "DATA_SEGMENT_RELRO_END must follow DATA_SEGMENT_ALIGN"
+msgstr "DATA_SEGMENT_RELRO_END must follow DATA_SEGMENT_ALIGN"
+
+#: script-sections.cc:3610
+#, c-format
+msgid "unplaced orphan section '%s'"
+msgstr "unplaced orphan section '%s'"
+
+#: script-sections.cc:3612
+#, c-format
+msgid "unplaced orphan section '%s' from '%s'"
+msgstr "unplaced orphan section '%s' from '%s'"
+
+#: script-sections.cc:3619
+#, c-format
+msgid "orphan section '%s' is being placed in section '%s'"
+msgstr "orphan section '%s' is being placed in section '%s'"
+
+#: script-sections.cc:3622
+#, c-format
+msgid "orphan section '%s' from '%s' is being placed in section '%s'"
+msgstr "orphan section '%s' from '%s' is being placed in section '%s'"
+
+#: script-sections.cc:3722
+msgid "no matching section constraint"
+msgstr "no matching section constraint"
+
+#: script-sections.cc:4120
+msgid ""
+"creating a segment to contain the file and program headers outside of any "
+"MEMORY region"
+msgstr ""
+"creating a segment to contain the file and program headers outside of any "
+"MEMORY region"
+
+#: script-sections.cc:4169
+msgid "TLS sections are not adjacent"
+msgstr "TLS sections are not adjacent"
+
+#: script-sections.cc:4333
+#, c-format
+msgid "allocated section %s not in any segment"
+msgstr "allocated section %s not in any segment"
+
+#: script-sections.cc:4379
+#, c-format
+msgid "no segment %s"
+msgstr "no segment %s"
+
+#: script-sections.cc:4392
+msgid "section in two PT_LOAD segments"
+msgstr "section in two PT_LOAD segments"
+
+#: script-sections.cc:4399
+msgid "allocated section not in any PT_LOAD segment"
+msgstr "allocated section not in any PT_LOAD segment"
+
+#: script-sections.cc:4428
+msgid "may only specify load address for PT_LOAD segment"
+msgstr "may only specify load address for PT_LOAD segment"
+
+#: script-sections.cc:4454
+#, c-format
+msgid "PHDRS load address overrides section %s load address"
+msgstr "PHDRS load address overrides section %s load address"
+
+#. We could support this if we wanted to.
+#: script-sections.cc:4465
+msgid "using only one of FILEHDR and PHDRS is not currently supported"
+msgstr "using only one of FILEHDR and PHDRS is not currently supported"
+
+#: script-sections.cc:4480
+msgid ""
+"sections loaded on first page without room for file and program headers are "
+"not supported"
+msgstr ""
+"sections loaded on first page without room for file and program headers are "
+"not supported"
+
+#: script-sections.cc:4486
+msgid ""
+"using FILEHDR and PHDRS on more than one PT_LOAD segment is not currently "
+"supported"
+msgstr ""
+"using FILEHDR and PHDRS on more than one PT_LOAD segment is not currently "
+"supported"
+
+#: script.cc:1170
+msgid "invalid use of PROVIDE for dot symbol"
+msgstr "invalid use of PROVIDE for dot symbol"
+
+#: script.cc:1546
+#, c-format
+msgid "%s: SECTIONS seen after other input files; try -T/--script"
+msgstr "%s: SECTIONS seen after other input files; try -T/--script"
+
+#. We have a match for both the global and local entries for a
+#. version tag.  That's got to be wrong.
+#: script.cc:2252
+#, c-format
+msgid ""
+"'%s' appears as both a global and a local symbol for version '%s' in script"
+msgstr ""
+"'%s' appears as both a global and a local symbol for version '%s' in script"
+
+#: script.cc:2279
+#, c-format
+msgid "wildcard match appears in both version '%s' and '%s' in script"
+msgstr "wildcard match appears in both version '%s' and '%s' in script"
+
+#: script.cc:2284
+#, c-format
+msgid ""
+"wildcard match appears as both global and local in version '%s' in script"
+msgstr ""
+"wildcard match appears as both global and local in version '%s' in script"
+
+#: script.cc:2369
+#, c-format
+msgid ""
+"using '%s' as version for '%s' which is also named in version '%s' in script"
+msgstr ""
+"using '%s' as version for '%s' which is also named in version '%s' in script"
+
+#: script.cc:2467
+#, c-format
+msgid ""
+"version script assignment of %s to symbol %s failed: symbol not defined"
+msgstr ""
+"version script assignment of %s to symbol %s failed: symbol not defined"
+
+#: script.cc:2663
+#, c-format
+msgid "%s:%d:%d: %s"
+msgstr "%s:%d:%d: %s"
+
+#: script.cc:2729
+msgid "library name must be prefixed with -l"
+msgstr "library name must be prefixed with -l"
+
+#. There are some options that we could handle here--e.g.,
+#. -lLIBRARY.  Should we bother?
+#: script.cc:2856
+#, c-format
+msgid ""
+"%s:%d:%d: ignoring command OPTION; OPTION is only valid for scripts "
+"specified via -T/--script"
+msgstr ""
+"%s:%d:%d: ignoring command OPTION; OPTION is only valid for scripts "
+"specified via -T/--script"
+
+#: script.cc:2921
+#, c-format
+msgid ""
+"%s:%d:%d: ignoring SEARCH_DIR; SEARCH_DIR is only valid for scripts "
+"specified via -T/--script"
+msgstr ""
+"%s:%d:%d: ignoring SEARCH_DIR; SEARCH_DIR is only valid for scripts "
+"specified via -T/--script"
+
+#: script.cc:2949
+#, c-format
+msgid "%s:%d:%d: invalid use of VERSION in input file"
+msgstr "%s:%d:%d: invalid use of VERSION in input file"
+
+#: script.cc:3065
+#, c-format
+msgid "unrecognized version script language '%s'"
+msgstr "unrecognised version script language '%s'"
+
+#: script.cc:3184 script.cc:3198
+#, c-format
+msgid "%s:%d:%d: DATA_SEGMENT_ALIGN not in SECTIONS clause"
+msgstr "%s:%d:%d: DATA_SEGMENT_ALIGN not in SECTIONS clause"
+
+#: script.cc:3317
+msgid "unknown PHDR type (try integer)"
+msgstr "unknown PHDR type (try integer)"
+
+#: script.cc:3336
+#, c-format
+msgid "%s:%d:%d: MEMORY region '%.*s' referred to outside of SECTIONS clause"
+msgstr ""
+"%s:%d:%d: MEMORY region '%.*s' referred to outside of SECTIONS clause"
+
+#: script.cc:3347
+#, c-format
+msgid "%s:%d:%d: MEMORY region '%.*s' not declared"
+msgstr "%s:%d:%d: MEMORY region '%.*s' not declared"
+
+#: script.cc:3392
+msgid "unknown MEMORY attribute"
+msgstr "unknown MEMORY attribute"
+
+#: script.cc:3423
+#, c-format
+msgid "undefined memory region '%s' referenced in ORIGIN expression"
+msgstr "undefined memory region '%s' referenced in ORIGIN expression"
+
+#: script.cc:3442
+#, c-format
+msgid "undefined memory region '%s' referenced in LENGTH expression"
+msgstr "undefined memory region '%s' referenced in LENGTH expression"
+
+#: sparc.cc:3074
+#, c-format
+msgid "%s: only registers %%g[2367] can be declared using STT_REGISTER"
+msgstr "%s: only registers %%g[2367] can be declared using STT_REGISTER"
+
+#: sparc.cc:3090
+#, c-format
+msgid ""
+"%s: register %%g%d declared as '%s'; previously declared as '%s' in %s"
+msgstr ""
+"%s: register %%g%d declared as '%s'; previously declared as '%s' in %s"
+
+#: sparc.cc:4467
+#, c-format
+msgid "%s: little endian elf flag set on BE object"
+msgstr "%s: little endian elf flag set on BE object"
+
+#: sparc.cc:4470
+#, c-format
+msgid "%s: little endian elf flag clear on LE object"
+msgstr "%s: little endian elf flag clear on LE object"
+
+#: stringpool.cc:513
+#, c-format
+msgid "%s: %s entries: %zu; buckets: %zu\n"
+msgstr "%s: %s entries: %zu; buckets: %zu\n"
+
+#: stringpool.cc:517
+#, c-format
+msgid "%s: %s entries: %zu\n"
+msgstr "%s: %s entries: %zu\n"
+
+#: stringpool.cc:520
+#, c-format
+msgid "%s: %s Stringdata structures: %zu\n"
+msgstr "%s: %s Stringdata structures: %zu\n"
+
+#: symtab.cc:377
+#, c-format
+msgid "Cannot export local symbol '%s'"
+msgstr "Cannot export local symbol '%s'"
+
+#: symtab.cc:948
+#, c-format
+msgid "%s: reference to %s"
+msgstr "%s: reference to %s"
+
+#: symtab.cc:950
+#, c-format
+msgid "%s: definition of %s"
+msgstr "%s: definition of %s"
+
+#: symtab.cc:1060
+#, c-format
+msgid "%s: conflicting default version definition for %s@@%s"
+msgstr "%s: conflicting default version definition for %s@@%s"
+
+#: symtab.cc:1064
+#, c-format
+msgid "%s: %s: previous definition of %s@@%s here"
+msgstr "%s: %s: previous definition of %s@@%s here"
+
+#: symtab.cc:1206
+#, c-format
+msgid "bad global symbol name offset %u at %zu"
+msgstr "bad global symbol name offset %u at %zu"
+
+#: symtab.cc:1473
+msgid "--just-symbols does not make sense with a shared object"
+msgstr "--just-symbols does not make sense with a shared object"
+
+#: symtab.cc:1484
+msgid "too few symbol versions"
+msgstr "too few symbol versions"
+
+#: symtab.cc:1539
+#, c-format
+msgid "bad symbol name offset %u at %zu"
+msgstr "bad symbol name offset %u at %zu"
+
+#: symtab.cc:1602
+#, c-format
+msgid "versym for symbol %zu out of range: %u"
+msgstr "versym for symbol %zu out of range: %u"
+
+#: symtab.cc:1610
+#, c-format
+msgid "versym for symbol %zu has no name: %u"
+msgstr "versym for symbol %zu has no name: %u"
+
+#: symtab.cc:2639
+#, c-format
+msgid ""
+"discarding version information for %s@%s, defined in unused shared library "
+"%s (linked with --as-needed)"
+msgstr ""
+"discarding version information for %s@%s, defined in unused shared library "
+"%s (linked with --as-needed)"
+
+#: symtab.cc:3001 symtab.cc:3147
+#, c-format
+msgid "%s: unsupported symbol section 0x%x"
+msgstr "%s: unsupported symbol section 0x%x"
+
+#: symtab.cc:3479
+#, c-format
+msgid "%s: symbol table entries: %zu; buckets: %zu\n"
+msgstr "%s: symbol table entries: %zu; buckets: %zu\n"
+
+#: symtab.cc:3482
+#, c-format
+msgid "%s: symbol table entries: %zu\n"
+msgstr "%s: symbol table entries: %zu\n"
+
+#: symtab.cc:3639
+#, c-format
+msgid ""
+"while linking %s: symbol '%s' defined in multiple places (possible ODR "
+"violation):"
+msgstr ""
+"while linking %s: symbol '%s' defined in multiple places (possible ODR "
+"violation):"
+
+#. This only prints one location from each definition,
+#. which may not be the location we expect to intersect
+#. with another definition.  We could print the whole
+#. set of locations, but that seems too verbose.
+#: symtab.cc:3646 symtab.cc:3649
+#, c-format
+msgid "  %s from %s\n"
+msgstr "  %s from %s\n"
+
+#: target-reloc.h:155
+msgid "internal"
+msgstr "internal"
+
+#: target-reloc.h:158
+msgid "hidden"
+msgstr "hidden"
+
+#: target-reloc.h:161
+msgid "protected"
+msgstr "protected"
+
+#: target-reloc.h:166
+#, c-format
+msgid "%s symbol '%s' is not defined locally"
+msgstr "%s symbol '%s' is not defined locally"
+
+#: target-reloc.h:242
+#, c-format
+msgid ""
+"relocation refers to local symbol \"%s\" [%u], which is defined in a "
+"discarded section"
+msgstr ""
+"relocation refers to local symbol \"%s\" [%u], which is defined in a "
+"discarded section"
+
+#: target-reloc.h:250
+#, c-format
+msgid ""
+"relocation refers to global symbol \"%s\", which is defined in a discarded "
+"section"
+msgstr ""
+"relocation refers to global symbol \"%s\", which is defined in a discarded "
+"section"
+
+#: target-reloc.h:265
+#, c-format
+msgid "  section group signature: \"%s\""
+msgstr "  section group signature: \"%s\""
+
+#: target-reloc.h:268
+#, c-format
+msgid "  prevailing definition is from %s"
+msgstr "  prevailing definition is from %s"
+
+#: target-reloc.h:455
+#, c-format
+msgid "reloc has bad offset %zu"
+msgstr "reloc has bad offset %zu"
+
+#: target.cc:172
+#, c-format
+msgid "linker does not include stack split support required by %s"
+msgstr "linker does not include stack split support required by %s"
+
+#: tilegx.cc:2738 x86_64.cc:3141
+msgid "TLS_DESC not yet supported for incremental linking"
+msgstr "TLS_DESC not yet supported for incremental linking"
+
+#: tilegx.cc:2793
+msgid "TLS_DESC not yet supported for TILEGX"
+msgstr "TLS_DESC not yet supported for TILEGX"
+
+#: tilegx.cc:3202 x86_64.cc:3529
+#, c-format
+msgid "requires unsupported dynamic reloc %u; recompile with -fPIC"
+msgstr "requires unsupported dynamic reloc %u; recompile with -fPIC"
+
+#: tls.h:59
+msgid "TLS relocation out of range"
+msgstr "TLS relocation out of range"
+
+#: tls.h:73
+msgid "TLS relocation against invalid instruction"
+msgstr "TLS relocation against invalid instruction"
+
+#. This output is intended to follow the GNU standards.
+#: version.cc:65
+#, c-format
+msgid "Copyright (C) 2020 Free Software Foundation, Inc.\n"
+msgstr "Copyright (C) 2020 Free Software Foundation, Inc.\n"
+
+#: version.cc:66
+#, c-format
+msgid ""
+"This program is free software; you may redistribute it under the terms of\n"
+"the GNU General Public License version 3 or (at your option) a later "
+"version.\n"
+"This program has absolutely no warranty.\n"
+msgstr ""
+"This program is free software; you may redistribute it under the terms of\n"
+"the GNU General Public Licence version 3 or (at your option) a later "
+"version.\n"
+"This program has absolutely no warranty.\n"
+
+#: workqueue-threads.cc:106
+#, c-format
+msgid "%s failed: %s"
+msgstr "%s failed: %s"
+
+#: x86_64.cc:1602
+#, c-format
+msgid ""
+"%s: corrupt .note.gnu.property section (pr_datasz for property %d is not 4)"
+msgstr ""
+"%s: corrupt .note.gnu.property section (pr_datasz for property %d is not 4)"
+
+#: x86_64.cc:1610
+#, c-format
+msgid "%s: unknown program property type 0x%x in .note.gnu.property section"
+msgstr "%s: unknown program property type 0x%x in .note.gnu.property section"
+
+#: x86_64.cc:2012
+#, c-format
+msgid "PC-relative offset overflow in PLT entry %d"
+msgstr "PC-relative offset overflow in PLT entry %d"
+
+#: x86_64.cc:2199 x86_64.cc:2438
+#, c-format
+msgid "PC-relative offset overflow in APLT entry %d"
+msgstr "PC-relative offset overflow in APLT entry %d"
+
+#: x86_64.cc:3494
+msgid ""
+"requires dynamic R_X86_64_32 reloc which may overflow at runtime; recompile "
+"with -fPIC"
+msgstr ""
+"requires dynamic R_X86_64_32 reloc which may overflow at runtime; recompile "
+"with -fPIC"
+
+#: x86_64.cc:3514
+#, c-format
+msgid ""
+"requires dynamic %s reloc against '%s' which may overflow at runtime; "
+"recompile with -fPIC"
+msgstr ""
+"requires dynamic %s reloc against '%s' which may overflow at runtime; "
+"recompile with -fPIC"
+
+#: x86_64.cc:5007
+#, c-format
+msgid "relocation overflow: reference to local symbol %u in %s"
+msgstr "relocation overflow: reference to local symbol %u in %s"
+
+#: x86_64.cc:5014
+#, c-format
+msgid "relocation overflow: reference to '%s' defined in %s"
+msgstr "relocation overflow: reference to '%s' defined in %s"
+
+#: x86_64.cc:5022
+#, c-format
+msgid "relocation overflow: reference to '%s'"
+msgstr "relocation overflow: reference to '%s'"

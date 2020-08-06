@@ -1,0 +1,257 @@
+# English (United Kingdom) translation for usb-creator
+# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
+# This file is distributed under the same license as the usb-creator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: usb-creator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-07-16 14:03+0000\n"
+"PO-Revision-Date: 2015-12-20 21:31+0000\n"
+"Last-Translator: Andi Chandler <Unknown>\n"
+"Language-Team: English (United Kingdom) <en_GB@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2019-09-14 12:53+0000\n"
+"X-Generator: Launchpad (build 19048)\n"
+
+#: .././gui/usbcreator-gtk.ui.h:1
+msgid "Installation Failed"
+msgstr "Installation Failed"
+
+#: .././gui/usbcreator-gtk.ui.h:2
+msgid ""
+"The installation failed.  Please see ~/.cache/usb-creator.log for more "
+"details.\n"
+msgstr ""
+"The installation failed.  Please see ~/.cache/usb-creator.log for more "
+"details.\n"
+
+#: .././gui/usbcreator-gtk.ui.h:4
+msgid "Installation Complete"
+msgstr "Installation Complete"
+
+#: .././gui/usbcreator-gtk.ui.h:5
+msgid "Test Disk"
+msgstr "Test Disk"
+
+#: .././gui/usbcreator-gtk.ui.h:6
+msgid ""
+"Installation is complete.  You may now run Ubuntu on other computers by "
+"booting them with this drive inserted."
+msgstr ""
+"Installation is complete.  You may now run Ubuntu on other computers by "
+"booting them with this drive inserted."
+
+#. #-#-#-#-#  usbcreator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. set title of progress window (same as gtk frontend)
+#: .././gui/usbcreator-gtk.ui.h:7 .././usbcreator/frontends/kde/frontend.py:429
+#: usbcreator/frontends/kde/frontend.py:429
+msgid "Installing"
+msgstr "Installing"
+
+#: .././gui/usbcreator-gtk.ui.h:8 .././usbcreator/frontends/kde/frontend.py:505
+#: usbcreator/frontends/kde/frontend.py:505
+msgid "Quit the installation?"
+msgstr "Quit the installation?"
+
+#: .././gui/usbcreator-gtk.ui.h:9 .././usbcreator/frontends/kde/frontend.py:506
+#: usbcreator/frontends/kde/frontend.py:506
+msgid "Do you really want to quit the installation now?"
+msgstr "Do you really want to quit the installation now?"
+
+#: .././gui/usbcreator-gtk.ui.h:10
+msgid "Make Startup Disk"
+msgstr "Make Startup Disk"
+
+#: .././gui/usbcreator-gtk.ui.h:11
+msgid ""
+"To try or install Ubuntu from a removable disk, it needs to be set up as a "
+"startup disk."
+msgstr ""
+"To try or install Ubuntu from a removable disk, it needs to be set up as a "
+"start-up disk."
+
+#: .././gui/usbcreator-gtk.ui.h:12
+msgid "Source disc image (.iso):"
+msgstr "Source disc image (.iso):"
+
+#: .././gui/usbcreator-gtk.ui.h:13
+msgid "Other..."
+msgstr "Other…"
+
+#: .././gui/usbcreator-gtk.ui.h:14
+msgid "Disk to use:"
+msgstr "Disk to use:"
+
+#: .././gui/usbcreator-gtk.ui.h:15
+msgid "Erase Disk"
+msgstr "Erase Disk"
+
+#: .././desktop/usb-creator-kde.desktop.in.h:1
+#: .././desktop/usb-creator-gtk.desktop.in.h:1
+msgid "Startup Disk Creator"
+msgstr "Startup Disk Creator"
+
+#: .././desktop/usb-creator-kde.desktop.in.h:2
+#: .././desktop/usb-creator-gtk.desktop.in.h:2
+msgid "Create a startup disk using a CD or disc image"
+msgstr "Create a startup disk using a CD or disc image"
+
+#: .././dbus/com.ubuntu.usbcreator.policy.in.h:1
+msgid "Image the device"
+msgstr "Write the image to the device"
+
+#: .././dbus/com.ubuntu.usbcreator.policy.in.h:2
+msgid "System policy prevents writing a disk image to this device"
+msgstr "System policy prevents you from writing a disk image to this device"
+
+#: .././dbus/com.ubuntu.usbcreator.policy.in.h:3
+msgid "Run KVM"
+msgstr "Run KVM"
+
+#: .././dbus/com.ubuntu.usbcreator.policy.in.h:4
+msgid "System policy prevents running KVM"
+msgstr "System policy prevents running KVM"
+
+#: .././usbcreator/frontends/kde/frontend.py:200
+#: .././usbcreator/frontends/gtk/frontend.py:648
+#: usbcreator/frontends/kde/frontend.py:200
+msgid "Installation failed."
+msgstr "Installation failed."
+
+#: .././usbcreator/frontends/kde/frontend.py:355
+#: .././usbcreator/frontends/gtk/frontend.py:423
+#: usbcreator/frontends/kde/frontend.py:355
+msgid "The device is not large enough to hold this image."
+msgstr "The device is not large enough to hold this image."
+
+#. #-#-#-#-#  usbcreator.pot (PACKAGE VERSION)  #-#-#-#-#
+#. This here filter is for kfiledialog, no clue if it will ever make a return
+#. filter = '*.iso|' + _('CD Images') + '\n*.img|' + _('Disk Images')
+#: .././usbcreator/frontends/kde/frontend.py:387
+#: .././usbcreator/frontends/gtk/frontend.py:541
+#: usbcreator/frontends/kde/frontend.py:387
+msgid "CD Images"
+msgstr "CD Images"
+
+#: .././usbcreator/frontends/kde/frontend.py:387
+#: .././usbcreator/frontends/gtk/frontend.py:542
+#: usbcreator/frontends/kde/frontend.py:387
+msgid "Disk Images"
+msgstr "Disk Images"
+
+#: .././usbcreator/frontends/kde/frontend.py:417
+#: .././usbcreator/frontends/gtk/frontend.py:570
+#: usbcreator/frontends/kde/frontend.py:417
+msgid "Are you sure you want to write the disc image to the device?"
+msgstr "Are you sure you want to write the disc image to the device?"
+
+#: .././usbcreator/frontends/kde/frontend.py:418
+#: .././usbcreator/frontends/gtk/frontend.py:571
+#: usbcreator/frontends/kde/frontend.py:418
+msgid "All existing data will be lost."
+msgstr "All existing data will be lost."
+
+#: .././usbcreator/frontends/kde/frontend.py:427
+#: usbcreator/frontends/kde/frontend.py:427
+msgid "Cancel"
+msgstr "Cancel"
+
+#: .././usbcreator/frontends/kde/frontend.py:438
+#: usbcreator/frontends/kde/frontend.py:438
+msgid "Starting up"
+msgstr "Starting up"
+
+#: .././usbcreator/frontends/kde/frontend.py:447
+#: usbcreator/frontends/kde/frontend.py:447
+msgid "You must select both source image and target device first."
+msgstr "You must select both source image and target device first."
+
+#: .././usbcreator/frontends/kde/frontend.py:458
+#: .././usbcreator/frontends/gtk/frontend.py:604
+#: usbcreator/frontends/kde/frontend.py:458
+msgid "Finishing..."
+msgstr "Finishing..."
+
+#: .././usbcreator/frontends/kde/frontend.py:477
+#: usbcreator/frontends/kde/frontend.py:477
+msgid ""
+"The installation is complete.  You may now reboot your computer with this "
+"device inserted to try or install Ubuntu."
+msgstr ""
+"The installation is complete.  You may now reboot your computer with this "
+"device inserted to try or install Ubuntu."
+
+#: .././usbcreator/frontends/kde/frontend.py:489
+#: usbcreator/frontends/kde/frontend.py:489
+msgid "Retry?"
+msgstr "Retry?"
+
+#: .././usbcreator/frontends/gtk/frontend.py:335
+msgid "CD-Drive/Image"
+msgstr "CD-Drive/Image"
+
+#: .././usbcreator/frontends/gtk/frontend.py:348
+msgid "OS Version"
+msgstr "OS Version"
+
+#: .././usbcreator/frontends/gtk/frontend.py:358
+msgid "Size"
+msgstr "Size"
+
+#: .././usbcreator/frontends/gtk/frontend.py:493
+msgid "Device"
+msgstr "Device"
+
+#: .././usbcreator/frontends/gtk/frontend.py:509
+msgid "Label"
+msgstr "Label"
+
+#: .././usbcreator/frontends/gtk/frontend.py:519
+msgid "Capacity"
+msgstr "Capacity"
+
+#: .././usbcreator/frontends/gtk/frontend.py:577
+msgid "Starting up..."
+msgstr "Starting up..."
+
+#: .././usbcreator/frontends/gtk/frontend.py:602
+#, python-format
+msgid "%d%% complete"
+msgstr "%d%% complete"
+
+#: .././usbcreator/install.py:92
+#, python-format
+msgid "The extension \"%s\" is not supported."
+msgstr "The extension \"%s\" is not supported."
+
+#: .././usbcreator/install.py:101
+#, python-format
+msgid ""
+"An uncaught exception was raised:\n"
+"%s"
+msgstr ""
+"An uncaught exception was raised:\n"
+"%s"
+
+#: .././usbcreator/install.py:105
+msgid "Writing disk image..."
+msgstr "Writing disk image..."
+
+#: .././usbcreator/install.py:106
+#, python-format
+msgid ""
+"Could not write the disk image (%(source)s) to the device (%(device)s)."
+msgstr ""
+"Could not write the disc image (%(source)s) to the device (%(device)s)."
+
+#: .././bin/usb-creator-kde:64
+msgid "provide a source image to pre-populate the UI."
+msgstr "provide a source image to pre-populate the UI."
+
+#: .././bin/usb-creator-kde:69
+msgid "allow writing to system-internal devices"
+msgstr "allow writing to system-internal devices"
